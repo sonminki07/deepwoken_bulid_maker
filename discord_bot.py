@@ -3,6 +3,7 @@ import re
 import sys
 import time
 import json
+import socket
 import logging
 import asyncio
 import subprocess
@@ -20,6 +21,18 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 logger = logging.getLogger(__name__)
 
 PROJECT_DIR = Path(__file__).resolve().parent
+
+# 단일 인스턴스 보장 (중복 실행 방지 락)
+_instance_socket = None
+def ensure_single_instance(port: int = 49281):
+    global _instance_socket
+    try:
+        _instance_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        _instance_socket.bind(('127.0.0.1', port))
+        _instance_socket.listen(1)
+    except socket.error:
+        print(f"⚠️ 이미 다른 디스코드 봇 인스턴스가 실행 중입니다. 중복 실행을 방지하기 위해 종료합니다.")
+        sys.exit(0)
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -81,7 +94,6 @@ def translate_to_korean_text(text: Any, default_text: str = "") -> str:
         return default_text
     t_str = str(text) if not isinstance(text, list) else ", ".join([str(i) for i in text])
     
-    # 대표적인 영문 표현 한국어 변환 맵
     replacements = {
         "High health regeneration and lifesteal": "높은 체력 재생력 및 피흡(Lifesteal) 유지력",
         "Excellent mobility and air control": "우수한 기동력 및 공중 제어력",
@@ -97,6 +109,19 @@ def translate_to_korean_text(text: Any, default_text: str = "") -> str:
     for en, ko in replacements.items():
         t_str = t_str.replace(en, ko)
     return t_str
+
+def format_error_message(e: Exception) -> str:
+    """에러 메시지를 사용자가 알아보기 쉬운 친절한 한국어로 변환"""
+    err = str(e).lower()
+    if "video is unavailable" in err or "private video" in err or "this video is unavailable" in err:
+        return "⚠️ 해당 유튜브 영상이 비공개로 전환되었거나 삭제된 영상입니다."
+    if "sign in to confirm you're not a bot" in err:
+        return "⚠️ 유튜브 서버 일시 차단 감지 (잠시 후 다시 시도해 주세요)."
+    if "404" in err or "not found" in err:
+        return "⚠️ 해당 링크의 웹페이지를 찾을 수 없습니다 (404 Not Found)."
+    if "403" in err or "forbidden" in err:
+        return "⚠️ 해당 웹사이트의 접근이 제한되어 있습니다 (403 Forbidden)."
+    return f"오류 발생: `{e}`"
 
 def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
     """수치, 스탯, 탤런트, 장비, 아웃핏, 육성법이 모두 포함된 고밀도 한국어 Discord 보고서 Embed 생성"""
@@ -191,11 +216,11 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
         m_names = [f"`{m.get('name')}`" if isinstance(m, dict) else f"`{m}`" for m in mantras]
         embed.add_field(name="🔮 6. 주요 만트라 (Mantras)", value=" • ".join(m_names[:8]), inline=False)
 
-    # 🎯 만트라 바로 밑에 [주요 타겟 몹 / 보스 사냥법] 배치!
+    # 🎯 만트라 바로 밑에 [주요 타겟 몹 / 보스 사냥법] 배치
     target_mobs_text = (
         "• **Layer 2 (Chaser / Scion of Ethiron)**: 중무기 가드브레이크 후 과다출혈/스킬 난사로 퍼센트 고정폭발 유도\n"
         "• **Duke of Erisia & Maestro**: Starkindred 공중 날개 기동으로 장판 회피 후 블러드렌드 스킬로 안정적 피흡 유지\n"
-        "• **일반 심해 몹 (Squibbo / Enforcer)**: 크리티컬 패링 유도 후 연속 만트라 연계로 즉사급 딜링"
+        "• **심해 몹 (Squibbo / Enforcer)**: 크리티컬 패링 유도 후 연속 만트라 연계로 즉사급 딜링"
     )
     embed.add_field(name="🎯 7. 주요 타겟 몹 / 보스 사냥 가이드", value=target_mobs_text, inline=False)
 
@@ -323,7 +348,8 @@ async def on_message(message: discord.Message):
 
             except Exception as e:
                 logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
-                await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}` 분석 중 오류가 발생했습니다: `{e}`")
+                err_msg = format_error_message(e)
+                await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}`\n{err_msg}")
                 try:
                     await message.remove_reaction("⏳", bot.user)
                     await message.add_reaction("❌")
@@ -362,6 +388,7 @@ async def on_message(message: discord.Message):
     await bot.process_commands(message)
 
 def main():
+    ensure_single_instance(49281)
     token = os.getenv("DISCORD_BOT_TOKEN")
     if not token:
         print("ERROR: DISCORD_BOT_TOKEN is not set.")

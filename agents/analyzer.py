@@ -101,14 +101,15 @@ class BuildAnalyzer:
             if progress_callback:
                 progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 스탯/탤런트/콤보 추출 중...")
             logger.info(f"Invoking Gemini models for build extraction...")
-            models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
+            from agents.key_manager import global_key_manager
+            
             last_error = None
-
-            for m_name in dict.fromkeys(models_to_try):
-                for attempt in range(1, max_retries + 1):
+            for attempt in range(1, 6):
+                client = global_key_manager.get_client()
+                for m_name in ["gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]:
                     try:
-                        logger.info(f"Sending video to model {m_name} (Attempt {attempt})...")
-                        response = self.client.models.generate_content(
+                        logger.info(f"Sending video to model {m_name} with client key (Attempt {attempt})...")
+                        response = client.models.generate_content(
                             model=m_name,
                             contents=[active_file, context_prompt],
                             config=types.GenerateContentConfig(
@@ -139,11 +140,14 @@ class BuildAnalyzer:
                             
                         return parsed_json
                     except Exception as e:
+                        err_str = str(e).lower()
+                        logger.warning(f"Model {m_name} failed on attempt {attempt}: {e}")
+                        if "429" in err_str or "quota" in err_str or "exhausted" in err_str:
+                            global_key_manager.rotate_key(reason="Video 429 Quota Exceeded")
+                            break
                         last_error = e
-                        logger.warning(f"Analysis with {m_name} attempt {attempt}/{max_retries} failed: {e}")
-                        time.sleep(2)
 
-            raise RuntimeError(f"All model attempts failed. Last error: {last_error}")
+            raise RuntimeError(f"All Gemini models and API keys failed for video analysis: {last_error}")
 
         finally:
             if self.cleanup_remote_file and 'remote_file' in locals():
