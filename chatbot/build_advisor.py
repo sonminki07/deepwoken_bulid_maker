@@ -72,11 +72,24 @@ class BuildAdvisor:
         prompt = (
             f"[사용자 질문]\n{user_query}\n\n"
             f"[참고 빌드 지식 (RAG 검색 결과)]\n{context_text}\n\n"
-            f"위 참고 빌드 지식을 바탕으로 사용자에게 최적의 빌드 추천 및 가이드를 친절하고 전문적으로 제공하세요."
+            f"위 참고 빌드 지식을 바탕으로 사용자에게 최적의 빌드 추천 및 가이드를 친절하고 전문적인 마크다운 형식으로 제공하세요."
         )
 
-        response = self.chat_session.send_message(prompt)
-        return response.text
+        models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
+        for m_name in dict.fromkeys(models_to_try):
+            try:
+                m = genai.GenerativeModel(m_name, system_instruction=ADVISOR_SYSTEM_PROMPT)
+                res = m.generate_content(prompt)
+                return res.text
+            except Exception as e:
+                logger.warning(f"Advisor model {m_name} failed: {e}")
+
+        return "⚠️ 답변 생성 중 오류가 발생했습니다. API 키를 확인해 주세요."
+
+    def answer_query(self, user_query: str) -> str:
+        return self.ask(user_query)
+
+DeepwokenBuildAdvisor = BuildAdvisor
 
     def interactive_cli(self):
         """터미널 대화형 인터페이스 실행"""

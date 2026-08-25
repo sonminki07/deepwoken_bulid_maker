@@ -46,7 +46,7 @@ BUILD_PARSER_PROMPT = """당신은 Deepwoken 인게임 메커니즘 분석 전�
 class BuildParserSubAgent:
     """Agent 2: 웹 콘텐츠로부터 스탯, 스킬, 장비, 탤런트 메커니즘을 추출하는 서브 에이전트"""
 
-    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-2.5-flash-lite"):
+    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-flash-latest"):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
@@ -63,7 +63,7 @@ class BuildParserSubAgent:
             f"=== Page Text Content ===\n{scraped.cleaned_text[:30000]}\n"
         )
 
-        models_to_try = [self.model_name, "gemini-2.5-flash-lite", "gemini-flash-latest", "gemini-2.5-pro"]
+        models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
         last_err = None
         for m_name in dict.fromkeys(models_to_try):
             try:

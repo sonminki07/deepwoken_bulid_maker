@@ -42,53 +42,59 @@ class DeepwokenAnalyzerGUI:
         sub_lbl.pack(anchor="w", pady=(2, 0))
 
         # 입력 프레임
-        input_frame = tk.Frame(self.root, bg="#1e293b", bd=1, relief=tk.SOLID, padx=15, pady=15)
-        input_frame.pack(fill=tk.X, padx=20, pady=10)
+        input_frame = tk.Frame(self.root, bg="#1e293b", bd=1, relief=tk.SOLID, padx=15, pady=12)
+        input_frame.pack(fill=tk.X, padx=20, pady=8)
 
-        url_label = tk.Label(input_frame, text="🔗 분석할 URL (유튜브 또는 웹페이지):", bg="#1e293b", fg="#38bdf8", font=("Malgun Gothic", 10, "bold"))
+        url_label = tk.Label(
+            input_frame, 
+            text="🔗 분석할 URL (유튜브, 구글 닥스, 웹 링크를 1개 또는 여러 줄로 붙여넣으세요):", 
+            bg="#1e293b", fg="#38bdf8", font=("Malgun Gothic", 10, "bold")
+        )
         url_label.pack(anchor="w")
 
-        self.url_var = tk.StringVar()
-        self.url_entry = tk.Entry(input_frame, textvariable=self.url_var, font=("Consolas", 11), bg="#0f172a", fg="#f8fafc", insertbackground="white", bd=1, relief=tk.SOLID)
-        self.url_entry.pack(fill=tk.X, pady=(6, 10), ipady=5)
-        self.url_entry.bind("<Return>", lambda event: self.start_analysis())
+        self.url_text = scrolledtext.ScrolledText(
+            input_frame, height=4, font=("Consolas", 10), 
+            bg="#0f172a", fg="#f8fafc", insertbackground="white", bd=1, relief=tk.SOLID
+        )
+        self.url_text.pack(fill=tk.X, pady=(6, 10))
+        self.url_text.insert(tk.END, "https://www.youtube.com/watch?v=wL96bVek6Cg")
 
         # 버튼 그리드
         btn_grid = tk.Frame(input_frame, bg="#1e293b")
         btn_grid.pack(fill=tk.X)
 
         self.analyze_btn = tk.Button(
-            btn_grid, text="🚀 빌드 분석 (단일)", command=self.start_analysis,
+            btn_grid, text="🚀 빌드 자동 분석 시작 (Analyze)", command=self.start_analysis,
             bg="#2563eb", fg="white", activebackground="#1d4ed8", activeforeground="white",
-            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=6, cursor="hand2"
+            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=15, pady=7, cursor="hand2"
         )
-        self.analyze_btn.pack(side=tk.LEFT, padx=(0, 8))
-
-        self.queue_btn = tk.Button(
-            btn_grid, text="📋 일괄 예약/대기열 (Queue)", command=self.open_queue_dialog,
-            bg="#d97706", fg="white", activebackground="#b45309", activeforeground="white",
-            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=6, cursor="hand2"
-        )
-        self.queue_btn.pack(side=tk.LEFT, padx=(0, 8))
+        self.analyze_btn.pack(side=tk.LEFT, padx=(0, 10))
 
         self.chat_btn = tk.Button(
             btn_grid, text="💬 AI 챗봇", command=self.open_chat_terminal,
             bg="#059669", fg="white", activebackground="#047857", activeforeground="white",
-            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=10, pady=6, cursor="hand2"
+            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=7, cursor="hand2"
         )
         self.chat_btn.pack(side=tk.LEFT, padx=(0, 8))
 
         self.view_btn = tk.Button(
-            btn_grid, text="🌐 웹 뷰어", command=self.open_web_viewer,
+            btn_grid, text="🌐 웹 뷰어로 보기", command=self.open_web_viewer,
             bg="#7c3aed", fg="white", activebackground="#6d28d9", activeforeground="white",
-            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=10, pady=6, cursor="hand2"
+            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=7, cursor="hand2"
         )
         self.view_btn.pack(side=tk.LEFT, padx=(0, 8))
+
+        self.sync_btn = tk.Button(
+            btn_grid, text="☁️ 클라우드 동기화", command=self.sync_cloud,
+            bg="#0284c7", fg="white", activebackground="#0369a1", activeforeground="white",
+            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=7, cursor="hand2"
+        )
+        self.sync_btn.pack(side=tk.LEFT, padx=(0, 8))
 
         self.wiki_btn = tk.Button(
             btn_grid, text="📚 위키 DB 갱신", command=self.sync_wiki,
             bg="#475569", fg="white", activebackground="#334155", activeforeground="white",
-            font=("Malgun Gothic", 10), relief=tk.FLAT, padx=8, pady=6, cursor="hand2"
+            font=("Malgun Gothic", 10), relief=tk.FLAT, padx=10, pady=7, cursor="hand2"
         )
         self.wiki_btn.pack(side=tk.RIGHT)
 
@@ -118,17 +124,49 @@ class DeepwokenAnalyzerGUI:
         self.log_text.see(tk.END)
 
     def start_analysis(self):
-        url = self.url_var.get().strip()
-        if not url:
-            messagebox.showwarning("입력 확인", "분석할 유튜브 또는 웹 URL을 입력해 주세요.")
+        raw_text = self.url_text.get(1.0, tk.END).strip()
+        if not raw_text:
+            messagebox.showwarning("입력 확인", "분석할 유튜브 영상 또는 웹 가이드 링크를 입력해 주세요.")
+            return
+
+        urls = [line.strip() for line in raw_text.splitlines() if line.strip() and not line.strip().startswith("#")]
+        if not urls:
+            messagebox.showwarning("입력 확인", "유효한 링크가 없습니다.")
             return
 
         self.analyze_btn.config(state=tk.DISABLED, text="⏳ 분석 진행 중...")
         self.log_text.delete(1.0, tk.END)
-        self.log(f"🚀 분석 시작: {url}\n" + "="*60)
+        
+        if len(urls) == 1:
+            self.log(f"🚀 단일 링크 분석 시작: {urls[0]}\n" + "="*60)
+            threading.Thread(target=self._run_analysis_thread, args=(urls[0],), daemon=True).start()
+        else:
+            self.log(f"🚀 총 {len(urls)}개의 링크 일괄 분석 시작...\n" + "="*60)
+            from agents.queue_manager import QueueManager
+            qm = QueueManager()
+            qm.add_urls(urls)
+            threading.Thread(target=self._run_queue_thread, args=(len(urls),), daemon=True).start()
 
-        # 백그라운드 스레드에서 실행
-        threading.Thread(target=self._run_analysis_thread, args=(url,), daemon=True).start()
+    def _run_queue_thread(self, total_count: int):
+        cmd = [sys.executable, "main.py", "queue"]
+        try:
+            process = subprocess.Popen(
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+            )
+            for line in iter(process.stdout.readline, ''):
+                if line:
+                    self.root.after(0, self.log, line.rstrip())
+            process.stdout.close()
+            process.wait()
+            if process.returncode == 0:
+                self.root.after(0, self.log, "\n" + "="*60 + f"\n🎉 [성공] 총 {total_count}개 빌드의 자동 분석 및 지식 베이스 등록이 모두 완료되었습니다!")
+                self.root.after(0, self._on_analysis_success, "")
+            else:
+                self.root.after(0, self.log, f"\n⚠️ [완료/확인 필요] 프로세스 종료 코드: {process.returncode}")
+        except Exception as e:
+            self.root.after(0, self.log, f"\n❌ [예외 발생] {e}")
+        finally:
+            self.root.after(0, lambda: self.analyze_btn.config(state=tk.NORMAL, text="🚀 빌드 자동 분석 시작 (Analyze)"))
 
     def _run_analysis_thread(self, url: str):
         is_youtube = "youtube.com" in url.lower() or "youtu.be" in url.lower()
@@ -155,7 +193,7 @@ class DeepwokenAnalyzerGUI:
         except Exception as e:
             self.root.after(0, self.log, f"\n❌ [예외 발생] {e}")
         finally:
-            self.root.after(0, lambda: self.analyze_btn.config(state=tk.NORMAL, text="🚀 빌드 분석 시작 (Analyze)"))
+            self.root.after(0, lambda: self.analyze_btn.config(state=tk.NORMAL, text="🚀 빌드 자동 분석 시작 (Analyze)"))
 
     def _on_analysis_success(self, url: str):
         self.copy_json_btn.config(state=tk.NORMAL)
@@ -236,6 +274,25 @@ location.reload();
         tk.Button(btn_box, text="➕ 대기열에 예약 추가", command=add_to_queue, bg="#2563eb", fg="white", font=("Malgun Gothic", 10, "bold"), padx=10, pady=5, relief=tk.FLAT, cursor="hand2").pack(side=tk.LEFT, padx=(0, 10))
         tk.Button(btn_box, text="⚡ 지금 전체 순차 실행", command=run_queue_now, bg="#059669", fg="white", font=("Malgun Gothic", 10, "bold"), padx=10, pady=5, relief=tk.FLAT, cursor="hand2").pack(side=tk.LEFT)
         tk.Button(btn_box, text="닫기", command=dialog.destroy, bg="#475569", fg="white", font=("Malgun Gothic", 10), padx=10, pady=5, relief=tk.FLAT, cursor="hand2").pack(side=tk.RIGHT)
+
+    def sync_cloud(self):
+        """클라우드에서 분석된 모든 최신 빌드를 0.5초 만에 자동 동기화"""
+        self.log("\n☁️ [클라우드 동기화] GitHub에서 최신 분석 데이터 가져오는 중...")
+        threading.Thread(target=self._run_git_pull_thread, daemon=True).start()
+
+    def _run_git_pull_thread(self):
+        try:
+            p = subprocess.Popen(["git", "pull", "origin", "main"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace")
+            for line in iter(p.stdout.readline, ''):
+                if line:
+                    self.root.after(0, self.log, line.rstrip())
+            p.stdout.close()
+            p.wait()
+            self.root.after(0, self.log, "\n🎉 [완료] 클라우드의 모든 최신 빌드가 내 컴퓨터로 100% 동기화되었습니다!")
+            # 최신 분석 파일 버튼 활성화
+            self.root.after(0, self._on_analysis_success, "")
+        except Exception as e:
+            self.root.after(0, self.log, f"\n❌ 동기화 오류: {e}")
 
     def sync_wiki(self):
         """위키 전수 수집 백그라운드 실행"""

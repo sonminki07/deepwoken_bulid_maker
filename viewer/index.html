@@ -3,807 +3,381 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Deepwoken Build Viewer</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800;900&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <title>Deepwoken AI Build Assistant & Hub</title>
+  <!-- Tailwind CSS & Marked.js for Markdown Rendering -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
-    :root {
-      --bg-main: #0a0d14;
-      --bg-card: #121824;
-      --bg-card-alt: #182232;
-      --border-color: #26354a;
-      --border-glow: #3d567a;
-      --gold-primary: #e5a93b;
-      --gold-light: #fbd38d;
-      --text-main: #e2e8f0;
-      --text-muted: #8c9cb0;
-      --crimson: #e53e3e;
-      --cyan: #0bc5ea;
-      --purple: #9f7aea;
-      --green: #38a169;
-      --amber: #dd6b20;
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: radial-gradient(circle at 50% 0%, #151d2d 0%, var(--bg-main) 70%);
-      color: var(--text-main);
-      font-family: 'Noto Sans KR', sans-serif;
-      min-height: 100vh;
-      padding-bottom: 50px;
-    }
-
-    /* Top Navigation Bar */
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 16px 32px;
-      background: rgba(10, 13, 20, 0.85);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brand-icon {
-      font-size: 24px;
-    }
-
-    .brand-title {
-      font-family: 'Cinzel', serif;
-      font-size: 20px;
-      font-weight: 800;
-      letter-spacing: 1.5px;
-      background: linear-gradient(135deg, #fff 0%, var(--gold-primary) 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .nav-actions {
-      display: flex;
-      gap: 12px;
-    }
-
-    .btn {
-      padding: 8px 16px;
-      border-radius: 6px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      transition: all 0.2s ease;
-      border: 1px solid transparent;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, #d69e2e, #b7791f);
-      color: #000;
-      box-shadow: 0 0 15px rgba(214, 158, 46, 0.3);
-    }
-    .btn-primary:hover {
-      background: linear-gradient(135deg, #ecc94b, #d69e2e);
-      transform: translateY(-1px);
-    }
-
-    .btn-secondary {
-      background: var(--bg-card-alt);
-      color: var(--text-main);
-      border-color: var(--border-color);
-    }
-    .btn-secondary:hover {
-      background: #233147;
-      border-color: var(--gold-primary);
-    }
-
-    /* Container */
-    .container {
-      max-width: 1280px;
-      margin: 24px auto;
-      padding: 0 20px;
-    }
-
-    /* Hero Header Banner */
-    .build-header-card {
-      background: linear-gradient(180deg, rgba(24, 34, 50, 0.9) 0%, rgba(18, 24, 36, 0.95) 100%);
-      border: 1px solid var(--border-color);
-      border-radius: 12px;
-      padding: 24px 28px;
-      margin-bottom: 24px;
-      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .build-header-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--crimson), var(--gold-primary), var(--cyan));
-    }
-
-    .build-title-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 12px;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-
-    .build-title {
-      font-family: 'Cinzel', serif;
-      font-size: 26px;
-      font-weight: 800;
-      color: #fff;
-      text-shadow: 0 2px 10px rgba(0,0,0,0.8);
-    }
-
-    .badge-group {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-
-    .badge {
-      padding: 4px 10px;
-      border-radius: 4px;
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-    }
-
-    .badge-pvp { background: rgba(229, 62, 62, 0.2); color: #feb2b2; border: 1px solid var(--crimson); }
-    .badge-pve { background: rgba(56, 161, 105, 0.2); color: #9ae6b4; border: 1px solid var(--green); }
-    .badge-hybrid { background: rgba(159, 122, 234, 0.2); color: #d6bcfa; border: 1px solid var(--purple); }
-    .badge-diff { background: rgba(221, 107, 32, 0.2); color: #fbd38d; border: 1px solid var(--amber); }
-    .badge-oath { background: rgba(229, 169, 59, 0.2); color: var(--gold-light); border: 1px solid var(--gold-primary); font-family: 'Cinzel', serif; }
-
-    .build-meta-bar {
-      display: flex;
-      gap: 24px;
-      color: var(--text-muted);
-      font-size: 13px;
-      margin-bottom: 16px;
-      flex-wrap: wrap;
-    }
-
-    .build-meta-item strong {
-      color: var(--text-main);
-    }
-
-    .creator-opinion-box {
-      background: rgba(10, 13, 20, 0.6);
-      border-left: 3px solid var(--gold-primary);
-      padding: 12px 16px;
-      border-radius: 0 6px 6px 0;
-      font-size: 13.5px;
-      line-height: 1.6;
-      color: #cbd5e0;
-    }
-
-    /* Main Grid Layout */
-    .main-grid {
-      display: grid;
-      grid-template-columns: 360px 1fr;
-      gap: 24px;
-    }
-
-    @media (max-width: 960px) {
-      .main-grid { grid-template-columns: 1fr; }
-    }
-
-    /* Section Cards */
-    .card {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    .card-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-bottom: 1px solid var(--border-color);
-      padding-bottom: 12px;
-      margin-bottom: 16px;
-    }
-
-    .card-title {
-      font-family: 'Cinzel', serif;
-      font-size: 16px;
-      font-weight: 700;
-      color: var(--gold-light);
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* Stats List */
-    .stat-row {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 10px;
-      font-size: 13.5px;
-    }
-
-    .stat-name {
-      width: 110px;
-      color: var(--text-muted);
-      font-weight: 500;
-    }
-
-    .stat-bar-container {
-      flex: 1;
-      height: 8px;
-      background: #1a2436;
-      border-radius: 4px;
-      overflow: hidden;
-      margin: 0 12px;
-      border: 1px solid rgba(255,255,255,0.05);
-    }
-
-    .stat-bar-fill {
-      height: 100%;
-      border-radius: 4px;
-      background: linear-gradient(90deg, #3182ce, #63b3ed);
-      transition: width 0.5s ease;
-    }
-
-    .stat-val {
-      width: 32px;
-      text-align: right;
-      font-weight: 700;
-      color: #fff;
-      font-family: monospace;
-      font-size: 14px;
-    }
-
-    /* Attunements */
-    .attunement-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-    }
-
-    .att-box {
-      background: var(--bg-card-alt);
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
-      padding: 10px 12px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .att-name {
-      font-size: 12.5px;
-      font-weight: 600;
-    }
-
-    .att-val {
-      font-weight: 800;
-      font-family: monospace;
-      font-size: 14px;
-    }
-
-    .att-flame { border-left: 3px solid #f56565; color: #feb2b2; }
-    .att-frost { border-left: 3px solid #63b3ed; color: #bee3f8; }
-    .att-thunder { border-left: 3px solid #ecc94b; color: #fefcbf; }
-    .att-gale { border-left: 3px solid #48bb78; color: #c6f6d5; }
-    .att-shadow { border-left: 3px solid #9f7aea; color: #e9d8fd; }
-    .att-iron { border-left: 3px solid #a0aec0; color: #edf2f7; }
-
-    /* Talents & Mantras Grid */
-    .items-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-      gap: 12px;
-    }
-
-    .item-card {
-      background: var(--bg-card-alt);
-      border: 1px solid var(--border-color);
-      border-radius: 8px;
-      padding: 12px 14px;
-      transition: transform 0.15s ease, border-color 0.15s ease;
-      position: relative;
-    }
-
-    .item-card:hover {
-      transform: translateY(-2px);
-      border-color: var(--border-glow);
-    }
-
-    .item-card.is-core {
-      border: 1px solid var(--gold-primary);
-      background: linear-gradient(135deg, rgba(229, 169, 59, 0.08) 0%, var(--bg-card-alt) 100%);
-      box-shadow: 0 0 10px rgba(229, 169, 59, 0.15);
-    }
-
-    .item-card-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 6px;
-    }
-
-    .item-name {
-      font-weight: 700;
-      font-size: 14px;
-      color: #fff;
-    }
-
-    .core-tag {
-      font-size: 10px;
-      font-weight: 800;
-      color: var(--gold-primary);
-      background: rgba(229, 169, 59, 0.15);
-      padding: 2px 6px;
-      border-radius: 3px;
-      border: 1px solid var(--gold-primary);
-    }
-
-    .item-desc {
-      font-size: 12px;
-      color: var(--text-muted);
-      line-height: 1.4;
-    }
-
-    /* Modal */
-    .modal-backdrop {
-      position: fixed;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.8);
-      backdrop-filter: blur(5px);
-      display: none;
-      align-items: center;
-      justify-content: center;
-      z-index: 999;
-    }
-
-    .modal-box {
-      background: var(--bg-card);
-      border: 1px solid var(--gold-primary);
-      border-radius: 12px;
-      width: 90%;
-      max-width: 600px;
-      padding: 24px;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.8);
-    }
-
-    .modal-title {
-      font-family: 'Cinzel', serif;
-      font-size: 18px;
-      color: var(--gold-light);
-      margin-bottom: 16px;
-    }
-
-    textarea.json-input {
-      width: 100%;
-      height: 220px;
-      background: #0d121c;
-      border: 1px solid var(--border-color);
-      border-radius: 6px;
-      color: #e2e8f0;
-      font-family: monospace;
-      font-size: 12px;
-      padding: 12px;
-      resize: vertical;
-      margin-bottom: 16px;
-    }
-
-    textarea.json-input:focus {
-      outline: none;
-      border-color: var(--gold-primary);
-    }
+    @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+    body { font-family: 'Pretendard', sans-serif; }
+    code, pre { font-family: 'JetBrains Mono', monospace; }
+    
+    /* Markdown Styles */
+    .prose h1, .prose h2, .prose h3 { color: #38bdf8; font-weight: 700; margin-top: 1rem; margin-bottom: 0.5rem; }
+    .prose p { margin-bottom: 0.75rem; line-height: 1.6; }
+    .prose ul { list-style-type: disc; margin-left: 1.5rem; margin-bottom: 0.75rem; }
+    .prose table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    .prose th, .prose td { border: 1px solid #334155; padding: 6px 12px; text-align: left; }
+    .prose th { background-color: #1e293b; color: #38bdf8; }
+    .prose pre { background-color: #0f172a; padding: 12px; border-radius: 8px; overflow-x: auto; border: 1px solid #334155; margin: 0.75rem 0; }
+    .prose code { color: #f43f5e; background-color: #1e293b; padding: 2px 6px; border-radius: 4px; font-size: 0.85em; }
+    .prose pre code { color: #f8fafc; background: none; padding: 0; }
+    
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: #0b0f19; }
+    ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: #475569; }
   </style>
 </head>
-<body>
+<body class="bg-[#0b0f19] text-slate-200 flex h-screen overflow-hidden select-text">
 
-  <!-- Top Navigation -->
-  <nav class="navbar">
-    <div class="brand">
-      <span class="brand-icon">⚔️</span>
-      <span class="brand-title">DEEPWOKEN BUILD VIEWER</span>
+  <!-- 좌측 사이드바: 빌드 목록 및 동기화 -->
+  <aside class="w-80 bg-[#111827] border-r border-slate-800 flex flex-col justify-between shrink-0">
+    <!-- 상단 헤더 -->
+    <div class="p-4 border-b border-slate-800 flex items-center justify-between">
+      <div class="flex items-center gap-2.5">
+        <div class="w-9 h-9 rounded-lg bg-sky-600/20 border border-sky-500/30 flex items-center justify-center text-sky-400 font-bold">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <div>
+          <h1 class="font-bold text-sm tracking-wide text-white">Deepwoken AI Hub</h1>
+          <p class="text-xs text-slate-400">RAG AI Build Advisor</p>
+        </div>
+      </div>
+      <button onclick="syncGitHub()" id="syncBtn" class="px-2.5 py-1.5 bg-sky-600/20 hover:bg-sky-600/30 text-sky-400 border border-sky-500/30 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all">
+        <i class="fa-solid fa-arrows-rotate" id="syncIcon"></i> 동기화
+      </button>
     </div>
-    <div class="nav-actions">
-      <input type="file" id="fileInput" accept=".json" style="display: none;" onchange="handleFileSelect(event)">
-      <button class="btn btn-secondary" onclick="document.getElementById('fileInput').click()">📁 JSON 파일 열기</button>
-      <button class="btn btn-secondary" onclick="openPasteModal()">📋 JSON 붙여넣기</button>
-      <button class="btn btn-primary" onclick="loadSampleBuild()">🌟 샘플 빌드 불러오기</button>
+
+    <!-- 탭 전환 -->
+    <div class="px-4 pt-3 flex gap-2 border-b border-slate-800 pb-3">
+      <button onclick="switchTab('chat')" id="tabChat" class="flex-1 py-2 rounded-lg text-xs font-bold bg-sky-600 text-white flex items-center justify-center gap-1.5 transition-all">
+        <i class="fa-solid fa-comments"></i> AI 대화
+      </button>
+      <button onclick="switchTab('builds')" id="tabBuilds" class="flex-1 py-2 rounded-lg text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center gap-1.5 transition-all">
+        <i class="fa-solid fa-scroll"></i> 빌드 보관함 (<span id="buildCount">0</span>)
+      </button>
     </div>
-  </nav>
 
-  <!-- Main Container -->
-  <main class="container">
+    <!-- 빌드 목록 (사이드바 리스트) -->
+    <div class="flex-1 overflow-y-auto p-3 space-y-2" id="buildList">
+      <div class="text-xs text-slate-500 p-2 text-center">빌드 데이터를 불러오는 중...</div>
+    </div>
 
-    <!-- Build Header / Banner -->
-    <header class="build-header-card">
-      <div class="build-title-row">
-        <h1 class="build-title" id="buildName">Thundercall Jetstriker Speedster</h1>
-        <div class="badge-group" id="badgeGroup">
-          <span class="badge badge-pvp" id="buildTypeBadge">PvP</span>
-          <span class="badge badge-diff" id="difficultyBadge">Advanced</span>
-          <span class="badge badge-oath" id="oathBadge">Oath: Jetstriker</span>
+    <!-- 사이드바 하단 정보 -->
+    <div class="p-3 border-t border-slate-800 bg-[#0d131f] text-xs text-slate-400 flex justify-between items-center">
+      <span><i class="fa-brands fa-discord text-[#5865F2]"></i> 디스코드 봇 연동 중</span>
+      <span class="text-emerald-400 flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Online</span>
+    </div>
+  </aside>
+
+  <!-- 우측 메인 영역 -->
+  <main class="flex-1 flex flex-col bg-[#0b0f19] overflow-hidden relative">
+
+    <!-- 1. AI 챗봇 화면 (Chat View) -->
+    <section id="chatSection" class="flex-1 flex flex-col overflow-hidden">
+      <!-- 채팅 메시지 영역 -->
+      <div class="flex-1 overflow-y-auto p-6 space-y-6" id="chatContainer">
+        <!-- AI 환영 메시지 -->
+        <div class="flex gap-4 max-w-4xl">
+          <div class="w-8 h-8 rounded-full bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-sky-400 shrink-0">
+            <i class="fa-solid fa-robot"></i>
+          </div>
+          <div class="bg-[#161f30] border border-slate-800 rounded-2xl rounded-tl-none p-4 max-w-2xl text-sm leading-relaxed prose">
+            <h3 class="!mt-0">⚔️ Deepwoken AI 빌드 어드바이저에 오신 것을 환영합니다!</h3>
+            <p>디스코드나 웹에서 수집된 모든 최신 빌드, 1,139개 탤런트, 14개 카테고리 위키 데이터를 바탕으로 질문에 답해 드립니다.</p>
+            <p class="text-xs text-slate-400 !mb-0">장문의 스탯 정보나 복잡한 요구사항(예: 특정 무기 고정, 만트라 추천, 방어구 세팅 등)을 자유롭게 물어보세요.</p>
+          </div>
         </div>
       </div>
 
-      <div class="build-meta-bar">
-        <div class="build-meta-item">출처: <strong id="sourceChannel">Deepwoken Pro Guide</strong></div>
-        <div class="build-meta-item">패치 버전: <strong id="patchVersion">Verse 2 (Current)</strong></div>
-        <div class="build-meta-item">종족 / 출신: <strong id="raceOrigin">Vesperian / Castaway</strong></div>
-        <div class="build-meta-item">Murmur / Bell: <strong id="murmurBell">Ardour / Wind Up</strong></div>
+      <!-- 추천 질문 칩 -->
+      <div class="px-6 py-2 flex gap-2 overflow-x-auto shrink-0" id="suggestedChips">
+        <button onclick="setPrompt('Galebreathe(바람) 젯스트라이커 추천 장비와 스펙터 콤보 알려줘')" class="text-xs bg-slate-800/80 hover:bg-slate-700 text-sky-300 px-3 py-1.5 rounded-full border border-slate-700 whitespace-nowrap transition-all">
+          🌪️ 젯스트라이커 100 Gale 장비 & 콤보
+        </button>
+        <button onclick="setPrompt('Frostdraw(빙결) 빌드에서 절대 버리면 안 되는 필수 탤런트 4개 정리해줘')" class="text-xs bg-slate-800/80 hover:bg-slate-700 text-sky-300 px-3 py-1.5 rounded-full border border-slate-700 whitespace-nowrap transition-all">
+          ❄️ Frostdraw 필수 탤런트 분석
+        </button>
+        <button onclick="setPrompt('현재 Verse 2 메타에서 S티어 Oath와 무기 티어리스트 브리핑해줘')" class="text-xs bg-slate-800/80 hover:bg-slate-700 text-sky-300 px-3 py-1.5 rounded-full border border-slate-700 whitespace-nowrap transition-all">
+          🏆 S티어 메타 티어리스트
+        </button>
       </div>
 
-      <div class="creator-opinion-box" id="creatorOpinion">
-        극도로 높은 기동성과 Jetstriker의 회피 카운터를 활용하여 딜사이클을 끊임없이 압박하는 고화력 Thundercall PvP 빌드입니다.
+      <!-- 입력창 영역 (장문 / 다중 줄 지원) -->
+      <div class="p-4 bg-[#111827] border-t border-slate-800">
+        <div class="max-w-4xl mx-auto flex gap-3 items-end">
+          <div class="flex-1 bg-[#1e293b] rounded-2xl border border-slate-700 focus-within:border-sky-500 transition-all p-2 flex flex-col">
+            <textarea id="chatInput" rows="2" placeholder="질문이나 스탯 정보를 자유롭게 입력하세요... (Enter로 전송, Shift+Enter로 줄바꿈)" 
+              class="bg-transparent text-sm text-slate-100 placeholder-slate-500 focus:outline-none resize-none px-2 py-1 max-h-48 overflow-y-auto"></textarea>
+          </div>
+          <button onclick="sendChatMessage()" id="sendBtn" class="h-12 w-12 rounded-2xl bg-sky-600 hover:bg-sky-500 text-white font-bold flex items-center justify-center shrink-0 transition-all shadow-lg shadow-sky-600/20">
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </div>
       </div>
-    </header>
+    </section>
 
-    <!-- Main Grid -->
-    <div class="main-grid">
-
-      <!-- Left Column: Stats & Attunements -->
-      <section class="left-col">
-        <!-- 6 Core Stats -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">📊 6대 기본 스탯 (Stats)</h2>
-            <span style="font-size: 11px; color: var(--text-muted);">Points</span>
-          </div>
-
-          <div id="statsList">
-            <!-- Rendered by JS -->
-          </div>
+    <!-- 2. 빌드 뷰어 화면 (Build Viewer View) -->
+    <section id="buildSection" class="flex-1 flex flex-col overflow-y-auto p-6 hidden">
+      <div class="max-w-4xl mx-auto w-full space-y-6" id="buildDetailContainer">
+        <div class="p-8 text-center text-slate-500">
+          좌측 사이드바에서 보고 싶은 빌드를 선택하세요.
         </div>
-
-        <!-- Attunements -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">⚡ 속성 (Attunements)</h2>
-          </div>
-          <div class="attunement-grid" id="attunementsList">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-
-        <!-- Shrine of Order -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">⛩️ Shrine of Order 경로</h2>
-          </div>
-          <p style="font-size: 13px; line-height: 1.6; color: #cbd5e0;" id="shrinePath">
-            Pre-shrine: STR 40, FORT 40 투자 후 Showstopper, Exoskeleton 확보 → SoO 발동 후 Thundercall 80 집중 투자.
-          </p>
-        </div>
-      </section>
-
-      <!-- Right Column: Talents, Mantras, Weapons, Combo -->
-      <section class="right-col">
-
-        <!-- Weapons & Equipment -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">🗡️ 무기 & 주요 장비 (Gear)</h2>
-          </div>
-          <div class="items-grid" id="weaponsEquipList">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-
-        <!-- Core Talents -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">⭐ 핵심 탤런트 (Talents)</h2>
-          </div>
-          <div class="items-grid" id="talentsList">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-
-        <!-- Mantras -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">🔮 만트라 (Mantras)</h2>
-          </div>
-          <div class="items-grid" id="mantrasList">
-            <!-- Rendered by JS -->
-          </div>
-        </div>
-
-        <!-- Combo Guide -->
-        <div class="card">
-          <div class="card-header">
-            <h2 class="card-title">🥊 콤보 & 전투 운용 가이드</h2>
-          </div>
-          <div style="background: rgba(10, 13, 20, 0.6); padding: 14px; border-radius: 6px; font-size: 13.5px; line-height: 1.7; color: #e2e8f0;" id="comboGuide">
-            Slide 대시 진입 → M1 평타 2타 → Lightning Cloak 발동 후 Mantra 연계 → Grand Javelin 카운터 피니시
-          </div>
-        </div>
-
-      </section>
-
-    </div>
+      </div>
+    </section>
 
   </main>
 
-  <!-- Modal for pasting JSON -->
-  <div class="modal-backdrop" id="pasteModal">
-    <div class="modal-box">
-      <h3 class="modal-title">📋 JSON 빌드 데이터 붙여넣기</h3>
-      <textarea class="json-input" id="jsonPasteArea" placeholder="AI가 출력한 JSON 데이터를 여기에 붙여넣으세요..."></textarea>
-      <div style="display: flex; justify-content: flex-end; gap: 10px;">
-        <button class="btn btn-secondary" onclick="closePasteModal()">취소</button>
-        <button class="btn btn-primary" onclick="applyPastedJSON()">빌드 적용하기</button>
-      </div>
-    </div>
-  </div>
-
+  <!-- JavaScript Interaction Logic -->
   <script>
-    const sampleBuild = {
-      "video_meta": {
-        "title": "Unstoppable Thundercall Greatsword PvP Build",
-        "channel": "DeepwokenMaster",
-        "url": "https://www.youtube.com/watch?v=sample123",
-        "upload_date": "20260101",
-        "estimated_patch": "Verse 2 (Layer 2)"
-      },
-      "build_summary": {
-        "build_name": "Thundercall Greatsword Destroyer",
-        "build_type": "PvP",
-        "difficulty": "Advanced",
-        "creator_opinion": "Extremely high posture damage with massive CC combo. Great for 1v1 and chime of conflict.",
-        "strengths": ["Huge damage per hit", "Instant stun with lightning", "Super armor frames"],
-        "weaknesses": ["Slow swing speed", "Requires precise timing"]
-      },
-      "race": "Vesperian",
-      "origin": "Castaway",
-      "oath": "Jetstriker",
-      "resonance": "Wind Up",
-      "murmur": "Ardour",
-      "stats": {
-        "strength": 80,
-        "fortitude": 50,
-        "agility": 40,
-        "intelligence": 0,
-        "willpower": 25,
-        "charisma": 0,
-        "heavy_wep": 100,
-        "medium_wep": 0,
-        "light_wep": 0
-      },
-      "attunements": {
-        "thundercall": 80,
-        "flamecharm": 0,
-        "frostdraw": 0,
-        "galebreathe": 0,
-        "shadowcast": 0,
-        "ironsing": 0
-      },
-      "weapons": [
-        { "name": "Enforcer's Blade", "type": "Greatsword", "enchant": "Grim", "stars": 3 },
-        { "name": "Curved Blade of Winds", "type": "Medium", "enchant": "Storm", "stars": 2 }
-      ],
-      "talents": [
-        { "name": "Showstopper", "category": "Strength", "is_core": true },
-        { "name": "Exoskeleton", "category": "Fortitude", "is_core": true },
-        { "name": "Conditioned Runner", "category": "Agility", "is_core": false },
-        { "name": "Speed Demon", "category": "Agility", "is_core": true },
-        { "name": "Underdog", "category": "Willpower", "is_core": false }
-      ],
-      "mantras": [
-        { "name": "Lightning Cloak", "attunement": "Thundercall", "is_core": true, "modifications": "Vibrant Gem x2" },
-        { "name": "Grand Javelin", "attunement": "Thundercall", "is_core": true, "modifications": "Stratus Stone" },
-        { "name": "Electro Carve", "attunement": "Thundercall", "is_core": false, "modifications": "Magnetite" }
-      ],
-      "shrine_of_order_path": "Invest 40 STR, 40 FORT pre-shrine for Showstopper & Exoskeleton, then reallocate to Thundercall 80 & Heavy Weapon 100 post-shrine.",
-      "equipment": [
-        { "name": "Black Diver", "slot": "Chest", "pip_summary": "+15 HP, +6% DRL" },
-        { "name": "Prophet's Cloak", "slot": "Back", "pip_summary": "+8 Ether, +5% Tempo" }
-      ],
-      "combo_guide": "Slide Dash -> M1 Heavy Slash -> Lightning Cloak burst -> Grand Javelin for instant guard break!"
-    };
+    let currentBuilds = [];
+    let activeTab = 'chat';
 
-    function renderBuild(data) {
-      const summary = data.build_summary || {};
-      const meta = data.video_meta || {};
-      const stats = data.stats || {};
-      const atts = data.attunements || {};
-
-      // 1. Header Information
-      document.getElementById('buildName').textContent = summary.build_name || meta.title || "Deepwoken Build";
+    // 1. 초기 로드
+    window.addEventListener('DOMContentLoaded', () => {
+      fetchBuilds();
       
-      const bType = summary.build_type || "Hybrid";
-      const bTypeBadge = document.getElementById('buildTypeBadge');
-      bTypeBadge.textContent = bType;
-      bTypeBadge.className = 'badge ' + (bType === 'PvP' ? 'badge-pvp' : bType === 'PvE' ? 'badge-pve' : 'badge-hybrid');
-
-      document.getElementById('difficultyBadge').textContent = summary.difficulty || "Intermediate";
-      document.getElementById('oathBadge').textContent = "Oath: " + (data.oath || "Oathless");
-      document.getElementById('sourceChannel').textContent = meta.channel || "Web Source";
-      document.getElementById('patchVersion').textContent = meta.estimated_patch || "Current";
-      document.getElementById('raceOrigin').textContent = (data.race || "N/A") + " / " + (data.origin || "N/A");
-      document.getElementById('murmurBell').textContent = (data.murmur || "None") + " / " + (data.resonance || "None");
-      document.getElementById('creatorOpinion').textContent = summary.creator_opinion || "설명이 없습니다.";
-
-      // 2. Stats
-      const statLabels = [
-        { key: 'strength', name: 'Strength (근력)', max: 100 },
-        { key: 'fortitude', name: 'Fortitude (인내)', max: 100 },
-        { key: 'agility', name: 'Agility (민첩)', max: 100 },
-        { key: 'intelligence', name: 'Intelligence (지능)', max: 100 },
-        { key: 'willpower', name: 'Willpower (의지)', max: 100 },
-        { key: 'charisma', name: 'Charisma (매력)', max: 100 },
-        { key: 'heavy_wep', name: 'Heavy Weapon', max: 100 },
-        { key: 'medium_wep', name: 'Medium Weapon', max: 100 },
-        { key: 'light_wep', name: 'Light Weapon', max: 100 },
-      ];
-
-      const statsContainer = document.getElementById('statsList');
-      statsContainer.innerHTML = '';
-      statLabels.forEach(s => {
-        const val = stats[s.key] || 0;
-        const pct = Math.min(100, Math.round((val / s.max) * 100));
-        statsContainer.innerHTML += `
-          <div class="stat-row">
-            <span class="stat-name">${s.name}</span>
-            <div class="stat-bar-container">
-              <div class="stat-bar-fill" style="width: ${pct}%;"></div>
-            </div>
-            <span class="stat-val">${val}</span>
-          </div>
-        `;
+      const input = document.getElementById('chatInput');
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          sendChatMessage();
+        }
       });
+    });
 
-      // 3. Attunements
-      const attMap = [
-        { key: 'flamecharm', name: 'Flamecharm (화염)', cls: 'att-flame' },
-        { key: 'frostdraw', name: 'Frostdraw (빙결)', cls: 'att-frost' },
-        { key: 'thundercall', name: 'Thundercall (뇌전)', cls: 'att-thunder' },
-        { key: 'galebreathe', name: 'Galebreathe (질풍)', cls: 'att-gale' },
-        { key: 'shadowcast', name: 'Shadowcast (암흑)', cls: 'att-shadow' },
-        { key: 'ironsing', name: 'Ironsing (강철)', cls: 'att-iron' },
-      ];
-      const attContainer = document.getElementById('attunementsList');
-      attContainer.innerHTML = '';
-      attMap.forEach(a => {
-        const val = atts[a.key] || 0;
-        attContainer.innerHTML += `
-          <div class="att-box ${a.cls}">
-            <span class="att-name">${a.name}</span>
-            <span class="att-val">${val}</span>
-          </div>
-        `;
-      });
+    // 2. 탭 전환
+    function switchTab(tab) {
+      activeTab = tab;
+      const chatSec = document.getElementById('chatSection');
+      const buildSec = document.getElementById('buildSection');
+      const tabChat = document.getElementById('tabChat');
+      const tabBuilds = document.getElementById('tabBuilds');
 
-      // 4. Shrine of Order
-      document.getElementById('shrinePath').textContent = data.shrine_of_order_path || "Shrine of Order 경로 정보가 없습니다.";
-
-      // 5. Weapons & Equipment
-      const wepEquipContainer = document.getElementById('weaponsEquipList');
-      wepEquipContainer.innerHTML = '';
-      const weapons = data.weapons || [];
-      const equips = data.equipment || [];
-
-      weapons.forEach(w => {
-        wepEquipContainer.innerHTML += `
-          <div class="item-card is-core">
-            <div class="item-card-header">
-              <span class="item-name">🗡️ ${w.name}</span>
-              <span class="core-tag">Weapon</span>
-            </div>
-            <div class="item-desc">타입: ${w.type || '-'} | 인챈트: ${w.enchant || 'None'} ${w.stars ? '⭐x' + w.stars : ''}</div>
-          </div>
-        `;
-      });
-
-      equips.forEach(eq => {
-        wepEquipContainer.innerHTML += `
-          <div class="item-card">
-            <div class="item-card-header">
-              <span class="item-name">🛡️ ${eq.name}</span>
-              <span class="core-tag">${eq.slot || 'Gear'}</span>
-            </div>
-            <div class="item-desc">${eq.pip_summary || '스탯 보정치 없음'}</div>
-          </div>
-        `;
-      });
-
-      // 6. Talents
-      const talentsContainer = document.getElementById('talentsList');
-      talentsContainer.innerHTML = '';
-      (data.talents || []).forEach(t => {
-        talentsContainer.innerHTML += `
-          <div class="item-card ${t.is_core ? 'is-core' : ''}">
-            <div class="item-card-header">
-              <span class="item-name">⭐ ${t.name}</span>
-              ${t.is_core ? '<span class="core-tag">CORE</span>' : ''}
-            </div>
-            <div class="item-desc">분류: ${t.category || 'Talent'}</div>
-          </div>
-        `;
-      });
-
-      // 7. Mantras
-      const mantrasContainer = document.getElementById('mantrasList');
-      mantrasContainer.innerHTML = '';
-      (data.mantras || []).forEach(m => {
-        mantrasContainer.innerHTML += `
-          <div class="item-card ${m.is_core ? 'is-core' : ''}">
-            <div class="item-card-header">
-              <span class="item-name">🔮 ${m.name}</span>
-              ${m.is_core ? '<span class="core-tag">CORE</span>' : ''}
-            </div>
-            <div class="item-desc">속성: ${m.attunement || 'General'} ${m.modifications ? '<br/>보석: ' + m.modifications : ''}</div>
-          </div>
-        `;
-      });
-
-      // 8. Combo Guide
-      document.getElementById('comboGuide').textContent = data.combo_guide || "콤보 가이드 정보가 없습니다.";
-    }
-
-    // Modal & File Handlers
-    function openPasteModal() {
-      document.getElementById('pasteModal').style.display = 'flex';
-    }
-
-    function closePasteModal() {
-      document.getElementById('pasteModal').style.display = 'none';
-    }
-
-    function applyPastedJSON() {
-      const text = document.getElementById('jsonPasteArea').value;
-      try {
-        const json = JSON.parse(text);
-        renderBuild(json);
-        closePasteModal();
-      } catch(e) {
-        alert("유효하지 않은 JSON 형식입니다: " + e.message);
+      if (tab === 'chat') {
+        chatSec.classList.remove('hidden');
+        buildSec.classList.add('hidden');
+        tabChat.className = 'flex-1 py-2 rounded-lg text-xs font-bold bg-sky-600 text-white flex items-center justify-center gap-1.5 transition-all';
+        tabBuilds.className = 'flex-1 py-2 rounded-lg text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center gap-1.5 transition-all';
+      } else {
+        chatSec.classList.add('hidden');
+        buildSec.classList.remove('hidden');
+        tabBuilds.className = 'flex-1 py-2 rounded-lg text-xs font-bold bg-sky-600 text-white flex items-center justify-center gap-1.5 transition-all';
+        tabChat.className = 'flex-1 py-2 rounded-lg text-xs font-bold bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center gap-1.5 transition-all';
       }
     }
 
-    function handleFileSelect(event) {
-      const file = event.target.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = function(e) {
-        try {
-          const json = JSON.parse(e.target.result);
-          renderBuild(json);
-        } catch(err) {
-          alert("JSON 파일을 파싱하는 데 실패했습니다: " + err.message);
-        }
-      };
-      reader.readAsText(file);
+    // 3. 빌드 목록 가져오기
+    async function fetchBuilds() {
+      try {
+        const res = await fetch('/api/builds');
+        const data = await res.json();
+        currentBuilds = data.builds || [];
+        document.getElementById('buildCount').textContent = currentBuilds.length;
+        renderSidebarBuilds();
+      } catch (e) {
+        console.error("Failed to fetch builds:", e);
+      }
     }
 
-    function loadSampleBuild() {
-      renderBuild(sampleBuild);
+    // 4. 사이드바 렌더링
+    function renderSidebarBuilds() {
+      const container = document.getElementById('buildList');
+      if (currentBuilds.length === 0) {
+        container.innerHTML = `<div class="text-xs text-slate-500 p-4 text-center">아직 분석된 빌드가 없습니다.<br>디스코드나 상단 동기화를 사용하세요.</div>`;
+        return;
+      }
+
+      container.innerHTML = currentBuilds.map(b => `
+        <div onclick="selectBuild('${b.id}')" class="p-3 bg-[#1e293b]/60 hover:bg-[#1e293b] border border-slate-800 hover:border-sky-500/50 rounded-xl cursor-pointer transition-all group">
+          <div class="flex justify-between items-start mb-1">
+            <h4 class="font-bold text-sm text-slate-200 group-hover:text-sky-400 transition-colors line-clamp-1">${b.name}</h4>
+            <span class="px-2 py-0.5 text-[10px] rounded bg-sky-500/10 text-sky-400 border border-sky-500/20 font-semibold">${b.type}</span>
+          </div>
+          <p class="text-xs text-slate-400 line-clamp-1">작성자: ${b.author} • ${b.difficulty}</p>
+        </div>
+      `).join('');
     }
 
-    // Initial load
-    window.onload = function() {
-      renderBuild(sampleBuild);
-    };
+    // 5. 빌드 선택 및 상세 뷰어 렌더링
+    function selectBuild(buildId) {
+      const build = currentBuilds.find(b => b.id === buildId);
+      if (!build) return;
+
+      switchTab('builds');
+      const data = build.data;
+      const summary = data.build_summary || {};
+      const stats = data.stats_and_attunements || {};
+      const attrs = stats.attributes || {};
+      const talents = data.talents_and_mantras?.core_talents || [];
+      const mantras = data.talents_and_mantras?.core_mantras || [];
+      const combo = data.combo_and_playstyle || {};
+
+      const detailHtml = `
+        <div class="bg-[#161f30] border border-slate-800 rounded-2xl p-6 shadow-xl space-y-6">
+          <div class="flex justify-between items-start border-b border-slate-800 pb-4">
+            <div>
+              <span class="px-2.5 py-1 text-xs font-bold rounded bg-sky-500/20 text-sky-400 border border-sky-500/30">${summary.build_type || 'Hybrid'}</span>
+              <h2 class="text-2xl font-extrabold text-white mt-2">${summary.build_name || build.name}</h2>
+              <p class="text-xs text-slate-400 mt-1">작성자: <span class="text-slate-200 font-semibold">${summary.author || 'Unknown'}</span> | 난이도: ${summary.difficulty || 'Intermediate'}</p>
+            </div>
+            <button onclick="copyInjectCode('${build.id}')" class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-bold flex items-center gap-2 transition-all shadow-lg shadow-emerald-600/20">
+              <i class="fa-solid fa-code"></i> deepwoken.co 주입 코드 복사
+            </button>
+          </div>
+
+          <!-- 스탯 그리드 -->
+          <div>
+            <h3 class="text-sm font-bold text-sky-400 mb-3 flex items-center gap-2"><i class="fa-solid fa-chart-simple"></i> 스탯 분배 (Attributes)</h3>
+            <div class="grid grid-cols-6 gap-2 text-center text-xs">
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">STR</p><p class="text-base font-bold text-white mt-1">${attrs.strength || 0}</p></div>
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">FTD</p><p class="text-base font-bold text-white mt-1">${attrs.fortitude || 0}</p></div>
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">AGL</p><p class="text-base font-bold text-white mt-1">${attrs.agility || 0}</p></div>
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">INT</p><p class="text-base font-bold text-white mt-1">${attrs.intelligence || 0}</p></div>
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">WLL</p><p class="text-base font-bold text-white mt-1">${attrs.willpower || 0}</p></div>
+              <div class="bg-[#0f172a] p-2.5 rounded-lg border border-slate-800"><p class="text-slate-400">CHA</p><p class="text-base font-bold text-white mt-1">${attrs.charisma || 0}</p></div>
+            </div>
+          </div>
+
+          <!-- 탤런트 및 만트라 -->
+          <div class="grid grid-cols-2 gap-4">
+            <div class="bg-[#0f172a] p-4 rounded-xl border border-slate-800">
+              <h4 class="text-xs font-bold text-amber-400 mb-2 flex items-center gap-1.5"><i class="fa-solid fa-star"></i> 핵심 탤런트</h4>
+              <ul class="text-xs space-y-1 text-slate-300">
+                ${talents.map(t => `<li class="flex items-center gap-1.5"><i class="fa-solid fa-check text-emerald-400 text-[10px]"></i> ${t}</li>`).join('')}
+              </ul>
+            </div>
+            <div class="bg-[#0f172a] p-4 rounded-xl border border-slate-800">
+              <h4 class="text-xs font-bold text-purple-400 mb-2 flex items-center gap-1.5"><i class="fa-solid fa-wand-magic-sparkles"></i> 핵심 만트라(주문)</h4>
+              <ul class="text-xs space-y-1 text-slate-300">
+                ${mantras.map(m => `<li class="flex items-center gap-1.5"><i class="fa-solid fa-bolt text-purple-400 text-[10px]"></i> ${m}</li>`).join('')}
+              </ul>
+            </div>
+          </div>
+
+          <!-- 콤보 & 가이드 -->
+          <div class="bg-[#0f172a] p-4 rounded-xl border border-slate-800">
+            <h4 class="text-xs font-bold text-sky-400 mb-2 flex items-center gap-1.5"><i class="fa-solid fa-gamepad"></i> 콤보 & 전투 운용 가이드</h4>
+            <p class="text-xs text-slate-300 leading-relaxed">${combo.combo_guide || '추출된 콤보 가이드가 없습니다.'}</p>
+          </div>
+        </div>
+      `;
+      document.getElementById('buildDetailContainer').innerHTML = detailHtml;
+    }
+
+    // 6. 주입 코드 복사
+    function copyInjectCode(buildId) {
+      const build = currentBuilds.find(b => b.id === buildId);
+      if (!build) return;
+
+      const jsCode = `// Deepwoken Builder 자동 주입 코드 (F12 콘솔에 붙여넣기)\nconst myBuild = ${JSON.stringify(build.data, null, 2)};\nlocalStorage.setItem('dwb-active-build', JSON.stringify(myBuild));\nlocalStorage.setItem('dw-builder-save', JSON.stringify(myBuild));\nlocation.reload();`;
+      navigator.clipboard.writeText(jsCode);
+      alert('deepwoken.co/builder 콘솔 주입용 코드가 클립보드에 복사되었습니다!\n사이트에서 F12 -> Console 탭에 붙여넣기(Ctrl+V) 후 엔터를 누르세요.');
+    }
+
+    // 7. GitHub 클라우드 동기화 (Git Pull)
+    async function syncGitHub() {
+      const icon = document.getElementById('syncIcon');
+      icon.classList.add('fa-spin');
+      try {
+        const res = await fetch('/api/sync', { method: 'POST' });
+        const data = await res.json();
+        await fetchBuilds();
+        alert('🎉 GitHub 클라우드의 모든 최신 빌드 데이터가 내 컴퓨터로 동기화되었습니다!');
+      } catch (e) {
+        alert('동기화 실패: ' + e);
+      } finally {
+        icon.classList.remove('fa-spin');
+      }
+    }
+
+    // 8. 챗봇 프롬프트 칩 설정
+    function setPrompt(text) {
+      const input = document.getElementById('chatInput');
+      input.value = text;
+      input.focus();
+    }
+
+    // 9. AI 챗봇 메시지 전송
+    async function sendChatMessage() {
+      const input = document.getElementById('chatInput');
+      const message = input.value.trim();
+      if (!message) return;
+
+      input.value = '';
+      const container = document.getElementById('chatContainer');
+
+      // 사용자 메시지 추가
+      container.innerHTML += `
+        <div class="flex gap-4 max-w-4xl ml-auto justify-end">
+          <div class="bg-sky-600 text-white rounded-2xl rounded-tr-none p-4 max-w-2xl text-sm leading-relaxed whitespace-pre-wrap shadow-md">
+            ${escapeHtml(message)}
+          </div>
+          <div class="w-8 h-8 rounded-full bg-sky-600 flex items-center justify-center text-white shrink-0 font-bold text-xs">
+            ME
+          </div>
+        </div>
+      `;
+
+      // AI 로딩 스피너 추가
+      const loadingId = 'loading-' + Date.now();
+      container.innerHTML += `
+        <div id="${loadingId}" class="flex gap-4 max-w-4xl">
+          <div class="w-8 h-8 rounded-full bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-sky-400 shrink-0">
+            <i class="fa-solid fa-robot animate-pulse"></i>
+          </div>
+          <div class="bg-[#161f30] border border-slate-800 rounded-2xl rounded-tl-none p-4 max-w-2xl text-sm text-slate-400 flex items-center gap-2">
+            <i class="fa-solid fa-circle-notch fa-spin text-sky-400"></i> 빌드 데이터베이스 검색 및 답변 작성 중...
+          </div>
+        </div>
+      `;
+      container.scrollTop = container.scrollHeight;
+
+      // API 호출
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ message: message })
+        });
+        const data = await res.json();
+        document.getElementById(loadingId).remove();
+
+        const replyHtml = marked.parse(data.reply || data.error || '답변을 불러오지 못했습니다.');
+        container.innerHTML += `
+          <div class="flex gap-4 max-w-4xl">
+            <div class="w-8 h-8 rounded-full bg-sky-500/20 border border-sky-500/40 flex items-center justify-center text-sky-400 shrink-0">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <div class="bg-[#161f30] border border-slate-800 rounded-2xl rounded-tl-none p-4 max-w-2xl text-sm leading-relaxed prose shadow-lg">
+              ${replyHtml}
+            </div>
+          </div>
+        `;
+      } catch (e) {
+        document.getElementById(loadingId).remove();
+        container.innerHTML += `
+          <div class="flex gap-4 max-w-4xl">
+            <div class="w-8 h-8 rounded-full bg-rose-500/20 border border-rose-500/40 flex items-center justify-center text-rose-400 shrink-0">
+              <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <div class="bg-rose-950/40 border border-rose-800/50 rounded-2xl rounded-tl-none p-4 max-w-2xl text-sm text-rose-300">
+              서버 오류: ${e}
+            </div>
+          </div>
+        `;
+      }
+      container.scrollTop = container.scrollHeight;
+    }
+
+    function escapeHtml(text) {
+      const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' };
+      return text.replace(/[&<>"']/g, function(m) { return map[m]; });
+    }
   </script>
 </body>
 </html>

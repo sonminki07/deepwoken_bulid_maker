@@ -44,7 +44,7 @@ CONTEXT_PARSER_PROMPT = """당신은 Deepwoken 빌드 메타 및 플레이 전�
 class ContextParserSubAgent:
     """Agent 3: 웹 콘텐츠로부터 빌드 의도, 장단점, 콤보 및 메타 정보를 추출하는 서브 에이전트"""
 
-    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-2.5-flash-lite"):
+    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-flash-latest"):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
@@ -61,7 +61,7 @@ class ContextParserSubAgent:
             f"=== Text Content ===\n{scraped.cleaned_text[:30000]}\n"
         )
 
-        models_to_try = [self.model_name, "gemini-2.5-flash-lite", "gemini-flash-latest", "gemini-2.5-pro"]
+        models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
         last_err = None
         for m_name in dict.fromkeys(models_to_try):
             try:
