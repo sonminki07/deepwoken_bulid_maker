@@ -1,7 +1,8 @@
 import os
 import logging
 from typing import Optional, List, Dict, Any
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.prompt import Prompt
@@ -27,7 +28,7 @@ class BuildAdvisor:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model_name: str = "gemini-3.7-flash",
+        model_name: str = "gemini-3.6-flash",
         db_path: str = "data/chromadb",
         collection_name: str = "deepwoken_builds",
         top_k: int = 4
@@ -36,19 +37,10 @@ class BuildAdvisor:
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
         
-        genai.configure(api_key=self.api_key)
+        self.client = genai.Client(api_key=self.api_key)
         self.model_name = model_name
         self.top_k = top_k
         self.kb = KnowledgeBuilder(db_path=db_path, collection_name=collection_name, api_key=self.api_key)
-        self.chat_session = None
-        self._init_chat()
-
-    def _init_chat(self):
-        model = genai.GenerativeModel(
-            model_name=self.model_name,
-            system_instruction=ADVISOR_SYSTEM_PROMPT
-        )
-        self.chat_session = model.start_chat(history=[])
 
     def ask(self, user_query: str) -> str:
         """사용자 질문에 대해 RAG 검색 후 Gemini 응답 생성"""
@@ -75,21 +67,25 @@ class BuildAdvisor:
             f"위 참고 빌드 지식을 바탕으로 사용자에게 최적의 빌드 추천 및 가이드를 친절하고 전문적인 마크다운 형식으로 제공하세요."
         )
 
-        models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
+        models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
         for m_name in dict.fromkeys(models_to_try):
             try:
-                m = genai.GenerativeModel(m_name, system_instruction=ADVISOR_SYSTEM_PROMPT)
-                res = m.generate_content(prompt)
-                return res.text
+                response = self.client.models.generate_content(
+                    model=m_name,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        system_instruction=ADVISOR_SYSTEM_PROMPT,
+                        temperature=0.3
+                    )
+                )
+                return response.text
             except Exception as e:
                 logger.warning(f"Advisor model {m_name} failed: {e}")
 
-        return "⚠️ 답변 생성 중 오류가 발생했습니다. API 키를 확인해 주세요."
+        return "⚠️ 답변 생성 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요."
 
     def answer_query(self, user_query: str) -> str:
         return self.ask(user_query)
-
-DeepwokenBuildAdvisor = BuildAdvisor
 
     def interactive_cli(self):
         """터미널 대화형 인터페이스 실행"""
@@ -117,3 +113,5 @@ DeepwokenBuildAdvisor = BuildAdvisor
                 break
             except Exception as e:
                 console.print(f"[bold red]오류 발생:[/bold red] {e}")
+
+DeepwokenBuildAdvisor = BuildAdvisor

@@ -1,25 +1,24 @@
 import os
-import json
 import time
+import json
 import logging
-import warnings
 from pathlib import Path
-from typing import Dict, Any, Optional
+from typing import Optional, Dict, Any
 
-with warnings.catch_warnings():
-    warnings.simplefilter("ignore", category=FutureWarning)
-    import google.generativeai as genai
-    from google.generativeai.types import File
+from google import genai
+from google.genai import types
+from dotenv import load_dotenv
 
+load_dotenv()
 logger = logging.getLogger(__name__)
 
 class BuildAnalyzer:
-    """2단계: Gemini Files API 기반 멀티모달(영상+음성) 빌드 분석기"""
+    """Agent 2: Gemini 3.6 Flash 멀티모달 비디오 분석 및 빌드 추출 에이전트"""
 
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model_name: str = "gemini-3.7-flash",
+        model_name: str = "gemini-3.6-flash",
         prompt_path: str = "prompts/analysis_prompt.txt",
         schema_path: str = "config/build_schema.json",
         temperature: float = 0.1,
@@ -27,9 +26,9 @@ class BuildAnalyzer:
     ):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
-            raise ValueError("GEMINI_API_KEY is not set. Please set the environment variable or pass api_key.")
+            raise ValueError("GEMINI_API_KEY is not set.")
         
-        genai.configure(api_key=self.api_key)
+        self.client = genai.Client(api_key=self.api_key)
         self.model_name = model_name
         self.temperature = temperature
         self.cleanup_remote_file = cleanup_remote_file
@@ -51,21 +50,21 @@ class BuildAnalyzer:
             raise FileNotFoundError(f"Schema file not found at: {path}")
         return json.loads(p.read_text(encoding="utf-8"))
 
-    def _wait_for_file_active(self, remote_file: File, timeout_seconds: int = 600, poll_interval: int = 5) -> File:
-        """Gemini Files API에 업로드된 비디오 파일의 프로세싱이 ACTIVE 상태가 될 때까지 대기"""
-        logger.info(f"Waiting for video processing on Gemini Cloud: {remote_file.name}...")
+    def _wait_for_file_active(self, file_name: str, timeout_seconds: int = 600, poll_interval: int = 5):
+        """비디오 파일 프로세싱 완료 대기"""
+        logger.info(f"Waiting for video processing on Gemini Cloud: {file_name}...")
         start_time = time.time()
         
         while time.time() - start_time < timeout_seconds:
-            f = genai.get_file(remote_file.name)
-            state = f.state.name
+            f = self.client.files.get(name=file_name)
+            state = f.state.name if hasattr(f.state, 'name') else str(f.state)
             logger.debug(f"File state: {state}")
             
-            if state == "ACTIVE":
+            if "ACTIVE" in state.upper():
                 logger.info(f"Video file is ready for analysis: {f.name}")
                 return f
-            elif state == "FAILED":
-                raise RuntimeError(f"Gemini video processing failed: {f.error.message if hasattr(f, 'error') else 'Unknown error'}")
+            elif "FAILED" in state.upper():
+                raise RuntimeError(f"Gemini video processing failed for {file_name}")
             
             time.sleep(poll_interval)
             
@@ -76,11 +75,11 @@ class BuildAnalyzer:
         if not video_path.exists():
             raise FileNotFoundError(f"Video file does not exist: {video_path}")
 
-        logger.info(f"Uploading {video_path.name} to Gemini Files API...")
-        remote_file = genai.upload_file(path=str(video_path))
+        logger.info(f"Uploading {video_path.name} to Gemini Files API via google-genai...")
+        remote_file = self.client.files.upload(file=str(video_path))
         
         try:
-            active_file = self._wait_for_file_active(remote_file)
+            active_file = self._wait_for_file_active(remote_file.name)
             
             # 메타데이터 컨텍스트 구성
             context_prompt = self.system_prompt
@@ -96,25 +95,24 @@ class BuildAnalyzer:
                 context_prompt = context_prompt + "\n" + meta_str
 
             logger.info(f"Invoking Gemini models for build extraction...")
-            from agents.key_manager import global_key_manager
-
-            models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
+            models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
             last_error = None
 
             for m_name in dict.fromkeys(models_to_try):
                 for attempt in range(1, max_retries + 1):
                     try:
-                        model = genai.GenerativeModel(
-                            model_name=m_name,
-                            generation_config={
-                                "temperature": self.temperature,
-                                "response_mime_type": "application/json",
-                            }
+                        logger.info(f"Sending video to model {m_name} (Attempt {attempt})...")
+                        response = self.client.models.generate_content(
+                            model=m_name,
+                            contents=[active_file, context_prompt],
+                            config=types.GenerateContentConfig(
+                                temperature=self.temperature,
+                                response_mime_type="application/json"
+                            )
                         )
-                        response = model.generate_content([active_file, context_prompt])
                         response_text = response.text.strip()
                         
-                        # 마크다운 백틱 제거 (```json ... ``` 처리)
+                        # 마크다운 백틱 제거
                         if response_text.startswith("```json"):
                             response_text = response_text[7:]
                         if response_text.startswith("```"):
@@ -135,19 +133,16 @@ class BuildAnalyzer:
                             
                         return parsed_json
                     except Exception as e:
-                        err_str = str(e).lower()
                         last_error = e
                         logger.warning(f"Analysis with {m_name} attempt {attempt}/{max_retries} failed: {e}")
-                        if "429" in err_str or "quota" in err_str or "resourceexhausted" in err_str:
-                            global_key_manager.rotate_key(reason="Video Analysis 429")
-                        time.sleep(3 * attempt)
+                        time.sleep(2)
 
-            raise RuntimeError(f"Build analysis failed after multiple model attempts: {last_error}")
+            raise RuntimeError(f"All model attempts failed. Last error: {last_error}")
 
         finally:
-            if self.cleanup_remote_file and remote_file:
+            if self.cleanup_remote_file and 'remote_file' in locals():
                 try:
-                    logger.info(f"Cleaning up remote file: {remote_file.name}")
-                    genai.delete_file(remote_file.name)
-                except Exception as cleanup_err:
-                    logger.warning(f"Failed to delete remote file {remote_file.name}: {cleanup_err}")
+                    logger.info(f"Cleaning up remote file from Gemini Cloud: {remote_file.name}")
+                    self.client.files.delete(name=remote_file.name)
+                except Exception as e:
+                    logger.warning(f"Failed to delete remote file: {e}")

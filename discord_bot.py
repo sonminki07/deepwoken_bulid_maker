@@ -39,10 +39,10 @@ def push_to_github(commit_msg: str) -> bool:
         return False
 
 def extract_urls(text: str) -> List[str]:
-    raw_urls = re.findall(r'https?://[^\s\)\"\']+', text)
+    raw_urls = re.findall(r'https?://[^\s\)\"\'>]+', text)
     valid_urls = []
     for u in raw_urls:
-        clean_u = u.rstrip('.,;\"\'')
+        clean_u = u.strip('<>[](),;\"\'')
         if any(k in clean_u.lower() for k in ['youtube.com', 'youtu.be', 'docs.google.com', 'deepwoken.co', 'deepwoken.fandom.com']):
             if clean_u not in valid_urls:
                 valid_urls.append(clean_u)
@@ -181,13 +181,14 @@ async def on_message(message: discord.Message):
     if message.author == bot.user:
         return
 
+    logger.info(f"📩 [Message Received] #{message.channel.name} from {message.author.name}: '{message.content}'")
+
     urls = extract_urls(message.content)
     if not urls:
         await bot.process_commands(message)
         return
 
-    # 채널 검사: input-link 채널이거나 일반 링크 업로드
-    logger.info(f"Received {len(urls)} URLs in #{message.channel.name} from {message.author.name}")
+    logger.info(f"🎯 Detected {len(urls)} URLs in #{message.channel.name} from {message.author.name}: {urls}")
 
     try:
         await message.add_reaction("⏳")
