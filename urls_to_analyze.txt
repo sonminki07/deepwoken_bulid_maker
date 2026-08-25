@@ -1,9 +1,13 @@
 # ==============================================================================
-# 📋 Deepwoken Cloud Analyzer 링크 추가 리스트
+# 📋 Deepwoken Cloud Analyzer 일괄 분석 리스트 (총 10개)
 # ==============================================================================
-# 여기에 분석하고 싶은 유튜브 영상, 구글 닥스, 웹 링크를 아래에 줄 단위로 추가(Append)하세요.
-# 브라우저에서 이 파일을 수정(Edit)하고 Commit하면 클라우드가 자동으로 새 링크들을 분석합니다.
-# ==============================================================================
-
-https://www.youtube.com/watch?v=wL96bVek6Cg
-https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit
+https://www.youtube.com/watch?v=sJm04d99BK8
+https://www.youtube.com/watch?v=hOPe91tv5BA
+https://www.youtube.com/watch?v=LldsffJqtCY
+https://www.youtube.com/watch?v=_ihaDl5m6Rs
+https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0
+https://docs.google.com/document/d/1Up1ZpSeTFWCgJyGwGJEICthyB_KbkMoguELFyVnAQZE/edit?tab=t.0
+https://docs.google.com/document/d/1nYnhwzU9mpMcojRXz90somZv9oUxhB_D-C-adh4bpQc/edit?tab=t.0
+https://docs.google.com/document/d/177XPkHZBX4hqn5D0lleQhM9UmG88h0WUdaLl2jRkbC0/edit?tab=t.0
+https://docs.google.com/document/d/186KkxhDSi3VpDnyAu06ktKGAoLJxzCeJBmBAmX0noNQ/edit?tab=t.0
+https://deepwoken.fandom.com/wiki/Bosses

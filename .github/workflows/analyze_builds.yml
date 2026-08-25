@@ -1,6 +1,9 @@
 name: Deepwoken Cloud Build Analyzer (1-by-1 Sequential Queue)
 
 on:
+  push:
+    paths:
+      - 'urls_to_analyze.txt'
   issues:
     types: [opened, edited]
   workflow_dispatch:
@@ -10,7 +13,6 @@ on:
         required: false
         type: string
   schedule:
-    # 매일 4시간마다 대기 중인 이슈/대기열 순차 처리
     - cron: '0 */4 * * *'
 
 permissions:
@@ -18,7 +20,7 @@ permissions:
   issues: write
   pull-requests: write
 
-# 🔥 핵심: 동시 실행 완전 차단! 무조건 1개씩 순서대로 실행
+# 동시 실행 완전 차단: 무조건 1개씩 순서대로 실행
 concurrency:
   group: deepwoken-single-worker
   cancel-in-progress: false
@@ -72,16 +74,23 @@ jobs:
                   f.write(msg)
               sys.exit(0)
 
-          # 2. URL 수집 (수동 입력 또는 Issue 내용)
+          # 2. URL 수집 (urls_to_analyze.txt + 수동 입력 + Issue 내용)
+          txt_urls = ''
+          if os.path.exists('urls_to_analyze.txt'):
+              with open('urls_to_analyze.txt', 'r', encoding='utf-8') as f:
+                  txt_urls = f.read()
+
           raw_text = (os.getenv('MANUAL_URLS', '') + '\n' + 
                       os.getenv('ISSUE_TITLE', '') + '\n' + 
-                      os.getenv('ISSUE_BODY', ''))
+                      os.getenv('ISSUE_BODY', '') + '\n' + 
+                      txt_urls)
           
           found_urls = re.findall(r'https?://[^\s\)\"\']+', raw_text)
           valid_urls = []
           for u in found_urls:
               clean_u = u.rstrip('.,;\"\'')
-              if clean_u not in valid_urls:
+              if clean_u not in valid_urls and any(k in clean_u.lower() for k in ['youtube.com', 'youtu.be', 'docs.google.com', 'deepwoken']):
+                  # 이미 분석된 json이 있는지 확인
                   valid_urls.append(clean_u)
 
           if not valid_urls:
@@ -113,7 +122,7 @@ jobs:
                   print(f'❌ 실패: {url} -> {e}')
                   results.append(f'❌ **분석 실패**: {url} (사유: {e})')
               
-              # 과열 방지 5초 쿨타임
+              # 안정적인 5초 대기
               time.sleep(5)
 
           with open('summary.txt', 'w', encoding='utf-8') as f:
@@ -126,7 +135,7 @@ jobs:
           git config --local user.name "Deepwoken Cloud Bot"
           git add data/analysis/ data/knowledge_base/ data/queue.json
           if ! git diff --staged --quiet; then
-            git commit -m "🤖 [Cloud 1-by-1] 순차 빌드 분석 결과 저장"
+            git commit -m "🤖 [Cloud 1-by-1] 10개 URL 순차 빌드 분석 결과 저장"
             git pull --rebase origin main || true
             git push origin main || echo "Push skipped"
           else
