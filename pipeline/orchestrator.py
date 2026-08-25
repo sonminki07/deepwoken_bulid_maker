@@ -115,3 +115,6 @@ class PipelineOrchestrator:
             "elapsed_seconds": elapsed,
             "build_data": raw_analysis
         }
+
+BuildPipelineOrchestrator = PipelineOrchestrator
+

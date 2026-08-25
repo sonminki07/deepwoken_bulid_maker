@@ -98,7 +98,7 @@ class BuildAnalyzer:
             logger.info(f"Invoking Gemini models for build extraction...")
             from agents.key_manager import global_key_manager
 
-            models_to_try = [self.model_name, "gemini-2.5-flash-lite", "gemini-flash-latest", "gemini-2.5-pro"]
+            models_to_try = ["gemini-flash-latest", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-pro-latest"]
             last_error = None
 
             for m_name in dict.fromkeys(models_to_try):
