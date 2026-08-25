@@ -1,0 +1,104 @@
+import os
+import time
+import logging
+from concurrent.futures import ThreadPoolExecutor
+from pathlib import Path
+from typing import Dict, Any, Optional
+import yaml
+
+from agents.web_scraper import WebScraperAgent, ScrapedWebContent
+from agents.subagents.build_parser import BuildParserSubAgent
+from agents.subagents.context_parser import ContextParserSubAgent
+from agents.subagents.validator import CrossValidatorAgent
+from agents.structurer import BuildStructurer
+from agents.knowledge_builder import KnowledgeBuilder
+
+logger = logging.getLogger(__name__)
+
+class WebPipelineOrchestrator:
+    """웹사이트 멀티 서브 에이전트 파이프라인 총괄 오케스트레이터"""
+
+    def __init__(self, config_path: str = "config/settings.yaml"):
+        self.config = self._load_config(config_path)
+        gemini_cfg = self.config.get("gemini", {})
+        rag_cfg = self.config.get("rag", {})
+        paths_cfg = self.config.get("paths", {})
+        self.api_key = os.getenv("GEMINI_API_KEY")
+
+        # 에이전트 초기화
+        self.scraper = WebScraperAgent()
+        self.build_parser = BuildParserSubAgent(
+            api_key=self.api_key,
+            model_name=gemini_cfg.get("model", "gemini-2.5-pro")
+        )
+        self.context_parser = ContextParserSubAgent(
+            api_key=self.api_key,
+            model_name=gemini_cfg.get("model", "gemini-2.5-pro")
+        )
+        self.validator = CrossValidatorAgent()
+
+        self.structurer = BuildStructurer(
+            schema_path=paths_cfg.get("schema_path", "config/build_schema.json"),
+            analysis_dir=paths_cfg.get("analysis_dir", "data/analysis"),
+            knowledge_base_dir=paths_cfg.get("knowledge_base_dir", "data/knowledge_base")
+        )
+
+        self.knowledge_builder = KnowledgeBuilder(
+            db_path=rag_cfg.get("db_path", "data/chromadb"),
+            collection_name=rag_cfg.get("collection_name", "deepwoken_builds"),
+            api_key=self.api_key
+        )
+
+    def _load_config(self, path: str) -> dict:
+        p = Path(path)
+        if not p.exists():
+            return {}
+        return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+
+    def process_url(self, url: str) -> Dict[str, Any]:
+        """단일 웹 URL에 대해 서브 에이전트들을 가동하여 빌드 분석 및 RAG 적재 수행"""
+        start_time = time.time()
+        logger.info(f"=== [Web Multi-Agent Pipeline] Starting for: {url} ===")
+
+        # Step 1: 웹페이지 스크래핑
+        logger.info("[SubAgent 1/5] Scraping HTML and text structure via WebScraperAgent...")
+        scraped: ScrapedWebContent = self.scraper.scrape(url)
+
+        # Step 2 & 3: 서브 에이전트 병렬 가동 (BuildParser & ContextParser)
+        logger.info("[SubAgent 2 & 3] Running BuildParser and ContextParser subagents in parallel...")
+        with ThreadPoolExecutor(max_workers=2) as executor:
+            future_mechanics = executor.submit(self.build_parser.parse, scraped)
+            future_context = executor.submit(self.context_parser.parse, scraped)
+
+            build_mechanics = future_mechanics.result()
+            context_data = future_context.result()
+
+        # Step 4: 교차 검증 및 데이터 병합
+        logger.info("[SubAgent 4/5] Merging and cross-validating via CrossValidatorAgent...")
+        merged_build = self.validator.validate_and_merge(scraped, build_mechanics, context_data)
+
+        # Step 5: JSON 검증 & Markdown 생성 및 ChromaDB 인덱싱
+        logger.info("[SubAgent 5/5] Structuring and indexing to ChromaDB knowledge base...")
+        doc_id = scraped.doc_id
+        saved_paths = self.structurer.process_and_save(raw_json=merged_build, video_id=doc_id)
+
+        self.knowledge_builder.ingest_build(
+            video_id=doc_id,
+            json_path=saved_paths["json_path"],
+            md_path=saved_paths["md_path"]
+        )
+
+        elapsed = time.time() - start_time
+        build_name = merged_build.get("build_summary", {}).get("build_name", scraped.title)
+        logger.info(f"=== Web Pipeline completed in {elapsed:.2f}s for '{build_name}' ===")
+
+        return {
+            "status": "success",
+            "doc_id": doc_id,
+            "url": url,
+            "build_name": build_name,
+            "json_path": str(saved_paths["json_path"]),
+            "md_path": str(saved_paths["md_path"]),
+            "elapsed_seconds": elapsed,
+            "build_data": merged_build
+        }

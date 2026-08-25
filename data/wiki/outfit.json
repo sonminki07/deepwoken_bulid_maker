@@ -1,0 +1,1382 @@
+[
+  {
+    "name": "Mod Suit",
+    "category": "outfit",
+    "description": "Just another day at the office.",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Purchased from the Mod Shop."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mod Skirt",
+    "category": "outfit",
+    "description": "Just another day at the office.",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Purchased from the Mod Shop."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "White Mod Suit",
+    "category": "outfit",
+    "description": "Fashioned after the Dragon of Dojima.\r\n",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Purchased from the Mod Shop."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mod Hoodie",
+    "category": "outfit",
+    "description": "Increases your coolness attribute.\r",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Purchased from the Mod Shop."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mod Business Competitive",
+    "category": "outfit",
+    "description": "The ticket grind never stops.\r",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Purchased from the Mod Shop."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Auroran Gremor",
+    "category": "outfit",
+    "description": "Armor of the Auroran Gremor\r\n",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "objectives": [
+        "Given by a Developer."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Leader's Garment",
+    "category": "outfit",
+    "description": "The royal robes of the King of the Hive, layered in protective material and luxurious cloth alike, a one-of-a-kind garb that can only be produced every millenia.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "objectives": [
+        "Given by a Developer."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mr Toon",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Given by a Developer."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Soren",
+    "category": "outfit",
+    "description": "The signature outfit of Wishmakers, a group of Lightborn sorcerers now lost to time.",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Given by a Developer."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wishmaker",
+    "category": "outfit",
+    "description": "The signature outfit of Wishmakers, a group of Lightborn sorcerers now lost to time.",
+    "rarity": "",
+    "requirements": {
+      "objectives": [
+        "Given by a Developer."
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Rogue",
+    "category": "outfit",
+    "description": "Sturdy leather armor, fashioned for the hunters sent down into Etrea's forest.",
+    "rarity": "",
+    "requirements": {
+      "unobtainable": true
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Adjudicator",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "unobtainable": true
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corsair Outlaw",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Eager Tradesman",
+    "category": "outfit",
+    "description": "There's work to be done. In style.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hired Mercenary",
+    "category": "outfit",
+    "description": "A basic set of armor perfect for taking on the world!... Uhhhh... yeah.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Merchant Robes",
+    "category": "outfit",
+    "description": "A set of merchant robes, great for selling things not so great for battle.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Sorcerer",
+    "category": "outfit",
+    "description": "Simple robes of a pathfinder.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Intelligence": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Scholar",
+    "category": "outfit",
+    "description": "Perhaps one of a few too many words, at least by the reckoning of others.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Skeptic Pioneer",
+    "category": "outfit",
+    "description": "A durable coat to protect you against the wear of the world.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stranded",
+    "category": "outfit",
+    "description": "Some have a rougher start than others.",
+    "rarity": "",
+    "requirements": {
+      "or": [
+        {
+          "origin": "Lone Warrior"
+        },
+        {
+          "origin": "Castaway"
+        }
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Traveller's Jacket",
+    "category": "outfit",
+    "description": "A well-worn jacket suitable for travelling.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whaler Initiate",
+    "category": "outfit",
+    "description": "Coat and pseudo-uniform of Eylis' gang of assassins. The appearance of these men from the Central Luminant marks harsh times for Etrea.",
+    "rarity": "",
+    "requirements": {
+      "origin": "Voidwalker"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Peacekeeper Armor",
+    "category": "outfit",
+    "description": "The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.",
+    "rarity": "",
+    "requirements": {
+      "or": [
+        {
+          "origin": "Authority Ensign"
+        },
+        {
+          "stats": {
+            "Power": 5,
+            "Fortitude": 5
+          },
+          "origin": "Authority Ensign"
+        }
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bounty Hunter",
+    "category": "outfit",
+    "description": "Armor suited for hunting monsters.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Carefree Garments",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cutthroat Light Armor",
+    "category": "outfit",
+    "description": "Sturdy leather armor, fashioned for the hunters sent into the driftlands to deal with rival factions.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Diver Apprentice Robes",
+    "category": "outfit",
+    "description": "Robes of an Apprentice Diver. A robe weaved through the power of the Song, grants passable elemental defenses and ether regeneration.",
+    "rarity": "",
+    "requirements": {
+      "or": [
+        {
+          "origin": "Deepbound"
+        },
+        {
+          "stats": {
+            "Power": 5,
+            "Intelligence": 10
+          }
+        }
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Duelist's Attire",
+    "category": "outfit",
+    "description": "The attire of a duelist for sport.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Experienced Adventurer",
+    "category": "outfit",
+    "description": "You wear your experience.\r",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Worshipper Armor",
+    "category": "outfit",
+    "description": "Coat of the Covenant of Flame, pioneered by the Drowned Diver Amorus Pleeksty.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ignition Union Uniform",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Keeper",
+    "category": "outfit",
+    "description": "Armor with magical properties.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5,
+        "Intelligence": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Navaen Nomad Robes",
+    "category": "outfit",
+    "description": "Outfit of the Eastern Navaen Nomads. The frigid prisms crafted into this armor have been blessed by Navae, giving them defense against darkness and the cold",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Cloak",
+    "category": "outfit",
+    "description": "A long coat hiding reptilian-like armored scales. A new pathfinder's pride.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Thaumaturge",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5,
+        "Intelligence": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Hunter",
+    "category": "outfit",
+    "description": "A garb commonly worn by shadowy thieves and assassins, excellent for sneaking up on enemies.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Steel Plate",
+    "category": "outfit",
+    "description": "The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5,
+        "Fortitude": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summer Company Uniform",
+    "category": "outfit",
+    "description": "An easy to reproduce armor for the summer company grunts.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vigil Initiate",
+    "category": "outfit",
+    "description": "Initiate of the Vigil. A warrior must walk the path before being granted the cloak of winds.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Captain Uniform",
+    "category": "outfit",
+    "description": "The unmistakable banded coat of an Adretian Captain. Despite immediate appearances, the coat is wound with protective fibers that provide unparalleled durability.",
+    "rarity": "",
+    "requirements": {
+      "or": [
+        {
+          "objectives": [
+            "Command Division"
+          ],
+          "origin": "Authority Ensign"
+        },
+        {
+          "stats": {
+            "Power": 10,
+            "Strength": 25
+          },
+          "origin": "Authority Ensign"
+        }
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cerulean Gown",
+    "category": "outfit",
+    "description": "A bodiced sky-blue dress, with various tassels attached for decoration. Despite its initial elegant appearance, the fastened layered skirt, tight-cuffed shirt sleeves, and sturdy boots suggest the outfit is both stylish and functional, fit for both formal and perilous occasions.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cloak of Winds",
+    "category": "outfit",
+    "description": "Powerful cloak of the Vigils.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Darksteel Plate",
+    "category": "outfit",
+    "description": "The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Fortitude": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Diver Journeyman Robes",
+    "category": "outfit",
+    "description": "Crafted for experienced Divers, these robes signify one who has experienced the horrors of the Deep.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Guard",
+    "category": "outfit",
+    "description": "Serpentine armor of the Kingdom of Etrea. A lightweight piece of plate sits atop padded snakeskin leather.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Pathfinder Cloak",
+    "category": "outfit",
+    "description": "A long coat hiding reptilian-like armored scales beneath. A pathfinder's pride.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Drone",
+    "category": "outfit",
+    "description": "Uniform of the Hive, threaded for powerful soldiers and researchers alike.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Tactician Armor",
+    "category": "outfit",
+    "description": "A fine coat interwoven with steel using Ironsing.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Agility": 25
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ignition Trailblazer",
+    "category": "outfit",
+    "description": "Garb for those aspiring to become Deepdelvers",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ignition Welder",
+    "category": "outfit",
+    "description": "Sturdy workwear designed for heavy duty labour. Just remember - personal protective equipment doesn't make you invincible!",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Fortitude": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Martial Artist",
+    "category": "outfit",
+    "description": "Show your strength.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Strength": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Arch-Sorcerer",
+    "category": "outfit",
+    "description": "Robes of a full fledged Pathfinder Sorcerer. Grants excellent elemental defense and Ether regen.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Intelligence": 25
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Seamstress's Attire",
+    "category": "outfit",
+    "description": "A simple yet skillfully decorated set of clothes, including a gorgeous layered and frilled skirt, as well as a ruffled shirt, topped off with a functional waistcoat. A garb favoured by craftsfolk - the little frills and ruffles are usually personal touches, showcasing wearer's skill with needle and thread.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Troublemaker's Overcoat",
+    "category": "outfit",
+    "description": "A sturdy closed overcoat covering a wholesale ankle-high frock dress, with leather-reinforced shoulderpads and bracers. Perfect for those days when you're willing to dish out a bruising, but don't want your favourite dress to be ruined in the scrapping.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Varicosan Finery",
+    "category": "outfit",
+    "description": "A gorgeously fitted remnant of high Celtorian society. Fashion speaks louder than words - what more is there to say?",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Verdant Sniper",
+    "category": "outfit",
+    "description": "Armor once worn by a renowned master of the bow.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Veteran Adventurer",
+    "category": "outfit",
+    "description": "With all this experience, how could you possibly be a bad guy?",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whaler Coat",
+    "category": "outfit",
+    "description": "Coat and pseudo-uniform of Eylis' gang of Assassins. The appearance of these men from the Central Luminant marks harsh times for Etrea.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Arachnid's Weave",
+    "category": "outfit",
+    "description": "Spun around the dantiest of spider silks, this silvery coordinate is punctuated by its iconic corset. Perhaps \"laced\" with poison?",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Black Diver",
+    "category": "outfit",
+    "description": "Coat of an esteemed Black Diver, one of the few in many generations of Divers from the Markor Citadel.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Willpower": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cala-Mariner",
+    "category": "outfit",
+    "description": "The tattoo sprawling across your chest serves as a physical memory of the aquatic foes you have felled, and as a keen warning to those who would stand in your way.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Willpower": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celtorian Tideknight",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Darkened Bastion",
+    "category": "outfit",
+    "description": "A noble's armor, shattered and reforged into a sleek and dark ensemble. The essence of Shadowcast courses through its fibers like a living entity embedded within the fabric. When you lay your hand upon it, a disquieting sensation washes over you.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ignition Deepdelver",
+    "category": "outfit",
+    "description": "Heavyweight armor devised for deepdelvers into the layers of the Depths.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Justicar's Armor",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legion Centurion",
+    "category": "outfit",
+    "description": "Armor worn by the honorary centurion of the legion, who excel in the ways of Gale Kata.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Fortitude": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Navaen War Chief",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prophet's Cloak",
+    "category": "outfit",
+    "description": "Cloak of a Ministry Prophet.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Etrean Guard",
+    "category": "outfit",
+    "description": "The armor of the Royal Etrean Guard.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summer Dragoon",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Titanslayer's Adornment",
+    "category": "outfit",
+    "description": "Your very own rightful spoils of war, a gilded adornment made of the furs and skins of Primadon, the mighty Titan of the East. Although the beast is poorly understood, one thing is for certain - its might is overwhelming. This attire is a testament to your victory against it... until the Titan rises again.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Strength": 50
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Titus's Raiment",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Strength": 30
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Windrunner Robes",
+    "category": "outfit",
+    "description": "The flowing robes of a Jetstriker, said to assist in attuning oneself to the Flow of the Song",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Commander",
+    "category": "outfit",
+    "description": "The armored robes of an Authority Commander.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "origin": "Authority Ensign"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cindergarb",
+    "category": "outfit",
+    "description": "Forged from fabric tempered in flame. Cindergard gathers shed embers enhancing your flamecharm ability.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Flamecharm": 45
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Assassin's Armor",
+    "category": "outfit",
+    "description": "Discard your identity.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Demon's Armor",
+    "category": "outfit",
+    "description": "So ya want to become a bossraid Oni...?",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Heretic's Armor",
+    "category": "outfit",
+    "description": "Fit only for a traitor.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Knight's Armor",
+    "category": "outfit",
+    "description": "You don't know why but a certain Murmur is making you very angry.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Occultist's Armor",
+    "category": "outfit",
+    "description": "The visage of a five-eyed hound enters your mind unsolicited. Brr.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ferryman's Coat",
+    "category": "outfit",
+    "description": "Coat of the Krulian horror known as the Ferryman.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heretic's Memento",
+    "category": "outfit",
+    "description": "All the rage among those with a desire to flaunt the trophies of their achievements. More notoriously donned as a testament to one's strength, though the obnoxiously gold adornments seem to indicate an equally flashy ego to a more keen-eyed observer.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Icebringer's Vestments",
+    "category": "outfit",
+    "description": "An elegant outfit favoured by expert Frostdrawers. The weavers and seamsters who typically make outfits of this kind are known for their secret techniques, which they use to imbue elemental resistances into the very fabrics they manufacture.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Frostdraw": 45
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Inquisition Light",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "objectives": [
+        "Inquisition Division"
+      ],
+      "origin": "Authority Ensign"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jade Vigil's Weave",
+    "category": "outfit",
+    "description": "Masters of the ancient Fang and Coil technique wear this robe as a tribute to their rich heritage. Its verdant weave once served as subtle camouflage, blending seamlessly into the wilds of a forgotten era.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jester's Garb",
+    "category": "outfit",
+    "description": "A lovely three-piece suit reminiscent of opulence, yet suggestions of prankish intention linger, woven within the argyle. At least if you make a fool of yourself, you're dressed for the part!",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sanguine Finery",
+    "category": "outfit",
+    "description": "An elegant outfit favoured by expert Bloodrenders. The weavers and seamsters who typically make outfits of this kind are known for their secret techniques, which they use to imbue elemental resistances into the very fabrics they manufacture.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Bloodrend": 45
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shock Corps Light",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "objectives": [
+        "Shock Corps Division"
+      ],
+      "origin": "Authority Ensign"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stormchanter's Raiments",
+    "category": "outfit",
+    "description": "An elegant outfit favoured by expert Thundercallers. The weavers and seamsters who typically make outfits of this kind are known for their secret techniques, which they use to imbue elemental resistances into the very fabrics they manufacture.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Thundercall": 45
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tempestmaker's Threads",
+    "category": "outfit",
+    "description": "An elegant outfit favoured by expert Galebreathers. The weavers and seamsters who typically make outfits of this kind are known for their secret techniques, which is to imbue elemental resistances into the very fabrics they manufacture.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Galebreathe": 45
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trickster's Habit",
+    "category": "outfit",
+    "description": "Threaded with detailed embroidery and carefully pleated ruffles, this technically impressive garment is sure to turn heads. Frustratingly, the ladder-laced details are especially hard to keep neat-fashion before function.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vigil Sentinel",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Willpower": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Barbarian",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "memento": "Beserker"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hidden Knife Armor",
+    "category": "outfit",
+    "description": "Discard your identity.",
+    "rarity": "",
+    "requirements": {
+      "memento": "Rogue Assassin"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Strange Merchant",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "memento": "Strange Merchant"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Unsung",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "memento": "Drifter"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Justicar Neophyte",
+    "category": "outfit",
+    "description": "Robes given to those who have just joined the journey to help others in need. These are woven to prioritize quick movement if needed.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 1
+      },
+      "origin": "Justicar"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ringing Scholar's Garb",
+    "category": "outfit",
+    "description": "Knell's refrabricated garb hails from when he was still himself, its designs steeped in his studies of oscillatory sound. Though he was not a resonant soul and the science imperfect in its time, the Indichite infusion is capable of amplifying the soul's resonance- powerful, but increasingly unstable.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15,
+        "Intelligence": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "11th Legion Plate",
+    "category": "outfit",
+    "description": "Armor of the 11th Scouting Legion. Akilles brought them here some time ago to observe the coming conflict in the East.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 5,
+        "Fortitude": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stratos' Cloak",
+    "category": "outfit",
+    "description": "An honorable gift given in recognition of your heroism. Donning these robes represents the highest anointment granted within the Blade Temple.",
+    "rarity": "",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warder's Attire",
+    "category": "outfit",
+    "description": "Although Warders take a more passive approach to aiding those they wish to see walk the path, they still don armor in preparation for battle, should they need to step onto the front lines.",
+    "rarity": "",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "objectives": [
+        "Warder Path"
+      ],
+      "origin": "Justicar"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moonseye",
+    "category": "outfit",
+    "description": "...",
+    "rarity": "",
+    "requirements": {
+      "memento": "Prince of the Moon"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Union Initiate",
+    "category": "outfit",
+    "description": "",
+    "rarity": "",
+    "requirements": {
+      "origin": "Ignition Delver"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blacksteel Attire",
+    "category": "outfit",
+    "description": "Attire wrought from forged blacksteel. Its weight hardens the wearer's stance.",
+    "rarity": "",
+    "requirements": {
+      "memento": "Iron Vessel"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  }
+]

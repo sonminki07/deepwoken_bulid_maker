@@ -1,0 +1,18 @@
+# API 키 및 환경 변수 보호 (절대 깃허브에 노출되지 않도록 제외)
+.env
+.env.local
+
+# 대용량 비디오 다운로드 캐시 제외
+data/videos/*.mp4
+data/videos/*.m4a
+data/videos/*.webm
+data/videos/*.part
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# 벡터 DB 임시 캐시
+data/chromadb/

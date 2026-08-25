@@ -1,0 +1,4784 @@
+[
+  {
+    "name": "A Lot of Hats",
+    "category": "equipment",
+    "description": "Go play dark souls 1",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Greatlord's Royal Adornment",
+    "category": "equipment",
+    "description": "Lol",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "MICROWAVETM",
+    "category": "equipment",
+    "description": "Go play heat signature",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moderator Cap",
+    "category": "equipment",
+    "description": "Go play ultrakill",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "THE MACHINE",
+    "category": "equipment",
+    "description": "Go play metal gear rising",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Worldshaper's Laurel",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Party Hat",
+    "category": "equipment",
+    "description": "Hooray! Worth your weight in gold on the exchange, for some reason.",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Heretic's Helm",
+    "category": "equipment",
+    "description": "A familiar helm said to have been passed down by a wayward line of a distant land.\n[*Note; Only obtainable through the Hallowtide Event or the Hallowtide '22 Medal.]",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Knight's Helm",
+    "category": "equipment",
+    "description": "A familiar helm said to have been passed down by a wayward line of a distant land.\n[*Note; Only obtainable through the Hallowtide Event or the Hallowtide '22 Medal.]",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Familiar Priest's Helm",
+    "category": "equipment",
+    "description": "A familiar helm said to have been passed down by a wayward line of a distant land.\n[*Note; Only obtainable through the Hallowtide Event or the Hallowtide '22 Medal.]",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mushroom Costume",
+    "category": "equipment",
+    "description": "A fullbody mushroom costume. You feel the strange urge to change your name to Fungbert, or perhaps Fungula.\n[*Note; Only obtainable through the Hallowtide Event, or with the Hallowtide '23 Medal.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pumpkin Head",
+    "category": "equipment",
+    "description": "Just make sure you still have a head after you take it off.\n[*Note; Only obtainable through the Hallowtide Event or the Hallowtide '23 Medal.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aegis of Enmity",
+    "category": "equipment",
+    "description": "The Voice of Enmity's helm, few have lived to know it well. Now donned by you, the new self proclaimed arbiter of judgement...",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Chef's Toque",
+    "category": "equipment",
+    "description": "It's not raw, you are.",
+    "rarity": "Unique",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ether Refined Brim",
+    "category": "equipment",
+    "description": "A finely crafted hat worn by master wizards of the Northen Luminant, imbued with song woven into its fabric. It amplifies the wearer's power in battle.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 16
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jester's Beret",
+    "category": "equipment",
+    "description": "A beret with a sleek texture and fit, evidently the work of a skilled tailor - must've cost a pretty penny. Though to those which money has no meaning, the visual statement outweighs any price.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kyrsmas Hat",
+    "category": "equipment",
+    "description": "A cheerful cozy hat donned by the most festive Kyrsgarde.",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Parasol Planter",
+    "category": "equipment",
+    "description": "The remains of a Parasol that have been relentlessly butchered in the name of fashion. Believed to migrate between the regions of the Voidsea, the sight of a Parasol is more than enough to make many lose their lunch. It's thought that they act as a form of cross-pollinator for various creatures that make their way from the Depths to Lumen, exchanging the traits and properties between them and dismantling ecosystems by injecting them into a competing niche.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Simmerbloom Diadem",
+    "category": "equipment",
+    "description": "Another relic of Aska's, this ancient artifact was once in the hands of the elusive pioneer of flame charm. Bestowed by flame worshippers and seldom seen, its precise origins are shrouded in mystery. The flame that flickers within its adorned flower suggests a hidden power, making it a priceless treasure for those who truly understand its significance.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The No-Life King's Crown",
+    "category": "equipment",
+    "description": "",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tillian's Beret",
+    "category": "equipment",
+    "description": "A beret with a sleek texture and fit, evidently the work of a skilled tailor - must've cost a pretty penny. Though to those which money has no meaning, the visual statement outweighs any price.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warlock's Brim",
+    "category": "equipment",
+    "description": "A finely crafted hat worn by master wizards of the Northen Luminant, imbued with song woven into its fabric. It amplifies the wearer's power in battle.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 16
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodforged Crown",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deepscorn Casque",
+    "category": "equipment",
+    "description": "An artifact of dark renown, convincing them they are already dead, instilling a strange reckless calm, Crafted from darksteel, its history is steeped in blood; its last owner met a grim fate during a forbidden Ministry Ritual to grow a murky, grotesque abomination. Grayhule failed his experiments and succumbed to his own shadows. Dare to don this helm at your own peril.",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Fisher Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aazel's Horns",
+    "category": "equipment",
+    "description": "An otherwordly set of faux horns. Faint scratches on the back spell something like 'Aazel', though the writing is weathered almost beyond recognition. Whoever wore these must have long since drowned. Strangely, they're warm to the touch.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Enhanced Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Immortal Helm",
+    "category": "equipment",
+    "description": "Helm of an Immortal Guardian. The product of Ministry experimentation, it's thought that these helmets enthrall their wielders by means of a Mind Veil, causing immediate death should they ever be removed. It seems that in prying this helmet off that this functionality has been disabled. You hope.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Monastery Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Necrotic Demon Horns",
+    "category": "equipment",
+    "description": "An otherworldly set of faux horns. Faint scratches on the back spell 'Aazel', though the writing is weathered almost beyond recognition. Whoever wore these must have long since drowned. Strangely, they're warm to the touch...",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Assassin's Hood",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6,
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Helm",
+    "category": "equipment",
+    "description": "The standard-issue helmet of the Central Authority. The bearer's identity is stripped away, leaving only a faceless soldier in service of the world's salvation under the guiding hand of Sovereign Drallis Ehr, Overseer of Epochs. None have ever seen the true face of Lumen's Savior, and so too are his proxy's faces shrouded. Truly, the world is only illuminated by the will and grace of the Sovereign of Ages. Within this dark a blazing light.",
+    "rarity": "Rare",
+    "requirements": {
+      "or": [
+        {
+          "stats": {
+            "Power": 10,
+            "Fortitude": 10
+          }
+        },
+        {
+          "origin": "Authority Ensign"
+        }
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Big Alchemist's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Big Herbalist's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blackleaf Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blacksteel Helm",
+    "category": "equipment",
+    "description": "An imposing helmet made from blackened steel.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodfeather Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celtor Commander Helm",
+    "category": "equipment",
+    "description": "Despite being a realm built primarily on commerce, the city of Celtor also possessed many long-standing military traditions, now lost to time. But, by candle light, among the Celtorian diaspora, some still recall their fragments, many generations since. These embers of history survive through word of mouth and recollection. Tales of valiant knights in shining armour, of glorious quests, of honour and virtue. Yet, what kernels of truth remain in these stories, diluted by the salt-brine of time?",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dark Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dark Owl Chapeau",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deepwoken Hood",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6,
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Feathertop Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Goldleaf Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Handler's Hood",
+    "category": "equipment",
+    "description": "A shroud worn proud by the higher ranking members of the Central Authority Inquisition. Becoming a Handler is no easy feat for any Inquisitor, and requires a high expertise in a variety of skills. Handlers often act as trusted agents commanded directly by the High Inquisitors, extending the reach of their activities far beyond Authority territory. They are the measured blades which slice apart the chains which seek to bind all.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "High Inquisitor's Hood",
+    "category": "equipment",
+    "description": "A shroud worn proudly by highest ranking members of the Inquisition of the Central Authority. Orchestrating whole divisions of Inquisitors like relentless, haunting shadows, the High Inquisitors are the faithful eyes and ears of the Authority all over Lumen.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Investigator's Hat",
+    "category": "equipment",
+    "description": "\"Well, I'd rather not be always working, but with crime, you don't make your own hours. However, no matter where I go, the show is always the same... Dead body. Stage left.\"",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kabuto",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legion Helmet",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Miner's Hardhat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Necrotic Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Black Helm",
+    "category": "equipment",
+    "description": "An imposing helmet made from blackened steel.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Phalanx Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Seamaster's Cap",
+    "category": "equipment",
+    "description": "Ten thousand thundering typhoons!",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shock Trooper Helmet",
+    "category": "equipment",
+    "description": "The Legion boast of honor in battle, but the victims of a Shock Trooper would tell a different story.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Silver Knight's Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Smith's Bandana",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Specialist Helmet",
+    "category": "equipment",
+    "description": "The Legion boast of honor in battle, but the victims of a Shock Trooper would tell a different story.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 20,
+        "Thundercall": 30,
+        "Galebreathe": 30
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Strapped Hat",
+    "category": "equipment",
+    "description": "A hat typically worn by those from the Central Luminant.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ten-Gallon Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tophat",
+    "category": "equipment",
+    "description": "While wearing a hat like this you start feeling the urge to exploit the surplus labor of the working class.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vagabond's Bicorn",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vigil Hood",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 6,
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Alchemist's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Barrel Helm",
+    "category": "equipment",
+    "description": "A sturdy helmet shaped like a barrel.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brigand's Bicorn",
+    "category": "equipment",
+    "description": "Even outlaws need style.",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gladiator Helm",
+    "category": "equipment",
+    "description": "The visage of a gladiator who has seen many battles.",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Guardian Helmet",
+    "category": "equipment",
+    "description": "The imposing helm of a guardian.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Herbalist's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legate Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Barrel Helm",
+    "category": "equipment",
+    "description": "A sturdy helmet shaped like a barrel.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ascended Outlaw Hat",
+    "category": "equipment",
+    "description": "Common Garb among western peons; this hat is perfect for beating the heat or disguising one's identity.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Evanspear War Helmet",
+    "category": "equipment",
+    "description": "Hell hath no fury like an Evanspear.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gumshoe Hat",
+    "category": "equipment",
+    "description": "\"Huh!? Hey! You can't just go saying \"pal\" like that! That's MY endearing character trait!\"",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced War Helmet",
+    "category": "equipment",
+    "description": "Hell hath no fury like an Evanspear.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Western Outlaw Hat",
+    "category": "equipment",
+    "description": "Common Garb among western peons; this hat is perfect for beating the heat or disguising one's identity.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Eternal Restraints",
+    "category": "equipment",
+    "description": "The world will never forgive you of your sins, Haske. And you will never be freed from them.",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stag Wraps",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Phoenix Duster",
+    "category": "equipment",
+    "description": "???",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bastions of Enmity",
+    "category": "equipment",
+    "description": "Holy Mackerel! That was a tough fight!",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ether Refined Mantle",
+    "category": "equipment",
+    "description": "A finely woven gown imbued with the artistry of master songsmiths from the Northern Luminant. Enchanted by melodies intricately woven into its fabric, this garment bestows supernatural properties, amplifying the wearer's prowess and performance in battle.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 12,
+        "Intelligence": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Champion's Cape",
+    "category": "equipment",
+    "description": "Time to write your own legends.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summer Scarf",
+    "category": "equipment",
+    "description": "A scarf adorned by the esteemed gunsmiths of the Summer Company- smells like gunpowder...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Titus's Cape",
+    "category": "equipment",
+    "description": "The fabled cape of Titus Fulminus Destellus. Even for its size, it's heavier than it looks.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warlock's Mantle",
+    "category": "equipment",
+    "description": "A finely woven gown imbued with the artistry of master songsmiths from the Northern Luminant. Enchanted by melodies intricately woven into its fabric, this garment bestows supernatural properties, amplifying the wearer's prowess and performance in battle.",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 12,
+        "Intelligence": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Abyss Wanderer's Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Delver's Duster",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Diver's Light Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Fisher Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ignition Gauntlets",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ironsinger Heavy Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Monastery Champion Robes",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moonseye Gauntlets",
+    "category": "equipment",
+    "description": "Gauntlets fashioned with a Moonseye motif. The watchful eye of gloamdark sky, the Moonseye has long been associated with life, death, and rebirth. In the Southern Luminant, the Moonseye was thought of as a lens through which one's dearly departed ancestors might view them from the afterlife. Moonseye charms were often woven into clothing to remember the fallen. Some organised gangs in the City of Celtor would refrain from committing crimes in the view of the Moonseye, on the premise that their ancestors were watching. Of course, dark alleyways and warehouses are often free from its gaze.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Elite",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Providence Coat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Star Duster",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warden Pauldrons",
+    "category": "equipment",
+    "description": "Elegant and steadfast, these pauldrons are truly fit for one who protects the seas.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Adjudicator's Coat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Adventurer Coat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Assassin's Cloak",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Commander Coat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Autumn Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blacksteel Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bluesteel Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brigand's Cloak",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celtor Commander Plate",
+    "category": "equipment",
+    "description": "Clad in sturdy mastercraft armour modelled to resemble the walls of Celtor, the city's highest-ranking officers oversaw the day-to-day running of its military affairs. What did they see, on Celtor's final, fateful day? What hearts of stone belayed the Grand Marshal's order to evacuate the city? How many of them fled ahead of time, seeking to save their sorry lives? What hand valiantly stayed behind, to shepherd desperate civilians to the harbour?",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dark Owl Cloak",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deepwoken Cloak",
+    "category": "equipment",
+    "description": "An ancient cloak of incredible power. Worn by a select few.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Siege Cuirass",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "First Ranger Duster",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fur Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Authority Plate",
+    "category": "equipment",
+    "description": "A fine cuirass of dark, galvanised steel. The relative lightness of the chestplate, contrasted with its sturdiness and resistance to corrosion, make this piece a favourite among members of [[the Central Authority]] Shock Corps, especially among units which utilise hit-and-run precision strike tactics. Sellswords, mercenaries, and bandits of the [[Eastern Luminant]] tend to mimic this versatile style of armour using leather instead.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gumshoe Longcoat",
+    "category": "equipment",
+    "description": "\"My salary's been kinda on the low end... So yeah, my food options have been kinda non-existent. Off-brand chicken soup, off-brand spaghetti, off-brand bread... That sort of stuff. Instant noodles? ...I got really sick of the stuff after a while, sir.\"",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hive Scourge Cuirass",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Imperial Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Iron Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legion Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legion Phalanx Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Megalodaunt Coat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mercenary's Garb",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ministry Cloak",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ministry Operative Cloak",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Novice Brace",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Black Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ranger's Brace",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Redsteel Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Pathfinder",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sandrunner Wraps",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Silver Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Smith's Gloves",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tracker's Brace",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vanguard Brace",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Winter Corps Parka",
+    "category": "equipment",
+    "description": "An essential part of the Authority Winter Corps' kit. Devised to be resilient against the often thorny passages of the drakethistle in the Northern Luminant.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Woodland Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aristocrat Coat",
+    "category": "equipment",
+    "description": "Any man worth his salt or indeed worth the salt of a hundred other men would have a coat like this, you're sure.",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Enforcer Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gladiator Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glassdancer Wraps",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Guardian Pauldrons",
+    "category": "equipment",
+    "description": "Often found adorning the shoulders of those who guard villages close to the shores, where cost-effective equipment is prized.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hardened Enforcer Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Inquisitor's Duster",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Justicar Defender",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Duelist",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sailor's Fleece",
+    "category": "equipment",
+    "description": "A thick woolen fleece, somewhat scratchy in texture, commonly worn by sailors in the East. When the Suncross falls into the voidfog, the seas of Lumen get surprisingly chilly.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Steel Pauldrons",
+    "category": "equipment",
+    "description": "Excellent protection for your shoulders.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ascended Outlaw Robes",
+    "category": "equipment",
+    "description": "In the Hundred Legion's territory, stealing is considered worse than murder. To kill is to live by a code and fight with honor; but a thief has no place among soldiers.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bluestone Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Evanspear War Plate",
+    "category": "equipment",
+    "description": "Made light to protect only the essentials, Evanspear Centurions put all their strength into a single blow, believing the best defense is a brutal offense.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Strength": 25
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flameguard Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Leather Gloves",
+    "category": "equipment",
+    "description": "A pair of leather gloves. One size fits all, I guess?",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Leather Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Simple Pauldrons",
+    "category": "equipment",
+    "description": "Either they're of low complexity or someone's in need of a punch.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced War Plate",
+    "category": "equipment",
+    "description": "Made light to protect only the essentials, Evanspear Centurions put all their strength into a single blow, believing the best defense is a brutal offense.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20,
+        "Strength": 25
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shock Trooper Plate",
+    "category": "equipment",
+    "description": "Armorers in the Hundred Legion dedicate their lives to these plates. The techniques used to attune them between Thunder and Gale demand complete expertise.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Simple Pauldrons",
+    "category": "equipment",
+    "description": "Either they're of low complexity or someone needs a punch.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Specialist Plate",
+    "category": "equipment",
+    "description": "Armorers in the Hundred Legion dedicate their lives to these plates. The techniques used to attune them between Thunder and Gale demand complete expertise.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20,
+        "Thundercall": 30,
+        "Galebreathe": 30
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Western Outlaw Robes",
+    "category": "equipment",
+    "description": "In the Hundred Legion's territory, stealing is considered worse than murder. To kill is to live by a code and fight with honor; but a thief has no place among soldiers.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wartreads of Enmity",
+    "category": "equipment",
+    "description": "Titanic boots, once forged to crush enemies into their graves, now anchor you firmly to the ground below.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Abyss Wanderer's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Marrowmade Boots",
+    "category": "equipment",
+    "description": "A grotesque set of boots, manufactured from what appears too be the foot and head of a Bonekeeper. Calling these 'comfortable' feels charitable. And yet, holding them, you cannot help not feel your bones itch and the ground beneath you quiver...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 15
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Autumn Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bluesteel Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brilliant Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celestial Boots",
+    "category": "equipment",
+    "description": "Using the finest boots in the land and the power of the heavens, you've managed to make something out of this world.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celtorian Sabatons",
+    "category": "equipment",
+    "description": "Born from maritime traditions, the Celtorian faith - Skyscriven - held that a pantheon of gods was responsible for keeping the stars of the night-sky shining, each star presided over by a different god. So, too, did they expect the commanders of Celtor's armies to act as the guiding stars of soldiery. Each officer announted at the Cathedral of the Empyrean, their armour marked with three stars. Upon the chest - the Guiding Star; upon the sabatons - the Twins...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Delver Boots",
+    "category": "equipment",
+    "description": "A pair of boots with special metal grips attached. The grips are capable of deploying and retracting when desired, making them any delver's lifeline.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Seige Sabatons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fur Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Authority Sabatons",
+    "category": "equipment",
+    "description": "A fine pair of dark, galvanised steel sabatons. The relative lightness of the boots, contrasted with their sturdiness and resistance to corrosion, make them a favourite among members of the Central Authority Shock Corps, especially among units which utilise hit-and-run precision strike tactics. Sellswords, mercenaries, and bandits of the Eastern Luminant tend to mimic this versatile style of armour using leather instead.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Legion Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mercenary's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Novice Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Phalanx Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Phalanx Heavy Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ranger's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Redsteel Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Silver Sabatons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Star Boots",
+    "category": "equipment",
+    "description": "Formerly mass produced by the cobblers of Celtor, these boots have become quite the collector's item in recent years.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tracker's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vanguard Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Winter Corps Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Woodland Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hardened Enforcer Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Imperial Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bluestone Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Enforcer Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Evanspear War Boots",
+    "category": "equipment",
+    "description": "Built to bite into the ground when fighting, these boots can turn a heavy swing into an unforgiving smash.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flameguard Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Iron Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Leather Boots",
+    "category": "equipment",
+    "description": "A pair of worn leather boots. And they're your size!",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced War Boots",
+    "category": "equipment",
+    "description": "Built to bite into the ground when fighting, these boots can turn a heavy swing into an unforgiving smash.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shock Trooper Boots",
+    "category": "equipment",
+    "description": "The only thing that surpasses a Shock Trooper's Brutality is their speed.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Specialist Boots",
+    "category": "equipment",
+    "description": "The only thing that surpasses a Shock Trooper's Brutality is their speed.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20,
+        "Thundercall": 30,
+        "Galebreathe": 30
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tied Tie",
+    "category": "equipment",
+    "description": "Go play celeste",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pendant of Order",
+    "category": "equipment",
+    "description": "My build got gutted and all I got was this lousy necklace?",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crawling Necktie",
+    "category": "equipment",
+    "description": "It's showtime!\n[*Note: Only obtainable through Goodie Bags.]",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Death's-Head Necktie",
+    "category": "equipment",
+    "description": "You may think this world is a dream come true... but you're wrong.\n[*Note: Only obtainable through Goodie Bags.]",
+    "rarity": "Hallowtide",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightkeeper's Medallion",
+    "category": "equipment",
+    "description": "A medallion said to be able to emit the frequencies of the Radiant Tones for a few moments. The keepsake of a longheld dream, though one doomed to failure. The Light produced is only sufficient enough to Illuminate the wielder briefly, having no effect on the surrounding Void. The Radiant Tones can only truly be utilized by the meagre few that bear the Gift, a blessing that is thought to be granted by the unique signature of their Soul Murmur.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mantle of Enmity",
+    "category": "equipment",
+    "description": "The wings of the Heart of Enmity. As you don them, a seething dark essence courses through you, whispering forbidden truths into your mind. The corruption is subtle at first... but with each beat of these cursed wings, you feel your will slipping, weighing you down, surrendering to something far more sinister.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tiran Pendant",
+    "category": "equipment",
+    "description": "Worn by Tiran spiritual leaders, the wielder is safeguarded against the numerous sheer drops and falls of the Tiran homelands. Thought to have originated from a particularly gruesome succession crisis where a leader was shoved unceremoniously off a cliff following a sermon.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warmaster's Medallion",
+    "category": "equipment",
+    "description": "A Medallion thought to be gifted to trainee Warmaster adherents during the Canticlysm. Bolsters one's martial prowess in exchange for ampering the amplitude of one's Resonance.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whistling Periapt",
+    "category": "equipment",
+    "description": "The favor of the winds is yours; landing three hits (five for light weapons) on an opponent without taking damage envelops you in a shield of wind",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fauld of Enmity",
+    "category": "equipment",
+    "description": "The titanic fauld of Enmity, a grim relic said to be woven from human hair, like some kind of sick trophy, each strand steeped in the anguish and malice of its former owners.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kyrsan Necklace",
+    "category": "equipment",
+    "description": "Looking at the necklace you notice there is no possible chance a Kyrsgarde could wear this. Perhaps it belonged to someone else?",
+    "rarity": "Unique",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trickster's Scarf",
+    "category": "equipment",
+    "description": "Merriment, gaiety and fun!",
+    "rarity": "Mythical",
+    "requirements": {
+      "stats": {
+        "Power": 7
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Enhanced Beads",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maljuror Jougs",
+    "category": "equipment",
+    "description": "Heavy Metal.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Monastery Beads",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Adventurer's Scarf",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Canticlysm Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Confessor's Charm",
+    "category": "equipment",
+    "description": "An intricately bejewelled pendant, traditionally worn by academics and prestigious of the Lullaby Isles. Though you'll never really know its real symbolism, one can only assume it was some form of sacred item, something to be revered. It's surprisingly heavy, must've been annoyingly impractical. Who knows how it got into your hands.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Curseblood Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dark Owl Cape",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maljuror Choker",
+    "category": "equipment",
+    "description": "Metal.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Nomad Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Red Eye Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Regenerative Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Revitalizing Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sandrunner Scarf",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Seafarer Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Varicosa Medallion",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whaler Scarf",
+    "category": "equipment",
+    "description": "The scarf of an elite Knife of Eylis. Signifies the bearer's mastery over the Void.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wormwarder Lantern",
+    "category": "equipment",
+    "description": "A modified version of the lanterns found in sanctuary outposts across the explored Eternal Gale. This one is portable, though only generates enough charge for its user.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brilliant Cape",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fleet Warden Cape",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder's Backpack",
+    "category": "equipment",
+    "description": "A backpack with plenty of room for all of the supplies a Pathfinder might need on their travels.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Threadwork Kilt",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Imperator's Fury",
+    "category": "equipment",
+    "description": "Certain legions among the Hundred, such as the Imperators of the 77th, include members who implant physiologically altering stakes into their bodies as a part of a sacred vow to enhance their physical abilities. By embedding such a stake, they willingly sacrifice a part of themselves in exchange for heightened strength and abilities. Though this concept isn't unilaterally accepted amongst the legions as an appropriate way to acquire strength.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder Lantern",
+    "category": "equipment",
+    "description": "A sturdy lantern used to illuminate the path forward. With light as our guide, we are never truly lost.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Toon's Goggles",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Spec",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Thrall of Enmity",
+    "category": "equipment",
+    "description": "The mask of the fabled Angels of Enmity, infamous for barring the unworthy from the trial, instills dread in the hearts of the drowned.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      },
+      "slay": "Heart of Enmity"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aristocrat Eyeglasses",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blindfold",
+    "category": "equipment",
+    "description": "A tightly wound blindfold to hide the horrors of the world from your waking eyes.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodfeather Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brow Stud",
+    "category": "equipment",
+    "description": "That's metal.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Demon Mask",
+    "category": "equipment",
+    "description": "A haunting feeling creeps upon you, as you behold the mask in your hand, resembling a masterful depiction of a monstrous being. You know it is of traditional Etrean make, and features some motif of folklore - but beyond that, you know little else. Clearly, this is a relic from a time long past. A mask of warriors long-forgotten: their names forever lost to history, their lives - to calamity.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dermal Stud",
+    "category": "equipment",
+    "description": "That's metal.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Eyeglasses",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Headband",
+    "category": "equipment",
+    "description": "A stylish headband. Capable of hiding even the most dire of hairlines.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hivelord Mask",
+    "category": "equipment",
+    "description": "An ancient mask of a lost Hivelord, now a relic.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Iron Mask",
+    "category": "equipment",
+    "description": "A crude mask wrought from iron, often worn by political prisoners held captive by the Central Authority.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moon Brow Rings",
+    "category": "equipment",
+    "description": "FEAR. IRONSINGERS.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moon Lip Ring",
+    "category": "equipment",
+    "description": "FEAR. IRONSINGERS.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moon Septum Ring",
+    "category": "equipment",
+    "description": "FEAR. IRONSINGERS.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Nose Stud",
+    "category": "equipment",
+    "description": "FEAR. IRONSINGERS.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Round Citadel Frames",
+    "category": "equipment",
+    "description": "Designed for the scholars of the Citadel, these frames are renowned for their simple yet striking style, and are traded and sought after across all Luminants. Unfortunately, they are not your prescription...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summer Nauticals",
+    "category": "equipment",
+    "description": "Timeless eyewear produced by the Summer Company. In this world, It's drip or drown. You have no way of knowing if these are genuine.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Necrotic Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Polarised Eyeglasses",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Smith's Goggles",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Snakebite Studs",
+    "category": "equipment",
+    "description": "That's metal.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rebel's Bandana",
+    "category": "equipment",
+    "description": "A bandana paired with a headband. Perfect for hiding your mouth, nose, and hairline. These are known to be the most identifying features of any outlaw.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ten-Gallon Bandana",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warrior's Eyepatch",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ascended Outlaw Mask",
+    "category": "equipment",
+    "description": "A mask to perfectly conceal one's entire face when paired with a hat, its also able to conceal one's true strength.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Prototype Mask",
+    "category": "equipment",
+    "description": "The latest innovation of the Citadel's top scientists, this mask can turn your reflexes into lightning; too bad its primitive state would turn your brain into paste.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Authority Voltspark Mask",
+    "category": "equipment",
+    "description": "Originally a dangerous prototype that turned soldiers into lightning-fast lunatics. You think you managed to work out the kinks. Maybe.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hollow Angel Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sworn Angel Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Western Outlaw Mask",
+    "category": "equipment",
+    "description": "A mask to perfectly conceal one's entire face when paired with a hat, its also able to conceal one's true strength.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dark Pearls",
+    "category": "equipment",
+    "description": "A daring statement to the upper class, these earrings contain pearls taken from the clutches of enormous, vicious clams native to the southern seas before the Submergence. Their rarity has only deepened with time; not only were they perilously difficult to obtain, but the very creatures that produced them are now all but extinct.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 10,
+        "Shadowcast": 40
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Amethyst Pendant Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crescent Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crystal Pendant Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dew Drop Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ember Scorch Earrings",
+    "category": "equipment",
+    "description": "Wearing these makes you feel a fire in your heart with every swing.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Emerald Tusk Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ether Empowered Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ether Imbued Earrings",
+    "category": "equipment",
+    "description": "Traditionally worn by erudite masters of the song.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Frost Crystal Earrings",
+    "category": "equipment",
+    "description": "Though the setting and clasp have been dulled by wear and tear, the frost crystal remains completely untarnished.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Enhanced Earrings",
+    "category": "equipment",
+    "description": "Putting these on, you feel as if you are light as a cloud.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Master Thief Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Old Blood Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ossified Blood Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pendant Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Practicioner's Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Regenerative Earrings",
+    "category": "equipment",
+    "description": "Wearing these fills you with a newfound sense of vitality.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ruby Drop Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ruby Pendant Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shiva's Pendant Earrings",
+    "category": "equipment",
+    "description": "Donning these fills you with strength and fury.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vaporfrost Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blizzard Ring",
+    "category": "equipment",
+    "description": "Apply a very light slow on your opponent when landing a light attack and suffocate opponents when flourishing them. Gain extra ether when landing Galebreath or Frostdraw attacks.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bone Ring",
+    "category": "equipment",
+    "description": "A ring made purely of dense bone. Improve all bone related attacks you do.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Frost Ring",
+    "category": "equipment",
+    "description": "Apply a very light slow on your opponent when landing a light attack. This effect stacks.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shiva's Finger",
+    "category": "equipment",
+    "description": "Gain 3% damage for each player and 1% damage for each mob that has combat-tagged you, and at 5 stacks you may Vent to consume all stacks to reset your cooldowns, after which this effect enters cooldown. With each BR victory, this item grows in power capping out at 10 fingers. Activates at 3 or more combat tags.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Akira's Ring",
+    "category": "equipment",
+    "description": "A ring once worn by a Black Diver. It seems he's since passed the need for such trinkets. +1.2 WLL scaling to all weapons.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Armorer's Ring",
+    "category": "equipment",
+    "description": "Ring imbued with self-fortifying Ironsing. Reduces Armor loss by 25%.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Charged Ring",
+    "category": "equipment",
+    "description": "Reduces the charges required to proc Crystal Explosions and Surge Overloads, but also reduces the damage they deal.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cryptwaker's Ring",
+    "category": "equipment",
+    "description": "Infuse your Parasol's Blight with the essence of bone. Buff the health of any mobs you spawn with Parasol's Blight. Bonekeepers also potentially spawn from your Parasol's Blight proc.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dawnfist's Ring",
+    "category": "equipment",
+    "description": "Gives every weapon 1.2 strength scaling when equipped.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deepfire Ring",
+    "category": "equipment",
+    "description": "Ring of Korlifiend. Burn status burns faster.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ferryman's Ring",
+    "category": "equipment",
+    "description": "A ring of the deceptive Krulian known as the Ferryman. Increases the range of your Rhythm by 50%.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Finisher's Ring",
+    "category": "equipment",
+    "description": "Extra PEN on attacks that flourish opponents.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Enhanced Ring",
+    "category": "equipment",
+    "description": "Suffocate enemies your flourish for a few seconds.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maestro's Ring",
+    "category": "equipment",
+    "description": "A ring once worn by a Maestro of the Vigils. Passed down from mentor to student, it seems the line of succession was broken for it to end up in your hands. +1.2 AGL scaling to all weapons.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moon Ring",
+    "category": "equipment",
+    "description": "A deceptive ring that conceals one's true age. Greatly sought after by vain misers.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prophet's Ring",
+    "category": "equipment",
+    "description": "Once worn by the fanatical followers of a self-proclaimed Prophet from the Southern Luminant. The Shocks Corps were called in to intervene to prevent catastrophe, but upon their arrival the Prophet was nowhere to be found. +1.2 CHA scaling to all weapons.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rosen's Ring",
+    "category": "equipment",
+    "description": "A ring once worn by a genius inventor. Said to have been discarded once he turned to other methods of inspiration. +1.2 INT scaling to all weapons.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Saint Jay's Ring",
+    "category": "equipment",
+    "description": "Uppercuts inflict chill.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Waning Ring",
+    "category": "equipment",
+    "description": "A deceptive ring that conceals one's true age. Sought after the conmen and crooks alike.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodiron Ring",
+    "category": "equipment",
+    "description": "A strange creature lurks within. When the life of another is taken, their blood is reconstituted into your armor.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Chained Ring",
+    "category": "equipment",
+    "description": "Reduces incoming knockback but removes your ability to Air Dash. Landing an uppercut with Chained Ring now disables your opponents' air dashes for 5 seconds and briefly makes them unable to roll.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dazed Band",
+    "category": "equipment",
+    "description": "Flourishing an opponent has a chance to stun them automatically.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Diver's Ring",
+    "category": "equipment",
+    "description": "Deal +5% damage to Monsters in the Depths.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Freestyler's Band",
+    "category": "equipment",
+    "description": "Swim like some famous swimmer. Just like Mikhael Felps.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heavy Hands Ring",
+    "category": "equipment",
+    "description": "Makes your \"M1\" attack 10% slower but do 30% more posture damage.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Isshin's Ring",
+    "category": "equipment",
+    "description": "Ring of A wandering Swordsman. Take 1.2x damage and deal 1.15x damage when in close-quarters combat.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Light Eater Ring",
+    "category": "equipment",
+    "description": "Taking damage from fire or lightning will cause you to regenerate ether.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pariah's Keepsake",
+    "category": "equipment",
+    "description": "You deal +20% extra damage to factions who hate you.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Purifying Ring",
+    "category": "equipment",
+    "description": "A silver ring that eradicates the murk in the water surrounding it.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of Casters",
+    "category": "equipment",
+    "description": "Mantra damage increased by 5% but reduces melee damage by 5%.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of Curses",
+    "category": "equipment",
+    "description": "You come across mortal encounters more frequently.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of Pestilence",
+    "category": "equipment",
+    "description": "Your weapon applies 50% anti-heal for 5s.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of Wisps",
+    "category": "equipment",
+    "description": "These essence of the soul gathers around the gemstone of this ring, granting additional strength to bound wisps.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Transfusion Ring",
+    "category": "equipment",
+    "description": "Gain extra vitality at the cost of your ability to heal (receive 50% less healing).",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Windmill Ring",
+    "category": "equipment",
+    "description": "Taking damage from ice or wind will cause you to regenerate ether.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blindseer's Ring",
+    "category": "equipment",
+    "description": "Increase all healing you recieve by 33%. Reduce all damage you deal by 15%.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gold Ring",
+    "category": "equipment",
+    "description": "A simple gold ring.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Konga's Clutch Ring",
+    "category": "equipment",
+    "description": "Konga's Clutch Ring allows the user to slide with little delay.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Poser's Ring",
+    "category": "equipment",
+    "description": "Damage done with a Katana isn't received until the user sheathes their weapon.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Silver Ring",
+    "category": "equipment",
+    "description": "A simple silver ring.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sorcerer's Brim",
+    "category": "equipment",
+    "description": "A finely crafted hat worn by master wizards of the Northen Luminant, imbued with song woven into its fabric. It amplifies the wearer's power in battle.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 16
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trickster's Beret",
+    "category": "equipment",
+    "description": "A beret with a sleek texture and fit, evidently the work of a skilled tailor - must've cost a pretty penny. Though to those which money has no meaning, the visual statement outweighs any price.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corrupted Immortal Helm",
+    "category": "equipment",
+    "description": "Helm of an Immortal Guardian. The product of Ministry experimentation, it's thought that these helmets enthrall their wielders by means of a Mind Veil, causing immediate death should they ever be removed. It seems that in prying this helmet off that this functionality has been disabled. You hope.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Demon Horns",
+    "category": "equipment",
+    "description": "An otherwordly set of faux horns. Faint scratches on the back spell something like 'Aazel', though the writing is weathered almost beyond recognition. Whoever wore these must have long since drowned. Strangely, they're warm to the touch.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hallowed Monastery Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 6
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodcurdle Cowl",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Commander Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sky Warrior Helm",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lifeweaver's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mercenary's Hood",
+    "category": "equipment",
+    "description": "A sleek black hood.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Potion Master's Hat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sorcerer's Mantle",
+    "category": "equipment",
+    "description": "A finely woven gown imbued with the artistry of master songsmiths from the Northern Luminant. Enchanted by melodies intricately woven into its fabric, this garment bestows supernatural properties, amplifying the wearer's prowess and performance in battle.",
+    "rarity": "Unique",
+    "requirements": {
+      "stats": {
+        "Power": 12,
+        "Intelligence": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heretic's Moonseye Gauntlets",
+    "category": "equipment",
+    "description": "Gauntlets fashioned with a Moonseye motif. The watchful eye of gloamdark sky, the Moonseye has long been associated with life, death, and rebirth. In the Southern Luminant, the Moonseye was thought of as a lens through which one's dearly departed ancestors might view them from the afterlife. Moonseye charms were often woven into clothing to remember the fallen. Some organised gangs in the City of Celtor would refrain from committing crimes in the view of the Moonseye, on the premise that their ancestors were watching. Of course, dark alleyways and warehouses are often free from its gaze.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reforged Gauntlets",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Alloyed Phalanx Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Beginner's Brace",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bounty Hunter's Garb",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corrupted Pathfinder Elite",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Extra Thick Overcoat",
+    "category": "equipment",
+    "description": "An essential winter coat to protect you against the cold.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Konga's Parka",
+    "category": "equipment",
+    "description": "An essential winter coat to protect you against the cold.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prosperous Gumshoe Longcoat",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced Authority Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rogue Assassin's Hood",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Agility": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Veteran Ranger's Brace",
+    "category": "equipment",
+    "description": "It's covered in sewn pockets and hidden compartments, filled with cooking and medical supplies.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced Enforcer Plate",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Super Simple Pauldrons",
+    "category": "equipment",
+    "description": "Either they're of low complexity or someone needs a punch.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Depths Wanderer's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Alloyed Phalanx Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Beginner's Boots",
+    "category": "equipment",
+    "description": "They've just been broken in.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Veteran Ranger's Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corrupted Vessel's Boots",
+    "category": "equipment",
+    "description": "You feel false-strengths fill your body and mind.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reinforced Enforcer Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Boots",
+    "category": "equipment",
+    "description": "A pair of worn leather boots. And they're your size!",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hallowed Monastery Beads",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blessed Nomad Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Solar Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trueblood Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Emberseal Pendant",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Armored Sensor Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bloodcurdle Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Oni Mask",
+    "category": "equipment",
+    "description": "The demonic visage fills you with a mix of dread and glee.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Assassin's Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Caster Earrings",
+    "category": "equipment",
+    "description": "A perfect conduit to help channel your energy into force.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Expert Practitioner's Earrings",
+    "category": "equipment",
+    "description": "Traditionally worn by erudite masters of the song.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flare Drop Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Master's Earrings",
+    "category": "equipment",
+    "description": "Putting these on, you feel as if you are light as a cloud.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hardened Crystal Earrings",
+    "category": "equipment",
+    "description": "Though the setting and clasp have been dulled by wear and tear, the crystal remains completely untarnished.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ruby Scorch Earrings",
+    "category": "equipment",
+    "description": "Wearing these makes you feel a fire in your heart with every swing.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trueblood Earrings",
+    "category": "equipment",
+    "description": "Wearing these fills you with a newfound sense of vitality.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vapordrop Earrings",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warrior's Pendant Earrings",
+    "category": "equipment",
+    "description": "Donning these fills you with strength and fury.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corrupted Isshin's Ring",
+    "category": "equipment",
+    "description": "Dropped from a wandering swordsman who went insane. Take 2x damage and deal 2x damage when in close-quarters combat.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Depth's Supercharger",
+    "category": "equipment",
+    "description": "Limits you to 2 mantras but greatly empowers them and boosts your Ether and Tempo.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of the Primal King",
+    "category": "equipment",
+    "description": "All attacks that apply knockback automatically apply daze. All Roar/Yell moves cause damage to dazed targets.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Etrean Ring",
+    "category": "equipment",
+    "description": "One handing a sword while wearing this ring turns your Critical Attack into the Twincleave mantra.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trunk's Clutch Ring",
+    "category": "equipment",
+    "description": "Gain 75% more damage when at 20% health or lower.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vortex Accelerator",
+    "category": "equipment",
+    "description": "The less health you have, the lower your mantra cooldowns.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Azure Duelist Ring",
+    "category": "equipment",
+    "description": "Mantras cast immediately after you parry an attack an attack do 20% more damage",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deranged Treasure",
+    "category": "equipment",
+    "description": "Gain extra defense when you are insane, with this effect scaling based on how insane you are",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Divine Cast Ring",
+    "category": "equipment",
+    "description": "Your mantras always cost your entire ether bar but do 3x damage.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Evengardes Keepsake",
+    "category": "equipment",
+    "description": "Gain 'chain of perfection'",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ministry Hunter Ring",
+    "category": "equipment",
+    "description": "Backstabs now deal 10% more damage.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Phoenix Talon Ring",
+    "category": "equipment",
+    "description": "Gain 15 temporary HP when you land an aerial attack on an attacking opponent.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Void Ring",
+    "category": "equipment",
+    "description": "Corrupted by the void, it allows the user to resist the harsh effects of the Depths for longer.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Guy's Eyeglasses",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shrouded Cape",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trimmed Overcoat",
+    "category": "equipment",
+    "description": "A thick coat to protect you against the cold.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fur Parka",
+    "category": "equipment",
+    "description": "An essential winter coat to protect you against the cold.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Pathfinder's Backpack",
+    "category": "equipment",
+    "description": "A backpack with plenty of room for all of the supplies a Pathfinder might need on their travels.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ringing Scholar's Raiments",
+    "category": "equipment",
+    "description": "An old, well worn jacket, its fabric softened by time yet kept in meticulous condition despite years of disuse. Along its lining, intricate lace and fine detailing remained intact, unmistakable hallmarks of Anansi fashion from the Old World.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ringing Scholar's Capeline",
+    "category": "equipment",
+    "description": "A wide-brimmed capeline hat, aged yet carefully maintained, its shape still holding after years of disuse. It seems that, when Knell was still himself, he held a keen fascination with ringing bells, perhaps sound itself, though whatever once drew him to it has long since twisted into madness.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ringing Scholar's Boots",
+    "category": "equipment",
+    "description": "A small pair of boots, worn but carefully kept, their leather still holding their firm despite years of neglect.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ringing Scholar's Necktie",
+    "category": "equipment",
+    "description": "A simple necktie, clearly well loved in its time, its fabric still holding a crisp silhouette despite years of disuse. At the throat, a small bell serves as its clasp.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Broodplate Helmet",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      },
+      "talents": [
+        "Broodlord's Scream"
+      ]
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Terraplate Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crimson Terraplate Pauldrons",
+    "category": "equipment",
+    "description": "For much of modern zoology, Crimson Terrapod were thought only to be a myth, only known to exist among a small cohort of naturalist Divers. This ambiguity ended when Authority scouts arrived in newly emerged Erisia, where a particularly audacious Warden managed not only to find and slay one, but craft its shell into an armor much like this one. Its even rumored that after wearing it for long enough, he began to take on many of the Terrapods more aggressive mannerisms.",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moonseye Pendant",
+    "category": "equipment",
+    "description": "A simple silver pendant in the likeness of the Moonseye. Wearing such a pendant is a sign of mourning in many cultures, a holdover from the Old World.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Amedan Pendant",
+    "category": "equipment",
+    "description": "A golden pendant in the likeness of the Kyrsan Suncross, known to them as Ameda. In the ruins of Old Kyrsa, the Amedan Temple is said to still stand, though there are no longer free souls to make pilgrimage to it, or to receives its impression.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Inquisitor's Hood",
+    "category": "equipment",
+    "description": "A shroud worn proud by the members of the Inquisition.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Suncross Pendant",
+    "category": "equipment",
+    "description": "A simple golden pendant in the likeness of the Suncross. Revered as a bringer of life and warmth by both Man and Celestial.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jadeite Megalodaunt",
+    "category": "equipment",
+    "description": "An effigy of a stylized Megalodaunt, cherished for its ability to boost morale and scare off bad juju.",
+    "rarity": "Relic",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Geta",
+    "category": "equipment",
+    "description": "A type of traditional Etrean footwear, these wooden sandals were once a mainstay of the Kingdom of Etris, although they have been falling out of fashion in recent decades. Relatively cheap and easy to make, the geta were the preferred footwar of many Etreans due to practical reasons - the elevation offered by the two 'teeth' under the sole tend to keep the wearers robes from brushing against the ground, and their feet from coming into contact with rainwater, snow, or mud.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Plain Cape",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Plain Hood",
+    "category": "equipment",
+    "description": "A sleek hood.",
+    "rarity": "Uncommon",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Azure Sentinel Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Azure Sentinel Boots",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aspirant Mask",
+    "category": "equipment",
+    "description": "The belief system of the Songseekers - mendicant warrior-monks and philosophers who dedicate their lives to achieving martial mastery over the Song, - bears rich cultural traditions. Often, they engage in rituals centered around the pondering of great universal mysteries, or the cleansing of the mind, body, and soul. Similarly, the relentless martial trials which take place in the Songseeker Wilds are yet another ritualistic practice. Steady the mind. Steel the body. Purify the soul. Death is but another part of the great cycle - for we all come from the Song, and to the Song we will return.",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blademaster's Robe",
+    "category": "equipment",
+    "description": "Often worn by those who seek to perfect their martial skill with the blade, these robes trace their origins to ancient Etrean tradition, offering their wearer both comfort and mobility. Fragmented historical records suggest that this style of robe was highly preferred by Etrean nobility. It is also said that the old Maestros - leaders of the Vigil of Winds, - would wear similar robes during ceremonial occasions, and displays of their martial mastery.",
+    "rarity": "Legendary",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Inquisitor's Visor",
+    "category": "equipment",
+    "description": "A metal visor favoured by the Inquisitors of the Central Authority. The perfect facewear to steel your visage of the world around you - hide your identity and emotions while retaining a look that commands authority on the field.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Thresher Charm",
+    "category": "equipment",
+    "description": "An old charm engraved by the ancient denizens of Aratel. Beneath the shifting sands, countless artifacts remain lost to time.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Authority Sallet",
+    "category": "equipment",
+    "description": "A fine sallet-style helmet of dark, galvanised steel. This particular style of helmet originates from the Canorian kingdoms of old, eventually becoming part of the Central Authority's armoury. Although primarily utilised by the lighter squadrons of the Central Authority Shock Corps, these helmets are highly valued by various mercenaries and brigands as well, who appreciate the design's sturdy and lightweight properties, often choosing to substitute metal for leather.",
+    "rarity": "Rare",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Sashimono",
+    "category": "equipment",
+    "description": "Once traditionally carried to battle by Etrean warriors, the sashimo style of banner is now little more than a historic artefact or curiosity. Ever since the Lord Regent's ascension to the throne, such battle standards have fallen out of fashion. Curiously, although various designs have survived to this day, no written records of them appear to remain, contemporary or otherwise. The significance of these once-important symbols is all but lost on the modern day observer - with the sole exception of the recognisable standard of the Kingdom of Etrea.",
+    "rarity": "Legendary",
+    "requirements": {
+      "stats": {
+        "Power": 12
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Destroyman Chain",
+    "category": "equipment",
+    "description": "A chain for the strongest of pathfinders. Some would say the extra 0.1% physical armor on this makes it a spec. They would be right.",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brilliant Pauldrons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Duelist Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Corrupted Duelist Mask",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ganymede Hat",
+    "category": "equipment",
+    "description": "A traditional brimmed hat worn by Ganymedes. Ganymede skin is prone to drying out, so the shade of a wide hat is considered a necessity for travel.",
+    "rarity": "Common",
+    "requirements": {
+      "aspect": "Ganymede"
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Metalshroom Costume",
+    "category": "equipment",
+    "description": "A fullbody mushroom costume. You feel the strange urge to change your name to Fungbert, or perhaps Fungula.\n[*Note; Only obtainable through the Hallowtide Event.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Charmshroom Costume",
+    "category": "equipment",
+    "description": "A fullbody mushroom costume. You feel the strange urge to change your name to Fungbert, or perhaps Fungula.\n[*Note; Only obtainable through the Hallowtide Event.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glowshroom Costume",
+    "category": "equipment",
+    "description": "A fullbody mushroom costume. You feel the strange urge to change your name to Fungbert, or perhaps Fungula.\n[*Note; Only obtainable through the Hallowtide Event.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Zapshroom Costume",
+    "category": "equipment",
+    "description": "A fullbody mushroom costume. You feel the strange urge to change your name to Fungbert, or perhaps Fungula.\n[*Note; Only obtainable through the Hallowtide Event.]",
+    "rarity": "Hallowtide",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Citadel Frames",
+    "category": "equipment",
+    "description": "Designed for the scholars of the Citadel, these frames are renowned for their simple yet striking style, and are traded and sought after across all Luminants. Unfortunately, they are not your prescription...",
+    "rarity": "Rare",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ascended Outlaw Breeches",
+    "category": "equipment",
+    "description": "Tattered and unassuming, these rags serve as the perfect occlusion for any hidden weapons or stolen contraband.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 20
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Western Outlaw Breeches",
+    "category": "equipment",
+    "description": "Tattered and unassuming, these rags serve as the perfect occlusion for any hidden weapons or stolen contraband.",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Broodplate Sabatons",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Broodplate Cuirass",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Common",
+    "requirements": {
+      "stats": {
+        "Power": 10
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wool Beret",
+    "category": "equipment",
+    "description": "A classic wool beret. How snazzy!",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 4
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glassdancer Shinwraps",
+    "category": "equipment",
+    "description": "...",
+    "rarity": "Uncommon",
+    "requirements": {
+      "stats": {
+        "Power": 8
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ring of a Forgotten King",
+    "category": "equipment",
+    "description": "Not meant to be worn by many, be wary of letting others know that you have this gift. An item of immense value, treat its existence carefully.",
+    "rarity": "Relic",
+    "requirements": {
+      "stats": {
+        "Power": 5
+      }
+    },
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "a ring lost to time",
+    "category": "equipment",
+    "description": "With the secret revealed, it withered away in the hands of those who once wore it...",
+    "rarity": "Common",
+    "requirements": null,
+    "stats": {},
+    "additionalInfo": ""
+  }
+]

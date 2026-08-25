@@ -1,0 +1,146 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DeepwokenBuild",
+  "type": "object",
+  "required": ["video_meta", "build_summary", "stats", "talents", "mantras"],
+  "properties": {
+    "video_meta": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "channel": { "type": "string" },
+        "url": { "type": "string" },
+        "upload_date": { "type": "string" },
+        "estimated_patch": { "type": "string", "description": "추정 패치 버전 (예: Verse 2, Layer 2 등)" }
+      },
+      "required": ["title", "channel", "url"]
+    },
+    "build_summary": {
+      "type": "object",
+      "properties": {
+        "build_name": { "type": "string" },
+        "build_type": {
+          "type": "string",
+          "enum": ["PvP", "PvE", "Hybrid", "Meme/Fun", "Boss Raid"]
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["Beginner", "Intermediate", "Advanced", "Expert"]
+        },
+        "creator_opinion": {
+          "type": "string",
+          "description": "유튜버가 설명한 빌드의 장점/플레이스타일 요약"
+        },
+        "strengths": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "weaknesses": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["build_name", "build_type", "difficulty"]
+    },
+    "race": { "type": "string" },
+    "origin": { "type": "string" },
+    "oath": {
+      "type": "string",
+      "description": "예: Arcwarder, Blindseer, Contractor, Dawnwalker, Jetstriker, Linkstrider, Oathless, Starkindred, Voidwalker, Saltchemist, Bladeharper 등"
+    },
+    "resonance": { "type": "string" },
+    "murmur": { "type": "string" },
+    "stats": {
+      "type": "object",
+      "properties": {
+        "strength": { "type": "integer" },
+        "fortitude": { "type": "integer" },
+        "agility": { "type": "integer" },
+        "intelligence": { "type": "integer" },
+        "willpower": { "type": "integer" },
+        "charisma": { "type": "integer" },
+        "heavy_wep": { "type": "integer" },
+        "medium_wep": { "type": "integer" },
+        "light_wep": { "type": "integer" }
+      }
+    },
+    "attunements": {
+      "type": "object",
+      "description": "속성 투자 레벨",
+      "properties": {
+        "flamecharm": { "type": "integer" },
+        "frostdraw": { "type": "integer" },
+        "galebreathe": { "type": "integer" },
+        "thundercall": { "type": "integer" },
+        "shadowcast": { "type": "integer" },
+        "ironsing": { "type": "integer" }
+      }
+    },
+    "weapons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "type": {
+            "type": "string"
+          },
+          "enchant": { "type": "string" },
+          "stars": { "type": "integer" }
+        },
+        "required": ["name"]
+      }
+    },
+    "talents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "category": {
+            "type": "string"
+          },
+          "is_core": {
+            "type": "boolean",
+            "description": "빌드의 필수 핵심 탤런트 여부"
+          }
+        },
+        "required": ["name"]
+      }
+    },
+    "mantras": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "attunement": { "type": "string" },
+          "is_core": { "type": "boolean" },
+          "modifications": { "type": "string" }
+        },
+        "required": ["name"]
+      }
+    },
+    "shrine_of_order_path": {
+      "type": "string",
+      "description": "Shrine of Order 사전/사후 스탯 분배 및 순서"
+    },
+    "equipment": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "slot": {
+            "type": "string"
+          },
+          "pip_summary": { "type": "string" }
+        }
+      }
+    },
+    "combo_guide": {
+      "type": "string",
+      "description": "유튜버가 설명한 콤보, 딜사이클, 교전 팁"
+    }
+  }
+}

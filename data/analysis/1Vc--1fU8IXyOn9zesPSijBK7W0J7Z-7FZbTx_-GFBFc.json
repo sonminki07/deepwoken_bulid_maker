@@ -1,0 +1,47 @@
+{
+  "video_meta": {
+    "title": "Google Docs: Introduction",
+    "channel": "Web",
+    "url": "https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0",
+    "upload_date": "N/A",
+    "estimated_patch": "Unknown"
+  },
+  "build_summary": {
+    "build_name": "Google Docs: Introduction",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "Imported from Google Docs",
+    "strengths": [],
+    "weaknesses": []
+  },
+  "race": "N/A",
+  "origin": "N/A",
+  "oath": "Oathless",
+  "resonance": "N/A",
+  "murmur": "N/A",
+  "stats": {
+    "strength": 0,
+    "fortitude": 0,
+    "agility": 0,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "galebreathe": 0,
+    "thundercall": 0,
+    "shadowcast": 0,
+    "ironsing": 0
+  },
+  "weapons": [],
+  "talents": [],
+  "mantras": [],
+  "shrine_of_order_path": "",
+  "equipment": [],
+  "combo_guide": ""
+}

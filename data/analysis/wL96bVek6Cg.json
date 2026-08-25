@@ -1,0 +1,201 @@
+{
+  "video_metadata": {
+    "title": "NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=wL96bVek6Cg",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Silentheart Fist PvE Bosskiller & Diluvian Build",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "Extremely high damage M1 fist build capable of one-cycling bosses and clearing high Diluvian waves easily with Brick Wall tankiness.",
+    "strengths": [
+      "Massive M1 DPS exceeding 1200+ per hit",
+      "Immense survivability with Brick Wall and high Fortitude talents",
+      "High AoE damage via Flow State/Mayhem and Fist Criticals"
+    ],
+    "weaknesses": [
+      "No active casting mantras (Silentheart)",
+      "Strict progression requiring pre-shrine stat investments"
+    ]
+  },
+  "stats_and_attunements": {
+    "base_stats": {
+      "strength": 30,
+      "fortitude": 55,
+      "agility": 45,
+      "intelligence": 5,
+      "willpower": 55,
+      "charisma": 0
+    },
+    "weapon_stats": {
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 100
+    },
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "shadowcast": 0,
+      "ironsing": 0
+    }
+  },
+  "character_details": {
+    "oath": "Silentheart",
+    "race": null,
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents_and_mantras": {
+    "core_talents": [
+      "Brick Wall",
+      "Heretic's Sutra",
+      "Lose Your Mind",
+      "Ghost",
+      "Speed Demon",
+      "Exoskeleton",
+      "Underdog",
+      "Piercing Will",
+      "Reinforced Armor"
+    ],
+    "mantras": [
+      {
+        "name": "Heretic's Sutra",
+        "attunement": "Attunementless",
+        "is_core": true,
+        "modifications": "Used to activate insanity damage buffs"
+      }
+    ]
+  },
+  "shrine_of_order_progression": {
+    "used_shrine_of_order": true,
+    "pre_shrine_stats": {
+      "fortitude": 100,
+      "willpower": 100,
+      "strength": 1,
+      "agility": 1,
+      "intelligence": 0,
+      "charisma": 0,
+      "light_wep": 0
+    },
+    "post_shrine_priority": [
+      "Unlock 5 Intelligence for Neuroplasticity",
+      "Raise Strength to 30 for Lose Your Mind & Carnivore",
+      "Raise Agility to 45 for Ghost & Speed Demon",
+      "Invest remaining points into Light Weapon to reach 100"
+    ]
+  },
+  "equipment": [
+    {
+      "name": "Navaen Nomad Robes",
+      "type": "Outfit",
+      "notes": "5% extra damage boost for standard bosses"
+    },
+    {
+      "name": "Ignition Deepdelver",
+      "type": "Outfit",
+      "notes": "Provides tankiness and parry frames for heavy boss raids"
+    }
+  ],
+  "combo_and_playstyle": {
+    "damage_rotation": "Activate Heretic's Sutra and Ardour Scream to proc insanity damage buffs, enter Flow State, then chain rapid Fist M1s and Criticals.",
+    "tips": "Swap between Astral enchant for single-target bosses and Wild enchant for Diluvian wave mobs; utilize Ghost/Vent to dodge unparryable boss attacks."
+  },
+  "video_meta": {
+    "title": "NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=wL96bVek6Cg",
+    "upload_date": "20260814",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {
+    "strength": 30,
+    "fortitude": 55,
+    "agility": 45,
+    "intelligence": 5,
+    "willpower": 55,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "galebreathe": 0,
+    "thundercall": 0,
+    "shadowcast": 0,
+    "ironsing": 0
+  },
+  "weapons": [
+    {
+      "name": "Broodlord Cestus",
+      "enchant": "Astral",
+      "stars": 3,
+      "notes": "Main fist weapon for bosses"
+    },
+    {
+      "name": "Broodlord Cestus",
+      "enchant": "Wild",
+      "stars": 3,
+      "notes": "Used for Diluvian AoE mob clearing"
+    }
+  ],
+  "talents": [
+    {
+      "name": "Brick Wall",
+      "is_core": true
+    },
+    {
+      "name": "Heretic's Sutra",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": true
+    },
+    {
+      "name": "Piercing Will",
+      "is_core": true
+    },
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Heretic's Sutra",
+      "attunement": "Attunementless",
+      "is_core": true,
+      "modifications": "Used to activate insanity damage buffs"
+    }
+  ],
+  "oath": "Silentheart",
+  "race": null,
+  "origin": "Castaway",
+  "murmur": "Ardour",
+  "resonance": "Sacred Field",
+  "shrine_of_order_path": "**Pre-Shrine**: `{'fortitude': 100, 'willpower': 100, 'strength': 1, 'agility': 1, 'intelligence': 0, 'charisma': 0, 'light_wep': 0}`\n**Post-Shrine 우선순위**:\n- Unlock 5 Intelligence for Neuroplasticity\n- Raise Strength to 30 for Lose Your Mind & Carnivore\n- Raise Agility to 45 for Ghost & Speed Demon\n- Invest remaining points into Light Weapon to reach 100",
+  "combo_guide": "**딜 사이클**:\nActivate Heretic's Sutra and Ardour Scream to proc insanity damage buffs, enter Flow State, then chain rapid Fist M1s and Criticals.\n\n**운용 팁**:\nSwap between Astral enchant for single-target bosses and Wild enchant for Diluvian wave mobs; utilize Ghost/Vent to dodge unparryable boss attacks."
+}

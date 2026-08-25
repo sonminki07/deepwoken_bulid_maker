@@ -1,0 +1,3143 @@
+[
+  {
+    "name": "Sudden Ambush",
+    "category": "attack",
+    "description": "The Doom of Caeranthil dives underwater, then giant bubbles emerge beneath the player for a few seconds. After which, the Doom of Caeranthil then dives up and consumes any player caught in its vicinity, instantly killing them. It will then land in the water nearby, also dealing damage, but not instantly killing them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pressure Eruption",
+    "category": "attack",
+    "description": "The Doom of Caeranthil dives underwater, then summons multiple geysers underneath players that fling them into the air, potentially knocking them from their boat and dealing significant damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tidal Roar",
+    "category": "attack",
+    "description": "The Doom of Caeranthil charges up before releasing a powerful roar that deals damage and stuns players who get too close. In addition, it summons multiple tidal waves that will damage boats and carry away swept enemies.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whirlpool",
+    "category": "attack",
+    "description": "The Doom of Caeranthil swims repetitively in a circle, creating a massive whirlpool that continuously deals massive damage and ragdolls enemies into the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Luminant Beam",
+    "category": "attack",
+    "description": "The Doom of Caeranthil charges a bright green attack for 15-20 seconds before firing a massive laser that obliterates everything in its path.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Barrel Roll",
+    "category": "attack",
+    "description": "The Doom of Caeranthil will spin horizontally, knocking back players who are using their weapons and dealing a low amount of damage. In addition, the Doom of Caeranthil will bite enemies near its head.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pierce",
+    "category": "attack",
+    "description": "When close enough, the Interluminary Parasol starts rapidly stabbing random targets with its arms, sometimes grabbing a player and rapidly draining their blood.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spawn of the Abyss",
+    "category": "attack",
+    "description": "The Interluminary Parasol throws a boulder that deals damage on impact, summoning a Depths mob — either an Alpha Megalodaunt, Broodlord, Thresher, or Nautilodaunt.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Enmity's Call",
+    "category": "attack",
+    "description": "The Heart of Enmity raises his axe into the air and summons three Enmity Servants.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Condemnation's Fall",
+    "category": "attack",
+    "description": "The Heart of Enmity slightly crouches and hurls his axe, creating an area of effect on impact that deals major damage and ragdolls. This attack is often used on distant players.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Brutalizer",
+    "category": "attack",
+    "description": "The Heart of Enmity stomps the ground to knock down nearby players, then slams his axe down. Can be feinted into Sadist's Fury or Condemnation's Fall.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stomp",
+    "category": "attack",
+    "description": "Elder Primadon will raise his right foot and stomps after a delay.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heavy Stomp",
+    "category": "attack",
+    "description": "Elder Primadon brings his right foot high in the air and roars. After a short while, he stomps the ground, dealing colossal damage to anyone unfortunate enough to be under his feet.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Triple Stomp",
+    "category": "attack",
+    "description": "Elder Primadon will raise his left foot, eventually stomping three consecutive times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stomp Blitz",
+    "category": "attack",
+    "description": "Elder Primadon will raise his left foot, eventually stomping six consecutive times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Punch",
+    "category": "attack",
+    "description": "Elder Primadon punches in front of him.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kick",
+    "category": "attack",
+    "description": "Elder Primadon winds up his right leg before kicking forwards.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grab",
+    "category": "attack",
+    "description": "Elder Primadon grabs in front of him, dealing massive damage after throwing his target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rock Thorw",
+    "category": "attack",
+    "description": "Elder Primadon bows forward and throws five rocks at his target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Disengage",
+    "category": "attack",
+    "description": "Elder Primadon will jump backwards while throwing two rocks at his target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ground Slam",
+    "category": "attack",
+    "description": "Elder Primadon bends his knees and lifts his arms up, eventually slamming down after a variable amount of times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Enrage",
+    "category": "attack",
+    "description": "At half health, Elder Primadon becomes enraged, roars and inflicts insanity to anyone affected.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Combo",
+    "category": "attack",
+    "description": "Elder Primadon does a stomp, a kick, then a triple stomp in quick succession.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stomp Feint",
+    "category": "attack",
+    "description": "Elder Primadon raises his right foot, but will instead delay it and then proceed to feint. Afterwards he will punch and then he will kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Triple Stomp Feint",
+    "category": "attack",
+    "description": "Elder Primadon will raise his left foot, eventually stomping once, then feinting the second. Afterwards he will punch.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vehemens Ventus",
+    "category": "attack",
+    "description": "Charges for ~10 seconds then launches a large purple gale orb that deals massive posture and Wind damage on impact; avoid by air-dash, Ghost/Dark Rift, floor drop, waypoint, or portals.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blinding Gale",
+    "category": "attack",
+    "description": "Charges its fist and fires a blinding ball of gale toward the player; animation shared with Pressurized Wind and deals minimal damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pressured Wind",
+    "category": "attack",
+    "description": "Charges an arm and releases a purple laser that locks onto a random player and forces a parry; full beam deals heavy damage if not parried.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whiplash",
+    "category": "attack",
+    "description": "Pulls its arm back then swings at the player; the arm remains for ~2 seconds after hitting, leaving the Scion vulnerable to parry follow-ups.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bonestaves of Eld",
+    "category": "attack",
+    "description": "Launches three bones per player in a set order that do medium posture damage; blocked/parried bones fall to the floor to be placed in shrines, hits do low damage and do not drop.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bonegrow",
+    "category": "attack",
+    "description": "Bones appear on the ground and grow upward, launching players into the air with low damage and guaranteeing the next hit; avoid by jumping or rolling through spikes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bone Stream",
+    "category": "attack",
+    "description": "Bones rise from the ground and circle a floor, remaining active during other attacks, dealing higher damage and unable to be blocked; avoid by jumping or leaving the floor.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Debris",
+    "category": "attack",
+    "description": "Summons up to 9 reduced-stat Kyrsgarde Snipers on shrines that cannot move and serve as heal sources when killed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Triple Blood Appendage",
+    "category": "attack",
+    "description": "Shoots three long appendages that latch onto a player/surface before returning. Blocking all three causes heavy posture damage, so parry is recommended.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Powerful Blood Appendage",
+    "category": "attack",
+    "description": "Launches one appendage that rapidly targets a player; if it lands, it flings the player toward Chaser. Has an indicator and unparryable sound cue.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Burning Blood Explosion",
+    "category": "attack",
+    "description": "Forms a moderately large explosion of blood under the player, then ignites it. Low posture damage but fast cast.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Miasma Wave",
+    "category": "attack",
+    "description": "Three waves of blood mist spread out, covering the whole area. Getting hit stuns and prevents jumping, guaranteeing follow-up hits.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Stalactite Fall",
+    "category": "attack",
+    "description": "Drops many stalactites from the ceiling. Low posture damage. In phase 2, ceiling collapses and this attack ends permanently.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sanguine Repulsion",
+    "category": "attack",
+    "description": "Uses blood to imitate a vent, launching away all nearby players and ragdolling them. First instance does the most damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Transfusion",
+    "category": "attack",
+    "description": "Heals ~1250 HP from blood jars. Used after leaving vulnerable state. Cannot be used once all jars are broken.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Last Resort",
+    "category": "attack",
+    "description": "Unleashes ~25 localized attacks while chaining all moves in a frenzy. Must stay in the circle below him to avoid.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Body Slam",
+    "category": "attack",
+    "description": "In final phase, blood tendrils slam Chaser onto the floor repeatedly, pushing players away from the safe zone. Moderate damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blood Frenzy",
+    "category": "attack",
+    "description": "Laughs then uses up to 4 attacks in quick succession. Highlighted in red during use. Only available once jars are gone. Drains 250 HP from Chaser.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dread Breath",
+    "category": "attack",
+    "description": "The Dread Serpent opens its mouth and releases a white-frost beam, dealing extreme rapid damage to those around it and freezing the water. Also deals heavy damage to boats. This attack deals enough damage to knock a MAX POWER player in under two seconds if consistently landed; if hit while knocked, it causes extreme amounts of blood loss. :contentReference[oaicite:1]{index=1}",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Claw Swipe",
+    "category": "attack",
+    "description": "Swipes two times in quick succession; each hit will ragdoll you and therefore getting hit by the first swipe will guarantee a hit from the second swipe. Can be rarely preceded by Tail Swipe. :contentReference[oaicite:2]{index=2}",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tail Swipe",
+    "category": "attack",
+    "description": "An attack with the tail, often used after two claw swipes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Strong Left",
+    "category": "attack",
+    "description": "Duke Erisia will charge up a punch and teleport to his target, transitioning to Assault and Critical.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Assault",
+    "category": "attack",
+    "description": "Performs 3 basic attacks before sending the opponent away with a flourish.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Critical",
+    "category": "attack",
+    "description": "The Duke rushes forwards and unleashes a haymaker punch after Strong Left.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Feint",
+    "category": "attack",
+    "description": "Duke Erisia pulls his fist back before it hits you, only to hit you again with his other hand.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shields of Erisia",
+    "category": "attack",
+    "description": "Duke Erisia shields himself in a glowing wind shield reflecting attacks back and ragdolling attackers.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Binding Tempest",
+    "category": "attack",
+    "description": "Duke Erisia rises then throws homing balls of air that latch onto those who fail to parry/dodge, then teleports and punches away.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aero Spear",
+    "category": "attack",
+    "description": "Duke Erisia flies into the air and shoots a singular wind lance at his target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Stomp",
+    "category": "attack",
+    "description": "Duke Erisia stomps the ground, conjuring a wave of wind towards his victim.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cyclone Bomb",
+    "category": "attack",
+    "description": "Duke Erisia flies into the air, conjures a huge ball of wind, then throws it down causing massive damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mindless Servants",
+    "category": "attack",
+    "description": "Duke Erisia snaps his fingers, summoning Mindless Servants from pods.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vent",
+    "category": "attack",
+    "description": "An explosion of blue ether around the user that pushes opponents away.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Clones",
+    "category": "attack",
+    "description": "Summons four clones that run and slash at players.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Strike",
+    "category": "attack",
+    "description": "Rains multiple thunderbolts from the sky.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Assault",
+    "category": "attack",
+    "description": "Teleports to the player for a rapid three-hit lightning dash.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Volley",
+    "category": "attack",
+    "description": "Fires four slow purple javelins with high posture damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Displacement",
+    "category": "attack",
+    "description": "Teleports to pre-determined spots to un-stun and reset.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Maestro's Flourish",
+    "category": "attack",
+    "description": "Performs vertical and horizontal slashes followed by delayed aftercuts.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Floating Passage",
+    "category": "attack",
+    "description": "A flurry of slashes where he remains vulnerable afterward.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Dharma Descent",
+    "category": "attack",
+    "description": "A leaping or downward strike that includes an autogrip finisher.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Mangetsu",
+    "category": "attack",
+    "description": "Draws back before unleashing a vortex of gale-speed slashes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Pressure",
+    "category": "attack",
+    "description": "Flash steps to perform a circular slash similar to Ankle Cutter.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tempest Eye",
+    "category": "attack",
+    "description": "A high-speed gale attack described as faster than kunai.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maestro's Kick",
+    "category": "attack",
+    "description": "A flourish kick used to finish a katana swing combo.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Talon Swipe",
+    "category": "attack",
+    "description": "Swipes with one arm; speed varies by arm used.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Strong Swipe",
+    "category": "attack",
+    "description": "Delayed left-hand swipe using Red Telegraph.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shade Cloak",
+    "category": "attack",
+    "description": "Unleashes a shadowy burst that drains sanity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Curb Stomp",
+    "category": "attack",
+    "description": "Stomps ground after lifting leg; Cyan/Green telegraph.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Feather Coat",
+    "category": "attack",
+    "description": "Aura of black feathers providing a chip damage buff.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Owl Dash",
+    "category": "attack",
+    "description": "Spinning assault with shadowy waves after kneeling.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Overhead Grab",
+    "category": "attack",
+    "description": "Jumps and descends as feathers to grab the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flock of Feathers",
+    "category": "attack",
+    "description": "Bursts into feathers to target and chip block damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trample",
+    "category": "attack",
+    "description": "Primadon performs 3 quick stomps with its left foot.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kick Blunt",
+    "category": "attack",
+    "description": "Primadon winds back its right leg to deliver a devastating kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rock Throw",
+    "category": "attack",
+    "description": "Primadon swipes the earth using his right arm, hurling 3 rocks.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Disengage (Fade Away)",
+    "category": "attack",
+    "description": "Primadon jumps backward while throwing 1 rock at the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Legion's Martial Arts",
+    "category": "attack",
+    "description": "Titus firmly swings his fists at his opponent with hyperarmor.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Imperator's Fury",
+    "category": "attack",
+    "description": "Quickly slams down both arms into the ground, knocking players away with a vent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Worldpiercing Deluge",
+    "category": "attack",
+    "description": "Smashes arms into the ground causing three consecutive shockwaves.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Worldshattering Smackdown",
+    "category": "attack",
+    "description": "Grabs the opponent before smacking them into the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Commander's Rage",
+    "category": "attack",
+    "description": "Unleashes an echoing roar that temporarily amplifies his attacks.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Commander's Whirlthrow",
+    "category": "attack",
+    "description": "Grabs the opponent, spins around, and sends them flying.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Splitting Ascension",
+    "category": "attack",
+    "description": "Ascends into the air and crashes into the ground, knocking down opponents.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sovereign Drive",
+    "category": "attack",
+    "description": "Dashes forward in a blink, knocking down enemies in its path.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Skycrash",
+    "category": "attack",
+    "description": "Leaps towards the opponent, stomping and knocking them away.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wrathful Stomp",
+    "category": "attack",
+    "description": "Slowly winds up before releasing a stomp that sends opponents into the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warp Kick",
+    "category": "attack",
+    "description": "Warps to a random opponent and kicks them away.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blighted Sparks",
+    "category": "attack",
+    "description": "Summons three orbs of white lightning that lock onto the nearest opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Chorus Divide: Shattering Crescendo",
+    "category": "attack",
+    "description": "Channels high-pressure beams of wind in a 360 degree motion.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Grab",
+    "category": "attack",
+    "description": "Aska lunges forward for a grab that slams the player and sets them on fire.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Sentinel",
+    "category": "attack",
+    "description": "Aska creates an orb that will shoot fireballs at the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flaming Scourge",
+    "category": "attack",
+    "description": "Aska gathers flames and spins a whip to grab and slam the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ash Slam",
+    "category": "attack",
+    "description": "Aska imbues their fist with flames that strike twice and create explosions.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Relentless Flames",
+    "category": "attack",
+    "description": "Aska releases a flurry of seven slashes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flare Volley",
+    "category": "attack",
+    "description": "Aska fires a blast of flames at the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Slash",
+    "category": "attack",
+    "description": "Swings its sword at the opponent once or twice.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Cutter",
+    "category": "attack",
+    "description": "Slashes at the air with its sword, creating a crescent-shaped projectile.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Terra Eruption",
+    "category": "attack",
+    "description": "Punches the ground, causing a pillar to erupt below the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crushing Grab",
+    "category": "attack",
+    "description": "Holds right arm high before swinging forward to grab and crush the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Charge",
+    "category": "attack",
+    "description": "Readies a stance before charging forward, ragdolling and knocking back those hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spin Thrust",
+    "category": "attack",
+    "description": "Winds up right arm and thrusts forward with spinning hand, hitting three times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Leap",
+    "category": "attack",
+    "description": "Leaps a small distance towards the target, crushing with impact damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bone Spikes",
+    "category": "attack",
+    "description": "Raises leg and stomps to emit a long carpet of rising bone spikes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Femur Throw",
+    "category": "attack",
+    "description": "Digs into ground to pull out a large femur and throws it at high speeds.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Warden's Blades",
+    "category": "attack",
+    "description": "Summons four spinning blades of ice around himself that deal constant damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blood Stakes",
+    "category": "attack",
+    "description": "Creates spikes out of his own blood to impale enemies, draining blood on hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rising Frost",
+    "category": "attack",
+    "description": "Summons an ice glaive and performs a barrage that lifts both into the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Flock",
+    "category": "attack",
+    "description": "Summons a flock of rapid moving ice birds to attack from all angles.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deep Webbing",
+    "category": "attack",
+    "description": "The Widow spits webs, inflicting moderate insanity and dragging the target towards herself.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Venomous Bite",
+    "category": "attack",
+    "description": "The Widow delivers a crushing bite with lingering poison; auto-grips if health is low.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Swipe",
+    "category": "attack",
+    "description": "The Widow slashes using her right leg with a long charge, dealing moderate slashing damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Impale",
+    "category": "attack",
+    "description": "The Widow quickly lunges with both of her legs, dealing moderate damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Articulated Thrash",
+    "category": "attack",
+    "description": "The Widow charges up her leg and slashes the target three times in succession.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "High Swing",
+    "category": "attack",
+    "description": "The Enforcer lifts its weapon high and swings it down; slower with high damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Low Swing",
+    "category": "attack",
+    "description": "The Enforcer swings its weapon horizontally; faster but deals less damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whirlwind",
+    "category": "attack",
+    "description": "Begins to spin rapidly from the waist-up while walking toward the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Space Pull",
+    "category": "attack",
+    "description": "Holds its hand out and pulls the nearest person to it, leaving them hanging.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Thousand Needles",
+    "category": "attack",
+    "description": "Spews a constant spray of coral shards; parrying once defends the entire attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Roar",
+    "category": "attack",
+    "description": "Inflicts Insanity and Fear and increases posture damage taken by nearby targets.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cero",
+    "category": "attack",
+    "description": "Fires a massive dark laser beam that vaporizes and auto-grips low health targets.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jump",
+    "category": "attack",
+    "description": "A mobility move used to close the distance to targets located above the monster.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Normal Critical",
+    "category": "attack",
+    "description": "Flips the Boltcrusher backwards for a slam followed by a twirling strike.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Running Critical",
+    "category": "attack",
+    "description": "A short dash forward followed by a devastating lightning-charged slam.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Javelin",
+    "category": "attack",
+    "description": "Conjures a lance of Thundercall and throws it towards the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Iron Tether",
+    "category": "attack",
+    "description": "Conjures cubes of Ironsing and tethers them together with Thundercall.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Metal Ball",
+    "category": "attack",
+    "description": "Wraps self in a spiked metal ball and rapidly rolls towards the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Emotion Wave",
+    "category": "attack",
+    "description": "Slams a lightning bolt into the ground to send out an omnidirectional wave.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Execute",
+    "category": "attack",
+    "description": "Pins down the opponent and bashes their face in with the weapon.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Stream",
+    "category": "attack",
+    "description": "Casts a stream of lightning that pulls the opponent towards them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Thunder Kick",
+    "category": "attack",
+    "description": "Raises a leg and kicks the opponent with thunder.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Storm Blades",
+    "category": "attack",
+    "description": "Conjures five blades of thunder in front of the user.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Restrain",
+    "category": "attack",
+    "description": "A powerful kick that chains the opponent to the user, even if blocked.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rupture",
+    "category": "attack",
+    "description": "Detonates a chained opponent, dealing high damage and ragdolling them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flip-Kick",
+    "category": "attack",
+    "description": "Flips into the air to strike; used to close gaps or reach higher targets.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Drop-Kick",
+    "category": "attack",
+    "description": "A sprinting drop kick that sends the target flying on impact.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Electro Stomp",
+    "category": "attack",
+    "description": "Stomps to create geysers in a line; unparryable and insta-grips on hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mudskipperification",
+    "category": "attack",
+    "description": "A finishing punch that turns the incapacitated player into a Mudskipper.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Blade",
+    "category": "attack",
+    "description": "Launches a slash of compressed wind towards the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Forge",
+    "category": "attack",
+    "description": "Conjures several blades of wind that impale the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Punch",
+    "category": "attack",
+    "description": "Releases a punch of wind that knocks the opponent back.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Carve",
+    "category": "attack",
+    "description": "Creates a swirl of sharp winds that carve opponents within the area.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Passage",
+    "category": "attack",
+    "description": "Rushes forward instantly, leaving aftercuts of wind along the path.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Daggers",
+    "category": "attack",
+    "description": "Lodestar forms 3 daggers of ice before throwing them towards the nearest target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crystal Impale",
+    "category": "attack",
+    "description": "Lodestar ascends before performing a quick spinning dash towards the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sightless Beam",
+    "category": "attack",
+    "description": "Lodestar fires a high pressure beam from their blindfolded eyes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rising Shadow",
+    "category": "attack",
+    "description": "User moves their hands outward, creating a black tendril that chases nearby enemies.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Revenge",
+    "category": "attack",
+    "description": "A quick dash signified by a red-line effect, the mantra teleports him forward upon hitting the player or the player's block.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Assault",
+    "category": "attack",
+    "description": "Windup before turning into shadows and dashing forward, dealing very minor damage to anyone in your way while applying darkness.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Eclipse Kick",
+    "category": "attack",
+    "description": "The user performs a slow axe kick, causing nearby opponents to be ragdolled and flung back.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Eruption",
+    "category": "attack",
+    "description": "The user swipes with their right hand before releasing a large sphere of shadow.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Right Hook",
+    "category": "attack",
+    "description": "The Broodlord throws a brutal and powerful punch.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Left Hook",
+    "category": "attack",
+    "description": "The Broodlord throws another brutal and heavy blow. Typically used right after Punch.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Broodrot Thrust",
+    "category": "attack",
+    "description": "Delivers a stronger, unparriable thrust with its rotten fist.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Broodrot Smash",
+    "category": "attack",
+    "description": "Rigorously leaps forward and raises its arms into the air, swinging down on its prey with an unparriable rotten slam.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Call of the Horde",
+    "category": "attack",
+    "description": "Unleashes a blood-curdling screech that alerts any nearby mobs of your presence.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flip-Kick Blunt",
+    "category": "attack",
+    "description": "Nautilodaunt flips into the air and attempts to strike their prey with a kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Drop-Kick Blunt",
+    "category": "attack",
+    "description": "Nautilodaunt initiates a full sprint before committing to a drop kick on its prey.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Grand Stomp",
+    "category": "attack",
+    "description": "Nautilodaunt stomps the ground, sending rubble powered by geysers hurtling towards you in a straight line.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tacet Hug",
+    "category": "attack",
+    "description": "The Prime Megalodaunt turns invisible, grabs the target, chews it down, and throws it away.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tacet Drop Kick",
+    "category": "attack",
+    "description": "Starts out similarly to Tacet Hug, but after it turns visible again, it will throw out its entire body in a drop kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Energy Wave",
+    "category": "attack",
+    "description": "Slashes at the air with its sword, creating a crescent-shaped projectile aimed at the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maledicta Terra",
+    "category": "attack",
+    "description": "Punches the ground, causing a pillar to erupt below the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moonscorched Blades",
+    "category": "attack",
+    "description": "Causes a rain of white flaming javelins from the sky.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fire Blade (Starkindred)",
+    "category": "attack",
+    "description": "While he has his wings out, Iblis will rise in the air before unleashing a big wave of flames in front of him.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Ballista",
+    "category": "attack",
+    "description": "Conjures a flaming arrow and fires it at the nearest target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ascension",
+    "category": "attack",
+    "description": "Rises into the air, before swooping in downwards.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sinister Halo",
+    "category": "attack",
+    "description": "Launches a multi hit halo of divine energy forward.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celestial Assault",
+    "category": "attack",
+    "description": "Delivers an upward slash that makes both parties airborne before delivering another sideway slash.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Eruption",
+    "category": "attack",
+    "description": "Stomps the ground, creating a wave of ice in front of him, trapping anyone hit in ice.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gale Lunge",
+    "category": "attack",
+    "description": "Lunges forward with their weapon out, dealing damage and inflicting Winded/Suffocate.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heavenly Wind",
+    "category": "attack",
+    "description": "Rises into the air, before abruptly slamming back down onto the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rising Wind",
+    "category": "attack",
+    "description": "Delivers a uppercut, if it connects, both parties are raised into the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glare",
+    "category": "attack",
+    "description": "Eyes light up to stun anyone facing them; can be parried or blocked.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gaze",
+    "category": "attack",
+    "description": "Swirling symbol in eyes causes insanity shivers; unparryable.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Exhaustion Strike",
+    "category": "attack",
+    "description": "A medium-ranged jab that transfers the user's posture damage to the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dash",
+    "category": "attack",
+    "description": "A long-distance dash used purely for mobility.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Light Piercer",
+    "category": "attack",
+    "description": "Fires 5 spears of light from the air that slow targets; has autoparry frames.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Fissure",
+    "category": "attack",
+    "description": "Summons an ice obelisk on top of the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Cubes",
+    "category": "attack",
+    "description": "Conjures 3 ice cubes that are thrown towards the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Smash",
+    "category": "attack",
+    "description": "Summons a huge ice club and hits the ground, guardbreaking on hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jolt Grab",
+    "category": "attack",
+    "description": "Magnet Spark grab attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rapid Punches",
+    "category": "attack",
+    "description": "Unleashes a barrage of blows against foes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Weapon Swing",
+    "category": "attack",
+    "description": "A basic slash or strike with their equipped weapon.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dagger Slash",
+    "category": "attack",
+    "description": "A quick slash with a dagger.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Dagger Critical",
+    "category": "attack",
+    "description": "A charged thrust with a dagger.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fire Blade",
+    "category": "attack",
+    "description": "User slams down with their blade coated in flames.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Repulsion",
+    "category": "attack",
+    "description": "After a wind-up of ~2 seconds, user releases a burning AoE blast.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fire Palm",
+    "category": "attack",
+    "description": "Conjures a wave of fire from the palm of the users hand.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fire Eruption",
+    "category": "attack",
+    "description": "An eruption of flame under the user hitting anyone nearby.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Spikes",
+    "category": "attack",
+    "description": "Conjure a spike of ice from the ground at cursor location.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Blade",
+    "category": "attack",
+    "description": "Creates two blades of ice and rushes forward rapidly slashing.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Impact",
+    "category": "attack",
+    "description": "Rises into the air slamming back down with lightning empowered kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Air Force",
+    "category": "attack",
+    "description": "A burst of air directly in front of the user.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Onslaught",
+    "category": "attack",
+    "description": "Reels back and swing their weapon, unleashing an onslaught of blows if it hits.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Taunt",
+    "category": "attack",
+    "description": "Yells out a taunt applying an effect to the opponent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Astral Wind",
+    "category": "attack",
+    "description": "User preforms a teleporting slash in the shape of star before returning to their original position.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Champion's Whirlthrow",
+    "category": "attack",
+    "description": "User grabs their target before spinning them in 360 degrees and then tossing them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Clutching Shadow",
+    "category": "attack",
+    "description": "Targets one enemy within a radius around the caster (signified by a red glow around the targeted foe) and lifts them up into the air before slamming them down.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Chain Pull",
+    "category": "attack",
+    "description": "Summons a chain out of their hand that quickly pulls you towards them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Assault",
+    "category": "attack",
+    "description": "User dashes forward covered in flames; hitting anyone in their path.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rising Flame",
+    "category": "attack",
+    "description": "User spins and releases a fury of flames that sends both the user and opponent vertically into the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Scratch",
+    "category": "attack",
+    "description": "Weakly smacks opponent over and over again until knocked. Has relatively high hitstun.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prominence Draw",
+    "category": "attack",
+    "description": "The Lost Diver locks onto all the closest target that is in their range, then dashes forward and performs a large AoE slice.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pressure Blast",
+    "category": "attack",
+    "description": "A heavy downwards swing that cleaves through the air, sending out 3 large blasts of air that ragdoll and knockback.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Variable Moveset",
+    "category": "attack",
+    "description": "Dependent on Oath, weapon, and Mantras. Variants include Songseeker, Black Diver, etc.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Time-Slowing Orb",
+    "category": "attack",
+    "description": "The Semblance creates a bubble. Any player or non-allied npc that steps inside is severely slowed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Twister Kicks",
+    "category": "attack",
+    "description": "The Semblance dashes forwards kicking with a rush of winds dealing damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Hollow Embrace",
+    "category": "attack",
+    "description": "Lunges forwards and grabs the target, draining sanity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Gun",
+    "category": "attack",
+    "description": "Fires a projectile of shadow ether at the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Roar",
+    "category": "attack",
+    "description": "Releases a burst of shadow energy around the user.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Meteor",
+    "category": "attack",
+    "description": "Summons meteors of shadow to strike the area.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Seekers",
+    "category": "attack",
+    "description": "Fires homing shadow projectiles.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summon Minions",
+    "category": "attack",
+    "description": "Summons undead allies to fight for them.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shadow Chains",
+    "category": "attack",
+    "description": "Binds the target with shadow chains.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Needle Barrage",
+    "category": "attack",
+    "description": "User leaps into the air and pelts the enemy with a trio of metal rods.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Firing Line",
+    "category": "attack",
+    "description": "User forms five rifles out of metal that open fire on their target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Oxidizing Rush",
+    "category": "attack",
+    "description": "User rushes forward while surrounded by an array of metal swords.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Metal Eruption",
+    "category": "attack",
+    "description": "Stomps on the ground, spawning a flurry of metal spikes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rocket Lance",
+    "category": "attack",
+    "description": "Forms a lance to impale the target, sending them flying.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flashdraw Strike",
+    "category": "attack",
+    "description": "User sheathes their sword before following up with a teleporting uppercut.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Gun",
+    "category": "attack",
+    "description": "A powerful wind blast that applies Suffocation on hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rapid Slashes",
+    "category": "attack",
+    "description": "Swiftly rushes into the enemy and cuts them apart.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Adrenaline Surge",
+    "category": "attack",
+    "description": "An adrenaline rush of mobility. Grants a speed boost to the caster.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Burning Servants",
+    "category": "attack",
+    "description": "Summon a legion of flaming spearmen that lunge inwards.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightning Blade",
+    "category": "attack",
+    "description": "Arcing blades of electricity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glacial Shower",
+    "category": "attack",
+    "description": "Rains down shards of ice from above.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Iceberg",
+    "category": "attack",
+    "description": "Freezes self to mend wounds; has autoparry frames if hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flame Blind",
+    "category": "attack",
+    "description": "Shoots a projectile that explodes and blinds anyone looking at it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Master's Flourish",
+    "category": "attack",
+    "description": "Caster sends powerful slash that chips through block and slashes through armor.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glacial Arc",
+    "category": "attack",
+    "description": "Fires an arc of ice toward the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jolt Grab (Magnet Spark)",
+    "category": "attack",
+    "description": "Teleports to the nearest target before releasing a shocking electric AoE.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Encircle",
+    "category": "attack",
+    "description": "Conjures shadows around the enemy before warping to them after a short delay.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spark Swap",
+    "category": "attack",
+    "description": "Snaps fingers to swap positions with the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Jolt Grab (Unstable Capacitor)",
+    "category": "attack",
+    "description": "Dashes forward to grab and smash the opponent into the floor.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rising Thunder",
+    "category": "attack",
+    "description": "Rushes forward to grab the opponent and crash down as a bolt of lightning.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blinding Dawn",
+    "category": "attack",
+    "description": "Spins rapidly while unleashing powerful rays of light.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Radiant Kick",
+    "category": "attack",
+    "description": "Teleports to the opponent with a high-speed kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Radiant Dawn",
+    "category": "attack",
+    "description": "Leaps into the air and crashes down with light; unparryable and unblockable.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Chain",
+    "category": "attack",
+    "description": "User forms chains of ice that latch onto opponents.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bolt Piercer",
+    "category": "attack",
+    "description": "Fires a lightning arrow into the sky to rain thunder on the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Electro Carve",
+    "category": "attack",
+    "description": "Creates a potent electromagnetic field that shocks nearby targets.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ground Critical",
+    "category": "attack",
+    "description": "Enters a stance before rushing forward, unleashing a fiery whirlwind on enemy contact.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Aerial Critical",
+    "category": "attack",
+    "description": "While in the air, performs a fiery downwards sweep, applying Knockdown and Burn.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Arc Wave",
+    "category": "attack",
+    "description": "Performs a quick stomp on the ground that releases a wave of energy, dealing fire and lightning damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Arc Beam",
+    "category": "attack",
+    "description": "Shoots out a laser from the user's eyes that explodes after a second, dealing fire and lightning damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mecha Gatling",
+    "category": "attack",
+    "description": "The user pulls out a Gatling gun, mowing down enemies caught in the line of fire.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Explosion (Passive)",
+    "category": "attack",
+    "description": "Violently explodes after being gripped/killed, dealing AoE Autogrip damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pickaxe Swipe",
+    "category": "attack",
+    "description": "Weakly slashes opponent with a pickaxe over and over again until knocked.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lumbering Thrust",
+    "category": "attack",
+    "description": "Delivers a stronger, unparriable thrust with its fist that ragdolls.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bite",
+    "category": "attack",
+    "description": "Leans forward to bite down and ragdoll those hit. Only used while in water.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pyroclastic Roar",
+    "category": "attack",
+    "description": "An orange-ringed roar that summons flaming swords raining down; does not apply debuffs.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blazing Kick",
+    "category": "attack",
+    "description": "A charged kick that sets hit targets on fire and causes heavy stagger.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bullet Fury",
+    "category": "attack",
+    "description": "Shoulder-mounted cannon rapidly fires short-range bursts at the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Furnace Explosion",
+    "category": "attack",
+    "description": "Marks a glowing area then creates a delayed fiery explosion; causes ragdoll.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heavy Punch",
+    "category": "attack",
+    "description": "The Stonespark winds up its right arm and throws a heavier punch at its target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Two-Hand Slam",
+    "category": "attack",
+    "description": "The Golem slams both fists down in front of it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spin",
+    "category": "attack",
+    "description": "The Golem spins its torso rapidly, hitting multiple times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Laser",
+    "category": "attack",
+    "description": "Charges a white orb at its core before firing a beam that causes an explosion.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Scream",
+    "category": "attack",
+    "description": "The Golem roars, causing rocks to fall from the ceiling.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Uppercut",
+    "category": "attack",
+    "description": "A swift upward strike that can ragdoll players.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Recessive Spin",
+    "category": "attack",
+    "description": "Spins arms rapidly, dealing damage at high speed with autoparry frames.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prime Laser",
+    "category": "attack",
+    "description": "Charges and fires a red laser, dealing massive damage in a small AoE.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Laser Barrage",
+    "category": "attack",
+    "description": "Fires a barrage of red lasers, dealing high damage rapidly.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Whirling Blade",
+    "category": "attack",
+    "description": "Spins rapidly with its blades, dealing damage in an area.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spin Attack",
+    "category": "attack",
+    "description": "Rotates its body rapidly, hitting enemies around it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Orb",
+    "category": "attack",
+    "description": "Fires a projectile of wind ether at the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lifeweave Orb",
+    "category": "attack",
+    "description": "Fires a projectile of lifeweave ether at the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bite Combo",
+    "category": "attack",
+    "description": "Bites three times in quick succession.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "No Trace Left Behind",
+    "category": "attack",
+    "description": "A disengaging maneuver that may deal damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ice Beam",
+    "category": "attack",
+    "description": "Fires a powerful beam of frost energy.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Arm Swipe",
+    "category": "attack",
+    "description": "Stands on hind legs and swipes twice.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Burrow",
+    "category": "attack",
+    "description": "Digs underground and resurfaces to attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Royal Breath",
+    "category": "attack",
+    "description": "Exhales a powerful breath attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pillar",
+    "category": "attack",
+    "description": "Summons a stone pillar from the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Wind Slash",
+    "category": "attack",
+    "description": "A ranged wind projectile.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Claw Smash",
+    "category": "attack",
+    "description": "A heavy slam with the giant claw.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crab Summon",
+    "category": "attack",
+    "description": "Spawns smaller crabs to attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Leech",
+    "category": "attack",
+    "description": "Latches onto the player, consuming blood.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Electric Stun Pulse",
+    "category": "attack",
+    "description": "Releases an electric shockwave.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Static Discharge",
+    "category": "attack",
+    "description": "A massive release of static electricity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Greater Stun Pulse",
+    "category": "attack",
+    "description": "A larger version of the stun pulse.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spawn Gigameds",
+    "category": "attack",
+    "description": "Summons smaller Gigameds.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Right Arm Swipe",
+    "category": "attack",
+    "description": "A quick swipe with the right arm.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Left Arm Swipe",
+    "category": "attack",
+    "description": "A delayed swing with the left arm.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Double Swipe",
+    "category": "attack",
+    "description": "Two rapid claw swipes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pounce",
+    "category": "attack",
+    "description": "Leaps towards the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ram",
+    "category": "attack",
+    "description": "Charges at the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Clenching Assault",
+    "category": "attack",
+    "description": "Swings once then grabs and drills the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Slam",
+    "category": "attack",
+    "description": "Crushes hands onto the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cloaking Assault",
+    "category": "attack",
+    "description": "Goes invisible then reappears with a 2-hit combo.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spear Thrust",
+    "category": "attack",
+    "description": "A forward thrust with the ice spear.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spear Sweep",
+    "category": "attack",
+    "description": "A sweeping attack with the spear.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Glacial Javelin",
+    "category": "attack",
+    "description": "Throws a conjured ice spear.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Skyward Spear",
+    "category": "attack",
+    "description": "Backflips and throws a spear from the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Permafrost Colosseum",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion summons a large ring of ice pillars, simmilar to Ice Eruption's round spark variant. This move is only used when you deal damage to it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pylons of Frost",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion spins its glaive in the air before slamming into the ground, causing three pillars of ice to erupt in succesion from beneath the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Decapitating Sweep",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion performs two low slashes with its glaive, before spinning into a high slash. the third slash is marked by a yellow indicator, crouch to avoid this attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Altitude Swipes",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion performs a quick jumpable sweep, followed by another that must be crouched.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Frostgrave",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion proceeds to raise its glaive, before detonating ice below the player's feet.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Champion's Quake",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion crouches slightly before jumping up and crashing into the ground. This attack deals damage as soon as The Champion's feet touch the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rime-Rise",
+    "category": "attack",
+    "description": "With a horizontal slash, the Kyrsgarde Champion creates a line of ice spikes in the direction of the nearest target. This attack is capable of dealing very high damage due to each \"ice spike\" The Champion sends dealing one instance of damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Splintered Thrust",
+    "category": "attack",
+    "description": "The Champion lets out a swift thrust with its glaive.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crossrend Cryocleave",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion uses its glaive to execute two slashes, followed by a sweep that must be jumped over, and an overhead slash that must be avoided by dodging.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shatterline",
+    "category": "attack",
+    "description": "Enraged, the Champion raises its glaive and summons two ice spikes, rushing forth and delivering two slices.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Blizzard's Sanction",
+    "category": "attack",
+    "description": "The Kyrsgarde Champion briefly winds up before unleashing four cleaves, followed by a delayed Splintered Thrust. All four slashes follow the green telegraph.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "High Cleave",
+    "category": "attack",
+    "description": "Simple upward slash toward the right.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crush & Rend",
+    "category": "attack",
+    "description": "Kick obscured by dust, followed by a downward swing.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Graceful Slicer",
+    "category": "attack",
+    "description": "Leaps backward and slashes twice in opposing directions.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Severing Flourish",
+    "category": "attack",
+    "description": "Spinning red-highlighted double slash.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Low Cleave",
+    "category": "attack",
+    "description": "Simple slash with a blue highlight (Crouch/Uppercut).",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Shogun's Brutality",
+    "category": "attack",
+    "description": "Stomp followed by two fast slashes and a leg sweep.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Serpent-Slaying Sweep",
+    "category": "attack",
+    "description": "Crouching left slash, red slash, then two spinning slashes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Mortal Draw: Sakura Dance",
+    "category": "attack",
+    "description": "Roar followed by a flurry of rapid mixed slashes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tendril Cage",
+    "category": "attack",
+    "description": "Summons white circles that erupt into tendrils.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tendril Uprising",
+    "category": "attack",
+    "description": "Tendrils erupt from the ground beneath the target.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brushstrokes of Black",
+    "category": "attack",
+    "description": "Black strings manifest on the ground.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tendril Cascade",
+    "category": "attack",
+    "description": "Red-highlighted tendril attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pillars of Black",
+    "category": "attack",
+    "description": "Rains down pillars from the sky.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prophet's Drop Punch",
+    "category": "attack",
+    "description": "Dashing kicks followed by a punch.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prophet's Aerial Assault",
+    "category": "attack",
+    "description": "Flies up and performs a green-highlighted punch.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Prophet's Divebomb",
+    "category": "attack",
+    "description": "Divebombs the target from the air.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Equalizer Punch",
+    "category": "attack",
+    "description": "Teleports, latches with strings, punches away then pulls back.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Heel Slice",
+    "category": "attack",
+    "description": "Teleports and performs a spinning heel slice.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Master Of The House",
+    "category": "attack",
+    "description": "Creates a singularity pulling targets in.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Flip Kick",
+    "category": "attack",
+    "description": "Acrobatic flip kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "High Flip Kick",
+    "category": "attack",
+    "description": "Higher variation of the flip kick.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Furious Stomp",
+    "category": "attack",
+    "description": "Rapid stomp attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Combo Slam",
+    "category": "attack",
+    "description": "Multi-hit slam combo.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Homerun Bat",
+    "category": "attack",
+    "description": "The Heart of Enmity kneels down and grabs a nearby player, tosses them up then bats them with his axe.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sadistic Fury",
+    "category": "attack",
+    "description": "The Heart of Enmity kneels down and performs a fast double-swing with its axe, dealing high damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Event Horizon",
+    "category": "attack",
+    "description": "The Heart of Enmity raises its arm and charges a pull attack, forcing players to go within the attack's blind spot near Enmity. Anybody caught outside the blind spot will be pulled and take serious damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Spread; Obsidian Wings",
+    "category": "attack",
+    "description": "The Heart of Enmity quickly leaps up with his wings before striking the player with his axe.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Everlasting Agony",
+    "category": "attack",
+    "description": "The Heart of Enmity, filled with contempt, makes an unparryable charge towards the player, sending them upwards before slowly taking flight and crashing down at them, dealing major damage. ",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Reposition",
+    "category": "attack",
+    "description": "The Heart of Enmity quickly darts from one side to another, often following up with an attack.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sadistic Edge",
+    "category": "attack",
+    "description": "The Heart of Enmity performs a quick slash.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ferocious Barrage",
+    "category": "attack",
+    "description": "Knell slashes at the player with his claws six times.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Arachnid Leap",
+    "category": "attack",
+    "description": "Knell jumps into the air and slams into the ground. Can be avoided by jumping.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pouncing Grapple",
+    "category": "attack",
+    "description": "Knell lunges towards the player grabbing them before bitting them twice. Drains a high amount of sanity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bell Fall",
+    "category": "attack",
+    "description": "Knell flicks one of his hands upwards, causing a small cluster of bells to fall on top of the player.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Great Bell Fall",
+    "category": "attack",
+    "description": "Knell throws both of his hands forwards, causing a large cluster of bells to fall on top of the player. Applies knockdown on hit.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Raining Resonation",
+    "category": "attack",
+    "description": "Knell lets out a scream, making bells continuously rain on the player. Deals low posture damage.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "A Toll of the Bell",
+    "category": "attack",
+    "description": "Knell spins around holding a massive bell before hurling it at the player. Deals extremely high damage. It is recommended to full roll instead of roll canceling. Knell only uses this attack during his second phase.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Carillon Call",
+    "category": "attack",
+    "description": "Knell lets out a scream, causing bells to rain in a circle around him. Knell only uses this attack during his second phase.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rain Chimes",
+    "category": "attack",
+    "description": "Knell twirls in place and summon chimes that rain from above. Knell only uses this attack in the second phase.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  }
+]

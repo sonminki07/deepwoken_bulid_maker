@@ -1,0 +1,83 @@
+[
+  {
+    "name": "None",
+    "category": "boon",
+    "description": null,
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Autodidact",
+    "category": "boon",
+    "description": "You get a free attribute to invest at every level.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Gourmet",
+    "category": "boon",
+    "description": "Foods are much more nutritional.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Maverick",
+    "category": "boon",
+    "description": "Doing things alone yields greater experience.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Packmule",
+    "category": "boon",
+    "description": "You have a much higher max carry load and can carry much larger quantities of food.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Scrapper",
+    "category": "boon",
+    "description": "You gain an extra Ace every other Whisper Roll.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sly",
+    "category": "boon",
+    "description": "You sweet talk your way out of trouble, gaining less bad reputation from committing crimes.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Steadfast",
+    "category": "boon",
+    "description": "Your armor retains more durability when attacked.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Survivalist",
+    "category": "boon",
+    "description": "You are resistant to environmental effects.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  }
+]

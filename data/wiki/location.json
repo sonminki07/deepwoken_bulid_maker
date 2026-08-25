@@ -1,0 +1,974 @@
+[
+  {
+    "name": "Etris",
+    "category": "location",
+    "description": "Highest amongst the peaks of the mountains, a proud fortress of a city stands against the world itself.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etrean Wilds",
+    "category": "location",
+    "description": "The sounds of the forest comfort your sea-weary soul, if briefly.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etris Docks",
+    "category": "location",
+    "description": "There are those who think of ports as a gateway between two worlds; that of the living and that of the lost.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The King's Garden",
+    "category": "location",
+    "description": "The smell of blossom permeates the quiet gardens that surround the Lord Regent's place.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Etris Palace",
+    "category": "location",
+    "description": "An imposing aura of pride, tradition, and dignity courses through the halls of the estate.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Isle of Vigils",
+    "category": "location",
+    "description": "A solemn sanctuary carved in stone, where warriors hone the dancing steps of war.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple of the Blade",
+    "category": "location",
+    "description": "A solemn sanctuary carved in the stone, where warriors hone the dancing steps of war.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple Approach",
+    "category": "location",
+    "description": "A solemn sanctuary carved in stone, where warriors hone the dancing steps of war.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple Sparring Hall",
+    "category": "location",
+    "description": "A solemn sanctuary carved in stone, where warriors hone the dancing steps of war.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vigil's Mark",
+    "category": "location",
+    "description": "A common spot for vigils-to-be to test both mettle and metal.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lower Erisia",
+    "category": "location",
+    "description": "A land lost to time, now made a battleground for warriors who know not why they fight",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Viper's Jaw",
+    "category": "location",
+    "description": "When Erisia was whole, these caverns were used by smugglers to sneak past the watchful eye of the Erisian nobles and ply their goods to the townsfolk.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Tomb of the Nameless Warrior",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pathfinder's Respite",
+    "category": "location",
+    "description": "A peaceful grotto to escape the horrors of a cursed land lost to time.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Erisor's Church",
+    "category": "location",
+    "description": "Why does this name speak to me and why do I know it so well?",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Upper Erisia",
+    "category": "location",
+    "description": "A land lost to time, now made a battleground for warriors who know not why they fight",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Duke Erisia's Manor",
+    "category": "location",
+    "description": "What was stolen from below lies within.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Duke Erisia's Laboratory",
+    "category": "location",
+    "description": "What was stolen from below lies within.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Birdcage",
+    "category": "location",
+    "description": "Now abandoned, the floors still void of the ashes they so desparately crave",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Towerstruck Lands",
+    "category": "location",
+    "description": "A rich stone quarry, perfect for creating life.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Hidden Village",
+    "category": "location",
+    "description": "A village created far away from the watchful eyes of the Stonelife Lord.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Temple of The Forgotten Flame",
+    "category": "location",
+    "description": "A temple old as the island itself, robbed of its heart.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple Courtyard",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Garden Reservoir",
+    "category": "location",
+    "description": "Down below the gardens lay a home left to rot.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Burning Stone Gardens",
+    "category": "location",
+    "description": "Acid runs along the stones, giving way to a forest guarded by immortal giants.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Rat's Den",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Minityrsa",
+    "category": "location",
+    "description": "Ocean water freezes against the stone, as if trying to climb onto the shore.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Outpost Antumbra",
+    "category": "location",
+    "description": "A mysterious base of operations for the Ministry, lurking within the snowscape.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Valley of Heroes",
+    "category": "location",
+    "description": "A valley left forgotten, a place of power that draws the heavens downward.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Crypt of the Unbroken",
+    "category": "location",
+    "description": "The dimly lit halls echo with voices of those who once walked.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Starfield Tundra",
+    "category": "location",
+    "description": "The beauty of the tundra, the Star Tree stands tall.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Understrand",
+    "category": "location",
+    "description": "A sprawling network of hidden passages utilised by the Ministry in their covert operations. The righteous would never stray so far.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Trial of One",
+    "category": "location",
+    "description": "And now, a road that only one may walk...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Starswept Valley",
+    "category": "location",
+    "description": "Glimmers of starlight mingle with the pungent rot that afflicts these lifeless sands.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Lightkeeper Temple",
+    "category": "location",
+    "description": "Heavy is the burden of the Lightkeeper, for the whole world rests on their shoulders.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Widow's Hollow",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Deep Thresher Nest",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Starfield Grove",
+    "category": "location",
+    "description": "The beauty of the valley, the Star Tree stands tall.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fort Merit",
+    "category": "location",
+    "description": "Once a prison at the edge of Etrean influence, now a forward base for the Authority.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Merit's Reach",
+    "category": "location",
+    "description": "Once a prison at the edge of Etrean influence, now a forward base for the Authority.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Bluster Rift",
+    "category": "location",
+    "description": "The winds pick up - and so too do the rapids of this treacherous gorge.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Lordsgrove",
+    "category": "location",
+    "description": "Generations of Hivelords stand watch over the lush passage, a stark contrast to the blasted wastes beyond it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Meteor Isle",
+    "category": "location",
+    "description": "Remnants of the stars themselves rain down upon this rocky spire.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Greathive Aratel",
+    "category": "location",
+    "description": "Life in all its variety hums around you. The immensity of what has been accomplished in cultivating this place washes over you.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Songseeker Wilds",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Songseeker Temple",
+    "category": "location",
+    "description": "There are those who seek to wield the Song as those of the Old World once did, as an artform to be cultivated into something transcendent.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Ancient Rotlands",
+    "category": "location",
+    "description": "The scent of decay suffocates this murky land, once the home of a fallen Celestial.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Derelict Highchurch",
+    "category": "location",
+    "description": "High above the ancient rot, a place of worship to the unimaginable resides.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Summer Isle",
+    "category": "location",
+    "description": "The smell of gunpowder blankets this tropical paradise.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Furnace",
+    "category": "location",
+    "description": "Heat rises beneath the hall, exacerbating the exhaustion of conflict.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Miner's Landing",
+    "category": "location",
+    "description": "The pride and efforts of the Union have culminated in this research base.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Saramaed Summit",
+    "category": "location",
+    "description": "The air itself feels as if it were becoming ash, as the embers around you radiate heat.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Saramaed Hollow",
+    "category": "location",
+    "description": "The deeper one digs, the more the fruits of the earth avail themselves, though there are things better left interred within...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Entropy Catalyst",
+    "category": "location",
+    "description": "The machina hisses ominously against the nature surrounding it, standing as a protest against life itself.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Eastern Interstitial Lighthouse",
+    "category": "location",
+    "description": "The only means of transportation to other Luminants. Without it, we may as well be drowned to the outside world.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Starfield Veldt",
+    "category": "location",
+    "description": "The beauty of the Veldt, the Star Tree stands tall.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Celtor Wastes",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Castle Light",
+    "category": "location",
+    "description": "A hidden operating base for the Divers of the First Layer, where many apprentices come to learn the harsh reality of the Depths.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Light's Causeway",
+    "category": "location",
+    "description": "In a narrow crook of the wastes, light beams out and offers respite to the Divers who risk condemning their souls to the abyss forever.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Chariot's Spire",
+    "category": "location",
+    "description": "The indomitable tower sprawls into the vast depths below, welcoming all to its sinful grasp.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Brinepool Passage",
+    "category": "location",
+    "description": "Warmer waters brush past you with the current, a contrast to the bitter chill beneath your feet.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Cold Forge",
+    "category": "location",
+    "description": "Coldheart Fortinbras' fabled lab hums at a precise chill, the perfect temperature for materials of the deep to transform, bending nature's laws in eerie, frostbitten secrecy.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The City of the Drowned",
+    "category": "location",
+    "description": "The sunken remnants of a lost civilization give little respite to the transitory beings that pass through.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Varicosa District",
+    "category": "location",
+    "description": "It's sometimes mused that the greed, excess, and petty politics of those in this district had already killed the city before it drowned.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "District of Commerce",
+    "category": "location",
+    "description": "he heart of the city's trade, whose streets once brimmed with exuberance and life, now only plies its own share of miseries, tragedies, and long-nursed agonies.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Military District",
+    "category": "location",
+    "description": "The top brass of the military are said to have opted not to raise the alarm in time, saving their own skins by slipping out before the chaos of a mass evacuation.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cathedral of the Interstice",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple of Hearts",
+    "category": "location",
+    "description": "An esoteric place even the most pious of men are known to seek out, though all take the secret to their graves.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Marauder's Entrance",
+    "category": "location",
+    "description": "Hewn into rock, the ritual mechanism shudders. Scattered papers and schemes flit by in the current.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Diluvian Mechanism",
+    "category": "location",
+    "description": "An inscrutable mechanism looms in the centre of the hall. Many hearts have been consumed to spur its accursed gears into motion.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "A Conscious Intersection",
+    "category": "location",
+    "description": "I am one of many.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fragments of Self",
+    "category": "location",
+    "description": "What will become of us?",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Cathedral of Ethiron",
+    "category": "location",
+    "description": "The once sacred hall reeks of decaying corpses and profane heresy.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Firfire",
+    "category": "location",
+    "description": "The opening gives way to a small town inhabited by structures that appear familiar yet alien.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Firfire Caverns",
+    "category": "location",
+    "description": "Twisting turns and eternal darkness await those foolish enough to continue.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Sanctuary Gatehouse",
+    "category": "location",
+    "description": "A Gatehouse left alone. For what fool would dare tread upon sacred ground?",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Frontier Furnace",
+    "category": "location",
+    "description": "The hiss of steam and roar of engines grant a strange comfort amidst the wind-swept land.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Maw of Ethiron",
+    "category": "location",
+    "description": "The air around you falls to an unsettling silence. The air is still, as a tower rises above.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Pilgrim's Respite",
+    "category": "location",
+    "description": "Before continuing on your journey, rest and gather your mind.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kyrsan Wilds",
+    "category": "location",
+    "description": "Deep cavern walls painted with the serene glow of starlight emanating from a city lost to time.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "New Kyrsa, The Sleeping City",
+    "category": "location",
+    "description": "Far below the Gale, a city of gleaming lights was rekindled by the flames of religious fervour into a grand temple.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Sunken Railways",
+    "category": "location",
+    "description": "Once a testament to the grand technologies of Kyrsa, now left to the rot of eternity.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Beloved Zofia",
+    "category": "location",
+    "description": "An abandoned ship lost to time, now corrupted by the spirits of the Voidsea.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Boatman's Watch",
+    "category": "location",
+    "description": "A place remembered only by the waves.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Moon's Eyrie",
+    "category": "location",
+    "description": "A beacon calling out from the Void to the Old Dead above. Dreams are so frequently dragged neath the mires of time.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Voidheart",
+    "category": "location",
+    "description": "Halls of inscrutable architecture stretch as far as the eye can see. No human could've constructed this, almost defying the laws of the realm itself.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Echoes of Bloodshed",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Hall of Shattered Wills",
+    "category": "location",
+    "description": "What inhuman acts of cruelty were committed here?",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Profane Cavern",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Condemned Archives",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Kyrsan Railways",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Widow's Wail Cemetery",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Glade of Strife",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Falcon's Hold",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Unearthed Colosseum",
+    "category": "location",
+    "description": "When all is said and done, all that will be remembered of this battle are the steps you each took in the dance of bloodshed.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Miner's Landing (Vow of Iron)",
+    "category": "location",
+    "description": "The pride and efforts of the Union have culminated in this research base.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Saramaed Summit (Vow of Iron)",
+    "category": "location",
+    "description": "...",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Minityrsa (Vow of Iron)",
+    "category": "location",
+    "description": "Ocean water freezes against the stone, as if trying to climb onto the shore.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Temple of Mur",
+    "category": "location",
+    "description": "Woven memories split and fray before you. The sharp edge of a paradox has severed you from this story.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Fragments of Else",
+    "category": "location",
+    "description": "",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Cerebral Spire",
+    "category": "location",
+    "description": "Your surroundings fold in on themselves, their absence forming the pillar that binds these memories together.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Golden Rat",
+    "category": "location",
+    "description": "Off with your hats, and three times three!",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Vault of the Aureate",
+    "category": "location",
+    "description": "What's the golden rule?",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Indigo Citadel",
+    "category": "location",
+    "description": "Shrouded in ice and snow, the quiet stronghold of the valiant Clan Kobura rests, but does not sleep.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Viridian Sanctuary Ruins",
+    "category": "location",
+    "description": "The once-home of the devout Clan Mofisu now turns to cinders, engulfed in the roaring flames of civil war.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "The Sable Estate",
+    "category": "location",
+    "description": "Nestled in the safety of mountains, the serene sanctuary of the mighty clan Ganba stands resiliant.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Red Lotus Keep",
+    "category": "location",
+    "description": "The ancestral seat of the noble Clan Anako, a proud lineage of Etrean warriors, towers over the gloom that surrounds it.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  },
+  {
+    "name": "Simforea",
+    "category": "location",
+    "description": "At the outermost extremities of a vast and ancient mechanism, whose true purpose has long since been swallowed by the passage of ages.",
+    "rarity": "",
+    "requirements": {},
+    "stats": {},
+    "additionalInfo": ""
+  }
+]
