@@ -64,13 +64,42 @@ class WebScraperAgent:
             }
         )
 
+        html = ""
         try:
             with urllib.request.urlopen(req, timeout=timeout) as response:
                 html = response.read().decode("utf-8", errors="replace")
-        except urllib.error.HTTPError as e:
-            raise RuntimeError(f"HTTP Error {e.code} while fetching {url}: {e.reason}")
         except Exception as e:
-            raise RuntimeError(f"Failed to fetch {url}: {e}")
+            logger.warning(f"Direct fetch failed ({e}) for {url}. Falling back to Search Grounding...")
+            # URL에서 키워드 추출 후 DDGS 검색으로 본문 구성
+            from duckduckgo_search import DDGS
+            import urllib.parse
+            slug = urllib.parse.unquote(url.split("/")[-1])
+            search_query = f"Deepwoken {slug} guide wiki details"
+            fallback_texts = []
+            title = f"Deepwoken Guide: {slug}"
+            try:
+                with DDGS() as ddgs:
+                    results = list(ddgs.text(search_query, max_results=5))
+                    for r in results:
+                        fallback_texts.append(f"### {r.get('title')}\n{r.get('body')}")
+            except Exception as se:
+                logger.error(f"Search fallback also failed: {se}")
+
+            if fallback_texts:
+                cleaned_text = "\n\n".join(fallback_texts)
+                doc_id = "web_" + hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
+                return ScrapedWebContent(
+                    url=url,
+                    title=title,
+                    doc_id=doc_id,
+                    meta_description=f"Auto-extracted guide for {slug}",
+                    cleaned_text=cleaned_text,
+                    tables_text="",
+                    headings=[slug],
+                    raw_html=""
+                )
+            else:
+                raise RuntimeError(f"웹페이지 접근 실패 및 검색 대체 불가: {e}")
 
         soup = BeautifulSoup(html, "html.parser")
 

@@ -319,7 +319,7 @@ async def on_message(message: discord.Message):
 
             async with analysis_queue_lock:
                 try:
-                    data = await run_pipeline_with_progress(url, status_msg)
+                    data = await asyncio.wait_for(run_pipeline_with_progress(url, status_msg), timeout=240.0)
                     raw = data["raw"]
                     result_dict = data["result_dict"]
                     b_name = raw.get("build_summary", {}).get("build_name", "Build")
@@ -353,6 +353,14 @@ async def on_message(message: discord.Message):
                     except Exception:
                         pass
 
+                except asyncio.TimeoutError:
+                    logger.error(f"Analysis timed out for {url}")
+                    await status_msg.edit(content=f"⚠️ **[시간 초과]** <@{message.author.id}> 님, `{url}`\n영상 처리 시간이 초과되었습니다 (네트워크 상태 확인 후 다시 시도해 주세요).")
+                    try:
+                        await message.remove_reaction("⏳", bot.user)
+                        await message.add_reaction("❌")
+                    except Exception:
+                        pass
                 except Exception as e:
                     logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
                     err_msg = format_error_message(e)
