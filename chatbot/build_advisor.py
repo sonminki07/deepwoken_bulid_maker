@@ -6,24 +6,30 @@ from google.genai import types
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.prompt import Prompt
+from duckduckgo_search import DDGS
 
 from agents.knowledge_builder import KnowledgeBuilder
+from agents.key_manager import global_key_manager
 
 logger = logging.getLogger(__name__)
 
-ADVISOR_SYSTEM_PROMPT = """당신은 Deepwoken 전문가이자 AI 빌드 어드바이저(Build Advisor)입니다.
-사용자가 원하는 플레이 스타일, 속성, PvP/PvE 선호도, 스탯 요구사항에 맞춰 데이터베이스에서 검색된 빌드 지식을 바탕으로 가장 적합한 빌드를 추천하고 운용법을 조언합니다.
+ADVISOR_SYSTEM_PROMPT = """당신은 세계 최고의 Deepwoken 전문 AI 코치이자 데이터 분석가입니다.
+사용자의 질문에 대해 로컬 빌드 데이터베이스(RAG)와 실시간 웹 검색(Wiki, Reddit) 결과를 종합하여 심층적이고 전문적인 분석 보고서를 제공합니다.
 
-[답변 원칙]
-1. 반드시 제공된 [참고 빌드 지식]의 정보를 우선적으로 인용하여 답변하세요.
-2. 각 빌드의 핵심 스탯, Oath, 필수 탤런트, 주요 만트라, 콤보 팁을 일목요연하게 정리해 주세요.
-3. 사용자의 조건(초보자용, 고인물용, 특정 무기 등)에 따라 장단점을 비교해 주세요.
-4. 출처 영상 URL이 있는 경우 출처를 명시해 주세요.
-5. 검색된 지식에 없는 내용이나 질문일 경우 솔직하게 안내하고 일반적인 딥워큰 지식 기반으로 보완해 주세요.
+[답변 작성 가이드라인]
+1. **정확한 수치와 팩트 기반**: 스탯 분배(Pre-Shrine, Post-Shrine), 필수 탤런트, 만트라(Mantra), 추천 무기/아웃핏/인챈트, 콤보 메커니즘을 구체적인 수치와 함께 상세히 설명하세요.
+2. **원리와 메커니즘 심층 분석**: 왜 이 빌드가 강력한지, 어떤 특성/패시브가 상호작용(시너지)을 일으키는지 상세한 작동 원리를 단계별로 정리하세요.
+3. **구조화된 마크다운 보고서 형식**:
+   - ⚔️ **1. 핵심 작동 원리 및 메커니즘**
+   - 📊 **2. 상세 스탯 분배 및 육성 (Pre/Post Shrine of Order)**
+   - 🛡️ **3. 추천 장비, 아웃핏 및 최적 인챈트 (Equipment & Outfit)**
+   - 🌟 **4. 핵심 탤런트(Talents) 및 주요 만트라(Mantras)**
+   - 🥊 **5. 실전 운용법, 콤보 팁 및 주의점**
+4. 출처 링크나 정보가 있으면 친절하게 명시하세요.
 """
 
 class BuildAdvisor:
-    """5단계: RAG 기반 Deepwoken 빌드 추천 어드바이저 챗봇"""
+    """5단계: RAG + 실시간 웹 검색(DDGS) 하이브리드 Deepwoken AI 빌드 어드바이저"""
 
     def __init__(
         self,
@@ -34,84 +40,94 @@ class BuildAdvisor:
         top_k: int = 4
     ):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
-        if not self.api_key:
-            raise ValueError("GEMINI_API_KEY is not set.")
-        
-        self.client = genai.Client(api_key=self.api_key)
         self.model_name = model_name
         self.top_k = top_k
-        self.kb = KnowledgeBuilder(db_path=db_path, collection_name=collection_name, api_key=self.api_key)
+        self.kb = KnowledgeBuilder(db_path=db_path, collection_name=collection_name, api_key=self.api_key, use_gemini_embedding=False)
+
+    def search_web(self, query: str, max_results: int = 4) -> str:
+        """실시간 웹 검색 (Deepwoken Wiki, Reddit, 빌더 등)"""
+        search_query = f"Deepwoken {query}"
+        try:
+            with DDGS() as ddgs:
+                results = list(ddgs.text(search_query, max_results=max_results))
+                if not results:
+                    return ""
+                snippets = []
+                for r in results:
+                    snippets.append(f"- **{r.get('title')}**: {r.get('body')} (출처: {r.get('href')})")
+                return "\n".join(snippets)
+        except Exception as e:
+            logger.warning(f"Web search error: {e}")
+            return ""
 
     def ask(self, user_query: str) -> str:
-        """사용자 질문에 대해 RAG 검색 후 Gemini 응답 생성"""
-        # 1. RAG 검색
-        search_results = self.kb.query(query_text=user_query, n_results=self.top_k)
-        
-        context_blocks = []
-        if search_results:
-            for idx, res in enumerate(search_results, 1):
-                meta = res["metadata"]
-                context_blocks.append(
-                    f"--- [빌드 {idx}: {meta.get('build_name', 'Unknown')}] ---\n"
-                    f"타입: {meta.get('build_type')} | Oath: {meta.get('oath')} | 출처: {meta.get('url')}\n"
-                    f"상세 내용:\n{res['document']}\n"
-                )
-            context_text = "\n\n".join(context_blocks)
-        else:
-            context_text = "현재 지식 베이스에 인덱싱된 빌드가 없습니다."
+        """RAG 검색 + 실시간 웹 검색 + Gemini AI 통합 답변 생성"""
+        # 1. RAG 지식 검색
+        rag_context = ""
+        try:
+            search_results = self.kb.query(query_text=user_query, n_results=self.top_k)
+            if search_results:
+                blocks = []
+                for idx, res in enumerate(search_results, 1):
+                    meta = res["metadata"]
+                    blocks.append(
+                        f"[로컬 인덱스 빌드 {idx}: {meta.get('build_name', 'Unknown')}]\n"
+                        f"타입: {meta.get('build_type')} | Oath: {meta.get('oath')} | 출처: {meta.get('url')}\n"
+                        f"{res['document']}\n"
+                    )
+                rag_context = "\n\n".join(blocks)
+        except Exception as e:
+            logger.warning(f"RAG search warning: {e}")
 
-        # 2. 프롬프트 구성
+        # 2. 실시간 웹 검색 (Wiki / Reddit)
+        web_context = self.search_web(user_query, max_results=4)
+
+        # 3. 통합 프롬프트 생성
         prompt = (
             f"[사용자 질문]\n{user_query}\n\n"
-            f"[참고 빌드 지식 (RAG 검색 결과)]\n{context_text}\n\n"
-            f"위 참고 빌드 지식을 바탕으로 사용자에게 최적의 빌드 추천 및 가이드를 친절하고 전문적인 마크다운 형식으로 제공하세요."
+            f"[참고 1: 로컬 저장소 분석 빌드 데이터 (RAG)]\n"
+            f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
+            f"[참고 2: 실시간 웹/위키 검색 결과]\n"
+            f"{web_context if web_context else '웹 검색 결과 없음'}\n\n"
+            f"위 참고 자료들을 종합하여 질문에 대해 수치, 탤런트, 메커니즘, 장비/아웃핏 추천이 포함된 상세하고 전문적인 분석 보고서 마크다운을 작성하세요."
         )
 
-        models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
-        for m_name in dict.fromkeys(models_to_try):
-            try:
-                response = self.client.models.generate_content(
-                    model=m_name,
-                    contents=prompt,
-                    config=types.GenerateContentConfig(
-                        system_instruction=ADVISOR_SYSTEM_PROMPT,
-                        temperature=0.3
-                    )
+        def _call_model(client: genai.Client) -> str:
+            response = client.models.generate_content(
+                model=self.model_name,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    system_instruction=ADVISOR_SYSTEM_PROMPT,
+                    temperature=0.2
                 )
-                return response.text
-            except Exception as e:
-                logger.warning(f"Advisor model {m_name} failed: {e}")
+            )
+            return response.text
 
-        return "⚠️ 답변 생성 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요."
+        try:
+            return global_key_manager.execute_with_failover(_call_model)
+        except Exception as e:
+            logger.error(f"Advisor generation error: {e}")
+            return f"⚠️ 답변 생성 중 오류가 발생했습니다: {e}"
 
     def answer_query(self, user_query: str) -> str:
         return self.ask(user_query)
 
     def interactive_cli(self):
-        """터미널 대화형 인터페이스 실행"""
         console = Console()
         console.print("[bold cyan]════════════════════════════════════════════════════[/bold cyan]")
-        console.print("[bold green]⚔️ Deepwoken AI Build Advisor 에 오신 것을 환영합니다![/bold green]")
-        console.print("[dim]원하는 빌드(예: 'Thundercall 대검 PvP 빌드', '초보자용 PvE')를 물어보세요. (종료: 'exit' 또는 'q')[/dim]")
+        console.print("[bold green]⚔️ Deepwoken AI Search-Augmented Advisor 가동 완료[/bold green]")
+        console.print("[dim]종료: 'exit' 또는 'q'[/dim]")
         console.print("[bold cyan]════════════════════════════════════════════════════[/bold cyan]\n")
 
         while True:
             try:
                 user_input = Prompt.ask("[bold yellow]질문 입력[/bold yellow]")
                 if not user_input or user_input.strip().lower() in ["exit", "quit", "q"]:
-                    console.print("[bold magenta]대화를 종료합니다. Safe sailing, Voyager![/bold magenta]")
                     break
-
-                with console.status("[bold blue]빌드 지식 검색 및 AI 답변 생성 중...[/bold blue]"):
+                with console.status("[bold blue]RAG 지식 검색 + 실시간 웹 검색 + AI 분석 중...[/bold blue]"):
                     answer = self.ask(user_input.strip())
-
-                console.print("\n[bold green]💡 어드바이저 추천 답변:[/bold green]")
                 console.print(Markdown(answer))
-                console.print("\n" + "─" * 50 + "\n")
-            except KeyboardInterrupt:
-                console.print("\n[bold magenta]대화를 종료합니다.[/bold magenta]")
-                break
             except Exception as e:
-                console.print(f"[bold red]오류 발생:[/bold red] {e}")
+                console.print(f"[bold red]오류:[/bold red] {e}")
 
 DeepwokenBuildAdvisor = BuildAdvisor
