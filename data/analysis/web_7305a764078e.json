@@ -1,0 +1,63 @@
+{
+  "video_meta": {
+    "title": "Deepwoken 무기 인챈트 활용 메타 (Enchantment Weapon Build Guide)",
+    "channel": "Web Source",
+    "url": "https://namu.wiki/w/Deepwoken/%EC%9D%B8%EC%B1%88%ED%8A%B8",
+    "upload_date": "N/A",
+    "estimated_patch": "Current Patch"
+  },
+  "build_summary": {
+    "build_name": "Deepwoken 무기 인챈트 활용 메타 (Enchantment Weapon Build Guide)",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "무기 및 장비에 고유 능력을 부여하는 인챈트 시스템 분석입니다. PvE 종결 인챈트인 Astral, 범용성 높은 처형 인챈트인 Detonation, PvP용 CC 및 끌어오기 효과를 주는 Elastic 등 상황에 맞는 최적의 인챈트 기용이 핵심입니다.",
+    "strengths": [
+      "Astral 기용 시 PvE 무기 대미지 20% 증가 및 추가 고정 피해 제공",
+      "Detonation의 방어 무시 고정 대미지 및 체력 10 이하/넉다운 시 즉시 처형 효과",
+      "Elastic을 통한 적 견인으로 PvP 거리 조절 및 M1/강공격 콤보 연계 용이",
+      "인챈트 장착 시 귀속(Soulbound)되어 사망 시에도 아이템을 드랍하지 않음"
+    ],
+    "weaknesses": [
+      "Astral 등 일부 핵심 인챈트 스톤의 획득 확률 및 수급 난이도가 매우 높음",
+      "Umbral Knight와 같이 상대의 패링 실패 후속타를 성공시켜주는 불리한 인챈트 존재",
+      "Detonation 폭발 시 피아식별이 없어 아군 오사 및 친선전 즉시 처형 위험성"
+    ]
+  },
+  "race": "N/A",
+  "origin": "N/A",
+  "oath": "Oathless",
+  "resonance": "N/A",
+  "murmur": "N/A",
+  "stats": {
+    "strength": 0,
+    "fortitude": 0,
+    "agility": 0,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "galebreathe": 0,
+    "thundercall": 0,
+    "shadowcast": 0,
+    "ironsing": 0
+  },
+  "weapons": [],
+  "talents": [
+    "푸른 불꽃",
+    "망령의 길: 트위스티드 퍼핏",
+    "유리의 길: 크리스탈라이제이션",
+    "최후의 수단",
+    "언더독",
+    "감칠맛"
+  ],
+  "mantras": [],
+  "shrine_of_order_path": "",
+  "equipment": [],
+  "combo_guide": "PvP 전투 시 Elastic 인챈트로 적을 끌어당겨 헤비 무기의 넉백을 상쇄하면서 콤보를 지속 연계하고, Blazing/Chilling을 적극 활용해 화상 지속딜이나 하체 동결(Bottom Freeze) CC를 유발하여 상대의 이지선다 회피를 강제합니다. PvE/보스전에서는 Astral 또는 Detonation을 기용하여 패링/강공격 기반 별똥별 및 폭발 대미지로 빠른 즉사 처형을 노립니다."
+}

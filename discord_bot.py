@@ -44,7 +44,7 @@ def extract_urls(text: str) -> List[str]:
     valid_urls = []
     for u in raw_urls:
         clean_u = u.strip('<>[](),;\"\'')
-        if any(k in clean_u.lower() for k in ['youtube.com', 'youtu.be', 'docs.google.com', 'deepwoken.co', 'deepwoken.fandom.com']):
+        if clean_u and clean_u.startswith(('http://', 'https://')):
             if clean_u not in valid_urls:
                 valid_urls.append(clean_u)
     return valid_urls
