@@ -1,11 +1,13 @@
 import re
 import logging
 import hashlib
-from dataclasses import dataclass, field
-from typing import Dict, Any, List, Optional
 import urllib.request
 import urllib.error
+import urllib.parse
+from dataclasses import dataclass, field
+from typing import Dict, Any, List, Optional
 from bs4 import BeautifulSoup
+from duckduckgo_search import DDGS
 
 logger = logging.getLogger(__name__)
 
@@ -70,9 +72,6 @@ class WebScraperAgent:
                 html = response.read().decode("utf-8", errors="replace")
         except Exception as e:
             logger.warning(f"Direct fetch failed ({e}) for {url}. Falling back to Search Grounding...")
-            # URL에서 키워드 추출 후 DDGS 검색으로 본문 구성
-            from duckduckgo_search import DDGS
-            import urllib.parse
             slug = urllib.parse.unquote(url.split("/")[-1])
             search_query = f"Deepwoken {slug} guide wiki details"
             fallback_texts = []
