@@ -9,101 +9,116 @@
     "build_name": "Palace Tachi Shadowcast Contractor",
     "build_type": "PvP",
     "difficulty": "Intermediate",
-    "creator_opinion": "A high-damage, high-penetration PvP build centered around the Palace Tachi medium weapon. By pairing high Charisma pre-shrine talents with Shadowcast's large manapool and Contractor's execute capability, this build maxes out armor penetration and inflicts devastating critical attacks.",
+    "creator_opinion": "A high-damage, high-penetration PvP build focused around abusing the newly added Palace Tachi weapon. By utilizing Charisma and Intelligence talents alongside Shadowcast mantras, it inflicts massive posture damage and executes opponents quickly.",
     "strengths": [
-      "Extremely high armor penetration from Charisma talents like Cult of Personality",
-      "Guaranteed execution on critical attacks thanks to Contractor Oath",
-      "Massive mantra hitboxes enabled by abundant ether and modification gems",
-      "Palace Tachi critical attack breaks guards frequently"
+      "Extremely high armor penetration through Cult of Personality and Charisma talents",
+      "Palace Tachi critical attack acts as a reliable guard break",
+      "High ether capacity allows for large modified Shadowcast mantras",
+      "Contractor Oath critical allows for executing opponents"
     ],
     "weaknesses": [
       "Palace Tachi has a relatively slow swing speed",
-      "Low Agility limits passive mobility options"
-    ]
-  },
-  "character_setup": {
-    "recommended_race": "Khan",
-    "oath": "Contractor",
-    "murmur": null,
-    "resonance_bell": "Paycheck / Jar / Random",
-    "attunements": [
-      "Shadowcast"
+      "Low Agility investment limits natural mobility"
     ]
   },
   "stats": {
-    "pre_shrine": {
-      "strength": 0,
-      "fortitude": 40,
-      "agility": 1,
-      "intelligence": 90,
-      "willpower": 0,
-      "charisma": 90,
-      "heavy_wep": 0,
-      "medium_wep": 1,
-      "light_wep": 0,
-      "shadowcast": 1
-    },
-    "post_shrine": {
-      "strength": 0,
+    "base_stats": {
+      "strength": 1,
       "fortitude": 40,
       "agility": 1,
       "intelligence": 65,
-      "willpower": 0,
-      "charisma": 65,
+      "willpower": 1,
+      "charisma": 65
+    },
+    "weapon_stats": {
       "heavy_wep": 0,
-      "medium_wep": 100,
-      "light_wep": 0,
-      "shadowcast": 80
+      "medium_wep": 80,
+      "light_wep": 0
+    },
+    "attunement_stats": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "shadowcast": 80,
+      "ironsing": 0
     }
+  },
+  "character_details": {
+    "oath": "Contractor",
+    "race": "Khan",
+    "origin": "Castaway",
+    "murmur": null,
+    "resonance_bell": "Corrupted Bell"
   },
   "talents": [
     {
       "name": "Cult of Personality",
-      "is_core": true,
-      "description": "Gains +3% PEN for each person Charmed, capping at +15% PEN."
+      "category": "Charisma",
+      "is_core": true
     },
     {
       "name": "Cornered Fool",
-      "is_core": true,
-      "description": "Blockbreaking a Charmed opponent procs Twisted for 5s, making them take and deal more damage."
+      "category": "Charisma / Empath",
+      "is_core": true
     },
     {
       "name": "Etherguard",
-      "is_core": false,
-      "description": "Grants extra resistances to mantras based on ether cost."
+      "category": "Set Talent",
+      "is_core": false
     },
     {
       "name": "Critical Heal",
-      "is_core": false,
-      "description": "Chance to proc a critical heal when healing."
+      "category": "Set Talent",
+      "is_core": false
     }
   ],
   "mantras": [
     {
-      "name": "Rising Shadow",
-      "attunement": "Shadowcast",
-      "is_core": true,
-      "gem_modifications": "Modified for increased size"
-    },
-    {
       "name": "Shadow Meteor",
       "attunement": "Shadowcast",
       "is_core": true,
-      "gem_modifications": null
+      "modifications": "Modified with large AOE"
+    },
+    {
+      "name": "Rising Shadow",
+      "attunement": "Shadowcast",
+      "is_core": true,
+      "modifications": null
     },
     {
       "name": "Judgement",
-      "attunement": "Shadowcast",
+      "attunement": "Oath (Contractor)",
       "is_core": true,
-      "gem_modifications": null
+      "modifications": null
     }
   ],
+  "shrine_of_order": {
+    "used": true,
+    "pre_shrine_stats": {
+      "strength": 1,
+      "fortitude": 1,
+      "agility": 1,
+      "intelligence": 90,
+      "willpower": 1,
+      "charisma": 90,
+      "medium_wep": 1,
+      "shadowcast": 1
+    },
+    "post_shrine_stats": {
+      "strength": 1,
+      "fortitude": 40,
+      "agility": 1,
+      "intelligence": 65,
+      "willpower": 1,
+      "charisma": 65,
+      "medium_wep": 80,
+      "shadowcast": 80
+    }
+  },
   "equipment": [],
-  "combos_and_playstyle": {
-    "key_combos": [
-      "Charm opponent from distance -> Palace Tachi Critical Attack (Guardbreak) -> Proc Twisted (Cornered Fool) -> Contractor Execution"
-    ],
-    "playstyle_tips": "Charm opponents from far away using high Charisma/Sing skills to max out penetration stacks via Cult of Personality. Abuse the guardbreak on the Palace Tachi crit to trigger Cornered Fool and finish off players instantly using Contractor's execute critical."
+  "combo_and_playstyle": {
+    "summary": "Charm opponents from a distance using modified mantras or taunt to gain free armor penetration via Cult of Personality. Use the Palace Tachi critical attack to break opponent guards, which triggers Cornered Fool to increase damage taken. Follow up with Contractor Judgement or Shadowcast mantras for quick executions."
   },
   "video_meta": {
     "title": "The New Palace Tachi Goes INSANE WITH THIS BUILD! | DeepWoken",
@@ -112,5 +127,11 @@
     "upload_date": "20260825",
     "estimated_patch": "Unknown"
   },
-  "attunements": {}
+  "attunements": {},
+  "oath": "Contractor",
+  "race": "Khan",
+  "origin": "Castaway",
+  "murmur": null,
+  "resonance": "Corrupted Bell",
+  "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n"
 }

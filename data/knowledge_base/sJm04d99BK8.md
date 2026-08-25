@@ -2,22 +2,22 @@
 
 > **출처 영상**: [The New Palace Tachi Goes INSANE WITH THIS BUILD! | DeepWoken](https://www.youtube.com/watch?v=sJm04d99BK8) by `howmuch`
 > **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Khan` / `Castaway` | **Oath**: `Contractor` | **Murmur/Bell**: `None` / `Corrupted Bell`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-A high-damage, high-penetration PvP build centered around the Palace Tachi medium weapon. By pairing high Charisma pre-shrine talents with Shadowcast's large manapool and Contractor's execute capability, this build maxes out armor penetration and inflicts devastating critical attacks.
+A high-damage, high-penetration PvP build focused around abusing the newly added Palace Tachi weapon. By utilizing Charisma and Intelligence talents alongside Shadowcast mantras, it inflicts massive posture damage and executes opponents quickly.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ Extremely high armor penetration from Charisma talents like Cult of Personality
-- ✅ Guaranteed execution on critical attacks thanks to Contractor Oath
-- ✅ Massive mantra hitboxes enabled by abundant ether and modification gems
-- ✅ Palace Tachi critical attack breaks guards frequently
+- ✅ Extremely high armor penetration through Cult of Personality and Charisma talents
+- ✅ Palace Tachi critical attack acts as a reliable guard break
+- ✅ High ether capacity allows for large modified Shadowcast mantras
+- ✅ Contractor Oath critical allows for executing opponents
 **단점**:
 - ⚠️ Palace Tachi has a relatively slow swing speed
-- ⚠️ Low Agility limits passive mobility options
+- ⚠️ Low Agility investment limits natural mobility
 
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
@@ -34,13 +34,20 @@ A high-damage, high-penetration PvP build centered around the Palace Tachi mediu
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
-- **Cult of Personality**
-- **Cornered Fool**
+- **Cult of Personality** `[Charisma]`
+- **Cornered Fool** `[Charisma / Empath]`
 ### 📜 보조 및 추천 탤런트
-- Etherguard
-- Critical Heal
+- Etherguard `[Set Talent]`
+- Critical Heal `[Set Talent]`
 
 ## 🔮 주문 목록 (Mantras)
+- **Shadow Meteor** (Shadowcast) `[CORE]` — 수정체: Modified with large AOE
 - **Rising Shadow** (Shadowcast) `[CORE]`
-- **Shadow Meteor** (Shadowcast) `[CORE]`
-- **Judgement** (Shadowcast) `[CORE]`
+- **Judgement** (Oath (Contractor)) `[CORE]`
+
+## 🥊 콤보 & 전투 운용 가이드
+**딜 사이클**:
+
+
+**운용 팁**:
+
