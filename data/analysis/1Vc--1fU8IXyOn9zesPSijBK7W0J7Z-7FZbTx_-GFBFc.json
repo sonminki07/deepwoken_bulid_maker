@@ -1,18 +1,27 @@
 {
   "video_meta": {
-    "title": "Google Docs: Introduction",
-    "channel": "Web",
+    "title": "Frostdraw",
+    "channel": "Web Source",
     "url": "https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0",
     "upload_date": "N/A",
-    "estimated_patch": "Unknown"
+    "estimated_patch": "Current Patch"
   },
   "build_summary": {
-    "build_name": "Google Docs: Introduction",
-    "build_type": "Hybrid",
+    "build_name": "Frostdraw",
+    "build_type": "PvP",
     "difficulty": "Intermediate",
-    "creator_opinion": "Imported from Google Docs",
-    "strengths": [],
-    "weaknesses": []
+    "creator_opinion": "Frostdraw는 강력한 콤보 연계, 뛰어난 영역 제어, 높은 저항력을 제공하는 다재다능한 빌드로, 익히기는 쉬우나 완벽히 마스터하기는 어려운 PvP 최상위권(A+) 원소입니다.",
+    "strengths": [
+      "Frozen Legs 및 다양한 주문을 활용한 최상급 콤보 연계 능력",
+      "Orbital Ice 특성을 통한 무상 저항력 획득으로 뛰어난 내구성 확보",
+      "빙판 설치를 통한 다채로운 영역 제어 및 보조 효과",
+      "다양한 무기와 이중 속성(Gale, Bloodrend 등)과의 우수한 시너지"
+    ],
+    "weaknesses": [
+      "기동성(Mobility) 전용 주문의 부재로 인한 추격력 부족",
+      "광역(AoE) 주문의 부족",
+      "주문 미스 시 상대에게 쉽게 반격을 허용하는 후딜레이"
+    ]
   },
   "race": "N/A",
   "origin": "N/A",
@@ -32,16 +41,56 @@
   },
   "attunements": {
     "flamecharm": 0,
-    "frostdraw": 0,
+    "frostdraw": 80,
     "galebreathe": 0,
     "thundercall": 0,
     "shadowcast": 0,
     "ironsing": 0
   },
   "weapons": [],
-  "talents": [],
-  "mantras": [],
+  "talents": [
+    "Fragile Freeze",
+    "Saint Jay",
+    "Frostbite",
+    "Orbital Ice",
+    "Cryonis",
+    "Frozen Legs",
+    "Frozen Pin-Cushion",
+    "Cold Front",
+    "Chilling Flourish",
+    "Bottom Freeze",
+    "Frozen Anchor",
+    "Stasis Strike",
+    "Crystallization",
+    "Reclaimed Glass",
+    "Crystal Shrapnel",
+    "Volcanic Glass",
+    "Temperature Shock",
+    "Flashboil",
+    "Boiling Point",
+    "Fulgurite Formation",
+    "Freezing Wight",
+    "Cold Blooded"
+  ],
+  "mantras": [
+    "Ice Lance",
+    "Ice Daggers",
+    "Ice Smash",
+    "Crystal Impale",
+    "Glacial Arc",
+    "Frozen Servants",
+    "Ice Forge",
+    "Frost Grab",
+    "Ice Carve",
+    "Rising Frost",
+    "Iceberg",
+    "Frost Wisp",
+    "Ice Chain",
+    "Ice Eruption",
+    "Ice Cubes",
+    "Ice Flock"
+  ],
   "shrine_of_order_path": "",
   "equipment": [],
-  "combo_guide": ""
+  "combo_guide": "어퍼컷 이후 빠른 발동 속도를 가진 Crystal Impale을 연계하여 상대를 다운시키고 프리힗을 넣는 콤보가 대표적입니다. Ice Daggers(Frozen Pin-Cushion 달란트)를 슬라이드 캐스팅하여 동결을 거는 방식으로 개전을 유도하며, Ice Cubes나 Ice Forge와 무소스택(Movestack)하여 Frozen Legs의 구르기 금지 효과 유효 시간을 최대로 활용하는 운용이 핵심입니다. 상대의 가드를 깰 때는 Ice Smash나 Fragile Freeze를 활용하여 후속 콤보를 지속시킵니다."
 }
