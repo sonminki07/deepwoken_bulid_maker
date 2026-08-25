@@ -70,15 +70,19 @@ class BuildAnalyzer:
             
         raise TimeoutError(f"Video processing timed out after {timeout_seconds} seconds")
 
-    def analyze(self, video_path: Path, metadata: Optional[Dict[str, Any]] = None, max_retries: int = 3) -> Dict[str, Any]:
+    def analyze(self, video_path: Path, metadata: Optional[Dict[str, Any]] = None, max_retries: int = 3, progress_callback = None) -> Dict[str, Any]:
         """영상 파일을 Gemini에 업로드하고 멀티모달 분석을 실행하여 JSON을 반환"""
         if not video_path.exists():
             raise FileNotFoundError(f"Video file does not exist: {video_path}")
 
+        if progress_callback:
+            progress_callback(35, "Gemini 클라우드로 영상 업로드 중...")
         logger.info(f"Uploading {video_path.name} to Gemini Files API via google-genai...")
         remote_file = self.client.files.upload(file=str(video_path))
         
         try:
+            if progress_callback:
+                progress_callback(55, "Gemini 클라우드 비디오 프레임 변환 및 인코딩 중...")
             active_file = self._wait_for_file_active(remote_file.name)
             
             # 메타데이터 컨텍스트 구성
@@ -94,6 +98,8 @@ class BuildAnalyzer:
                 )
                 context_prompt = context_prompt + "\n" + meta_str
 
+            if progress_callback:
+                progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 스탯/탤런트/콤보 추출 중...")
             logger.info(f"Invoking Gemini models for build extraction...")
             models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
             last_error = None

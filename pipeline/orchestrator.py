@@ -61,12 +61,14 @@ class PipelineOrchestrator:
             return {}
         return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
 
-    def process_url(self, url: str) -> Dict[str, Any]:
+    def process_url(self, url: str, progress_callback = None) -> Dict[str, Any]:
         """단일 유튜브 URL 전체 분석 및 지식 베이스 인덱싱 파이프라인 실행"""
         start_time = time.time()
         logger.info(f"=== Starting pipeline for: {url} ===")
 
         # Step 1: 영상 및 메타데이터 다운로드
+        if progress_callback:
+            progress_callback(15, "유튜브 720p 영상 및 메타데이터 다운로드 중...")
         logger.info("[Step 1/4] Collecting video and metadata via yt-dlp...")
         download_result: DownloadResult = self.collector.download(url)
         video_id = download_result.video_id
@@ -81,13 +83,17 @@ class PipelineOrchestrator:
 
         # Step 2: Gemini 멀티모달 분석
         logger.info(f"[Step 2/4] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
-        raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict)
+        raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict, progress_callback=progress_callback)
 
         # Step 3: JSON 검증 및 Markdown 변환/저장
+        if progress_callback:
+            progress_callback(85, "JSON 스키마 검증 및 Markdown 지식 문서 구조화 중...")
         logger.info("[Step 3/4] Structuring data into JSON and Markdown knowledge base...")
         saved_paths = self.structurer.process_and_save(raw_json=raw_analysis, video_id=video_id)
 
         # Step 4: ChromaDB RAG 인덱싱
+        if progress_callback:
+            progress_callback(90, "ChromaDB 벡터 데이터베이스 인덱싱 중...")
         logger.info("[Step 4/4] Ingesting build into ChromaDB vector index...")
         self.knowledge_builder.ingest_build(
             video_id=video_id,

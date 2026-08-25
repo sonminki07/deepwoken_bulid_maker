@@ -49,41 +49,32 @@ def extract_urls(text: str) -> List[str]:
     return valid_urls
 
 async def run_pipeline_with_progress(url: str, status_msg: discord.Message) -> Dict[str, Any]:
-    """실시간 퍼센티지(%) 진행 상태를 업데이트하며 파이프라인 가동"""
+    """실시간 퍼센티지(%) 진행 상태를 단계별로 업데이트하며 파이프라인 가동"""
     from pipeline.orchestrator import BuildPipelineOrchestrator
     from pipeline.web_orchestrator import WebPipelineOrchestrator
 
     loop = asyncio.get_running_loop()
     is_youtube = "youtube.com" in url.lower() or "youtu.be" in url.lower()
 
-    # Step 1: 다운로드 시작 (20%)
-    await status_msg.edit(content=f"⏳ **[20%]** 콘텐츠 수집 및 비디오 다운로드 중...\n`{url}`")
-    
+    def sync_progress_callback(percent: int, text: str):
+        content = f"⚡ **[{percent}%]** {text}\n`{url}`"
+        try:
+            asyncio.run_coroutine_threadsafe(status_msg.edit(content=content), loop)
+        except Exception:
+            pass
+
     if is_youtube:
         orc = BuildPipelineOrchestrator()
-        
-        # Step 2: Gemini 비디오 스캔 (50%)
-        await asyncio.sleep(1)
-        await status_msg.edit(content=f"🧠 **[55%]** Gemini 3.6 Flash AI 멀티모달 비디오 프레임 스캔 중...\n`{url}`")
-        
-        result_dict = await loop.run_in_executor(None, orc.process_url, url)
+        result_dict = await loop.run_in_executor(None, orc.process_url, url, sync_progress_callback)
         raw_build = result_dict.get("build_data", {})
     else:
         orc = WebPipelineOrchestrator()
-        
-        # Step 2: 웹 파싱 & 텍스트 분석 (50%)
-        await asyncio.sleep(1)
-        await status_msg.edit(content=f"🧠 **[55%]** 가이드 문서 구조화 및 서브 에이전트 분석 중...\n`{url}`")
-        
+        sync_progress_callback(30, "웹/가이드 텍스트 수집 및 파싱 중...")
         result_dict = await loop.run_in_executor(None, orc.process_url, url)
         raw_build = result_dict.get("build_data", result_dict)
 
-    # Step 3: 지식 베이스 및 RAG 등록 (85%)
-    await status_msg.edit(content=f"📊 **[85%]** 스탯, 탤런트, 콤보 메커니즘 검증 및 DB 적재 중...")
-    await asyncio.sleep(0.5)
-
     # Step 4: GitHub 동기화 (95%)
-    await status_msg.edit(content=f"☁️ **[95%]** GitHub 클라우드 저장소 자동 푸시 중...")
+    sync_progress_callback(95, "GitHub 클라우드 저장소 자동 동기화 중...")
     b_name = raw_build.get("build_summary", {}).get("build_name", "Deepwoken Build")
     await asyncio.to_thread(push_to_github, f"🤖 [Discord Bot] '{b_name}' 빌드 분석 결과 저장")
 
