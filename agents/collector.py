@@ -93,6 +93,11 @@ class VideoCollector:
                 "quiet": False,
                 "no_warnings": True,
                 "retries": max_retries,
+                "extractor_args": {
+                    "youtube": {
+                        "player_client": ["ios", "android", "web"]
+                    }
+                }
             }
             if ffmpeg_location:
                 ydl_opts["ffmpeg_location"] = ffmpeg_location
