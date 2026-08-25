@@ -5,7 +5,7 @@ from typing import Optional, Dict, Any
 
 from google import genai
 from google.genai import types
-from agents.subagents.scraper import ScrapedWebContent
+from agents.web_scraper import ScrapedWebContent
 
 logger = logging.getLogger(__name__)
 

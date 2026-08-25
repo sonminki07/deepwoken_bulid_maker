@@ -50,7 +50,8 @@ class PipelineOrchestrator:
         self.knowledge_builder = KnowledgeBuilder(
             db_path=rag_cfg.get("db_path", "data/chromadb"),
             collection_name=rag_cfg.get("collection_name", "deepwoken_builds"),
-            api_key=self.api_key
+            api_key=self.api_key,
+            use_gemini_embedding=False
         )
 
     def _load_config(self, path: str) -> dict:

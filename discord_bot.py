@@ -64,7 +64,7 @@ async def run_pipeline_with_progress(url: str, status_msg: discord.Message) -> D
         
         # Step 2: Gemini 비디오 스캔 (50%)
         await asyncio.sleep(1)
-        await status_msg.edit(content=f"🧠 **[55%]** Gemini 3.7 AI 멀티모달 비디오 프레임 스캔 중...\n`{url}`")
+        await status_msg.edit(content=f"🧠 **[55%]** Gemini 3.6 Flash AI 멀티모달 비디오 프레임 스캔 중...\n`{url}`")
         
         result_dict = await loop.run_in_executor(None, orc.process_url, url)
         raw_build = result_dict.get("build_data", {})
@@ -73,7 +73,7 @@ async def run_pipeline_with_progress(url: str, status_msg: discord.Message) -> D
         
         # Step 2: 웹 파싱 & 텍스트 분석 (50%)
         await asyncio.sleep(1)
-        await status_msg.edit(content=f"🧠 **[55%]** 가이드 문서 구조화 및 서브 에이전트 병렬 분석 중...\n`{url}`")
+        await status_msg.edit(content=f"🧠 **[55%]** 가이드 문서 구조화 및 서브 에이전트 분석 중...\n`{url}`")
         
         result_dict = await loop.run_in_executor(None, orc.process_url, url)
         raw_build = result_dict.get("build_data", result_dict)
@@ -173,7 +173,7 @@ async def on_ready():
         logger.error(f"Error syncing slash commands: {e}")
     print("\n" + "="*60)
     print(f"[SUCCESS] Deepwoken AI Discord Bot is ONLINE! (Bot: {bot.user.name})")
-    print("Channels listening: 'input-link' and all channels with build URLs.")
+    print("Auto-listening in '#input-link' (for analysis) and '#chat' (for AI conversation)!")
     print("="*60 + "\n")
 
 @bot.event
@@ -181,71 +181,94 @@ async def on_message(message: discord.Message):
     if message.author == bot.user:
         return
 
-    logger.info(f"📩 [Message Received] #{message.channel.name} from {message.author.name}: '{message.content}'")
+    ch_name = getattr(message.channel, "name", "").lower()
+    logger.info(f"📩 [Message Received] #{ch_name} from {message.author.name}: '{message.content[:50]}'")
 
     urls = extract_urls(message.content)
-    if not urls:
-        await bot.process_commands(message)
+
+    # Case 1: 링크가 포함된 메시지 -> 빌드 자동 분석 실행
+    if urls:
+        logger.info(f"🎯 Detected {len(urls)} URLs in #{ch_name} from {message.author.name}: {urls}")
+        try:
+            await message.add_reaction("⏳")
+        except Exception:
+            pass
+
+        for url in urls:
+            status_msg = await message.reply(
+                f"🚀 **[0%]** <@{message.author.id}> 님의 링크를 접수했습니다. 분석 준비 중...\n`{url}`"
+            )
+            
+            try:
+                data = await run_pipeline_with_progress(url, status_msg)
+                raw = data["raw"]
+                result_dict = data["result_dict"]
+                b_name = raw.get("build_summary", {}).get("build_name", "Build")
+
+                embed = create_rich_build_embed(raw, url)
+
+                # JSON 파일 첨부
+                doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
+                json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
+                if not json_file_path.exists():
+                    files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
+                    if files:
+                        json_file_path = files[0]
+
+                discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
+
+                await status_msg.delete()
+                completion_text = (
+                    f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 빌드 분석 및 특징 브리핑이 완료되었습니다!\n"
+                    f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
+                )
+
+                if discord_file:
+                    await message.reply(content=completion_text, embed=embed, file=discord_file)
+                else:
+                    await message.reply(content=completion_text, embed=embed)
+
+                try:
+                    await message.remove_reaction("⏳", bot.user)
+                    await message.add_reaction("✅")
+                except Exception:
+                    pass
+
+            except Exception as e:
+                logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
+                await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}` 분석 중 오류가 발생했습니다: `{e}`")
+                try:
+                    await message.remove_reaction("⏳", bot.user)
+                    await message.add_reaction("❌")
+                except Exception:
+                    pass
         return
 
-    logger.info(f"🎯 Detected {len(urls)} URLs in #{message.channel.name} from {message.author.name}: {urls}")
+    # Case 2: '#chat' 채널이거나 봇 멘션 -> RAG AI 빌드 어드바이저 대화
+    if "chat" in ch_name or bot.user in message.mentions:
+        user_query = message.content.replace(f"<@{bot.user.id}>", "").strip()
+        if not user_query:
+            return
 
-    try:
-        await message.add_reaction("⏳")
-    except Exception:
-        pass
-
-    for url in urls:
-        status_msg = await message.channel.send(
-            f"🚀 **[0%]** <@{message.author.id}> 님의 요청을 접수했습니다. 분석 준비 중...\n`{url}`"
-        )
-        
-        try:
-            # 실시간 진행도 업데이트 파이프라인
-            data = await run_pipeline_with_progress(url, status_msg)
-            raw = data["raw"]
-            result_dict = data["result_dict"]
-            b_name = raw.get("build_summary", {}).get("build_name", "Build")
-
-            embed = create_rich_build_embed(raw, url)
-
-            # JSON 파일 첨부
-            doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
-            json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
-            if not json_file_path.exists():
-                # 최신 파일 탐색
-                files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
-                if files:
-                    json_file_path = files[0]
-
-            discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
-
-            # 최종 100% 완료 메시지 및 멘션
-            await status_msg.delete()
-            completion_text = (
-                f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 빌드 분석 및 특징 브리핑이 완료되었습니다!\n"
-                f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
-            )
-
-            if discord_file:
-                await message.channel.send(content=completion_text, embed=embed, file=discord_file)
-            else:
-                await message.channel.send(content=completion_text, embed=embed)
-
+        async with message.channel.typing():
             try:
-                await message.remove_reaction("⏳", bot.user)
-                await message.add_reaction("✅")
-            except Exception:
-                pass
+                from chatbot.build_advisor import DeepwokenBuildAdvisor
+                advisor = DeepwokenBuildAdvisor(top_k=4)
+                loop = asyncio.get_running_loop()
+                reply_text = await loop.run_in_executor(None, advisor.answer_query, user_query)
 
-        except Exception as e:
-            logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
-            await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}` 분석 중 오류가 발생했습니다: `{e}`")
-            try:
-                await message.remove_reaction("⏳", bot.user)
-                await message.add_reaction("❌")
-            except Exception:
-                pass
+                # 2000자 단위 청크 전송
+                if len(reply_text) <= 1950:
+                    await message.reply(reply_text)
+                else:
+                    chunks = [reply_text[i:i+1900] for i in range(0, len(reply_text), 1900)]
+                    first_msg = await message.reply(chunks[0])
+                    for chunk in chunks[1:]:
+                        await message.channel.send(chunk)
+            except Exception as e:
+                logger.error(f"Chat error: {e}", exc_info=True)
+                await message.reply(f"❌ 답변 생성 중 오류가 발생했습니다: `{e}`")
+        return
 
     await bot.process_commands(message)
 
