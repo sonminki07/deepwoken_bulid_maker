@@ -9,130 +9,115 @@
     "build_name": "Palace Tachi Shadowcast Contractor",
     "build_type": "PvP",
     "difficulty": "Intermediate",
-    "creator_opinion": "A high-damage PvP build created around the Palace Tachi medium weapon. By combining high Charisma, Intelligence penetration talents, and the Contractor oath, the weapon's guardbreak criticals become extremely abusive and allow execute setups.",
+    "creator_opinion": "A high-damage PvP build crafted around the Palace Tachi medium weapon. By stacking Charisma and Intelligence pre-shrine, it maximizes armor penetration and charm synergies, paired with Shadowcast for massive mantra modifications and Contractor for execute capabilities.",
     "strengths": [
-      "Extremely high penetration stacking via Charisma and Intelligence talents",
-      "Guaranteed guardbreak criticals synergy with Cornered Fool talent",
-      "Contractor critical execution capability",
-      "Large ether pool allowing massive mantra modifications"
+      "High armor penetration (+15% PEN from Cult of Personality)",
+      "Strong guard-break synergies with Cornered Fool",
+      "High ether pool allowing giant modified mantras",
+      "Critical attack execute via Contractor Oath"
     ],
     "weaknesses": [
-      "Low base weapon swing speed",
+      "Low base swing speed on the weapon",
       "Low Agility investment"
     ]
   },
-  "stats_and_attunements": {
-    "attributes": {
+  "stats": {
+    "pre_shrine": {
       "strength": 1,
       "fortitude": 40,
       "agility": 1,
-      "intelligence": 65,
-      "willpower": 1,
-      "charisma": 65
-    },
-    "weapon_stats": {
-      "heavy_wep": 0,
-      "medium_wep": 90,
-      "light_wep": 0
-    },
-    "attunements": {
-      "flamecharm": 0,
-      "frostdraw": 0,
-      "galebreathe": 0,
-      "thundercall": 0,
-      "shadowcast": 80,
-      "ironsing": 0
-    }
-  },
-  "character_setup": {
-    "oath": "Contractor",
-    "race": "Khan",
-    "origin": null,
-    "murmur": null,
-    "resonance_bell": "Unknown"
-  },
-  "talents_and_mantras": {
-    "key_talents": [
-      {
-        "name": "Cult of Personality",
-        "is_core": true
-      },
-      {
-        "name": "Cornered Fool",
-        "is_core": true
-      },
-      {
-        "name": "Etherguard",
-        "is_core": false
-      },
-      {
-        "name": "Critical Heal",
-        "is_core": false
-      }
-    ],
-    "mantras": [
-      {
-        "name": "Rising Shadow",
-        "attunement": "Shadowcast",
-        "is_core": true,
-        "modifications": null
-      },
-      {
-        "name": "Shadow Meteor",
-        "attunement": "Shadowcast",
-        "is_core": true,
-        "modifications": null
-      },
-      {
-        "name": "Judgement",
-        "attunement": "Shadowcast",
-        "is_core": true,
-        "modifications": null
-      }
-    ]
-  },
-  "shrine_of_order_and_progression": {
-    "used_shrine_of_order": true,
-    "pre_shrine_stats": {
-      "charisma": 90,
       "intelligence": 90,
-      "fortitude": 40,
-      "agility": 1,
-      "shadowcast": 1,
-      "medium_wep": 100
+      "willpower": 1,
+      "charisma": 90,
+      "heavy_wep": 0,
+      "medium_wep": 1,
+      "light_wep": 0,
+      "attunement": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "galebreathe": 0,
+        "thundercall": 0,
+        "shadowcast": 1,
+        "ironsing": 0
+      }
     },
-    "post_shrine_stats": {
+    "post_shrine": {
       "strength": 1,
-      "fortitude": 40,
+      "fortitude": 50,
       "agility": 1,
       "intelligence": 65,
       "willpower": 1,
       "charisma": 65,
+      "heavy_wep": 0,
       "medium_wep": 90,
-      "shadowcast": 80
+      "light_wep": 0,
+      "attunement": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "galebreathe": 0,
+        "thundercall": 0,
+        "shadowcast": 80,
+        "ironsing": 0
+      }
     }
   },
-  "equipment_and_weapons": {
-    "weapon": {
-      "name": "Palace Tachi",
-      "enchantment": null,
-      "stars": null
-    },
-    "key_equipment": [
-      {
-        "slot": "Legs Equipment",
-        "name": "Bluestone Boots",
-        "pips_summary": "+3 Health, +20 Health, +10 Ether"
-      },
-      {
-        "slot": "Torso Equipment",
-        "name": "Trueblood Set",
-        "pips_summary": "Regenerative Set, +9 Health, +10 Ether"
-      }
-    ]
+  "character_details": {
+    "oath": "Contractor",
+    "race": "Khan",
+    "origin": null,
+    "murmur": null,
+    "resonance_bell": null
   },
+  "talents": [
+    {
+      "name": "Cult of Personality",
+      "is_core": true,
+      "description": "Gains +3% PEN for each person Charmed, capping at +15% PEN."
+    },
+    {
+      "name": "Cornered Fool",
+      "is_core": true,
+      "description": "Blockbreaking a Charmed opponent procs Twisted for 5s, making them take and deal more damage."
+    },
+    {
+      "name": "Etherguard",
+      "is_core": false,
+      "description": "Warped Blue Gems provide bonus effect when landed using a mantra."
+    },
+    {
+      "name": "I'm Blue",
+      "is_core": false,
+      "description": "Improves the efficiency of Blue Gems used."
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Rising Shadow",
+      "attunement": "Shadowcast",
+      "is_core": true,
+      "modifications": "Modified to combo into critical attack"
+    },
+    {
+      "name": "Shadow Meteor",
+      "attunement": "Shadowcast",
+      "is_core": true,
+      "modifications": "Gigantic mantra modification via Blue Gems"
+    },
+    {
+      "name": "Judgement",
+      "attunement": "Contractor",
+      "is_core": true,
+      "modifications": null
+    }
+  ],
+  "equipment": [],
   "combo_and_playstyle_guide": {
-    "summary": "Charm targets from distance to stack penetration via Cult of Personality. Use Palace Tachi's critical guardbreak to trip opponents, proccing Cornered Fool for increased damage. Execute with Contractor critical combos when opponents are low health."
+    "summary": "Charm opponents from range using modified mantras to gain +15% PEN from Cult of Personality. Use the Palace Tachi critical attack to break guards, which triggers Cornered Fool for increased damage. Utilize Contractor Oath execution on critical hits when opponents are downed or low.",
+    "key_tips": [
+      "Use Sing/Taunt on cooldown to keep opponents Charmed for free damage and penetration.",
+      "Unshift lock after a parry to land Shadow Meteor behind opponents.",
+      "When using Judgement, hold parry/f key up close to predict and punish opponent vents."
+    ]
   },
   "video_meta": {
     "title": "The New Palace Tachi Goes INSANE WITH THIS BUILD! | DeepWoken",
@@ -141,38 +126,10 @@
     "upload_date": "20260825",
     "estimated_patch": "Unknown"
   },
-  "stats": {
-    "heavy_wep": 0,
-    "medium_wep": 90,
-    "light_wep": 0
-  },
-  "attunements": {
-    "flamecharm": 0,
-    "frostdraw": 0,
-    "galebreathe": 0,
-    "thundercall": 0,
-    "shadowcast": 80,
-    "ironsing": 0
-  },
-  "mantras": [
-    {
-      "name": "Rising Shadow",
-      "attunement": "Shadowcast",
-      "is_core": true,
-      "modifications": null
-    },
-    {
-      "name": "Shadow Meteor",
-      "attunement": "Shadowcast",
-      "is_core": true,
-      "modifications": null
-    },
-    {
-      "name": "Judgement",
-      "attunement": "Shadowcast",
-      "is_core": true,
-      "modifications": null
-    }
-  ],
-  "equipment": []
+  "attunements": {},
+  "oath": "Contractor",
+  "race": "Khan",
+  "origin": null,
+  "murmur": null,
+  "resonance": "N/A"
 }
