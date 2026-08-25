@@ -1,24 +1,23 @@
-# ⚔️ Frostdraw (Frost Attunement) Guide
+# ⚔️ Rioshinki Frostdraw (프로스트드로)
 
-> **출처 영상**: [Frostdraw (Frost Attunement) Guide](https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0) by `Web Source`
+> **출처 영상**: [Rioshinki Frostdraw (프로스트드로)](https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0) by `Web Source`
 > **패치 버전**: `Current Patch` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-Frostdraw는 강력한 결빙 및 장판 제어 능력을 바탕으로 상대방의 이동을 제한하고 콤보 기회를 창출하는 데 뛰어난 아튠먼트입니다. 배우기 쉬우나 이동기 결여로 인해 유연한 거리 조절과 타이밍 활용 능력이 요구됩니다.
+Rioshinki가 작성한 Frostdraw(얼음 속성) 메인 빌드 가이드입니다. 강력한 콤보 연계력, 우수한 진형 제어(Area Control), 높은 방어적 유틸리티를 갖춘 A+ 등급 PvP 빌드입니다. 배우기 쉬우나 만트라 실패 시 반격 위험이 있어 숙련이 필요하며, 기동성을 보완해주는 Jetstriker나 콤보 연계를 돕는 Starkindred Oath와 가장 잘 어울립니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ Frozen Legs 및 장판 생성을 통한 뛰어난 영역 제어(Area Control) 및 콤보 연계력
-- ✅ Orbital Ice 등 내성 관련 탤런트를 통한 우수한 탱킹력
-- ✅ Ice Lance, Ice Daggers, Crystal Impale 등 강력한 콤보 시동 Mantra 보유
-- ✅ 다양한 아튠먼트(Gale, Shadow, Bloodrend 등)와의 뛰어난 시너지
+- ✅ Crystal Impale, Frozen Legs 등 상대 구르기를 봉쇄하고 연계하는 강력한 콤보 능력
+- ✅ Orbital Ice 등 고유 특성을 통한 우수한 내구성과 필드 얼음 배치를 통한 지형 지배력
+- ✅ 저투자/고투자 모두 효율이 뛰어나며 타 속성/무기와의 뛰어난 범용성
 **단점**:
-- ⚠️ 자체적인 기동성(Mobility) 및 추격 Mantra의 극심한 부재
-- ⚠️ 광역(AoE) Mantra의 부족
-- ⚠️ Mantra 미스 시 상대방에게 딜레이 캐치(Punish)를 당할 위험이 큼
+- ⚠️ 속성 자체의 기동성 및 추격 능력이 극도로 부족함 (Glacial Arc 조정으로 더 악화됨)
+- ⚠️ 광역(AOE) 만트라의 부족
+- ⚠️ 만트라 헛스윙 시 후딜레이가 길어 상대에게 징벌(Punish)당하기 쉬움
 
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
@@ -40,30 +39,15 @@ Frostdraw는 강력한 결빙 및 장판 제어 능력을 바탕으로 상대방
 ### 📜 보조 및 추천 탤런트
 - Fragile Freeze
 - Saint Jay
-- Frostbite
 - Orbital Ice
 - Cryonis
-- Preceding Chill
 - Frozen Legs
 - Frozen Pin-Cushion
-- Chilling Flourish
-- Cold Front
-- Cool Head
-- Glacial Coasting
+- Bottom Freeze
+- Frozen Anchor
 - Crystalization
 - Reclaimed Glass
 - Crystal Shrapnel
-- Bottom Freeze
-- Frozen Anchor
-- Stasis Strike
-- Frost Buster
-- Volcanic Glass
-- Temperature Shock
-- Flashboil
-- Boiling Point
-- Fulgurite Formation
-- Freezing Wight
-- Cold Blooded
 
 ## 🔮 주문 목록 (Mantras)
 - **Ice Lance**
@@ -72,15 +56,11 @@ Frostdraw는 강력한 결빙 및 장판 제어 능력을 바탕으로 상대방
 - **Crystal Impale**
 - **Glacial Arc**
 - **Frozen Servants**
-- **Ice Forge**
 - **Frost Grab**
-- **Ice Carve**
-- **Rising Frost**
-- **Iceberg**
 - **Frost Wisp**
 
 ## 🥊 콤보 & 전투 운용 가이드
-1. [Uppercut -> Crystal Impale]: Heavy 무기나 공중 띄우기 후 Crystal Impale을 연계하여 적을 공중에서 떨어뜨리고 무료 추가타를 확정 입힙니다.
-2. [Frozen Legs 활용]: 0.75초의 짧은 결빙 시간 동안 Ice Cubes나 Ice Forge를 모브스택(Movestack)하여 연속 공격 판정을 이어나갑니다.
-3. [Ice Daggers + Frozen Pin-Cushion]: 슬라이드 캐스팅으로 Ice Daggers를 맞춰 적을 빙결시킨 뒤 즉시 접근하여 후속 콤보를 연계합니다.
-4. [Bottom Freeze + Frozen Anchor]: 적의 이동과 회전을 완전히 묶은 후 Sightless Beam이나 Hailbreaker Critical 등의 고화력 기술을 확정타로 넣습니다.
+1. [진형 구축] 전투 시작 시 Ice Wisp나 Frozen Servants로 얼음을 배치하여 지형 버프 및 슬라이딩 기동성을 확보합니다.
+2. [공중 연계] Heavy 무기 및 Starkindred의 Uptilt(공중 띄우기) 직후 Crystal Impale을 연계하여 상대를 넉다운시키고 후속 딜을 넣습니다.
+3. [무브스택 압박] Ice Cubes나 Ice Forge를 slide cast로 무브스택(Movestack)하여 Frozen Legs(0.75초 구르기 불과)를 유발한 뒤, 회피 불가능한 상태의 상대에게 추가 딜을 폭발시킵니다.
+4. [가드 브레이크] 방어적인 상대에게는 Level 5 Ice Smash로 가드를 파괴하고 Fragile Freeze 효과를 활성화하여 콤보를 이어갑니다.
