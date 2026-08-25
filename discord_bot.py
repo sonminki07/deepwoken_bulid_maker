@@ -31,7 +31,7 @@ def ensure_single_instance(port: int = 49281):
         _instance_socket.bind(('127.0.0.1', port))
         _instance_socket.listen(1)
     except socket.error:
-        print(f"⚠️ 이미 다른 디스코드 봇 인스턴스가 실행 중입니다. 중복 실행을 방지하기 위해 종료합니다.")
+        logger.warning("Another Discord bot instance is already running. Exiting.")
         sys.exit(0)
 
 intents = discord.Intents.default()
@@ -288,6 +288,8 @@ async def on_ready():
     print("Auto-listening in '#input-link' (for analysis) and '#chat' (for AI conversation)!")
     print("="*60 + "\n")
 
+analysis_queue_lock = asyncio.Lock()
+
 @bot.event
 async def on_message(message: discord.Message):
     if message.author == bot.user:
@@ -298,7 +300,7 @@ async def on_message(message: discord.Message):
 
     urls = extract_urls(message.content)
 
-    # Case 1: 링크가 포함된 메시지 -> 빌드 자동 분석 실행
+    # Case 1: 링크가 포함된 메시지 -> 빌드 1개씩 순차 분석 실행
     if urls:
         logger.info(f"🎯 Detected {len(urls)} URLs in #{ch_name} from {message.author.name}: {urls}")
         try:
@@ -307,54 +309,59 @@ async def on_message(message: discord.Message):
             pass
 
         for url in urls:
-            status_msg = await message.reply(
+            is_waiting = analysis_queue_lock.locked()
+            init_text = (
+                f"⏳ **[대기열 등록]** <@{message.author.id}> 님, 앞선 작업이 완료된 후 순서대로 자동 시작됩니다...\n`{url}`"
+                if is_waiting else
                 f"🚀 **[0%]** <@{message.author.id}> 님의 링크를 접수했습니다. 분석 준비 중...\n`{url}`"
             )
-            
-            try:
-                data = await run_pipeline_with_progress(url, status_msg)
-                raw = data["raw"]
-                result_dict = data["result_dict"]
-                b_name = raw.get("build_summary", {}).get("build_name", "Build")
+            status_msg = await message.reply(init_text)
 
-                embed = create_rich_build_embed(raw, url)
-
-                # JSON 파일 첨부
-                doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
-                json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
-                if not json_file_path.exists():
-                    files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
-                    if files:
-                        json_file_path = files[0]
-
-                discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
-
-                await status_msg.delete()
-                completion_text = (
-                    f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
-                    f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
-                )
-
-                if discord_file:
-                    await message.reply(content=completion_text, embed=embed, file=discord_file)
-                else:
-                    await message.reply(content=completion_text, embed=embed)
-
+            async with analysis_queue_lock:
                 try:
-                    await message.remove_reaction("⏳", bot.user)
-                    await message.add_reaction("✅")
-                except Exception:
-                    pass
+                    data = await run_pipeline_with_progress(url, status_msg)
+                    raw = data["raw"]
+                    result_dict = data["result_dict"]
+                    b_name = raw.get("build_summary", {}).get("build_name", "Build")
 
-            except Exception as e:
-                logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
-                err_msg = format_error_message(e)
-                await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}`\n{err_msg}")
-                try:
-                    await message.remove_reaction("⏳", bot.user)
-                    await message.add_reaction("❌")
-                except Exception:
-                    pass
+                    embed = create_rich_build_embed(raw, url)
+
+                    # JSON 파일 첨부
+                    doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
+                    json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
+                    if not json_file_path.exists():
+                        files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
+                        if files:
+                            json_file_path = files[0]
+
+                    discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
+
+                    await status_msg.delete()
+                    completion_text = (
+                        f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
+                        f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
+                    )
+
+                    if discord_file:
+                        await message.reply(content=completion_text, embed=embed, file=discord_file)
+                    else:
+                        await message.reply(content=completion_text, embed=embed)
+
+                    try:
+                        await message.remove_reaction("⏳", bot.user)
+                        await message.add_reaction("✅")
+                    except Exception:
+                        pass
+
+                except Exception as e:
+                    logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
+                    err_msg = format_error_message(e)
+                    await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}`\n{err_msg}")
+                    try:
+                        await message.remove_reaction("⏳", bot.user)
+                        await message.add_reaction("❌")
+                    except Exception:
+                        pass
         return
 
     # Case 2: '#chat' 채널이거나 봇 멘션 -> Search Grounding RAG AI 빌드 어드바이저 대화
