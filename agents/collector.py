@@ -36,16 +36,33 @@ class VideoCollector:
         self.max_filesize_bytes = max_filesize_bytes
 
     def extract_metadata_only(self, url: str) -> VideoMetadata:
-        """다운로드 없이 영상 메타데이터만 추출"""
+        """다운로드 없이 영상 메타데이터만 추출 (Cloudflare/Bot bypass)"""
         ydl_opts = {
             "extract_flat": False,
             "skip_download": True,
             "quiet": True,
             "no_warnings": True,
+            "extractor_args": {
+                "youtube": {
+                    "player_client": ["android", "ios", "web_embedded", "web"]
+                }
+            }
         }
-        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=False)
-            return self._build_metadata(info, url)
+        try:
+            with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+                info = ydl.extract_info(url, download=False)
+                return self._build_metadata(info, url)
+        except Exception as e:
+            logger.warning(f"Failed to extract full metadata ({e}), building minimal metadata...")
+            import re
+            vid_match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11})', url)
+            vid = vid_match.group(1) if vid_match else "unknown_video"
+            return VideoMetadata(
+                video_id=vid,
+                title=f"YouTube Video ({vid})",
+                channel="YouTube Creator",
+                url=url
+            )
 
     def download(self, url: str, max_retries: int = 3) -> DownloadResult:
         """단일 영상 다운로드 (2GB 용량 제어 및 자동 폴백)"""
@@ -75,11 +92,11 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략: 720p 고화질 (가장 빠른 업로드 & 최적 가성비) -> 480p 폴백 -> 전체 최고화질 폴백
+        # 다운로드 포맷 전략: Android/iOS 최적화 포맷
         format_strategies = [
+            "best[ext=mp4]/best",
             "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]/best[height<=720]",
             "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/best[height<=480][ext=mp4]/best[height<=480]",
-            "best[ext=mp4]/best",
             "bestvideo[ext=mp4][filesize<?2G]+bestaudio[ext=m4a]/best[ext=mp4]/best",
         ]
 
@@ -95,7 +112,7 @@ class VideoCollector:
                 "retries": max_retries,
                 "extractor_args": {
                     "youtube": {
-                        "player_client": ["ios", "android", "web"]
+                        "player_client": ["android", "ios", "web_embedded", "web"]
                     }
                 }
             }
