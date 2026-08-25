@@ -9,16 +9,24 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
+
+# 동시 충돌 방지: 동일 이슈 또는 브랜치 작업 순차 큐잉
+concurrency:
+  group: cloud-build-worker
+  cancel-in-progress: false
 
 jobs:
   analyze_from_issue:
-    # 봇이 작성한 댓글 루프 방지
+    # 봇 자신이 작성한 댓글 루프 방지
     if: github.actor != 'github-actions[bot]' && (github.event_name == 'issues' || contains(github.event.comment.body, 'http'))
     runs-on: ubuntu-latest
 
     steps:
       - name: 📥 코드 저장소 체크아웃
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 🐍 Python 3.11 환경 설정
         uses: actions/setup-python@v5
@@ -44,17 +52,24 @@ jobs:
         run: |
           python -c "
           import os, re, sys
-          from agents.queue_manager import QueueManager
           from pipeline.orchestrator import BuildPipelineOrchestrator
           from pipeline.web_orchestrator import WebPipelineOrchestrator
 
+          keys = os.getenv('GEMINI_API_KEYS') or os.getenv('GEMINI_API_KEY')
+          if not keys:
+              print('⚠️ [경고] GEMINI_API_KEYS 시크릿이 설정되지 않았습니다!')
+              with open('result_summary.txt', 'w', encoding='utf-8') as f:
+                  f.write('⚠️ **오류**: 저장소 [Settings] -> [Secrets and variables] -> [Actions] 에 `GEMINI_API_KEYS` 시크릿을 등록해 주세요.')
+              sys.exit(0)
+
           text = (os.getenv('ISSUE_TITLE', '') + '\n' + os.getenv('ISSUE_BODY', ''))
-          urls = re.findall(r'https?://[^\s\)]+', text)
-          # 클린업
-          urls = [u.rstrip('.,;\"\'') for u in urls if 'youtube.com' in u or 'youtu.be' in u or 'docs.google.com' in u or 'deepwoken.co' in u]
+          urls = re.findall(r'https?://[^\s\)\"\']+', text)
+          urls = [u.rstrip('.,;\"\'') for u in urls if any(k in u.lower() for k in ['youtube', 'youtu.be', 'docs.google.com', 'deepwoken'])]
           
           if not urls:
-              print('❌ 유효한 유튜브/구글닥스/웹 URL을 찾지 못했습니다.')
+              print('❌ 유효한 유튜브/구글닥스/위키 URL을 찾지 못했습니다.')
+              with open('result_summary.txt', 'w', encoding='utf-8') as f:
+                  f.write('❌ 유효한 유튜브/구글닥스/위키 URL을 찾지 못했습니다. 본문에 정확한 링크를 적어주세요.')
               sys.exit(0)
 
           print(f'🎯 발견된 URL {len(urls)}개 분석 시작: {urls}')
@@ -67,26 +82,30 @@ jobs:
               try:
                   if 'youtube.com' in u or 'youtu.be' in u:
                       res = video_orc.process_url(u)
+                      results.append(f'✅ **유튜브 영상 분석 완료**: [{res.get(\"build_summary\", {}).get(\"build_name\", \"Build\")}]({u})')
                   else:
                       res = web_orc.process_url(u)
-                  results.append(f'✅ 분석 성공: {u}')
+                      results.append(f'✅ **웹/문서 가이드 분석 완료**: [{res.get(\"build_summary\", {}).get(\"build_name\", \"Build\")}]({u})')
               except Exception as e:
-                  results.append(f'❌ 분석 실패: {u} ({e})')
+                  results.append(f'❌ **분석 오류**: {u} (사유: {e})')
 
           with open('result_summary.txt', 'w', encoding='utf-8') as f:
-              f.write('\n'.join(results))
+              f.write('\n\n'.join(results))
           "
 
-      - name: 💾 결과 자동 커밋 및 깃허브 반영
+      - name: 💾 결과 자동 커밋 및 충돌 방지 푸시 (Rebase Retry)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Deepwoken Cloud Bot"
           git add data/analysis/ data/knowledge_base/ data/queue.json
-          if git diff --staged --quiet; then
-            echo "변경 사항 없음."
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 [Issue Auto] Issue #${{ github.event.issue.number }} 분석 결과 저장"
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main || true
+              git push origin main && break || sleep 3
+            done
           else
-            git commit -m "🤖 [Issue Cloud Auto] Issue #${{ github.event.issue.number }} 분석 결과 저장"
-            git push
+            echo "변경 사항 없음."
           fi
 
       - name: 💬 Issue에 분석 완료 댓글 작성 및 자동 완료 닫기
@@ -103,7 +122,7 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: issueNumber,
-              body: `### ⚡ Deepwoken AI 빌드 분석 완료!\n\n${summary}\n\n📁 저장소의 \`data/analysis/\` 및 \`data/knowledge_base/\` 에 결과가 저장되었습니다.`
+              body: `### ⚡ Deepwoken AI 빌드 분석 결과\n\n${summary}\n\n📁 결과 파일이 저장소의 \`data/analysis/\` 및 \`data/knowledge_base/\` 에 저장되었습니다.`
             });
             await github.rest.issues.update({
               owner: context.repo.owner,

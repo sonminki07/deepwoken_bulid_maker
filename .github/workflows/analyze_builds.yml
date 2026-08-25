@@ -8,11 +8,15 @@ on:
         required: true
         type: string
   schedule:
-    # 매일 6시간마다 대기열에 남은 링크 자동 확인 (선택 사항)
     - cron: '0 */6 * * *'
 
 permissions:
   contents: write
+  issues: write
+
+concurrency:
+  group: cloud-build-worker
+  cancel-in-progress: false
 
 jobs:
   analyze:
@@ -21,6 +25,8 @@ jobs:
     steps:
       - name: 📥 코드 저장소 체크아웃
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: 🐍 Python 3.11 환경 설정
         uses: actions/setup-python@v5
@@ -58,14 +64,17 @@ jobs:
           qm.run_worker(interval_seconds=3, continuous=False)
           "
 
-      - name: 💾 분석된 빌드 JSON 및 지식 문서 자동 커밋 & 푸시
+      - name: 💾 분석된 빌드 JSON 및 지식 문서 자동 커밋 & 푸시 (Rebase Retry)
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Deepwoken Cloud Bot"
           git add data/analysis/ data/knowledge_base/ data/queue.json
-          if git diff --staged --quiet; then
-            echo "변경 사항 없음."
-          else
+          if ! git diff --staged --quiet; then
             git commit -m "🤖 [Cloud Auto] Deepwoken 빌드 분석 및 지식 베이스 갱신"
-            git push
+            for i in 1 2 3 4 5; do
+              git pull --rebase origin main || true
+              git push origin main && break || sleep 3
+            done
+          else
+            echo "변경 사항 없음."
           fi
