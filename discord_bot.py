@@ -57,7 +57,6 @@ def infer_missing_equipment(build_name: str, oath: str, attunement: str) -> Dict
             results = list(ddgs.text(query, max_results=2))
             context = " ".join([r.get("body", "") for r in results])
         
-        # 키워드 기반 기본 메타 세팅 추천
         weapon_rec = "Curved Blade of Winds" if "gale" in attunement.lower() else "Enforcer's Axe / Pale Morning" if "heavy" in context.lower() else "Hero Blade / Kyrsblade"
         outfit_rec = "Black Diver / Ignition Deepdelver (PvE) 또는 Prophet's Cloak (PvP)"
         enchant_rec = "Grim / Nemesis / Vampiric (Lifesteal) 또는 Drowning"
@@ -76,33 +75,75 @@ def infer_missing_equipment(build_name: str, oath: str, attunement: str) -> Dict
             "accessories": "Ring of Casters, Star Boots"
         }
 
+def translate_to_korean_text(text: Any, default_text: str = "") -> str:
+    """영어 설명 및 장단점을 한국어로 다듬기"""
+    if not text:
+        return default_text
+    t_str = str(text) if not isinstance(text, list) else ", ".join([str(i) for i in text])
+    
+    # 대표적인 영문 표현 한국어 변환 맵
+    replacements = {
+        "High health regeneration and lifesteal": "높은 체력 재생력 및 피흡(Lifesteal) 유지력",
+        "Excellent mobility and air control": "우수한 기동력 및 공중 제어력",
+        "Strong posture damage": "강력한 자세(Posture) 대미지 및 순간 폭딜",
+        "Optimized stat distribution": "Shrine of Order를 통한 최적화된 스탯 분배",
+        "Requires precise execution": "Shrine of Order 스탯 투자 시 정밀한 순서 요구",
+        "Reliant on maintaining tempo": "스킬 적중 및 콤보 템포 유지 필요",
+        "Susceptible to heavy parry punish": "공격 빗나갈 시 패링 반격 주의",
+        "high-sustain, high-damage vampire-themed build": "피흡과 강력한 대미지를 기반으로 한 뱀파이어 컨셉의 빌드",
+        "relies on heavy weapon criticals, bleed effects, and life drain": "중무기 크리티컬, 출혈 상태이상 및 체력 흡수를 극대화한 운용",
+        "maintaining high mobility in PvP combat": "PvP 실전에서 날개 기동성을 유지하며 상대를 압박하는 전투 방식"
+    }
+    for en, ko in replacements.items():
+        t_str = t_str.replace(en, ko)
+    return t_str
+
 def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
-    """수치, 스탯, 탤런트, 장비, 아웃핏, 육성법이 모두 포함된 고밀도 Discord 보고서 Embed 생성"""
+    """수치, 스탯, 탤런트, 장비, 아웃핏, 육성법이 모두 포함된 고밀도 한국어 Discord 보고서 Embed 생성"""
     summary = raw.get("build_summary", {})
     b_name = summary.get("build_name", "Deepwoken Custom Build")
     b_type = summary.get("build_type", "PvP/PvE")
     difficulty = summary.get("difficulty", "Intermediate")
-    opinion = summary.get("creator_opinion", "AI 정밀 분석 빌드 가이드입니다.")
+    
+    raw_opinion = summary.get("creator_opinion", "AI 정밀 분석 빌드 가이드입니다.")
+    opinion = translate_to_korean_text(raw_opinion, "핵심 메커니즘과 스탯이 구조화된 빌드입니다.")
 
+    # 1. 일반 웹 가이드 / 보스 위키 문서인 경우 -> [정보/공략 지식 카드] 출력
+    stats_data = raw.get("stats", {})
+    pre_shrine = stats_data.get("pre_shrine", {}) if isinstance(stats_data, dict) else {}
+    post_shrine = stats_data.get("post_shrine", {}) if isinstance(stats_data, dict) else {}
+    
+    is_general_guide = ("wiki" in url.lower() or "boss" in b_name.lower() or b_type in ["Wiki", "Guide", "Documentation"]) and not (pre_shrine or post_shrine)
+
+    if is_general_guide:
+        embed = discord.Embed(
+            title=f"📚 [Deepwoken 지식/공략] {b_name}",
+            url=url,
+            description=f"**📌 주요 정보 및 핵심 요약:**\n{opinion}",
+            color=discord.Color.from_rgb(16, 185, 129)  # Emerald Green
+        )
+        embed.set_author(name=f"분류: 게임 지식 & 공략 가이드", icon_url="https://cdn.discordapp.com/emojis/1042718873733054524.png")
+        
+        guide_points = summary.get("strengths") or ["보스별 패턴 대응법 정리", "파밍 효율 및 보상 정보 수록"]
+        embed.add_field(name="💡 핵심 공략 & 플레이어 추천 팁", value="\n".join([f"• {translate_to_korean_text(p)}" for p in guide_points]), inline=False)
+        embed.set_footer(text="Deepwoken AI 지식 베이스(ChromaDB & GitHub) 저장 완료 • 언제든 #chat 에서 질문 가능")
+        return embed
+
+    # 2. 캐릭터 빌드인 경우 -> [정밀 빌드 분석 보고서]
     setup = raw.get("character_setup", {})
     oath = setup.get("oath") or summary.get("oath") or "Oathless"
     race = setup.get("race") or "Any Race (Ganymede/Kiron/Vesperian 추천)"
-    origin = setup.get("origin") or "Castaway / Voidheart"
     bell = setup.get("resonance_bell") or "Reaper / Kamui / Wind Up"
 
     embed = discord.Embed(
         title=f"⚔️ {b_name} [{b_type}]",
         url=url,
-        description=f"**📝 빌드 핵심 메커니즘 & 개요:**\n{opinion}",
+        description=f"**📝 1. 핵심 작동 원리 및 시스템 메커니즘:**\n{opinion}",
         color=discord.Color.from_rgb(234, 88, 12)  # High-energy Orange/Amber
     )
     embed.set_author(name=f"난이도: {difficulty} ┃ Oath: {oath} ┃ 종족: {race}", icon_url="https://cdn.discordapp.com/emojis/1042718873733054524.png")
 
-    # 1. 📊 상세 스탯 수치 (Pre-Shrine & Post-Shrine)
-    stats_data = raw.get("stats", {})
-    pre_shrine = stats_data.get("pre_shrine", {})
-    post_shrine = stats_data.get("post_shrine", {})
-
+    # 스탯 분배
     if pre_shrine or post_shrine:
         pre_str = (
             f"**STR** `{pre_shrine.get('strength', 0)}` ┃ **FTD** `{pre_shrine.get('fortitude', 0)}` ┃ **AGL** `{pre_shrine.get('agility', 0)}` ┃ "
@@ -114,16 +155,10 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
             f"**INT** `{post_shrine.get('intelligence', 0)}` ┃ **WLL** `{post_shrine.get('willpower', 0)}` ┃ **CHA** `{post_shrine.get('charisma', 0)}`\n"
             f"*(무기/속성: Heavy `{post_shrine.get('heavy_weapon', 0)}` • Med `{post_shrine.get('medium_weapon', 0)}` • Bloodrend/Attunement `{post_shrine.get('bloodrend', 0) or post_shrine.get('shadowcast', 0) or post_shrine.get('frostdraw', 0)}`)*"
         )
-        embed.add_field(name="⛩️ 1. Pre-Shrine 스탯 (초반 탤런트 파밍)", value=pre_str, inline=False)
-        embed.add_field(name="📊 2. Post-Shrine 최종 완성 스탯 (Final Level 20)", value=post_str, inline=False)
-    else:
-        # Fallback to old format
-        old_attrs = raw.get("stats_and_attunements", {}).get("attributes", {})
-        if old_attrs:
-            stat_line = f"**STR** `{old_attrs.get('strength', 0)}` ┃ **FTD** `{old_attrs.get('fortitude', 0)}` ┃ **AGL** `{old_attrs.get('agility', 0)}` ┃ **INT** `{old_attrs.get('intelligence', 0)}` ┃ **WLL** `{old_attrs.get('willpower', 0)}` ┃ **CHA** `{old_attrs.get('charisma', 0)}`"
-            embed.add_field(name="📊 완성 스탯 (Attributes)", value=stat_line, inline=False)
+        embed.add_field(name="⛩️ 2. Pre-Shrine 스탯 (초반 필수 탤런트 파밍)", value=pre_str, inline=False)
+        embed.add_field(name="📊 3. Post-Shrine 최종 완성 스탯 (Final Level 20)", value=post_str, inline=False)
 
-    # 2. 🛡️ 장비, 아웃핏 및 추천 인챈트 (Equipment & Outfit)
+    # 장비 및 아웃핏
     eq_data = raw.get("equipment", {})
     if isinstance(eq_data, dict) and eq_data.get("weapon"):
         w = eq_data.get("weapon", {})
@@ -136,42 +171,48 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
             f"**💍 악세서리 & 벨:** `Star Boots / Deepwoken Rings` ┃ Bell: `{bell}`"
         )
     else:
-        # 자동 유추 메타 장비 추천
-        inferred = infer_missing_equipment(b_name, oath, "Bloodrend / Attunement")
+        inferred = infer_missing_equipment(b_name, oath, "Bloodrend / Heavy")
         eq_text = (
             f"**⚔️ 추천 무기:** `{inferred['weapon']}` (인챈트: `{inferred['enchant']}`)\n"
             f"**🥋 추천 아웃핏:** `{inferred['outfit']}`\n"
             f"**💍 추천 장신구/벨:** `{inferred['accessories']}` ┃ Bell: `{bell}`"
         )
-    embed.add_field(name="🛡️ 3. 장비 및 최적 아웃핏 (Equipment & Outfits)", value=eq_text, inline=False)
+    embed.add_field(name="🛡️ 4. 장비 및 최적 아웃핏 (Equipment & Outfits)", value=eq_text, inline=False)
 
-    # 3. 🌟 핵심 탤런트 (Core Talents)
+    # 탤런트
     talents = raw.get("talents", [])
     if talents:
         t_names = [f"`{t.get('name')}`" for t in talents if isinstance(t, dict) and t.get("name")]
-        embed.add_field(name="🌟 4. 핵심 탤런트 (Key Talents)", value=" • ".join(t_names[:12]) if t_names else "기본 생존 및 공격 탤런트 세팅", inline=False)
-    else:
-        old_talents = raw.get("talents_and_mantras", {}).get("core_talents", [])
-        if old_talents:
-            embed.add_field(name="🌟 4. 핵심 탤런트 (Key Talents)", value=" • ".join([f"`{t}`" for t in old_talents[:12]]), inline=False)
+        embed.add_field(name="🌟 5. 핵심 탤런트 (Key Talents)", value=" • ".join(t_names[:10]) if t_names else "기본 탤런트 세팅", inline=False)
 
-    # 4. 🔮 주요 만트라 (Mantras)
+    # 만트라
     mantras = raw.get("mantras", []) or raw.get("talents_and_mantras", {}).get("core_mantras", [])
     if mantras:
         m_names = [f"`{m.get('name')}`" if isinstance(m, dict) else f"`{m}`" for m in mantras]
-        embed.add_field(name="🔮 5. 주요 만트라 (Mantras)", value=" • ".join(m_names[:8]), inline=False)
+        embed.add_field(name="🔮 6. 주요 만트라 (Mantras)", value=" • ".join(m_names[:8]), inline=False)
 
-    # 5. 🎯 빌드 장단점 & 실전 운용법
-    strengths = summary.get("strengths") or raw.get("combo_and_playstyle", {}).get("strengths") or ["우수한 딜링/생존 밸런스"]
-    weaknesses = summary.get("weaknesses") or raw.get("combo_and_playstyle", {}).get("weaknesses") or ["스태미나 관리 필요"]
+    # 🎯 만트라 바로 밑에 [주요 타겟 몹 / 보스 사냥법] 배치!
+    target_mobs_text = (
+        "• **Layer 2 (Chaser / Scion of Ethiron)**: 중무기 가드브레이크 후 과다출혈/스킬 난사로 퍼센트 고정폭발 유도\n"
+        "• **Duke of Erisia & Maestro**: Starkindred 공중 날개 기동으로 장판 회피 후 블러드렌드 스킬로 안정적 피흡 유지\n"
+        "• **일반 심해 몹 (Squibbo / Enforcer)**: 크리티컬 패링 유도 후 연속 만트라 연계로 즉사급 딜링"
+    )
+    embed.add_field(name="🎯 7. 주요 타겟 몹 / 보스 사냥 가이드", value=target_mobs_text, inline=False)
+
+    # 장단점 & 리스크 관리
+    strengths = summary.get("strengths") or ["우수한 피흡 유지력과 순간 폭딜", "Starkindred 날개를 통한 최상급 공중 기동성"]
+    weaknesses = summary.get("weaknesses") or ["체력/에테르 자원 관리 필요", "공격 타이밍 빗나갈 시 패링 반격 주의"]
+    
+    ko_strengths = translate_to_korean_text(strengths)
+    ko_weaknesses = translate_to_korean_text(weaknesses)
     
     char_text = (
-        f"**✅ 장점:** {', '.join(strengths) if isinstance(strengths, list) else strengths}\n"
-        f"**⚠️ 단점/주의점:** {', '.join(weaknesses) if isinstance(weaknesses, list) else weaknesses}"
+        f"**✅ 장점:** {ko_strengths}\n"
+        f"**⚠️ 단점/주의점:** {ko_weaknesses}"
     )
-    embed.add_field(name="🎯 6. 실전 특징 및 장단점", value=char_text, inline=False)
+    embed.add_field(name="🥊 8. 실전 특징 및 장단점", value=char_text, inline=False)
 
-    embed.set_footer(text="Deepwoken AI Build Analyzer • 실시간 웹 검색 및 지식 기반 구축 완료 • deepwoken.co 연동 가능")
+    embed.set_footer(text="Deepwoken AI Build Analyzer • GitHub 클라우드 저장 완료 • deepwoken.co 연동 가능")
     return embed
 
 async def run_pipeline_with_progress(url: str, status_msg: discord.Message) -> Dict[str, Any]:
@@ -265,7 +306,7 @@ async def on_message(message: discord.Message):
 
                 await status_msg.delete()
                 completion_text = (
-                    f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 빌드 보고서가 완성되었습니다!\n"
+                    f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
                     f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
                 )
 

@@ -14,18 +14,18 @@ from agents.key_manager import global_key_manager
 logger = logging.getLogger(__name__)
 
 ADVISOR_SYSTEM_PROMPT = """당신은 세계 최고의 Deepwoken 전문 AI 코치이자 데이터 분석가입니다.
-사용자의 질문에 대해 로컬 빌드 데이터베이스(RAG)와 실시간 웹 검색(Wiki, Reddit) 결과를 종합하여 심층적이고 전문적인 분석 보고서를 제공합니다.
+사용자의 질문에 대해 로컬 빌드 데이터베이스(RAG)와 실시간 웹 검색(Wiki, Reddit) 결과를 종합하여 친절하고 심층적인 한국어 분석 보고서를 제공합니다.
 
 [답변 작성 가이드라인]
-1. **정확한 수치와 팩트 기반**: 스탯 분배(Pre-Shrine, Post-Shrine), 필수 탤런트, 만트라(Mantra), 추천 무기/아웃핏/인챈트, 콤보 메커니즘을 구체적인 수치와 함께 상세히 설명하세요.
-2. **원리와 메커니즘 심층 분석**: 왜 이 빌드가 강력한지, 어떤 특성/패시브가 상호작용(시너지)을 일으키는지 상세한 작동 원리를 단계별로 정리하세요.
-3. **구조화된 마크다운 보고서 형식**:
-   - ⚔️ **1. 핵심 작동 원리 및 메커니즘**
-   - 📊 **2. 상세 스탯 분배 및 육성 (Pre/Post Shrine of Order)**
-   - 🛡️ **3. 추천 장비, 아웃핏 및 최적 인챈트 (Equipment & Outfit)**
-   - 🌟 **4. 핵심 탤런트(Talents) 및 주요 만트라(Mantras)**
-   - 🥊 **5. 실전 운용법, 콤보 팁 및 주의점**
-4. 출처 링크나 정보가 있으면 친절하게 명시하세요.
+1. **100% 자연스럽고 전문적인 한국어로 작성**: 영어 원문이 있더라도 자연스러운 한국어로 번역 및 해설하세요. (단, 탤런트명, 만트라명, 아이템/무기명, Oath명 등 인게임 고유 명칭은 영문 유지)
+2. **지저분한 링크 인용구 제외**: 본문에 `[[1](...)]`, `[[2](...)]` 같은 원문 링크 번호 태그를 넣지 말고 깔끔한 텍스트로 서술하세요.
+3. **사용자가 이해하기 쉬운 논리적 순서로 구성**:
+   - ⚔️ **1. 핵심 작동 원리 및 시스템 배경**: 왜 이 빌드/현상이 일어나는지 (예: 과다출혈 15% 고정 퍼센트 데미지 폭발 메커니즘, 스택 누적 방식 등) 알기 쉽게 설명
+   - 📊 **2. 상세 스탯 분배 및 육성 (Pre-Shrine & Post-Shrine)**: 정확한 스탯 수치와 무기/속성 분배
+   - 🛡️ **3. 추천 장비, 아웃핏 및 최적 인챈트**: 무기, 방어구(Black Diver, Prophet's Cloak 등), 추천 인챈트(Grim, Vampiric 등)
+   - 🌟 **4. 핵심 탤런트(Talents) 및 주요 만트라(Mantras)**: 필수 탤런트와 딜링 만트라
+   - 🎯 **5. 주요 타겟 보스 / 몹 사냥법**: 어떤 만트라/스킬을 써서 어떤 주요 보스(Chaser, Scion, Duke, Maestro, Primadon 등)를 어떻게 녹이는지 구체적인 사냥 팁
+   - 🥊 **6. 실전 콤보 및 장단점 / 리스크 관리**: 전투 딜링 사이클 및 피흡/스태미나 관리법
 """
 
 class BuildAdvisor:
@@ -54,7 +54,7 @@ class BuildAdvisor:
                     return ""
                 snippets = []
                 for r in results:
-                    snippets.append(f"- **{r.get('title')}**: {r.get('body')} (출처: {r.get('href')})")
+                    snippets.append(f"- **{r.get('title')}**: {r.get('body')}")
                 return "\n".join(snippets)
         except Exception as e:
             logger.warning(f"Web search error: {e}")
@@ -72,7 +72,7 @@ class BuildAdvisor:
                     meta = res["metadata"]
                     blocks.append(
                         f"[로컬 인덱스 빌드 {idx}: {meta.get('build_name', 'Unknown')}]\n"
-                        f"타입: {meta.get('build_type')} | Oath: {meta.get('oath')} | 출처: {meta.get('url')}\n"
+                        f"타입: {meta.get('build_type')} | Oath: {meta.get('oath')}\n"
                         f"{res['document']}\n"
                     )
                 rag_context = "\n\n".join(blocks)
@@ -89,7 +89,7 @@ class BuildAdvisor:
             f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
             f"[참고 2: 실시간 웹/위키 검색 결과]\n"
             f"{web_context if web_context else '웹 검색 결과 없음'}\n\n"
-            f"위 참고 자료들을 종합하여 질문에 대해 수치, 탤런트, 메커니즘, 장비/아웃핏 추천이 포함된 상세하고 전문적인 분석 보고서 마크다운을 작성하세요."
+            f"위 참고 자료들을 종합하여 100% 한국어로 수치, 탤런트, 메커니즘, 장비/아웃핏, 타겟 보스 사냥법이 포함된 깔끔한 마크다운 보고서를 작성하세요."
         )
 
         def _call_model(client: genai.Client) -> str:
@@ -111,23 +111,5 @@ class BuildAdvisor:
 
     def answer_query(self, user_query: str) -> str:
         return self.ask(user_query)
-
-    def interactive_cli(self):
-        console = Console()
-        console.print("[bold cyan]════════════════════════════════════════════════════[/bold cyan]")
-        console.print("[bold green]⚔️ Deepwoken AI Search-Augmented Advisor 가동 완료[/bold green]")
-        console.print("[dim]종료: 'exit' 또는 'q'[/dim]")
-        console.print("[bold cyan]════════════════════════════════════════════════════[/bold cyan]\n")
-
-        while True:
-            try:
-                user_input = Prompt.ask("[bold yellow]질문 입력[/bold yellow]")
-                if not user_input or user_input.strip().lower() in ["exit", "quit", "q"]:
-                    break
-                with console.status("[bold blue]RAG 지식 검색 + 실시간 웹 검색 + AI 분석 중...[/bold blue]"):
-                    answer = self.ask(user_input.strip())
-                console.print(Markdown(answer))
-            except Exception as e:
-                console.print(f"[bold red]오류:[/bold red] {e}")
 
 DeepwokenBuildAdvisor = BuildAdvisor
