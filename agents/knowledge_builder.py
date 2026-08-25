@@ -1,40 +1,13 @@
 import os
 import json
 import logging
-import warnings
 from pathlib import Path
 from typing import List, Dict, Any, Optional
 import chromadb
 from chromadb.api.types import Documents, EmbeddingFunction, Embeddings
-
-with warnings.catch_warnings():
-    warnings.simplefilter("ignore", category=FutureWarning)
-    import google.generativeai as genai
+import chromadb.utils.embedding_functions as ef
 
 logger = logging.getLogger(__name__)
-
-class GeminiEmbeddingFunction(EmbeddingFunction):
-    """Google Gemini text-embedding-004 임베딩 함수"""
-    def __init__(self, api_key: Optional[str] = None, model_name: str = "models/text-embedding-004"):
-        self.api_key = api_key or os.getenv("GEMINI_API_KEY")
-        if self.api_key:
-            genai.configure(api_key=self.api_key)
-        self.model_name = model_name
-
-    def __call__(self, input: Documents) -> Embeddings:
-        if not self.api_key:
-            raise ValueError("GEMINI_API_KEY is required for Gemini embeddings.")
-        embeddings = []
-        for text in input:
-            res = genai.embed_content(
-                model=self.model_name,
-                content=text,
-                task_type="retrieval_document"
-            )
-            embeddings.append(res["embedding"])
-        return embeddings
-
-import chromadb.utils.embedding_functions as ef
 
 class KnowledgeBuilder:
     """4단계: ChromaDB 벡터 DB 인덱싱 및 RAG 지식 베이스 구축기"""
