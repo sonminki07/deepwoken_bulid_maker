@@ -1,25 +1,30 @@
-name: Deepwoken Cloud Build Analyzer
+name: Deepwoken Cloud Build Analyzer (1-by-1 Sequential Queue)
 
 on:
+  issues:
+    types: [opened, edited]
   workflow_dispatch:
     inputs:
       urls:
-        description: '분석할 유튜브/구글닥스/웹 URL (여러 개인 경우 줄바꿈 또는 쉼표로 구분)'
-        required: true
+        description: '분석할 URL (줄바꿈 또는 쉼표로 여러 개 입력 가능)'
+        required: false
         type: string
   schedule:
-    - cron: '0 */6 * * *'
+    # 매일 4시간마다 대기 중인 이슈/대기열 순차 처리
+    - cron: '0 */4 * * *'
 
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
+# 🔥 핵심: 동시 실행 완전 차단! 무조건 1개씩 순서대로 실행
 concurrency:
-  group: cloud-build-worker
+  group: deepwoken-single-worker
   cancel-in-progress: false
 
 jobs:
-  analyze:
+  sequential_analyzer:
     runs-on: ubuntu-latest
 
     steps:
@@ -27,6 +32,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 🐍 Python 3.11 환경 설정
         uses: actions/setup-python@v5
@@ -42,39 +48,111 @@ jobs:
           python -m pip install --upgrade pip
           pip install google-generativeai pydantic yt-dlp python-dotenv rich chromadb beautifulsoup4 pyyaml imageio-ffmpeg
 
-      - name: 🚀 Deepwoken 빌드 클라우드 분석 실행
+      - name: 🚀 1개씩 안전하게 순차 분석 실행
+        id: run_sequential
         env:
           GEMINI_API_KEYS: ${{ secrets.GEMINI_API_KEYS || secrets.GEMINI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          INPUT_URLS: ${{ github.event.inputs.urls }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          MANUAL_URLS: ${{ github.event.inputs.urls }}
         run: |
           python -c "
-          import os, sys
-          from agents.queue_manager import QueueManager
+          import os, re, sys, time
+          from pipeline.orchestrator import BuildPipelineOrchestrator
+          from pipeline.web_orchestrator import WebPipelineOrchestrator
 
-          raw_urls = os.getenv('INPUT_URLS', '')
-          urls = [u.strip() for u in raw_urls.replace(',', '\n').splitlines() if u.strip()]
+          # 1. API 키 확인
+          keys = os.getenv('GEMINI_API_KEYS') or os.getenv('GEMINI_API_KEY')
+          if not keys:
+              msg = '⚠️ [오류] 저장소 Settings -> Secrets and variables -> Actions 에 GEMINI_API_KEYS 를 등록해야 합니다.'
+              print(msg)
+              with open('summary.txt', 'w', encoding='utf-8') as f:
+                  f.write(msg)
+              sys.exit(0)
 
-          qm = QueueManager()
-          if urls:
-              print(f'📥 등록된 URL {len(urls)}개 대기열 추가 중...')
-              qm.add_urls(urls)
+          # 2. URL 수집 (수동 입력 또는 Issue 내용)
+          raw_text = (os.getenv('MANUAL_URLS', '') + '\n' + 
+                      os.getenv('ISSUE_TITLE', '') + '\n' + 
+                      os.getenv('ISSUE_BODY', ''))
+          
+          found_urls = re.findall(r'https?://[^\s\)\"\']+', raw_text)
+          valid_urls = []
+          for u in found_urls:
+              clean_u = u.rstrip('.,;\"\'')
+              if clean_u not in valid_urls:
+                  valid_urls.append(clean_u)
 
-          print('⚡ 클라우드 대기열 분석 작업자 실행...')
-          qm.run_worker(interval_seconds=3, continuous=False)
+          if not valid_urls:
+              print('ℹ️ 분석할 새로운 URL이 없습니다.')
+              with open('summary.txt', 'w', encoding='utf-8') as f:
+                  f.write('분석할 URL이 입력되지 않았습니다.')
+              sys.exit(0)
+
+          print(f'🎯 총 {len(valid_urls)}개의 URL을 1개씩 순차 분석합니다...')
+
+          video_orc = BuildPipelineOrchestrator()
+          web_orc = WebPipelineOrchestrator()
+
+          results = []
+          for idx, url in enumerate(valid_urls, 1):
+              print(f'\n==================================================')
+              print(f'⚡ [{idx}/{len(valid_urls)}] 순차 분석 중: {url}')
+              print(f'==================================================')
+              try:
+                  if 'youtube.com' in url or 'youtu.be' in url:
+                      res = video_orc.process_url(url)
+                      b_name = res.get('build_summary', {}).get('build_name', 'YouTube Build')
+                      results.append(f'✅ **유튜브 분석 성공**: [{b_name}]({url})')
+                  else:
+                      res = web_orc.process_url(url)
+                      b_name = res.get('build_summary', {}).get('build_name', 'Web/Doc Guide')
+                      results.append(f'✅ **웹/문서 분석 성공**: [{b_name}]({url})')
+              except Exception as e:
+                  print(f'❌ 실패: {url} -> {e}')
+                  results.append(f'❌ **분석 실패**: {url} (사유: {e})')
+              
+              # 과열 방지 5초 쿨타임
+              time.sleep(5)
+
+          with open('summary.txt', 'w', encoding='utf-8') as f:
+              f.write('\n\n'.join(results))
           "
 
-      - name: 💾 분석된 빌드 JSON 및 지식 문서 자동 커밋 & 푸시 (Rebase Retry)
+      - name: 💾 결과 자동 커밋 및 저장소 안전 반영
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Deepwoken Cloud Bot"
           git add data/analysis/ data/knowledge_base/ data/queue.json
           if ! git diff --staged --quiet; then
-            git commit -m "🤖 [Cloud Auto] Deepwoken 빌드 분석 및 지식 베이스 갱신"
-            for i in 1 2 3 4 5; do
-              git pull --rebase origin main || true
-              git push origin main && break || sleep 3
-            done
+            git commit -m "🤖 [Cloud 1-by-1] 순차 빌드 분석 결과 저장"
+            git pull --rebase origin main || true
+            git push origin main || echo "Push skipped"
           else
             echo "변경 사항 없음."
           fi
+
+      - name: 💬 Issue가 있는 경우 분석 완료 댓글 작성 및 자동 닫기
+        if: github.event.issue.number != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let summary = "빌드 분석이 완료되었습니다!";
+            if (fs.existsSync('summary.txt')) {
+              summary = fs.readFileSync('summary.txt', 'utf8');
+            }
+            const issueNumber = context.payload.issue.number;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `### ⚡ Deepwoken AI 1-by-1 순차 분석 결과\n\n${summary}\n\n📁 결과가 저장소의 \`data/analysis/\` 및 \`data/knowledge_base/\` 에 저장되었습니다.`
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              state: 'closed'
+            });
