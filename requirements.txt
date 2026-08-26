@@ -5,10 +5,8 @@ yt-dlp
 pydantic
 python-dotenv
 rich
-chromadb
 beautifulsoup4
 pyyaml
 duckduckgo-search
-primp
-lxml
 imageio-ffmpeg
+
