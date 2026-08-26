@@ -1,0 +1,214 @@
+{
+  "video_metadata": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "patch_version": "Verse 2 (Ironsing Augmenter Buff Patch)"
+  },
+  "build_summary": {
+    "build_name": "Augmenter Cleave (90 HVY + 90 IRON)",
+    "build_type": "Hybrid",
+    "difficulty": "Advanced",
+    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 Ironsing\uc758 Augmenter \uacbd\ub85c \ubc84\ud504\ub97c \uadf9\ub300\ud654\ud558\uc5ec \uac15\ub825\ud55c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc(Metal Greatsword)\ub97c \uc18c\ud658\ud558\uace0 \ub300\ubbf8\uc9c0\ub97c \uac00\ud558\ub294 \ube4c\ub4dc\uc785\ub2c8\ub2e4. Shrine of Order\ub97c \ud65c\uc6a9\ud574 \ub192\uc740 stats \uc694\uad6c\uce58\ub97c \uac00\uc9c4 \ud575\uc2ec talents\ub4e4\uc744 \ubbf8\ub9ac \ud68d\ub4dd\ud55c \ub4a4 stats\uc744 \ucd5c\uc801\ud654\ud588\uc2b5\ub2c8\ub2e4. \ub6f0\uc5b4\ub09c \uae30\ub3d9\uc131\uacfc \uc0dd\uc874\ub825, \uadf8\ub9ac\uace0 \uac15\ub825\ud55c \ud55c \ubc29 \ub51c\uc744 \ub3d9\uc2dc\uc5d0 \ucc59\uae34 \ud558\uc774\ube0c\ub9ac\ub4dc \ube4c\ub4dc\uc785\ub2c8\ub2e4.",
+    "strengths": [
+      "Augmenter \ubc84\ud504\ub85c \uc778\ud55c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc\uc758 \uac15\ub825\ud55c \ud654\ub825",
+      "Galebreathe\uc640 Flamecharm\uc744 \ud65c\uc6a9\ud55c \uc555\ub3c4\uc801\uc778 \uae30\ub3d9\uc131 \ubc0f \uc720\ud2f8\ub9ac\ud2f0",
+      "Undying Flame\uacfc Graceful Flame\uc744 \ud1b5\ud55c \uc2ec\ud574(Depths)\uc5d0\uc11c\uc758 \ub6f0\uc5b4\ub09c \uc720\uc9c0\ub825 \ubc0f \uc790\uac00 \uce58\uc720",
+      "\ub192\uc740 \ubb3c\ub9ac \ubc29\uc5b4\ub825 \ubc0f \ud53c\ud574 \uac10\uc18c \uc2dc\ub108\uc9c0"
+    ],
+    "weaknesses": [
+      "Shrine of Order\ub97c \uc0ac\uc6a9\ud558\uae30 \uc704\ud55c \uc815\uad50\ud55c \ub808\ubca8\uc5c5 \ubc0f stats \ubd84\ubc30 \uc21c\uc11c \ud544\uc694",
+      "\ub2e4\uc591\ud55c \uc18d\uc131(Ironsing, Galebreathe, Flamecharm)\uc744 \ub2e4\ub8e8\uae30 \ub54c\ubb38\uc5d0 \uc870\uc791 difficulty\uac00 \ub192\uc74c"
+    ]
+  },
+  "stats": {
+    "strength": 25,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 25,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 25,
+    "shadowcast": 0,
+    "ironsing": 25,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Soulbreaker",
+    "race": "Felinor",
+    "origin": "Deepbound",
+    "murmur": "All",
+    "resonance_bell": "Crazy Slots"
+  },
+  "talents": [
+    {
+      "name": "Rending Needle: Augmenter",
+      "is_core": true
+    },
+    {
+      "name": "Risky Moves",
+      "is_core": true
+    },
+    {
+      "name": "Destructive Recovery",
+      "is_core": true
+    },
+    {
+      "name": "To The Finish",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Undying Flame",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": false
+    },
+    {
+      "name": "Charm",
+      "is_core": false
+    },
+    {
+      "name": "Phantom Step",
+      "is_core": true
+    },
+    {
+      "name": "Air Pressure",
+      "is_core": true
+    },
+    {
+      "name": "Gale Lunge",
+      "is_core": false
+    },
+    {
+      "name": "Phoenix Impact",
+      "is_core": false
+    },
+    {
+      "name": "Meteor Impact",
+      "is_core": true
+    },
+    {
+      "name": "Endurance Runner",
+      "is_core": false
+    },
+    {
+      "name": "Flame Within",
+      "is_core": false
+    },
+    {
+      "name": "Lowstride",
+      "is_core": false
+    },
+    {
+      "name": "Charged Return",
+      "is_core": false
+    },
+    {
+      "name": "All Habits Die Hard",
+      "is_core": false
+    },
+    {
+      "name": "Breathing Exercise",
+      "is_core": false
+    },
+    {
+      "name": "Conquer Your Fears",
+      "is_core": false
+    },
+    {
+      "name": "Magical Resolve",
+      "is_core": false
+    },
+    {
+      "name": "Flaming Flourish",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Rising Flame"
+    },
+    {
+      "name": "Gale Trap"
+    },
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Rising Wind"
+    },
+    {
+      "name": "Oxidizing Rush"
+    },
+    {
+      "name": "Metal Armament"
+    },
+    {
+      "name": "Metal Fakeout"
+    },
+    {
+      "name": "Exhaustion Strike"
+    },
+    {
+      "name": "Flame Leap"
+    },
+    {
+      "name": "Graceful Flame"
+    },
+    {
+      "name": "Chain Pull"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": "Kyrsleave",
+    "weapon_type": "Heavy Weapon",
+    "recommended_enchant": "Metal",
+    "outfit": "Familiar Assassin's Armor (Hallotide)",
+    "accessories": [
+      "Tyran Pendant",
+      "Bastions of Enmity",
+      "Star Boots",
+      "Aegis of Enmity",
+      "Kong's Clutch Ring",
+      "Ferryman's Ring",
+      "Master Thief Earrings",
+      "Citadel Frames",
+      "Bloodiron Ring",
+      "Akira's Ring"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Duke Eriasia",
+      "Squibbo"
+    ],
+    "mob_strategy": "\uc2ec\ud574 \ubaac\uc2a4\ud130\ub098 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c, \uba3c\uc800 Oxidizing Rush\ub97c \uc0ac\uc6a9\ud574 \uc801\uc5d0\uac8c \uae08\uc18d \ub9c9\ub300(Rods)\ub97c \uc2ec\uc2b5\ub2c8\ub2e4. 5\uac1c \uc774\uc0c1\uc758 \ub9c9\ub300\uac00 \uc313\uc774\uba74 Augmenter \ud6a8\uacfc\ub85c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc\uac00 \uc18c\ud658\ub418\uc5b4 \uac15\ub825\ud55c \uce58\uba85\ud0c0(Critical) \uacf5\uaca9\uc744 \uac00\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uccb4\ub825\uc774 \ub0ae\uc544\uc9c0\uba74 Flame Leap\uacfc Gale Dash\ub85c \uac70\ub9ac\ub97c \ubc8c\ub9b0 \ub4a4, \uc548\uc804\ud55c \uacf3\uc5d0\uc11c Graceful Flame\uc744 \uc0ac\uc6a9\ud574 \uccb4\ub825\uc744 \ube60\ub974\uac8c \ud68c\ubcf5\ud569\ub2c8\ub2e4."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "\uae30\ubcf8 \ucf64\ubcf4\ub294 Gale Lunge \ub610\ub294 Oxidizing Rush\ub85c \uc9c4\uc785\ud558\uc5ec \uc801\uc5d0\uac8c Rod\ub97c \ubd80\uc5ec\ud558\ub294 \uac83\uc73c\ub85c \uc2dc\uc791\ud569\ub2c8\ub2e4. \uc774\ud6c4 Rising Wind\ub85c \uc801\uc744 \uc5d0\uc5b4\ubcf8 \uc2dc\ud0a8 \ub4a4 Meteor Impact\uc640 \uc5f0\uacc4\ud558\uc5ec \uac15\ub825\ud55c \uba54\ud14c\uc624 \uc2ac\ub7a8\uc744 \uaf42\uc544 \ub123\uc2b5\ub2c8\ub2e4. \uc801\uc774 \ubc29\uc5b4\ud558\uac70\ub098 \uac70\ub9ac\ub97c \ubc8c\ub9ac\ub824 \ud560 \ub54c\ub294 Metal Fakeout\uacfc Chain Pull\uc744 \uc11e\uc5b4 \uc608\uce21 \ubd88\uac00\ub2a5\ud55c \ud0c0\uc774\ubc0d\uc5d0 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc \uce58\uba85\ud0c0\ub97c \uc801\uc911\uc2dc\ud0b5\ub2c8\ub2e4."
+  },
+  "video_meta": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "upload_date": "20260505",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
