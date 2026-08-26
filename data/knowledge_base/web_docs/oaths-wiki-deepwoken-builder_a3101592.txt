@@ -1,0 +1,1054 @@
+Title: Oaths — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/oath
+Description: Mantra slots and oath-specific data.
+
+==================================================
+
+Oaths — Wiki - Deepwoken Builder
+18
+entries
+Arcwarder
+Bladeharper
+Blightsurger
+Blindseer
+Chainwarden
+Contractor
+Dawnwalker
+Fadetrimmer
+Jetstriker
+Linkstrider
+None
+Oathless
+Saintsworn
+Saltchemist
+Silentheart
+Soulbreaker
+Starkindred
+Visionshaper
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Deepwoken Builder]
+- URL: https://deepwoken.co/builder
+Deepwoken Builder
+Anonymous
+Add tags
+Export
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+0
+Next Power:
+0 points
+"Your game crashed? Like the popular game, Chr-"
+Strength
+STR
+0
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+0
+Charisma
+CHA
+0
+Heavy Wep.
+HVY
+0
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+0
+Ironsing
+MTL
+0
+Bloodrend
+BLD
+0
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 330
+Points Spent
+: 0
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+45
+17
+2
+0
+Filters
+Advanced
+▾
+No talents :(
+Rare
+▾
+Fish
+Fishman
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Common
+▾
+Brawler
+Bruiser's Mixup
+↗
+Escape Artist
+Robber Baron
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Spotter
+↗
+Miscellaneous
+Dragon's Song
+↗
+Polite Awakening
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Lightweight
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+No talents :(
+Equipment
+▾
+No talents :(
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Wa
+
+### 📖 [하위 상세 문서: Talents — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/talent
+Talents — Wiki - Deepwoken Builder
+Filter
+880
+entries
+Advanced
+A World Without Song
+Galebreathe
+75
+Talent
+Silencer's Blade
+Every 3 hits with a Wind Mantra now procs Suffocating.
+Faction
+Absolute Force
+Talent
+Oppressive Force
+Objective
+Shock Corps Division
+Origin
+Authority Ensign
+Evolve the technique of your Oppressive Force, letting both hits of your flourish deal 50% more posture damage.
+Advanced
+Absolute Pitch
+Intelligence
+100
+You can cast Ritual Mantras instantly.
+Oath
+Absolute Radiance
+Talent
+Oath: Dawnwalker
+Dealing damage with Dawnwalker mantras briefly makes you immune to all elemental effects for a short period.
+Oath
+Acceleration Points
+Talent
+Oath: Jetstriker
+Striking an opponent in the back with mobility mantras or Basic Attacks now steals and grants additional momentum.
+Common
+Action Surge
+Agility
+70
+Adrenaline Surge now increases your swing speed by 0.04 for its duration.
+Equipment
+Actions Speak Louder
+Equipment
+Warmaster's Medallion
+Your Critical Attack cooldown is 20% shorter, but your Resonance cooldown is 20% longer. In areas where your Resonance is suppressed, reduce your cooldown by 10% instead.
+Innate
+Ad Astra
+Race
+Lightborn
+Return Home
+Common
+Adept Bloodrender
+Bloodrend
+20
+Talent
+Bloodrender
+You can now obtain 1-star Bloodrender mantras.
+Common
+Adept Flamecharmer
+Flamecharm
+20
+Talent
+Flamecharmer
+You can now obtain 1-Star Leveled Flamecharmer Mantras.
+Common
+Adept Frostdrawer
+Frostdraw
+20
+Talent
+Frostdrawer
+You can now obtain 1-Star Leveled Frostdrawer Mantras.
+Common
+Adept Galebreather
+Galebreathe
+20
+Talent
+Galebreather
+You can now obtain 1-Star Leveled Galebreathe mantras.
+Common
+Adept Ironsinger
+Ironsing
+20
+Talent
+Ironsinger
+You can now obtain 1-star Ironsinger mantras.
+Common
+Adept Shadowcaster
+Shadowcast
+20
+Talent
+Shadowcaster
+You can now obtain 1-star Leveled Shadowcaster Mantras.
+Common
+Adept Thundercaller
+Thundercall
+20
+Talent
+Thundercaller
+You can now obtain 1-star Thundercaller mantras.
+Rare
+Aerogliding
+Galebreathe
+35
+Agility
+30
+When falling from a high place, hold spacebar to generate wind currents until you hit the floor. Also gives you more airtime with Gliders.
+Common
+After Cut
+Galebreathe
+40
+If an attack is physical and wind it will apply an after cut that does 5% of the damage you dealt. If an attack was a mantra, it does 2.5% damage instead.
+Common
+Against All Odds
+Willpower
+65
+For each combat tag you have on your character, increase your damage by 2% (max of 14%).
+Common
+Agility Unbounded
+Agility
+75
+Objective
+Speak to Windrunner
+You have gained the ability to surpass your limits and train your agility to its fullest.
+Common
+Agitating Spark
+Flamecharm
+40
+Applying Burning to enemies spreads it to anyone nearby. Including yourself.
+Common
+Air Pressure
+Agility
+20
+Galebreathe
+50
+Dodging an attack or hitting an enemy's block will transform your next dash into a Gale Dash. Gale Dashes carry you further than regular dashes and have extended iframes, but will clear immediately…
+Advanced
+All Above, Gods Below
+Willpower
+100
+Intelligence
+100
+Talent
+All the Dead Gods
+Any healing your opponent were to receive while All The Dead Gods is active on them is stolen and given to you, increase your PvE Heal Boost to 15% as well.
+Rare
+All Knowing
+Intelligence
+60
+Mantra
+Prediction
+Your prediction now ignores the range requirement to reflect attacks.
+Rare
+All the Dead Gods
+Willpower
+65
+Intelligence
+40
+Your Basic Attacks now apply anti-heal and 5% Heal Boost against PvE for 8s.
+Oath
+All-Seeing Eye
+Talent
+Oath: Blindseer
+The
+
+### 📖 [하위 상세 문서: Weapons — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon
+Weapons — Wiki - Deepwoken Builder
+Filter
+253
+entries
+Rare
+Acheron's Warspear
+Medium Weapon
+40
+...
+Uncommon
+Adretian Aegis
+A sturdy shield, traditionally crafted to suit the rank of it's holder.
+Rare
+Adretian Axe
+A bound axe in the typical Adretian fashion.
+Rare
+Alloyed Adretian Axe
+A bound axe in the typical Adretian fashion.
+Legendary
+Alloyed Canorian Axe
+Heavy Weapon
+75
+An axe much like the ones once wielded by the Canor Swornfangs, loyal protectors of the early Adretian Empire.
+Rare
+Alloyed Cavalry Saber
+To those of the current world, the notion of cavalry is farfetched. Still, the cavalry saber lives on as an effective blade for raiding.
+Legendary
+Alloyed Crescent Cleaver
+Heavy Weapon
+75
+Strength
+10
+Greatblades like these are often used by monster hunters, the serrated blade ensuring that even if their quarry flees, they need only follow the blood.
+Rare
+Alloyed Dawnshot
+Light Weapon
+75
+With an almost flawless silver sheen that prevents corrosion from saltwater, the Dawnshot was purpose-built by Rosen for his lengthy travels at sea. Its short range is compensated for by the almost…
+Legendary
+Alloyed Falchion
+Medium Weapon
+75
+A single-edged sabre often wielded by conscripted Authority militiamen due to its relative ease of production.
+Legendary
+Alloyed Forge Greathammer
+Heavy Weapon
+75
+Strength
+10
+It is said that blacksmiths always keep one of these handy should someone ever stiff them on the bill.
+Uncommon
+Alloyed Halberd
+Heavy Weapon
+75
+A standard issue halberd of the Authority, often seen in larger skirmishes.
+Uncommon
+Alloyed Inheritor
+Heavy Weapon
+75
+Strength
+10
+The Blade Scholars of Markor, said to catalog the world itself, travel from land to land collecting information by force of their blades. Mastering the styles of combat from various stretches of the…
+Uncommon
+Alloyed Katana
+Medium Weapon
+75
+An exquisite blade of Etrean make, it's said to have put the early Kingdom of Etrea's name on the map.
+Legendary
+Alloyed Longspear
+Medium Weapon
+75
+Beyond the safety of walls, these long spears are used by the Children of Navae to defend themselves out in the wilderness.
+Legendary
+Alloyed Messer
+Medium Weapon
+75
+Considered by many to be an overgrown kitchen knife, the Messer is a favourite of rangers and beast hunters the world over.
+Rare
+Alloyed Officer Saber
+Medium Weapon
+75
+The characteristic saber of an Authority Officer. Typically used in Authority raids on disputed territories.
+Legendary
+Alloyed Scalesplitter
+Medium Weapon
+65
+An ancient Etrean twinblade, recently repurposed and refurbished with alloys of the contemporary world, taken from the void's grasp and returned to life. Now this weapon, once worn by time and war,…
+Legendary
+Alloyed Shotel
+Medium Weapon
+75
+A blade from Markor prized by warriors for its ability to effortlessly slip past the guards of foes.
+Legendary
+Alloyed Steel Maul
+Heavy Weapon
+75
+Strength
+10
+A sturdy maul perfect for knocking walls and people down alike.
+Legendary
+Alloyed Tanto
+Light Weapon
+80
+A dagger forged by a Etrean smith, the Tanto is said to bear the same durability as the Katana, but in a smaller profile
+Legendary
+Alloyed Trident Spear
+Medium Weapon
+85
+A surprisingly effective weapon despite its previous use by fishermen.
+Legendary
+Alloyed Vigil Longsword
+Medium Weapon
+75
+Despite the popularity of the Katana, the Vigil Longsword represents Etrea's need for more cost-efficient production processes in blades. Regarded as an equally fine blade, nonetheless.
+Legendary
+Alloyed Whaling Knife
+Light Wea
+
+### 📖 [하위 상세 문서: Mantras — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra
+Mantras — Wiki - Deepwoken Builder
+Filter
+237
+entries
+Abyssal Ridge
+Objective
+Speak to Carrion with a Nautilodaunt Beak
+Send a cascading eruption towards your foes, forcing them to react.
+Abyssal Tendrils
+Objective
+Speak to carrion with a Charged Parasol Part
+Create tentacles and pierce multiple opponents at once.
+Adrenaline Surge
+Agility
+20
+An adrenaline rush of mobility.
+Agile Dash
+Agility
+40
+Launch forwards into an agile dash.
+Air Force
+Galebreathe
+1
+Shoots out an air blast.
+Alsin's Aid
+Objective
+Warder Path
+Origin
+Justicar
+Give your ally an aura that grants them more speed, and increases the amount of healing they receive for 10 seconds.
+Arc Beam
+Talent
+Oath: Arcwarder
+Fire plasma energy. Deals additional damage in PvE.
+Arc Suit
+Talent
+Oath: Arcwarder
+Conjure and equip your Arcwarder suit.
+Arc Wave
+Talent
+Oath: Arcwarder
+Stomp the ground releasing a wave of Arc energy.
+Ardour Slicer
+Talent
+Oath: Soulbreaker
+Close the distance and deliver a fast slash using your Ardour.
+Ascension
+Talent
+Oath: Starkindred
+Take to the skies for a devastating strike.
+Ash Slam
+Flamecharm
+50
+Strength
+20
+Strike the ground, turning it to ash.
+Astral Wind
+Galebreathe
+50
+A rapid delivery of consecutive attacks.
+Beast Burrow
+Objective
+Speak to Carrion with a Thresher Talon
+...
+Blade of Saints
+Talent
+Oath: Saintsworn
+Perform an Attuned attack. This attack will change depending on your current Saint Stance.
+Blinding Dawn
+Talent
+Oath: Dawnwalker
+Spin rapidly to unleash powerful rays of light.
+Blood Orb
+Bloodrend
+1
+Release an amalgamation of your blood.
+Blood Stakes
+Bloodrend
+20
+Create stakes of blood.
+Blood Wisp
+Bloodrend
+30
+A servant of blood.
+Bloodcurdle
+Bloodrend
+50
+Manipulate the blood within your target's body.
+Bloodedge
+Bloodrend
+20
+Conjure a scythe of blood and swing.
+Bloodtide Ritual
+Bloodrend
+50
+Summon the Bloodtide and perform a sacrificial judgement.
+Bolt Piercer
+Thundercall
+30
+An arrow of lightning.
+Bone Wisp
+Objective
+Speak to Carrion with a Charged Bonecharm
+A servant of bone, powered by the Eternal Gale.
+Brace
+Fortitude
+75
+Brace yourself against attacks and gain hyperarmour.
+Brachial Spear
+Objective
+Speak to carrion with a Giant Femur
+A javelin of jagged bone.
+Burning Servants
+Flamecharm
+1
+Summon a legion of flaming spearmen that lunge inwards.
+Caltrops
+Ironsing
+30
+Sharp metal traps.
+Ceaseless Slashes
+Light Weapon
+50
+Click to reveal yourself and deliver a rapid flurry of slashes that can chain together.
+Celestial Assault
+Talent
+Oath: Starkindred
+Use your wings and deliver two critical blows.
+Chain Pull
+Ironsing
+20
+Manifest chains to brutally pull enemies towards you.
+Champion's Whirlthrow
+Galebreathe
+30
+Grab your opponent and toss them with the power of gale. Pressing F will toss your opponent straight down.
+Close Shave
+Talent
+Oath: Fadetrimmer
+Close the distance and deliver a fast slash.
+Clutching Shadow
+Shadowcast
+1
+A shadowy hand.
+Coral Spear
+Objective
+Speak to carrion with a Megalodaunt Coral
+...
+Crimson Rain
+Bloodrend
+30
+Release blood daggers. Recast to call them.
+Crimson Surge
+Bloodrend
+30
+Slash upwards and launch slashes of blood.
+Crucifixion
+Bloodrend
+1
+Conjure a bloody cross.
+Crystal Impale
+Frostdraw
+30
+Talent
+Glass Path: Crystallization
+Impale your foes with a brutal ice barrage. Does +25% damage if enemy is airborne, or after a Crystal Knee.
+Crystal Knee
+Frostdraw
+30
+Talent
+Glass Path: Crystallization
+Knock your enemy skyward with a kick of crystal.
+Dark Blade
+Shadowcast
+1
+Slicing blades of dark energy.
+Decimate
+Talent
+Oath: Bladeharper
+
+
+### 📖 [하위 상세 문서: Outfits — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit
+Outfits — Wiki - Deepwoken Builder
+102
+entries
+11th Legion Plate
+Power
+5
+Fortitude
+10
+Armor of the 11th Scouting Legion. Akilles brought them here some time ago to observe the coming conflict in the East.
+Arachnid's Weave
+Power
+15
+Spun around the dantiest of spider silks, this silvery coordinate is punctuated by its iconic corset. Perhaps "laced" with poison?
+Auroran Gremor
+Power
+15
+Objective
+Given by a Developer.
+Armor of the Auroran Gremor
+Authority Captain Uniform
+The unmistakable banded coat of an Adretian Captain. Despite immediate appearances, the coat is wound with protective fibers that provide unparalleled durability.
+Authority Commander
+Power
+15
+Origin
+Authority Ensign
+The armored robes of an Authority Commander.
+Authority Peacekeeper Armor
+The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.
+Barbarian
+Memento
+Beserker
+...
+Black Diver
+Power
+15
+Willpower
+10
+Coat of an esteemed Black Diver, one of the few in many generations of Divers from the Markor Citadel.
+Bounty Hunter
+Power
+5
+Armor suited for hunting monsters.
+Cala-Mariner
+Power
+15
+Willpower
+5
+The tattoo sprawling across your chest serves as a physical memory of the aquatic foes you have felled, and as a keen warning to those who would stand in your way.
+Carefree Garments
+Power
+6
+...
+Celtorian Tideknight
+Power
+15
+...
+Cerulean Gown
+Power
+8
+A bodiced sky-blue dress, with various tassels attached for decoration. Despite its initial elegant appearance, the fastened layered skirt, tight-cuffed shirt sleeves, and sturdy boots suggest the…
+Cindergarb
+Power
+15
+Flamecharm
+45
+Forged from fabric tempered in flame. Cindergard gathers shed embers enhancing your flamecharm ability.
+Cloak of Winds
+Power
+10
+Powerful cloak of the Vigils.
+Corsair Outlaw
+...
+Cutthroat Light Armor
+Power
+5
+Sturdy leather armor, fashioned for the hunters sent into the driftlands to deal with rival factions.
+Darkened Bastion
+Power
+15
+A noble's armor, shattered and reforged into a sleek and dark ensemble. The essence of Shadowcast courses through its fibers like a living entity embedded within the fabric. When you lay your hand…
+Darksteel Plate
+Power
+10
+Fortitude
+20
+The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.
+Diver Apprentice Robes
+Robes of an Apprentice Diver. A robe weaved through the power of the Song, grants passable elemental defenses and ether regeneration.
+Diver Journeyman Robes
+Power
+10
+Crafted for experienced Divers, these robes signify one who has experienced the horrors of the Deep.
+Duelist's Attire
+Power
+5
+The attire of a duelist for sport.
+Eager Tradesman
+There's work to be done. In style.
+Etrean Guard
+Power
+10
+Serpentine armor of the Kingdom of Etrea. A lightweight piece of plate sits atop padded snakeskin leather.
+Etrean Rogue
+Sturdy leather armor, fashioned for the hunters sent down into Etrea's forest.
+Experienced Adventurer
+Power
+5
+You wear your experience.
+Familiar Assassin's Armor
+Power
+15
+Discard your identity.
+Familiar Demon's Armor
+Power
+15
+So ya want to become a bossraid Oni...?
+Familiar Heretic's Armor
+Power
+15
+Fit only for a traitor.
+Familiar Knight's Armor
+Power
+15
+You don't know why but a certain Murmur is making you very angry.
+Familiar Occultist's Armor
+Power
+15
+The visage of a five-eyed hound enters your mind un
+
+### 📖 [하위 상세 문서: Enchantments — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enchantment
+Enchantments — Wiki - Deepwoken Builder
+54
+entries
+Adhesive
+Pulls your attacker towards you.
+Allure
+Incoming hits may Charm your attacker for 10s.
+Astral
+Grants +20% weapon damage in PvE. Call down stars alongside your critical attacks, and afer parrying thrice.
+Blazing
+Once enough stacks have been applied, for 5 seconds your attacks will ignite your foes.
+Bluster
+After landing a few stacks of Bluster, start a countdown to an explosion that scales off of your M1 damage. Land attacks during this countdown to make it explode faster. This explosion scales with…
+Bounce
+Incoming hits may bounce your attacker away.
+Chilling
+Chill your foes. Applies Bottom Freeze once enough stacks have been applied.
+Curse of Captain Greene
+Known throughout the Summer Company, many heard of the famous treasurer Captrain Greene. You inherit his strange ability of gaining damage the more rich you are. However since you aren't Captain…
+Curse of Repulsion
+When you block attacks, you knock your attacker backwards. You receive +30% chip damage.
+Curse of the Authoritative
+On critical, uppercut, or flourish, apply Authoritative on your opponent making them take 50% more posture damage. When you get guardbroken, take 50% more damage.
+Curse of the Bloodthirsty
+Deal +10% weapon damage and drain the blood of your foes, but suffer blood loss if your weapon attacks miss.
+Curse of the No Life King
+Grants passive regen and damages the sanity of your foes, but succumb to insanity much faster, lose twice as much blood, and never be more than a step away from death.
+Curse of the Unbidden
+Your critical attack is replaced with Unbidden Counter, restoring posture and stunning your attacker. Your attacks drain Ether on hit.
+Curse of Void
+Every enemy you slay while equipping this weapon will always be Drowned. Enemies hit will also experience reduced healing. It also applies 10 seconds of Ether Sunder to PvE enemies.
+Curse of Ysley's Ember
+Once enough stacks have been applied, the Fire of Life germinates. The explosion deals a random amount of damage and grants temporary health to the affected targets.
+Curse of Yun'Shul
+Has a chance to inflict a curse that deals percentage damage, but who it falls upon is often down to luck.
+Deferred
+Weapon damage is increased by 7%, but becomes damage over time, lasting for 2.5 seconds.
+Detonation
+Once enough stacks have been applied, an explosion is detonated.
+Displacement
+Incoming hits may proc Displacement, granting a speed boost and clearing all stuns present.
+Drowned
+Bolster the stats of your equipment, adding an additional +10 Health, +10 Ether, +5% Damage vs. Monsters, and +5% Monster Armor.
+Elastic
+Opponents are pulled towards you on hit.
+Entanglement
+Incoming hits may proc Entangled Defence, reducing your speed in exchange for 10% damage reduction.
+Erebus
+When landing a critical, make your opponent forget how to use a mantra for a minute.
+Ferocity
+Incoming hits may proc a speed boost and deal reduced damage. Both the speed boost and damage reduction scale with your current Tempo.
+Gluttony
+Steals Water and Stomach from those you hit.
+Grim
+Once enough stacks have been applied, Grim is applied for 6 seconds, increasing all incoming damage by 25% and all incoming posture damage by 50%.
+Harrowing
+Obscures your opponent's health, posture, and armor bars. Also causes PvE to get Confusion on successful hits.
+Heroism
+When above 75% HP, gain 4% damage for every 5% HP above 75%. When below 25% HP, gain 4% damage for every 5% HP below 25% HP. You can r
+
+### 📖 [하위 상세 문서: Attunements — Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/attunement
+Attunements — Wiki - Deepwoken Builder
+16
+entries
+Attunementless
+Azure Flames
+Bloodrend
+Eruption Path: Lava Serpent
+Flamecharm
+Frostdraw
+Galebreathe
+Gilded Path: Scrapsinger
+Glass Path: Crystallization
+Haunted Path: Specter
+Ironsing
+Shadowcast
+Surge Path: Unstable Capacitor
+Thundercall
+Vaporborne
+Wraith Path: Twisted Puppets
+
+=== Sub Pages Explored ===
+- builder
+- talent
+- weapon
+- mantra
+- outfit
+- enchantment
+- attunement
