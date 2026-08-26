@@ -321,18 +321,26 @@ with col_builder:
     ])
 
     # --- [탭 1: Post-Shrine (최종 완성 330pt)] ---
+    race_stats = DEEPWOKEN_RACES.get(selected_race, {}).get("stats", {})
+    min_str = race_stats.get("Strength", 0)
+    min_fort = race_stats.get("Fortitude", 0)
+    min_agi = race_stats.get("Agility", 0)
+    min_int = race_stats.get("Intelligence", 0)
+    min_wil = race_stats.get("Willpower", 0)
+    min_cha = race_stats.get("Charisma", 0)
+
     with tab_post:
         st.caption("✨ 질서의 성소(Shrine of Order)로 스탯을 재분배한 뒤 최종 20레벨까지 완성한 최종 스탯입니다.")
         s_col1, s_col2, s_col3 = st.columns(3)
         with s_col1:
-            str_val = st.number_input("Strength (근력)", 0, 102, int(saved_post.get("Strength", 0)), key=f"{selected_name}_str")
-            fort_val = st.number_input("Fortitude (인내)", 0, 102, int(saved_post.get("Fortitude", 0)), key=f"{selected_name}_fort")
+            str_val = st.number_input("Strength (근력)", min_str, 102, max(min_str, int(saved_post.get("Strength", min_str))), key=f"{selected_name}_str")
+            fort_val = st.number_input("Fortitude (인내)", min_fort, 102, max(min_fort, int(saved_post.get("Fortitude", min_fort))), key=f"{selected_name}_fort")
         with s_col2:
-            agi_val = st.number_input("Agility (민첩)", 0, 102, int(saved_post.get("Agility", 0)), key=f"{selected_name}_agi")
-            int_val = st.number_input("Intelligence (지능)", 0, 102, int(saved_post.get("Intelligence", 0)), key=f"{selected_name}_int")
+            agi_val = st.number_input("Agility (민첩)", min_agi, 102, max(min_agi, int(saved_post.get("Agility", min_agi))), key=f"{selected_name}_agi")
+            int_val = st.number_input("Intelligence (지능)", min_int, 102, max(min_int, int(saved_post.get("Intelligence", min_int))), key=f"{selected_name}_int")
         with s_col3:
-            wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_post.get("Willpower", 0)), key=f"{selected_name}_wil")
-            cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_post.get("Charisma", 0)), key=f"{selected_name}_cha")
+            wil_val = st.number_input("Willpower (의지)", min_wil, 102, max(min_wil, int(saved_post.get("Willpower", min_wil))), key=f"{selected_name}_wil")
+            cha_val = st.number_input("Charisma (매력)", min_cha, 102, max(min_cha, int(saved_post.get("Charisma", min_cha))), key=f"{selected_name}_cha")
 
         w_col1, w_col2 = st.columns(2)
         with w_col1:
@@ -353,10 +361,21 @@ with col_builder:
         total_stat_points = DeepwokenFactChecker.calculate_total_stats(post_stat_dict)
         max_cap = DeepwokenFactChecker.MAX_VALID_STAT_SUM
 
+        stat_badge_html = []
         if total_stat_points <= max_cap:
-            st.markdown(f'<div class="stat-badge-ok">📊 최종 스탯 총합: {total_stat_points} / {max_cap} pt (공식 룰 100% 일치 ✅)</div>', unsafe_allow_html=True)
+            stat_badge_html.append(f'<div class="stat-badge-ok">📊 최종 스탯 총합: {total_stat_points} / {max_cap} pt (공식 룰 100% 일치 ✅)</div>')
         else:
-            st.markdown(f'<div class="stat-badge-warn">⚠️ 최종 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
+            stat_badge_html.append(f'<div class="stat-badge-warn">⚠️ 최종 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>')
+
+        # 종족 고유 스탯 보존 실시간 검증 (Shrine of Order 룰)
+        race_ok, race_errs = DeepwokenFactChecker.validate_racial_base_stats(selected_race, post_stat_dict)
+        if race_ok:
+            stat_badge_html.append(f'<div style="color: #34d399; font-size: 0.85rem; margin-top: 6px;">🧬 <b>{selected_race}</b> 종족 기본치 보존 룰 일치 (질서의 성소 삭감 불가 룰 준수 ✅)</div>')
+        else:
+            for re_msg in race_errs:
+                stat_badge_html.append(f'<div style="color: #f87171; font-size: 0.85rem; margin-top: 4px;">{re_msg}</div>')
+
+        st.markdown("".join(stat_badge_html), unsafe_allow_html=True)
 
     # --- [탭 2: Pre-Shrine (사원 사용 전 탤런트 스탯)] ---
     with tab_pre:

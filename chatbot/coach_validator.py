@@ -169,10 +169,27 @@ class DeepwokenFactChecker:
         return parsed
 
     @staticmethod
+    def validate_racial_base_stats(race: str, stats: Dict[str, int]) -> Tuple[bool, List[str]]:
+        """Deepwoken 공식 종족 고유 기본 스탯 및 Shrine of Order(성소) 스탯 보존 검증"""
+        from chatbot.builder_calculator import DEEPWOKEN_RACES
+        race_info = DEEPWOKEN_RACES.get(race)
+        if not race_info:
+            return True, []
+        
+        errors = []
+        for stat_name, min_val in race_info.get("stats", {}).items():
+            current_val = stats.get(stat_name, 0)
+            if current_val < min_val:
+                errors.append(f"⚠️ {race} 종족의 {stat_name} 기본치는 최소 {min_val}pt 이상이어야 합니다. (현재: {current_val}pt - 질서의 성소도 종족 기본치 이하로 삭감 불가)")
+        
+        return len(errors) == 0, errors
+
+    @staticmethod
     def audit_profile_and_advice(profile: Dict[str, Any], advice_text: str) -> Dict[str, Any]:
         """사용자 프로필과 AI 조언 텍스트를 대조 검증하여 무결성 리포트 생성"""
         stats = profile.get("stats", {})
         total_points = DeepwokenFactChecker.calculate_total_stats(stats)
+        race = profile.get("race", "Vesperian")
         
         # 만약 유저 프로필이 빈 슬롯(0pt)이면 AI가 제안한 스탯을 자동 파싱하여 검증
         if total_points == 0:
@@ -190,7 +207,14 @@ class DeepwokenFactChecker:
         elif total_points > 0:
             verified_points.append(f"📊 스탯 무결성: 총 `{total_points}/{DeepwokenFactChecker.MAX_VALID_STAT_SUM}` pt (deepwoken.co 공식 룰 준수 ✅)")
 
-        # 2. Oath 조건 검증
+        # 2. 종족 기본치 검증 (Shrine of Order 보존 룰)
+        race_ok, race_errs = DeepwokenFactChecker.validate_racial_base_stats(race, stats)
+        if race_ok:
+            verified_points.append(f"🧬 종족 '{race}' 기본 스탯 보존 검증 완료 ✅")
+        else:
+            warnings.extend(race_errs)
+
+        # 3. Oath 조건 검증
         current_oath = profile.get("oath", "")
         if not current_oath or current_oath == "Oathless":
             # AI 텍스트에서 언급된 Oath 찾기
