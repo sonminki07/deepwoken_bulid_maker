@@ -33,11 +33,16 @@
       "Heavy Wep": 100,
       "Medium Wep": 0,
       "Light Wep": 0,
-      "Attunementless (무속성)": 0
+      "Attunementless (무속성)": 0,
+      "power": 0,
+      "points": 325,
+      "pointSpent": 5,
+      "pointsUntilNextPower": 25,
+      "traitsPoints": 0
     },
     "equipment": {
       "outfit": "Ignition Centurion (초중장갑 극탱)",
-      "enchant": "Detonation (하얀 폭발 딜 / 보스 체력 삭제)",
+      "enchant": "",
       "helmet": "Hivelord Faceguard (최고 물리 방어)",
       "face": "Aviator Glasses (원거리/명중)",
       "amulet": "Hallowed Amulet (체력/성소)",
@@ -48,10 +53,22 @@
       "ring4": "None (미착용)",
       "bell": "Reaper (영혼 수확 / 체력 흡수)",
       "extra_hp": 25,
-      "extra_dve": 15
+      "extra_dve": 15,
+      "Head": null,
+      "Arms": null,
+      "Legs": null,
+      "Torso": null,
+      "Face": null,
+      "Earrings": null,
+      "Rings": [
+        null,
+        null,
+        null,
+        null
+      ]
     },
     "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
-    "talents": "Collapsed Lung (방어 파괴), Showstopper, Reinforced Armor (체력 450+ 깡방어), Ghost (확정 회피), Giant Slayer (보스 딜 +15%), Exoskeleton, Speed Demon, Tough Love, Underdog",
+    "talents": "Oath: Silentheart, Unwavering Resolve, Battle Tendency, Braced Collapse, Moving Fortress, Swift Rebound, Evasive Expert, Risky Moves, Exoskeleton, Showstopper, Collapsed Lung, Heretic's Sutra, Lose Your Mind, Against All Odds, Speed Demon, Loyalty, Tough Love, Charismatic Cast, Underdog, Endurance Runner, Scaredy Cat",
     "source_video": "Duke / Primadon Boss Killer M1 Melter Guide",
     "description": "Canor 종족 보너스(Str 3, Cha 2) 기반 사일런트하트 헤비 평타 빌드. 사원 전 Str 80/Fort 90/Agl 40/Wil 50 선행 탤런트 획득 후 대검 100 마스터 (정확히 330pt).",
     "core_talents": []
@@ -538,5 +555,57 @@
     "source_video": "Dagger M1 PvE Progression (1-20) | Deepwoken",
     "description": "단검의 초당 5회 타격 속도에 Detonation 폭발을 중첩시켜 보스를 갈아버리는 글래스 캐논 (정확히 330pt).",
     "core_talents": []
+  },
+  "내 캐릭터 빌드 11": {
+    "name": "내 캐릭터 빌드 11",
+    "oath": "Oathless",
+    "weapon_type": "Heavy Weapon",
+    "attunement": "Frostdraw",
+    "stats": {
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Frostdraw": 0,
+      "Flamecharm": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0,
+      "power": 0,
+      "points": 325,
+      "pointSpent": 5,
+      "pointsUntilNextPower": 25,
+      "traitsPoints": 0
+    },
+    "mantras": "",
+    "talents": "Oath: Silentheart, Unwavering Resolve, Battle Tendency, Braced Collapse, Moving Fortress, Swift Rebound, Evasive Expert, Risky Moves, Exoskeleton, Showstopper, Collapsed Lung, Heretic's Sutra, Lose Your Mind, Against All Odds, Speed Demon, Loyalty, Tough Love, Charismatic Cast, Underdog, Endurance Runner, Scaredy Cat",
+    "pre_shrine": {},
+    "equipment": {
+      "Head": null,
+      "Arms": null,
+      "Legs": null,
+      "Torso": null,
+      "Face": null,
+      "Earrings": null,
+      "Rings": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "enchant": ""
+    },
+    "traits": {
+      "Vitality": 6,
+      "Erudition": 6,
+      "Proficiency": 0,
+      "Songchant": 0
+    }
   }
 }

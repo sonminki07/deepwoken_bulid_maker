@@ -9,16 +9,16 @@
     "build_name": "Starter Brick Wall Blindseer PvE",
     "build_type": "PvE",
     "difficulty": "Beginner",
-    "creator_opinion": "이 빌드는 Deepwoken에 입문하는 초보자나 만들기 쉬운 PvE 빌드를 찾는 유저들을 위해 설계되었습니다. Willpower 100과 Fortitude 100을 투자하여 'Brick Wall' 탤런트를 획득함으로써 체력이 0이 되기 전까지 절대 넘어지지 않는(Ragdoll 면역) 엄청난 안정성을 제공합니다. Flamecharm과 Frostdraw 듀얼 속성을 활용하여 강력한 'Flash Boil' 시너지를 내며, Enforcer's Axe의 우수한 가드 브레이크 능력과 다단 히트 크리티컬 공격으로 몹들을 손쉽게 제압할 수 있습니다.",
+    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 Deepwoken\uc5d0 \uc785\ubb38\ud558\ub294 Beginner\ub098 \ub9cc\ub4e4\uae30 \uc26c\uc6b4 PvE \ube4c\ub4dc\ub97c \ucc3e\ub294 \uc720\uc800\ub4e4\uc744 \uc704\ud574 \uc124\uacc4\ub418\uc5c8\uc2b5\ub2c8\ub2e4. Willpower 100\uacfc Fortitude 100\uc744 \ud22c\uc790\ud558\uc5ec 'Brick Wall' talents\ub97c \ud68d\ub4dd\ud568\uc73c\ub85c\uc368 \uccb4\ub825\uc774 0\uc774 \ub418\uae30 \uc804\uae4c\uc9c0 \uc808\ub300 \ub118\uc5b4\uc9c0\uc9c0 \uc54a\ub294(Ragdoll \uba74\uc5ed) \uc5c4\uccad\ub09c \uc548\uc815\uc131\uc744 \uc81c\uacf5\ud569\ub2c8\ub2e4. Flamecharm\uacfc Frostdraw \ub4c0\uc5bc \uc18d\uc131\uc744 \ud65c\uc6a9\ud558\uc5ec \uac15\ub825\ud55c 'Flash Boil' \uc2dc\ub108\uc9c0\ub97c \ub0b4\uba70, Enforcer's Axe\uc758 \uc6b0\uc218\ud55c \uac00\ub4dc \ube0c\ub808\uc774\ud06c \ub2a5\ub825\uacfc \ub2e4\ub2e8 \ud788\ud2b8 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc73c\ub85c \ubab9\ub4e4\uc744 \uc190\uc27d\uac8c \uc81c\uc555\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
     "strengths": [
-      "Brick Wall 탤런트로 인한 완벽한 래그돌(Ragdoll) 면역",
-      "높은 방어력과 체력 유지력으로 초보자에게 매우 안전함",
-      "Flash Boil을 활용한 강력한 하이브리드 원소 데미지",
-      "Enforcer's Axe의 우수한 가드 브레이크 및 크리티컬 성능"
+      "Brick Wall talents\ub85c \uc778\ud55c \uc644\ubcbd\ud55c \ub798\uadf8\ub3cc(Ragdoll) \uba74\uc5ed",
+      "\ub192\uc740 \ubc29\uc5b4\ub825\uacfc \uccb4\ub825 \uc720\uc9c0\ub825\uc73c\ub85c Beginner\uc5d0\uac8c \ub9e4\uc6b0 \uc548\uc804\ud568",
+      "Flash Boil\uc744 \ud65c\uc6a9\ud55c \uac15\ub825\ud55c \ud558\uc774\ube0c\ub9ac\ub4dc \uc6d0\uc18c \ub370\ubbf8\uc9c0",
+      "Enforcer's Axe\uc758 \uc6b0\uc218\ud55c \uac00\ub4dc \ube0c\ub808\uc774\ud06c \ubc0f \ud06c\ub9ac\ud2f0\uceec \uc131\ub2a5"
     ],
     "weaknesses": [
-      "Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 스탯 순서 요구",
-      "극단적인 극딜 빌드에 비해서는 보스 처치 속도가 다소 느릴 수 있음"
+      "Shrine of Order\ub97c \uc0ac\uc6a9\ud558\uae30 \uc804 Willpower\uc640 Fortitude\ub97c 100\uae4c\uc9c0 \ucc0d\uc5b4\uc57c \ud558\ub294 \uc5c4\uaca9\ud55c stats \uc21c\uc11c \uc694\uad6c",
+      "\uadf9\ub2e8\uc801\uc778 \uadf9\ub51c \ube4c\ub4dc\uc5d0 \ube44\ud574\uc11c\ub294 \ubcf4\uc2a4 \ucc98\uce58 \uc18d\ub3c4\uac00 \ub2e4\uc18c \ub290\ub9b4 \uc218 \uc788\uc74c"
     ]
   },
   "stats": {
@@ -135,10 +135,10 @@
       "Ferryman",
       "Deluvian"
     ],
-    "mob_strategy": "Ferryman이나 Chaser 같은 보스를 상대할 때, Brick Wall 덕분에 공격을 맞더라도 래그돌 상태가 되지 않아 즉시 반격하거나 포션을 마실 수 있습니다. Warden's Blades와 Servants 만트라를 깔아두어 지속 데미지를 주면서 Enforcer's Axe의 크리티컬(M2) 공격으로 가드를 깨뜨리고 딜을 누적시킵니다. 체력이 낮아지면 Emergency Reserves와 Blindseer의 유틸리티를 활용해 안정적으로 버팁니다."
+    "mob_strategy": "Ferryman\uc774\ub098 Chaser \uac19\uc740 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c, Brick Wall \ub355\ubd84\uc5d0 \uacf5\uaca9\uc744 \ub9de\ub354\ub77c\ub3c4 \ub798\uadf8\ub3cc \uc0c1\ud0dc\uac00 \ub418\uc9c0 \uc54a\uc544 \uc989\uc2dc \ubc18\uaca9\ud558\uac70\ub098 \ud3ec\uc158\uc744 \ub9c8\uc2e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4. Warden's Blades\uc640 Servants mantras\ub97c \uae54\uc544\ub450\uc5b4 \uc9c0\uc18d \ub370\ubbf8\uc9c0\ub97c \uc8fc\uba74\uc11c Enforcer's Axe\uc758 \ud06c\ub9ac\ud2f0\uceec(M2) \uacf5\uaca9\uc73c\ub85c \uac00\ub4dc\ub97c \uae68\ub728\ub9ac\uace0 \ub51c\uc744 \ub204\uc801\uc2dc\ud0b5\ub2c8\ub2e4. \uccb4\ub825\uc774 \ub0ae\uc544\uc9c0\uba74 Emergency Reserves\uc640 Blindseer\uc758 \uc720\ud2f8\ub9ac\ud2f0\ub97c \ud65c\uc6a9\ud574 \uc548\uc815\uc801\uc73c\ub85c \ubc84\ud301\ub2c8\ub2e4."
   },
   "combo_playstyle_guide": {
-    "combo_guide": "전투 시작 시 Flame Wisp를 켜서 버프를 유지하고, Warden's Blades와 Servants 만트라를 소환하여 지속적인 다단 히트 압박을 가합니다. 적이 가드를 올리면 Enforcer's Axe의 강력한 크리티컬 공격으로 가드를 파괴한 뒤, Flash Boil 시너지가 적용된 Flamecharm과 Frostdraw 만트라 연계로 폭발적인 데미지를 입힙니다. 맞딜 상황에서도 Brick Wall 덕분에 경직되지 않으므로 침착하게 패링을 시도하며 페이스를 유지하는 것이 핵심입니다."
+    "combo_guide": "\uc804\ud22c \uc2dc\uc791 \uc2dc Flame Wisp\ub97c \ucf1c\uc11c \ubc84\ud504\ub97c \uc720\uc9c0\ud558\uace0, Warden's Blades\uc640 Servants mantras\ub97c \uc18c\ud658\ud558\uc5ec \uc9c0\uc18d\uc801\uc778 \ub2e4\ub2e8 \ud788\ud2b8 \uc555\ubc15\uc744 \uac00\ud569\ub2c8\ub2e4. \uc801\uc774 \uac00\ub4dc\ub97c \uc62c\ub9ac\uba74 Enforcer's Axe\uc758 \uac15\ub825\ud55c \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc73c\ub85c \uac00\ub4dc\ub97c \ud30c\uad34\ud55c \ub4a4, Flash Boil \uc2dc\ub108\uc9c0\uac00 \uc801\uc6a9\ub41c Flamecharm\uacfc Frostdraw mantras \uc5f0\uacc4\ub85c \ud3ed\ubc1c\uc801\uc778 \ub370\ubbf8\uc9c0\ub97c \uc785\ud799\ub2c8\ub2e4. \ub9de\ub51c \uc0c1\ud669\uc5d0\uc11c\ub3c4 Brick Wall \ub355\ubd84\uc5d0 \uacbd\uc9c1\ub418\uc9c0 \uc54a\uc73c\ubbc0\ub85c \uce68\ucc29\ud558\uac8c \ud328\ub9c1\uc744 \uc2dc\ub3c4\ud558\uba70 \ud398\uc774\uc2a4\ub97c \uc720\uc9c0\ud558\ub294 \uac83\uc774 \ud575\uc2ec\uc785\ub2c8\ub2e4."
   },
   "video_meta": {
     "title": "The Starter PvE Build You NEED in Deepwoken (2026)",

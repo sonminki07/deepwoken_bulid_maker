@@ -10,15 +10,15 @@
     "build_name": "5 Free Post-Max Talents & Shrine Guide",
     "build_type": "Hybrid",
     "difficulty": "Intermediate",
-    "creator_opinion": "이 영상은 딥위큰에서 만렙 도달 이후 추가적인 스탯 포인트나 레벨업 없이도 최대 5개의 무료 탤런트(카드)와 만트라를 획득할 수 있는 핵심 퀘스트 루트와 메커니즘을 상세히 다루고 있습니다. 첫 번째 에트리스 상점 NPC(Ploom) 퀘스트, 로어 에리시아(Lower Erisia)의 아서(Arthur) 및 아트라(Atra) 관련 퀘스트, 그리고 비질(Isle of VIGILS) 도서관의 잃어버린 책 퀘스트를 연계하여 지식(Knowledge)과 퀘스트 보상을 극대화하는 빌드업 가이드입니다.\n\n특히 획득한 탤런트와 만트라를 'Shrine of Division'과 'Shrine of Chance', 'Shrine of Solitude' 시스템과 연계하여 원하는 카드로 교환하고 재추첨하는 메커니즘을 완벽하게 해설합니다. 길드 베이스를 활용한 리셋 단축 팁과 딥바운드(Deepbound) 진입 루트를 함께 사용하여, 고렙 유저들이 빌드를 세밀하게 정교화하고 종결 급 탤런트를 저렴한 지식 소모로 저격할 수 있도록 설계된 실전형 유틸리티 가이드입니다.",
+    "creator_opinion": "\uc774 \uc601\uc0c1\uc740 \ub525\uc704\ud070\uc5d0\uc11c \ub9cc\ub819 \ub3c4\ub2ec \uc774\ud6c4 \ucd94\uac00\uc801\uc778 stats \ud3ec\uc778\ud2b8\ub098 \ub808\ubca8\uc5c5 \uc5c6\uc774\ub3c4 \ucd5c\ub300 5\uac1c\uc758 \ubb34\ub8cc talents(\uce74\ub4dc)\uc640 mantras\ub97c \ud68d\ub4dd\ud560 \uc218 \uc788\ub294 \ud575\uc2ec \ud018\uc2a4\ud2b8 \ub8e8\ud2b8\uc640 \uba54\ucee4\ub2c8\uc998\uc744 \uc0c1\uc138\ud788 \ub2e4\ub8e8\uace0 \uc788\uc2b5\ub2c8\ub2e4. \uccab \ubc88\uc9f8 \uc5d0\ud2b8\ub9ac\uc2a4 \uc0c1\uc810 NPC(Ploom) \ud018\uc2a4\ud2b8, \ub85c\uc5b4 \uc5d0\ub9ac\uc2dc\uc544(Lower Erisia)\uc758 \uc544\uc11c(Arthur) \ubc0f \uc544\ud2b8\ub77c(Atra) \uad00\ub828 \ud018\uc2a4\ud2b8, \uadf8\ub9ac\uace0 \ube44\uc9c8(Isle of VIGILS) \ub3c4\uc11c\uad00\uc758 \uc783\uc5b4\ubc84\ub9b0 \ucc45 \ud018\uc2a4\ud2b8\ub97c \uc5f0\uacc4\ud558\uc5ec \uc9c0\uc2dd(Knowledge)\uacfc \ud018\uc2a4\ud2b8 \ubcf4\uc0c1\uc744 \uadf9\ub300\ud654\ud558\ub294 \ube4c\ub4dc\uc5c5 \uac00\uc774\ub4dc\uc785\ub2c8\ub2e4.\n\n\ud2b9\ud788 \ud68d\ub4dd\ud55c talents\uc640 mantras\ub97c 'Shrine of Division'\uacfc 'Shrine of Chance', 'Shrine of Solitude' \uc2dc\uc2a4\ud15c\uacfc \uc5f0\uacc4\ud558\uc5ec \uc6d0\ud558\ub294 \uce74\ub4dc\ub85c \uad50\ud658\ud558\uace0 \uc7ac\ucd94\ucca8\ud558\ub294 \uba54\ucee4\ub2c8\uc998\uc744 \uc644\ubcbd\ud558\uac8c \ud574\uc124\ud569\ub2c8\ub2e4. \uae38\ub4dc \ubca0\uc774\uc2a4\ub97c \ud65c\uc6a9\ud55c \ub9ac\uc14b \ub2e8\ucd95 \ud301\uacfc \ub525\ubc14\uc6b4\ub4dc(Deepbound) \uc9c4\uc785 \ub8e8\ud2b8\ub97c \ud568\uaed8 \uc0ac\uc6a9\ud558\uc5ec, \uace0\ub819 \uc720\uc800\ub4e4\uc774 \ube4c\ub4dc\ub97c \uc138\ubc00\ud558\uac8c \uc815\uad50\ud654\ud558\uace0 \uc885\uacb0 \uae09 talents\ub97c \uc800\ub834\ud55c \uc9c0\uc2dd \uc18c\ubaa8\ub85c \uc800\uaca9\ud560 \uc218 \uc788\ub3c4\ub85d \uc124\uacc4\ub41c \uc2e4\uc804\ud615 \uc720\ud2f8\ub9ac\ud2f0 \uac00\uc774\ub4dc\uc785\ub2c8\ub2e4.",
     "strengths": [
-      "만렙 이후에도 추가적인 성장 동력과 5개의 무료 탤런트/만트라 카드를 안정적으로 수급할 수 있음",
-      "Shrine of Division과 Shrine of Chance를 연계하여 원치 않는 카드를 원하는 종결 탤런트로 변환 가능",
-      "길드 베이스 리셋과 연계 시 초고속으로 퀘스트를 반복하여 지식과 카드를 파밍할 수 있음"
+      "\ub9cc\ub819 \uc774\ud6c4\uc5d0\ub3c4 \ucd94\uac00\uc801\uc778 \uc131\uc7a5 \ub3d9\ub825\uacfc 5\uac1c\uc758 \ubb34\ub8cc talents/mantras \uce74\ub4dc\ub97c \uc548\uc815\uc801\uc73c\ub85c \uc218\uae09\ud560 \uc218 \uc788\uc74c",
+      "Shrine of Division\uacfc Shrine of Chance\ub97c \uc5f0\uacc4\ud558\uc5ec \uc6d0\uce58 \uc54a\ub294 \uce74\ub4dc\ub97c \uc6d0\ud558\ub294 \uc885\uacb0 talents\ub85c \ubcc0\ud658 \uac00\ub2a5",
+      "\uae38\ub4dc \ubca0\uc774\uc2a4 \ub9ac\uc14b\uacfc \uc5f0\uacc4 \uc2dc \ucd08\uace0\uc18d\uc73c\ub85c \ud018\uc2a4\ud2b8\ub97c \ubc18\ubcf5\ud558\uc5ec \uc9c0\uc2dd\uacfc \uce74\ub4dc\ub97c \ud30c\ubc0d\ud560 \uc218 \uc788\uc74c"
     ],
     "weaknesses": [
-      "퀘스트 동선이 길고 로어 에리시아 및 뎁스(Depths) 인근 위험 지역을 거쳐야 하므로 갱크(Gank) 위험이 존재함",
-      "고급 퀘스트(Lost Books 등) 진행 시 일정량의 지식(Knowledge) 소모가 필수적이므로 사전 파밍이 필요함"
+      "\ud018\uc2a4\ud2b8 \ub3d9\uc120\uc774 \uae38\uace0 \ub85c\uc5b4 \uc5d0\ub9ac\uc2dc\uc544 \ubc0f \ub381\uc2a4(Depths) \uc778\uadfc \uc704\ud5d8 \uc9c0\uc5ed\uc744 \uac70\uccd0\uc57c \ud558\ubbc0\ub85c \uac31\ud06c(Gank) \uc704\ud5d8\uc774 \uc874\uc7ac\ud568",
+      "\uace0\uae09 \ud018\uc2a4\ud2b8(Lost Books \ub4f1) \uc9c4\ud589 \uc2dc \uc77c\uc815\ub7c9\uc758 \uc9c0\uc2dd(Knowledge) \uc18c\ubaa8\uac00 \ud544\uc218\uc801\uc774\ubbc0\ub85c \uc0ac\uc804 \ud30c\ubc0d\uc774 \ud544\uc694\ud568"
     ]
   },
   "stats": {
@@ -104,15 +104,15 @@
     "Primadon"
   ],
   "mob_strategy": [
-    "로어 에리시아의 샤르코(Sharko) 사냥 퀘스트 진행 시 동굴 내부의 다중 스폰 지역을 조심하며 원거리 패리 및 타이밍 가드를 활용합니다.",
-    "비질 도서관 퀘스트 중 칸(Khan)과의 전투에서 낙사 위험을 피하고 구석에서 안정적으로 그로기 및 콤보를 누적합니다.",
-    "신전(Shrine) 구역 이동 시 뎁스 바운드 몹들의 어그로를 피하기 위해 글라이더와 벽 타기 무브먼트를 적극 활용합니다."
+    "\ub85c\uc5b4 \uc5d0\ub9ac\uc2dc\uc544\uc758 \uc0e4\ub974\ucf54(Sharko) \uc0ac\ub0e5 \ud018\uc2a4\ud2b8 \uc9c4\ud589 \uc2dc \ub3d9\uad74 \ub0b4\ubd80\uc758 \ub2e4\uc911 \uc2a4\ud3f0 \uc9c0\uc5ed\uc744 \uc870\uc2ec\ud558\uba70 \uc6d0\uac70\ub9ac \ud328\ub9ac \ubc0f \ud0c0\uc774\ubc0d \uac00\ub4dc\ub97c \ud65c\uc6a9\ud569\ub2c8\ub2e4.",
+    "\ube44\uc9c8 \ub3c4\uc11c\uad00 \ud018\uc2a4\ud2b8 \uc911 \uce78(Khan)\uacfc\uc758 \uc804\ud22c\uc5d0\uc11c \ub099\uc0ac \uc704\ud5d8\uc744 \ud53c\ud558\uace0 \uad6c\uc11d\uc5d0\uc11c \uc548\uc815\uc801\uc73c\ub85c \uadf8\ub85c\uae30 \ubc0f \ucf64\ubcf4\ub97c \ub204\uc801\ud569\ub2c8\ub2e4.",
+    "\uc2e0\uc804(Shrine) \uad6c\uc5ed \uc774\ub3d9 \uc2dc \ub381\uc2a4 \ubc14\uc6b4\ub4dc \ubab9\ub4e4\uc758 \uc5b4\uadf8\ub85c\ub97c \ud53c\ud558\uae30 \uc704\ud574 \uae00\ub77c\uc774\ub354\uc640 \ubcbd \ud0c0\uae30 \ubb34\ube0c\uba3c\ud2b8\ub97c \uc801\uadf9 \ud65c\uc6a9\ud569\ub2c8\ub2e4."
   ],
   "combo_guide": {
-    "step_1": "에트리스 및 로어 에리시아의 NPC(Ploom, Arthur, Atra)로부터 각 단계별 무료 탤런트 퀘스트 수주",
-    "step_2": "지정된 몬스터(샤르코 등) 토벌 및 유실물(책 등) 회수 완료 후 NPC에게 복귀하여 보상 카드 획득",
-    "step_3": "획득한 만트라와 원치 않는 카드를 Shrine of Division 및 Shrine of Chance에 투입하여 원하는 종결 탤런트로 전환",
-    "step_4": "Shrine of Solitude를 통해 누락된 탤런트 카테고리를 확인하고 최종 빌드 완성"
+    "step_1": "\uc5d0\ud2b8\ub9ac\uc2a4 \ubc0f \ub85c\uc5b4 \uc5d0\ub9ac\uc2dc\uc544\uc758 NPC(Ploom, Arthur, Atra)\ub85c\ubd80\ud130 \uac01 \ub2e8\uacc4\ubcc4 \ubb34\ub8cc talents \ud018\uc2a4\ud2b8 \uc218\uc8fc",
+    "step_2": "\uc9c0\uc815\ub41c \ubaac\uc2a4\ud130(\uc0e4\ub974\ucf54 \ub4f1) \ud1a0\ubc8c \ubc0f \uc720\uc2e4\ubb3c(\ucc45 \ub4f1) \ud68c\uc218 \uc644\ub8cc \ud6c4 NPC\uc5d0\uac8c \ubcf5\uadc0\ud558\uc5ec \ubcf4\uc0c1 \uce74\ub4dc \ud68d\ub4dd",
+    "step_3": "\ud68d\ub4dd\ud55c mantras\uc640 \uc6d0\uce58 \uc54a\ub294 \uce74\ub4dc\ub97c Shrine of Division \ubc0f Shrine of Chance\uc5d0 \ud22c\uc785\ud558\uc5ec \uc6d0\ud558\ub294 \uc885\uacb0 talents\ub85c \uc804\ud658",
+    "step_4": "Shrine of Solitude\ub97c \ud1b5\ud574 \ub204\ub77d\ub41c talents \uce74\ud14c\uace0\ub9ac\ub97c \ud655\uc778\ud558\uace0 \ucd5c\uc885 \ube4c\ub4dc \uc644\uc131"
   },
   "video_meta": {
     "title": "You can get 5 EXTRA Talents after Max level | Deepwoken",

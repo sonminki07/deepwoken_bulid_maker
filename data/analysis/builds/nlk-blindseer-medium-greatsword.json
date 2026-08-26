@@ -9,15 +9,15 @@
     "build_name": "NLK Blindseer Medium Greatsword",
     "build_type": "PvP",
     "difficulty": "Advanced",
-    "creator_opinion": "이 빌드는 No Life King (NLK) 인챈트의 압도적인 피흡 능력을 극대화하기 위해 100 Willpower와 Blindseer Oath를 조합한 뎁스(Depths) 전용 PvP 빌드입니다. NLK 인챈트는 공격 성공 시 엄청난 체력을 회복시켜 주지만 정신력(Sanity)을 빠르게 갉아먹는 치명적인 리스크가 있습니다. 이를 극복하기 위해 100 Willpower의 정신력 저항 탤런트들과 Blindseer의 정신력 회복/보호 능력을 결합하여 단점을 완벽히 상쇄하고 무한한 유지력을 발휘하는 좀비 빌드를 완성했습니다.",
+    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 No Life King (NLK) \uc778\ucc48\ud2b8\uc758 \uc555\ub3c4\uc801\uc778 \ud53c\ud761 \ub2a5\ub825\uc744 \uadf9\ub300\ud654\ud558\uae30 \uc704\ud574 100 Willpower\uc640 Blindseer Oath\ub97c \uc870\ud569\ud55c \ub381\uc2a4(Depths) \uc804\uc6a9 PvP \ube4c\ub4dc\uc785\ub2c8\ub2e4. NLK \uc778\ucc48\ud2b8\ub294 \uacf5\uaca9 \uc131\uacf5 \uc2dc \uc5c4\uccad\ub09c \uccb4\ub825\uc744 \ud68c\ubcf5\uc2dc\ucf1c \uc8fc\uc9c0\ub9cc \uc815\uc2e0\ub825(Sanity)\uc744 \ube60\ub974\uac8c \uac09\uc544\uba39\ub294 \uce58\uba85\uc801\uc778 \ub9ac\uc2a4\ud06c\uac00 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub97c \uadf9\ubcf5\ud558\uae30 \uc704\ud574 100 Willpower\uc758 \uc815\uc2e0\ub825 \uc800\ud56d talents\ub4e4\uacfc Blindseer\uc758 \uc815\uc2e0\ub825 \ud68c\ubcf5/\ubcf4\ud638 \ub2a5\ub825\uc744 \uacb0\ud569\ud558\uc5ec weaknesses\uc744 \uc644\ubcbd\ud788 \uc0c1\uc1c4\ud558\uace0 \ubb34\ud55c\ud55c \uc720\uc9c0\ub825\uc744 \ubc1c\ud718\ud558\ub294 \uc880\ube44 \ube4c\ub4dc\ub97c \uc644\uc131\ud588\uc2b5\ub2c8\ub2e4.",
     "strengths": [
-      "NLK 인챈트를 통한 압도적인 피흡 및 전투 유지력",
-      "100 Willpower와 Blindseer 시너지로 정신력 감소 디버프 완벽 극복",
-      "뎁스 PvP 및 다대일 상황에서 좀비 같은 생존력 발휘"
+      "NLK \uc778\ucc48\ud2b8\ub97c \ud1b5\ud55c \uc555\ub3c4\uc801\uc778 \ud53c\ud761 \ubc0f \uc804\ud22c \uc720\uc9c0\ub825",
+      "100 Willpower\uc640 Blindseer \uc2dc\ub108\uc9c0\ub85c \uc815\uc2e0\ub825 \uac10\uc18c \ub514\ubc84\ud504 \uc644\ubcbd \uadf9\ubcf5",
+      "\ub381\uc2a4 PvP \ubc0f \ub2e4\ub300\uc77c \uc0c1\ud669\uc5d0\uc11c \uc880\ube44 \uac19\uc740 \uc0dd\uc874\ub825 \ubc1c\ud718"
     ],
     "weaknesses": [
-      "정신력 관리에 실패할 경우 순식간에 광기(Insanity) 상태에 빠져 캐릭터가 삭제(Wipe)될 위험 존재",
-      "Shrine of Order를 활용한 매우 정교한 스탯 분배 순서 요구"
+      "\uc815\uc2e0\ub825 \uad00\ub9ac\uc5d0 \uc2e4\ud328\ud560 \uacbd\uc6b0 \uc21c\uc2dd\uac04\uc5d0 \uad11\uae30(Insanity) \uc0c1\ud0dc\uc5d0 \ube60\uc838 \uce90\ub9ad\ud130\uac00 \uc0ad\uc81c(Wipe)\ub420 \uc704\ud5d8 \uc874\uc7ac",
+      "Shrine of Order\ub97c \ud65c\uc6a9\ud55c \ub9e4\uc6b0 \uc815\uad50\ud55c stats \ubd84\ubc30 \uc21c\uc11c \uc694\uad6c"
     ]
   },
   "stats_and_attunements": {
@@ -105,10 +105,10 @@
       "Chaser",
       "Scion of Ethiron"
     ],
-    "mob_strategy": "보스전이나 뎁스 몹 사냥 시, Sacred Field를 깔아 받는 피해를 최소화한 뒤 Grated Brass Sword의 넓은 공격 범위를 활용해 지속적으로 타격합니다. NLK의 피흡 덕분에 물약을 마시거나 도망칠 필요 없이 맞딜이 가능하며, 정신력이 위험할 때는 Blindseer의 유틸리티를 활용해 정신력을 관리합니다."
+    "mob_strategy": "\ubcf4\uc2a4\uc804\uc774\ub098 \ub381\uc2a4 \ubab9 \uc0ac\ub0e5 \uc2dc, Sacred Field\ub97c \uae54\uc544 \ubc1b\ub294 \ud53c\ud574\ub97c \ucd5c\uc18c\ud654\ud55c \ub4a4 Grated Brass Sword\uc758 \ub113\uc740 \uacf5\uaca9 \ubc94\uc704\ub97c \ud65c\uc6a9\ud574 \uc9c0\uc18d\uc801\uc73c\ub85c \ud0c0\uaca9\ud569\ub2c8\ub2e4. NLK\uc758 \ud53c\ud761 \ub355\ubd84\uc5d0 \ubb3c\uc57d\uc744 \ub9c8\uc2dc\uac70\ub098 \ub3c4\ub9dd\uce60 \ud544\uc694 \uc5c6\uc774 \ub9de\ub51c\uc774 \uac00\ub2a5\ud558\uba70, \uc815\uc2e0\ub825\uc774 \uc704\ud5d8\ud560 \ub54c\ub294 Blindseer\uc758 \uc720\ud2f8\ub9ac\ud2f0\ub97c \ud65c\uc6a9\ud574 \uc815\uc2e0\ub825\uc744 \uad00\ub9ac\ud569\ub2c8\ub2e4."
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "기본적으로 상대방과의 맞딜 구도를 유도합니다. Sacred Field를 활성화하여 방어 버프를 두른 뒤, Exhaustion Strike와 Rapid Punches로 상대의 자세를 무너뜨립니다. 상대가 거리를 벌리려 하면 Sightless Beam으로 견제하고, NLK의 피흡을 믿고 적극적으로 패링과 평타 연계를 이어가며 좀비처럼 버티는 플레이가 핵심입니다."
+    "combo_guide": "\uae30\ubcf8\uc801\uc73c\ub85c \uc0c1\ub300\ubc29\uacfc\uc758 \ub9de\ub51c \uad6c\ub3c4\ub97c \uc720\ub3c4\ud569\ub2c8\ub2e4. Sacred Field\ub97c \ud65c\uc131\ud654\ud558\uc5ec \ubc29\uc5b4 \ubc84\ud504\ub97c \ub450\ub978 \ub4a4, Exhaustion Strike\uc640 Rapid Punches\ub85c \uc0c1\ub300\uc758 \uc790\uc138\ub97c \ubb34\ub108\ub728\ub9bd\ub2c8\ub2e4. \uc0c1\ub300\uac00 \uac70\ub9ac\ub97c \ubc8c\ub9ac\ub824 \ud558\uba74 Sightless Beam\uc73c\ub85c \uacac\uc81c\ud558\uace0, NLK\uc758 \ud53c\ud761\uc744 \ubbff\uace0 \uc801\uadf9\uc801\uc73c\ub85c \ud328\ub9c1\uacfc \ud3c9\ud0c0 \uc5f0\uacc4\ub97c \uc774\uc5b4\uac00\uba70 \uc880\ube44\ucc98\ub7fc \ubc84\ud2f0\ub294 \ud50c\ub808\uc774\uac00 \ud575\uc2ec\uc785\ub2c8\ub2e4."
   },
   "video_meta": {
     "title": "How Is This Build Not Nerfed? | Deepwoken",

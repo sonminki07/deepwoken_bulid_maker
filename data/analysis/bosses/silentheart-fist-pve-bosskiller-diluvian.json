@@ -196,6 +196,6 @@
   "origin": "Castaway",
   "murmur": "Ardour",
   "resonance": "Sacred Field",
-  "shrine_of_order_path": "**Pre-Shrine**: `{'fortitude': 100, 'willpower': 100, 'strength': 1, 'agility': 1, 'intelligence': 0, 'charisma': 0, 'light_wep': 0}`\n**Post-Shrine 우선순위**:\n- Unlock 5 Intelligence for Neuroplasticity\n- Raise Strength to 30 for Lose Your Mind & Carnivore\n- Raise Agility to 45 for Ghost & Speed Demon\n- Invest remaining points into Light Weapon to reach 100",
-  "combo_guide": "**딜 사이클**:\nActivate Heretic's Sutra and Ardour Scream to proc insanity damage buffs, enter Flow State, then chain rapid Fist M1s and Criticals.\n\n**운용 팁**:\nSwap between Astral enchant for single-target bosses and Wild enchant for Diluvian wave mobs; utilize Ghost/Vent to dodge unparryable boss attacks."
+  "shrine_of_order_path": "**Pre-Shrine**: `{'fortitude': 100, 'willpower': 100, 'strength': 1, 'agility': 1, 'intelligence': 0, 'charisma': 0, 'light_wep': 0}`\n**Post-Shrine \uc6b0\uc120\uc21c\uc704**:\n- Unlock 5 Intelligence for Neuroplasticity\n- Raise Strength to 30 for Lose Your Mind & Carnivore\n- Raise Agility to 45 for Ghost & Speed Demon\n- Invest remaining points into Light Weapon to reach 100",
+  "combo_guide": "**\ub51c \uc0ac\uc774\ud074**:\nActivate Heretic's Sutra and Ardour Scream to proc insanity damage buffs, enter Flow State, then chain rapid Fist M1s and Criticals.\n\n**\uc6b4\uc6a9 \ud301**:\nSwap between Astral enchant for single-target bosses and Wild enchant for Diluvian wave mobs; utilize Ghost/Vent to dodge unparryable boss attacks."
 }

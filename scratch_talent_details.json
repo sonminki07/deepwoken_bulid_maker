@@ -1,0 +1,377 @@
+{
+  "eel": [
+    {
+      "name": "Steel Tread",
+      "requirements": {
+        "origin": "Authority Ensign"
+      },
+      "description": "Gain a bit of knockback resistance as well as damage resistance against attacks that ragdoll you.",
+      "category": "talent"
+    },
+    {
+      "name": "Steel Scales",
+      "requirements": {
+        "stats": {
+          "Power": 8
+        },
+        "talents": [
+          "Padded Armor"
+        ]
+      },
+      "description": "You take an additional 5% less damage when your armor is broken.",
+      "category": "talent"
+    },
+    {
+      "name": "Turning of the Wheel",
+      "requirements": {
+        "stats": {
+          "Medium Weapon": 75
+        },
+        "weaponType": "Twinblade"
+      },
+      "description": "After perfect dodging a swing or critical attack, step backwards and ramp up your swingspeed.",
+      "category": "talent"
+    },
+    {
+      "name": "Steelvessel",
+      "requirements": {
+        "memento": "Iron Vessel"
+      },
+      "description": "Landed attacks deal posture damage but when guard broken take massive damage. Posture gain on parry is reduced.",
+      "category": "talent"
+    },
+    {
+      "name": "Steel Grip",
+      "requirements": {
+        "equipment": "Reforged Gauntlets"
+      },
+      "description": "When you are blockbroken, negate it and set your posture to 80%.",
+      "category": "talent"
+    },
+    {
+      "name": "Training Wheels",
+      "requirements": {
+        "set": "Beginner"
+      },
+      "description": "Increase the amount of parry frames you have by 20%.",
+      "category": "talent"
+    }
+  ],
+  "collapse": [
+    {
+      "name": "Collapsed Lung",
+      "requirements": {
+        "stats": {
+          "Strength": 100
+        }
+      },
+      "description": "Block breaking an opponent closes off their ability to Vent for 8s, with this duration scaling with Strength. PvE enemies instead get Collapsed.",
+      "category": "talent"
+    },
+    {
+      "name": "Braced Collapse",
+      "requirements": {
+        "stats": {
+          "Fortitude": 25
+        }
+      },
+      "description": "After being block broken, the next attack to hit you deals reduced damage.",
+      "category": "talent"
+    }
+  ],
+  "rage": [
+    {
+      "name": "Amplified Rage",
+      "requirements": {
+        "stats": {
+          "Thundercall": 35
+        },
+        "talents": [
+          "Electrify"
+        ]
+      },
+      "description": "Amped now grants you an additional +10% weapon damage. Also self-damage and cooldown by 3x.",
+      "category": "talent"
+    },
+    {
+      "name": "Kj's Courage",
+      "requirements": {
+        "quests": [
+          "Vigil's Savior"
+        ]
+      },
+      "description": "Gain 10% more Knowledge from all sources, rounded down.",
+      "category": "talent"
+    },
+    {
+      "name": "Mirage Clone",
+      "requirements": {
+        "stats": {
+          "Flamecharm": 65
+        }
+      },
+      "description": "Successfully dodging leaves behind a heat mirage clone that sets enemies that swung at you on fire.",
+      "category": "talent"
+    },
+    {
+      "name": "Explosive Rage",
+      "requirements": {
+        "stats": {
+          "Flamecharm": 40,
+          "Shadowcast": 40
+        },
+        "talents": [
+          "Wraith Path: Twisted Puppets"
+        ]
+      },
+      "description": "Causing explosion will make your puppets go into a frenzy, speeding up and dealing 50% more damage.",
+      "category": "talent"
+    },
+    {
+      "name": "Primal Rage",
+      "requirements": {
+        "outfit": "Titanslayer's Adornment"
+      },
+      "description": "If you are below 50%, unleash your rage and increase the amount of damage you deal for 25 seconds as well as being able to see enemy health when you hit them.",
+      "category": "talent"
+    },
+    {
+      "name": "Righteous Rage",
+      "requirements": {
+        "slay": "True Heart of Enmity",
+        "memento": "Berserker"
+      },
+      "description": "[In Berserk State] You deal increased damage the lower your health is.",
+      "category": "talent"
+    },
+    {
+      "name": "Relentless Barrage",
+      "requirements": {
+        "stats": {
+          "Power": 15
+        },
+        "objectives": [
+          "Purchase in Shop"
+        ],
+        "memento": "Breaker"
+      },
+      "description": "Every swing from Rapid Punches deals more posture than the last. At max punch stacks enables hyperarmor during the barrage.",
+      "category": "talent"
+    },
+    {
+      "name": "Barrage Mastery",
+      "requirements": {
+        "slay": "Shogun of the Prophet's Guard",
+        "memento": "Ether Erudite"
+      },
+      "description": "For every Ether Erudite stack you have, gain one extra orb whenever you fire your Ether Barrage.",
+      "category": "talent"
+    },
+    {
+      "name": "True Mirage Clone",
+      "requirements": {
+        "slay": "True Heart of Enmity",
+        "memento": "Flame Worshipper"
+      },
+      "description": "Successfully dodging leaves behind a heat mirage clone that sets enemies that swung at you on fire.",
+      "category": "talent"
+    },
+    {
+      "name": "Enrage",
+      "requirements": {
+        "stats": {
+          "Charisma": 65
+        },
+        "talents": [
+          "Encore"
+        ],
+        "objectives": [
+          "Wipe with the Strange Merchant Memento"
+        ]
+      },
+      "description": "Whenever you stun an opponent who's taunted with Encore, enrage them.",
+      "category": "talent"
+    },
+    {
+      "name": "Rage Amp",
+      "requirements": {
+        "weapon": "Broodalloy Cestus"
+      },
+      "description": "At 2 or more combat tags, your critical now applies anti-heal while also increases the size and damage of your critical. This scales with the amount of combat tags you have.",
+      "category": "talent"
+    }
+  ],
+  "piercing": [
+    {
+      "name": "Armor Piercing",
+      "requirements": {
+        "stats": {
+          "Weapon": 30
+        },
+        "quests": [
+          "Trig Quest"
+        ],
+        "or": [
+          {
+            "weaponType": "Greatcannon"
+          },
+          {
+            "weaponType": "Pistol"
+          },
+          {
+            "weaponType": "Rifle"
+          }
+        ]
+      },
+      "description": "[Guns] Your gun attacks now ignore 10% of an opponent's blunt armor. Applied Multiplicatively before PEN is applied.",
+      "category": "talent"
+    },
+    {
+      "name": "Piercing Metal",
+      "requirements": {
+        "stats": {
+          "Power": 13,
+          "Ironsing": 60
+        }
+      },
+      "description": "Deal additional armor damage to enemies per metal rod affecting them.",
+      "category": "talent"
+    },
+    {
+      "name": "Piercing Blow",
+      "requirements": {
+        "stats": {
+          "Strength": 100
+        }
+      },
+      "description": "Attacks that break an opponent's block ignore their Armor resistances.",
+      "category": "talent"
+    },
+    {
+      "name": "Piercing Shot",
+      "requirements": {
+        "equipment": "Bounty Hunter's Garb"
+      },
+      "description": "Activate to make your next critical attack with any gun have 100% chip and shatter your opponent's armor for a few seconds, making them take increased PEN from all sources.",
+      "category": "talent"
+    },
+    {
+      "name": "Piercing Will",
+      "requirements": {
+        "stats": {
+          "Willpower": 80
+        }
+      },
+      "description": "When your sanity is below 35%, gain up to +15% PEN on your attacks. Starting at 5% PEN, the lower your sanity, the higher your PEN.",
+      "category": "talent"
+    }
+  ],
+  "lose your mind": [
+    {
+      "name": "Lose Your Mind",
+      "requirements": {
+        "stats": {
+          "Strength": 30,
+          "Fortitude": 30
+        }
+      },
+      "description": "Deal more damage the more insane you are. Grants +15% damage at maximum insanity.",
+      "category": "talent"
+    }
+  ],
+  "showstopper": [
+    {
+      "name": "Showstopper",
+      "requirements": {
+        "stats": {
+          "Strength": 40
+        }
+      },
+      "description": "When an enemy would roll through one of your physical attacks, stomp the ground, dazing anyone nearby. Removes speed buffs from target upon landing.",
+      "category": "talent"
+    }
+  ],
+  "reinforce": [
+    {
+      "name": "Reinforced Armor",
+      "requirements": {
+        "stats": {
+          "Fortitude": 90
+        },
+        "talents": [
+          "Battle Tendency",
+          "Braced Collapse",
+          "Moving Fortress",
+          "Perseverance"
+        ]
+      },
+      "description": "Incoming PEN is reduced by 30%.",
+      "category": "talent"
+    }
+  ],
+  "brick": [
+    {
+      "name": "Brick Wall",
+      "requirements": {
+        "stats": {
+          "Willpower": 100,
+          "Fortitude": 100
+        },
+        "talents": [
+          "Perseverance"
+        ]
+      },
+      "description": "You refuse. You cannot be knocked off your feet until you are knocked completely Unconscious. Also reduces the duration of Knockdown.",
+      "category": "talent"
+    }
+  ],
+  "underdog": [
+    {
+      "name": "Underdog",
+      "requirements": {
+        "stats": {
+          "Willpower": 30
+        }
+      },
+      "description": "You deal 2.5% more damage to those with higher HP than you, scaling up to 4% at 60 WLL. Additionally, you deal +10% more damage to physically larger foes.",
+      "category": "talent"
+    }
+  ],
+  "giant": [],
+  "collapsed": [
+    {
+      "name": "Collapsed Lung",
+      "requirements": {
+        "stats": {
+          "Strength": 100
+        }
+      },
+      "description": "Block breaking an opponent closes off their ability to Vent for 8s, with this duration scaling with Strength. PvE enemies instead get Collapsed.",
+      "category": "talent"
+    }
+  ],
+  "heavy hands": [],
+  "heretic": [
+    {
+      "name": "Heretic's Sutra",
+      "requirements": {
+        "stats": {
+          "Willpower": 80
+        },
+        "quests": [
+          "Have had tier 1 insanity (shivering), and talk to Kasen, located in Layer 2 Floor 1."
+        ]
+      },
+      "description": "A chant that steers you into the state of Insanity for 20 seconds.",
+      "category": "talent"
+    },
+    {
+      "name": "Heretic's Sacrifice",
+      "requirements": {
+        "equipment": "Heretic's Moonseye Gauntlets"
+      },
+      "description": "A chant that heavily sacrifices your sanity to regain a bit of health.",
+      "category": "talent"
+    }
+  ]
+}

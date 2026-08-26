@@ -1,0 +1,190 @@
+{
+  "valid_talents": [
+    {
+      "name": "Reinforced Armor",
+      "official_name": "Reinforced Armor",
+      "official_reqs": {
+        "Fortitude": 90
+      },
+      "our_req": "Fortitude 90, Willpower 30",
+      "official_desc": "Incoming PEN is reduced by 30%."
+    },
+    {
+      "name": "Brick Wall",
+      "official_name": "Brick Wall",
+      "official_reqs": {
+        "Willpower": 100,
+        "Fortitude": 100
+      },
+      "our_req": "Fortitude 100, Willpower 100",
+      "official_desc": "You refuse. You cannot be knocked off your feet until you are knocked completely Unconscious. Also reduces the duration of Knockdown."
+    },
+    {
+      "name": "Exoskeleton",
+      "official_name": "Exoskeleton",
+      "official_reqs": {
+        "Fortitude": 40
+      },
+      "our_req": "Fortitude 40",
+      "official_desc": "You have a layer of fortified Natural Armor that replenishes when you rest. Your Natural Armor will resist 10% Physical Damage when active."
+    },
+    {
+      "name": "To the Finish",
+      "official_name": "To The Finish",
+      "official_reqs": {
+        "Fortitude": 50
+      },
+      "our_req": "Fortitude 40",
+      "official_desc": "You take 10% less damage when below 30% health."
+    },
+    {
+      "name": "Collapsed Lung",
+      "official_name": "Collapsed Lung",
+      "official_reqs": {
+        "Strength": 100
+      },
+      "our_req": "Strength 80",
+      "official_desc": "Block breaking an opponent closes off their ability to Vent for 8s, with this duration scaling with Strength. PvE enemies instead get Collapsed."
+    },
+    {
+      "name": "Showstopper",
+      "official_name": "Showstopper",
+      "official_reqs": {
+        "Strength": 40
+      },
+      "our_req": "Strength 40",
+      "official_desc": "When an enemy would roll through one of your physical attacks, stomp the ground, dazing anyone nearby. Removes speed buffs from target upon landing."
+    },
+    {
+      "name": "Ghost",
+      "official_name": "Ghost",
+      "official_reqs": {
+        "Agility": 40
+      },
+      "our_req": "Agility 40",
+      "official_desc": "Dodging a move will briefly make you invisible, ending early if you attack."
+    },
+    {
+      "name": "Speed Demon",
+      "official_name": "Speed Demon",
+      "official_reqs": {
+        "Agility": 25
+      },
+      "our_req": "Agility 25",
+      "official_desc": "Your attacks now inflict a reduced-strength bleed while you have a speed boost. 1s cooldown."
+    },
+    {
+      "name": "Conditioned Runner",
+      "official_name": "Conditioned Runner",
+      "official_reqs": {
+        "Agility": 25
+      },
+      "our_req": "Agility 25",
+      "official_desc": "You regenerate health faster than normal when sprinting below 75% HP. The health amount scales with your agility stat."
+    },
+    {
+      "name": "Underdog",
+      "official_name": "Underdog",
+      "official_reqs": {
+        "Willpower": 30
+      },
+      "our_req": "Fortitude 30",
+      "official_desc": "You deal 2.5% more damage to those with higher HP than you, scaling up to 4% at 60 WLL. Additionally, you deal +10% more damage to physically larger foes."
+    },
+    {
+      "name": "Tough Love",
+      "official_name": "Tough Love",
+      "official_reqs": {
+        "Charisma": 25
+      },
+      "our_req": "Charisma 25",
+      "official_desc": "Deal 10% more damage to enemies Charmed by you. Mantras deal +5% instead. Being hit by someone the same Aspect or Oath as you applies Charmed briefly."
+    },
+    {
+      "name": "Charismatic Cast",
+      "official_name": "Charismatic Cast",
+      "official_reqs": {
+        "Charisma": 25
+      },
+      "our_req": "Charisma 25",
+      "official_desc": "Landing a hit with a mantra on an enemy applies Charmed. Allies recover from being knocked twice as quickly when Charmed by you."
+    },
+    {
+      "name": "Chaotic Charm (D3)",
+      "official_name": "Chaotic Charm",
+      "official_reqs": {
+        "Charisma": 55
+      },
+      "our_req": "Charisma 55",
+      "official_desc": "Charm enemies nearby when attacked at low health. Enemies affected by this charm have their damage increased to anyone but you, and deal reduced damage towards you."
+    },
+    {
+      "name": "Nullifying Clarity",
+      "official_name": "Nullifying Clarity",
+      "official_reqs": {
+        "Strength": 15,
+        "Intelligence": 5
+      },
+      "our_req": "Intelligence 25",
+      "official_desc": "Deal 10% more damage to enemies with elemental status effects, but remove the status on hit."
+    },
+    {
+      "name": "Eureka",
+      "official_name": "Eureka",
+      "official_reqs": {
+        "Intelligence": 30
+      },
+      "our_req": "Intelligence 30",
+      "official_desc": "Gain a stack of Inspiration every time you land or parry a Mantra. Whiffing a Mantra removes a stack of Inspiration. Reaching 3 stacks grants +10% Mantra Damage to your next Mantra attack."
+    },
+    {
+      "name": "Grand Feast",
+      "official_name": "Grand Feast",
+      "official_reqs": {},
+      "our_req": "Fortitude 30, Willpower 30",
+      "official_desc": "Regain tempo, ether, blood and health when gaining hunger from killing."
+    },
+    {
+      "name": "Azure Flames",
+      "official_name": "Azure Flames",
+      "official_reqs": {
+        "Flamecharm": 70,
+        "Willpower": 40
+      },
+      "our_req": "Flamecharm 70, Willpower 40",
+      "official_desc": "Many of your flames turn blue, signifying their increased intensity."
+    }
+  ],
+  "outdated_or_missing_talents": [
+    {
+      "name": "Giant Slayer",
+      "our_req": "Willpower 50",
+      "location": "DEEPWOKEN_TALENTS_DB"
+    },
+    {
+      "name": "Collapse",
+      "location": "TALENT_PREREQUISITES"
+    },
+    {
+      "name": "Heavy Hands",
+      "location": "TALENT_PREREQUISITES"
+    },
+    {
+      "name": "Eel's Instinct",
+      "location": "TALENT_PREREQUISITES"
+    },
+    {
+      "name": "Giant Slayer",
+      "location": "TALENT_PREREQUISITES"
+    },
+    {
+      "name": "All the Rage",
+      "location": "TALENT_PREREQUISITES"
+    },
+    {
+      "name": "Piercing Opening",
+      "location": "TALENT_PREREQUISITES"
+    }
+  ],
+  "prereq_discrepancies": []
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "query": "사일런트하트 평타로 보스 1분 컷하고 싶어, 흰색 인텐트에 사슬 터지는 거 쓰는 Canor 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 완벽한 사일런트하트(Silentheart) 평타 폭딜 빌드로 보스를 1분 만에 녹여버릴 수 있도록, 요청하신 Canor 종족 기반의 마스터 앙코르(Petra's Anchor) 헤비 사일런트하트 빌드를 완벽하게 세팅해 드리겠습니다.\n\n---\n\n### ⚓ 빌드 개요 및 핵심 컨셉\n* **종족(Race)**: Canor (기본치 훼손 금지: Str +3, Cha +2 보존)\n* **서약(Oath)**: Silentheart (마법 속성 0, 전용 액티브 스킬 및 평타 극대화)\n* **주무기 / 속성**: Heavy Weapo"
+  },
+  {
+    "id": 2,
+    "query": "Galebreathe Medium Depth Stalker PvP 빌드 알려줘 (Kato 영상에 나온 거)",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 요청하신 **Kato 스타일의 Galebreathe Medium Depth Stalker PvP 빌드** 완벽 가이드입니다. \n\n기동성과 유틸성, 그리고 Starkindred의 폭딜 능력을 극대화한 메타 빌드로, 뎁스(Depths)와 찰스턴(Chimes) 모두에서 강력한 성능을 발휘합니다. \n\n---\n\n### 🌪️ Kato's Gale Medium Depth Stalker PvP 빌드\n\n#### 1. 🛡️ 캐릭터 기본 정보 및 서약\n- **종족 (Race)**: Vesperian (기본 껍질 방어력과 생존 유틸 확보)\n"
+  },
+  {
+    "id": 3,
+    "query": "Bloodrend Vampire Starkindred 흡혈 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 요청하신 **Bloodrend Vampire Starkindred** 흡혈 빌드 가이드를 완벽하게 정리해 드릴게요. \n\n이 빌드는 강력한 Starkindred의 공중 기동성과 Frostdraw, 그리고 Vampirism 인챈트와 Reaper 벨, Ring of Blood를 연계해 적을 타격할 때마다 체력을 미친듯이 흡수하는 **PvE/하이브리드 흡혈 괴물(Drain Beast)** 빌드입니다. \n\n체력 관리가 안정적이고 딜과 탱이 모두 탄탄해서 사냥과 보스전 모두에서 강력한 성능을 자랑합니다. 바로 종합 빌드 가이드를 "
+  },
+  {
+    "id": 4,
+    "query": "Azure Flame Steam Duster 푸른 불꽃 너클 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "환영합니다! 요청하신 **Azure Flame Steam Duster (푸른 불꽃 너클)** 빌드를 완벽하게 분석하여 정리해 드립니다. \n\n이 빌드는 'Yun Shul이 꿈에서 계시해준 빌드'라는 별명을 가진, 너클(Fist/Gun)의 빠른 연타와 Flamecharm의 상위 속성인 Azure Flames를 결합해 압도적인 넉다운 콤보와 화염 도트 대미지를 퍼붓는 고성능 빌드입니다. 🔥\n\n---\n\n### 🛡️ 1. 캐릭터 기본 정보 및 서약\n- **종족(Race)**: Chrysid (기본치 훼손 금지)\n- **서약(Oath)**: "
+  },
+  {
+    "id": 5,
+    "query": "Poser's Ring Ironsing Thundercall 포저스링 듀얼 속성 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 의뢰하신 **💍 Poser's Ring Ironsing & Thundercall (Soulbreaker Boss Annihilator)** 빌드를 완벽하게 분석해 드립니다. \n\n이 빌드는 **Poser's Ring**의 크리티컬 폭딜 메커니즘과 **Detonation** 인챈트의 시너지를 활용해 보스의 체력을 순식간에 녹여버리는 극강의 PvE 소울브레이커 빌드입니다. 탱키함과 기동성까지 모두 챙긴 아주 강력한 세팅이죠!\n\n제시해주신 마스터 빌드 데이터를 바탕으로, 1포인트의 오차도 없는 정확한 사원 전후 스탯 분배와 장"
+  },
+  {
+    "id": 6,
+    "query": "Volcanic Glass Brick Wall Spear 초보자 불사신 브릭월 창 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 세계 최고 실력의 딥위큰 전문 AI 코치입니다. 요청하신 **Volcanic Glass Brick Wall Spear (초보자 불사신 창 빌드)**의 완벽한 종합 가이드를 준비했습니다. \n\n이 빌드는 인내(Fortitude)와 의지(Willpower) 100을 통한 **Brick Wall** 서약을 바탕으로 **모든 넉백·기절·래그돌에 완전 면역**을 가지며, 초보자분들도 사냥에서 죽지 않고 압도적인 안정성으로 모든 콘텐츠를 뚫을 수 있는 최고의 PvE 불사신 빌드입니다! 🛡️✨\n\n---\n\n## 🧱 1. 빌드 핵심 개요"
+  },
+  {
+    "id": 7,
+    "query": "Super Sigma Soul Beam Blindseer 빔 원거리 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 요청하신 **[Super Sigma Soul Beam Blindseer]** 빌드 가이드입니다. 이 빌드는 *Blindseer* 서약과 *Sightless Beam* 만트라의 강력한 원거리 정신 폭딜을 활용해 보스를 순식간에 녹여버리는(One-Shot) 매우 위협적인 하이브리드 원거리 빌드입니다! 👁️✨\n\n체계적인 종합 빌드 가이드를 정리해 드립니다.\n\n---\n\n### 🛡️ 1. 빌드 기본 정보\n- **종족 (Race)**: `Adret` (기본치 보존)\n- **서약 (Oath)**: `Blindseer`\n- **주무기"
+  },
+  {
+    "id": 8,
+    "query": "Silent Swordsman Shattered Katana 카타나 평타 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 딥위큰 마스터 코치입니다. 요청하신 **Silent Swordsman Shattered Katana** 평타 빌드 가이드를 완벽하게 준비했습니다. \n\n이 빌드는 강력한 무속성 평타 화력에 **Silentheart** 서약의 탤런트 버프, 그리고 **Detonation** 인챈트의 폭발 대미지를 결합해 PvE 보스들의 체력을 순식간에 녹여버리는 고성능 엔드게임 빌드입니다.\n\n---\n\n# ⚔️ Silent Swordsman Shattered Katana PvE 빌드 가이드\n\n### 👥 종족 및 서약 (Race & Oath)"
+  },
+  {
+    "id": 9,
+    "query": "The #1 Shadowcast Medium 암흑 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "반갑습니다! 요청하신 딥위큰 최상위권 PvP 빌드인 **'The #1 Shadowcast Medium (Verse 2 Shadow God)'** 종합 가이드를 안내해 드립니다. \n\n이 빌드는 강력한 **Shadowcast** 만트라의 유틸과 압박력, 그리고 **Medium Weapon**의 빠른 공속을 결합해 상대를 정신없이 몰아치는 섀도우 갓 빌드입니다. \n\n---\n\n# ⚔️ The #1 Shadowcast Medium Build 가이드\n\n### 🧬 1. 종족 및 서약 (Race & Oath)\n- **종족(Race)**: `Etr"
+  },
+  {
+    "id": 10,
+    "query": "Ashen Moppet Dagger M1 Glass Cannon 단검 폭딜 빌드 알려줘",
+    "passed": true,
+    "stat_sum": 330,
+    "warnings": [],
+    "response_snippet": "안녕하세요! 요청하신 **Ashen Moppet Dagger M1 Glass Cannon** PvE 빌드 가이드를 안내해 드립니다. \n\n이 빌드는 강력한 경량 무기인 Moppet 단검과 Detonation 인챈트를 활용해, 빠른 M1(평타) 연타와 폭발 대미지로 보스의 체력을 순식간에 녹여버리는 극단적인 유리대포(Glass Cannon) 스타일의 세팅입니다.\n\n---\n\n### 🗡️ 1. 빌드 핵심 정보\n- **전투 아키타입**: PvE 단검 M1 폭딜 빌드 (Expert 난이도)\n- **종족(Race)**: Felinor\n- **서"
+  }
+]
