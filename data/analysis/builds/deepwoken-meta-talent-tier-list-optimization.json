@@ -1,0 +1,184 @@
+{
+  "video_metadata": {
+    "title": "Ranking Every Meta Talent in Deepwoken",
+    "channel": "Breeze",
+    "url": "https://www.youtube.com/watch?v=YAk7SDHqdrg",
+    "upload_date": "20241130",
+    "estimated_patch_version": "Verse 2 / Layer 2 Current Era"
+  },
+  "build_summary": {
+    "build_name": "Deepwoken Meta Talent Tier List & Optimization Guide",
+    "build_type": "PvP",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 영상은 딥위큰(Deepwoken) 플레이어들이 흔히 선택하는 메이저 탤런트들의 효율과 실전 가치를 심층적으로 비교 분석한 티어 리스트 가이드입니다. 각 탤런트의 스탯 투자 대비 효율, 방어구 관통력(PEN) 시너지, 이속 버프 연계, 그리고 특정 오스나 무기와의 조합에 따라 승패가 갈리는 핵심 메커니즘을 낱낱이 파헤칩니다.\n\n단순히 스탯만 높이는 것이 아니라, 빌드의 전체적인 템포와 전투 성향에 맞춰 필수 탤런트를 선별하는 안목을 기르는 것이 중요합니다. 예를 들어 Exoskeleton이나 To The Finish 같은 탱킹 탤런트는 거의 모든 빌드에서 생존력을 극대화하는 반면, Collapsed Lung이나 Million Ton Piercer는 특정 빌드나 무기군과의 치밀한 조합 없이는 효율을 보기 어렵습니다. Speed Demon과 Cheap Shot 같은 기동성 및 관통력 탤런트는 현대 메타의 핵심인 가드·패리·닷지 심리전에서 우위를 점하게 해줍니다.\n\n결론적으로 이 가이드는 획일화된 빌드 구성에서 벗어나, 자신의 플레이스타일과 무기 세팅에 최적화된 탤런트 트리를 구축할 수 있도록 돕는 최고의 지침서입니다. 고수들의 실전 플레이 영상을 바탕으로 한 철저한 검증을 거친 만큼, PvP 승률을 극적으로 끌어올리고 싶은 유저라면 반드시 참고해야 할 분석을 제공합니다.",
+    "strengths": [
+      "스탯 투자 대비 효율이 극대화된 메타 탤런트들의 정확한 티어 분류 제공",
+      "방어구 관통력(PEN) 증가 탤런트(Million Ton Piercer, Cheap Shot, Piercing Will) 간의 시너지 극대화 분석",
+      "이속 버프(Speed Boost)와 연계되는 전투 루프의 강력한 딜링 포텐셜 확보",
+      "탱킹 및 생존력(Exoskeleton, Reinforced Armor)을 통한 안정적인 전투 지속력"
+    ],
+    "weaknesses": [
+      "일부 고티어 탤런트의 까다로운 선행 스탯 요구치로 인한 빌드 자유도 제한",
+      "특정 탤런트(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움",
+      "메타 변화나 패치에 따라 탤런트 효율이 급변할 수 있어 지속적인 빌드 수정 필요"
+    ]
+  },
+  "stats": {
+    "strength": 90,
+    "fortitude": 90,
+    "agility": 90,
+    "intelligence": 85,
+    "willpower": 80,
+    "charisma": 85,
+    "heavy_wep": 80,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 80,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 80,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Thundercall Voice",
+    "resonance_bell": "Judgement / Wind Up"
+  },
+  "talents": [
+    {
+      "name": "Showstopper",
+      "is_core": false
+    },
+    {
+      "name": "Million Ton Piercer",
+      "is_core": false
+    },
+    {
+      "name": "Collapsed Lung",
+      "is_core": false
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To The Finish",
+      "is_core": true
+    },
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Fast Blade",
+      "is_core": false
+    },
+    {
+      "name": "Ghost",
+      "is_core": false
+    },
+    {
+      "name": "Cheap Shot",
+      "is_core": true
+    },
+    {
+      "name": "Dustlunge",
+      "is_core": false
+    },
+    {
+      "name": "Overflowing Dam",
+      "is_core": false
+    },
+    {
+      "name": "Neural Overload",
+      "is_core": false
+    },
+    {
+      "name": "Disbelief",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": false
+    },
+    {
+      "name": "Piercing Will",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": true
+    },
+    {
+      "name": "Dazing Finisher",
+      "is_core": false
+    },
+    {
+      "name": "Cornered Fool",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Flame Eruption"
+    },
+    {
+      "name": "Shadow Gun"
+    },
+    {
+      "name": "Aria"
+    },
+    {
+      "name": "Rising Phoenix"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Kyrsglaive",
+      "weapon_type": "Heavy Weapon",
+      "enchant": "Vampiric / Grim"
+    },
+    "outfit": "Black Diver",
+    "accessories": [
+      "Ignition Deepdelver Scarf",
+      "Enhanced Boots",
+      "Jetstriker Ring"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Duke Erisia",
+      "Squibbo",
+      "Primadon"
+    ],
+    "mob_strategy": [
+      "패턴 파훼법: 적의 공격을 정확히 패리(Parry)하고 스피드 부스트를 발동시켜 Speed Demon과 Cheap Shot의 관통력 버프를 상시 유지하세요.",
+      "퍼센트 대미지 누적: Million Ton Piercer와 Piercing Will을 조합하여 보스의 높은 물리 방어력을 무력화하고 폭딜을 퍼붓습니다.",
+      "장판 회피 및 피흡: Exoskeleton과 To The Finish로 체력이 낮아졌을 때의 받는 피해를 최소화하고, 지속적인 교전으로 생존력을 확보합니다.",
+      "거리 조절: 기동성 탤런트(Ghost, Dustlunge)를 활용해 광역 패턴과 위험한 근접 패턴을 유연하게 회피합니다."
+    ]
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1단계 (진입 및 이속 확보): 패리 또는 닷지 성공 후 발동하는 Speed Demon 및 Fast Blade 버프를 통해 이동 속도와 공격력을 동시에 증폭시킵니다.\n2단계 (가드 브레이크 및 심리전): 강력한 헤비 무기 평타와 Flame Eruption 등의 만트라를 섞어 상대의 포스쳐(Posture)를 무너뜨립니다.\n3단계 (폭딜 연계): Tough Love와 Overflowing Dam의 버프가 활성화된 상태에서 핵심 만트라(Shadow Gun 등)를 퍼부어 순식간에 체력을 갈아버립니다.\n4단계 (안정화 및 탈출): 위험할 때는 Exoskeleton과 To The Finish의 대미지 저감 효과를 믿고 거리를 벌린 뒤, 정비하고 재진입합니다."
+  },
+  "video_meta": {
+    "title": "Ranking Every Meta Talent in Deepwoken",
+    "channel": "Breeze",
+    "url": "https://www.youtube.com/watch?v=YAk7SDHqdrg",
+    "upload_date": "20241130",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
