@@ -72,28 +72,30 @@ class WebPipelineOrchestrator:
             return {}
 
     def process_url(self, url: str) -> Dict[str, Any]:
-        """단일 웹 URL에 대해 웹 스크래핑을 수행하고 텍스트 원본을 마크다운으로 저장합니다."""
+        """단일 웹 URL에 대해 웹 스크래핑을 수행하고 텍스트 원본을 텍스트 파일(.txt)로 저장합니다."""
         start_time = time.time()
         logger.info(f"=== [Web Scraping Pipeline] Starting for: {url} ===")
 
-        # Step 0: 중복 검사
+        # Step 0: 중복 검사 (URL 해시를 포함한 파일명 검색)
         import hashlib
-        potential_doc_id = "web_" + hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
+        short_hash = hashlib.md5(url.encode("utf-8")).hexdigest()[:8]
         
         target_dir = self.structurer.knowledge_base_dir / "web_docs"
         target_dir.mkdir(parents=True, exist_ok=True)
-        cached_md_path = target_dir / f"{potential_doc_id}.md"
         
-        if cached_md_path.exists():
-            logger.info(f"⚡ [Cache Hit] Found existing scraped doc for {potential_doc_id}")
+        # 기존 캐시 검색 (파일명 끝에 _해시값.txt 가 있는지 확인)
+        cached_files = list(target_dir.glob(f"*_{short_hash}.txt"))
+        if cached_files:
+            cached_txt_path = cached_files[0]
+            logger.info(f"⚡ [Cache Hit] Found existing scraped doc: {cached_txt_path.name}")
             return {
                 "status": "success",
                 "cached": True,
-                "doc_id": potential_doc_id,
+                "doc_id": short_hash,
                 "url": url,
-                "build_name": potential_doc_id,
+                "build_name": cached_txt_path.stem,
                 "json_path": "",
-                "md_path": str(cached_md_path),
+                "md_path": str(cached_txt_path),
                 "elapsed_seconds": 0.05,
                 "build_data": {}
             }
@@ -102,32 +104,36 @@ class WebPipelineOrchestrator:
         logger.info("Scraping HTML and text structure via WebScraperAgent...")
         scraped: ScrapedWebContent = self.scraper.scrape(url)
 
-        # Step 2: 마크다운 파일로 원문 통째로 저장
-        logger.info("Saving scraped raw text to markdown...")
-        doc_id = scraped.doc_id
-        md_content = f"# {scraped.title}\n\n"
-        md_content += f"**URL**: {scraped.url}\n\n"
-        if scraped.meta_description:
-            md_content += f"**Description**: {scraped.meta_description}\n\n"
+        # Step 2: 텍스트 파일로 원문 통째로 저장 (읽기 편한 파일명 적용)
+        logger.info("Saving scraped raw text to txt file...")
         
-        md_content += "---\n\n"
-        md_content += scraped.cleaned_text
+        # 파일명 슬러그 생성 (특수문자 제거)
+        file_slug = self.structurer.generate_slug(scraped.title, "web_doc")
+        file_name = f"{file_slug}_{short_hash}.txt"
+        
+        txt_content = f"Title: {scraped.title}\n"
+        txt_content += f"URL: {scraped.url}\n"
+        if scraped.meta_description:
+            txt_content += f"Description: {scraped.meta_description}\n"
+        
+        txt_content += "\n" + "="*50 + "\n\n"
+        txt_content += scraped.cleaned_text
         
         if scraped.tables_text:
-            md_content += "\n\n## Tables\n\n" + scraped.tables_text
+            txt_content += "\n\n=== Tables ===\n\n" + scraped.tables_text
 
         if scraped.sub_pages:
-            md_content += "\n\n## Sub Pages Explored\n"
+            txt_content += "\n\n=== Sub Pages Explored ===\n"
             for sp in scraped.sub_pages:
-                md_content += f"- {sp}\n"
+                txt_content += f"- {sp}\n"
 
-        md_path = target_dir / f"{doc_id}.md"
-        md_path.write_text(md_content, encoding="utf-8")
+        txt_path = target_dir / file_name
+        txt_path.write_text(txt_content, encoding="utf-8")
 
-        # dummy json path for compatibility with gui_app.py
+        # 더미 JSON 저장 (gui_app.py 호환성 유지)
         json_dir = self.structurer.analysis_dir / "web_docs"
         json_dir.mkdir(parents=True, exist_ok=True)
-        json_path = json_dir / f"{doc_id}.json"
+        json_path = json_dir / f"{file_slug}_{short_hash}.json"
         json_path.write_text(json.dumps({"url": url, "title": scraped.title}, ensure_ascii=False, indent=2), encoding="utf-8")
 
         elapsed = time.time() - start_time
@@ -135,11 +141,11 @@ class WebPipelineOrchestrator:
 
         return {
             "status": "success",
-            "doc_id": doc_id,
+            "doc_id": short_hash,
             "url": url,
             "build_name": scraped.title,
             "json_path": str(json_path),
-            "md_path": str(md_path),
+            "md_path": str(txt_path),
             "elapsed_seconds": elapsed,
             "build_data": {"title": scraped.title, "url": url}
         }

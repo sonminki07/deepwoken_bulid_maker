@@ -1,10 +1,8 @@
-# Talents — Wiki - Deepwoken Builder
+Title: Talents — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/talent
+Description: Obtainable talents throughout the game.
 
-**URL**: https://deepwoken.co/wiki/talent
-
-**Description**: Obtainable talents throughout the game.
-
----
+==================================================
 
 Talents — Wiki - Deepwoken Builder
 Filter
@@ -365,7 +363,7 @@ Sign in
 to leave a comment.
 No comments yet. Be the first.
 
-## Sub Pages Explored
+=== Sub Pages Explored ===
 - Adept%20Bloodrender
 - Adept%20Flamecharmer
 - Adept%20Frostdrawer
