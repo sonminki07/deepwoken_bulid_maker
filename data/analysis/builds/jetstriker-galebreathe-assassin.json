@@ -1,0 +1,181 @@
+{
+  "video_metadata": {
+    "title": "The ULTIMATE Assassin Build | Deepwoken",
+    "channel": "Mercy",
+    "url": "https://www.youtube.com/watch?v=P6-Im_7hpp4",
+    "upload_date": "20260805",
+    "game_version": "Deepwoken Verse 2 (Layer 2 / Jetstriker Update)"
+  },
+  "build_summary": {
+    "build_name": "Jetstriker Galebreathe Assassin",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 기존 어쌔신 빌드의 약점이었던 1대1 맞다이 능력을 극복하면서도, 딥위큰 최상급 기동성을 지닌 Jetstriker 오스와 Galebreathe 속성을 결합하여 암살 및 퀵 드롭 플레이에 특화된 최고 tier의 PvP 빌드입니다.\n\nSwift Strike와 Spine Cutter, 그리고 Assassin 탤런트 체인을 활용해 등 뒤 공격 시 막대한 폭딜을 우겨넣을 수 있으며, Astral Wind와 M1을 연계하는 이른바 '아스트랄 스탯' 콤보를 통해 상대방을 공중으로 추적하여 강제 에어본 상태로 격추시키는 무자비한 심리전 압박이 가능합니다.\n\n낮은 무기 스탯 투자 대비 높은 회피 기동력과 기습 능력을 자랑하므로, 상대의 시야 밖에서 접근해 은신(Stealth) 상태의 보너스 대미지를 극대화하고 전장을 지배하는 플레이어에게 최적의 선택입니다.",
+    "strengths": [
+      "초고속 기동성과 퀵 드롭 탈출 능력: Jetstriker의 뛰어난 이동기와 Galebreathe의 유틸리티로 불리한 교전에서 언제든 이탈 가능",
+      "압도적인 등 뒤 타격 폭딜: Spine Cutter와 Swift Strike 조합으로 적의 후방을 잡았을 때 나오는 비정상적인 크리티컬 대미지",
+      "은신 시너지 극대화: 스텔스 스탯 연계 탤런트를 활용해 은신 상태에서의 암살 대미지가 타 빌드에 비해 월등히 높음"
+    ],
+    "weaknesses": [
+      "낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 스탯 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함",
+      "숙련도가 요구되는 콤보 타이밍: Astral Wind와 크리티컬 공중 추적 콤보의 프레임 타이밍을 정확히 맞추지 못하면 딜 손실 발생"
+    ]
+  },
+  "stats": {
+    "strength": 20,
+    "fortitude": 40,
+    "agility": 100,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 60,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 80
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 80,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Jetstriker",
+    "race": "Vesperian",
+    "origin": "Voidheart",
+    "murmur": "Thousand Stings",
+    "resonance_bell": "Reaper"
+  },
+  "talents": [
+    {
+      "name": "Assassin",
+      "is_core": true
+    },
+    {
+      "name": "Deep Wound",
+      "is_core": true
+    },
+    {
+      "name": "Lights Out",
+      "is_core": false
+    },
+    {
+      "name": "Lowstride",
+      "is_core": true
+    },
+    {
+      "name": "Unseen Threat",
+      "is_core": true
+    },
+    {
+      "name": "Action Surge",
+      "is_core": true
+    },
+    {
+      "name": "Pursuit",
+      "is_core": false
+    },
+    {
+      "name": "Dazing Finisher",
+      "is_core": false
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Exkeleton",
+      "is_core": true
+    },
+    {
+      "name": "Spine Cutter",
+      "is_core": true
+    },
+    {
+      "name": "Swift Strike",
+      "is_core": true
+    },
+    {
+      "name": "Dustlunge",
+      "is_core": false
+    },
+    {
+      "name": "None Left Behind",
+      "is_core": false
+    },
+    {
+      "name": "Crippling Competence",
+      "is_core": false
+    },
+    {
+      "name": "Maiming Claws",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Astral Wind"
+    },
+    {
+      "name": "Hale Wind"
+    },
+    {
+      "name": "Revenge"
+    },
+    {
+      "name": "Adrenaline Surge"
+    },
+    {
+      "name": "Dash"
+    },
+    {
+      "name": "Jet Kick"
+    },
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Hidden Blade"
+    },
+    {
+      "name": "Rising Wind"
+    },
+    {
+      "name": "Gale Wisp"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": "Big Brother",
+    "weapon_type": "Light Weapon",
+    "enchant": "Grim",
+    "outfit": "High Inquisitor's Armor / Familiar Assassin's Armor",
+    "accessories": "Traveler's Jacket, Silentheart/Assassin themed accessories"
+  },
+  "target_mobs": [
+    "Duke Erisia",
+    "Chaser",
+    "Scion of Ethiron",
+    "Squibbo"
+  ],
+  "mob_strategy": [
+    "은신(Stealth) 상태를 유지하며 적 보스의 후방으로 접근해 스턴 및 첫 타격 크리티컬 보너스를 극대화합니다.",
+    "Galebreathe의 기동성을 활용해 보스의 광역 장판 패턴을 회피하고, 쿨타임마다 Astral Wind로 공중 제어권을 잡습니다.",
+    "체력이 부족할 때는 Jetstriker의 빠른 이탈 능력을 활용해 안전한 거리에서 체력을 회복하고 재진입합니다."
+  ],
+  "combo_guide": [
+    "1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.",
+    "2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 스탯 콤보)합니다.",
+    "3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin 탤런트 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.",
+    "4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다."
+  ],
+  "video_meta": {
+    "title": "The ULTIMATE Assassin Build | Deepwoken",
+    "channel": "Mercy",
+    "url": "https://www.youtube.com/watch?v=P6-Im_7hpp4",
+    "upload_date": "20260805",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
