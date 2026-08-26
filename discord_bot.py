@@ -278,6 +278,13 @@ async def run_pipeline_with_progress(url: str, status_msg: discord.Message) -> D
 @bot.event
 async def on_ready():
     logger.info(f"[Discord Bot Ready] Logged in as {bot.user} (ID: {bot.user.id})")
+    
+    logger.info("Initializing ChromaDB from local GitHub data to prevent Render ephemeral wipe...")
+    from agents.knowledge_builder import KnowledgeBuilder
+    kb = KnowledgeBuilder(use_gemini_embedding=False)
+    ingested_count = kb.ingest_all(analysis_dir="data/analysis", kb_dir="data/knowledge_base")
+    logger.info(f"Rebuilt ChromaDB with {ingested_count} documents.")
+
     try:
         synced = await bot.tree.sync()
         logger.info(f"Slash Commands synced: {len(synced)} commands.")
