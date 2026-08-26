@@ -105,7 +105,15 @@ class StatInferenceAgent:
             f"=== Search Context ===\n" + "\n---\n".join(search_context)
         )
 
-        for m_name in [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]:
+        for m_name in [
+            self.model_name,
+            "gemini-3.6-flash",
+            "gemini-flash-latest",
+            "gemini-3.7-flash",
+            "gemini-flash-lite-latest",
+            "gemini-3.1-flash-lite",
+            "gemini-3.5-flash-lite",
+        ]:
             try:
                 response = self.client.models.generate_content(
                     model=m_name,

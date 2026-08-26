@@ -94,7 +94,14 @@ class BuildAdvisor:
 
         def _call_model(client: genai.Client) -> str:
             last_err = None
-            for m_name in ["gemini-3.6-flash", "gemini-flash-latest", "gemini-3.7-flash"]:
+            for m_name in [
+                "gemini-3.6-flash",
+                "gemini-flash-latest",
+                "gemini-3.7-flash",
+                "gemini-flash-lite-latest",
+                "gemini-3.1-flash-lite",
+                "gemini-3.5-flash-lite",
+            ]:
                 try:
                     response = client.models.generate_content(
                         model=m_name,

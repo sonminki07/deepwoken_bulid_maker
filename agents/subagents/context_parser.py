@@ -47,7 +47,15 @@ class ContextParserSubAgent:
             f"=== Text Content ===\n{scraped.cleaned_text[:30000]}\n"
         )
 
-        models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]
+        models_to_try = [
+            self.model_name,
+            "gemini-3.6-flash",
+            "gemini-flash-latest",
+            "gemini-3.7-flash",
+            "gemini-flash-lite-latest",
+            "gemini-3.1-flash-lite",
+            "gemini-3.5-flash-lite",
+        ]
         last_err = None
         for m_name in dict.fromkeys(models_to_try):
             try:
