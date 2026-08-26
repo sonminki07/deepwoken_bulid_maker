@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (31개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (32개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -41,6 +41,7 @@
 | **Flamecharm Rapier Dual Enchant Buil** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/flamecharm-rapier-dual-enchant-build.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
+| **Nanji's Posture Guard-Break Bruiser** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nanjis-posture-guard-break-bruiser.md) |
 | **NLK Blindseer Medium Greatsword** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nlk-blindseer-medium-greatsword.md) |
 | **Palace Tachi Shadowcast Contractor** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/palace-tachi-shadowcast-contractor.md) |
 | **Pale Briar Arcwarder Ironsing (Atla** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/pale-briar-arcwarder-ironsing-atlas-v1.md) |
