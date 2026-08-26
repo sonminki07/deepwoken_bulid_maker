@@ -11,11 +11,9 @@
 | **Silentheart Fist PvE Bosskiller & D** | `PvE` | `Silentheart / Attunementl` | [📄 문서 보기](bosses/silentheart-fist-pve-bosskiller-diluvian.md) |
 | **Silentheart Rapier & Moppet PvE Bos** | `PvE` | ` / Attunementless` | [📄 문서 보기](bosses/silentheart-rapier-moppet-pve-boss-slayer-v2.md) |
 
-## 🔮 Attunements (속성 및 마법 지식) (1개)
+## 🔮 Attunements (속성 및 마법 지식) (0개)
 
-| 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
-| :--- | :--- | :--- | :--- |
-| **Frostdraw Attunement & Build Guide** | `Hybrid` | `Oathless / frostdraw` | [📄 문서 보기](attunements/frostdraw-attunement-build-guide.md) |
+*등록된 문서가 아직 없습니다.*
 
 ## 📜 Oaths (서약 가이드) (0개)
 
@@ -25,7 +23,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (42개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (43개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -38,6 +36,7 @@
 | **Bloodrend Hybrid PvP Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/bloodrend-hybrid-pvp-build.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
 | **Dark Pearls Inky Vent Shadowcast Pv** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/dark-pearls-inky-vent-shadowcast-pvp.md) |
+| **Deep Shrines / Shrine of Order** | `Hybrid` | `Oathless / flamecharm` | [📄 문서 보기](builds/deep-shrines-shrine-of-order.md) |
 | **Deepwoken Meta Talent Tier List & O** | `PvP` | ` / flamecharm, shadowcast` | [📄 문서 보기](builds/deepwoken-meta-talent-tier-list-optimization.md) |
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
 | **Enmity Annihilator V2** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/enmity-annihilator-v2.md) |

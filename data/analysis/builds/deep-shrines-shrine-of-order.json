@@ -1,0 +1,89 @@
+{
+  "video_meta": {
+    "title": "Deep Shrines / Shrine of Order",
+    "channel": "Web Source",
+    "url": "https://deepwoken.fandom.com/wiki/Deep_Shrines/Shrine_of_Order",
+    "upload_date": "N/A",
+    "estimated_patch": "Current Patch"
+  },
+  "build_summary": {
+    "build_name": "Deep Shrines / Shrine of Order",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌드 최적화의 핵심인 '질서의 신사(Shrine of Order)'와 주변 신사들의 작동 원리, 위치 및 활용법을 다루는 공식 위키 가이드입니다.",
+    "strengths": [
+      "요구치가 높은 고급 탤런트와 만트라를 효율적으로 선행 습득하여 빌드의 성능을 극대화할 수 있음",
+      "스탯 평균화 과정을 통해 일반적인 방법으로는 불가능한 다재다능한 능력치 분배가 가능",
+      "남은 포인트를 자유 포인트로 돌려받아 추가적인 스탯 투자 여유를 확보"
+    ],
+    "weaknesses": [
+      "캐릭터당 단 한 번만 사용 가능하므로 철저한 사전 빌드 설계가 요구됨",
+      "스탯이 평균화되면서 특정 탤런트나 장비의 요구치를 만족하지 못하게 되면 해당 효과나 장비가 비활성화될 수 있음",
+      "사용 전후의 결과를 정확히 계산하지 않으면 빌드가 완전히 망가지거나 탤런트가 누락될 위험이 있음"
+    ]
+  },
+  "race": "N/A",
+  "origin": "N/A",
+  "oath": "Oathless",
+  "resonance": "N/A",
+  "murmur": "N/A",
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 25,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 75,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 50,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "weapons": [],
+  "talents": [
+    "Showstopper",
+    "Potion Quaffer",
+    "Grounding Bolt",
+    "Observation",
+    "Safety Dance",
+    "Crossguard",
+    "Adept Flamecharmer"
+  ],
+  "mantras": [
+    "Disguise"
+  ],
+  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n- Medium Weapon 75 달성\n- Flamecharm 50 달성",
+  "equipment": [],
+  "combo_guide": "",
+  "explored_sub_pages": [
+    "Deep Shrines",
+    "Deep Shrines/Shrine of Blasphemy",
+    "Deep Shrines/Shrine of Chance",
+    "Deep Shrines/Shrine of Conceit",
+    "Deep Shrines/Shrine of Division",
+    "Deep Shrines/Shrine of Mastery",
+    "Deep Shrines/Shrine of Temptation"
+  ],
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 50,
+      "agility": 25,
+      "intelligence": 25,
+      "willpower": 40,
+      "charisma": 25
+    },
+    "post_shrine_priority": [
+      "Medium Weapon 75 달성",
+      "Flamecharm 50 달성"
+    ]
+  }
+}
