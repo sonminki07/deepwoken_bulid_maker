@@ -1,0 +1,117 @@
+{
+  "video_metadata": {
+    "title": "THEY SAVED THE AUTHORITY! (NEW FISH) | Deepwoken",
+    "channel": "TheRealPunchee",
+    "url": "https://www.youtube.com/watch?v=HgtruqBr_Y0",
+    "upload_date": "20260727",
+    "patch_version": "Verse 3 - Across The Boundary / Weekly Patch"
+  },
+  "build_summary": {
+    "build_name": "Authority Outpost Expedition & Fishing Hybrid Build",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이번 주 Deepwoken 위클리 패치는 Authority(권력) 세력 퀘스트 동선과 UI, 그리고 낚시 시스템에 대규모 리워크를 감행하여 전체적인 파밍과 초중반 레벨링의 쾌적함을 극대화했습니다. 특히 의뢰 게시판 UI가 직관적으로 개편되고, 출정 시 메릿(Merit) 본부 대신 최인접 아웃포스트(Outpost)로 즉시 텔레포트하는 기능이 도입되어 왕복 이동 시간이 획기적으로 단축되었습니다.\n\n또한, 낚시 콘텐츠가 완전히 개편되어 거주 지역과 미끼(Bait)의 종류에 따라 희귀 어종(Lamprey 등)의 포획 확률과 성공률이 크게 달라지며, 채집한 물고기의 서식지 정보가 상세히 기록되어 유저 간 빌드 최적화 및 경제 파밍의 재미가 배가되었습니다. 전투 측면에서는 Bloodrend 만트라의 핑크빛 VFX 조정과 고유 사운드 추가, Markor's Inheritor 및 Celtorian 방어구의 비주얼 리워크로 외형적 만족도 역시 높여줍니다.\n\n실전 교전 및 필드 사냥에서는 뛰어난 기동성과 개편된 낚시/퀘스트 루트를 통해 자원을 안정적으로 수급하고, 방어구 세트와 Thunder/Gale 브리딩 관련 밸런스 패치에 발맞춰 유연하게 대처할 수 있는 만능형 빌드입니다. 맵 전반의 가시성이 개선된 포인트 오브 인터레스트(POI) 심볼들을 활용해 솔로 플레이어들도 막힘없는 성장을 이뤄낼 수 있습니다.",
+    "strengths": [
+      "Authority 퀘스트 동선 개편과 아웃포스트 텔레포트 기능 덕분에 퀘스트 수행 및 레벨업 속도가 극도로 빨라졌습니다.",
+      "낚시 리워크로 인해 미끼와 서식지 매칭을 통한 고급 어종 및 희귀 보상 파밍 효율이 비약적으로 상승했습니다.",
+      "UI 개편으로 맵 전반의 주요 포인트(Bank, Craft Station 등)와 퀘스트 정보 가시성이 대폭 향상되어 뉴비 진입 장벽이 낮아졌습니다."
+    ],
+    "weaknesses": [
+      "Bloodrend 계열의 시각 효과가 핑크빛으로 변경되어 기존의 묵직한 다크 판타지 감성을 선호하는 유저에게는 호불호가 갈릴 수 있습니다.",
+      "낚시 시스템의 메커니즘 변화로 인해 최적의 미끼와 서식지 정보를 숙지하지 못하면 효율적인 자원 수급이 어렵습니다."
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 40,
+    "intelligence": 25,
+    "willpower": 50,
+    "charisma": 25,
+    "heavy_wep": 80,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 80,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 40
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Authority Origin",
+    "murmur": "Thundercall Adept",
+    "resonance_bell": "Wind Up"
+  },
+  "talents": [
+    {
+      "name": "Million Ton Piercer",
+      "is_core": true
+    },
+    {
+      "name": "Reinforce",
+      "is_core": true
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": false
+    },
+    {
+      "name": "Adept Thunder",
+      "is_core": true
+    },
+    {
+      "name": "Backstabber",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Bloodedge"
+    },
+    {
+      "name": "Blood Orb"
+    },
+    {
+      "name": "Vain Tendrils"
+    },
+    {
+      "name": "Storm"
+    },
+    {
+      "name": "Gale Trap"
+    }
+  ],
+  "weapons": {
+    "weapon_name": "Markor's Inheritor",
+    "weapon_class": "Heavy",
+    "enchant": "None (Runic Marked)"
+  },
+  "equipment": [],
+  "target_mobs": [
+    "Authority Scouts",
+    "Megalodaunt",
+    "Sea Bass & High-tier Fish",
+    "Chaser"
+  ],
+  "mob_strategy": [
+    "Authority Patrol 및 Daunting Task 퀘스트를 아웃포스트 거점을 활용해 빠르게 수주하고 동선을 최소화하여 사냥하세요.",
+    "낚시 진행 시 대상 어종(Lamprey 등)의 서식지와 알맞은 품질의 Bait(미끼)를 장착하여 바이트 성공률과 희귀 아이템 드랍률을 극대화합니다.",
+    "Markor's Inheritor의 가벼워진 본 유사 디자인과 룬 마킹 리워크를 활용해 필드 몹들의 공격을 가볍게 패리하고 카운터 스트라이크를 적중시키세요."
+  ],
+  "combos": {
+    "combo_guide": "1단계 (진입): 아웃포스트 텔레포트를 통해 최단 시간 내 전장에 진입하고, Storm 만트라의 썬더콜 시너지로 상대를 제압합니다.\n2단계 (가드브레이크): Bloodedge 및 Blood Orb를 연계하여 새롭게 추가된 윈드업 사운드와 함께 적의 가드를 강하게 압박합니다.\n3단계 (폭딜 콤보): Markor's Inheritor의 강력한 중무기 강공격과 Vain Tendrils를 적중시켜 넉다운을 유도합니다.\n4단계 (유지력 및 탈출): 거점 보급품과 개편된 낚시 보상을 통해 체력 및 자원을 신속히 회복하고 다음 교전 준비를 마칩니다."
+  },
+  "video_meta": {
+    "title": "THEY SAVED THE AUTHORITY! (NEW FISH) | Deepwoken",
+    "channel": "TheRealPunchee",
+    "url": "https://www.youtube.com/watch?v=HgtruqBr_Y0",
+    "upload_date": "20260727",
+    "estimated_patch": "Unknown"
+  }
+}
