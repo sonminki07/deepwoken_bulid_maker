@@ -1,0 +1,123 @@
+{
+  "video_metadata": {
+    "title": "Duchess Erisia #deepwoken #roblox",
+    "channel": "Derk_Mage",
+    "url": "https://www.youtube.com/watch?v=9mNMKWT_TZ4",
+    "upload_date": "20240327",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Duchess Erisia (Galebreathe Jus Kar)",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken의 상징적인 보스인 Duke Erisia를 모티브로 한 컨셉 빌드입니다. Galebreathe(바람 속성)와 Jus Kar 무술을 결합하여, 보스처럼 빠른 기동성과 강력한 바람 만트라 연계로 상대를 압도합니다. 공중 기동과 빠른 콤보가 핵심입니다.",
+    "strengths": [
+      "강력한 공중 콤보 및 기동성",
+      "바람 만트라를 통한 뛰어난 유틸리티와 가드 브레이크",
+      "Jus Kar의 빠른 공격 속도와 스타일리시한 모션"
+    ],
+    "weaknesses": [
+      "사거리가 짧아 리치가 긴 무기(창, 대검)를 상대로 정밀한 거리 조절 필요",
+      "컨트롤 난이도가 높아 초보자가 다루기 어려움"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 40,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 20,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 75
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 80,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Kamui"
+  },
+  "talents": [
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": true
+    },
+    {
+      "name": "Gale Coil",
+      "is_core": true
+    },
+    {
+      "name": "Wind Passage",
+      "is_core": false
+    },
+    {
+      "name": "Showstopper",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Wind Carve"
+    },
+    {
+      "name": "Tempest Eye"
+    },
+    {
+      "name": "Heavenly Wind"
+    },
+    {
+      "name": "Gale Breath"
+    }
+  ],
+  "weapons_equipment": {
+    "weapon": "Jus Kar",
+    "weapon_type": "Light",
+    "recommended_enchant": "Vampiric",
+    "outfit": "Prophet's Cloak",
+    "accessories": [
+      "Black Feather Aegis",
+      "Chime Ring"
+    ]
+  },
+  "target_mobs_boss_strategy": {
+    "target_mobs": [
+      "Duke Erisia",
+      "Chaser",
+      "PvP Players"
+    ],
+    "mob_strategy": "Duke Erisia 보스전 시, 보스의 패턴을 패링한 후 Jus Kar의 빠른 평타와 Gale Lunge를 연계하여 빠르게 가드를 깨뜨립니다. 공중 패턴 시 Heavenly Wind를 사용해 공중에서 추격하며 딜을 누적시킵니다."
+  },
+  "combo_playstyle_guide": {
+    "combo_guide": "기본 콤보: Gale Lunge -> 평타 2회 -> Wind Carve -> Starkindred Ascension -> 공중 평타. 상대방의 회피를 유도한 뒤 Tempest Eye로 끌어당겨 콤보를 이어갑니다."
+  },
+  "video_meta": {
+    "title": "Duchess Erisia #deepwoken #roblox",
+    "channel": "Derk_Mage",
+    "url": "https://www.youtube.com/watch?v=9mNMKWT_TZ4",
+    "upload_date": "20240327",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
