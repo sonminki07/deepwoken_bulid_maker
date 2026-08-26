@@ -48,6 +48,20 @@ TALENT_PREREQUISITES = {
     "Nullifying Clarity": {"Intelligence": 45, "description": "디버프 해제 및 추가 피해"},
 }
 
+# Deepwoken 공식 Oath 선행 조건 목록
+OATH_PREREQUISITES = {
+    "Blindseer": {"Willpower": 40, "requirements": "정신력 40 + 5개 이상의 서포트/유틸 만트라"},
+    "Starkindred": {"Strength": 50, "requirements": "근력 50 또는 속성 50 + 신의 날개 퀘스트"},
+    "Dawnwalker": {"requirements": "Floor 2 Ethiron 보스 토벌 및 광휘의 메달"},
+    "Silentheart": {"Weapon": 75, "requirements": "주무기 75 + 속성 0 (만트라 완전 봉인)"},
+    "Contractor": {"Willpower": 50, "requirements": "Willpower 50 + Ministry 퀘스트"},
+    "Arcwarder": {"Fortitude": 50, "Flamecharm": 20, "Thundercall": 20, "requirements": "인내 50, 화염 20, 번개 20 + 레이어 2 수트"},
+    "Jetstriker": {"Agility": 50, "requirements": "민첩 50 + 슬릭 대시"},
+    "Visionshaper": {"Charisma": 50, "requirements": "매력 50 + 클론 퀘스트"},
+    "Linkstrider": {"Charisma": 40, "Willpower": 40, "requirements": "매력 40, 의지 40 + 팀원 버프"},
+    "Oathless": {"requirements": "선행 스탯 조건 없음 (자유로운 슬롯)"},
+}
+
 ATTUNEMENTS = ["Flamecharm", "Frostdraw", "Thundercall", "Galebreathe", "Shadowcast", "Ironsing"]
 
 class DeepwokenFactChecker:
