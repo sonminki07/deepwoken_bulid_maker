@@ -161,6 +161,23 @@ st.markdown("""
         margin-bottom: 10px;
     }
 </style>
+<script>
+// Ctrl+C 복사 시 Streamlit의 개발자용 'Clear Cache(캐시 삭제)' 팝업 방지
+window.addEventListener('keydown', function(e) {
+    if (e.key === 'c' || e.key === 'C' || e.keyCode === 67) {
+        const activeTag = document.activeElement ? document.activeElement.tagName.toLowerCase() : '';
+        if (activeTag !== 'input' && activeTag !== 'textarea') {
+            if (e.ctrlKey || e.metaKey) {
+                // 클립보드 복사는 허용하되 Streamlit 핫키 이벤트 전파 중단
+                e.stopPropagation();
+            } else {
+                // 단독 'c' 입력 시 캐시 삭제 모달 오픈 원천 차단
+                e.stopImmediatePropagation();
+            }
+        }
+    }
+}, true);
+</script>
 """, unsafe_allow_html=True)
 
 # 프로필 파일 경로
@@ -580,15 +597,68 @@ with col_builder:
             if import_text.strip():
                 try:
                     parsed_json = json.loads(import_text.strip())
+                    if isinstance(parsed_json, list) and len(parsed_json) > 0:
+                        parsed_json = parsed_json[0]
+                    if not isinstance(parsed_json, dict):
+                        raise ValueError("JSON 데이터는 객체(Dictionary) 형태여야 합니다.")
+
                     target_p = st.session_state.profiles[selected_name]
-                    if "stats" in parsed_json: target_p["stats"].update(parsed_json["stats"])
-                    if "pre_shrine" in parsed_json: target_p["pre_shrine"] = parsed_json["pre_shrine"]
-                    if "oath" in parsed_json: target_p["oath"] = parsed_json["oath"]
-                    if "race" in parsed_json: target_p["race"] = parsed_json["race"]
-                    if "traits" in parsed_json: target_p["traits"] = parsed_json["traits"]
-                    if "equipment" in parsed_json: target_p["equipment"].update(parsed_json["equipment"])
-                    if "talents" in parsed_json: target_p["talents"] = str(parsed_json["talents"])
-                    if "mantras" in parsed_json: target_p["mantras"] = str(parsed_json["mantras"])
+                    target_p.setdefault("stats", {})
+                    target_p.setdefault("pre_shrine", {})
+                    target_p.setdefault("equipment", {})
+                    target_p.setdefault("traits", {"Vitality": 6, "Erudition": 6, "Proficiency": 0, "Songchant": 0})
+
+                    # Stats 매핑
+                    stats_src = parsed_json.get("stats") or parsed_json.get("attributes") or parsed_json.get("post_shrine") or {}
+                    if isinstance(stats_src, dict):
+                        for k, v in stats_src.items():
+                            try: target_p["stats"][k] = int(v)
+                            except (ValueError, TypeError): pass
+
+                    # Pre-Shrine 매핑
+                    pre_src = parsed_json.get("pre_shrine") or parsed_json.get("preShrine") or {}
+                    if isinstance(pre_src, dict):
+                        for k, v in pre_src.items():
+                            try: target_p["pre_shrine"][k] = int(v)
+                            except (ValueError, TypeError): pass
+
+                    # 기본 메타데이터
+                    if "oath" in parsed_json: target_p["oath"] = str(parsed_json["oath"])
+                    if "race" in parsed_json: target_p["race"] = str(parsed_json["race"])
+                    if "weapon_type" in parsed_json or "weaponType" in parsed_json or "weapon" in parsed_json:
+                        target_p["weapon_type"] = str(parsed_json.get("weapon_type") or parsed_json.get("weaponType") or parsed_json.get("weapon"))
+                    if "attunement" in parsed_json: target_p["attunement"] = str(parsed_json["attunement"])
+
+                    # Traits 매핑
+                    traits_src = parsed_json.get("traits") or {}
+                    if isinstance(traits_src, dict):
+                        for k, v in traits_src.items():
+                            try: target_p["traits"][k] = int(v)
+                            except (ValueError, TypeError): pass
+
+                    # Equipment 매핑
+                    eq_src = parsed_json.get("equipment")
+                    if isinstance(eq_src, dict):
+                        target_p["equipment"].update(eq_src)
+                    elif isinstance(eq_src, str):
+                        target_p["equipment"]["outfit"] = eq_src
+
+                    for eq_key in ["outfit", "helmet", "face", "amulet", "boots", "ring1", "ring2", "ring3", "ring4", "bell", "enchant"]:
+                        if eq_key in parsed_json:
+                            target_p["equipment"][eq_key] = parsed_json[eq_key]
+
+                    # Talents & Mantras 매핑
+                    talents_src = parsed_json.get("talents") or parsed_json.get("selectedTalents") or parsed_json.get("talentList")
+                    if isinstance(talents_src, list):
+                        target_p["talents"] = ", ".join([str(t) for t in talents_src])
+                    elif talents_src is not None:
+                        target_p["talents"] = str(talents_src)
+
+                    mantras_src = parsed_json.get("mantras") or parsed_json.get("selectedMantras") or parsed_json.get("mantraList")
+                    if isinstance(mantras_src, list):
+                        target_p["mantras"] = ", ".join([str(m) for m in mantras_src])
+                    elif mantras_src is not None:
+                        target_p["mantras"] = str(mantras_src)
                     
                     save_user_profiles(st.session_state.profiles)
                     st.success("✅ deepwoken.co 빌드 JSON이 현재 슬롯에 성공적으로 주입되었습니다!")
