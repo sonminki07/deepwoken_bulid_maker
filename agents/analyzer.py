@@ -105,9 +105,9 @@ class BuildAnalyzer:
                 active_file = self._wait_for_file_active(client=client, file_name=remote_file.name)
                 
                 if progress_callback:
-                    progress_callback(75, "Gemini 2.5 Flash 멀티모달 AI 빌드 추출 중...")
+                    progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 추출 중...")
                 
-                for m_name in ["gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]:
+                for m_name in ["gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]:
                     try:
                         logger.info(f"Sending video to model {m_name} with matching client key (Attempt {attempt})...")
                         response = client.models.generate_content(

@@ -1,4 +1,4 @@
-﻿import os
+import os
 import json
 import logging
 from typing import Dict, Any, Optional
@@ -105,7 +105,7 @@ class StatInferenceAgent:
             f"=== Search Context ===\n" + "\n---\n".join(search_context)
         )
 
-        for m_name in [self.model_name, "gemini-2.5-flash", "gemini-3.5-flash"]:
+        for m_name in [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]:
             try:
                 response = self.client.models.generate_content(
                     model=m_name,
