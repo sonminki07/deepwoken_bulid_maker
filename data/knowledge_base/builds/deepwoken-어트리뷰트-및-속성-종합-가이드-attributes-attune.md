@@ -1,38 +1,54 @@
-# ⚔️ Deepwoken 어트리뷰트 및 속성 종합 가이드 (Attributes & Attunements Guide)
+# 📊 Deepwoken Official Wiki Guide: Attributes & Attunements (스탯 및 속성 종합)
 
-> **출처 영상**: [Deepwoken 어트리뷰트 및 속성 종합 가이드 (Attributes & Attunements Guide)](https://deepwoken.fandom.com/wiki/Attributes#STR) by `Web Source`
-> **패치 버전**: `Current Patch` | **타입**: `Hybrid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처**: [Deepwoken Fandom Wiki - Attributes](https://deepwoken.fandom.com/wiki/Attributes)
+> **분류**: `Game Mechanics` / `Core Stats`
 
 ---
 
-## 📝 빌드 개요 및 총평
-Deepwoken의 캐릭터 스탯 시스템(신체 Body / 정신 Mind), 무기 숙련도, 원소 속성(Attunement)의 기본 원리와 수련법, 언바운드(Unbound) 메커니즘을 다루는 가이드입니다. 캐릭터의 체력, 에테르, 탤런트 해금 조건 및 빌드 설계의 핵심적 기초를 제공합니다.
+## 🏋️ 1. 6대 기본 능력치 (Attributes)
 
-### ⚖️ 장점 및 단점
-**장점**:
-- ✅ Body/Mind 시스템을 통한 유연하고 다채로운 빌드 스케일링 구성 가능
-- ✅ 기본 스탯 언바운드 달성 시 부캐릭터 육성이 획기적으로 용이해짐
-- ✅ 각 스탯 투자가 체력, 에테르, 산치, 관통력 등 실전 전투 능력치에 직관적인 이점 제공
-**단점**:
-- ⚠️ 최대 330 포인트 제한으로 인해 무분별한 스탯 분배 시 핵심 탤런트/만트라 요구 조건을 미달할 위험 존재
-- ⚠️ 속성 및 무기 스탯 언바운드는 보스 처치 등 난이도 높은 조건을 개별 달성해야 함
+### 💥 Strength (근력)
+* **기본 효과**: 포스처(Posture) +0.5 / pt, 운반 가능 무게 증가, 가드 브레이크 저항 및 지속시간 증가.
+* **핵심 연계 탤런트**:
+  - `Showstopper (Str 40)`: 구르기로 공격을 피하려는 적 지면 강타
+  - `Lose Your Mind (Str 30, Fort 30)`: 정신력 소모 시 공격력 폭증
+  - `Collapsed Lung (Str 100)`: 가드 브레이크 시 적 Vent 봉인
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `40` |
-| Fortitude (인내) | `50` |
-| Agility (민첩) | `25` |
-| Intelligence (지능) | `25` |
-| Willpower (의지) | `40` |
-| Charisma (매력) | `25` |
-| Heavy Wep (중화기) | `75` |
-| Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+### 🛡️ Fortitude (인내)
+* **기본 효과**: 체력(Health) +0.5 / pt, 포스처 회복 속도 증가, 물리 방어력 기초치 제공.
+* **핵심 연계 탤런트**:
+  - `Exoskeleton (Fort 40)`: 영구 물리 방어력 +10%
+  - `Reinforced Armor (Fort 90)`: 적 관통력 30% 상쇄 및 뎀감
+  - `Brick Wall (Fort 100, Wil 100)`: 래그돌/스턴 완전 면역
 
-## ⛩️ Shrine of Order 진행 경로
-**Pre-Shrine**: `{}`
-**Post-Shrine 우선순위**:
-- Heavy Weapon 75 달성
-- 유틸리티 및 방어 탤런트 최적화
+### 🏃 Agility (민첩)
+* **기본 효과**: 달리기/등반 속도 증가, 공중 대시 거리 증가.
+* **핵심 연계 탤런트**:
+  - `Speed Demon (Agl 25)`: 이속 버프 시 공격 출혈(Bleed) 및 공속 증가
+  - `Conditioned Runner (Agl 25)`: 달리는 동안 지속 체력 회복
+  - `Ghost (Agl 40)`: Q키 구르기 시 1.2초 무적 판정(I-frame) 및 은신
+
+### 🧠 Intelligence (지능)
+* **기본 효과**: 에테르(Ether) +1.5 / pt, 물약 제조 효율 및 만트라 소모 효율 증가.
+* **핵심 연계 탤런트**:
+  - `Nullifying Clarity (Str 15, Int 5)`: 상태이상 대상 공격 시 +10% 피해
+  - `Eureka (Int 30)`: 에테르 재생력 및 스킬 쿨타임 최적화
+
+### 🔮 Willpower (의지)
+* **기본 효과**: 산소량 증가, 정신력(Sanity) 저항 증가, 템포(Tempo) 회복 효율 증가.
+* **핵심 연계 탤런트**:
+  - `Underdog (Wil 30)`: 거대 몬스터 및 보스 대상 피해량 +10%
+  - `Blindseer Oath (Wil 40, Int 0)`: 샌디티 완전 면역 및 빔 스킬
+
+### 🎭 Charisma (매력)
+* **기본 효과**: 상점 할인율 증가, NPC 대화 호감도 증가.
+* **핵심 연계 탤런트**:
+  - `Tough Love (Cha 15)`: 매혹(Charm)된 적 대상 모든 물리/만트라 피해 +10% 증폭
+  - `Charismatic Cast (Cha 25)`: 만트라 적중 시 적에게 매혹 부여
+  - `Chaotic Charm (Cha 55)`: 위기 시 주변 적 광역 매혹
+
+---
+
+## ⚔️ 2. 무기 및 속성 스탯
+* **Heavy / Medium / Light Weapon**: 각 무기군 기본 대미지 및 모션 스케일링 (100 마스터 권장).
+* **6대 Attunements**: Flamecharm, Frostdraw, Thundercall, Galebreathe, Shadowcast, Ironsing (80pt 시 3성 상위 만트라 및 전용 마스터 탤런트 해금).
