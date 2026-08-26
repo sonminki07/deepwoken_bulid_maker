@@ -48,6 +48,8 @@ class VideoCollector:
                 }
             }
         }
+        if Path("cookies.txt").exists():
+            ydl_opts["cookiefile"] = "cookies.txt"
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
@@ -116,6 +118,8 @@ class VideoCollector:
                     }
                 }
             }
+            if Path("cookies.txt").exists():
+                ydl_opts["cookiefile"] = "cookies.txt"
             if ffmpeg_location:
                 ydl_opts["ffmpeg_location"] = ffmpeg_location
 
