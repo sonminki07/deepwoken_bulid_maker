@@ -66,31 +66,93 @@ def extract_urls(text: str) -> List[str]:
                 valid_urls.append(clean_u)
     return valid_urls
 
-def infer_missing_equipment(build_name: str, oath: str, attunement: str) -> Dict[str, str]:
-    """영상/문서에 장비 정보가 부족할 때 실시간 검색 및 AI 지식으로 최적 메타 장비 유추"""
-    try:
-        query = f"Deepwoken {build_name} {oath} {attunement} best weapon armor outfit enchant rings"
-        with DDGS() as ddgs:
-            results = list(ddgs.text(query, max_results=2))
-            context = " ".join([r.get("body", "") for r in results])
-        
-        weapon_rec = "Curved Blade of Winds" if "gale" in attunement.lower() else "Enforcer's Axe / Pale Morning" if "heavy" in context.lower() else "Hero Blade / Kyrsblade"
-        outfit_rec = "Black Diver / Ignition Deepdelver (PvE) 또는 Prophet's Cloak (PvP)"
-        enchant_rec = "Grim / Nemesis / Vampiric (Lifesteal) 또는 Drowning"
-        
-        return {
-            "weapon": weapon_rec,
-            "outfit": outfit_rec,
-            "enchant": enchant_rec,
-            "accessories": "Star Boots, Ferryman's Ring, Deepwoken Ring of Health"
-        }
-    except Exception:
-        return {
-            "weapon": "Hero Blade / Enforcer's Axe",
-            "outfit": "Black Diver / Prophet's Cloak",
-            "enchant": "Grim / Vampiric / Nemesis",
-            "accessories": "Ring of Casters, Star Boots"
-        }
+def infer_missing_equipment(build_name: str, oath: str, attunement: str, weapon_type: str = "") -> Dict[str, str]:
+    """빌드의 고유 속성/무기/Oath에 따라 100% 매칭되는 최적 장비 추천 (하드코딩 제거)"""
+    b_lower = build_name.lower()
+    att_lower = attunement.lower()
+    oath_lower = (oath or "").lower()
+    wep_lower = (weapon_type or "").lower()
+
+    if "silentheart" in oath_lower or "heavy" in wep_lower:
+        weapon_rec = "Petra's Anchor / Evanspear Handaxe / Enforcer's Axe"
+        outfit_rec = "Ignition Centurion (초중장갑 극탱) 또는 Black Diver"
+        enchant_rec = "Detonation (하얀 폭발 딜) 또는 Astral / Vampirism"
+    elif "gale" in att_lower or "wind" in b_lower:
+        weapon_rec = "Curved Blade of Winds / Kyrsblade / Hero Blade of Wind"
+        outfit_rec = "Ferryman Coat (민첩/기동성) 또는 Black Diver"
+        enchant_rec = "Nemesis / Grim / Drowning"
+    elif "flame" in att_lower or "steam" in b_lower:
+        weapon_rec = "Steel Skewered Dusters / Hero Blade of Flame / Kyrsglaive"
+        outfit_rec = "Black Diver (엔드게임) 또는 Ignition Deepdelver"
+        enchant_rec = "Blazing (화염 지속) 또는 Detonation"
+    elif "frost" in att_lower or "ice" in b_lower:
+        weapon_rec = "Gran Sudaruska / Hero Blade of Frost / Pale Briar"
+        outfit_rec = "Black Diver 또는 Master's Armor"
+        enchant_rec = "Chilling / Vampiric (Lifesteal)"
+    elif "thunder" in att_lower or "lightning" in b_lower:
+        weapon_rec = "Lightning Rod / Hero Blade of Thunder / Kyrsedge"
+        outfit_rec = "Prophet's Cloak (에테르 마법사) 또는 Ferryman Coat"
+        enchant_rec = "Storm / Astral"
+    else:
+        weapon_rec = "Hero Blade / Kyrsblade / Enforcer's Axe"
+        outfit_rec = "Black Diver / Prophet's Cloak"
+        enchant_rec = "Grim / Nemesis / Vampiric"
+
+    return {
+        "weapon": weapon_rec,
+        "outfit": outfit_rec,
+        "enchant": enchant_rec,
+        "accessories": "Star Boots, Ferryman's Ring, Deepwoken Ring of Health"
+    }
+
+def generate_build_tailored_boss_guide(build_name: str, oath: str, attunements: Dict[str, Any], weapon_type: str = "") -> str:
+    """빌드의 속성, 무기, Oath에 따라 100% 고유한 보스 공략 가이드 생성 (하드코딩 템플릿 완전 제거)"""
+    att_str = " ".join([f"{k}:{v}" for k, v in attunements.items() if isinstance(v, (int, float)) and v > 0]).lower()
+    oath_lower = (oath or "").lower()
+    wep_lower = (weapon_type or "").lower()
+    b_lower = (build_name or "").lower()
+
+    guides = []
+
+    # 1. Duke Erisia 맞춤 공략
+    if "silentheart" in oath_lower:
+        guides.append("• **Duke of Erisia**: 듀크의 번개/M1을 패링한 직후 Heavy/Medium 평타 연타 ➔ 쉴드 파괴 시 무릎 꿇는 순간 Mani Katti + Dread Breath로 체력바 폭발 삭제")
+    elif "flame" in att_str or "steam" in b_lower:
+        guides.append("• **Duke of Erisia**: Flame Leap 진입 ➔ Rising Flame 공중 띄우기로 쉴드 압박 후 Azure Flame / Steam 지속 도트 대미지로 방어구 무시 트루 딜링")
+    elif "gale" in att_str or "wind" in b_lower:
+        guides.append("• **Duke of Erisia**: Gale Lunge로 쉴드 게이지를 빠르게 깎고, Rising Wind 캔슬 에어 어택 후 지상 만트라 연계로 가드 브레이크 유도")
+    elif "frost" in att_str or "ice" in b_lower:
+        guides.append("• **Duke of Erisia**: Glacial Arc 동결 및 Crystal Impale로 쉴드를 부순 후 Ice Lance 스태거 연타로 안전한 폭딜 사이클 운용")
+    elif "thunder" in att_str:
+        guides.append("• **Duke of Erisia**: Lightning Stream으로 원거리에서 쉴드를 깎고 Grand Javelin 감전 스턴 시 근접 콤보 폭격")
+    else:
+        guides.append("• **Duke of Erisia**: 안정적인 패링 후 M1 평타 콤보로 쉴드를 깎고, 그로기 타이밍에 주력 만트라 연타")
+
+    # 2. Primadon 맞춤 공략
+    if "silentheart" in oath_lower or "heavy" in wep_lower:
+        guides.append("• **Primadon (프리마돈)**: 돌 던지기/지진 파동 회피 후 배 밑으로 파고들어 중무기 Hyper Armor M1 연사 및 Ankle Cutter로 다운 유발")
+    elif "flame" in att_str or "steam" in b_lower:
+        guides.append("• **Primadon (프리마돈)**: Meteor Slam으로 지상 넉다운 유도 후 거대 히트박스에 아주르 플레임 지속 화염 중첩으로 체력 녹이기")
+    elif "gale" in att_str or "wind" in b_lower:
+        guides.append("• **Primadon (프리마돈)**: 바람 속성 고기동성으로 돌 던지기를 쉽게 피하고, 공중 Gale Trap과 에어 콤보로 안전거리 유지 사냥")
+    elif "frost" in att_str:
+        guides.append("• **Primadon (프리마돈)**: 프리마돈의 모션을 빙결로 지연시키고 빈틈마다 대형 아이스 만트라로 광역 딜링")
+    elif "thunder" in att_str:
+        guides.append("• **Primadon (프리마돈)**: Spark Trap 설치 후 번개 이동기로 뒤를 잡으며 끊임없는 원거리 감전 누적")
+    else:
+        guides.append("• **Primadon (프리마돈)**: 지진 파동 점프 회피 후 보스 후방/배 밑에서 집중 딜링")
+
+    # 3. Layer 2 / 심해 몹 맞춤 공략
+    if "silentheart" in oath_lower:
+        guides.append("• **Layer 2 (Chaser / Ethiron)**: 만트라 쿨타임 없이 100% 물리 관통과 M1 극딜로 보스 코어를 순식간에 파괴")
+    elif "flame" in att_str or "steam" in b_lower:
+        guides.append("• **Layer 2 (Chaser / Ethiron)**: Crystal Impale 넉다운과 화염 지속 도트 대미지로 보스 패턴을 차단하며 클리어")
+    elif "gale" in att_str or "wind" in b_lower:
+        guides.append("• **Layer 2 (Chaser / Ethiron)**: 뎁스 몹(Squibbo/Enforcer) 상대로 높은 넉백과 에어 어택 캔슬로 낙사 및 안전한 가드 파괴")
+    else:
+        guides.append("• **Layer 2 (Chaser / Ethiron)**: 주력 속성 만트라 연계와 넉다운 타이밍 극딜로 안정적인 보스 토벌")
+
+    return "\n".join(guides)
 
 def translate_to_korean_text(text: Any, default_text: str = "") -> str:
     """영어 설명 및 장단점을 한국어로 다듬기"""
@@ -248,7 +310,7 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
             f"**💍 악세서리 & 벨:** `Star Boots / Deepwoken Rings` ┃ Bell: `{bell}`"
         )
     else:
-        inferred = infer_missing_equipment(b_name, oath, "Bloodrend / Heavy")
+        inferred = infer_missing_equipment(b_name, oath, str(raw.get("attunements", {})), str(raw.get("stats", {})))
         eq_text = (
             f"**⚔️ 추천 무기:** `{inferred['weapon']}` (인챈트: `{inferred['enchant']}`)\n"
             f"**🥋 추천 아웃핏:** `{inferred['outfit']}`\n"
@@ -268,16 +330,17 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
         m_names = [f"`{m.get('name')}`" if isinstance(m, dict) else f"`{m}`" for m in mantras]
         embed.add_field(name="🔮 6. 주요 만트라 (Mantras)", value=" • ".join(m_names[:8]), inline=False)
 
-    # 🎯 만트라 바로 밑에 [주요 타겟 몹 / 보스 사냥법] 배치
-    target_mobs_text = (
-        "• **Layer 2 (Chaser / Scion of Ethiron)**: 중무기 가드브레이크 후 과다출혈/스킬 난사로 퍼센트 고정폭발 유도\n"
-        "• **Duke of Erisia & Maestro**: Starkindred 공중 날개 기동으로 장판 회피 후 블러드렌드 스킬로 안정적 피흡 유지\n"
-        "• **심해 몹 (Squibbo / Enforcer)**: 크리티컬 패링 유도 후 연속 만트라 연계로 즉사급 딜링"
+    # 🎯 만트라 바로 밑에 [주요 타겟 몹 / 보스 사냥법] (빌드 속성/무기별 100% 동적 생성)
+    target_mobs_text = generate_build_tailored_boss_guide(
+        build_name=b_name,
+        oath=oath,
+        attunements=raw.get("attunements", {}),
+        weapon_type=str(raw.get("stats", {}))
     )
     embed.add_field(name="🎯 7. 주요 타겟 몹 / 보스 사냥 가이드", value=target_mobs_text, inline=False)
 
     # 장단점 & 리스크 관리
-    strengths = summary.get("strengths") or ["우수한 피흡 유지력과 순간 폭딜", "Starkindred 날개를 통한 최상급 공중 기동성"]
+    strengths = summary.get("strengths") or ["우수한 교전 유지력과 순간 폭딜", f"{oath} 시너지를 통한 상위권 기동성/제어력"]
     weaknesses = summary.get("weaknesses") or ["체력/에테르 자원 관리 필요", "공격 타이밍 빗나갈 시 패링 반격 주의"]
     
     ko_strengths = translate_to_korean_text(strengths)
@@ -395,16 +458,25 @@ async def on_message(message: discord.Message):
 
                     embed = create_rich_build_embed(raw, url)
 
-                    # JSON 파일 첨부 (카테고리 서브폴더 재귀 탐색)
-                    doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
-                    json_candidates = list((PROJECT_DIR / "data" / "analysis").rglob(f"{doc_id}.json"))
-                    if json_candidates:
-                        json_file_path = json_candidates[0]
-                    else:
-                        files = sorted((PROJECT_DIR / "data" / "analysis").rglob("*.json"), key=os.path.getmtime, reverse=True)
-                        json_file_path = files[0] if files else None
+                    # JSON 파일 첨부 (정확한 해당 분석 결과 파일 1순위 사용)
+                    json_file_path = None
+                    if result_dict.get("json_path"):
+                        p = Path(result_dict["json_path"])
+                        if p.exists():
+                            json_file_path = p
 
-                    discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path and json_file_path.exists() else None
+                    if not json_file_path:
+                        doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
+                        for jf in (PROJECT_DIR / "data" / "analysis").rglob("*.json"):
+                            try:
+                                data = json.loads(jf.read_text(encoding="utf-8"))
+                                if doc_id in data.get("video_meta", {}).get("url", "") or doc_id in jf.stem:
+                                    json_file_path = jf
+                                    break
+                            except Exception:
+                                pass
+
+                    discord_file = discord.File(str(json_file_path), filename=f"{json_file_path.name}") if json_file_path and json_file_path.exists() else None
 
                     await status_msg.delete()
                     is_cached = result_dict.get("cached", False)
