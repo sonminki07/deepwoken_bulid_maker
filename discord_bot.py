@@ -420,6 +420,8 @@ def main():
     if not token:
         print("ERROR: DISCORD_BOT_TOKEN is not set.")
         sys.exit(1)
+    token = token.strip().strip('"\'').strip()
+    logger.info(f"Connecting to Discord with token: {token[:8]}...{token[-6:]}")
     bot.run(token)
 
 if __name__ == "__main__":
