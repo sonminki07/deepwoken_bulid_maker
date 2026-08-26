@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (38개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (39개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -42,6 +42,7 @@
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
 | **Enmity Annihilator V2** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/enmity-annihilator-v2.md) |
 | **Flamecharm Rapier Dual Enchant Buil** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/flamecharm-rapier-dual-enchant-build.md) |
+| **Heretic's Jetstriker Gale Grieves** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/heretics-jetstriker-gale-grieves.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
 | **Ironsing Steelscale Cestus & Jailer** | `PvP` | ` / ironsing` | [📄 문서 보기](builds/ironsing-steelscale-cestus-jailer-path.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
