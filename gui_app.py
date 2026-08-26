@@ -248,6 +248,19 @@ class DeepwokenAnalyzerGUI:
 
     def _on_analysis_success(self, url: str):
         self.copy_json_btn.config(state=tk.NORMAL)
+        # 깃허브 자동 백업 실행
+        threading.Thread(target=self._auto_push_github, args=(url,), daemon=True).start()
+
+    def _auto_push_github(self, url: str):
+        try:
+            subprocess.run(["git", "add", "data/analysis/", "data/knowledge_base/"], cwd=str(PROJECT_DIR), check=True)
+            diff_proc = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(PROJECT_DIR))
+            if diff_proc.returncode != 0:
+                subprocess.run(["git", "commit", "-m", f"🤖 [Local PC] 빌드 분석 자동 동기화 ({url[:30]})"], cwd=str(PROJECT_DIR), check=True)
+                subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_DIR), check=True)
+                self.root.after(0, self.log, "☁️ [GitHub 동기화 완료] 깃허브 저장소에 최신 빌드 데이터가 자동 백업되었습니다.")
+        except Exception as e:
+            self.root.after(0, self.log, f"⚠️ [GitHub 동기화 건너뜀] {e}")
         # 최신 분석 파일 찾기
         analysis_dir = PROJECT_DIR / "data" / "analysis"
         json_files = sorted(analysis_dir.glob("*.json"), key=os.path.getmtime, reverse=True)
