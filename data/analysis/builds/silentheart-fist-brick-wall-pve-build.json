@@ -1,0 +1,127 @@
+{
+  "video_metadata": {
+    "title": "NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=wL96bVek6Cg",
+    "patch_version": "Verse 2 / Verse 3 (Hallowtide)"
+  },
+  "build_summary": {
+    "build_name": "Silentheart Fist Brick Wall PvE Build",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 Deepwoken에서 가장 강력한 PvE 빌드 중 하나로, Silentheart Oath와 Fist(주먹) 무기를 결합하여 압도적인 M1 지속 화력과 안정성을 자랑합니다. Shrine of Order를 활용해 Brick Wall과 Sclerostasis 같은 고효율 방어 탤런트를 챙기면서도, Light Weapon 100 스탯을 달성하여 딜러로서의 파괴력을 극대화했습니다. 특히 Heretic's Sutra와 Lose Your Mind의 시너지를 통해 광기 상태에서 폭발적인 데미지를 뿜어내며, Diluvian 및 모든 보스 레이드를 손쉽게 솔로 클리어할 수 있습니다.",
+    "strengths": [
+      "Brick Wall과 Sclerostasis를 통한 압도적인 탱킹력 및 포스처 붕괴 면역",
+      "Fist 무기 특유의 매우 빠른 공격 속도와 높은 M1 DPS",
+      "Heretic's Sutra와 Lose Your Mind를 활용한 상시 데미지 증폭 버프",
+      "Diluvian 50웨이브 및 Chaser, Scion of Ethiron 등 모든 보스 원사이클 킬 가능"
+    ],
+    "weaknesses": [
+      "Silentheart 특성상 마법(Mantra)을 사용할 수 없어 유틸리티가 제한됨",
+      "Shrine of Order를 사용하기 위한 정교한 스탯 빌드업 순서가 강제됨",
+      "광기(Insanity) 관리가 미숙할 경우 리스크가 존재함"
+    ]
+  },
+  "stats": {
+    "strength": 30,
+    "fortitude": 100,
+    "agility": 45,
+    "intelligence": 5,
+    "willpower": 100,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Silentheart",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Ardor",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Brick Wall",
+      "is_core": true
+    },
+    {
+      "name": "Sclerostasis",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    },
+    {
+      "name": "Heretic's Sutra",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To the Finish",
+      "is_core": true
+    },
+    {
+      "name": "Carnivore",
+      "is_core": true
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": false
+    },
+    {
+      "name": "Bloodiron Spirit",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Mani Katti (Silentheart Active)"
+    },
+    {
+      "name": "Ankle Cutter (Silentheart Active)"
+    }
+  ],
+  "weapons_equipment": {
+    "weapon": "Astral Broodlord Cestus / Wild Cestus",
+    "outfit": "Navean Nomad Robes (보스전 딜링용) / Ignition Deepdelver (탱킹용)",
+    "accessories": "Kyrsan Necklace, Chained Ring, Ring of Casters, Prophet's Cloak"
+  },
+  "target_mobs_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Primadon",
+      "Diluvian Mechanism Enemies"
+    ],
+    "mob_strategy": "Chaser나 Scion of Ethiron 같은 보스를 상대할 때, 먼저 Heretic's Sutra를 사용해 광기 상태를 유도하여 Lose Your Mind 버프를 활성화합니다. 이후 Ardor Scream과 함께 Fist의 빠른 공격 속도로 보스를 구석에 몰아넣고 무한 M1 평타를 가합니다. 보스의 강력한 공격은 Brick Wall과 Exoskeleton의 뎀감으로 버텨내며, 체력이 낮아질 때 활성화되는 To the Finish 탤런트로 마무리 딜을 꽂아넣습니다."
+  },
+  "combo_playstyle_guide": {
+    "combo_guide": "전투 시작 전 Heretic's Sutra를 켜서 광기 스택을 쌓고 Lose Your Mind 데미지 버프를 활성화합니다. 이후 Ardor Scream으로 적의 방어력을 깎거나 경직을 준 뒤, Fist 평타(M1) 콤보를 빠르게 몰아칩니다. 적이 거리를 벌리거나 강력한 패턴을 시전할 때는 Silentheart 전용 이동기인 Mani Katti나 Ankle Cutter를 연계하여 추격 및 추가 타격을 가합니다. 패링과 회피를 섞어주며 상시 인세인 상태를 유지하는 것이 핵심입니다."
+  },
+  "video_meta": {
+    "title": "NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=wL96bVek6Cg",
+    "upload_date": "20260814",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
