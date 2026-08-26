@@ -1,0 +1,125 @@
+{
+  "video_metadata": {
+    "title": "You can get 5 EXTRA Talents after Max level | Deepwoken",
+    "channel": "Phantomm",
+    "url": "https://www.youtube.com/watch?v=WYAxPodO4N0",
+    "upload_date": "20250204",
+    "patch_version": "Verse 2 / Layer 2 Update"
+  },
+  "build_summary": {
+    "build_name": "5 Free Post-Max Talents & Shrine Guide",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 영상은 딥위큰에서 만렙 도달 이후 추가적인 스탯 포인트나 레벨업 없이도 최대 5개의 무료 탤런트(카드)와 만트라를 획득할 수 있는 핵심 퀘스트 루트와 메커니즘을 상세히 다루고 있습니다. 첫 번째 에트리스 상점 NPC(Ploom) 퀘스트, 로어 에리시아(Lower Erisia)의 아서(Arthur) 및 아트라(Atra) 관련 퀘스트, 그리고 비질(Isle of VIGILS) 도서관의 잃어버린 책 퀘스트를 연계하여 지식(Knowledge)과 퀘스트 보상을 극대화하는 빌드업 가이드입니다.\n\n특히 획득한 탤런트와 만트라를 'Shrine of Division'과 'Shrine of Chance', 'Shrine of Solitude' 시스템과 연계하여 원하는 카드로 교환하고 재추첨하는 메커니즘을 완벽하게 해설합니다. 길드 베이스를 활용한 리셋 단축 팁과 딥바운드(Deepbound) 진입 루트를 함께 사용하여, 고렙 유저들이 빌드를 세밀하게 정교화하고 종결 급 탤런트를 저렴한 지식 소모로 저격할 수 있도록 설계된 실전형 유틸리티 가이드입니다.",
+    "strengths": [
+      "만렙 이후에도 추가적인 성장 동력과 5개의 무료 탤런트/만트라 카드를 안정적으로 수급할 수 있음",
+      "Shrine of Division과 Shrine of Chance를 연계하여 원치 않는 카드를 원하는 종결 탤런트로 변환 가능",
+      "길드 베이스 리셋과 연계 시 초고속으로 퀘스트를 반복하여 지식과 카드를 파밍할 수 있음"
+    ],
+    "weaknesses": [
+      "퀘스트 동선이 길고 로어 에리시아 및 뎁스(Depths) 인근 위험 지역을 거쳐야 하므로 갱크(Gank) 위험이 존재함",
+      "고급 퀘스트(Lost Books 등) 진행 시 일정량의 지식(Knowledge) 소모가 필수적이므로 사전 파밍이 필요함"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 40,
+    "agility": 40,
+    "intelligence": 25,
+    "willpower": 50,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 80,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "None",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Conditioned Runner",
+      "is_core": true
+    },
+    {
+      "name": "Reinforce",
+      "is_core": true
+    },
+    {
+      "name": "Breathing Exercise",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": false
+    },
+    {
+      "name": "To the Finish",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Shadow Eruption"
+    },
+    {
+      "name": "Clutched Shadow"
+    },
+    {
+      "name": "Shadow Blade"
+    },
+    {
+      "name": "Shadow Stream"
+    }
+  ],
+  "weapons": {
+    "weapon": "Generic Heavy Weapon",
+    "category": "Heavy",
+    "enchant": "Vampiric"
+  },
+  "outfit": {
+    "armor": "Prophet's Cloak"
+  },
+  "accessories": {
+    "head": "None",
+    "chest": "None",
+    "boots": "Boots"
+  },
+  "target_mobs": [
+    "Sharko",
+    "Squibbo",
+    "Corrupted Centurion",
+    "Primadon"
+  ],
+  "mob_strategy": [
+    "로어 에리시아의 샤르코(Sharko) 사냥 퀘스트 진행 시 동굴 내부의 다중 스폰 지역을 조심하며 원거리 패리 및 타이밍 가드를 활용합니다.",
+    "비질 도서관 퀘스트 중 칸(Khan)과의 전투에서 낙사 위험을 피하고 구석에서 안정적으로 그로기 및 콤보를 누적합니다.",
+    "신전(Shrine) 구역 이동 시 뎁스 바운드 몹들의 어그로를 피하기 위해 글라이더와 벽 타기 무브먼트를 적극 활용합니다."
+  ],
+  "combo_guide": {
+    "step_1": "에트리스 및 로어 에리시아의 NPC(Ploom, Arthur, Atra)로부터 각 단계별 무료 탤런트 퀘스트 수주",
+    "step_2": "지정된 몬스터(샤르코 등) 토벌 및 유실물(책 등) 회수 완료 후 NPC에게 복귀하여 보상 카드 획득",
+    "step_3": "획득한 만트라와 원치 않는 카드를 Shrine of Division 및 Shrine of Chance에 투입하여 원하는 종결 탤런트로 전환",
+    "step_4": "Shrine of Solitude를 통해 누락된 탤런트 카테고리를 확인하고 최종 빌드 완성"
+  },
+  "video_meta": {
+    "title": "You can get 5 EXTRA Talents after Max level | Deepwoken",
+    "channel": "Phantomm",
+    "url": "https://www.youtube.com/watch?v=WYAxPodO4N0",
+    "upload_date": "20250204",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
