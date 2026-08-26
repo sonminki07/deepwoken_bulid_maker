@@ -62,6 +62,13 @@ class DeepwokenSlangResolver:
                 "⚠️ [시스템 강제 팩트체크: Reinforced Armor 룰]\n"
                 "- Fortitude 90, Willpower 30 선행 조건을 만족해야 체력 450+ 단단한 세팅이 완성됩니다."
             )
+        if any("Shrine of Order" in d or "신전" in user_query or "샤인" in user_query for d in detected) or "canor" in user_query.lower() or "카노르" in user_query:
+            enrichment.append(
+                "⚠️ [시스템 강제 팩트체크: Canor 종족 및 Shrine of Order(성소) 스탯 룰]\n"
+                "- Canor 종족 보너스: Strength +3, Charisma +2 (공식 위키 확정).\n"
+                "- Shrine of Order 절대 룰: 성소는 유저가 수동으로 투자(Invest)한 스탯 포인트만 평균화하여 재분배합니다.\n"
+                "- 종족 고유 기본 스탯(Canor의 Charisma +2, Strength +3)은 성소로 절대 삭감되지 않으며, 성소 후에도 종족 기본치 미만(0이나 1)으로 내려갈 수 없습니다! (Charisma는 최소 2 보존)"
+            )
 
         if enrichment:
             return f"{resolved}\n\n" + "\n".join(enrichment)

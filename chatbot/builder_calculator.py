@@ -1,19 +1,19 @@
 from typing import Dict, Any, Tuple
 
-# 12대 Deepwoken 공식 종족 (Races) 및 고유 보너스
+# 12대 Deepwoken 공식 종족 (Races) 및 고유 보너스 (Official Wiki Verified)
 DEEPWOKEN_RACES = {
-    "Celtor": {"stats": {"Charisma": 2, "Intelligence": 2}, "desc": "지능 2, 매력 2 / 항해 및 은신 특화"},
-    "Adret": {"stats": {"Charisma": 2, "Willpower": 2}, "desc": "매력 2, 의지 2 / 빠른 학습(Fast Learner)"},
-    "Canor": {"stats": {"Strength": 2, "Fortitude": 2}, "desc": "근력 2, 인내 2 / 아군 사기 진작"},
-    "Capra": {"stats": {"Willpower": 2, "Intelligence": 2}, "desc": "의지 2, 지능 2 / 치료 및 허기 회복 마크"},
-    "Castellan": {"stats": {"Fortitude": 2, "Charisma": 2}, "desc": "인내 2, 매력 2 / 추가 에테르 +5"},
-    "Chrysid": {"stats": {"Agility": 2, "Fortitude": 2}, "desc": "민첩 2, 인내 2 / 곤충 날개 활공"},
-    "Etrean": {"stats": {"Agility": 2, "Intelligence": 2}, "desc": "민첩 2, 지능 2 / 산도 및 출혈 저항"},
-    "Felinor": {"stats": {"Agility": 2, "Charisma": 2}, "desc": "민첩 2, 매력 2 / 나무 및 벽타기 특화"},
-    "Gremor": {"stats": {"Strength": 2, "Fortitude": 2}, "desc": "근력 2, 인내 2 / 나침반 및 허기 감소 완화"},
-    "Khan": {"stats": {"Strength": 2, "Agility": 2}, "desc": "근력 2, 민첩 2 / 장비 요구 스탯 -3 감소"},
-    "Tiran": {"stats": {"Agility": 2, "Willpower": 2}, "desc": "민첩 2, 의지 2 / 낙하 피해 면역 및 활공"},
-    "Vesperian": {"stats": {"Fortitude": 2, "Willpower": 2}, "desc": "인내 2, 의지 2 / 천연 가면 방어구 +10% 물리 저항"},
+    "Canor": {"stats": {"Strength": 3, "Charisma": 2}, "desc": "근력 +3, 매력 +2 / 아군 간 오인 사격 피해 감소(Loyalty)"},
+    "Adret": {"stats": {"Charisma": 3, "Willpower": 2}, "desc": "매력 +3, 의지 +2 / 빠른 학습(Fast Learner 경험치 증폭)"},
+    "Capra": {"stats": {"Intelligence": 3, "Willpower": 2}, "desc": "지능 +3, 의지 +2 / 치료 및 허기 회복 마크(Mark)"},
+    "Celtor": {"stats": {"Charisma": 3, "Intelligence": 2}, "desc": "매력 +3, 지능 +2 / 배 건조 비용 감소 및 은신"},
+    "Etrean": {"stats": {"Intelligence": 3, "Agility": 2}, "desc": "지능 +3, 민첩 +2 / 산도 및 출혈 디버프 지속시간 감소"},
+    "Ganymede": {"stats": {"Intelligence": 2, "Willpower": 2}, "desc": "지능 +2, 의지 +2 / 정신력(Sanity) 저항 극대화"},
+    "Gremor": {"stats": {"Fortitude": 3, "Strength": 2}, "desc": "인내 +3, 근력 +2 / 내장 나침반 및 허기 감소 완화"},
+    "Khan": {"stats": {"Strength": 2, "Agility": 2}, "desc": "근력 +2, 민첩 +2 / 모든 무기/장비 착용 요구 스탯 -3 감소"},
+    "Vesperian": {"stats": {"Fortitude": 3, "Willpower": 2}, "desc": "인내 +3, 의지 +2 / 천연 키틴질 가면(물리 피해 5% 상시 경감)"},
+    "Felinor": {"stats": {"Agility": 3, "Charisma": 2}, "desc": "민첩 +3, 매력 +2 / 벽타기 속도 1.5배 및 은신 +20%"},
+    "Chrysid": {"stats": {"Charisma": 3, "Agility": 2}, "desc": "매력 +3, 민첩 +2 / 타격 시 나방 가루로 적 시야 방해"},
+    "Tiran": {"stats": {"Agility": 3, "Willpower": 2}, "desc": "민첩 +3, 의지 +2 / 영구 날개 글라이더 및 낙하 피해 -10%"},
 }
 
 # 인기 방어구(Armor/Outfit) 템플릿
