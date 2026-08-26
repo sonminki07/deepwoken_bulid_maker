@@ -351,60 +351,60 @@ async def on_message(message: discord.Message):
 
                         embed = create_rich_build_embed(raw, url)
 
-                    # JSON 파일 첨부
-                    doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
-                    json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
-                    if not json_file_path.exists():
-                        files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
-                        if files:
-                            json_file_path = files[0]
+                        # JSON 파일 첨부
+                        doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
+                        json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
+                        if not json_file_path.exists():
+                            files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
+                            if files:
+                                json_file_path = files[0]
 
-                    discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
+                        discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
 
-                    await status_msg.delete()
-                    completion_text = (
-                        f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
-                        f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
-                    )
+                        await status_msg.delete()
+                        completion_text = (
+                            f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
+                            f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
+                        )
 
-                    if discord_file:
-                        await message.reply(content=completion_text, embed=embed, file=discord_file)
-                    else:
-                        await message.reply(content=completion_text, embed=embed)
+                        if discord_file:
+                            await message.reply(content=completion_text, embed=embed, file=discord_file)
+                        else:
+                            await message.reply(content=completion_text, embed=embed)
 
-                    try:
-                        await message.remove_reaction("⏳", bot.user)
-                        await message.add_reaction("✅")
-                    except Exception:
-                        pass
+                        try:
+                            await message.remove_reaction("⏳", bot.user)
+                            await message.add_reaction("✅")
+                        except Exception:
+                            pass
 
-                except asyncio.TimeoutError:
-                    logger.error(f"Analysis timed out for {url}")
-                    await status_msg.edit(content=f"⚠️ **[시간 초과]** <@{message.author.id}> 님, `{url}`\n영상 처리 시간(15분)이 초과되었습니다. 유튜브 다운로드가 느리거나 제미나이 응답이 지연되었습니다.")
-                    try:
-                        await message.remove_reaction("⏳", bot.user)
-                        await message.add_reaction("❌")
-                    except Exception:
-                        pass
-                except asyncio.CancelledError:
-                    logger.warning(f"Analysis cancelled for {url}")
-                    try:
-                        await message.remove_reaction("⏳", bot.user)
-                    except Exception:
-                        pass
-                except Exception as e:
-                    logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
-                    err_msg = format_error_message(e)
-                    await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}`\n{err_msg}")
-                    try:
-                        await message.remove_reaction("⏳", bot.user)
-                        await message.add_reaction("❌")
-                    except Exception:
-                        pass
-                finally:
-                    if message.id in active_tasks:
-                        del active_tasks[message.id]
-        return
+                    except asyncio.TimeoutError:
+                        logger.error(f"Analysis timed out for {url}")
+                        await status_msg.edit(content=f"⚠️ **[시간 초과]** <@{message.author.id}> 님, `{url}`\n영상 처리 시간(15분)이 초과되었습니다. 유튜브 다운로드가 느리거나 제미나이 응답이 지연되었습니다.")
+                        try:
+                            await message.remove_reaction("⏳", bot.user)
+                            await message.add_reaction("❌")
+                        except Exception:
+                            pass
+                    except asyncio.CancelledError:
+                        logger.warning(f"Analysis cancelled for {url}")
+                        try:
+                            await message.remove_reaction("⏳", bot.user)
+                        except Exception:
+                            pass
+                    except Exception as e:
+                        logger.error(f"Analysis failed for {url}: {e}", exc_info=True)
+                        err_msg = format_error_message(e)
+                        await status_msg.edit(content=f"❌ **[분석 실패]** <@{message.author.id}> 님, `{url}`\n{err_msg}")
+                        try:
+                            await message.remove_reaction("⏳", bot.user)
+                            await message.add_reaction("❌")
+                        except Exception:
+                            pass
+                    finally:
+                        if message.id in active_tasks:
+                            del active_tasks[message.id]
+            return
 
     # Case 2: '#chat' 채널이거나 봇 멘션 -> Search Grounding RAG AI 빌드 어드바이저 대화
     if "chat" in ch_name or bot.user in message.mentions:
