@@ -454,12 +454,31 @@ with col_builder:
     }
 
     # 7. ⭐ 핵심 탤런트 & 🔮 장착 만트라 (호버 툴팁 인터랙티브 뷰)
+    def render_badge(name: str, item_type: str = "talent") -> str:
+        clean = name.split("(")[0].strip()
+        db = DEEPWOKEN_TALENTS_DB if item_type == "talent" else DEEPWOKEN_MANTRAS_DB
+        info = None
+        for k, v in db.items():
+            if k.lower() in clean.lower() or clean.lower() in k.lower():
+                info = v
+                break
+        if info:
+            title_text = info.get("name_ko", clean)
+            sub_text = f"📋 <b>요구치:</b> {info.get('req', '기본')}<br>🎯 <b>효과:</b> {info.get('desc', '')}" if item_type == "talent" else f"🏷️ <b>분류:</b> {info.get('category', '만트라')}<br>🎯 <b>효과:</b> {info.get('desc', '')}"
+            tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
+            icon = "⭐" if item_type == "talent" else "🔮"
+            return f'<div class="deepwoken-tooltip-container"><span class="{tag_class}">{icon} {clean}</span><div class="tooltip-box"><div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{title_text}</div><div style="color: #cbd5e1; font-size: 0.8rem;">{sub_text}</div></div></div>'
+        else:
+            tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
+            icon = "⭐" if item_type == "talent" else "🔮"
+            return f'<div class="deepwoken-tooltip-container"><span class="{tag_class}">{icon} {clean}</span><div class="tooltip-box"><div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{clean}</div><div style="color: #cbd5e1; font-size: 0.8rem;">Deepwoken 고유 {item_type}입니다.</div></div></div>'
+
     st.markdown("#### ⭐ 핵심 탤런트 (마우스를 올리면 상세 효과/요구치가 팝업됩니다)")
     current_talents_str = curr_data.get("talents", "")
     
     # 탤런트 호버 칩 렌더링
     talent_tokens = [t.strip() for t in current_talents_str.replace("•", ",").split(",") if t.strip()]
-    talent_badges_html = [render_tooltip_badge(t_raw, "talent") for t_raw in talent_tokens]
+    talent_badges_html = [render_badge(t_raw, "talent") for t_raw in talent_tokens]
     if talent_badges_html:
         st.markdown(f'<div style="margin-bottom: 8px;">{"".join(talent_badges_html)}</div>', unsafe_allow_html=True)
     
@@ -468,7 +487,7 @@ with col_builder:
     st.markdown("#### 🔮 장착 만트라 (마우스를 올리면 상세 효과/계열이 팝업됩니다)")
     current_mantras_str = curr_data.get("mantras", "")
     mantra_tokens = [m.strip() for m in current_mantras_str.replace("•", ",").split(",") if m.strip()]
-    mantra_badges_html = [render_tooltip_badge(m_raw, "mantra") for m_raw in mantra_tokens]
+    mantra_badges_html = [render_badge(m_raw, "mantra") for m_raw in mantra_tokens]
     if mantra_badges_html:
         st.markdown(f'<div style="margin-bottom: 8px;">{"".join(mantra_badges_html)}</div>', unsafe_allow_html=True)
         
