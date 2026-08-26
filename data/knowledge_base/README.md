@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (32개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (33개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -56,6 +56,7 @@
 | **Starter Brick Wall Blindseer PvE** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/starter-brick-wall-blindseer-pve.md) |
 | **Super Sigma Soul Beam Blindseer** | `Hybrid` | ` / Attunementless` | [📄 문서 보기](builds/super-sigma-soul-beam-blindseer.md) |
 | **The #1 Shadowcast Medium Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/the-1-shadowcast-medium-build.md) |
+| **Top 10 Meta Talents Synergy Build** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/top-10-meta-talents-synergy-build.md) |
 | **Unnamed Build** | `PvE` | ` / Attunementless` | [📄 문서 보기](builds/unnamed-build.md) |
 | **Vampiric Bastion (Drain Tank PvE Bu** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve-build.md) |
 | **Vampiric Bastion (Drain Tank PvE)** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve.md) |
