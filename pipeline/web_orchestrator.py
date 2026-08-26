@@ -15,6 +15,7 @@ from agents.web_scraper import WebScraperAgent, ScrapedWebContent
 from agents.subagents.build_parser import BuildParserSubAgent
 from agents.subagents.context_parser import ContextParserSubAgent
 from agents.subagents.validator import CrossValidatorAgent
+from agents.stat_inferrer import StatInferenceAgent
 from agents.structurer import BuildStructurer
 from agents.knowledge_builder import KnowledgeBuilder
 
@@ -34,13 +35,17 @@ class WebPipelineOrchestrator:
         self.scraper = WebScraperAgent()
         self.build_parser = BuildParserSubAgent(
             api_key=self.api_key,
-            model_name=gemini_cfg.get("model", "gemini-2.5-pro")
+            model_name=gemini_cfg.get("model", "gemini-2.5-flash")
         )
         self.context_parser = ContextParserSubAgent(
             api_key=self.api_key,
-            model_name=gemini_cfg.get("model", "gemini-2.5-pro")
+            model_name=gemini_cfg.get("model", "gemini-2.5-flash")
         )
         self.validator = CrossValidatorAgent()
+        self.stat_inferrer = StatInferenceAgent(
+            api_key=self.api_key,
+            model_name=gemini_cfg.get("model", "gemini-2.5-flash")
+        )
 
         self.structurer = BuildStructurer(
             schema_path=paths_cfg.get("schema_path", "config/build_schema.json"),
@@ -115,6 +120,9 @@ class WebPipelineOrchestrator:
         merged_build = self.validator.validate_and_merge(scraped, build_mechanics, context_data)
         if scraped.sub_pages:
             merged_build["explored_sub_pages"] = scraped.sub_pages
+
+        # Step 4.5: 스탯 누락 시 자가 질의응답 및 웹 검색을 통한 자동 스탯 추론/보강
+        merged_build = self.stat_inferrer.enrich_if_missing(merged_build, {"title": scraped.title})
 
         # Step 5: JSON 검증 & Markdown 생성 및 ChromaDB 인덱싱
         logger.info("[SubAgent 5/5] Structuring and indexing to ChromaDB knowledge base...")

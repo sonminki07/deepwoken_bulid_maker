@@ -12,6 +12,7 @@ except ImportError:
 
 from agents.collector import VideoCollector, DownloadResult
 from agents.analyzer import BuildAnalyzer
+from agents.stat_inferrer import StatInferenceAgent
 from agents.structurer import BuildStructurer
 from agents.knowledge_builder import KnowledgeBuilder
 
@@ -40,10 +41,15 @@ class PipelineOrchestrator:
 
         self.analyzer = BuildAnalyzer(
             api_key=self.api_key,
-            model_name=gemini_cfg.get("model", "gemini-2.5-pro"),
+            model_name=gemini_cfg.get("model", "gemini-2.5-flash"),
             prompt_path=paths_cfg.get("analysis_prompt_path", "prompts/analysis_prompt.txt"),
             schema_path=paths_cfg.get("schema_path", "config/build_schema.json"),
             temperature=gemini_cfg.get("temperature", 0.1)
+        )
+
+        self.stat_inferrer = StatInferenceAgent(
+            api_key=self.api_key,
+            model_name=gemini_cfg.get("model", "gemini-2.5-flash")
         )
 
         self.structurer = BuildStructurer(
@@ -123,6 +129,11 @@ class PipelineOrchestrator:
         # Step 2: Gemini 멀티모달 분석
         logger.info(f"[Step 2/4] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
         raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict, progress_callback=progress_callback)
+
+        # Step 2.5: 스탯 누락 시 자가 질의응답 및 웹 검색을 통한 자동 스탯 추론/보강
+        if progress_callback:
+            progress_callback(80, "스탯 누락 여부 검증 및 AI 지식 기반 자동 스탯 역산/보정 중...")
+        raw_analysis = self.stat_inferrer.enrich_if_missing(raw_analysis, meta_dict)
 
         # Step 3: JSON 검증 및 Markdown 변환/저장
         if progress_callback:
