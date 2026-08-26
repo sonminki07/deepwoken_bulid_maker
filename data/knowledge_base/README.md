@@ -22,7 +22,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (6개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (7개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -31,4 +31,5 @@
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
 | **Poser's Ring Ironsing Thundercall S** | `PvE` | `Soulbreaker / Attunementl` | [📄 문서 보기](builds/posers-ring-ironsing-thundercall-soulbre.md) |
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
+| **Starter Brick Wall Blindseer PvE** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/starter-brick-wall-blindseer-pve.md) |
 | **Volcanic Glass Brick Wall PvE Spear** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/volcanic-glass-brick-wall-pve-spear.md) |

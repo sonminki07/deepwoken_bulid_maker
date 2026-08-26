@@ -1,0 +1,151 @@
+{
+  "video_metadata": {
+    "title": "The Starter PvE Build You NEED in Deepwoken (2026)",
+    "channel": "TRE_MONSTER",
+    "url": "https://www.youtube.com/watch?v=dPK2vw6a7rc",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Starter Brick Wall Blindseer PvE",
+    "build_type": "PvE",
+    "difficulty": "Beginner",
+    "creator_opinion": "이 빌드는 Deepwoken에 입문하는 초보자나 만들기 쉬운 PvE 빌드를 찾는 유저들을 위해 설계되었습니다. Willpower 100과 Fortitude 100을 투자하여 'Brick Wall' 탤런트를 획득함으로써 체력이 0이 되기 전까지 절대 넘어지지 않는(Ragdoll 면역) 엄청난 안정성을 제공합니다. Flamecharm과 Frostdraw 듀얼 속성을 활용하여 강력한 'Flash Boil' 시너지를 내며, Enforcer's Axe의 우수한 가드 브레이크 능력과 다단 히트 크리티컬 공격으로 몹들을 손쉽게 제압할 수 있습니다.",
+    "strengths": [
+      "Brick Wall 탤런트로 인한 완벽한 래그돌(Ragdoll) 면역",
+      "높은 방어력과 체력 유지력으로 초보자에게 매우 안전함",
+      "Flash Boil을 활용한 강력한 하이브리드 원소 데미지",
+      "Enforcer's Axe의 우수한 가드 브레이크 및 크리티컬 성능"
+    ],
+    "weaknesses": [
+      "Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 스탯 순서 요구",
+      "극단적인 극딜 빌드에 비해서는 보스 처치 속도가 다소 느릴 수 있음"
+    ]
+  },
+  "stats": {
+    "strength": 5,
+    "fortitude": 40,
+    "agility": 0,
+    "intelligence": 0,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 30,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Blindseer",
+    "race": "Etriian",
+    "origin": "Ignition Union",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Brick Wall",
+      "is_core": true
+    },
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    },
+    {
+      "name": "Not a Scratch",
+      "is_core": false
+    },
+    {
+      "name": "Piercing Will",
+      "is_core": false
+    },
+    {
+      "name": "Emergency Reserves",
+      "is_core": false
+    },
+    {
+      "name": "Charismatic Cast",
+      "is_core": false
+    },
+    {
+      "name": "Tough Love",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": false
+    },
+    {
+      "name": "Cauterized Wounds",
+      "is_core": false
+    },
+    {
+      "name": "Unyielding Inferno",
+      "is_core": true
+    },
+    {
+      "name": "Flash Boil",
+      "is_core": true
+    },
+    {
+      "name": "Carnivore",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Burning Servants"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Flame Wisp"
+    },
+    {
+      "name": "Relentless Flames"
+    },
+    {
+      "name": "Flame Assault"
+    },
+    {
+      "name": "Ice Flock"
+    }
+  ],
+  "weapons_equipment": {
+    "weapon": "Enforcer's Axe",
+    "weapon_type": "Heavy",
+    "recommended_enchant": "Providence Thorns / Vampirism / Grim",
+    "outfit": "Black Diver / Prophet's Cloak",
+    "accessories": "Ignition Gauntlets"
+  },
+  "target_mobs_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Ferryman",
+      "Deluvian"
+    ],
+    "mob_strategy": "Ferryman이나 Chaser 같은 보스를 상대할 때, Brick Wall 덕분에 공격을 맞더라도 래그돌 상태가 되지 않아 즉시 반격하거나 포션을 마실 수 있습니다. Warden's Blades와 Servants 만트라를 깔아두어 지속 데미지를 주면서 Enforcer's Axe의 크리티컬(M2) 공격으로 가드를 깨뜨리고 딜을 누적시킵니다. 체력이 낮아지면 Emergency Reserves와 Blindseer의 유틸리티를 활용해 안정적으로 버팁니다."
+  },
+  "combo_playstyle_guide": {
+    "combo_guide": "전투 시작 시 Flame Wisp를 켜서 버프를 유지하고, Warden's Blades와 Servants 만트라를 소환하여 지속적인 다단 히트 압박을 가합니다. 적이 가드를 올리면 Enforcer's Axe의 강력한 크리티컬 공격으로 가드를 파괴한 뒤, Flash Boil 시너지가 적용된 Flamecharm과 Frostdraw 만트라 연계로 폭발적인 데미지를 입힙니다. 맞딜 상황에서도 Brick Wall 덕분에 경직되지 않으므로 침착하게 패링을 시도하며 페이스를 유지하는 것이 핵심입니다."
+  },
+  "video_meta": {
+    "title": "The Starter PvE Build You NEED in Deepwoken (2026)",
+    "channel": "TRE_MONSTER",
+    "url": "https://www.youtube.com/watch?v=dPK2vw6a7rc",
+    "upload_date": "20260405",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
