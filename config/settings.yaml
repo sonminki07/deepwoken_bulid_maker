@@ -6,7 +6,7 @@ gemini:
 
 download:
   output_dir: "data/videos"
-  format: "bestvideo[ext=mp4][filesize<?2G]+bestaudio[ext=m4a]/best[ext=mp4]/best"
+  format: "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/best[height<=480]/best[ext=mp4]/best"
   max_filesize_bytes: 2147483648 # 2GB
   cleanup_after_analysis: true
 

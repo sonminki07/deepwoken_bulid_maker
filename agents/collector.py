@@ -87,11 +87,11 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략 (제미나이 2GB 용량 제한을 모든 전략에 강제 적용)
+        # 다운로드 포맷 전략 (모바일 폰 및 초고속 AI 분석을 위해 480p/360p 경량 고속 포맷 우선 적용: 용량 90% 절감)
         format_strategies = [
-            "bestvideo[height<=720][filesize<?2G]+bestaudio[filesize<?2G]/best[height<=720][filesize<?2G]/best[filesize<?2G]",
-            "bestvideo[height<=480][filesize<?2G]+bestaudio[filesize<?2G]/best[height<=480][filesize<?2G]",
-            "best[ext=mp4][filesize<?2G]",
+            "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/best[height<=480]/bestvideo[height<=360]+bestaudio/best[height<=360]/best",
+            "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best",
+            "best[ext=mp4][filesize<?500M]",
         ]
 
         # 2시간(7200초)이 넘어가는 영상 필터링
