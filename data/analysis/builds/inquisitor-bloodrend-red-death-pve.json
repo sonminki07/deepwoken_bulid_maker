@@ -1,0 +1,123 @@
+{
+  "video_metadata": {
+    "title": "Build Making Made Easy! - Deepwoken Buildmaking Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=o9fxuIc64NM",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Inquisitor Bloodrend Red Death PvE",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 Red Death 무기와 Bloodrend, Shadowcast 속성을 결합하여 보스 레이드 및 PvE 파밍에서 압도적인 유지력과 폭발적인 피해를 입히도록 설계되었습니다. Shrine of Order를 사용하기 전에 Charisma 75, Intelligence 30, Willpower 30을 먼저 달성하여 핵심 유틸리티 및 공격력 증가 탤런트를 확보합니다. 이후 Shrine of Order로 스탯을 재조정하여 Fortitude 40(Exoskeleton, To The Finish)과 높은 무기/속성 스탯을 확보함으로써 생존력과 딜량을 모두 챙긴 완성형 하이브리드 빌드입니다.",
+    "strengths": [
+      "Red Death의 강력하고 맞추기 쉬운 크리티컬 공격을 통한 높은 피해량",
+      "Bloodrend 속성을 활용한 압도적인 피흡(Blood Drain) 및 체력 유지력",
+      "Perfect Flash와 Underdog 탤런트를 통한 보스 몬스터 대상 추가 피해 극대화",
+      "Exoskeleton과 To The Finish를 통한 뛰어난 물리적 생존력"
+    ],
+    "weaknesses": [
+      "Shrine of Order 사용 전후의 정확한 스탯 분배 순서가 강제됨",
+      "초반 육성 단계에서 여러 속성(Bloodrend, Shadowcast)을 동시에 올려야 하므로 성장이 다소 복잡함",
+      "오쓰(Oath)를 Shrine of Order 사용 이후에만 획득해야 하는 제약이 있음"
+    ]
+  },
+  "stats": {
+    "strength": 1,
+    "fortitude": 40,
+    "agility": 1,
+    "intelligence": 30,
+    "willpower": 30,
+    "charisma": 75,
+    "heavy_wep": 0,
+    "medium_wep": 75,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 20,
+    "ironsing": 0,
+    "bloodrend": 80
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Perfect Flash",
+      "is_core": true
+    },
+    {
+      "name": "Eureka",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": true
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Unnecessary Theatrics",
+      "is_core": true
+    },
+    {
+      "name": "Scarlet Donor",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To The Finish",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    "Blood Blade",
+    "Blood Siphon",
+    "Shadow Gun",
+    "Shadow Chains"
+  ],
+  "weapons_and_equipment": {
+    "weapon": "The Red Death",
+    "weapon_type": "Medium Weapon",
+    "recommended_enchant": "Vampiric",
+    "outfit": "Black Diver",
+    "accessories": [
+      "Imperial Boots",
+      "Legion Pauldrons",
+      "Ruby Drop Earrings"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Duke of Erisia",
+      "Primadon"
+    ],
+    "mob_strategy": "보스전에서는 Red Death의 크리티컬(M2) 공격을 적극적으로 사용하여 Bloodrend의 흡혈 버프를 상시 유지합니다. Perfect Flash의 효과를 극대화하기 위해 체력을 95% 이상으로 유지하며 만트라 폭딜을 넣고, 만약 체력이 낮아지더라도 To The Finish와 Scarlet Donor의 시너지로 받는 피해를 줄이면서 맞딜을 통해 체력을 빠르게 복구합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "전투 시작 시 Shadow Chains로 적을 묶어 디버프를 건 뒤, Red Death 크리티컬 공격으로 진입하여 Bloodrend 흡혈 상태를 활성화합니다. 이후 Blood Siphon과 Blood Blade 만트라를 연계하여 폭발적인 피해를 입힙니다. 적의 공격은 패링하거나 Exoskeleton의 단단한 맷집으로 버텨내며 끊임없이 평타와 만트라를 섞어 흡혈을 유도하는 맞딜 플레이스타일을 유지합니다."
+  },
+  "video_meta": {
+    "title": "Build Making Made Easy! - Deepwoken Buildmaking Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=o9fxuIc64NM",
+    "upload_date": "20260509",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
