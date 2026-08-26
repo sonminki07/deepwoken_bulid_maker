@@ -87,13 +87,19 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략
+        # 다운로드 포맷 전략 (제미나이 2GB 용량 제한을 모든 전략에 강제 적용)
         format_strategies = [
-            "bestvideo[height<=720]+bestaudio/best[height<=720]/best",
-            "bestvideo[height<=480]+bestaudio/best[height<=480]/best",
-            "bestvideo[ext=mp4][filesize<?2G]+bestaudio[ext=m4a]/best[ext=mp4]/best",
-            "best",
+            "bestvideo[height<=720][filesize<?2G]+bestaudio[filesize<?2G]/best[height<=720][filesize<?2G]/best[filesize<?2G]",
+            "bestvideo[height<=480][filesize<?2G]+bestaudio[filesize<?2G]/best[height<=480][filesize<?2G]",
+            "best[ext=mp4][filesize<?2G]",
         ]
+
+        # 2시간(7200초)이 넘어가는 영상 필터링
+        def duration_filter(info_dict, *, incomplete):
+            duration = info_dict.get('duration')
+            if duration and duration > 7200:
+                return "영상 길이가 2시간을 초과하여 분석이 불가능합니다."
+            return None
 
         last_err = None
         for attempt, fmt in enumerate(format_strategies):
@@ -105,6 +111,7 @@ class VideoCollector:
                 "quiet": False,
                 "no_warnings": True,
                 "retries": max_retries,
+                "match_filter": duration_filter,
             }
             if ffmpeg_location:
                 ydl_opts["ffmpeg_location"] = ffmpeg_location

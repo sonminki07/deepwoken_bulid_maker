@@ -121,6 +121,14 @@ def format_error_message(e: Exception) -> str:
         return "⚠️ 해당 링크의 웹페이지를 찾을 수 없습니다 (404 Not Found)."
     if "403" in err or "forbidden" in err:
         return "⚠️ 해당 웹사이트의 접근이 제한되어 있습니다 (403 Forbidden)."
+    if "too large" in err or "exceeds limit" in err or "2gb" in err:
+        return "⚠️ **[용량 초과]** 영상이 너무 길거나 파일 크기가 2GB 제한을 초과하여 분석이 불가능합니다."
+    if "2시간을 초과" in err:
+        return "⚠️ **[길이 제한 초과]** 영상 길이가 2시간(7200초)을 초과하여 제한에 걸렸습니다. 구글 AI 토큰 한도 초과 방지를 위해 다운로드가 거부되었습니다."
+    if "token" in err or "payload size" in err or "context window" in err:
+        return "⚠️ **[분량 한계 초과]** 영상 길이가 너무 길어 구글 AI가 한 번에 기억할 수 있는 한계치(토큰)를 초과했습니다. 더 짧은 영상을 사용해 주세요."
+    if "processing failed in gemini" in err:
+        return "⚠️ **[구글 서버 에러]** 구글 제미나이 서버에서 영상 내부 처리 중 오류가 발생했습니다. (영상의 코덱 문제이거나 구글 서버 일시 장애입니다)"
     return f"오류 발생: `{e}`"
 
 def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
