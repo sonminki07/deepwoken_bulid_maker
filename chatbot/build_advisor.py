@@ -13,28 +13,34 @@ from agents.key_manager import global_key_manager
 
 logger = logging.getLogger(__name__)
 
-ADVISOR_SYSTEM_PROMPT = """당신은 세계 최고의 Deepwoken 전문 AI 코치이자 데이터 분석가입니다.
-사용자의 질문에 대해 로컬 빌드 데이터베이스(RAG)와 실시간 웹 검색(Wiki, Reddit) 결과를 종합하여 친절하고 심층적인 한국어 분석 보고서를 제공합니다.
+ADVISOR_SYSTEM_PROMPT = """당신은 세계 최고 실력의 베테랑 Roblox Deepwoken 전문 AI 코치이자 데이터 분석가입니다.
+사용자와 자연스럽게 1:1 대화를 나누며, 로컬 빌드 지식 베이스(RAG)와 실시간 위키 검색 결과를 바탕으로 맞춤형 피드백을 제공합니다.
 
-[답변 작성 가이드라인]
-1. **100% 자연스럽고 전문적인 한국어로 작성**: 영어 원문이 있더라도 자연스러운 한국어로 번역 및 해설하세요. (단, 탤런트명, 만트라명, 아이템/무기명, Oath명 등 인게임 고유 명칭은 영문 유지)
-2. **지저분한 링크 인용구 제외**: 본문에 `[[1](...)]`, `[[2](...)]` 같은 원문 링크 번호 태그를 넣지 말고 깔끔한 텍스트로 서술하세요.
-3. **사용자가 이해하기 쉬운 논리적 순서로 구성**:
-   - ⚔️ **1. 핵심 작동 원리 및 시스템 배경**: 왜 이 빌드/현상이 일어나는지 (예: 과다출혈 15% 고정 퍼센트 데미지 폭발 메커니즘, 스택 누적 방식 등) 알기 쉽게 설명
-   - 📊 **2. 상세 스탯 분배 및 육성 (Pre-Shrine & Post-Shrine)**: 정확한 스탯 수치와 무기/속성 분배
-   - 🛡️ **3. 추천 장비, 아웃핏 및 최적 인챈트**: 무기, 방어구(Black Diver, Prophet's Cloak 등), 추천 인챈트(Grim, Vampiric 등)
-   - 🌟 **4. 핵심 탤런트(Talents) 및 주요 만트라(Mantras)**: 필수 탤런트와 딜링 만트라
-   - 🎯 **5. 주요 타겟 보스 / 몹 사냥법**: 어떤 만트라/스킬을 써서 어떤 주요 보스(Chaser, Scion, Duke, Maestro, Primadon 등)를 어떻게 녹이는지 구체적인 사냥 팁
-   - 🥊 **6. 실전 콤보 및 장단점 / 리스크 관리**: 전투 딜링 사이클 및 피흡/스태미나 관리법
+[🚨 핵심 대화 및 답변 원칙]
+1. **대화 맥락과 사용자 캐릭터 정보 완벽 기억 (Multi-Turn Context)**:
+   - 사용자가 이전에 언급한 캐릭터 스탯, 무기, 속성(Attunement), 상황을 반드시 기억하고 이어서 대화하세요.
+   - 예: 사용자가 "나 프로스트드로 대검 빌드야"라고 한 뒤 "듀크 그로기 때 무슨 콤보 써?"라고 물으면, 듀크 빌드를 새로 읊지 말고 "사용자님의 프로스트드로 대검 빌드를 기준으로 듀크 그로기 타이밍 극딜 사이클"을 바로 콕 집어서 코칭하세요.
+
+2. **질문 유형에 따른 유연하고 직관적인 답변 (천편일률적인 6단계 템플릿 금지!)**:
+   - **타입 A. 특정 질문 / 상황별 딜 사이클 / 보스 공략 / 탤런트 질문 / 콤보 질문**:
+     • 불필요하게 1번부터 6번까지의 전체 스탯표와 장비 템플릿을 처음부터 끝까지 다 나열하지 마세요!
+     • 사용자가 궁금해하는 질문에 대해 즉시 명확하고 구체적인 **실전 행동 요령, 만트라 연계 순서, 회피/패링 타이밍 팁**만 깔끔하게 답변하세요.
+   - **타입 B. 전체 빌드 추천 / 신규 빌드 설계 요청 (예: "초보자용 PvE 빌드 짜줘", "새로운 빌드 추천해줘")**:
+     • 이때만 스탯, 장비, 탤런트, 만트라, 사냥법이 포함된 체계적인 종합 빌드 가이드를 제공하세요.
+
+3. **100% 자연스럽고 친절한 한국어 (게임 고유명사는 인게임 영문 유지)**:
+   - 본문에 지저분한 `[[1](...)]` 인용구는 넣지 마세요.
+   - 탤런트명, 만트라명, 무기명, Oath명 등 게임 고유명칭은 인게임 영문명을 유지하세요.
+   - 이해하기 쉬운 이모지와 가독성 높은 마크다운 소제목/글머리 기호를 활용하세요.
 """
 
 class BuildAdvisor:
-    """5단계: RAG + 실시간 웹 검색(DDGS) 하이브리드 Deepwoken AI 빌드 어드바이저"""
+    """5단계: RAG + 실시간 웹 검색(DDGS) 하이브리드 Deepwoken AI 빌드 어드바이저 (대화 맥락 기억 지원)"""
 
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model_name: str = "gemini-3.6-flash",
+        model_name: str = "gemini-3.7-flash",
         db_path: str = "data/chromadb",
         collection_name: str = "deepwoken_builds",
         top_k: int = 4
@@ -60,36 +66,42 @@ class BuildAdvisor:
             logger.warning(f"Web search error: {e}")
             return ""
 
-    def ask(self, user_query: str) -> str:
-        """RAG 검색 + 실시간 웹 검색 + Gemini AI 통합 답변 생성"""
-        # 1. RAG 지식 검색
+    def ask(self, user_query: str, history: Optional[List[Dict[str, str]]] = None) -> str:
+        """사용자 질문에 대해 대화 히스토리 + RAG 검색 + 실시간 웹 검색을 통합하여 유연한 맞춤형 답변 생성"""
+        # 1. 로컬 RAG 검색
         rag_context = ""
         try:
-            search_results = self.kb.query(query_text=user_query, n_results=self.top_k)
-            if search_results:
-                blocks = []
-                for idx, res in enumerate(search_results, 1):
-                    meta = res["metadata"]
-                    blocks.append(
-                        f"[로컬 인덱스 빌드 {idx}: {meta.get('build_name', 'Unknown')}]\n"
-                        f"타입: {meta.get('build_type')} | Oath: {meta.get('oath')}\n"
-                        f"{res['document']}\n"
-                    )
-                rag_context = "\n\n".join(blocks)
+            results = self.kb.query(query_text=user_query, n_results=self.top_k)
+            if results:
+                chunks = []
+                for doc in results:
+                    meta = doc.get("metadata", {})
+                    chunks.append(f"- [{meta.get('build_type', 'build')}] {meta.get('build_name', '')}:\n{doc.get('document', '')[:400]}")
+                rag_context = "\n".join(chunks)
         except Exception as e:
             logger.warning(f"RAG search warning: {e}")
 
         # 2. 실시간 웹 검색 (Wiki / Reddit)
-        web_context = self.search_web(user_query, max_results=4)
+        web_context = self.search_web(user_query, max_results=3)
 
-        # 3. 통합 프롬프트 생성
+        # 3. 대화 맥락(History) 포맷팅
+        history_text = ""
+        if history:
+            history_text = "=== [이전 대화 맥락 (기억)] ===\n"
+            for turn in history[-6:]:
+                role_label = "사용자" if turn.get("role") == "user" else "AI 코치"
+                history_text += f"{role_label}: {turn.get('content', '')}\n"
+            history_text += "\n"
+
+        # 4. 통합 프롬프트 생성
         prompt = (
-            f"[사용자 질문]\n{user_query}\n\n"
-            f"[참고 1: 로컬 저장소 분석 빌드 데이터 (RAG)]\n"
+            f"{history_text}"
+            f"=== [사용자의 현재 질문] ===\n{user_query}\n\n"
+            f"=== [참고 1: 로컬 저장소 빌드 데이터베이스 (RAG)] ===\n"
             f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
-            f"[참고 2: 실시간 웹/위키 검색 결과]\n"
+            f"=== [참고 2: 실시간 위키/웹 검색 결과] ===\n"
             f"{web_context if web_context else '웹 검색 결과 없음'}\n\n"
-            f"위 참고 자료들을 종합하여 100% 한국어로 수치, 탤런트, 메커니즘, 장비/아웃핏, 타겟 보스 사냥법이 포함된 깔끔한 마크다운 보고서를 작성하세요."
+            f"위 대화 맥락과 참고 자료를 바탕으로, 사용자의 질문 의도에 딱 맞게 불필요한 전체 템플릿 나열 없이 직관적이고 전문적인 한국어로 답변하세요."
         )
 
         def _call_model(client: genai.Client) -> str:
@@ -126,7 +138,7 @@ class BuildAdvisor:
             logger.error(f"Advisor generation error: {e}")
             return f"⚠️ 답변 생성 중 오류가 발생했습니다: {e}"
 
-    def answer_query(self, user_query: str) -> str:
-        return self.ask(user_query)
+    def answer_query(self, user_query: str, history: Optional[List[Dict[str, str]]] = None) -> str:
+        return self.ask(user_query, history=history)
 
 DeepwokenBuildAdvisor = BuildAdvisor

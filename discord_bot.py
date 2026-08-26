@@ -38,6 +38,9 @@ intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
+# 사용자별 대화 맥락 기억 메모리 버퍼 (Multi-Turn Chat History)
+user_chat_memories: Dict[int, List[Dict[str, str]]] = {}
+
 def push_to_github(commit_msg: str) -> bool:
     """분석된 빌드 JSON 및 지식 문서를 GitHub 저장소에 자동 커밋 & 푸시 (무음 백그라운드)"""
     creation_flags = 0x08000000 if sys.platform == "win32" else 0
@@ -452,10 +455,16 @@ async def on_message(message: discord.Message):
                         del active_tasks[message.id]
         return
 
-    # Case 2: '#chat' 채널이거나 봇 멘션 -> Search Grounding RAG AI 빌드 어드바이저 대화
+    # Case 2: '#chat' 채널이거나 봇 멘션 -> Search Grounding RAG AI 빌드 어드바이저 대화 (맥락 기억 지원)
     if "chat" in ch_name or bot.user in message.mentions:
         user_query = message.content.replace(f"<@{bot.user.id}>", "").strip()
         if not user_query:
+            return
+
+        # 대화 기억 초기화 명령어
+        if user_query.lower() in ["!clear", "!초기화", "!리셋", "대화 초기화", "기억 지워줘"]:
+            user_chat_memories[message.author.id] = []
+            await message.reply("🧹 **[대화 기억 초기화]** 이전 대화 맥락을 깨끗하게 비웠습니다! 새로운 질문을 편하게 남겨주세요.")
             return
 
         async with message.channel.typing():
@@ -463,7 +472,15 @@ async def on_message(message: discord.Message):
                 from chatbot.build_advisor import DeepwokenBuildAdvisor
                 advisor = DeepwokenBuildAdvisor(top_k=4)
                 loop = asyncio.get_running_loop()
-                reply_text = await loop.run_in_executor(None, advisor.answer_query, user_query)
+
+                # 사용자별 이전 대화 히스토리 가져오기
+                user_hist = user_chat_memories.get(message.author.id, [])
+                reply_text = await loop.run_in_executor(None, advisor.answer_query, user_query, user_hist)
+
+                # 대화 히스토리 갱신 (최근 8개 턴 유지)
+                user_hist.append({"role": "user", "content": user_query})
+                user_hist.append({"role": "assistant", "content": reply_text})
+                user_chat_memories[message.author.id] = user_hist[-8:]
 
                 # 1900자 단위 청크 전송
                 if len(reply_text) <= 1950:
