@@ -1,4 +1,5 @@
 import os
+import re
 import logging
 from typing import Optional, List, Dict, Any
 from google import genai
@@ -50,21 +51,21 @@ class BuildAdvisor:
         self.top_k = top_k
         self.kb = KnowledgeBuilder(db_path=db_path, collection_name=collection_name, api_key=self.api_key, use_gemini_embedding=False)
 
-    def search_web(self, query: str, max_results: int = 4) -> str:
-        """실시간 웹 검색 (Deepwoken Wiki, Reddit, Fandom 등 심층 검색)"""
-        # 사용자 질문 본문만 추출하여 정확도 높은 검색 쿼리 구성
+    def search_web(self, query: str, max_results: int = 3) -> str:
+        """실시간 웹 검색 (Deepwoken Wiki, Reddit 등 심층 검색)"""
+        # 사용자 질문 본문만 추출하여 검색 쿼리 구성
         if "[사용자 질문]" in query:
             clean_q = query.split("[사용자 질문]")[-1].strip()
         else:
             clean_q = re.sub(r'\[.*?\]', '', query).replace('\n', ' ').strip()
             
-        clean_q = ' '.join(clean_q.split()[:20])  # 풍부한 맥락 유지
+        clean_q = ' '.join(clean_q.split()[:10])
         if not clean_q:
             return ""
 
         search_query = f"Deepwoken {clean_q}"
         try:
-            with DDGS(timeout=10) as ddgs:
+            with DDGS(timeout=4) as ddgs:
                 results = list(ddgs.text(search_query, max_results=max_results))
                 if not results:
                     return ""
@@ -73,12 +74,16 @@ class BuildAdvisor:
                     snippets.append(f"- **{r.get('title')}**: {r.get('body')}")
                 return "\n".join(snippets)
         except Exception as e:
-            logger.warning(f"Web search note: {e}")
+            logger.warning(f"Web search skipped: {e}")
             return ""
 
     def ask(self, user_query: str, history: Optional[List[Dict[str, str]]] = None) -> str:
-        """사용자 질문에 대해 대화 히스토리 + RAG 검색 + 실시간 웹 검색을 통합하여 유연한 맞춤형 답변 생성"""
-        # 1. 로컬 RAG 검색
+        """사용자 질문에 대해 은어 보정 + 대화 히스토리 + RAG 지식 베이스 + 실시간 웹 검색을 융합하여 정밀 답변 생성"""
+        # 0. 한국어 은어/음성 오타 지능형 보정 & 강제 팩트체크 주석 추가
+        from chatbot.slang_normalizer import DeepwokenSlangResolver
+        enriched_query = DeepwokenSlangResolver.enrich_prompt_with_deep_knowledge(user_query)
+
+        # 1. 로컬 RAG 검색 (지식 베이스 + 노트북LM 노트)
         rag_context = ""
         try:
             results = self.kb.query(query_text=user_query, n_results=self.top_k)
@@ -92,7 +97,7 @@ class BuildAdvisor:
             logger.warning(f"RAG search warning: {e}")
 
         # 2. 실시간 웹 검색 (Wiki / Reddit)
-        web_context = self.search_web(user_query, max_results=3)
+        web_context = self.search_web(user_query, max_results=4)
 
         # 3. 대화 맥락(History) 포맷팅
         history_text = ""
@@ -103,15 +108,15 @@ class BuildAdvisor:
                 history_text += f"{role_label}: {turn.get('content', '')}\n"
             history_text += "\n"
 
-        # 4. 통합 프롬프트 생성
+        # 4. 통합 프롬프트 생성 (4중 지식 융합)
         prompt = (
             f"{history_text}"
-            f"=== [사용자의 현재 질문] ===\n{user_query}\n\n"
-            f"=== [참고 1: 로컬 저장소 빌드 데이터베이스 (RAG)] ===\n"
+            f"=== [사용자의 현재 질문 및 딥위큰 룰 분석] ===\n{enriched_query}\n\n"
+            f"=== [참고 1: 로컬 깃허브 & 노트북LM 지식 데이터베이스] ===\n"
             f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
-            f"=== [참고 2: 실시간 위키/웹 검색 결과] ===\n"
+            f"=== [참고 2: 실시간 Deepwoken 위키 및 빌더 검색 데이터] ===\n"
             f"{web_context if web_context else '웹 검색 결과 없음'}\n\n"
-            f"위 대화 맥락과 참고 자료를 바탕으로, 사용자의 질문 의도에 딱 맞게 불필요한 전체 템플릿 나열 없이 직관적이고 전문적인 한국어로 답변하세요."
+            f"위 대화 맥락과 딥위큰 시스템 룰을 엄격히 준수하여, 사용자가 의도한 정확한 빌드(예: 사일런트하트 평타, 브릭월 극탱 등)로 실전 전술과 정확한 330pt 분배를 한국어로 명확히 제시하세요."
         )
 
         def _call_model(client: genai.Client) -> str:

@@ -1,4 +1,29 @@
 {
+  "⚓ Silentheart Heavy M1 Melter (Duke/Primadon 1-Min Cut)": {
+    "name": "⚓ Silentheart Heavy M1 Melter (Duke/Primadon 1-Min Cut)",
+    "oath": "Silentheart",
+    "weapon_type": "Heavy Weapon",
+    "attunement": "Attunementless (무속성)",
+    "stats": {
+      "Strength": 50,
+      "Fortitude": 90,
+      "Agility": 25,
+      "Intelligence": 0,
+      "Willpower": 50,
+      "Charisma": 15,
+      "Heavy Wep": 100,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Frostdraw": 0,
+      "Flamecharm": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
+    },
+    "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
+    "talents": "Heavy Intent (하얀 인텐트 평타 폭딜), Reinforced Armor (체력 450+ 깡방어), Giant Slayer (보스 딜 +15%), Exoskeleton, Collapse, Speed Demon"
+  },
   "🩸 Vampiric Blood Drain Tank": {
     "name": "🩸 Vampiric Blood Drain Tank",
     "oath": "Blindseer",

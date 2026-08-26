@@ -140,22 +140,65 @@ class DeepwokenFactChecker:
         return True, "조건 확인 완료"
 
     @staticmethod
+    def parse_stats_from_advice(text: str) -> Dict[str, int]:
+        """AI 조언 텍스트에서 추천된 스탯 수치를 정규식으로 정밀 자동 추출"""
+        key_patterns = {
+            "Strength": r"(?:Strength|힘|근력)",
+            "Fortitude": r"(?:Fortitude|인내|체력)",
+            "Agility": r"(?:Agility|민첩)",
+            "Intelligence": r"(?:Intelligence|지능)",
+            "Willpower": r"(?:Willpower|의지|정신력)",
+            "Charisma": r"(?:Charisma|매력)",
+            "Heavy Wep": r"(?:Heavy\s*Weapon|Heavy\s*Wep|중무기|대검|헤비)",
+            "Medium Wep": r"(?:Medium\s*Weapon|Medium\s*Wep|중검|미디엄)",
+            "Light Wep": r"(?:Light\s*Weapon|Light\s*Wep|단검|라이트)",
+            "Flamecharm": r"(?:Flamecharm|화염)",
+            "Frostdraw": r"(?:Frostdraw|프로스트|빙결)",
+            "Thundercall": r"(?:Thundercall|번개|선더)",
+            "Galebreathe": r"(?:Galebreathe|바람|게일)",
+            "Shadowcast": r"(?:Shadowcast|그림자|섀도우)",
+            "Ironsing": r"(?:Ironsing|철|아이언)",
+        }
+        parsed = {}
+        for canonical_name, pat in key_patterns.items():
+            # 예: **Heavy Weapon (중무기): 100** 또는 Fortitude: 50
+            full_pat = rf"{pat}(?:[^\d\n:]*?)[:\s=]+\**(\d{{1,3}})\**"
+            match = re.search(full_pat, text, re.IGNORECASE)
+            if match:
+                parsed[canonical_name] = int(match.group(1))
+        return parsed
+
+    @staticmethod
     def audit_profile_and_advice(profile: Dict[str, Any], advice_text: str) -> Dict[str, Any]:
         """사용자 프로필과 AI 조언 텍스트를 대조 검증하여 무결성 리포트 생성"""
         stats = profile.get("stats", {})
         total_points = DeepwokenFactChecker.calculate_total_stats(stats)
         
+        # 만약 유저 프로필이 빈 슬롯(0pt)이면 AI가 제안한 스탯을 자동 파싱하여 검증
+        if total_points == 0:
+            parsed_stats = DeepwokenFactChecker.parse_stats_from_advice(advice_text)
+            if parsed_stats:
+                stats = parsed_stats
+                total_points = DeepwokenFactChecker.calculate_total_stats(stats)
+
         warnings = []
         verified_points = []
         
-        # 1. 스탯 상한선 검증 (Deepwoken Builder 기준 최대 345pt)
+        # 1. 스탯 상한선 검증 (Deepwoken Builder 기준 최대 330pt)
         if total_points > DeepwokenFactChecker.MAX_VALID_STAT_SUM:
             warnings.append(f"⚠️ 총 스탯 합계가 {total_points}pt로 공식 빌더 상한선({DeepwokenFactChecker.MAX_VALID_STAT_SUM}pt)을 {total_points - DeepwokenFactChecker.MAX_VALID_STAT_SUM}pt 초과했습니다.")
-        else:
-            verified_points.append(f"📊 스탯 무결성: 총 `{total_points}/{DeepwokenFactChecker.MAX_VALID_STAT_SUM}` pt (Deepwoken Builder 공식 룰 준수 ✅)")
+        elif total_points > 0:
+            verified_points.append(f"📊 스탯 무결성: 총 `{total_points}/{DeepwokenFactChecker.MAX_VALID_STAT_SUM}` pt (deepwoken.co 공식 룰 준수 ✅)")
 
         # 2. Oath 조건 검증
         current_oath = profile.get("oath", "")
+        if not current_oath or current_oath == "Oathless":
+            # AI 텍스트에서 언급된 Oath 찾기
+            for oath_name in OATH_PREREQUISITES.keys():
+                if oath_name.lower() in advice_text.lower():
+                    current_oath = oath_name
+                    break
+
         if current_oath:
             oath_ok, oath_msg = DeepwokenFactChecker.validate_oath(current_oath, stats)
             if oath_ok:
