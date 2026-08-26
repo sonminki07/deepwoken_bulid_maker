@@ -354,11 +354,20 @@ class BuildStructurer:
         (self.knowledge_base_dir / 'INDEX.md').write_text(content, encoding='utf-8')
         (self.knowledge_base_dir / 'README.md').write_text(content, encoding='utf-8')
 
+    def generate_slug(self, title: str, default_id: str) -> str:
+        """빌드/문서 제목을 가독성 높은 영문/한글 슬러그 파일명으로 변환"""
+        import re
+        clean = re.sub(r'[^\w\s-]', '', title.lower()).strip()
+        slug = re.sub(r'[-\s]+', '-', clean)[:45].strip('-')
+        return slug if slug else default_id
+
     def process_and_save(self, raw_json: Dict[str, Any], video_id: str) -> Dict[str, Path]:
-        """JSON 검증, 카테고리 분류, 저장 및 Markdown 변환/INDEX 갱신 일괄 실행"""
+        """JSON 검증, 카테고리 분류, 가독성 높은 슬러그 파일명 저장 및 Markdown 변환/INDEX 갱신 일괄 실행"""
         self.validate(raw_json)
         sanitized = self.sanitize(raw_json)
         url = sanitized.get("video_meta", {}).get("url", "")
+        b_name = sanitized.get("build_summary", {}).get("build_name") or sanitized.get("video_meta", {}).get("title") or video_id
+        file_slug = self.generate_slug(b_name, video_id)
 
         category = self.classify_category(sanitized, url)
         target_a_dir = self.analysis_dir / category
@@ -366,14 +375,14 @@ class BuildStructurer:
         target_a_dir.mkdir(parents=True, exist_ok=True)
         target_kb_dir.mkdir(parents=True, exist_ok=True)
 
-        # JSON 저장
-        json_path = target_a_dir / f"{video_id}.json"
+        # JSON 저장 (가독성 높은 슬러그 파일명)
+        json_path = target_a_dir / f"{file_slug}.json"
         json_path.write_text(json.dumps(sanitized, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info(f"Saved JSON analysis to: {json_path}")
 
-        # Markdown 저장
+        # Markdown 저장 (가독성 높은 슬러그 파일명)
         md_content = self.to_markdown(sanitized)
-        md_path = target_kb_dir / f"{video_id}.md"
+        md_path = target_kb_dir / f"{file_slug}.md"
         md_path.write_text(md_content, encoding="utf-8")
         logger.info(f"Saved Markdown knowledge to: {md_path}")
 
@@ -386,5 +395,6 @@ class BuildStructurer:
         return {
             "json_path": json_path,
             "md_path": md_path,
-            "category": category
+            "category": category,
+            "file_slug": file_slug
         }

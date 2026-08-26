@@ -5,7 +5,7 @@
 유튜버의 음성 해설(빌드 운용법, 필수 탤런트 강조, 장단점, 콤보 메커니즘 등)을 종합적으로 분석하여
 지정된 JSON 스키마 형식에 맞춰 정확한 빌드 데이터를 추출하세요.
 
-[상세 분석 가이드라인]
+[상세 분석 및 스탯 역산/추론 가이드라인]
 1. Video Metadata:
    - title, channel, url 정보 및 영상 내용/업로드 시점에서 추정되는 패치 버전(Verse 2, 특정 Layer 패치 등).
 
@@ -17,9 +17,15 @@
    - strengths: **반드시 한국어로 작성** - 빌드의 뚜렷한 장점 목록 (예: "과다출혈 퍼센트 고정 데미지 폭발", "안정적인 피흡과 체력 유지력")
    - weaknesses: **반드시 한국어로 작성** - 빌드의 단점 및 주의점 목록 (예: "스킬 사용 시 체력 소모 리스크", "Shrine of Order 정확한 순서 요구")
 
-3. Stats & Attunements:
-   - pre_shrine: 힘(strength), 체력(fortitude), 민첩(agility), 지능(intelligence), 의지(willpower), 매력(charisma), 무기 스탯(heavy_weapon, medium_weapon, light_weapon), 속성(bloodrend, shadowcast, flamecharm, frostdraw, galebreathe, thundercall, ironsing)
-   - post_shrine: 최종 완성 시점의 6대 스탯, 무기 스탯, 속성 스탯 정수값
+3. Stats & Attunements (🚨 스탯 추론 및 복원 필수 규칙):
+   - **중요**: 영상 화면에 스탯창(Stat Sheet)이 직접 열려있지 않더라도, **절대로 모든 스탯을 0으로 비워두지 마세요!**
+   - 아래 단서들을 역추적하여 딥위큰 메타에 맞는 완성형 스탯(총합 약 250~330 포인트)을 **전문적으로 역산/추론하여 반드시 정수값으로 채워 넣으세요**:
+     1) **제목/설명란 수치**: (예: "90 HVY + 90 IRON" -> heavy_wep: 90, ironsing: 90 / "100 WLL" -> willpower: 100)
+     2) **핵심 탤런트 요구치**: (예: Brick Wall -> Fortitude 100, Willpower 100 / Million Ton Piercer -> Strength 90 / Reinforce -> Fortitude 40 / Conditioned Runner -> Agility 25 등)
+     3) **장착 무기 요구치**: (예: Pale Briar / Curved Blade / Kyrsglaive -> 해당 무기 스탯 75~80, 해당 속성 80)
+     4) **Oath 요구치**: (예: Starkindred -> Strength 40 / Silentheart -> Strength 40, Agility 40, Weapon 75 등)
+     5) **만트라 레벨 요구치**: 3~5성 만트라를 사용할 경우 해당 속성 스탯을 80으로 할당
+   - `stats` (strength, fortitude, agility, intelligence, willpower, charisma, heavy_wep, medium_wep, light_wep) 및 `attunements` (flamecharm, frostdraw, thundercall, galebreathe, shadowcast, ironsing, bloodrend)에 논리적으로 역산된 최종 스탯값을 반드시 기입하세요.
 
 4. Character Setup:
    - oath: Starkindred, Blindseer, Contractor, Jetstriker, Dawnwalker 등
