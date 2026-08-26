@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (44개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (45개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -35,6 +35,7 @@
 | **Augmenter Cleave (90 HVY + 90 IRON)** | `Hybrid` | ` / flamecharm, galebreath` | [📄 문서 보기](builds/augmenter-cleave-90-hvy-90-iron.md) |
 | **Authority Outpost Expedition & Fish** | `Hybrid` | ` / thundercall, bloodrend` | [📄 문서 보기](builds/authority-outpost-expedition-fishing-hybrid-b.md) |
 | **Azure Flame & Steam Duster Knockdow** | `PvP` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/azure-flame-steam-duster-knockdown-combo-pvp.md) |
+| **Blind, Deaf & Mute Meme Heavy Hybri** | `Meme/Fun` | ` / thundercall` | [📄 문서 보기](builds/blind-deaf-mute-meme-heavy-hybrid-build.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
 | **Dark Pearls Inky Vent Shadowcast Pv** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/dark-pearls-inky-vent-shadowcast-pvp.md) |
 | **Deep Shrines / Shrine of Order** | `Hybrid` | `Oathless / Attunementless` | [📄 문서 보기](builds/deep-shrines-shrine-of-order.md) |

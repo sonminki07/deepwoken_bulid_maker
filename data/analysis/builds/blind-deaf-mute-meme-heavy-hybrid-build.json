@@ -1,0 +1,177 @@
+{
+  "video_metadata": {
+    "title": "Beating Deepwoken but we're Blind, Deaf, & Mute...",
+    "channel": "Solidz",
+    "url": "https://www.youtube.com/watch?v=syUoute3AaQ",
+    "upload_date": "2026-08-03",
+    "game_patch": "Verse 2 / Layer 2 Update"
+  },
+  "build_summary": {
+    "build_name": "Blind, Deaf & Mute Meme Heavy Hybrid Build",
+    "build_type": "Meme/Fun",
+    "difficulty": "Advanced",
+    "creator_opinion": "본 빌드는 정상적인 청각과 시각, 음성 소통이 완전히 제한된 극단적인 예능용 컨셉 빌드로 설계되었습니다. UI와 사운드 정보가 차단된 상태에서 오직 팀원간의 호흡과 감각에만 의존하여 딥위큰의 최난접 지역인 Layer 2와 Chaser, Scion of Ethiron까지 돌파해야 하는 메커니즘을 가지고 있습니다.\n\n전투 시 사운드 플레이가 불가능하므로 적의 공격 선모션과 미세한 화면 변화를 파악해야 하며, 파티원과의 연계 플레이를 통해 가드브레이크와 에어본 콤보를 욱여넣는 방식을 취합니다. 특히 중화기(Heavy Weapon)의 강력한 깡뎀과 스태거 능력을 활용하여 순간적인 폭딜을 꽂아넣는 것이 핵심입니다.\n\n실전 교전에서는 상대의 가드를 강제로 무너뜨리기 위해 브레이크 탤런트와 넉다운 유발기를 적절히 조합해야 합니다. 시야가 제한된 환경 속에서도 패링 타이밍을 익히고, 파티원이 대상을 붙잡아둘 때 후방에서 기습적인 강공격을 성공시키는 심리전이 승패를 가릅니다.",
+    "strengths": [
+      "중화기(Heavy Weapon) 특유의 압도적인 단발 대미지와 높은 포스처 파괴력",
+      "파티 플레이 시 시너지 극대화로 보스 패턴을 순식간에 녹일 수 있는 폭딜 잠재력",
+      "시청각 차단이라는 극악의 조건 속에서도 완벽한 예능적 재미와 몰입감 제공"
+    ],
+    "weaknesses": [
+      "청각 정보와 UI 인식이 불가능하여 솔로 플레이 시 생존율이 극도로 낮음",
+      "적의 선딜레이를 사운드로 파악할 수 없어 패링 타이밍이 매우 까다로움",
+      "회피 기동 중 지형지물에 걸리거나 낙사할 위험이 매우 높음"
+    ]
+  },
+  "stats_and_attunements": {
+    "stats": {
+      "strength": 50,
+      "fortitude": 50,
+      "agility": 40,
+      "intelligence": 10,
+      "willpower": 40,
+      "charisma": 10,
+      "heavy_wep": 80,
+      "medium_wep": 10,
+      "light_wep": 10
+    },
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "thundercall": 80,
+      "galebreathe": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Thundercall Resonance",
+    "resonance_bell": "Wind Up"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Brick Wall",
+        "is_core": true
+      },
+      {
+        "name": "Million Ton Piercer",
+        "is_core": true
+      },
+      {
+        "name": "Conditioned Runner",
+        "is_core": false
+      },
+      {
+        "name": "Reinforced Armor",
+        "is_core": true
+      },
+      {
+        "name": "Executioner",
+        "is_core": false
+      },
+      {
+        "name": "To the Finish",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Thunder Spear"
+      },
+      {
+        "name": "Tornado Kick"
+      },
+      {
+        "name": "Air Force"
+      },
+      {
+        "name": "Wind Step"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Falchion / Heavy Greatsword",
+      "category": "Heavy Weapon",
+      "enchant": "Grim / Vampiric"
+    },
+    "outfit": {
+      "name": "Ignition Deepdelver Outfit"
+    },
+    "accessories": {
+      "helmet": "Apprentice Scarf",
+      "armor": "Windmill Ring",
+      "boots": "Tracker's Boots"
+    }
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Squibbo",
+      "Primadon"
+    ],
+    "mob_strategy": [
+      "Chaser전에서는 보스의 장판 패턴과 피의 소용돌이 공격을 시각적 잔상으로만 판단해야 하므로, 파티원과 협력하여 가마솥(Cauldron) 기믹을 신속하게 작동시키고 지속적으로 피흡을 유지해야 합니다.",
+      "Scion of Ethiron 상대 시 보스의 거대한 보라색 광선과 십자 레이저 패턴의 예비 동작을 보고 즉시 측면으로 구르거나 고지대로 회피하여 광역즉사기를 피해야 합니다.",
+      "Squibbo 및 필드 몹 조우 시 사운드 플레이 불가로 인해 패링 브레이크 타이밍을 잡기 어려우므로, 팀원이 어그로를 끌어준 상태에서 후방에서 강공격(Heavy Attack)을 꽂아 포스처를 무너뜨려야 합니다."
+    ]
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": {
+      "step_1_engage": "Wind Step 또는 돌진형 만트라를 활용해 시야가 차단된 상태에서도 적의 위치로 빠르게 접근하여 기습 타격을 시도합니다.",
+      "step_2_guard_break": "중화기의 높은 포스처 대미지를 이용해 평타와 강공격을 섞어 적의 가드를 강제로 파괴(Guard Break)합니다.",
+      "step_3_burst_damage": "가드가 깨진 적에게 Thunder Spear 및 콤보 만트라를 연계하여 순식간에 최대 체력을 깎아내립니다.",
+      "step_4_recovery": "교전 중 체력이 부족할 경우 Vesperian 종족 특유의 방어력과 Vampiric 인챈트의 피흡 효과를 이용해 전선에서 이탈해 체력을 회복합니다."
+    }
+  },
+  "video_meta": {
+    "title": "Beating Deepwoken but we're Blind, Deaf, & Mute...",
+    "channel": "Solidz",
+    "url": "https://www.youtube.com/watch?v=syUoute3AaQ",
+    "upload_date": "20260803",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 80,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 75,
+      "fortitude": 50,
+      "agility": 40,
+      "willpower": 40
+    },
+    "post_shrine_priority": [
+      "Heavy Weapon 80 달성",
+      "Intelligence 25 유틸리티 탤런트 확보"
+    ]
+  },
+  "mantras": [
+    {
+      "name": "Thunder Spear"
+    },
+    {
+      "name": "Tornado Kick"
+    },
+    {
+      "name": "Air Force"
+    },
+    {
+      "name": "Wind Step"
+    }
+  ],
+  "equipment": [],
+  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n- Heavy Weapon 80 달성\n- Intelligence 25 유틸리티 탤런트 확보"
+}
