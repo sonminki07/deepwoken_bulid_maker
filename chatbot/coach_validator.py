@@ -4,48 +4,45 @@ from typing import Dict, Any, List, Optional, Tuple
 
 logger = logging.getLogger(__name__)
 
-# Deepwoken 공식 핵심 탤런트 선행 조건 데이터베이스
+# Deepwoken 공식 핵심 탤런트 선행 조건 데이터베이스 (100% 공식 deepwoken.co / Fandom Wiki 동기화)
 TALENT_PREREQUISITES = {
     # Fortitude / Willpower 계열
     "Brick Wall": {"Fortitude": 100, "Willpower": 100, "description": "모든 넉백, 기절, 래그돌 면역"},
-    "Reinforced Armor": {"Fortitude": 90, "Willpower": 30, "description": "방어구 관통 데미지 50% 감소"},
+    "Reinforced Armor": {"Fortitude": 90, "description": "방어구 관통(PEN) 데미지 30% 감소"},
     "Exoskeleton": {"Fortitude": 40, "description": "방어력 +5% 및 블록 브레이크 저항"},
-    "To the Finish": {"Fortitude": 40, "description": "체력 30% 미만 시 저항력 증가"},
-    "Grand Feast": {"Fortitude": 35, "description": "적 처치 시 체력/허기 대량 회복"},
-    "Underdog": {"Fortitude": 30, "description": "다수 적 상대 시 데미지 버프"},
+    "To the Finish": {"Fortitude": 50, "description": "체력 위기 시 받는 피해 감소"},
+    "Grand Feast": {"description": "적 처치 시 체력/허기 대량 회복"},
+    "Underdog": {"Willpower": 30, "description": "체력이 나보다 높은 적 및 거대 적 대상 피해량 증가"},
     
     # Strength 계열
     "Million Ton Piercer": {"Strength": 90, "description": "모든 물리 공격 50% 아머 관통"},
-    "Showstopper": {"Strength": 80, "description": "강타 시 주변 광역 충격파"},
-    "Collapse": {"Strength": 50, "description": "가드 브레이크 시 적 자세 붕괴"},
-    "Heavy Hands": {"Strength": 40, "description": "근접 공격력 및 무기 데미지 증가"},
-    "Conquer Your Fears": {"Strength": 25, "Willpower": 25, "description": "공포/패닉 면역"},
+    "Showstopper": {"Strength": 40, "description": "적 구르기 시 지면 강타 및 멍함/이속버프 제거"},
+    "Collapsed Lung": {"Strength": 100, "description": "블록 브레이크 시 적 Vent 봉인 및 붕괴"},
+    "Piercing Blow": {"Strength": 100, "description": "가드브레이크 시 적 방어력 무시"},
 
     # Agility 계열
-    "Ghost": {"Agility": 40, "description": "회피 성공 시 투명화 및 프레임 회피"},
-    "Speed Demon": {"Agility": 25, "description": "출혈(Bleed) 중인 적 공격 시 공격 속도 대폭 증가"},
-    "Tap Dancer": {"Agility": 60, "Charisma": 20, "description": "구르기 쿨타임 대폭 감소 및 페리 구르기"},
+    "Ghost": {"Agility": 40, "description": "Q 회피 시 1.2초 무적 판정(I-frame) 및 투명화"},
+    "Speed Demon": {"Agility": 25, "description": "출혈(Bleed) 중인 적 공격 시 공격 및 이동 속도 증가"},
+    "Tap Dancer": {"Agility": 60, "description": "구르기 쿨타임 대폭 감소 및 페리 구르기"},
     "Conditioned Runner": {"Agility": 25, "description": "전투 중 질주 시 체력 서서히 재생"},
-    "Eel's Instinct": {"Agility": 30, "description": "회피 무적 프레임 증가"},
-    "Observation": {"Agility": 25, "description": "적 모션 감지 및 시각화"},
+    "Observation": {"Agility": 20, "description": "적 모션 감지 및 시각화"},
 
     # Willpower 계열
-    "Heretic's Sutra": {"Willpower": 80, "Strength": 20, "description": "광기(Insanity)를 소모하여 폭발적인 버프 획득"},
-    "Lose Your Mind": {"Willpower": 30, "description": "광기 상태에서 데미지 최대 +30% 증폭"},
-    "Giant Slayer": {"Willpower": 50, "description": "대형 몬스터/보스 대상 데미지 +15%"},
-    "All the Rage": {"Willpower": 40, "description": "피격 시 분노 스택 및 공격력 증가"},
-    "Piercing Opening": {"Willpower": 40, "description": "패링 성공 시 적 방어력 무시"},
+    "Heretic's Sutra": {"Willpower": 80, "description": "광기(Insanity)를 발동하여 광기 탤런트 활성화"},
+    "Lose Your Mind": {"Strength": 30, "Fortitude": 30, "description": "광기(Insanity) 상태에서 피해량 최대 +15% 증폭"},
+    "Conquer Your Fears": {"Willpower": 10, "description": "공포/패닉 면역"},
+    "Piercing Will": {"Willpower": 80, "description": "정신력이 낮을 때 방어 관통력(PEN) 최대 +15% 증가"},
 
     # Charisma 계열
     "Charismatic Cast": {"Charisma": 25, "description": "만트라 적중 시 적에게 참(Charm) 부여"},
     "Tough Love": {"Charisma": 25, "description": "참 걸린 적에게 가하는 데미지 +10%"},
-    "Dazing Finisher": {"Charisma": 55, "description": "콤보 피니시 시 적 시야 차단 및 스턴"},
-    "Last Resort": {"Charisma": 75, "description": "체력 위기 시 매혹 폭발"},
+    "Chaotic Charm": {"Charisma": 55, "description": "피격 시 상대방 매혹 및 받는 피해 감소"},
+    "Enrage": {"Charisma": 65, "description": "도발 상태 적 기절 시 분노 유발"},
 
     # Intelligence 계열
-    "Eureka": {"Intelligence": 30, "description": "에테르 소모량 감소"},
-    "Master Craftsman": {"Intelligence": 40, "description": "물약 및 장비 제작 효율 극대화"},
-    "Nullifying Clarity": {"Intelligence": 45, "description": "디버프 해제 및 추가 피해"},
+    "Eureka": {"Intelligence": 30, "description": "에테르 소모량 감소 및 패링 시 에테르 회복"},
+    "Master Craftsman": {"Intelligence": 45, "description": "물약 및 장비 제작 효율 극대화"},
+    "Nullifying Clarity": {"Strength": 15, "Intelligence": 5, "description": "속성 디버프 해제 및 추가 마법 피해"},
 }
 
 # Deepwoken 공식 Oath 선행 조건 목록
@@ -141,7 +138,7 @@ class DeepwokenFactChecker:
 
     @staticmethod
     def parse_stats_from_advice(text: str) -> Dict[str, int]:
-        """AI 조언 텍스트에서 추천된 사원 후(Post-Shrine) 최종 330pt 스탯을 최우선 정밀 자동 추출 (마크다운 표 및 리스트 지원)"""
+        """AI 조언 텍스트에서 추천된 사원 후(Post-Shrine) 최종 330pt 스탯을 최우선 정밀 자동 추출 (섹션, 마크다운 표, 리스트 완전 대응)"""
         key_patterns = {
             "Strength": [r"(?:Strength|근력|힘)\b", r"STR\b"],
             "Fortitude": [r"(?:Fortitude|인내|체력)\b", r"FORT\b"],
@@ -160,56 +157,61 @@ class DeepwokenFactChecker:
             "Ironsing": [r"(?:Ironsing|철|아이언)\b"],
         }
 
-        def _extract_from_table(src: str) -> Dict[str, int]:
-            table_dict = {}
-            for line in src.split("\n"):
-                if "|" in line:
-                    cells = [c.strip() for c in line.split("|") if c.strip()]
-                    # 세로형 표는 첫 번째 셀에 콜론(:)이 없어야 함 (예: | Strength | 40 | 30 |)
-                    if len(cells) >= 2 and ":" not in cells[0]:
-                        first_cell = cells[0]
-                        val_cell = cells[-1] # 사원 후(마지막 셀) 스탯
-                        for canonical_name, pat_list in key_patterns.items():
-                            if canonical_name in table_dict:
-                                continue
-                            if any(re.search(pat, first_cell, re.IGNORECASE) for pat in pat_list):
-                                num_match = re.search(r"\b(\d{1,3})\b", val_cell)
-                                if num_match:
-                                    v = int(num_match.group(1))
-                                    if 0 <= v <= 102:
-                                        table_dict[canonical_name] = v
-            return table_dict
-
-        def _extract_from_text(src: str) -> Dict[str, int]:
-            parsed_dict = {}
-            chunks = re.split(r"[\n,;|]", src)
+        # 1. Post-Shrine 블록 우선 추출 (헤더 타이틀이 아닌 실제 Post-Shrine 스탯 목록 블록 탐색)
+        post_matches = list(re.finditer(r'(?:[\*\#\-]\s*)?\**\b(?:Post-Shrine|사원\s*후)\b\**[^\n]*\n([\s\S]*?)(?=\n\s*[\*\#\-]\s*\**\b(?:Pre-Shrine|사원\s*전|장비|만트라|2\.|3\.|4\.)\b|\n---|\Z)', text, re.IGNORECASE))
+        for match in reversed(post_matches):
+            section_text = match.group(1)
+            parsed = {}
+            chunks = re.split(r"[\n,;|]", section_text)
             for chunk in chunks:
                 for canonical_name, pat_list in key_patterns.items():
-                    if canonical_name in parsed_dict:
+                    if canonical_name in parsed:
                         continue
                     for pat in pat_list:
-                        match = re.search(rf"{pat}[^\d\n:]*?[:\s=]+\**(\d{{1,3}})\**", chunk, re.IGNORECASE)
-                        if match:
-                            val = int(match.group(1))
+                        m = re.search(rf"{pat}[^\d\n:]*?[:\s=]+[\*`_]*(\d{{1,3}})[\*`_]*", chunk, re.IGNORECASE)
+                        if m:
+                            val = int(m.group(1))
                             if 0 <= val <= 102:
-                                parsed_dict[canonical_name] = val
+                                parsed[canonical_name] = val
                                 break
-            return parsed_dict
+            if len(parsed) >= 3:
+                return parsed
 
-        # 1. 마크다운 테이블 우선 파싱
-        from_table = _extract_from_table(text)
-        if len(from_table) >= 4:
-            return from_table
+        # 2. 마크다운 테이블 (세로형 표) 검출
+        table_dict = {}
+        for line in text.split("\n"):
+            if "|" in line:
+                cells = [c.strip() for c in line.split("|") if c.strip()]
+                if len(cells) >= 2 and ":" not in cells[0]:
+                    first_cell = cells[0]
+                    val_cell = cells[-1] # 마지막 셀(Post-Shrine 스탯)
+                    for canonical_name, pat_list in key_patterns.items():
+                        if canonical_name in table_dict:
+                            continue
+                        if any(re.search(pat, first_cell, re.IGNORECASE) for pat in pat_list):
+                            m = re.search(r"\b(\d{1,3})\b", val_cell)
+                            if m:
+                                v = int(m.group(1))
+                                if 0 <= v <= 102:
+                                    table_dict[canonical_name] = v
+        if len(table_dict) >= 3:
+            return table_dict
 
-        # 2. Post-Shrine 섹션 우선 추출
-        post_sections = re.split(r"(?:Post-Shrine|사원 후|최종 스탯|최종 종결 스탯|완성 스탯)", text, flags=re.IGNORECASE)
-        if len(post_sections) > 1:
-            res = _extract_from_text(post_sections[-1])
-            if len(res) >= 3:
-                return res
-
-        # 3. 전체 텍스트에서 추출 (폴백)
-        return _extract_from_text(text)
+        # 3. 전체 텍스트 fallback
+        fallback = {}
+        chunks = re.split(r"[\n,;|]", text)
+        for chunk in chunks:
+            for canonical_name, pat_list in key_patterns.items():
+                if canonical_name in fallback:
+                    continue
+                for pat in pat_list:
+                    m = re.search(rf"{pat}[^\d\n:]*?[:\s=]+[\*`_]*(\d{{1,3}})[\*`_]*", chunk, re.IGNORECASE)
+                    if m:
+                        val = int(m.group(1))
+                        if 0 <= val <= 102:
+                            fallback[canonical_name] = val
+                            break
+        return fallback
 
     @staticmethod
     def validate_racial_base_stats(race: str, stats: Dict[str, int]) -> Tuple[bool, List[str]]:

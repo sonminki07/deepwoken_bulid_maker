@@ -53,7 +53,8 @@
     "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
     "talents": "Collapsed Lung (방어 파괴), Showstopper, Reinforced Armor (체력 450+ 깡방어), Ghost (확정 회피), Giant Slayer (보스 딜 +15%), Exoskeleton, Speed Demon, Tough Love, Underdog",
     "source_video": "Duke / Primadon Boss Killer M1 Melter Guide",
-    "description": "Canor 종족 보너스(Str 3, Cha 2) 기반 사일런트하트 헤비 평타 빌드. 사원 전 Str 80/Fort 90/Agl 40/Wil 50 선행 탤런트 획득 후 대검 100 마스터 (정확히 330pt)."
+    "description": "Canor 종족 보너스(Str 3, Cha 2) 기반 사일런트하트 헤비 평타 빌드. 사원 전 Str 80/Fort 90/Agl 40/Wil 50 선행 탤런트 획득 후 대검 100 마스터 (정확히 330pt).",
+    "core_talents": []
   },
   "🌪️ Gale Medium Depth Stalker (Kato - F99KaTfAqAE)": {
     "name": "🌪️ Gale Medium Depth Stalker (Kato - F99KaTfAqAE)",
@@ -109,7 +110,8 @@
     "mantras": "Gale Lunge (돌진 가드브레이크), Rising Wind (에어본 콤보), Heavenly Wind (광역 연타), Wind Blade, Sinister Halo",
     "talents": "Reinforced Armor, Ghost, Tough Love, Exoskeleton, Speed Demon, Charismatic Cast, Conditioning, Eureka",
     "source_video": "https://www.youtube.com/watch?v=F99KaTfAqAE (Kato)",
-    "description": "Kato의 Gale Medium Starkindred 빌드. 뎁스 파밍 및 PvP 겸용 최고속 기동 폭딜러 (정확히 330pt)."
+    "description": "Kato의 Gale Medium Starkindred 빌드. 뎁스 파밍 및 PvP 겸용 최고속 기동 폭딜러 (정확히 330pt).",
+    "core_talents": []
   },
   "🩸 Bloodrend Vampire Starkindred (PvE Drain Beast)": {
     "name": "🩸 Bloodrend Vampire Starkindred (PvE Drain Beast)",
@@ -165,7 +167,8 @@
     "mantras": "Crystal Impale, Glacial Arc, Celestial Assault, Ascension, Sinister Halo",
     "talents": "Reinforced Armor, Ghost, Tough Love, Exoskeleton, Grand Feast, Bloodrend, Underdog",
     "source_video": "Progressing The BLOODREND VAMPIRE Build (1-20)",
-    "description": "Capra 종족의 회복 마크와 Vampirism 엔챈트를 융합한 불사신 흡혈 스타킨드레드 (정확히 330pt)."
+    "description": "Capra 종족의 회복 마크와 Vampirism 엔챈트를 융합한 불사신 흡혈 스타킨드레드 (정확히 330pt).",
+    "core_talents": []
   },
   "🔥 Azure Flame Steam Duster (Knockdown Combo PvP/PvE)": {
     "name": "🔥 Azure Flame Steam Duster (Knockdown Combo PvP/PvE)",
@@ -217,7 +220,8 @@
     "mantras": "Flame Leap, Rising Flame, Fire Blade, Ash Slam, Graceful Step",
     "talents": "Azure Flames, Reinforced Armor, Ghost, Speed Demon, Tough Love, Exoskeleton, Eureka",
     "source_video": "Yun Shul Sent Me This Build In My Sleep (Azure Flame Steam Duster)",
-    "description": "푸른 불꽃(Azure Flames)과 스팀 너클 너크다운 연타 콤보 머신 (정확히 330pt)."
+    "description": "푸른 불꽃(Azure Flames)과 스팀 너클 너크다운 연타 콤보 머신 (정확히 330pt).",
+    "core_talents": []
   },
   "💍 Poser's Ring Ironsing Thundercall (Soulbreaker Boss Annihilator)": {
     "name": "💍 Poser's Ring Ironsing Thundercall (Soulbreaker Boss Annihilator)",
@@ -271,7 +275,8 @@
     "mantras": "Metal Ball, Iron Hug, Lightning Stream, Grand Javelin, Magnet Beam",
     "talents": "Reinforced Armor, Ghost, Tough Love, Speed Demon, Exoskeleton, Nullifying Clarity",
     "source_video": "The Strongest POSER'S RING PvE Build...",
-    "description": "포저스 링 크리티컬 폭딜과 아이언싱/썬더콜 듀얼 감전 결박 콤보 (정확히 330pt)."
+    "description": "포저스 링 크리티컬 폭딜과 아이언싱/썬더콜 듀얼 감전 결박 콤보 (정확히 330pt).",
+    "core_talents": []
   },
   "🧱 Volcanic Glass Brick Wall Spear (Beginner Immortal PvE)": {
     "name": "🧱 Volcanic Glass Brick Wall Spear (Beginner Immortal PvE)",
@@ -323,7 +328,8 @@
     "mantras": "Sightless Beam, Tranquil Circle, Flame Leap, Fire Blade, Rising Flame",
     "talents": "Brick Wall (넉백/스턴 완전 면역), Reinforced Armor, Exoskeleton, Giant Slayer, To the Finish",
     "source_video": "This BEGINNER PVE Build Can Do ANYTHING... (Volcanic Glass Brick Wall)",
-    "description": "사원 전 Fort 100 / Wil 100으로 Brick Wall 획득 후 창 100 마스터한 불사신 브릭월 탱커 (정확히 330pt)."
+    "description": "사원 전 Fort 100 / Wil 100으로 Brick Wall 획득 후 창 100 마스터한 불사신 브릭월 탱커 (정확히 330pt).",
+    "core_talents": []
   },
   "👁️ Super Sigma Soul Beam Blindseer (Boss One-Shot)": {
     "name": "👁️ Super Sigma Soul Beam Blindseer (Boss One-Shot)",
@@ -375,7 +381,8 @@
     "mantras": "Sightless Beam (정신 빔 폭딜), Tranquil Circle, Crystal Impale, Glacial Arc, Ice Spire",
     "talents": "Reinforced Armor, Ghost, Tough Love, Giant Slayer, Exoskeleton, Speed Demon, Eureka",
     "source_video": "The STRONGEST SOUL BEAM PvE/PvP BUILD... (ONE SHOT BOSSES)",
-    "description": "블라인드시어 고유의 Sightless Beam과 프로스트 빙결 동결을 융합한 원거리 빔 학살자 (정확히 330pt)."
+    "description": "블라인드시어 고유의 Sightless Beam과 프로스트 빙결 동결을 융합한 원거리 빔 학살자 (정확히 330pt).",
+    "core_talents": []
   },
   "⚔️ Silent Swordsman Shattered Katana (Verse 3 PvE God)": {
     "name": "⚔️ Silent Swordsman Shattered Katana (Verse 3 PvE God)",
@@ -425,7 +432,8 @@
     "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
     "talents": "Collapsed Lung, Showstopper, Reinforced Armor, Ghost, Giant Slayer, Exoskeleton, Speed Demon, Tough Love",
     "source_video": "The BEST PvE Build Silent Swordsman Showcase | Deepwoken Verse 3",
-    "description": "Khan 종족의 장비 스탯 감소 보너스와 섀터드 카타나 초고속 M1 연타 사일런트하트 (정확히 330pt)."
+    "description": "Khan 종족의 장비 스탯 감소 보너스와 섀터드 카타나 초고속 M1 연타 사일런트하트 (정확히 330pt).",
+    "core_talents": []
   },
   "🌑 The #1 Shadowcast Medium (Verse 2 Shadow God)": {
     "name": "🌑 The #1 Shadowcast Medium (Verse 2 Shadow God)",
@@ -477,7 +485,8 @@
     "mantras": "Shadow Roar, Shadow Chains, Shadow Seekers, Eclipse Kick, Shadow Eruption",
     "talents": "Reinforced Armor, Ghost, Tough Love, Speed Demon, Exoskeleton, Nullifying Clarity",
     "source_video": "The #1 Shadowcast Build | Deepwoken",
-    "description": "에테르 스틸과 섀도우 연타로 상대방의 자원을 고갈시키고 암흑 폭딜을 퍼붓는 빌드 (정확히 330pt)."
+    "description": "에테르 스틸과 섀도우 연타로 상대방의 자원을 고갈시키고 암흑 폭딜을 퍼붓는 빌드 (정확히 330pt).",
+    "core_talents": []
   },
   "🗡️ Ashen Moppet Dagger M1 Glass Cannon (1-20 PvE)": {
     "name": "🗡️ Ashen Moppet Dagger M1 Glass Cannon (1-20 PvE)",
@@ -527,6 +536,7 @@
     "mantras": "Graceful Step, Revenge, Taunt, Rapid Slashes",
     "talents": "Collapsed Lung, Showstopper, Reinforced Armor, Ghost, Speed Demon, Tough Love, Giant Slayer",
     "source_video": "Dagger M1 PvE Progression (1-20) | Deepwoken",
-    "description": "단검의 초당 5회 타격 속도에 Detonation 폭발을 중첩시켜 보스를 갈아버리는 글래스 캐논 (정확히 330pt)."
+    "description": "단검의 초당 5회 타격 속도에 Detonation 폭발을 중첩시켜 보스를 갈아버리는 글래스 캐논 (정확히 330pt).",
+    "core_talents": []
   }
 }
