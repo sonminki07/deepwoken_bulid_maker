@@ -42,14 +42,7 @@ class VideoCollector:
             "skip_download": True,
             "quiet": True,
             "no_warnings": True,
-            "extractor_args": {
-                "youtube": {
-                    "player_client": ["android_vr", "android", "ios", "web_embedded", "web"]
-                }
-            }
         }
-        if Path("cookies.txt").exists():
-            ydl_opts["cookiefile"] = "cookies.txt"
         try:
             with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                 info = ydl.extract_info(url, download=False)
@@ -94,12 +87,12 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략: Android/iOS 최적화 포맷
+        # 다운로드 포맷 전략
         format_strategies = [
-            "best[ext=mp4]/best",
-            "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720][ext=mp4]/best[height<=720]",
-            "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/best[height<=480][ext=mp4]/best[height<=480]",
+            "bestvideo[height<=720]+bestaudio/best[height<=720]/best",
+            "bestvideo[height<=480]+bestaudio/best[height<=480]/best",
             "bestvideo[ext=mp4][filesize<?2G]+bestaudio[ext=m4a]/best[ext=mp4]/best",
+            "best",
         ]
 
         last_err = None
@@ -112,14 +105,7 @@ class VideoCollector:
                 "quiet": False,
                 "no_warnings": True,
                 "retries": max_retries,
-                "extractor_args": {
-                    "youtube": {
-                        "player_client": ["android_vr", "android", "ios", "web_embedded", "web"]
-                    }
-                }
             }
-            if Path("cookies.txt").exists():
-                ydl_opts["cookiefile"] = "cookies.txt"
             if ffmpeg_location:
                 ydl_opts["ffmpeg_location"] = ffmpeg_location
 
