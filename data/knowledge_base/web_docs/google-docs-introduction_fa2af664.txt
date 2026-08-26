@@ -1,0 +1,417 @@
+Title: Google Docs: Introduction
+URL: https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0
+Description: Imported from Google Docs
+
+==================================================
+
+Introduction
+Frostdraw
+
+
+Info:
+Difficulty To Play: ★★★☆☆
+Versatility: ★★★★★
+Rating For PvP: A+
+Updated: June 12th, 2026
+Made By: Rioshinki
+
+
+About:
+Frostdraw utilizes its own usage of mantras to apply its effects and pops off at creating opportunities to follow up and combo your opponents. The majority of the community has this attunement in any combo related build due to how versatile it is, with some investing 40 points into it even just for a single mantra. It’s seen in both comp and casual play as it's easy to learn, but hard to master completely as using one of mantras at the wrong time can lead to your opponent punishing you. 
+
+
+Pros: Frostdraw is quick and has multiple mixups all of which are combo starters especially with the talent, Frozen Legs which prevents rolling. It also has tankiness as it gains resistance with the talent Orbital Ice. Frostdraw also gives the user access to tons of area control by placing ice on the floor which benefits them in various ways. There are benefits at both low and high investments and they can fit into almost any build. On top of this, it also has its uses for support builds as it contains multiple useful ranged mantras which are decent for third partying and applying its status effect.
+
+
+Cons: Even though Frostdraw does contain tons of area control, it drastically lacks mobility. This is why it is typically seen more in chime than ganks as chime is an enclosed area. Frostdraw itself has no consistent mobility mantras and relies on other sources to keep up with other people. Frostdraw itself is lackluster in AOE mantras.
+
+
+(Note: With the recent addition of Glacial Arc being destructible, Frostdraw’s mobility has never been worse. Ice Skate may help pass gaps in the Depths, but the main problem is how slow it is and it leaves you completely open to getting hit by ranged abilities for free.)
+
+
+riowatermark
+
+
+
+
+Point Optimization:
+
+
+Low Frost: This can change depending on your build and what you’re using Frost for. You can opt for 40 Frostdraw pre-shrine if you just want Crystal Impale. Other than these, there's really no other benchmarks for low investment Frost.
+
+
+Steam/Vaporborne: This path is reliant on both Ice and Flame mantras. It’s best to not just go 30 Frostdraw on this if you are able to.
+
+
+Orbital Ice: Avoid only going 65 Frostdraw for this talent pre-shrine if needed as it scales down. While it’s good, you should only be trying to grab it on your 80 or high Frostdraw investment builds.
+
+
+Traits: It is best to invest into Songchant over Proficiency on Frostdraw due to its high scaling, but there’s nothing wrong with just running 6 Vitality and 6 Erudition as well.
+
+
+Misc: Frostdraw has no essential talents needed with the base stats that you shouldn’t have already on your build (Strength, Fortitude, Agility, etc.) So you don't have to worry about those revolving around Frostdraw.
+
+
+
+
+Misc Info:
+
+
+* Orbital “Oce” for those who know
+
+
+
+
+Please don’t hesitate to @ me on Discord if you have any other questions relating to Frostdraw or building in general.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Talent Selection
+Talent Selection Guide
+
+
+
+
+MUST TAKES/NEVER DROP:
+
+
+Fragile Freeze: This talent allows you to follow up combos a lot easier when you guard break your opponent.
+
+
+Saint Jay/Frostbite: You should ALWAYS be taking this, even on Crystal Path as you are still able to apply chilled. Saint Jay gives you more sustain throughout the fight.
+
+
+Orbital Ice: Unless you did 65 Frostdraw pre (which you shouldn’t have), you will always take this talent. It is free resistances.
+
+
+Cryonis: You should have multiple sources and ways of placing ice on the floor. This means you will always be getting use out of this talent.
+
+
+Optional/Situational:
+
+
+Unyielding Frost: Avoid getting this talent just for the sake of it. It's not worth the investment and is typically only taken on purpose for cheese strategies. If you are specifically going 100 Frostdraw for this talent, you should have a very good reason for it.
+
+
+Preceding Chill: If you are using Ice Beam, you should always be taking this talent. It freezes your opponent for free allowing you or your teammates to follow up.
+
+
+Frozen Legs: This talent is extremely build reliant as it only procs for 0.75 seconds. The way to use this talent is to movestack with a Frostdraw mantra such as Ice Cubes or Ice Forge first. This way, you can actually use another attack with this talent uptime. If you try using it with something like Ice Smash, adding in the hitstun and the windup animation of your next move, this will basically make the talent useless and impossible to follow up on properly. Drop this talent if you don’t have a way to realistically use it.
+
+
+Frozen Pin-Cushion: If you are taking Ice Daggers, you should always be taking this talent. You will typically slide cast or be ready to follow up immediately after hitting this mantra. Freezing them allows you to do this easier.
+
+
+Chilling Flourish: If you have Frost Wisp this talent is droppable. You don't need this talent since Wisp has this talent innate. If you don't though, you should always be taking this talent for the ice placement.
+
+
+Cold Front: Venting places ice and instead of putting the situation at neutral, you'll slightly have an upper hand due to you being able to utilize the frost. You should always take this talent unless you have Ice Wisp where it becomes innate, meaning you can drop it otherwise.
+
+
+Cool Head: This is an extremely good talent as it counters Flamecharm users. If you have the space you should grab it, but due to it relying on what your opponent is using which is inconsistent itself, this talent is droppable when tight on talents.
+
+
+Glacial Coasting: If you’re using a Konga slide ring and/or you just slide cast consistently, there’s nothing wrong with taking this talent. More ice placement never hurts, but keep in mind that this talent is droppable.
+
+
+Crystal Path: Crystalization / Reclaimed Glass / Crystal Shrapnel: When going Crystal, always take all of these talents. They all benefit you in some shape or form in all situations and builds.
+
+
+Bottom Freeze: This talent pairs extremely well with mantras such as Ice Daggers, since it helps you follow up on your opponent easier while restraining their movement. This also makes them unable to turn, making backhitting with your mantras/m1s a lot easier. This talent is droppable if you don’t have any way to proc it, but if you do, you should always take it.
+
+
+Frozen Anchor: Bottom Freeze is an extremely powerful status effect that completely stops your opponent from moving and turning. With this talent, you can essentially proc this talent every 10 seconds which is its cooldown. Keep in mind, this talent doesn’t have any drawback from shrining it down so don’t be afraid to do so. Even though this talent is a general “buff” to a Frostdraw build, try to only go for this talent if you are trying to confirm a move or make it easier to hit. An example of this can be Sightless Beam and/or Hailbreaker critical.
+
+
+Stasis Strike: If you have a way to proc bottom freeze consistently and/or have Frozen Anchor, this is a decent talent to have. You’ll typically only be able to get this talent with Frozen Anchor and it’s not recommended to just stop at 90 of your weapon stat and 90 Frostdraw. Don’t go for this talent just for a bit of extra proc damage as the proc conditions are semi-inconsistent as you need to Bottom Freeze your opponent, then proc crystals.
+
+
+Frost Buster: This talent is droppable but more ice placement never hurts to have. 
+
+
+Glacial Mobility: You should never be getting Ice Blade in the first place due to how unviable it is currently, but if you do grab it for some reason, this makes the mantra a bit more bearable to use as it turns into one slash after a slide cast.
+
+
+NEVER TAKE:
+
+
+Condensation Drip: This talent only affects your passive thirst drain (which is easy enough to recover normally) so there’s no real reason to take this talent.
+
+
+Misc/Hybrid:
+
+
+Volcanic Glass: There’s no reason to not grab this talent if you are using the Eruption/Crystal hybrid combo. This makes it easier to proc eruptions meaning more DPS potential.
+
+
+Temperature Shock: Make sure you grab this talent on your Eruption/Crystal hybrid builds. This makes it easier to proc crystals meaning more DPS potential.
+
+
+Flashboil: On a normal Flamecharm/Frostdraw hybrid build, this talent is extremely powerful especially if you have some form of lockdown on your build. You are sacrificing the status effect of Chilling when proccing this, but with its recent nerfs, it’s not terrible to occasionally have a DPS boost from your Steam in a fight over Chilling.
+
+
+Boiling Point: If you don’t have some consistent way to keep your opponent in the Steam for its DPS, Boiling Point is a perfect solution to do more damage instead of it just being useless aside from area control on the battlefield.
+
+
+Fulgurite Formation: You should have a way to consistently proc either Crystal or Surge stacks on your build. An example of this would be using Boltcrusher as it applies surge stacks on m1 and it has a guardbreak critical which can instantly overload the opponent’s surge stacks causing Fulgurite Formation to proc. If you lack a way to get stacks on either or, it’s recommended to just take normal Frostdraw and Thundercall.
+
+
+Freezing Wight: This talent allows you to proc Chill off of your Galebreathe mantras. If you are able to take this talent, you should. Avoid this talent if you are doing Low Galebreathe though as you’ll lack ways to proc Haunted Gale (and if you don’t I’m not sure why you’re taking multiple Gale Mantras on a low gale build).
+
+
+Cold Blooded: This talent makes it extremely easy to stack up Blood Poison on your opponent which can proc Blood Poison related talents and its passives. Both normal Frostdraw and Crystals have the same potential as of how much Blood Poison they can stack, so just go the path that fits best with your current build.
+
+
+Dual Attunements
+Dual Attunement Ratings
+
+
+(Key)
+
+
+(★☆☆☆☆) - Unviable / Never Run
+(★★☆☆☆) - Niche Synergy / Not Recommended
+(★★★☆☆) - Viable / Some Weaknesses
+(★★★★☆) - Powerful / Little To No Weaknesses
+(★★★★★) - OP / No Weaknesses When Built Correctly
+
+
+
+
+Flamecharm/Frostdraw (★★★★☆): This pair has two choices being Volcanic Glass or the Steam Path. Both offer insanely good DPS when used properly and both combo well into each other. The only real weakness of this dual attunement is the lack of overall chase/mobility.
+
+
+Frostdraw/Thundercall (★★★★☆): With these two attunements you get access to Fulgurite Formation which is a status effect focused build with Crystal and Surge stacks. When utilized properly you can deal tons of burst damage and deal absurd amounts of damage. Normal Frostdraw and Thundercall is also a viable pick as well if you lack ways to stack Crystal and Surge stacks. Thundercall covers for Frostdraw’s major weakness of lacking gap closing tools and posture pressure. Frostdraw also provides excellent backhit mantras for Thundercall as well to capitalize off of shaky blocks. It’s highly recommended to go 80/80 on this pair and not go low investment on either especially on Fulgurite Formation.
+
+
+Frostdraw/Galebreathe (★★★★★): Gale makes up for the lack of Frost’s mobility and also provides multiple mixups which fits into a builds overall kit. You can pick and choose your fights properly and be unstoppable in a gank or just be a chime menace with the amount of pressure you can apply to a single person.
+
+
+Frostdraw/Shadowcast (★★★★☆): The amount of lockdown you have with this pair is extremely powerful. This is one of the most popular dual attunements as Shadow’s slow moves with Frost’s quick ones allow for excellent mixups and pressure against a single opponent. The only weakness of this pair is just overall mobility. 
+
+
+Frostdraw/Ironsing (★★★★☆): The two tankiest attunements together in one. This pair makes you an unstoppable tank while still having crazy damage output. Ironsing can set up for Frost and Frost can set up for Ironsing so they go hand in hand perfectly together. The weakness of this pair is that Ironsing is typically extremely self reliant on its own usage so it doesn’t leave a lot of room for other oath mantras.
+
+
+Frostdraw/Bloodrend (★★★★★): Cold Blooded is one of the most broken hybrids in the game currently. Hitting a couple of Frostdraw mantras will basically max out your opponent's Blood Poison which offers all sorts of debuffs towards them. Everyone you fight against will basically always be doing 12.5% less damage due to one of Blood Poisons passives as soon as you start fighting them. The only weakness of this pair is ways to set up for a guardbreak with Ice Smash consistently, but you still have plenty of ways to pressure posture. It’s highly recommended to go 80/80 on this pair (and even 85 Bloodrend for Gruesome Harvest!). Alternatively, you can also get away with low Bloodrend (40=<) and high Frostdraw. Avoid doing low Frostdraw and high Bloodrend.
+
+
+Mantras
+Mantra Selection Guide
+
+
+
+
+IMPORTANT:
+
+
+You will ALWAYS need some way of ice placement as you gain so many benefits from this. It is recommended you always take either Ice Wisp or Frozen Servants for consistency. There is ONE exception to this rule which is if you are using a legendary weapon that places ice for you, but even with this, it's still highly recommended you have some way to place ice consistently through your mantras. Keep this in mind when using Frostdraw.
+
+
+S Tier Mantras:
+
+
+Ice Lance: This mantra is literally Frostdraw’s signature move. You can use it to combo extend and it does an absurd amount of damage. It can also be used to gap close as it does have a lunge effect. You should always be taking this mantra on every Frostdraw build.
+
+
+Ice Daggers: The animation on this mantra is so wacky it's almost impossible to read especially when slide casted. In laggier servers too, the daggers straight up just turn invisible as well. It also benefits from multiple talents which can be used for setting up combos. This is one of the best mantras for ice, but keep in mind it's not needed every single time. With its talent, Frozen-Pin Cushion, you freeze your opponent on hit.
+
+
+Ice Smash: This is a true guard break at level 5 and procs Chill on-hit. It also has another hit that's optional afterwards so you can throw it out if your opponent dodges the first hit to attempt to roll catch.
+
+
+Crystal Impale: This mantra is one of the best combo starters as when used properly it knocks your opponent down for a short duration if they were in the air allowing you to get a free hit in. It’s typically used after an uppercut due to its quick windup. You have to learn how to use this mantra properly though as you can’t really just throw it out randomly in a fight.
+
+
+Glacial Arc: This mantra essentially a combat slot mantra on a mobility slot. While it may not seem very menacing, it does a crazy amount of damage while also having guardbreak potential due to its high posture damage. It’s highly recommended to take this mantra if you have some way to make up for your lack of mobility on Frostdraw or are simply just a chime only build.
+
+
+A Tier Mantras:
+
+
+Frozen Servants: This mantra is one of the best ice placement mantras in the game. When modified, this mantra can essentially cover a whole chime arena while still providing decent utility in a fight.
+
+
+Ice Forge: When modified, this mantra can basically be impossible to parry because of the animation and hitboxes. Sometimes the parry timing is so off in laggier servers that you don’t get auto parry frames for the whole thing and it hits your block. You can use a Wayward Deep Gem on this to easily movestack something on top of this as well.
+
+
+Frost Grab: This is an excellent roll catcher, applies chill which can set up for a combo, and is a popular pick among players. This mantra forces a parry trade with you having priority first.
+
+
+Ice Carve: This mantra is especially good on Crystal as it procs tons of Crystals and is highly recommended to take on Crystal builds. You can throw this mantra out whenever and it doesn’t offer auto parry frames meaning they have to manually spam F when it comes out. Even when they do this, it still hits a couple times throughout the mantra.
+
+
+Rising Frost: When slide casting this mantra, you can backhit and roll catch with it. This mantra also is extremely buggy and gains tons of Bloodless Gem healing on top of dealing insane damage.
+
+
+Iceberg: This support mantra is a solid pick as it offers zone control while healing you. It forces your opponents to run into you which is good itself as well. Practice slide cast jumping this mantra moves you a bit and displaces you making it a bit harder for your opponent to try and cancel it as fast as possible.
+
+
+Frost Wisp: This mantra is free ice placement around you every couple of seconds and should always be taken if you don't have another consistent source of ice placement. It also offers Cold Front and Chilling Flourish innately.
+
+
+B Tier Mantras:
+
+
+Ice Chain: This mantra can be clicked once for free pressure. If you hit it, you apply chill which can be used with Frozen Legs to movestack with something else. 
+
+
+Ice Eruption: Be wary that you have to properly use this mantra as it has a huge amount of endlag essentially meaning you'll get punished if you miss it. This mantra cannot be parried or blocked, but they can dodge and also jump over it. It does allow you to hit a m1 or fast mantra afterwards, but doesn’t guarantee some slower mantras. Slide cast jumping will make it a lot easier to hit so practice doing this.
+
+
+Ice Cubes: This is a good fill mantra to take if you have the space for it as the main point of taking this mantra is to movestack with it. If you use this mantra, practice slide casting it through your opponent so it hits a lot faster rather than just using it normally.
+
+
+Ice Flock: You can movestack on top of this mantra and it deals a good amount of damage per hit. While not every hit is guaranteed, this also works in your favor as it’s harder for your opponent to parry it. 
+
+
+C Tier Mantras:
+
+
+Ice Beam: This provides good spacing especially if you make it comically large, but it isn’t necessarily the best pick over other ice mantras. If you do like this mantra though, there’s nothing wrong with taking it as it comes out fast and can be good for spacing.
+
+
+Ice Fissure: This mantra is useful for applying Chill for free, zone control, and is sometimes taken on Frostdraw support builds. It's not the best pick, but there is essentially no counterplay to it besides not playing around it. Be aware that it uses tons of ether.
+
+
+Crystal Knee: This mantra’s main point is literally just to set up for crystal impale. It’s recommended to only take this on Crystal builds as if you don’t have the Crystal Path the damage is nerfed heavily and you are better off just using an uppercut. 
+
+
+NEVER TAKE:
+
+
+Ice Spikes: Due to this mantra’s talent being vaulted, this mantra itself isn’t that good anymore. This mantra doesn’t get any extra scaling from levels and is purely reliant on just your Frostdraw investment. 
+
+
+Warden’s Blades: This just gives your opponent’s free auto parry frames and screws you over when they know how to abuse them. 
+
+
+Ice Blade: The main problem with this mantra is how easy it is to parry. It hits 4 times meaning realistically you’ll only get 1 or 2 hits in before they parry it. Even with its talent, Glacial Mobility, you are sacrificing half of its damage just to hit it meaning you would be better off just casting it normally as it’s a multihit which can at least roll catch at best.
+
+
+Ice Lasers: This mantra is lackluster in DPS and there’s much better picks. Furthermore, it deals even less damage if you lack the Crystal Path.
+
+
+Ice Skate: This mantra is just too slow and is easily punished. It also leaves you open to being hit by ranged mantras or projectiles and generally isn’t a good escape tool. Even if you use it in the water to get away faster, you leave a trail of ice that your opponents can still follow you on. Outside of combat, it’s great to have, but it offers you nothing whilst in combat besides some ice placement.
+
+
+Weapons
+Weapons
+
+
+(Key)
+
+
+(★☆☆☆☆) - Unviable / Never Run
+(★★☆☆☆) - Niche Synergy / Not Recommended
+(★★★☆☆) - Viable / Some Weaknesses
+(★★★★☆) - Powerful / Little To No Weaknesses
+(★★★★★) - OP / No Weaknesses When Built Correctly
+
+
+Legendary Weapon Rating:
+
+
+Hero Blade of Frost (★★★★★): This weapon is the best Hero Blade in the game currently. It has an extremely abusable critical attack that you can move stack with, places ice, and gives you area control on top of having an extremely short CD.
+
+
+Gran Sudaraska (★★★★☆): This weapon places a considerable amount of ice, has decent DPS, an excellent critical, and is an extremely low investment. This being a heavy weapon allows for you to have even more mix ups and especially mix up uppercuts or other mantras.
+
+
+Kyrswynter (★★★★☆): This weapon allows you to zone your opponent easily with its range and also has good DPS. It doesn’t allow you to have as much varying attack speeds for mixups, but it's still an incredibly balanced weapon and isn’t a bad pick.
+
+
+Hailbreaker (★★★☆☆): This weapon has an extremely strong critical attack when utilized properly as you can slide cast it to hit your opponents a lot easier. It also procs either Chill or Crystals on every attack depending on your Frostdraw path. The only thing holding this weapon back is the high heavy investment needed to equip this, but is a powerful pick regardless.
+
+
+Rimebreakers (★★★☆☆): There’s very little reason to take this weapon over Wraithclaw as Wraithclaw is 10 points less expensive if you were on a hybrid Frostdraw/Galebreathe build. Its innate talent is also not the best. You don’t want to sacrifice your mobility especially on Galebreathe, and Galebreathe is all about playing offensive and fast while this weapon tries to promote the opposite. The critical is alright, but it doesn’t apply stronger effects like Suffocate or proc a Apparition like Gale’s stronger legendary weapons.
+
+
+Weapon Rating:
+
+
+Light Weapons (★★★★☆): This is a good pair as Light Weapons and Frostdraw allow for you to apply insane pressure against an opponent, but this pair lacks decent gap closing. You also aren’t able to mix up uppercuts as well for other mantras like Crystal Impale.
+
+
+Medium Weapons (★★★★★): This makes your build pretty balanced and allows for you to play passively or aggressively well. You also get provided with Medium’s arsenal of mantras such as Slice n’ Dice which can help with gap closing.
+
+
+Heavy Weapons (★★★★☆): Heavy weapons are objectively the best with Frostdraw. This gives you posture pressure with your m1s and mix ups with your fast mantras. You should ALWAYS be taking Crystal Impale on a heavy Frostdraw build due to how abusable uppercuts are on Heavy as well.
+Oaths
+Oath Selection Rating
+
+
+(Key)
+
+
+(★☆☆☆☆) - Unviable / Never Run
+(★★☆☆☆) - Niche Synergy / Not Recommended
+(★★★☆☆) - Viable / Some Weaknesses
+(★★★★☆) - Powerful / Little To No Weaknesses
+(★★★★★) - OP / No Weaknesses When Built Correctly
+
+
+
+
+Oathless (★★☆☆☆): Frostdraw does pop off of its own usage, but you should be looking at other oaths because Frostdraw helps set up for other things. You don't need the extra mantra slots to do this.
+
+
+Blindseer (★★★☆☆): Frostdraw has many ways of setting up for Sightless Beam such as Crystal Impale. This allows for you to get a bunch of cheesy combos off that do 1 to 2 bars of damage with minimal effort. Having ice on the floor increases your sliding which can be used for abusing slide casting Sightless Beam.
+
+
+Visionshaper (★★★☆☆): There is decent combo potential between Frostdraw and Visionshaper as both capitalize off of constant pressure and movestacks. The only real problem is you have no real gap closing tool with this pair.
+
+
+Starkindred (★★★★★): This oath offers an uptilt which can be used with Crystal Impale or you can even mix it up by throwing a guardbreak. Frozen Legs can make landing Death From Above a lot easier or even backhitting Sinister Halo. Starkindred also innately provides some form of mobility which helps out Frostdraw as well.
+
+
+Arcwarder (★★★★☆): This opens you up to one of the dual attunement paths like Volcanic Glass or Fulgurite Formation while providing mobility. The resistances from Frostdraw and the Arc Suit will just make you even tankier as well. This also gives you plenty of mantra slots to abuse the dual attunements as you'll have the mantra space for them. The only real weakness of this pair is stat points.
+
+
+Linkstrider (★☆☆☆☆): Frostdraw contains some decent third party mantras but it’s not really the best at doing it. As a Linkstrider, you want to be slippery and have multiple forms of mobility which Frostdraw just lacks heavily in.
+
+
+Jetstriker (★★★★★): Jetstriker goes hand in hand with Frostdraw’s high paced playstyle while covering for Frostdraw’s main weakness of lacking mobility. Jet Kick gap closes and can help start up combos if you hit it as well. 
+
+
+Dawnwalker (★★☆☆☆): Frozen Legs can help with landing Radiant Dawn but offers no real gap closing for Frostdraw. 
+
+
+Contractor (★★☆☆☆): Frostdraw realistically has no way to set up for Judgement and Contractor doesn’t have any form of gap closing as well.
+
+
+Silentheart (☆☆☆☆☆): Yeah.
+
+
+Chainwarden (★★★☆☆): Landing a chain can help out Frostdraw by giving it an easier time closing the gap due to mobility but the problem is landing the chain consistently. Frostdraw doesn’t have the best arsenal to bait out shaky block allowing you to land Restrain but the result of the chain is what helps out here. 
+
+
+Bladeharper (★★★☆☆): Bladeharper pops off from uppercuts and one of Frostdraw’s combos is uppercut into Crystal Impale. Bladeharper also just fits well with Frostdraw’s high pressure making these two a scary pair in the hands of a capable player. Make sure you have some form of gap closing to properly utilize this pair.
+
+
+Saintsworn (★★★☆☆): Majority of Frostdraw’s talents don’t work or are bugged with Saintsworn, but Frostdraw still offers its powerful arsenal of mantras meaning it can still fit well on majority of builds.
+
+
+Soulbreaker (★★★☆☆): Soulbreaker can help with some mixups with Rhythm Advance but it doesn’t offer what Frostdraw needs to be successful.
+
+
+Fadetrimmer (★★★★☆): Close Shave does offer some form of chase/mobility for Frostdraw to use so you can continue pressure on a person. Ice placement does also speed up your slide speed meaning slide casting Precision Cuts can be abused a lot easier as well.
+
+
+Saltchemist (★★★☆☆): Frostdraw can gain a lot of area control and denial which does synchronize with Saltchemist’s goals as well. This is a powerful pair if you want to play a bit more passive and/or third party, but you’ll lack proper chase and gap closing.
+
+
+Blightsurger (★★★★☆): Blightsurger is focused on spamming its mantras and knockdown. Frostdraw has multiple ways of adding on top of this fast paced oath and fits well with it on top of being able to further extend the knockdowns.
