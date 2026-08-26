@@ -1,0 +1,60 @@
+{
+  "video_meta": {
+    "title": "Deepwoken Wiki: Oath: Silentheart",
+    "channel": "Web Source",
+    "url": "https://deepwoken.fandom.com/wiki/Oath:_Silentheart",
+    "upload_date": "N/A",
+    "estimated_patch": "Current Patch"
+  },
+  "build_summary": {
+    "build_name": "Deepwoken Wiki: Oath: Silentheart",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "문서로부터 빌드 정보를 파싱했습니다.",
+    "strengths": [
+      "다양한 상황 대처 가능"
+    ],
+    "weaknesses": [
+      "기본 숙련도 요구"
+    ]
+  },
+  "race": "N/A",
+  "origin": "N/A",
+  "oath": "Oathless",
+  "resonance": "N/A",
+  "murmur": "N/A",
+  "stats": {
+    "strength": 0,
+    "fortitude": 0,
+    "agility": 0,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "galebreathe": 0,
+    "thundercall": 0,
+    "shadowcast": 0,
+    "ironsing": 0
+  },
+  "weapons": [],
+  "talents": [],
+  "mantras": [],
+  "shrine_of_order_path": "",
+  "equipment": [],
+  "combo_guide": "기본 만트라 연계 및 무기 평타 콤보를 활용하세요.",
+  "explored_sub_pages": [
+    "Oath: Oathless",
+    "Oath: Arcwarder",
+    "Oath: Bladeharper",
+    "Oath: Blightsurger",
+    "Oath: Blindseer",
+    "Oath: Chainwarden",
+    "Oath: Contractor"
+  ]
+}
