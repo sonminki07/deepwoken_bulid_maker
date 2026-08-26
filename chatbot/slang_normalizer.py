@@ -69,6 +69,14 @@ class DeepwokenSlangResolver:
                 "- Shrine of Order 절대 룰: 성소는 유저가 수동으로 투자(Invest)한 스탯 포인트만 평균화하여 재분배합니다.\n"
                 "- 종족 고유 기본 스탯(Canor의 Charisma +2, Strength +3)은 성소로 절대 삭감되지 않으며, 성소 후에도 종족 기본치 미만(0이나 1)으로 내려갈 수 없습니다! (Charisma는 최소 2 보존)"
             )
+        if "ghost" in user_query.lower() or "고스트" in user_query:
+            enrichment.append(
+                "⚠️ [시스템 강제 팩트체크: Ghost(유령) 탤런트 공식 위키 메커니즘]\n"
+                "- 선행 조건: Agility 40.\n"
+                "- 실제 효과: Q키(회피/구르기) 사용 시 1.2초간 무적 판정(I-frame) 및 일시적 투명화 부여 (쿨타임 20초).\n"
+                "- 주의/팩트: 피격 시 '자동 회피'나 '추가 대미지'는 전혀 없습니다! 순수 수동 Q 회피기입니다.\n"
+                "- 채용 이유: 보스의 광역기나 즉사급 다단히트 패턴을 Q구르기 한 번으로 무적 통과하기 위한 PvE 핵심 안전장치."
+            )
 
         if enrichment:
             return f"{resolved}\n\n" + "\n".join(enrichment)

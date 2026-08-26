@@ -42,13 +42,13 @@ DEEPWOKEN_TALENTS_DB: Dict[str, Dict[str, Any]] = {
         "name_ko": "유령 (Ghost)",
         "req": "Agility 40",
         "category": "기동/회피",
-        "desc": "Q(회피) 구르기 모션이 유령처럼 변하며 완전 무적 프레임이 대폭 증가하고, 회피 후 첫 공격에 보너스 대미지가 부여됩니다."
+        "desc": "Q(회피) 구르기 모션이 유령 대시로 강화되어 긴 무적 시간(Agility 40 기준 1.2초 i-frame)과 일시적 투명화를 제공합니다. 보스의 다단히트 광역기를 안전하게 뚫고 지나가는 핵심 회피기입니다."
     },
     "Speed Demon": {
         "name_ko": "스피드 데몬 (Speed Demon)",
         "req": "Agility 25",
         "category": "기동/공속",
-        "desc": "적에게 출혈(Bleed)이나 디버프를 부여하면 이동 속도와 M1 평타 공격 속도가 폭발적으로 상승합니다."
+        "desc": "적에게 출혈(Bleed)을 입히면 이동 속도와 공격 속도가 증가합니다."
     },
     "Conditioned Runner": {
         "name_ko": "단련된 러너 (Conditioned Runner)",
@@ -64,9 +64,9 @@ DEEPWOKEN_TALENTS_DB: Dict[str, Dict[str, Any]] = {
     },
     "Underdog": {
         "name_ko": "언더독 (Underdog)",
-        "req": "Willpower 40",
+        "req": "Fortitude 30",
         "category": "공격/버프",
-        "desc": "체력이 나보다 높은 상대와 교전 시 방어력 무시 대미지 및 공격력이 +10% 증폭됩니다."
+        "desc": "최대 체력이 나보다 높은 적이나 보스를 공격할 때 가하는 피해량이 +10% 증가합니다."
     },
     "Tough Love": {
         "name_ko": "거친 사랑 (Tough Love)",
