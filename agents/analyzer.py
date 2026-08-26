@@ -151,8 +151,6 @@ class BuildAnalyzer:
                         err_str = str(e).lower()
                         logger.warning(f"Model {m_name} failed on attempt {attempt}: {e}")
                         last_error = e
-                        if "429" in err_str or "quota" in err_str or "exhausted" in err_str:
-                            break  # Try next key attempt
             except Exception as e:
                 err_str = str(e).lower()
                 logger.warning(f"Key attempt {attempt} failed during upload/analysis: {e}")
