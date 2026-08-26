@@ -666,18 +666,37 @@ with col_builder:
                 except Exception as ex:
                     st.error(f"❌ JSON 파싱 실패: {ex}")
 
-        # 2. JSON 내보내기 및 deepwoken.co 1초 주입 코드
-        current_export_json = json.dumps(st.session_state.profiles[selected_name], ensure_ascii=False, indent=2)
-        st.download_button(
-            label="📤 현재 빌드 deepwoken.co 호환 JSON 파일 다운로드",
-            data=current_export_json,
-            file_name=f"{selected_name.replace(' ', '_')}.json",
-            mime="application/json",
-            key="btn_download_export"
-        )
+        # 3. NotebookLM 1-Click 전수 감사 프롬프트 생성기
+        st.markdown("---")
+        st.markdown("##### 🤖 Google NotebookLM 1-Click `/build` 전수 감사 프롬프트")
+        st.caption("아래 코드를 복사해서 NotebookLM에 붙여넣으면, 소스에 기반해 현재 슬롯의 종족, 서약, 11대 장비, 330pt 스탯, EHP를 하나도 빠짐없이 1:1 전수 감사를 진행합니다.")
         
-        st.markdown("##### 🌐 deepwoken.co 공식 웹사이트에 1초 만에 강제 로드하기")
-        st.caption("공식 사이트는 웹 UI에 Import 버튼이 없기 때문에, `deepwoken.co/builder` 창에서 **F12 (또는 Ctrl+Shift+I)**를 누르고 **Console(콘솔)**에 아래 1줄을 복사해 붙여넣고 엔터를 치면 즉시 로드됩니다!")
+        prof_data = st.session_state.profiles[selected_name]
+        notebooklm_prompt = f"""[역할 부여]
+너는 딥위큰(Deepwoken) 공식 1,043개 탤런트와 330pt 수학적 공식, Shrine of Order 룰을 완벽히 꿰뚫고 있는 세계 최고 실력의 전담 AI 빌드 코치야.
+
+[현재 내 캐릭터 빌드 명세서]
+- 🏷️ 캐릭터 빌드명: {prof_data.get('name')}
+- 🧬 종족 (Aspect/Race): {prof_data.get('race', 'Vesperian')}
+- ⚔️ 서약 (Oath): {prof_data.get('oath', 'Oathless')}
+- 🗡️ 주무기군: {prof_data.get('weapon_type')}
+- ✨ 주속성 (Attunement): {prof_data.get('attunement')}
+- 🌟 4대 특성 (Traits): {prof_data.get('traits', {})}
+- ⛩️ 사원 전 (Pre-Shrine) 1차 스탯: {prof_data.get('pre_shrine', {})}
+- 📊 사원 후 (Post-Shrine) 최종 스탯: {prof_data.get('stats', {})}
+- 🛡️ 11대 장비 세팅: {prof_data.get('equipment', {})}
+- ⭐ 목표/보유 탤런트: {prof_data.get('talents')}
+- 🔮 장착 만트라: {prof_data.get('mantras')}
+
+[명령어: /build 전수 감사 실행]
+위 내 캐릭터 빌드를 소스에 근거하여 다음 6단계로 하나도 빠짐없이 1:1 전수 감사를 진행해줘:
+1. 🧬 종족 & 서약 적합성 (종족 기본치 보존 및 Oath 선행 조건 충족 여부)
+2. 🏛️ 스탯 및 성소(Shrine of Order) 무결성 (사원 전 탤런트 획득 가능 여부 & 사원 후 정확히 330pt 일치 검증)
+3. ⭐ 탤런트 & 만트라 시너지 감사 (누락되거나 낭비된 탤런트, 중복/비효율 점검)
+4. 🛡️ 11대 장비 & 인챈트 & 유효 체력(EHP) 및 속성 저항력 평가
+5. 🐲 보스별 실전 사냥법 & 딜 사이클 (Duke, Primadon, Chaser, Ethiron)
+6. 💡 총평 및 1티어 종결 빌드로 완성하기 위한 최종 보완책 3가지"""
+        st.code(notebooklm_prompt, language="markdown")
         
         # deepwoken.co 호환 localStorage 인젝션 스크립트 생성
         js_inject_code = f"localStorage.setItem('saved_build', JSON.stringify({json.dumps(st.session_state.profiles[selected_name])})); alert('Deepwoken 빌드가 성공적으로 주입되었습니다!'); location.reload();"
