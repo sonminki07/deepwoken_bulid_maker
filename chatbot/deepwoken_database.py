@@ -199,3 +199,114 @@ DEEPWOKEN_MANTRAS_DB: Dict[str, Dict[str, Any]] = {
         "desc": "자신 주변에 성스러운 결계를 생성하여 아군의 정신력(Sanity)을 치유하고 받는 마법 피해를 감소시킵니다."
     }
 }
+
+# 11대 장비 슬롯 종합 데이터베이스
+EQUIPMENT_SLOTS_DB = {
+    "helmets": [
+        {"name": "Hivelord Faceguard (최고 물리 방어)", "hp": 15, "phys_resist": 5, "desc": "체력 +15, 물리 저항 +5%"},
+        {"name": "Star Hat (균형형)", "hp": 12, "phys_resist": 3, "desc": "체력 +12, 물리 저항 +3%"},
+        {"name": "Prophet Cap (에테르 마법사)", "hp": 8, "ether": 15, "desc": "체력 +8, 에테르 +15"},
+        {"name": "Diver Mask (심해 탐사)", "hp": 10, "dve": 5, "desc": "체력 +10, 몬스터 딜증 +5%"},
+        {"name": "None (미착용)", "hp": 0, "desc": "장비 미착용"}
+    ],
+    "face": [
+        {"name": "Aviator Glasses (원거리/명중)", "dve": 4, "desc": "몬스터 딜증 +4%"},
+        {"name": "Blindfold (Blindseer 특화)", "sanity": 10, "desc": "정신력 저항 +10"},
+        {"name": "Deepwoken Visor (방어형)", "hp": 5, "phys_resist": 2, "desc": "체력 +5, 물리 저항 +2%"},
+        {"name": "None (미착용)", "hp": 0, "desc": "장비 미착용"}
+    ],
+    "amulets": [
+        {"name": "Hallowed Amulet (체력/성소)", "hp": 15, "desc": "체력 +15"},
+        {"name": "Star Amulet (만트라 딜)", "dve": 6, "desc": "몬스터 딜증 +6%"},
+        {"name": "Deepwoken Amulet (방어력)", "hp": 10, "phys_resist": 3, "desc": "체력 +10, 물리 저항 +3%"},
+        {"name": "None (미착용)", "hp": 0, "desc": "장비 미착용"}
+    ],
+    "boots": [
+        {"name": "Star Boots (이동속도 극대화)", "hp": 10, "speed": 4, "desc": "체력 +10, 이동속도 +4%"},
+        {"name": "Heavy Iron Boots (물리 방어)", "hp": 15, "phys_resist": 4, "desc": "체력 +15, 물리 저항 +4%"},
+        {"name": "Runner Boots (스태미나)", "hp": 8, "speed": 5, "desc": "체력 +8, 이동속도 +5%"},
+        {"name": "None (미착용)", "hp": 0, "desc": "장비 미착용"}
+    ],
+    "rings": [
+        "Ring of Casters (에테르 재생)",
+        "Starved Knight Ring (공격력 증폭)",
+        "Poser's Ring (크리티컬 폭딜)",
+        "Ferryman's Ring (이동속도/회피)",
+        "Deepwoken Ring of Health (체력 +10)",
+        "Hivelord Ring (자세 대미지 증폭)",
+        "Ring of Blood (출혈 대미지 강화)",
+        "None (미착용)"
+    ],
+    "weapons": [
+        "Evanspear Handaxe (출혈 평타 극딜)",
+        "Petra's Anchor (사일런트하트 묵직한 한방)",
+        "Enforcer's Axe (가드브레이크 대검)",
+        "Curved Blade of Winds (바람 속성 최고 존엄)",
+        "Steel Skewered Dusters (스팀/아주르 1초 래그돌)",
+        "Gran Sudaruska (빙결 프로스트 헤비)",
+        "Hero Blade of Flame (화염 깡딜)",
+        "Hero Blade of Frost (빙결 깡딜)",
+        "Hero Blade of Thunder (번개 깡딜)",
+        "Hero Blade of Wind (바람 깡딜)",
+        "Kyrsblade (미디엄 연타)",
+        "Alloyed Shotel (곡도/출혈)"
+    ],
+    "enchants": [
+        "Detonation (하얀 폭발 딜 / 보스 체력 삭제)",
+        "Astral (하얀 오라 / 순수 물리 대미지 증폭)",
+        "Vampirism (적 타격 시 체력 흡수)",
+        "Chilling (적 피격 시 빙결/슬로우)",
+        "Blazing (적 피격 시 화염 도트 대미지)",
+        "Grim (상대 방어력 깎고 지속 대미지)",
+        "Nemesis (원거리 투사체 반격)",
+        "None (노인챈트)"
+    ],
+    "bells": [
+        "Reaper (영혼 수확 / 체력 흡수)",
+        "Kamui (차원 도약 / 순간이동 무적)",
+        "Wind Up (즉시 자세 회복 및 공속)",
+        "Payphone (안전 텔레포트)",
+        "Sacred Field (방어 결계)",
+        "Smite (번개 심판 강타)"
+    ]
+}
+
+def render_tooltip_badge(name: str, item_type: str = "talent") -> str:
+    """CSS 툴팁 박스가 즉시 마우스 호버 시 뜨는 고품격 HTML 뱃지 렌더링"""
+    clean = name.split("(")[0].strip()
+    db = DEEPWOKEN_TALENTS_DB if item_type == "talent" else DEEPWOKEN_MANTRAS_DB
+    
+    info = None
+    for k, v in db.items():
+        if k.lower() in clean.lower() or clean.lower() in k.lower():
+            info = v
+            break
+            
+    if info:
+        title_text = info.get("name_ko", clean)
+        sub_text = f"📋 <b>요구치:</b> {info.get('req', '기본')}<br>🎯 <b>효과:</b> {info.get('desc', '')}" if item_type == "talent" else f"🏷️ <b>분류:</b> {info.get('category', '만트라')}<br>🎯 <b>효과:</b> {info.get('desc', '')}"
+        tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
+        icon = "⭐" if item_type == "talent" else "🔮"
+        
+        return f"""
+        <div class="deepwoken-tooltip-container">
+            <span class="{tag_class}">{icon} {clean}</span>
+            <div class="tooltip-box">
+                <div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{title_text}</div>
+                <div style="color: #cbd5e1; font-size: 0.8rem;">{sub_text}</div>
+            </div>
+        </div>
+        """
+    else:
+        tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
+        icon = "⭐" if item_type == "talent" else "🔮"
+        return f"""
+        <div class="deepwoken-tooltip-container">
+            <span class="{tag_class}">{icon} {clean}</span>
+            <div class="tooltip-box">
+                <div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{clean}</div>
+                <div style="color: #cbd5e1; font-size: 0.8rem;">Deepwoken 고유 {item_type}입니다.</div>
+            </div>
+        </div>
+        """
+

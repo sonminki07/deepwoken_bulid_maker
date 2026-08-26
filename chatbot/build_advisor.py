@@ -108,6 +108,24 @@ class BuildAdvisor:
                 history_text += f"{role_label}: {turn.get('content', '')}\n"
             history_text += "\n"
 
+        # /build 또는 /bulid 명령어 감지 시 전수 감사 모드(Full Audit Mode) 가동
+        is_build_audit = "/build" in user_query.lower() or "/bulid" in user_query.lower()
+        audit_instruction = ""
+        if is_build_audit:
+            audit_instruction = (
+                "\n\n[🔥 /build 전수 감사(Full Audit) 모드 활성화]\n"
+                "사용자가 '/build' 명령어를 호출했습니다. 아래 8개 항목을 하나하나 빠짐없이 전수 점검하여, "
+                "현재 설정값의 이상한 점, 스탯 낭비, 누락된 선행 탤런트, 장비/인챈트 시너지, 보완책을 조목조목 완벽한 전수 감사 리포트로 출력하세요:\n"
+                "1. 종족(Race) 및 4대 특성(Traits 12pt) 분배의 타당성\n"
+                "2. ⛩️ 사원 전(Pre-Shrine) 필수 탤런트 해금 스탯 유효성\n"
+                "3. 📊 사원 후(Post-Shrine) 330pt 분배 및 스탯 초과/누락 여부\n"
+                "4. ⚔️ Oath 요구 조건 및 속성(Attunement) 충돌 여부 (예: Silentheart 무속성 0pt 필수)\n"
+                "5. ⭐ 핵심 탤런트(Reinforced Armor, Collapsed Lung, Ghost 등) 선행 스탯 충족 여부\n"
+                "6. 🔮 만트라 및 스킬 콤보 연계성\n"
+                "7. 🛡️ 11대 장비(방어구, 악세사리, 무기, 인챈트, 벨) 세팅 최적화\n"
+                "8. 💡 최종 EHP(실질 체력) 및 보스전(Duke/Primadon/Chaser) 극딜을 위한 종합 개선안"
+            )
+
         # 4. 통합 프롬프트 생성 (4중 지식 융합)
         prompt = (
             f"{history_text}"
@@ -115,7 +133,8 @@ class BuildAdvisor:
             f"=== [참고 1: 로컬 깃허브 & 노트북LM 지식 데이터베이스] ===\n"
             f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
             f"=== [참고 2: 실시간 Deepwoken 위키 및 빌더 검색 데이터] ===\n"
-            f"{web_context if web_context else '웹 검색 결과 없음'}\n\n"
+            f"{web_context if web_context else '웹 검색 결과 없음'}\n"
+            f"{audit_instruction}\n\n"
             f"위 대화 맥락과 딥위큰 시스템 룰을 엄격히 준수하여, 사용자가 의도한 정확한 빌드(예: 사일런트하트 평타, 브릭월 극탱 등)로 실전 전술과 정확한 330pt 분배를 한국어로 명확히 제시하세요."
         )
 

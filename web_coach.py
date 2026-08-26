@@ -9,7 +9,7 @@ import streamlit as st
 from chatbot.build_advisor import BuildAdvisor
 from chatbot.coach_validator import DeepwokenFactChecker, TALENT_PREREQUISITES, OATH_PREREQUISITES
 from chatbot.builder_calculator import DeepwokenCalculator, DEEPWOKEN_RACES, OUTFIT_PRESETS
-from chatbot.deepwoken_database import DEEPWOKEN_TALENTS_DB, DEEPWOKEN_MANTRAS_DB
+from chatbot.deepwoken_database import DEEPWOKEN_TALENTS_DB, DEEPWOKEN_MANTRAS_DB, EQUIPMENT_SLOTS_DB, render_tooltip_badge
 
 # 페이지 기본 설정
 st.set_page_config(
@@ -74,7 +74,38 @@ st.markdown("""
         border: 1px solid #ef4444;
     }
 
-    /* 탤런트 & 만트라 호버 툴팁 태그 */
+    /* 탤런트 & 만트라 호버 툴팁 컨테이너 */
+    .deepwoken-tooltip-container {
+        position: relative;
+        display: inline-block;
+        margin: 4px;
+    }
+    .deepwoken-tooltip-container .tooltip-box {
+        visibility: hidden;
+        opacity: 0;
+        width: 280px;
+        background: #151824;
+        color: #e2e8f0;
+        text-align: left;
+        border-radius: 8px;
+        padding: 10px 12px;
+        position: absolute;
+        z-index: 99999;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+        box-shadow: 0 8px 24px rgba(0,0,0,0.85);
+        border: 1px solid #e5b869;
+        transition: opacity 0.2s ease, visibility 0.2s ease;
+        font-size: 0.82rem;
+        line-height: 1.4;
+        pointer-events: none;
+    }
+    .deepwoken-tooltip-container:hover .tooltip-box {
+        visibility: visible;
+        opacity: 1;
+    }
+
     .talent-tag {
         display: inline-block;
         background: linear-gradient(135deg, rgba(234, 88, 12, 0.18), rgba(245, 158, 11, 0.12));
@@ -82,7 +113,6 @@ st.markdown("""
         color: #fde68a;
         padding: 5px 11px;
         border-radius: 7px;
-        margin: 3px;
         font-size: 0.85rem;
         font-weight: 500;
         cursor: help;
@@ -102,7 +132,6 @@ st.markdown("""
         color: #e9d5ff;
         padding: 5px 11px;
         border-radius: 7px;
-        margin: 3px;
         font-size: 0.85rem;
         font-weight: 500;
         cursor: help;
@@ -368,9 +397,10 @@ with col_builder:
 
     current_stat_dict = post_stat_dict
 
-    # 6. 장비 & 방어구 세팅 (Equipment)
-    st.markdown("#### 🛡️ 장비 및 방어구 세팅 (Equipment)")
+    # 6. 장비 & 방어구 세팅 (11종 장비 슬롯)
+    st.markdown("#### 🛡️ 장비 및 악세서리 세팅 (11종 슬롯)")
     saved_eq = curr_data.get("equipment", {})
+    
     eq_col1, eq_col2 = st.columns(2)
     with eq_col1:
         outfit_list = list(OUTFIT_PRESETS.keys())
@@ -378,61 +408,69 @@ with col_builder:
         outfit_idx = outfit_list.index(saved_outfit) if saved_outfit in outfit_list else 0
         selected_outfit = st.selectbox("👔 방어구 (Outfit)", outfit_list, index=outfit_idx, key=f"{selected_name}_outfit")
     with eq_col2:
-        weapon_enchant = st.selectbox("✨ 무기 인챈트 (Enchant)", ["None", "Detonation (폭발 딜)", "Astral (하얀 오라/물리)", "Vampirism (흡혈)", "Chilling (동결)", "Blazing (화염)", "Grim (피해량 증폭)"], index=1 if "Silentheart" in current_oath else 0, key=f"{selected_name}_enchant")
+        weapon_enchant = st.selectbox("✨ 무기 인챈트 (Enchant)", EQUIPMENT_SLOTS_DB["enchants"], index=0 if "Silentheart" in current_oath else 7, key=f"{selected_name}_enchant")
+
+    with st.expander("💍 전체 악세서리 & 방어구 세부 슬롯 (모자, 안경, 귀걸이, 반지 1~4, 신발, 벨)", expanded=False):
+        eq_c1, eq_c2 = st.columns(2)
+        with eq_c1:
+            helmet_names = [h["name"] for h in EQUIPMENT_SLOTS_DB["helmets"]]
+            cur_helmet = saved_eq.get("helmet", helmet_names[0])
+            sel_helmet = st.selectbox("🪖 머리/모자 (Helmet)", helmet_names, index=helmet_names.index(cur_helmet) if cur_helmet in helmet_names else 0, key=f"{selected_name}_helmet")
+
+            face_names = [f["name"] for f in EQUIPMENT_SLOTS_DB["face"]]
+            cur_face = saved_eq.get("face", face_names[0])
+            sel_face = st.selectbox("👓 안경/마스크 (Face)", face_names, index=face_names.index(cur_face) if cur_face in face_names else 0, key=f"{selected_name}_face")
+
+            amulet_names = [a["name"] for a in EQUIPMENT_SLOTS_DB["amulets"]]
+            cur_amulet = saved_eq.get("amulet", amulet_names[0])
+            sel_amulet = st.selectbox("📿 귀걸이/부적 (Amulet)", amulet_names, index=amulet_names.index(cur_amulet) if cur_amulet in amulet_names else 0, key=f"{selected_name}_amulet")
+
+            boot_names = [b["name"] for b in EQUIPMENT_SLOTS_DB["boots"]]
+            cur_boots = saved_eq.get("boots", boot_names[0])
+            sel_boots = st.selectbox("👢 신발 (Boots)", boot_names, index=boot_names.index(cur_boots) if cur_boots in boot_names else 0, key=f"{selected_name}_boots")
+
+        with eq_c2:
+            ring_options = EQUIPMENT_SLOTS_DB["rings"]
+            r1 = st.selectbox("💍 반지 1", ring_options, index=ring_options.index(saved_eq.get("ring1", "Ring of Casters (에테르 재생)")) if saved_eq.get("ring1") in ring_options else 0, key=f"{selected_name}_r1")
+            r2 = st.selectbox("💍 반지 2", ring_options, index=ring_options.index(saved_eq.get("ring2", "Starved Knight Ring (공격력 증폭)")) if saved_eq.get("ring2") in ring_options else 1, key=f"{selected_name}_r2")
+            r3 = st.selectbox("💍 반지 3", ring_options, index=ring_options.index(saved_eq.get("ring3", "Deepwoken Ring of Health (체력 +10)")) if saved_eq.get("ring3") in ring_options else 4, key=f"{selected_name}_r3")
+            r4 = st.selectbox("💍 반지 4", ring_options, index=ring_options.index(saved_eq.get("ring4", "None (미착용)")) if saved_eq.get("ring4") in ring_options else 7, key=f"{selected_name}_r4")
+
+        bell_options = EQUIPMENT_SLOTS_DB["bells"]
+        cur_bell = saved_eq.get("bell", bell_options[0])
+        sel_bell = st.selectbox("🔔 공명 벨 (Resonance Bell)", bell_options, index=bell_options.index(cur_bell) if cur_bell in bell_options else 0, key=f"{selected_name}_bell")
 
     current_eq_dict = {
         "outfit": selected_outfit,
         "enchant": weapon_enchant,
+        "helmet": sel_helmet,
+        "face": sel_face,
+        "amulet": sel_amulet,
+        "boots": sel_boots,
+        "ring1": r1, "ring2": r2, "ring3": r3, "ring4": r4,
+        "bell": sel_bell,
         "extra_hp": saved_eq.get("extra_hp", 20),
         "extra_dve": saved_eq.get("extra_dve", 10),
     }
 
     # 7. ⭐ 핵심 탤런트 & 🔮 장착 만트라 (호버 툴팁 인터랙티브 뷰)
-    st.markdown("#### ⭐ 핵심 탤런트 (마우스를 올리면 상세 효과/요구치가 표시됩니다)")
+    st.markdown("#### ⭐ 핵심 탤런트 (마우스를 올리면 상세 효과/요구치가 팝업됩니다)")
     current_talents_str = curr_data.get("talents", "")
     
     # 탤런트 호버 칩 렌더링
     talent_tokens = [t.strip() for t in current_talents_str.replace("•", ",").split(",") if t.strip()]
-    talent_badges_html = []
-    for t_raw in talent_tokens:
-        clean_name = t_raw.split("(")[0].strip()
-        matched_info = None
-        for db_name, db_info in DEEPWOKEN_TALENTS_DB.items():
-            if db_name.lower() in clean_name.lower() or clean_name.lower() in db_name.lower():
-                matched_info = db_info
-                break
-        
-        if matched_info:
-            tooltip = f"[{matched_info['name_ko']}]\n📋 요구치: {matched_info['req']}\n🎯 효과: {matched_info['desc']}"
-            talent_badges_html.append(f'<span class="talent-tag" title="{tooltip}">⭐ {clean_name}</span>')
-        else:
-            talent_badges_html.append(f'<span class="talent-tag" title="Deepwoken 고유 패시브 탤런트">⭐ {clean_name}</span>')
-    
+    talent_badges_html = [render_tooltip_badge(t_raw, "talent") for t_raw in talent_tokens]
     if talent_badges_html:
-        st.markdown("".join(talent_badges_html), unsafe_allow_html=True)
+        st.markdown(f'<div style="margin-bottom: 8px;">{"".join(talent_badges_html)}</div>', unsafe_allow_html=True)
     
     talents_input = st.text_input("✏️ 탤런트 직접 편집 (쉼표로 구분):", value=current_talents_str, key=f"{selected_name}_talents")
 
-    st.markdown("#### 🔮 장착 만트라 (마우스를 올리면 상세 효과/계열이 표시됩니다)")
+    st.markdown("#### 🔮 장착 만트라 (마우스를 올리면 상세 효과/계열이 팝업됩니다)")
     current_mantras_str = curr_data.get("mantras", "")
     mantra_tokens = [m.strip() for m in current_mantras_str.replace("•", ",").split(",") if m.strip()]
-    mantra_badges_html = []
-    for m_raw in mantra_tokens:
-        clean_name = m_raw.split("(")[0].strip()
-        matched_info = None
-        for db_name, db_info in DEEPWOKEN_MANTRAS_DB.items():
-            if db_name.lower() in clean_name.lower() or clean_name.lower() in db_name.lower():
-                matched_info = db_info
-                break
-        
-        if matched_info:
-            tooltip = f"[{matched_info['name_ko']}]\n🏷️ 분류: {matched_info['category']}\n🎯 효과: {matched_info['desc']}"
-            mantra_badges_html.append(f'<span class="mantra-tag" title="{tooltip}">🔮 {clean_name}</span>')
-        else:
-            mantra_badges_html.append(f'<span class="mantra-tag" title="Deepwoken 전투 액티브 스킬/만트라">🔮 {clean_name}</span>')
-    
+    mantra_badges_html = [render_tooltip_badge(m_raw, "mantra") for m_raw in mantra_tokens]
     if mantra_badges_html:
-        st.markdown("".join(mantra_badges_html), unsafe_allow_html=True)
+        st.markdown(f'<div style="margin-bottom: 8px;">{"".join(mantra_badges_html)}</div>', unsafe_allow_html=True)
         
     mantras_input = st.text_input("✏️ 만트라 직접 편집 (쉼표로 구분):", value=current_mantras_str, key=f"{selected_name}_mantras")
 
@@ -482,7 +520,44 @@ with col_builder:
             "talents": talents_input
         }
         save_user_profiles(st.session_state.profiles)
-        st.success(f"'{selected_name}' 프로필(사원 전/후 스탯, 종족, 특성, 장비, 저항력)이 안전하게 저장되었습니다! ✅")
+        st.success(f"'{selected_name}' 프로필(11종 장비, 사원 전/후 스탯, 특성, 저항력)이 안전하게 저장되었습니다! ✅")
+
+    # 📥 / 📤 deepwoken.co 공식 빌더 JSON 강제 주입 및 내보내기 도구
+    with st.expander("🛠️ deepwoken.co 공식 빌더 JSON 주입(Import) & 내보내기(Export)", expanded=False):
+        st.caption("외부 deepwoken.co 빌더의 JSON 코드를 복사해 붙여넣으면 현재 슬롯에 강제로 즉시 주입됩니다.")
+        
+        # 1. JSON 강제 주입
+        import_text = st.text_area("📥 주입할 deepwoken.co JSON 코드 붙여넣기:", height=100, placeholder='{"stats": {"Strength": 40, ...}, "oath": "Silentheart", ...}', key="json_import_area")
+        if st.button("🚀 현재 슬롯에 JSON 강제 주입 실행", key="btn_execute_import"):
+            if import_text.strip():
+                try:
+                    parsed_json = json.loads(import_text.strip())
+                    target_p = st.session_state.profiles[selected_name]
+                    if "stats" in parsed_json: target_p["stats"].update(parsed_json["stats"])
+                    if "pre_shrine" in parsed_json: target_p["pre_shrine"] = parsed_json["pre_shrine"]
+                    if "oath" in parsed_json: target_p["oath"] = parsed_json["oath"]
+                    if "race" in parsed_json: target_p["race"] = parsed_json["race"]
+                    if "traits" in parsed_json: target_p["traits"] = parsed_json["traits"]
+                    if "equipment" in parsed_json: target_p["equipment"].update(parsed_json["equipment"])
+                    if "talents" in parsed_json: target_p["talents"] = str(parsed_json["talents"])
+                    if "mantras" in parsed_json: target_p["mantras"] = str(parsed_json["mantras"])
+                    
+                    save_user_profiles(st.session_state.profiles)
+                    st.success("✅ deepwoken.co 빌드 JSON이 현재 슬롯에 성공적으로 주입되었습니다!")
+                    st.rerun()
+                except Exception as ex:
+                    st.error(f"❌ JSON 파싱 실패: {ex}")
+
+        # 2. JSON 내보내기
+        current_export_json = json.dumps(st.session_state.profiles[selected_name], ensure_ascii=False, indent=2)
+        st.download_button(
+            label="📤 현재 빌드 deepwoken.co 호환 JSON 파일 다운로드",
+            data=current_export_json,
+            file_name=f"{selected_name.replace(' ', '_')}.json",
+            mime="application/json",
+            key="btn_download_export"
+        )
+        st.code(current_export_json[:350] + "\n...", language="json")
 
 # ==========================================
 # 💬 우측: 1:1 맞춤형 AI 전담 코치 & 팩트체커
@@ -502,10 +577,10 @@ with col_coach:
         quick_q = "내 캐릭터 세팅 기준으로 듀크(Duke) 실드가 깨지거나 그로기 걸렸을 때 가장 폭딜이 나오는 만트라/스킬 콤보 사이클을 알려줘."
     if quick_cols[1].button("🐵 프리마돈 공략 팁"):
         quick_q = "내 캐릭터 빌드로 프리마돈(Primadon) 패링 후 딜 타이밍과 주의해야 할 패턴을 알려줘."
-    if quick_cols[2].button("🏛️ Shrine of Order 최적화"):
+    if quick_cols[2].button("🏛️ Shrine of Order"):
         quick_q = "내 현재 목표 스탯을 맞추기 위해 Shrine of Order를 타기 전(Pre-Shrine)과 탄 후(Post-Shrine) 어떤 순서로 스탯을 찍어야 하는지 최적의 루트를 계산해줘."
-    if quick_cols[3].button("🛡️ 탤런트 무결성 검증"):
-        quick_q = "현재 내 스탯으로 찍을 수 있는 핵심 필수 탤런트와 누락된 선행 스탯이 있는지 정밀 감사해줘."
+    if quick_cols[3].button("🔍 /build 전수 감사"):
+        quick_q = "/build 내 현재 종족, 특성, 사원 전/후 스탯, 탤런트, 만트라, 11대 장비 세팅을 빠짐없이 하나하나 전수 조사해서 이상한 점과 EHP 극대화 보완책을 상세히 감사해줘."
 
     # 사용자 질문 입력창
     user_input = st.chat_input("질문을 입력하세요 (예: 듀크 딜 타임 때 어떤 콤보를 써야 해?)...")
