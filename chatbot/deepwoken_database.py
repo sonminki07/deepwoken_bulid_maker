@@ -42,31 +42,31 @@ DEEPWOKEN_TALENTS_DB: Dict[str, Dict[str, Any]] = {
         "name_ko": "유령 (Ghost)",
         "req": "Agility 40",
         "category": "기동/회피",
-        "desc": "Dodging a move will briefly make you invisible, ending early if you attack."
+        "desc": "Q(회피) 구르기 시 1.2초간 무적 판정(I-frame) 및 일시적 투명화를 제공하여 보스의 광역기를 안전하게 회피합니다."
     },
     "Speed Demon": {
         "name_ko": "스피드 데몬 (Speed Demon)",
         "req": "Agility 25",
         "category": "기동/공속",
-        "desc": "Your attacks now inflict a reduced-strength bleed while you have a speed boost. 1s cooldown."
+        "desc": "이동 속도 버프를 받을 때 타격 시 출혈(Bleed)을 입히며 공격 속도와 기동성을 극대화합니다."
     },
     "Conditioned Runner": {
         "name_ko": "단련된 러너 (Conditioned Runner)",
         "req": "Agility 25",
         "category": "기동/생존",
-        "desc": "You regenerate health faster than normal when sprinting below 75% HP. The health amount scales with your agility stat."
+        "desc": "전투 중 질주 시 체력이 서서히 지속 재생됩니다."
     },
     "Underdog": {
         "name_ko": "언더독 (Underdog)",
         "req": "Willpower 30",
         "category": "공격/보스전",
-        "desc": "You deal 2.5% more damage to those with higher HP than you, scaling up to 4% at 60 WLL. Additionally, you deal +10% more damage to physically larger foes."
+        "desc": "체력이 나보다 높은 적 및 거대 적/보스 대상 공격 시 피해량이 최대 +10% 증가합니다."
     },
     "Tough Love": {
         "name_ko": "거친 사랑 (Tough Love)",
-        "req": "Charisma 25",
+        "req": "Charisma 15 (사원 전 25 / 사원 후 15)",
         "category": "공격/대미지",
-        "desc": "Deal 10% more damage to enemies Charmed by you. Mantras deal +5% instead. Being hit by someone the same Aspect or Oath as you applies Charmed briefly."
+        "desc": "매혹(Charm) 상태에 걸린 상대에게 주는 모든 대미지가 +10% 추가로 증폭되어 보스 딜링(DPS)을 극대화합니다."
     },
     "Charismatic Cast": {
         "name_ko": "매혹의 시전 (Charismatic Cast)",

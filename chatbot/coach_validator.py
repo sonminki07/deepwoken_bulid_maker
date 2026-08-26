@@ -35,7 +35,7 @@ TALENT_PREREQUISITES = {
 
     # Charisma 계열
     "Charismatic Cast": {"Charisma": 25, "description": "만트라 적중 시 적에게 참(Charm) 부여"},
-    "Tough Love": {"Charisma": 25, "description": "참 걸린 적에게 가하는 데미지 +10%"},
+    "Tough Love": {"Charisma": 15, "description": "참 걸린 적에게 가하는 데미지 +10% 증폭"},
     "Chaotic Charm": {"Charisma": 55, "description": "피격 시 상대방 매혹 및 받는 피해 감소"},
     "Enrage": {"Charisma": 65, "description": "도발 상태 적 기절 시 분노 유발"},
 
