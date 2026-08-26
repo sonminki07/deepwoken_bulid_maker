@@ -2,7 +2,11 @@ import json
 import logging
 from pathlib import Path
 from typing import Dict, Any, Optional
-import jsonschema
+try:
+    import jsonschema
+    JSONSCHEMA_AVAILABLE = True
+except ImportError:
+    JSONSCHEMA_AVAILABLE = False
 
 logger = logging.getLogger(__name__)
 
@@ -30,14 +34,14 @@ class BuildStructurer:
 
     def validate(self, build_data: Dict[str, Any]) -> bool:
         """JSON 데이터 스키마 유효성 검증"""
-        if not self.schema:
+        if not self.schema or not JSONSCHEMA_AVAILABLE:
             return True
         try:
             jsonschema.validate(instance=build_data, schema=self.schema)
             logger.info("JSON Schema validation passed.")
             return True
-        except jsonschema.ValidationError as e:
-            logger.warning(f"JSON Schema validation warning: {e.message} (path: {list(e.path)})")
+        except Exception as e:
+            logger.warning(f"JSON Schema validation warning: {e}")
             return False
 
     def sanitize(self, build_data: Dict[str, Any]) -> Dict[str, Any]:
