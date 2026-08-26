@@ -86,6 +86,8 @@ class WebPipelineOrchestrator:
         # Step 4: 교차 검증 및 데이터 병합
         logger.info("[SubAgent 4/5] Merging and cross-validating via CrossValidatorAgent...")
         merged_build = self.validator.validate_and_merge(scraped, build_mechanics, context_data)
+        if scraped.sub_pages:
+            merged_build["explored_sub_pages"] = scraped.sub_pages
 
         # Step 5: JSON 검증 & Markdown 생성 및 ChromaDB 인덱싱
         logger.info("[SubAgent 5/5] Structuring and indexing to ChromaDB knowledge base...")

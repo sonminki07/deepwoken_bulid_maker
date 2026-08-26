@@ -163,6 +163,17 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
         
         guide_points = summary.get("strengths") or ["보스별 패턴 대응법 정리", "파밍 효율 및 보상 정보 수록"]
         embed.add_field(name="💡 핵심 공략 & 플레이어 추천 팁", value="\n".join([f"• {translate_to_korean_text(p)}" for p in guide_points]), inline=False)
+        
+        # Depth 2 하위 탐색 문서 목록 필드 추가
+        explored = raw.get("explored_sub_pages", [])
+        if explored:
+            sub_list_str = " • ".join([f"`{p}`" for p in explored[:10]])
+            embed.add_field(
+                name="🔍 2. Depth 2 연관 하위 위키 탐색 완료 (Explored Sub-Pages)",
+                value=f"AI가 메인 문서뿐만 아니라 아래 세부 문서들까지 함께 읽고 분석했습니다:\n{sub_list_str}",
+                inline=False
+            )
+
         embed.set_footer(text="Deepwoken AI 지식 베이스(ChromaDB & GitHub) 저장 완료 • 언제든 #chat 에서 질문 가능")
         return embed
 

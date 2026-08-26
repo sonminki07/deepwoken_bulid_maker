@@ -22,6 +22,7 @@ class ScrapedWebContent:
     tables_text: str
     headings: List[str] = field(default_factory=list)
     raw_html: str = ""
+    sub_pages: List[str] = field(default_factory=list)
 
 class WebScraperAgent:
     """Agent 1: 웹페이지 텍스트, 구조, 테이블 정밀 스크래퍼"""
@@ -220,7 +221,8 @@ class WebScraperAgent:
                 cleaned_text=cleaned_text[:30000],
                 tables_text=tables_text,
                 headings=headings,
-                raw_html=raw_html[:50000]
+                raw_html=raw_html[:50000],
+                sub_pages=top_sub_pages if self.max_depth >= 2 and raw_links else []
             )
         except Exception as e:
             logger.warning(f"Fandom API scrape failed: {e}")
@@ -365,5 +367,6 @@ class WebScraperAgent:
             cleaned_text=cleaned_text[:30000],  # 상위 30,000자
             tables_text=tables_text,
             headings=headings,
-            raw_html=html[:50000]
+            raw_html=html[:50000],
+            sub_pages=[s.split('/')[-1] for s in sub_links] if sub_links else []
         )
