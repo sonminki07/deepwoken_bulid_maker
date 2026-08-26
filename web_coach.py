@@ -2,7 +2,7 @@ import os
 import json
 import time
 from pathlib import Path
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Tuple
 import streamlit as st
 
 # 로컬 백엔드 모듈 임포트
@@ -368,7 +368,17 @@ with col_builder:
             stat_badge_html.append(f'<div class="stat-badge-warn">⚠️ 최종 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>')
 
         # 종족 고유 스탯 보존 실시간 검증 (Shrine of Order 룰)
-        race_ok, race_errs = DeepwokenFactChecker.validate_racial_base_stats(selected_race, post_stat_dict)
+        def check_racial_base_compliance(r_name: str, cur_s: Dict[str, int]) -> Tuple[bool, List[str]]:
+            r_info = DEEPWOKEN_RACES.get(r_name)
+            if not r_info: return True, []
+            errs = []
+            for s_name, m_val in r_info.get("stats", {}).items():
+                c_val = cur_s.get(s_name, 0)
+                if c_val < m_val:
+                    errs.append(f"⚠️ {r_name} 종족의 {s_name} 기본치는 최소 {m_val}pt 이상이어야 합니다. (현재: {c_val}pt - 질서의 성소 삭감 불가 룰)")
+            return len(errs) == 0, errs
+
+        race_ok, race_errs = check_racial_base_compliance(selected_race, post_stat_dict)
         if race_ok:
             stat_badge_html.append(f'<div style="color: #34d399; font-size: 0.85rem; margin-top: 6px;">🧬 <b>{selected_race}</b> 종족 기본치 보존 룰 일치 (질서의 성소 삭감 불가 룰 준수 ✅)</div>')
         else:
