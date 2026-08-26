@@ -1,0 +1,143 @@
+{
+  "video_metadata": {
+    "title": "How Is This Build Not Nerfed? | Deepwoken",
+    "channel": "Inu",
+    "url": "https://www.youtube.com/watch?v=ITa2ipQ0bqE",
+    "game_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "100 Willpower Authority No-Oath Depth PvP Medium Sword Build",
+    "build_type": "PvP",
+    "difficulty": "Intermediate",
+    "creator_opinion": "심층(Depths)에서 고성능을 발휘하는 노오스(No-Oath) 100 의지(Willpower) 오소리티(Authority) 검 빌드입니다. 의지 100 스탯과 정신력 회복 관련 탤런트를 채용하여 노오스 오스 사용 시 발생하는 정신력 감소 리스크를 완벽하게 보완하며, 오소리티 진영 가입을 통해 길드명 비노출 및 전용 포스처 방어 탤런트(Crossguard 등)를 획득했습니다. 1v1 전투뿐만 아니라 심층 내 다중 갱킹 대처 능력이 매우 우수합니다.",
+    "strengths": [
+      "100 의지(Willpower) 스탯 및 전용 탤런트로 인한 심층(Depths) 장기 생존 능력",
+      "노오스(No-Oath) Tier 3 부여 시 상대방의 패링 잠시 봉쇄 및 패시브 데미지 부여",
+      "오소리티(Authority) 가입으로 길드명 비노출 및 검 전용 포스처 이점 확보",
+      "다대일 갱킹 상황에서 Against All Odds 등의 탤런트를 통한 강력한 맞딜 및 변수 창출"
+    ],
+    "weaknesses": [
+      "정신력 관리가 무너질 경우 노오스 디버프로 인해 심층에서 빠르게 와이프(Wipe) 위험 존재",
+      "Shrine of Order 활용 및 육성 스탯 순서(100 의지 선행 투자)를 철저히 준수해야 함"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 1,
+      "agility": 75,
+      "intelligence": 0,
+      "willpower": 1,
+      "charisma": 0,
+      "heavy_weapon": 0,
+      "medium_weapon": 18,
+      "light_weapon": 0,
+      "attunements": []
+    },
+    "post_shrine": {
+      "strength": 50,
+      "fortitude": 50,
+      "agility": 50,
+      "intelligence": 0,
+      "willpower": 100,
+      "charisma": 0,
+      "heavy_weapon": 0,
+      "medium_weapon": 75,
+      "light_weapon": 0,
+      "attunements": []
+    }
+  },
+  "character_setup": {
+    "oath": "No-Oath",
+    "race": "Ganymede",
+    "origin": "Castaway",
+    "murmur": null,
+    "resonance_bell": "Jar of Souls"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Crossguard",
+        "is_core": true
+      },
+      {
+        "name": "Stay of Execution",
+        "is_core": true
+      },
+      {
+        "name": "Breathing Exercise",
+        "is_core": true
+      },
+      {
+        "name": "Against All Odds",
+        "is_core": true
+      },
+      {
+        "name": "Neuroplasticity",
+        "is_core": false
+      },
+      {
+        "name": "Kick Off",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Agile Dash"
+      },
+      {
+        "name": "Gaze"
+      },
+      {
+        "name": "Exhaustion Strike"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Serpent's Edge / Medium Sword",
+      "category": "Medium Weapon",
+      "recommended_enchant": "Vampiric / Grim"
+    },
+    "outfit": {
+      "name": "Authority Commander Outfit / Black Diver"
+    },
+    "accessories": [
+      "Mushroom Coat",
+      "Familiar Knight's Helm"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Depth Gankers (PvP Players)",
+      "Squibbo",
+      "Enforcer",
+      "Chaser"
+    ],
+    "mob_strategy": "심층 PvP 및 갱커 퇴치 전용 빌드입니다. 노오스 오스의 디버프 스택을 적극적으로 쌓아 적의 패링 타이밍을 빼앗고, 100 의지 기반의 높은 정신력과 맞딜 탤런트를 활용해 심층 갱커들을 차례로 제압합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "노오스 맹세 상태에서 미디엄 소드의 M1 근접 공격 및 Crossguard 포스처 압박을 가합니다. 상대방에게 티어 스택을 부여하여 패링을 봉쇄한 뒤, Gaze 및 Exhaustion Strike 등의 만트라로 리듬을 깨트립니다. 수적으로 불리한 다대일 상황에서는 Against All Odds 데미지 증폭을 바탕으로 강력한 맞딜로 상대를 괴멸시킵니다."
+  },
+  "video_meta": {
+    "title": "How Is This Build Not Nerfed? | Deepwoken",
+    "channel": "Inu",
+    "url": "https://www.youtube.com/watch?v=ITa2ipQ0bqE",
+    "upload_date": "20260802",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Agile Dash"
+    },
+    {
+      "name": "Gaze"
+    },
+    {
+      "name": "Exhaustion Strike"
+    }
+  ],
+  "equipment": []
+}

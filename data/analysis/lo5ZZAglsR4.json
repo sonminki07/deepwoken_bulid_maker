@@ -1,0 +1,133 @@
+{
+  "video_metadata": {
+    "title": "This Build Does TOO Much Damage | Deepwoken",
+    "channel": "Saya",
+    "url": "https://www.youtube.com/watch?v=lo5ZZAglsR4",
+    "patch_version": "Verse 2 (Saltchemist Update)"
+  },
+  "build_summary": {
+    "build_name": "Saltchemist Heavy Gale Kyrsglaive",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Saltchemist Oath와 Heavy Gale(돌풍) 속성을 결합하여 극대화된 데미지와 유틸리티를 자랑하는 PvP 빌드입니다. Kyrsglaive를 주무기로 사용하여 강력한 리치와 한 방 데미지를 선사하며, Saltchemist의 물약 버프 및 디버프 효과를 활용해 상대방을 압도합니다. 특히 높은 관통력(Mantra Pen) 세팅을 통해 상대의 방어력을 무력화시키는 것이 핵심입니다.",
+    "strengths": [
+      "매우 강력한 한 방 데미지",
+      "Saltchemist 물약을 통한 다양한 버프 및 유틸리티",
+      "Kyrsglaive의 우수한 리치와 판정",
+      "높은 주문 관통력(Mantra Pen)으로 탱커 빌드 카운터 가능"
+    ],
+    "weaknesses": [
+      "Shrine of Order를 활용한 복잡한 스탯 분배 필요",
+      "물약 제조 및 관리가 번거로울 수 있음",
+      "공격 속도가 다소 느려 패링에 취어할 수 있음"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 40,
+      "agility": 40,
+      "intelligence": 40,
+      "willpower": 40,
+      "charisma": 40,
+      "heavy_weapon": 0,
+      "galebreathe": 0
+    },
+    "post_shrine": {
+      "strength": 40,
+      "fortitude": 40,
+      "agility": 40,
+      "intelligence": 40,
+      "willpower": 40,
+      "charisma": 40,
+      "heavy_weapon": 100,
+      "galebreathe": 80
+    }
+  },
+  "character_setup": {
+    "oath": "Saltchemist",
+    "race": "Ganymede",
+    "origin": "Voidwalker",
+    "murmur": "Ardour",
+    "resonance_bell": "Kamui"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Saltchemist",
+        "is_core": true
+      },
+      {
+        "name": "Gale Trap",
+        "is_core": true
+      },
+      {
+        "name": "Perfect Flash",
+        "is_core": false
+      },
+      {
+        "name": "Wind Passage",
+        "is_core": true
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Gale Lunge"
+      },
+      {
+        "name": "Heavenly Wind"
+      },
+      {
+        "name": "Gale Trap"
+      },
+      {
+        "name": "Wind Carve"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Kyrsglaive",
+    "weapon_type": "Heavy",
+    "recommend_enchant": "Vampiric",
+    "outfit": "Prophet's Cloak",
+    "accessories": [
+      "Imperial Boots",
+      "Chitin Ring"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Duke of Erisia",
+      "Chaser",
+      "Voidwalkers"
+    ],
+    "mob_strategy": "Saltchemist의 강화 물약을 복용한 후, Gale Trap과 Gale Lunge를 연계하여 몹을 구석으로 몰아넣습니다. Kyrsglaive의 긴 리치를 활용해 안전한 거리에서 평타와 만트라를 섞어가며 폭발적인 데미지를 누적시킵니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "전투 시작 전 Saltchemist 버프 물약을 마셔 데미지와 관통력을 극대화합니다. Gale Trap으로 상대의 움직임을 제한한 뒤, Gale Lunge 또는 Wind Carve로 진입하여 Kyrsglaive의 강력한 Heavy 평타 콤보를 이어갑니다. 상대가 거리를 벌리려 할 때는 Heavenly Wind를 사용해 압박을 유지합니다."
+  },
+  "video_meta": {
+    "title": "This Build Does TOO Much Damage | Deepwoken",
+    "channel": "Saya",
+    "url": "https://www.youtube.com/watch?v=lo5ZZAglsR4",
+    "upload_date": "20260820",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Heavenly Wind"
+    },
+    {
+      "name": "Gale Trap"
+    },
+    {
+      "name": "Wind Carve"
+    }
+  ],
+  "equipment": []
+}

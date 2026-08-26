@@ -1,0 +1,150 @@
+{
+  "video_metadata": {
+    "title": "The Megumi Summoner Progression! (1-20) | Deepwoken |",
+    "channel": "Wormcave",
+    "url": "https://www.youtube.com/watch?v=VuAHR4PUlT8",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Megumi Fushiguro Ten Shadows Summoner Build",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "주술회전의 후시구로 메구미(십종영법술)를 모티브로 제작된 Visionshaper 십종영법술 소환사 빌드입니다. Visionshaper Oath의 분신 생성(Shadow Clone)과 Frostdraw, Thundercall, Shadowcast 3속성 만트라를 조합하여 토끼 탈출(Rabbit Escape), 가마두꺼비(Toad), 만상(Max Elephant) 등의 식신 기술을 재현했습니다. Shrine of Order를 활용해 스탯 포인트를 최적화하고 다재다능한 소환수와 분신으로 상대를 압박합니다.",
+    "strengths": [
+      "Visionshaper Oath 분신과 소환수 만트라를 통한 압도적인 필드 어그로 분산 능력",
+      "다중 속성(Frostdraw, Thundercall, Shadowcast) 만트라 활용으로 다양한 상황 대응력 보유",
+      "주술회전 후시구로 메구미의 헤어 및 복장을 완벽하게 재현한 높은 코스플레이 완성도"
+    ],
+    "weaknesses": [
+      "Shrine of Order 사용을 위해 극초반 스탯을 균등하게 투자해야 하므로 육성 난이도가 존재함",
+      "다중 속성 빌드 특성상 특정 단일 속성 전용 딜링 빌드 대비 폭발적인 순간 단일 딜량은 다소 낮을 수 있음"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 25,
+      "fortitude": 25,
+      "agility": 25,
+      "intelligence": 25,
+      "willpower": 25,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 25,
+      "light_weapon": 0,
+      "frostdraw": 25,
+      "thundercall": 25,
+      "shadowcast": 25,
+      "galebreathe": 0,
+      "flamecharm": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
+    "post_shrine": {
+      "strength": 25,
+      "fortitude": 40,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 55,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 60,
+      "light_weapon": 0,
+      "frostdraw": 25,
+      "thundercall": 25,
+      "shadowcast": 25,
+      "galebreathe": 0,
+      "flamecharm": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Visionshaper",
+    "race": "Etrean",
+    "origin": "Voidheart",
+    "murmur": "None",
+    "resonance_bell": "Chorus Divide"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Visionshaper Illusionist",
+        "is_core": true
+      },
+      {
+        "name": "Conditioned Runner",
+        "is_core": false
+      },
+      {
+        "name": "Exoskeleton",
+        "is_core": true
+      },
+      {
+        "name": "Ghost",
+        "is_core": true
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Shadow Clone"
+      },
+      {
+        "name": "Illusory Servants"
+      },
+      {
+        "name": "Frozen Servants"
+      },
+      {
+        "name": "Lightning Clones"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Messer / Hero Blade",
+      "category": "Medium Weapon",
+      "recommended_enchant": "Solar"
+    },
+    "outfit": "Hive Drone Outfit",
+    "accessories": [
+      "Diver's Ring",
+      "Megumi Custom Hair & Collar"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Megalodaunt",
+      "Primadon",
+      "Squibbo",
+      "Scion of Ethiron"
+    ],
+    "mob_strategy": "보스전 및 대형 몬스터 전투 시 Visionshaper의 분신 만트라(Shadow Clone / Illusory Servants)를 활성화하여 어그로를 분산시킵니다. 몹이 분신을 공격하는 동안 Frozen Servants 및 충격파 기술을 연계하여 안전한 거리를 유지하면서 가드 패링 타이밍에 딜을 가합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1. 전투 시작 시 Visionshaper 분신을 소환하여 시야 및 타겟팅을 교란합니다.\n2. 상대가 분신과 대치하는 동안 그림자/빙결 만트라를 사용해 견제탄을 날립니다.\n3. 상대가 방어적일 때 가드브레이크 판정 스킬을 섞어 근접 콤보로 연계하고, 위기 상황 시 'Rabbit Escape'(분신 및 이동 만트라)를 사용해 거리를 벌립니다."
+  },
+  "video_meta": {
+    "title": "The Megumi Summoner Progression! (1-20) | Deepwoken |",
+    "channel": "Wormcave",
+    "url": "https://www.youtube.com/watch?v=VuAHR4PUlT8",
+    "upload_date": "20260613",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Shadow Clone"
+    },
+    {
+      "name": "Illusory Servants"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Lightning Clones"
+    }
+  ],
+  "equipment": []
+}

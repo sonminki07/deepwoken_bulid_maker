@@ -1,0 +1,196 @@
+{
+  "video_metadata": {
+    "title": "Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=D3MIbCVb7ZU",
+    "patch_version": "Deepwoken Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Shining Maelstrom V4",
+    "build_type": "PvE",
+    "difficulty": "Expert",
+    "creator_opinion": "Shining Maelstrom V4는 Deepwoken 내 종결급 보스인 Elder Primadon, Chaser, Scion of Ethiron, Enmity 등을 압도적인 속도로 파괴하는 미니맥싱(Min-Maxed) 최상위 PvE 빌드입니다. Saintsworn Oath의 핵심 탤런트인 Ether Proselyte를 통해 모든 속성 만트라 레벨을 보너스로 올리고 스탠스 전환을 활용하여 딜량을 극대화합니다. Mopet 또는 Central Dirk와 같은 Dagger 계열 무기의 연타력과 Ironsing/Frostdraw 연계를 통한 장갑 파괴(Armor Shred)로 보스의 체력을 순식간에 녹여버립니다.",
+    "strengths": [
+      "Elder Primadon 1분 내 처치 및 Ethiron 0-Cycle 솔로 클리어가 가능한 최강의 보스 사냥 화력",
+      "Saintsworn Oath (Ether Proselyte)를 통한 모든 만트라 레벨 +1 및 속성 스탠스 변환 시너지",
+      "Ironsing 및 Frostdraw 연계로 보스의 방어구(Armor) 완벽 무력화",
+      "Dagger M1 빠른 연타 속도와 관통(PEN) 스택 메커니즘 극대화",
+      "Ice Skates 만트라를 통한 뛰어난 맵 기동성 및 패턴 회피 능력"
+    ],
+    "weaknesses": [
+      "Fortitude 0, Vitality 0 기반의 극딜 빌드로 회피 및 패링 숙련도 필수",
+      "다속성(Frostdraw, Ironsing, Flamecharm, Galebreathe, Shadowcast 등) 스탯 배분 및 Shrine of Order 순서가 매우 복잡함",
+      "Saintsworn 스탠스 전환 및 만트라 쿨타임 관리 메커니즘 이해 필요"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 0,
+      "fortitude": 0,
+      "agility": 0,
+      "intelligence": 35,
+      "willpower": 0,
+      "charisma": 1,
+      "heavy_weapon": 78,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "flamecharm": 60,
+      "frostdraw": 60,
+      "thundercall": 20,
+      "galebreathe": 50,
+      "shadowcast": 35,
+      "ironsing": 80
+    },
+    "post_shrine": {
+      "strength": 19,
+      "fortitude": 19,
+      "agility": 19,
+      "intelligence": 35,
+      "willpower": 19,
+      "charisma": 35,
+      "heavy_weapon": 19,
+      "medium_weapon": 0,
+      "light_weapon": 100,
+      "flamecharm": 40,
+      "frostdraw": 60,
+      "thundercall": 20,
+      "galebreathe": 60,
+      "shadowcast": 20,
+      "ironsing": 75
+    }
+  },
+  "character_setup": {
+    "oath": "Saintsworn",
+    "race": "Canor",
+    "origin": "Lone Warrior",
+    "murmur": "Murmur: Ardour",
+    "resonance_bell": "Crazy Slots"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Ether Proselyte",
+        "is_core": true
+      },
+      {
+        "name": "Knife's Journey",
+        "is_core": true
+      },
+      {
+        "name": "Scrapsinger",
+        "is_core": true
+      },
+      {
+        "name": "Neuroplasticity",
+        "is_core": true
+      },
+      {
+        "name": "Flame Within",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Inhale",
+        "is_core": true
+      },
+      {
+        "name": "Overflowing Power",
+        "is_core": true
+      },
+      {
+        "name": "Thresher Claws",
+        "is_core": false
+      },
+      {
+        "name": "Gale Reflection",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Frozen Servants"
+      },
+      {
+        "name": "Warden's Blades"
+      },
+      {
+        "name": "Metal Rain"
+      },
+      {
+        "name": "Oxidizing Rush"
+      },
+      {
+        "name": "Taunt"
+      },
+      {
+        "name": "Ice Skates"
+      },
+      {
+        "name": "Flame Sentinel"
+      },
+      {
+        "name": "Shade Devour"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Mopet / Central Dirk / Alloyed Wailing Knife",
+      "category": "Light Weapon (Dagger)",
+      "recommended_enchants": "Providence"
+    },
+    "outfit": "Black Pathfinder Cloak / Black Diver",
+    "accessories": "Scholar's Outfit, Whistling Ring, Purifying Ring, Amethyst Pendant"
+  },
+  "target_mobs_and_strategy": {
+    "target_mobs": [
+      "Elder Primadon",
+      "Scion of Ethiron",
+      "Chaser",
+      "Enmity"
+    ],
+    "mob_strategy": "Elder Primadon 및 Ethiron 공략 시, 전투 시작 직후 Frozen Servants와 Warden's Blades를 전개하여 지속적인 피해 환경을 구축합니다. Dagger M1 연타 및 크리티컬 공격을 폭발적으로 집어넣어 Knife's Journey 관통 버프와 Scrapsinger 방어구 파괴 스택을 빠르게 획득합니다. Ironsing 스킬(Metal Rain, Oxidizing Rush)로 보스의 남은 장갑을 쇄도한 뒤 Saintsworn 스탠스 버프와 버프 만트라(Flame Within, Tough Love, Charismatic Cast)가 활성화된 상태에서 무자비한 M1 딜링으로 보스를 순식간에 처치합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1. 전투 진입 전 Flame Within 버프 및 Tough Love / Charismatic Cast 수치를 활성화합니다.\n2. Saintsworn 스탠스를 속성 조건에 맞춰 세팅한 뒤 Frozen Servants와 Warden's Blades를 시전합니다.\n3. 보스에게 근접하여 Dagger 크리티컬 및 빠른 M1 연타를 넣으며 Knife's Journey 및 관통(PEN) 스택을 쌓습니다.\n4. Metal Rain, Oxidizing Rush 등 Ironsing 기반 고데미지 만트라를 쿨타임마다 시전합니다.\n5. 보스의 위험 패턴(장판, 짓밟기 등)은 Ice Skates의 고속 이동이나 Q 도지로 안전하게 회피하며 지속적으로 딜타임을 유지합니다."
+  },
+  "video_meta": {
+    "title": "Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=D3MIbCVb7ZU",
+    "upload_date": "20260526",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Metal Rain"
+    },
+    {
+      "name": "Oxidizing Rush"
+    },
+    {
+      "name": "Taunt"
+    },
+    {
+      "name": "Ice Skates"
+    },
+    {
+      "name": "Flame Sentinel"
+    },
+    {
+      "name": "Shade Devour"
+    }
+  ],
+  "equipment": []
+}

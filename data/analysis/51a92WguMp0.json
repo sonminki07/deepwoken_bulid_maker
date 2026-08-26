@@ -1,0 +1,237 @@
+{
+  "video_metadata": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "patch_version": "Verse 2 (Ironsing Augmenter Buff Patch)"
+  },
+  "build_summary": {
+    "build_name": "Augmenter Cleave (90 HVY + 90 IRON)",
+    "build_type": "Hybrid",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 최근 대폭 상향된 Ironsing의 'Augmenter' 패스(Rending Needle: Augmenter)와 Kyrscleave(Metal Greatsword)를 결합하여 극대화된 피해를 입히는 하이브리드 PvP 및 심해(Depths) 특화 빌드입니다. Shrine of Order를 활용해 극강의 스탯 효율을 챙겼으며, Galebreathe의 기동성(Gale-dash, Phantom Step)과 Flamecharm의 유틸리티(Undying Flame, Graceful Flame)를 동시에 활용합니다. 특히 은신 상태에서 접근하여 순식간에 적에게 금속 못(Rods)을 박아 거대한 대검을 소환하는 메커니즘이 핵심입니다.",
+    "strengths": [
+      "Rending Needle: Augmenter를 통한 폭발적인 대검 소환 딜링",
+      "Familiar Assassin's Armor와 Felinor 종족 시너지를 통한 압도적인 은신 능력",
+      "Gale-dash와 Phantom Step을 활용한 뛰어난 기동성 및 도주력",
+      "심해(Depths)에서 Undying Flame과 Graceful Flame을 연계한 강력한 자가 치유 능력",
+      "Tough Love와 Charisma 특성을 통한 상시 피해 증가 버프"
+    ],
+    "weaknesses": [
+      "Shrine of Order 전후의 매우 정교한 스탯 분배 및 빌드업 순서 요구",
+      "Ironsing 만트라 자체의 데미지보다는 Rod 누적 및 대검 소환에 의존하는 플레이스타일",
+      "초보자가 다루기에는 다소 복잡한 만트라 스왑 및 콤보 연계 난이도"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 1,
+      "agility": 20,
+      "intelligence": 0,
+      "willpower": 1,
+      "charisma": 1,
+      "heavy_weapon": 90,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "flamecharm": 1,
+      "galebreathe": 55,
+      "ironsing": 90,
+      "shadowcast": 0,
+      "thundercall": 0,
+      "frostdraw": 0
+    },
+    "post_shrine": {
+      "strength": 25,
+      "fortitude": 50,
+      "agility": 25,
+      "intelligence": 0,
+      "willpower": 40,
+      "charisma": 25,
+      "heavy_weapon": 75,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "flamecharm": 40,
+      "galebreathe": 25,
+      "ironsing": 25,
+      "shadowcast": 0,
+      "thundercall": 0,
+      "frostdraw": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Soulbreaker",
+    "race": "Felinor",
+    "origin": "Deepbound",
+    "murmur": "All (Soulbreaker)",
+    "resonance_bell": "Crazy Slots"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Rending Needle: Augmenter",
+        "is_core": true
+      },
+      {
+        "name": "Exoskeleton",
+        "is_core": true
+      },
+      {
+        "name": "To The Finish",
+        "is_core": true
+      },
+      {
+        "name": "Risky Moves",
+        "is_core": true
+      },
+      {
+        "name": "Destructive Recovery",
+        "is_core": true
+      },
+      {
+        "name": "Spine Cutter",
+        "is_core": true
+      },
+      {
+        "name": "Undying Flame",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Endurance Runner",
+        "is_core": false
+      },
+      {
+        "name": "Flame Within",
+        "is_core": false
+      },
+      {
+        "name": "Lowstride",
+        "is_core": false
+      },
+      {
+        "name": "Charged Return",
+        "is_core": false
+      },
+      {
+        "name": "Meteor Impact",
+        "is_core": true
+      },
+      {
+        "name": "Phoenix Impact",
+        "is_core": true
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Rising Flame"
+      },
+      {
+        "name": "Gale Lunge"
+      },
+      {
+        "name": "Gale Trap"
+      },
+      {
+        "name": "Rising Wind"
+      },
+      {
+        "name": "Oxidizing Rush"
+      },
+      {
+        "name": "Metal Armament"
+      },
+      {
+        "name": "Metal Fakeout"
+      },
+      {
+        "name": "Exhaustion Strike"
+      },
+      {
+        "name": "Flame Leap"
+      },
+      {
+        "name": "Graceful Flame"
+      },
+      {
+        "name": "Chain Pull"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Kyrscleave (Metal Enchant)",
+    "outfit": "Familiar Assassin's Armor (Hallowtide Version)",
+    "accessories": [
+      "Tyran Pendant (Torso)",
+      "Bastions of Enmity (Arms)",
+      "Star Boots (Legs)",
+      "Aegis of Enmity (Head)",
+      "Kong's Clutch Ring",
+      "Ferryman's Ring",
+      "Bloodron Ring",
+      "Akira's Ring",
+      "Master Thief Earrings",
+      "Citadel Frames"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Squibbo",
+      "Enforcer",
+      "Chaser",
+      "PvP Opponents"
+    ],
+    "mob_strategy": "심해 몹(Squibbo, Enforcer 등)이나 보스(Chaser)를 상대할 때, 은신 상태에서 선제공격을 가한 뒤 Oxidizing Rush로 빠르게 Rod를 누적시킵니다. 이후 Augmenter 대검이 소환되면 Rising Wind나 Rising Flame 같은 어퍼컷 만트라 이후 Meteor Slam을 연계하여 폭발적인 광역 피해를 입힙니다. 체력이 낮아지면 Gale-dash로 거리를 벌린 뒤 Graceful Flame을 깔아 안전하게 체력을 회복합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "은신 접근 -> M1 -> Oxidizing Rush (Rod 누적) -> Augmenter 대검 소환 -> Gale Lunge (콤보 연장) -> Rising Wind (에어본) -> Meteor Impact (메테오 슬램 추가타) -> 적이 도망치면 Chain Pull로 당기거나 Metal Fakeout으로 캐치 -> 위기 상황 시 Flame Leap 및 Gale-dash로 이탈 후 Graceful Flame 설치."
+  },
+  "video_meta": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "upload_date": "20260505",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Rising Flame"
+    },
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Gale Trap"
+    },
+    {
+      "name": "Rising Wind"
+    },
+    {
+      "name": "Oxidizing Rush"
+    },
+    {
+      "name": "Metal Armament"
+    },
+    {
+      "name": "Metal Fakeout"
+    },
+    {
+      "name": "Exhaustion Strike"
+    },
+    {
+      "name": "Flame Leap"
+    },
+    {
+      "name": "Graceful Flame"
+    },
+    {
+      "name": "Chain Pull"
+    }
+  ],
+  "equipment": []
+}

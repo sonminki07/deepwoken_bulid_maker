@@ -1,0 +1,129 @@
+{
+  "video_metadata": {
+    "title": "Build Diversity: How To Make Unique Builds | Deepwoken Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=x6n5yW2WAVg",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Imperial Staff Thunder",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "임페리얼 스태프와 번개 속성을 결합한 독창적인 빌드입니다. 비주류 만트라인 Lightning Beam과 Ascension을 활용하여 변칙적인 공중 콤보와 강력한 유틸리티를 제공합니다.",
+    "strengths": [
+      "Rising Thunder를 활용한 배후 기습 공격",
+      "Lightning Beam과 Ascension의 강력한 공중 연계",
+      "높은 기동성과 변칙적인 플레이스타일"
+    ],
+    "weaknesses": [
+      "정교한 만트라 타이밍 및 컨트롤 요구",
+      "메타 빌드 대비 직관적인 딜링 부족"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 50,
+      "agility": 65,
+      "intelligence": 0,
+      "willpower": 0,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 1,
+      "light_weapon": 71,
+      "bloodrend": 0,
+      "shadowcast": 0,
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "galebreathe": 0,
+      "thundercall": 80,
+      "ironsing": 0
+    },
+    "post_shrine": {
+      "strength": 1,
+      "fortitude": 50,
+      "agility": 65,
+      "intelligence": 0,
+      "willpower": 0,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 1,
+      "light_weapon": 71,
+      "bloodrend": 0,
+      "shadowcast": 0,
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "galebreathe": 0,
+      "thundercall": 80,
+      "ironsing": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Ganymede",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "Kamui"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Rising Thunder",
+        "is_core": true
+      },
+      {
+        "name": "Lightning Beam",
+        "is_core": true
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Lightning Beam"
+      },
+      {
+        "name": "Ascension"
+      },
+      {
+        "name": "Rising Thunder"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Imperial Staff",
+    "outfit": "Prophet's Cloak",
+    "accessories": [
+      "Thunder Pendant"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Duke",
+      "Chaser"
+    ],
+    "mob_strategy": "Ascension으로 대상을 공중에 띄운 뒤 Lightning Beam을 연사하여 안전한 거리에서 폭딜을 넣습니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "Rising Thunder로 상대의 뒤를 잡은 직후 Ascension으로 띄우고 Lightning Beam으로 연계하는 콤보를 사용합니다."
+  },
+  "video_meta": {
+    "title": "Build Diversity: How To Make Unique Builds | Deepwoken Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=x6n5yW2WAVg",
+    "upload_date": "20250829",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Lightning Beam"
+    },
+    {
+      "name": "Ascension"
+    },
+    {
+      "name": "Rising Thunder"
+    }
+  ],
+  "equipment": []
+}

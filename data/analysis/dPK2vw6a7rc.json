@@ -1,0 +1,216 @@
+{
+  "video_metadata": {
+    "title": "The Starter PvE Build You NEED in Deepwoken (2026)",
+    "channel": "TRE_MONSTER",
+    "url": "https://www.youtube.com/watch?v=dPK2vw6a7rc",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Starter Dual-Element Brick Wall Heavy PvE",
+    "build_type": "PvE",
+    "difficulty": "Beginner",
+    "creator_opinion": "Deepwoken에 입문하는 초보자나 쉬운 PvE 전용 빌드를 찾는 유저를 위해 제작된 빌드입니다. Shrine of Order를 사용하기 전 의지 100과 체력 100을 달성하여 핵심 방어 특성인 Brick Wall을 확보함으로써, 체력이 0이 되기 전에는 절대 넉백이나 래그돌 상태가 되지 않는 압도적인 안정성을 제공합니다. Flamecharm과 Frostdraw의 속성 조합으로 Flash Boil 시너지를 내며, Enforcer's Axe를 사용해 딜루비안 및 레이어 2 보스 콘텐츠를 쉽게 독학하고 파밍할 수 있습니다.",
+    "strengths": [
+      "Brick Wall 특성 탑재로 체력이 다할 때까지 넉백/래그돌 면제",
+      "Flamecharm + Frostdraw 시너지인 Flash Boil 특성으로 강력한 지속/폭발 딜링",
+      "Carnivore 특성을 통한 몬스터 처치 시 허기/갈증 완벽 케어",
+      "Ignition Gauntlets 장착으로 가드 불가능한 딜루비안 공격 패링 가능",
+      "Ethiron, Chaser 등 주요 대형 보스 레이드 및 딜루비안 25웨이브 이상 안정적 솔로 가능"
+    ],
+    "weaknesses": [
+      "Shrine of Order 사용 전 정확한 스탯 순서(의지 100 -> 체력 100 -> 매력 25 -> 무기 1)를 지켜야 함",
+      "종족 특성 및 에코 업그레이드(Multifaceted/Elementalist) 미보유 시 소폭의 스탯 효율 저하 가능"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 0,
+      "fortitude": 100,
+      "agility": 0,
+      "intelligence": 0,
+      "willpower": 100,
+      "charisma": 25,
+      "heavy_weapon": 1,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "flamecharm": 0,
+      "frostdraw": 0
+    },
+    "post_shrine": {
+      "strength": 5,
+      "fortitude": 40,
+      "agility": 0,
+      "intelligence": 0,
+      "willpower": 40,
+      "charisma": 10,
+      "heavy_weapon": 75,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "flamecharm": 40,
+      "frostdraw": 30
+    }
+  },
+  "character_setup": {
+    "oath": "Blindseer",
+    "race": "Any (Etrian, Vesperian 등)",
+    "origin": "Ignition Union",
+    "murmur": "None / Any",
+    "resonance_bell": "Any"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Brick Wall",
+        "is_core": true
+      },
+      {
+        "name": "Reinforced Armor",
+        "is_core": true
+      },
+      {
+        "name": "Not a Scratch",
+        "is_core": false
+      },
+      {
+        "name": "Piercing Will",
+        "is_core": true
+      },
+      {
+        "name": "Emergency Reserves",
+        "is_core": false
+      },
+      {
+        "name": "Flash Boil",
+        "is_core": true
+      },
+      {
+        "name": "Carnivore",
+        "is_core": true
+      },
+      {
+        "name": "Charismatic Cast",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Flame Within",
+        "is_core": true
+      },
+      {
+        "name": "Cauterized Wounds",
+        "is_core": false
+      },
+      {
+        "name": "Unyielding Inferno",
+        "is_core": false
+      },
+      {
+        "name": "Cool Head",
+        "is_core": false
+      },
+      {
+        "name": "Frostbite",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Flame Wisp"
+      },
+      {
+        "name": "Relentless Flames"
+      },
+      {
+        "name": "Flame Assault"
+      },
+      {
+        "name": "Burning Servants"
+      },
+      {
+        "name": "Frozen Servants"
+      },
+      {
+        "name": "Warden's Blades"
+      },
+      {
+        "name": "Ice Flock"
+      },
+      {
+        "name": "Chilling Flourish"
+      },
+      {
+        "name": "Flaming Flourish"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Enforcer's Axe",
+      "type": "Heavy Weapon",
+      "recommended_enchants": [
+        "Providence Thorns",
+        "Vampirism",
+        "Grim",
+        "Wild"
+      ]
+    },
+    "outfit": "Black Diver or Prophet's Cloak",
+    "accessories": [
+      "Ignition Gauntlets"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Ferryman",
+      "Diluvion Waves"
+    ],
+    "mob_strategy": "Brick Wall 특성이 핵심입니다. 보스의 강력한 패턴이나 다수 몹의 공세에 맞더라도 다운되거나 밀려나지 않으므로 위치를 유지하며 딜을 지속할 수 있습니다. Flamecharm 스킬로 타격을 가해 화염 상태를 만든 직후 Frostdraw 스킬을 적중시켜 Flash Boil을 발동시키면 몬스터에게 대량의 칩 데미지 및 보너스 피격 데미지가 들어갑니다. 일반적인 가드가 불가능한 딜루비안 몬스터 공격은 Ignition Gauntlets 특수 방어 효과로 차단하세요."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1. 전투 시작 전 버프 만트라(Flame Wisp)를 켜 유지력과 공격력을 끌어올립니다.\n2. Enforcer's Axe 특유의 강한 가드 브레이크 성능과 다단히트 크리티컬 공격으로 적의 방어를 붕괴시킵니다.\n3. Flame Assault 또는 Relentless Flames로 지속적인 화염 도트 피해를 부여합니다.\n4. Ice Flock 등의 얼음 만트라를 연계해 Flash Boil 반응을 유발, 단시간에 높은 대미지를 꽂아 넣습니다.\n5. Brick Wall의 높은 탱킹력을 바탕으로 맞딜을 시도하되, Carnivore 특성 덕분에 몹을 처치할 때마다 스태미나와 체력 관리가 자동으로 이뤄집니다."
+  },
+  "video_meta": {
+    "title": "The Starter PvE Build You NEED in Deepwoken (2026)",
+    "channel": "TRE_MONSTER",
+    "url": "https://www.youtube.com/watch?v=dPK2vw6a7rc",
+    "upload_date": "20260405",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Flame Wisp"
+    },
+    {
+      "name": "Relentless Flames"
+    },
+    {
+      "name": "Flame Assault"
+    },
+    {
+      "name": "Burning Servants"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Chilling Flourish"
+    },
+    {
+      "name": "Flaming Flourish"
+    }
+  ],
+  "equipment": []
+}

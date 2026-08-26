@@ -1,0 +1,186 @@
+{
+  "video_metadata": {
+    "title": "World Record Diluvian PvE Build Progression 'Tidekeeper V2' | Deepwoken PvE Build Progression 1-20",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=_ihaDl5m6Rs",
+    "estimated_patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Tidekeeper V2 (Diluvian World Record PvE)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "Tidekeeper V2는 Diluvian Mechanism 50웨이브를 가장 빠르고 안정적으로 클리어하기 위해 설계된 최고의 PvE 빌드입니다. One With Flame 특성과 Flamecharm + Frostdraw 조합을 통한 스팀(Steam) 폭발 디버프 및 강력한 벤트(Vent) 데미지를 핵심 딜링 수단으로 사용합니다. Prediction 만트라와 Brick Wall, Immolation 등의 방어적 탤런트가 결합되어 대량의 몹 속에서도 무적 판정과 미친듯한 체력 회복력을 보여줍니다.",
+    "strengths": [
+      "Cold Front와 One With Flame의 시너지로 벤트(Vent) 사용 시 무자비한 스팀(Steam) 지속 광역 데미지 부여",
+      "Prediction 만트라 성공 시 연속 무적 판정으로 인포서 및 고렘 등의 다중 연타 패턴을 완벽히 무력화",
+      "Flame Wisp 및 Dead God 탤런트 연계로 대량 몹 클리어 시 폭발적인 자가 체력 회복",
+      "Diluvian 솔로 및 팀 솔로 솔로/팀 세계 신기록(14분 20초) 달성 성능 검증 완료"
+    ],
+    "weaknesses": [
+      "Worshipper Armor, Worshipper Shield, Worshipper Longsword 등 특정 시너지 전용 장비 착용 필수",
+      "단일 몹(보스전)보다는 다수의 몹이 밀집한 딜루비안 웨이브 환경에 특화되어 있음",
+      "Shrine of Order 사용 전후 스탯 투자 순서를 정확히 맞춰야 탤런트 손실이 없음"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 0,
+      "fortitude": 100,
+      "agility": 0,
+      "intelligence": 50,
+      "willpower": 100,
+      "charisma": 0,
+      "heavy_weapon": 0,
+      "medium_weapon": 4,
+      "light_weapon": 0,
+      "flamecharm": 1,
+      "frostdraw": 1,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
+    "post_shrine": {
+      "strength": 5,
+      "fortitude": 26,
+      "agility": 0,
+      "intelligence": 26,
+      "willpower": 75,
+      "charisma": 0,
+      "heavy_weapon": 0,
+      "medium_weapon": 26,
+      "light_weapon": 0,
+      "flamecharm": 80,
+      "frostdraw": 40,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Soulbreaker",
+    "race": "Canor",
+    "origin": "Lone Warrior",
+    "murmur": "Murmur Ardor",
+    "resonance_bell": "Payback"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "One With Flame",
+        "is_core": true
+      },
+      {
+        "name": "Flame Within",
+        "is_core": true
+      },
+      {
+        "name": "Azure Flames",
+        "is_core": true
+      },
+      {
+        "name": "Brick Wall",
+        "is_core": true
+      },
+      {
+        "name": "Cold Front",
+        "is_core": true
+      },
+      {
+        "name": "Water off a Duck's Back",
+        "is_core": true
+      },
+      {
+        "name": "Immolation",
+        "is_core": true
+      },
+      {
+        "name": "Sin Stacker",
+        "is_core": false
+      },
+      {
+        "name": "Give and Take",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Prediction"
+      },
+      {
+        "name": "Relentless Flames"
+      },
+      {
+        "name": "Flame Wisp"
+      },
+      {
+        "name": "Flame Sentinel"
+      },
+      {
+        "name": "Warden's Blades"
+      },
+      {
+        "name": "Frozen Servants"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Worshipper Longsword",
+    "weapon_type": "Medium Weapon",
+    "recommended_enchant": "Solar",
+    "outfit": "Worshipper Armor (Flame Worshipper Armor)",
+    "accessories": [
+      "Worshipper Shield",
+      "Tophat (Give and Take Talent 부여)"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Diluvian Mechanism (Wave 1-50)",
+      "Enforcer",
+      "Owl / Deep Owl",
+      "Squibbo",
+      "Corrupted Bonekeeper",
+      "Duke Erisia",
+      "Ferryman",
+      "Dread Serpent (Kaido)"
+    ],
+    "mob_strategy": "Diluvian 웨이브 시작 시 중앙에서 Ardor 및 Soulbreaker 아우라로 데미지 버프를 활성화합니다. 인포서나 아울 등의 연타 공격에 맞춰 Prediction을 캐스팅하여 완벽 패링 무적 상태를 만듭니다. 그 후 Cold Front로 강화된 벤트를 사용하여 주변 몹 전체에 Steam 디버프 및 광역 폭딜을 넣고, Relentless Flames로 남은 대형 몬스터의 체력을 깎아냅니다. 몹이 죽을 때마다 쏟아지는 헬스팩과 Flame Wisp 피흡을 통해 체력을 풀 상태로 유지합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1. 몹들이 중앙으로 모여들면 Flame Wisp 및 Flame Sentinel을 먼저 켜서 패시브 피흡/딜 환경을 조성합니다.\n2. 인포서나 돌진하는 몹 패턴에 맞춰 Prediction을 사용하여 무적 시간을 확보합니다.\n3. 무적 상태 도중 즉시 Vent를 눌러 Cold Front 스팀 폭발로 엄청난 수치의 근접 범위 데미지를 입힙니다.\n4. 템포(Tempo)가 수급되면 Relentless Flames 및 Warden's Blades를 지속적으로 시전하여 스팀 프로젝션을 무한 유지합니다.\n5. 위기 상황 시 Payback 밸을 켜서 데미지 감쇄 및 리턴 딜을 연계합니다."
+  },
+  "video_meta": {
+    "title": "World Record Diluvian PvE Build Progression 'Tidekeeper V2' | Deepwoken PvE Build Progression 1-20",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=_ihaDl5m6Rs",
+    "upload_date": "20260629",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Prediction"
+    },
+    {
+      "name": "Relentless Flames"
+    },
+    {
+      "name": "Flame Wisp"
+    },
+    {
+      "name": "Flame Sentinel"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Frozen Servants"
+    }
+  ],
+  "equipment": []
+}

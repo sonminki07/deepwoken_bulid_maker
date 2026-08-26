@@ -1,0 +1,162 @@
+{
+  "video_metadata": {
+    "title": "The #1 Shadowcast Build | Deepwoken",
+    "channel": "mrsaje",
+    "url": "https://www.youtube.com/watch?v=ISNt-FN_miY",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Shadowcast Contractor Medium Build",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 강력한 Shadowcast 속성과 Contractor Oath의 유틸리티를 결합한 최상위권 PvP 빌드입니다. 어둠 속성 만트라를 통한 강력한 압박과 상대의 에테르를 흡수하는 능력을 바탕으로, Contractor의 사슬(Chains)을 연계하여 상대를 완벽하게 제어하고 콤보를 이어갈 수 있습니다. 높은 기동성과 디버프 능력을 동시에 챙겨 1v1 Chime에서 매우 강력한 모습을 보여줍니다.",
+    "strengths": [
+      "Contractor 사슬을 통한 강력한 군중 제어(CC) 및 콤보 연계",
+      "Shadowcast 만트라의 에테르 흡수 효과로 상대의 스킬 사용 억제",
+      "안정적인 중거리 견제 및 강력한 근접 압박 능력"
+    ],
+    "weaknesses": [
+      "Contractor Oath 획득을 위한 퀘스트 난이도가 높음",
+      "정교한 만트라 조준과 타이밍 예측이 필요함"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 20,
+      "fortitude": 40,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 0,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 100,
+      "light_weapon": 0,
+      "shadowcast": 80
+    },
+    "post_shrine": {
+      "strength": 20,
+      "fortitude": 40,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 0,
+      "charisma": 25,
+      "heavy_weapon": 0,
+      "medium_weapon": 100,
+      "light_weapon": 0,
+      "shadowcast": 80
+    }
+  },
+  "character_setup": {
+    "oath": "Contractor",
+    "race": "Vesperian",
+    "origin": "Voidheart",
+    "murmur": "Ardour",
+    "resonance_bell": "Kamui"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Exoskeleton",
+        "is_core": true
+      },
+      {
+        "name": "Ghost",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Charismatic Cast",
+        "is_core": true
+      },
+      {
+        "name": "Shadow Flow",
+        "is_core": true
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Shadow Gun"
+      },
+      {
+        "name": "Shadow Roar"
+      },
+      {
+        "name": "Shadow Eruption"
+      },
+      {
+        "name": "Dark Rift"
+      },
+      {
+        "name": "Shadow Faint"
+      },
+      {
+        "name": "Shadow Overlord"
+      },
+      {
+        "name": "Judgment"
+      },
+      {
+        "name": "Equalizer"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Forgotten Sword",
+    "weapon_type": "Medium",
+    "recommended_enchant": "Vampiric",
+    "outfit": "Black Diver",
+    "accessories": [
+      "Imperial Boots",
+      "Prophet's Cloak"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chime of Conflict Players",
+      "Duke Erisia"
+    ],
+    "mob_strategy": "PvP 특화 빌드이므로 몬스터 사냥보다는 플레이어 대전에 최적화되어 있습니다. 보스전(예: Duke)에서는 Shadowcast 만트라로 에테르를 수급하며 패링 후 Contractor 사슬과 평타 콤보를 연계하여 빠르게 실드를 깎아냅니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "기본적으로 Shadow Gun이나 Shadow Eruption으로 상대의 가드를 흔들거나 거리를 좁힌 뒤, Contractor의 사슬(Chains)로 상대를 묶습니다. 묶인 상대에게 평타 2타 후 Shadow Faint를 섞어 심리전을 걸거나, Equalizer를 사용해 체력 우위를 점합니다. 상대가 도망치려 할 때 Dark Rift로 끌어당겨 콤보를 무한히 유지하는 것이 핵심입니다."
+  },
+  "video_meta": {
+    "title": "The #1 Shadowcast Build | Deepwoken",
+    "channel": "mrsaje",
+    "url": "https://www.youtube.com/watch?v=ISNt-FN_miY",
+    "upload_date": "20260825",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Shadow Gun"
+    },
+    {
+      "name": "Shadow Roar"
+    },
+    {
+      "name": "Shadow Eruption"
+    },
+    {
+      "name": "Dark Rift"
+    },
+    {
+      "name": "Shadow Faint"
+    },
+    {
+      "name": "Shadow Overlord"
+    },
+    {
+      "name": "Judgment"
+    },
+    {
+      "name": "Equalizer"
+    }
+  ],
+  "equipment": []
+}

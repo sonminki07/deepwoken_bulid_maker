@@ -1,0 +1,191 @@
+{
+  "video_metadata": {
+    "title": "How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=wlzf6QO0g_Q",
+    "patch_version": "Verse 2 (Diluvian Mechanism Era)"
+  },
+  "build_summary": {
+    "build_name": "Hailstorm (Frostdraw Pale Briar PvE Build)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 대규모 몹 사냥(Diluvian Mechanism 및 Hell Mode)에 특화된 고성능 Frostdraw 중화기 빌드입니다. Frostdraw의 결정화(Crystallization) 특성을 활용하여 적들을 얼리고 폭발적인 광역 피해를 입히는 메커니즘을 가지고 있습니다. 높은 방어력 스탯과 생존 탤런트들을 챙겨 다수의 몹 사이에서도 안정적으로 버틸 수 있으며, Pale Briar의 강력한 크리티컬 공격과 만트라의 시너지가 매우 뛰어납니다.",
+    "strengths": [
+      "압도적인 광역(AoE) 피해 및 군중 제어(빙결/결정화) 능력",
+      "Reinforced Armor와 Brick Wall을 통한 최상급 탱킹력 및 넉백 면역",
+      "Carnivore 탤런트로 허기/갈증 걱정 없는 무한 동력 사냥 가능",
+      "Beast Burrow와 Ghost를 활용한 뛰어난 생존 및 유틸리티"
+    ],
+    "weaknesses": [
+      "Pale Briar의 크리티컬 공격 중에는 만트라 사용이 제한되므로 정교한 스킬 순서 요구",
+      "Shrine of Order를 사용하기 때문에 정확한 스탯 분배와 탤런트 획득 순서가 강제됨",
+      "Heretic's Sutra 사용으로 인한 지속적인 정신력(Sanity) 관리 필요"
+    ]
+  },
+  "stats_and_attunements": {
+    "pre_shrine": {
+      "strength": 0,
+      "fortitude": 100,
+      "agility": 1,
+      "intelligence": 0,
+      "willpower": 80,
+      "charisma": 0,
+      "heavy_weapon": 0,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "bloodrend": 0,
+      "shadowcast": 0,
+      "flamecharm": 0,
+      "frostdraw": 1,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "ironsing": 0
+    },
+    "post_shrine": {
+      "strength": 0,
+      "fortitude": 75,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 55,
+      "charisma": 0,
+      "heavy_weapon": 85,
+      "medium_weapon": 0,
+      "light_weapon": 0,
+      "bloodrend": 0,
+      "shadowcast": 0,
+      "flamecharm": 0,
+      "frostdraw": 75,
+      "galebreathe": 0,
+      "thundercall": 0,
+      "ironsing": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Vesperian (추천)",
+    "origin": "Deepbound",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Brick Wall",
+        "is_core": true
+      },
+      {
+        "name": "Exoskeleton",
+        "is_core": true
+      },
+      {
+        "name": "Carnivore",
+        "is_core": true
+      },
+      {
+        "name": "Ghost",
+        "is_core": true
+      },
+      {
+        "name": "Lose Your Mind",
+        "is_core": true
+      },
+      {
+        "name": "Heretic's Sutra",
+        "is_core": true
+      },
+      {
+        "name": "Reinforced Armor",
+        "is_core": true
+      },
+      {
+        "name": "Piercing Will",
+        "is_core": true
+      },
+      {
+        "name": "Reclaimed Glass",
+        "is_core": true
+      },
+      {
+        "name": "Crystal Shrapnel",
+        "is_core": true
+      },
+      {
+        "name": "Glass Path: Crystallization",
+        "is_core": true
+      },
+      {
+        "name": "Underdog",
+        "is_core": false
+      },
+      {
+        "name": "Berserker",
+        "is_core": false
+      },
+      {
+        "name": "Speed Demon",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Warden's Blades"
+      },
+      {
+        "name": "Dread Breath"
+      },
+      {
+        "name": "Ice Cubes"
+      },
+      {
+        "name": "Ice Flock"
+      },
+      {
+        "name": "Beast Burrow"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Pale Briar (Heavy Weapon)",
+    "outfit": "Black Diver",
+    "accessories": "HP 및 방어력 위주의 악세서리 세팅"
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Diluvian Mechanism Mobs",
+      "Hell Mode Mobs",
+      "Chaser",
+      "Scion of Ethiron"
+    ],
+    "mob_strategy": "다수의 몹이 몰려오는 Diluvian이나 Hell Mode에서 진가를 발휘합니다. Warden's Blades와 Ice Cubes 같은 광역 만트라를 먼저 시전하여 적들을 얼리고 결정화(Crystallization) 상태로 만든 뒤, Pale Briar의 크리티컬 공격으로 광역 폭발 데미지를 선사합니다. 위급할 때는 Beast Burrow를 사용해 땅속으로 숨어 안전하게 쿨타임을 벌 수 있습니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "전투 시작 전 Heretic's Sutra를 사용하여 광기를 유발하고 Lose Your Mind와 Piercing Will의 데미지/방어 관통 버프를 활성화합니다. 이후 Warden's Blades, Ice Flock, Ice Cubes를 차례로 시전하여 주변 적들에게 지속적인 냉기 피해와 결정화 스택을 쌓습니다. 만트라 시전 직후 Pale Briar의 크리티컬(M2) 공격을 사용하여 결정화된 적들을 터뜨리며 폭발적인 광역 피해를 입힙니다. 체력이 낮아지면 Bloodless Gem이 장착된 만트라로 피흡을 하고, 위험한 패턴은 Ghost의 회피 무적 프레임이나 Beast Burrow의 무적 판정을 활용해 흘려보냅니다."
+  },
+  "video_meta": {
+    "title": "How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=wlzf6QO0g_Q",
+    "upload_date": "20250503",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {},
+  "mantras": [
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Dread Breath"
+    },
+    {
+      "name": "Ice Cubes"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Beast Burrow"
+    }
+  ],
+  "equipment": []
+}
