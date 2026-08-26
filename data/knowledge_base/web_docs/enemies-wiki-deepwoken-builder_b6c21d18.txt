@@ -1,0 +1,181 @@
+Title: Enemies — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/enemy
+Description: Mobs, bosses, and their attacks.
+
+==================================================
+
+Enemies — Wiki - Deepwoken Builder
+145
+entries
+Abaddon, Sinner of Ice
+Abaddon, Sinner of Ice, is a powerful Starkindred apostate located in Starfield Veldt. He must be defeated for Starkindred progression, wields a True Seraph's Spear, and fights as a Frostdrawer while…
+Adar, Master of Metal
+Adar is an NPC who acts as both progression for the Silentheart Oath and the Ironsing trainer, to obtain Ironsing you must bring the six main ores to Adar and give them all at once.
+Alpha Megalodaunt
+As their name might suggest, they are the Alphas within a Megalodaunt Pack, and are considered as the dominant creature inside it's respective pack. However, Alpha Megalodaunts are never observed to…
+Amashi, Master of Flame
+Amashi is a Vesperian NPC who acts as both progression for the Silentheart Oath and the Flamecharm trainer, to obtain Flamecharm you must bring Dying Embers (2 if previously unlocked, 5 if never…
+Apprentice Diver
+An Apprentice Diver is an enemy NPC that can only be found in The Depths. Their appearance only consists of a Diver Apprentice outfit with their aspect varying.
+Aska
+A Flamecharm -wielding "miniboss" found in Firfire, located in a cave behind three orange Resonance doors. These doors are located under the cliff near the Kyrsgarde that asks you to sit with him.…
+Astaroth, Sinner of Wind
+Astaroth, Sinner of Wind, is a powerful Starkindred apostate located in Songseeker Wilds, he must be defeated for Starkindred progression, uses a True Seraph Spear, and is a Galebreather who employs…
+Authority Captain
+An Authority Captain is an NPC found in the Starswept Valley who are fighting Hive Constructs. Unlike most Authority members, their face is completely unobscured. Their appearance consists of a Black…
+Authority Commander
+Authority Commanders are high-ranking members of The Central Authority. The rank of "Commander" fits them very well, they have the combat skills of an experienced player and a huge health pool,…
+Authority Lieutenant
+The Authority Lieutenant is an NPC found outside the shipwright hut. Their appearance consists of a Authority Captain Uniform, a Black Shrouded Cape and, unusually for an Authority member, Polarised…
+Authority Officer
+Authority officers are a type of enemy NPC working for The Central Authority. They are also the higher ranked and more dangerous counterpart to the Authority Soldier. Authority officers wear an…
+Authority Peacekeeper
+Authority Peacekeepers are a type of enemy NPC found patrolling Fort Merit. Despite their intimidating appearance, they are surprisingly weak compared to the Authority Officer. Their appearance…
+Authority Soldier
+They are ranked the lowest, and thus the most incompetent members of The Central Authority's army, frequently accidently incinerating or setting each other on fire. As a result, they have a standard…
+Bandit
+Bandits. They spawn in groups of 3 in Erisia, spawn in a pair in Etris and Isle of Vigils and can spawn in groups of 3-7 on Summer Isle as part of an event.
+Bandit Leader
+Bandit Leaders wear a white tunic. They have a static spawn at the bandit village in Lower Erisia.
+Black Diver
+Black Divers are enemies from The Divers that can spawn either in Castle Light at a low chance or in Villain Reputation Ambush Events. Their appearance consists of the Black Diver Outfit and a…
+Blacksteel Pirate
+They wear a Darksteel Plate and a dyed black Silver Knight's Helm. They spawn in groups of 5 in the Water Tower event and can be encountered on islands during Sea Events in groups of five or four…
+Blade Temple Guard
+Blade Temple Guards are reputable NPCs that can be found on the Isle of Vigils guarding the front of the temple gate and entrance to the temple.
+Blizzard Knight
+Stone Knights, also known as Desert Knights or Sand Knights, are a type of Giant Monster encountered primarily in The Starswept Valley. Blizzard Knights are a far stronger version of the Stone…
+Bloated Mineskipper
+Mineskippers wield pickaxes, dealing slightly more damage than normal Mudskippers. Bloated versions of these Mudskippers lack the ability to wield pickaxes and do not explode on death, instead have…
+Bloated Mudskipper
+Bloatskippers are, as the name implies, bloated Mudskippers. These Mudskippers instantly die upon being knocked and cause an explosion momentarily after their death, dealing damage. This explosion…
+Bonekeeper
+The Bone Keeper is a monster found in the Eternal Gale. It can also appear in the Cathedral of the Interstice as an encounter in the Trial, potentially Corrupted. Bone Keepers are giant, humanoid…
+Bounder
+Bounders are monsters that dwell within the Second Layer of The Depths. They are infamous for their lethality, with an equally horrific appearance. Bounders have significantly hunched posture,…
+Bounty Hunter
+Bounty Hunters can be found during faction ambushes in place of members of that faction or Cloaked Assassins. A Bounty Hunter wears the Bounty Hunter outfit along with the Mercenary's Garb with their…
+Brainsucker
+Brainsuckers, or known by their academic name Cephalorins, are beaked flying creatures which earned their moniker thanks to their tendency to latch onto the heads of fallen prey in order to feed on…
+Carbuncle
+Carbuncles are an enemy monster NPC of Layer 2 and in certain locations of Lumen, and the final form of Diver Husks. They also appear in The Diluvian Mechanism.
+Celtorian Guard
+Celtorian Guards are an NPC that can only be found in The Depths. They are found in and around Celtor. Having spent so long in The Depths has lead to them degrading overtime, referred to only as…
+Chaser, Scholar of the Crimson Contract
+Chaser, Scholar of the Crimson Contract is a humanoid Boss that is fought in Floor 1 of the Second Layer. He is found within The Maw of Ethiron, specifically in the Cathedral of Ethiron. He is also a…
+Cloaked Assassin
+The Cloaked Assassins are humanoid enemy NPCs wearing the Assassin's Cloak and Assassin's Hood, they appear in various sea events, ambushes, and can spawn in groups of 3 during faction ambushes.
+Coldheart Fortinbras
+Coldheart Fortinbras is an enemy found in The Depths. He can spawn randomly as an event, or more likely as a quest for The Divers (found on the Quest Board in Castle Light or in/around The City of…
+Crab
+Crabs are a Monster that only appears in The Diluvian Mechanism. They are small greenish - brown crabs, barely above knee height, with seven light green eyes and slit pupils.
+Crimson Megalodaunt
+As their nature suggests, they feature a different, crimson-colored skin tone and the ability to utilize Flamecharm by invoking the Song through its roar, which causes flaming swords to rain down…
+Crimson Terrapod
+The bloodsoaked crimson variant has higher health, and causes the enemy to face devastating Bleed damage on top of their strange timings, making each missed defensive opportunity cost not only more…
+Crustaceous Rex
+Crustaceous Rex is a hostile Giant-type mob. Whilst appearing scary, it is one of the less threatening mobs in the Depths thanks to its low mobility and easily learned attack patterns. It has 6…
+Deep Owl
+Deep Owls hail down on Lumen from an inconceivable dimension that contains their collective hivemind known as The Nestmind, where they are usually unable to interact with the outside world. This is…
+Deep Widow
+The Deep Widow is a giant enemy spider that lurks in Widow's Hollow in Starswept Valley, along with a set location in The Depths. This monster also spawns in The Depths near one of the columned…
+Diver
+A Diver is an NPC that can be found in ambushes, or The Depths. A Diver's appearance only consists of a Diver Apprentice outfit with their aspect varying.
+Diver Husk
+Diver Husks are a enemy Humanoid NPC of Layer 2, unfortunate victims of The Eternal Gale and its parasitic lifeforms. Diver Husk numbers can vary; they can be found solo, in a duo or in a group of…
+Doom of Caeranthil
+The Doom of Caeranthil is a World Event Boss that spawns in the Open Sea of the Etrean Luminant every other hour. It appears as a massive deep-blue serpent with two front fins and two pairs of yellow…
+Dread Serpent
+The Dread Serpent appears as a long, gray serpent-like dragon possessing four horns and eyes. It sports a black mane and beard, as well as a black fur that runs throughout its back, ending with a…
+Duke Ishamon Erisia
+Duke Ishamon Erisia is a Boss the player fights during "Duke of Sin" quest and is located in Duke Erisia's Laboratory within Duke Erisia's Manor. Defeating him will give you the Talent “Attunement…
+Eastern Nomad
+An Eastern Tribe Nomad is an enemy NPC that can be found at the Nomad Camp in Etris or Meteor Isle. They wear a Rebel's Bandana and the Navaen Nomad Robes. All of them are also Gremor with their…
+Eastern Nomad Leader
+An Eastern Nomad Leader is an enemy NPC which can be found at the Children of Navae camp in the Etrean Wilds; often found telling stories with the surrounding Eastern Tribe Nomads. They wear a…
+Elder Primadon, the Titan Warlord
+Elder Primadon, the Titan Warlord is a stronger version of Primadon, with a larger body, darker skin tone, and glowing eyes. Similar to Primadon, the Elder can be summoned by making an offering,…
+Enforcer
+The titans known as Enforcers are faithful servants of the Cathedral, said to be the tortured souls of those who failed the Trial and twisted into fiends that deny mortal souls salvation. They…
+Etrean Guardsmen
+The Etrean Guardsmen are an NPC type of neutral enemies that are found in Etris. Upon killing one, more tend to come, quickly swarming the player. After killing a sufficient amount of them, Etrean…
+Etrean Royal Guard
+An Etrean Royal Guard is a type of enemy NPC that wields a Katana and can be found inside and outside the Palace at Etris. They have a much higher required reputation level for peaceful interaction…
+Etrean Soldier
+An Etrean Soldier is an enemy NPC. An Etrean Soldier wears a purple uniform with their aspect being Etrean. They can also appear younger or older than 40 years old.
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Duke Ishamon Erisia - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Duke%20Ishamon%20Erisia
+Duke Ishamon Erisia - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Adar, Master of Metal - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Adar%2C%20Master%20of%20Metal
+Adar, Master of Metal - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Amashi, Master of Flame - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Amashi%2C%20Master%20of%20Flame
+Amashi, Master of Flame - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Chaser, Scholar of the Crimson Contract - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Chaser%2C%20Scholar%20of%20the%20Crimson%20Contract
+Chaser, Scholar of the Crimson Contract - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Abaddon, Sinner of Ice - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Abaddon%2C%20Sinner%20of%20Ice
+Abaddon, Sinner of Ice - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Aska - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Aska
+Aska - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Astaroth, Sinner of Wind - Enemy Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/enemy/Astaroth%2C%20Sinner%20of%20Wind
+Astaroth, Sinner of Wind - Enemy Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+=== Sub Pages Explored ===
+- Duke%20Ishamon%20Erisia
+- Adar%2C%20Master%20of%20Metal
+- Amashi%2C%20Master%20of%20Flame
+- Chaser%2C%20Scholar%20of%20the%20Crimson%20Contract
+- Abaddon%2C%20Sinner%20of%20Ice
+- Aska
+- Astaroth%2C%20Sinner%20of%20Wind
