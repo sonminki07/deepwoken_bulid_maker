@@ -306,8 +306,13 @@ async def on_message(message: discord.Message):
     logger.info(f"📩 [Message Received] #{ch_name} from {message.author.name}: '{message.content[:50]}'")
 
     urls = extract_urls(message.content)
+    
+    # 디스코드에 직접 업로드된 동영상 첨부파일(.mp4 등)도 분석 대상 URL로 추가
+    for att in message.attachments:
+        if att.filename.lower().endswith(('.mp4', '.mov', '.webm', '.mkv')):
+            urls.append(att.url)
 
-    # Case 1: 링크가 포함된 메시지 -> 빌드 1개씩 순차 분석 실행
+    # Case 1: 링크(또는 영상 첨부)가 포함된 메시지 -> 빌드 1개씩 순차 분석 실행
     if urls:
         logger.info(f"🎯 Detected {len(urls)} URLs in #{ch_name} from {message.author.name}: {urls}")
         try:
