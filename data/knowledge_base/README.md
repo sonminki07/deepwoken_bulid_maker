@@ -40,7 +40,7 @@
 | **Bloodrend Hybrid PvP Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/bloodrend-hybrid-pvp-build.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
 | **Dark Pearls Inky Vent Shadowcast Pv** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/dark-pearls-inky-vent-shadowcast-pvp.md) |
-| **Deep Shrines / Shrine of Order** | `Hybrid` | `Oathless / Attunementless` | [📄 문서 보기](builds/deep-shrines-shrine-of-order.md) |
+| **Deep Shrines / Shrine of Order** | `Hybrid` | `Oathless / thundercall` | [📄 문서 보기](builds/deep-shrines-shrine-of-order.md) |
 | **Deepwoken Meta Talent Tier List & O** | `PvP` | ` / flamecharm, shadowcast` | [📄 문서 보기](builds/deepwoken-meta-talent-tier-list-optimization.md) |
 | **Deepwoken 어트리뷰트 및 속성 종합 가이드 (Attrib** | `Hybrid` | `Oathless / Attunementless` | [📄 문서 보기](builds/deepwoken-어트리뷰트-및-속성-종합-가이드-attributes-attune.md) |
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
