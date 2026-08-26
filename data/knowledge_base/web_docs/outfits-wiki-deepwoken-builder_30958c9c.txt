@@ -1,0 +1,291 @@
+Title: Outfits — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/outfit
+Description: Outfits with detailed innate stats and resistances.
+
+==================================================
+
+Outfits — Wiki - Deepwoken Builder
+102
+entries
+11th Legion Plate
+Power
+5
+Fortitude
+10
+Armor of the 11th Scouting Legion. Akilles brought them here some time ago to observe the coming conflict in the East.
+Arachnid's Weave
+Power
+15
+Spun around the dantiest of spider silks, this silvery coordinate is punctuated by its iconic corset. Perhaps "laced" with poison?
+Auroran Gremor
+Power
+15
+Objective
+Given by a Developer.
+Armor of the Auroran Gremor
+Authority Captain Uniform
+The unmistakable banded coat of an Adretian Captain. Despite immediate appearances, the coat is wound with protective fibers that provide unparalleled durability.
+Authority Commander
+Power
+15
+Origin
+Authority Ensign
+The armored robes of an Authority Commander.
+Authority Peacekeeper Armor
+The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.
+Barbarian
+Memento
+Beserker
+...
+Black Diver
+Power
+15
+Willpower
+10
+Coat of an esteemed Black Diver, one of the few in many generations of Divers from the Markor Citadel.
+Bounty Hunter
+Power
+5
+Armor suited for hunting monsters.
+Cala-Mariner
+Power
+15
+Willpower
+5
+The tattoo sprawling across your chest serves as a physical memory of the aquatic foes you have felled, and as a keen warning to those who would stand in your way.
+Carefree Garments
+Power
+6
+...
+Celtorian Tideknight
+Power
+15
+...
+Cerulean Gown
+Power
+8
+A bodiced sky-blue dress, with various tassels attached for decoration. Despite its initial elegant appearance, the fastened layered skirt, tight-cuffed shirt sleeves, and sturdy boots suggest the…
+Cindergarb
+Power
+15
+Flamecharm
+45
+Forged from fabric tempered in flame. Cindergard gathers shed embers enhancing your flamecharm ability.
+Cloak of Winds
+Power
+10
+Powerful cloak of the Vigils.
+Corsair Outlaw
+...
+Cutthroat Light Armor
+Power
+5
+Sturdy leather armor, fashioned for the hunters sent into the driftlands to deal with rival factions.
+Darkened Bastion
+Power
+15
+A noble's armor, shattered and reforged into a sleek and dark ensemble. The essence of Shadowcast courses through its fibers like a living entity embedded within the fabric. When you lay your hand…
+Darksteel Plate
+Power
+10
+Fortitude
+20
+The durable battle armour of an Adretian soldier. The armour is specially forged by techniques developed in the Central Luminant, creating an uncharacteristically versatile armour plate.
+Diver Apprentice Robes
+Robes of an Apprentice Diver. A robe weaved through the power of the Song, grants passable elemental defenses and ether regeneration.
+Diver Journeyman Robes
+Power
+10
+Crafted for experienced Divers, these robes signify one who has experienced the horrors of the Deep.
+Duelist's Attire
+Power
+5
+The attire of a duelist for sport.
+Eager Tradesman
+There's work to be done. In style.
+Etrean Guard
+Power
+10
+Serpentine armor of the Kingdom of Etrea. A lightweight piece of plate sits atop padded snakeskin leather.
+Etrean Rogue
+Sturdy leather armor, fashioned for the hunters sent down into Etrea's forest.
+Experienced Adventurer
+Power
+5
+You wear your experience.
+Familiar Assassin's Armor
+Power
+15
+Discard your identity.
+Familiar Demon's Armor
+Power
+15
+So ya want to become a bossraid Oni...?
+Familiar Heretic's Armor
+Power
+15
+Fit only for a traitor.
+Familiar Knight's Armor
+Power
+15
+You don't know why but a certain Murmur is making you very angry.
+Familiar Occultist's Armor
+Power
+15
+The visage of a five-eyed hound enters your mind unsolicited. Brr.
+Ferryman's Coat
+Power
+12
+Coat of the Krulian horror known as the Ferryman.
+Flame Worshipper Armor
+Power
+5
+Coat of the Covenant of Flame, pioneered by the Drowned Diver Amorus Pleeksty.
+Grand Pathfinder Cloak
+Power
+10
+A long coat hiding reptilian-like armored scales beneath. A pathfinder's pride.
+Heretic's Memento
+Power
+15
+All the rage among those with a desire to flaunt the trophies of their achievements. More notoriously donned as a testament to one's strength, though the obnoxiously gold adornments seem to indicate…
+Hidden Knife Armor
+Memento
+Rogue Assassin
+Discard your identity.
+Hired Mercenary
+A basic set of armor perfect for taking on the world!... Uhhhh... yeah.
+Hive Adjudicator
+Power
+15
+...
+Hive Drone
+Power
+10
+Uniform of the Hive, threaded for powerful soldiers and researchers alike.
+Hive Leader's Garment
+Power
+15
+Objective
+Given by a Developer.
+The royal robes of the King of the Hive, layered in protective material and luxurious cloth alike, a one-of-a-kind garb that can only be produced every millenia.
+Hive Tactician Armor
+Power
+10
+Agility
+25
+A fine coat interwoven with steel using Ironsing.
+Icebringer's Vestments
+Power
+15
+Frostdraw
+45
+An elegant outfit favoured by expert Frostdrawers. The weavers and seamsters who typically make outfits of this kind are known for their secret techniques, which they use to imbue elemental…
+Ignition Deepdelver
+Power
+15
+Heavyweight armor devised for deepdelvers into the layers of the Depths.
+Ignition Trailblazer
+Power
+10
+Garb for those aspiring to become Deepdelvers
+Ignition Union Uniform
+Power
+6
+...
+Ignition Welder
+Power
+10
+Fortitude
+10
+Sturdy workwear designed for heavy duty labour. Just remember - personal protective equipment doesn't make you invincible!
+Inquisition Light
+Power
+15
+Objective
+Inquisition Division
+Origin
+Authority Ensign
+...
+Jade Vigil's Weave
+Power
+15
+Agility
+10
+Masters of the ancient Fang and Coil technique wear this robe as a tribute to their rich heritage. Its verdant weave once served as subtle camouflage, blending seamlessly into the wilds of a…
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Familiar Demon's Armor - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Familiar%20Demon's%20Armor
+Familiar Demon's Armor - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Familiar Knight's Armor - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Familiar%20Knight's%20Armor
+Familiar Knight's Armor - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Hive Tactician Armor - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Hive%20Tactician%20Armor
+Hive Tactician Armor - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Darkened Bastion - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Darkened%20Bastion
+Darkened Bastion - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Icebringer's Vestments - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Icebringer's%20Vestments
+Icebringer's Vestments - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Authority Peacekeeper Armor - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Authority%20Peacekeeper%20Armor
+Authority Peacekeeper Armor - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Cutthroat Light Armor - Outfit Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/outfit/Cutthroat%20Light%20Armor
+Cutthroat Light Armor - Outfit Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+=== Sub Pages Explored ===
+- Familiar%20Demon's%20Armor
+- Familiar%20Knight's%20Armor
+- Hive%20Tactician%20Armor
+- Darkened%20Bastion
+- Icebringer's%20Vestments
+- Authority%20Peacekeeper%20Armor
+- Cutthroat%20Light%20Armor
