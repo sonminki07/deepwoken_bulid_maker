@@ -391,15 +391,16 @@ async def on_message(message: discord.Message):
 
                     embed = create_rich_build_embed(raw, url)
 
-                    # JSON 파일 첨부
+                    # JSON 파일 첨부 (카테고리 서브폴더 재귀 탐색)
                     doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
-                    json_file_path = PROJECT_DIR / "data" / "analysis" / f"{doc_id}.json"
-                    if not json_file_path.exists():
-                        files = sorted((PROJECT_DIR / "data" / "analysis").glob("*.json"), key=os.path.getmtime, reverse=True)
-                        if files:
-                            json_file_path = files[0]
+                    json_candidates = list((PROJECT_DIR / "data" / "analysis").rglob(f"{doc_id}.json"))
+                    if json_candidates:
+                        json_file_path = json_candidates[0]
+                    else:
+                        files = sorted((PROJECT_DIR / "data" / "analysis").rglob("*.json"), key=os.path.getmtime, reverse=True)
+                        json_file_path = files[0] if files else None
 
-                    discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path.exists() else None
+                    discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path and json_file_path.exists() else None
 
                     await status_msg.delete()
                     completion_text = (

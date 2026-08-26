@@ -261,9 +261,9 @@ class DeepwokenAnalyzerGUI:
                 self.root.after(0, self.log, "☁️ [GitHub 동기화 완료] 깃허브 저장소에 최신 빌드 데이터가 자동 백업되었습니다.")
         except Exception as e:
             self.root.after(0, self.log, f"⚠️ [GitHub 동기화 건너뜀] {e}")
-        # 최신 분석 파일 찾기
+        # 최신 분석 파일 찾기 (하위 카테고리 폴더 재귀 탐색)
         analysis_dir = PROJECT_DIR / "data" / "analysis"
-        json_files = sorted(analysis_dir.glob("*.json"), key=os.path.getmtime, reverse=True)
+        json_files = sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True)
         if json_files:
             self.last_analyzed_json = json_files[0]
             self.log(f"\n💾 저장된 JSON: {self.last_analyzed_json.name}")

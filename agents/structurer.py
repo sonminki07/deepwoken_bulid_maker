@@ -281,23 +281,110 @@ class BuildStructurer:
 
         return "\n".join(lines)
 
+    def classify_category(self, build_data: Dict[str, Any], url: str = "") -> str:
+        """Deepwoken Fandom Wiki 스타일 5대 카테고리 자동 분류"""
+        name = (build_data.get("build_summary", {}).get("build_name") or "").lower()
+        b_type = (build_data.get("build_summary", {}).get("build_type") or "").lower()
+        url_lower = url.lower()
+        
+        # 1. Bosses & Raids (보스 공략)
+        if any(k in name or k in url_lower for k in ['boss', 'chaser', 'scion', 'ethiron', 'duke', 'ferryman', 'primadon', 'kaido', 'maestro', 'dread serpent']):
+            return 'bosses'
+        # 2. Attunements (속성 마법 지식)
+        if any(k in name or k in url_lower for k in ['shadowcast', 'frostdraw', 'flamecharm', 'galebreath', 'thundercall', 'ironsing', 'bloodrend']) and ('wiki' in url_lower or 'guide' in b_type or 'attunement' in name):
+            return 'attunements'
+        # 3. Oaths (서약 가이드)
+        if 'oath' in name or (any(k in name for k in ['jetstriker', 'starkindred', 'silentheart', 'blindseer', 'contractor', 'dawnwalker', 'linkstrider', 'arcwarder', 'voidwalker', 'saltchemist', 'bladeharper', 'fadethorn']) and 'wiki' in url_lower):
+            return 'oaths'
+        # 4. Weapons & Equipment (무기/장비)
+        if any(k in name or k in url_lower for k in ['weapon', 'enchant', 'armor', 'outfit', 'bell', 'greatsword']) and ('wiki' in url_lower or 'guide' in b_type):
+            return 'weapons'
+        # 5. Default: Player Builds
+        return 'builds'
+
+    def rebuild_index(self):
+        """지식 베이스 내 모든 문서를 분류별로 정리하여 INDEX.md 및 README.md 자동 생성"""
+        categories = {
+            'bosses': '👑 Bosses & Raids (보스 & 레이드 공략)',
+            'attunements': '🔮 Attunements (속성 및 마법 지식)',
+            'oaths': '📜 Oaths (서약 가이드)',
+            'weapons': '⚔️ Weapons & Equipment (무기 및 장비)',
+            'builds': '🎯 Player Builds (플레이어 PvP/PvE 빌드)'
+        }
+        lines = [
+            '# 📖 Deepwoken AI 지식 포털 (Knowledge Portal)',
+            '',
+            '> 본 지식 베이스는 유튜브 영상 및 Fandom 위키, 공식 가이드로부터 AI가 자동 수집/구조화한 딥위큰 데이터베이스입니다.',
+            '',
+            '---',
+            ''
+        ]
+        for cat_key, cat_title in categories.items():
+            cat_folder = self.knowledge_base_dir / cat_key
+            md_files = list(cat_folder.glob('*.md')) if cat_folder.exists() else []
+            lines.append(f'## {cat_title} ({len(md_files)}개)')
+            lines.append('')
+            if not md_files:
+                lines.append('*등록된 문서가 아직 없습니다.*')
+                lines.append('')
+                continue
+            lines.append('| 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |')
+            lines.append('| :--- | :--- | :--- | :--- |')
+            for mf in sorted(md_files):
+                jf = self.analysis_dir / cat_key / f'{mf.stem}.json'
+                b_name = mf.stem
+                b_type = 'Guide'
+                oath_att = 'N/A'
+                if jf.exists():
+                    try:
+                        data = json.loads(jf.read_text(encoding='utf-8'))
+                        b_name = data.get('build_summary', {}).get('build_name') or mf.stem
+                        b_type = data.get('build_summary', {}).get('build_type') or 'Guide'
+                        oath = data.get('oath') or data.get('character_details', {}).get('oath') or ''
+                        att_dict = data.get('attunements', {})
+                        atts = [k for k, v in att_dict.items() if v and v > 0]
+                        oath_att = f'{oath} / ' + (', '.join(atts) if atts else 'Attunementless')
+                    except Exception:
+                        pass
+                rel_path = f'{cat_key}/{mf.name}'
+                lines.append(f'| **{b_name[:35]}** | `{b_type}` | `{oath_att[:25]}` | [📄 문서 보기]({rel_path}) |')
+            lines.append('')
+
+        content = '\n'.join(lines)
+        (self.knowledge_base_dir / 'INDEX.md').write_text(content, encoding='utf-8')
+        (self.knowledge_base_dir / 'README.md').write_text(content, encoding='utf-8')
+
     def process_and_save(self, raw_json: Dict[str, Any], video_id: str) -> Dict[str, Path]:
-        """JSON 검증, 보정, 저장 및 Markdown 변환/저장 일괄 실행"""
+        """JSON 검증, 카테고리 분류, 저장 및 Markdown 변환/INDEX 갱신 일괄 실행"""
         self.validate(raw_json)
         sanitized = self.sanitize(raw_json)
+        url = sanitized.get("video_meta", {}).get("url", "")
+
+        category = self.classify_category(sanitized, url)
+        target_a_dir = self.analysis_dir / category
+        target_kb_dir = self.knowledge_base_dir / category
+        target_a_dir.mkdir(parents=True, exist_ok=True)
+        target_kb_dir.mkdir(parents=True, exist_ok=True)
 
         # JSON 저장
-        json_path = self.analysis_dir / f"{video_id}.json"
+        json_path = target_a_dir / f"{video_id}.json"
         json_path.write_text(json.dumps(sanitized, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info(f"Saved JSON analysis to: {json_path}")
 
         # Markdown 저장
         md_content = self.to_markdown(sanitized)
-        md_path = self.knowledge_base_dir / f"{video_id}.md"
+        md_path = target_kb_dir / f"{video_id}.md"
         md_path.write_text(md_content, encoding="utf-8")
         logger.info(f"Saved Markdown knowledge to: {md_path}")
 
+        # INDEX.md 자동 갱신
+        try:
+            self.rebuild_index()
+        except Exception as e:
+            logger.warning(f"Failed to rebuild index: {e}")
+
         return {
             "json_path": json_path,
-            "md_path": md_path
+            "md_path": md_path,
+            "category": category
         }

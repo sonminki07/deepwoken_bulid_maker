@@ -90,24 +90,28 @@ class KnowledgeBuilder:
             logger.info(f"Indexed build '{flat_metadata['build_name']}' (ID: {video_id}) into ChromaDB.")
 
     def ingest_all(self, analysis_dir: str = "data/analysis", kb_dir: str = "data/knowledge_base") -> int:
-        """분석 디렉토리 및 지식 베이스 내의 모든 빌드와 위키/티어리스트 문서를 일괄 인덱싱"""
+        """분석 디렉토리 및 지식 베이스 내의 모든 빌드와 위키/티어리스트 문서를 일괄 인덱싱 (재귀 탐색)"""
         a_dir = Path(analysis_dir)
         k_dir = Path(kb_dir)
         count = 0
 
-        # 1. 빌드 JSON + MD 인덱싱
-        for json_file in a_dir.glob("*.json"):
+        # 1. 빌드 JSON + MD 재귀 인덱싱
+        for json_file in a_dir.rglob("*.json"):
             video_id = json_file.stem
-            md_file = k_dir / f"{video_id}.md"
-            if md_file.exists():
-                self.ingest_build(video_id, json_file, md_file)
+            # 동일한 서브폴더 또는 지식 베이스 루트에서 md 파일 탐색
+            md_candidates = list(k_dir.rglob(f"{video_id}.md"))
+            if md_candidates:
+                md_file = md_candidates[0]
+                self.ingest_build(video_id=video_id, json_path=json_file, md_path=md_file)
                 count += 1
+            else:
+                logger.warning(f"Matching Markdown file for {json_file.name} not found.")
 
         # 2. 독립형 지식 문서 (tier_lists.md, wiki/*.md 등) 인덱싱
         for md_file in k_dir.rglob("*.md"):
             doc_id = f"doc_{md_file.stem}"
             # 이미 인덱싱된 빌드 MD는 스킵
-            if (a_dir / f"{md_file.stem}.json").exists():
+            if list(a_dir.rglob(f"{md_file.stem}.json")):
                 continue
             
             content = md_file.read_text(encoding="utf-8")

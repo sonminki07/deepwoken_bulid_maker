@@ -48,13 +48,14 @@ class DeepwokenAPIHandler(http.server.SimpleHTTPRequestHandler):
             analysis_dir = PROJECT_DIR / "data" / "analysis"
             builds = []
             if analysis_dir.exists():
-                for f in sorted(analysis_dir.glob("*.json"), key=os.path.getmtime, reverse=True):
+                for f in sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True):
                     try:
                         content = json.loads(f.read_text(encoding="utf-8"))
                         summary = content.get("build_summary", {})
                         builds.append({
                             "id": f.stem,
                             "filename": f.name,
+                            "category": f.parent.name,
                             "name": summary.get("build_name", f.stem),
                             "type": summary.get("build_type", "Unknown"),
                             "author": summary.get("author", "Unknown"),
