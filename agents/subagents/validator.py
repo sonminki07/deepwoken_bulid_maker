@@ -35,7 +35,11 @@ class CrossValidatorAgent:
             "build_name": context_data.get("build_name") or scraped.title,
             "build_type": self._normalize_build_type(context_data.get("build_type")),
             "difficulty": self._normalize_difficulty(context_data.get("difficulty")),
-            "creator_opinion": context_data.get("creator_opinion") or scraped.meta_description or "웹에서 수집된 빌드 정보입니다.",
+            "overview": context_data.get("overview") or scraped.meta_description or "웹에서 수집된 딥위큰 가이드 정보입니다.",
+            "key_mechanics": context_data.get("key_mechanics") or "기본 시스템 메커니즘이 수록되어 있습니다.",
+            "build_role_and_usage": context_data.get("build_role_and_usage") or "빌드 내 핵심 요소 및 스킬 연계 지원",
+            "recommended_synergies": context_data.get("recommended_synergies") or "다양한 속성 및 Oath와 범용적 연계 가능",
+            "creator_opinion": context_data.get("overview") or context_data.get("creator_opinion") or scraped.meta_description or "웹에서 수집된 정보입니다.",
             "strengths": context_data.get("strengths", []),
             "weaknesses": context_data.get("weaknesses", [])
         }

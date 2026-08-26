@@ -49,7 +49,7 @@ JSON 출력 형식:
 class BuildParserSubAgent:
     """Agent 2: 웹 콘텐츠로부터 스탯, 스킬, 장비, 탤런트 메커니즘을 추출하는 서브 에이전트"""
 
-    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-3.6-flash"):
+    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-2.5-flash"):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
@@ -62,11 +62,12 @@ class BuildParserSubAgent:
         user_content = (
             f"=== Page Title: {scraped.title} ===\n"
             f"=== Meta Description: {scraped.meta_description} ===\n\n"
-            f"=== Tables Found ===\n{scraped.tables_text}\n\n"
-            f"=== Page Text Content ===\n{scraped.cleaned_text[:30000]}\n"
+            f"=== Headings ===\n" + "\n".join(scraped.headings) + "\n\n"
+            f"=== Tables Content ===\n{scraped.tables_text}\n\n"
+            f"=== Text Content ===\n{scraped.cleaned_text[:30000]}\n"
         )
 
-        models_to_try = [self.model_name, "gemini-3.6-flash", "gemini-3.7-flash"]
+        models_to_try = [self.model_name, "gemini-2.5-flash", "gemini-3.5-flash", "gemini-flash-latest"]
         last_err = None
         for m_name in dict.fromkeys(models_to_try):
             try:

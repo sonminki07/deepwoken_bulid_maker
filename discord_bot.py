@@ -153,23 +153,48 @@ def create_rich_build_embed(raw: Dict[str, Any], url: str) -> discord.Embed:
     is_general_guide = ("wiki" in url.lower() or "boss" in b_name.lower() or b_type in ["Wiki", "Guide", "Documentation"]) and not (pre_shrine or post_shrine)
 
     if is_general_guide:
+        overview = summary.get("overview") or opinion
+        key_mech = summary.get("key_mechanics")
+        role_usage = summary.get("build_role_and_usage")
+        synergies = summary.get("recommended_synergies")
+        
         embed = discord.Embed(
             title=f"📚 [Deepwoken 지식/공략] {b_name}",
             url=url,
-            description=f"**📌 주요 정보 및 핵심 요약:**\n{opinion}",
+            description=f"**📌 1. 문서 핵심 요약 (Overview):**\n{overview}",
             color=discord.Color.from_rgb(16, 185, 129)  # Emerald Green
         )
-        embed.set_author(name=f"분류: 게임 지식 & 공략 가이드", icon_url="https://cdn.discordapp.com/emojis/1042718873733054524.png")
+        embed.set_author(name=f"분류: 게임 지식 & 공략 가이드 ┃ 난이도: {difficulty}", icon_url="https://cdn.discordapp.com/emojis/1042718873733054524.png")
         
-        guide_points = summary.get("strengths") or ["보스별 패턴 대응법 정리", "파밍 효율 및 보상 정보 수록"]
-        embed.add_field(name="💡 핵심 공략 & 플레이어 추천 팁", value="\n".join([f"• {translate_to_korean_text(p)}" for p in guide_points]), inline=False)
-        
+        if key_mech:
+            embed.add_field(name="⚙️ 2. 주요 정보 및 핵심 메커니즘 (Key Mechanics)", value=key_mech, inline=False)
+            
+        if role_usage:
+            embed.add_field(name="⚔️ 3. 실제 빌드에서의 역할 및 활용법 (Role in Builds)", value=role_usage, inline=False)
+            
+        if synergies:
+            embed.add_field(name="🔮 4. 추천 Oath / 속성 / 시너지 조합 (Recommended Synergies)", value=synergies, inline=False)
+
+        # 만트라 / 탤런트 목록이 있으면 추가
+        mantras = raw.get("mantras", [])
+        if mantras:
+            m_names = [f"`{m.get('name')}`" if isinstance(m, dict) else f"`{m}`" for m in mantras]
+            embed.add_field(name="✨ 5. 관련 핵심 만트라/스킬 (Mantras)", value=" • ".join(m_names[:8]), inline=False)
+
+        # 장단점
+        strengths = summary.get("strengths", [])
+        weaknesses = summary.get("weaknesses", [])
+        if strengths or weaknesses:
+            st_text = " • ".join([f"{translate_to_korean_text(s)}" for s in strengths[:4]]) if strengths else "균형 잡힌 성능"
+            wk_text = " • ".join([f"{translate_to_korean_text(w)}" for w in weaknesses[:3]]) if weaknesses else "특별한 패널티 없음"
+            embed.add_field(name="🥊 6. 장점 및 주의점 (Pros & Cons)", value=f"**✅ 장점:** {st_text}\n**⚠️ 주의점:** {wk_text}", inline=False)
+
         # Depth 2 하위 탐색 문서 목록 필드 추가
         explored = raw.get("explored_sub_pages", [])
         if explored:
             sub_list_str = " • ".join([f"`{p}`" for p in explored[:10]])
             embed.add_field(
-                name="🔍 2. Depth 2 연관 하위 위키 탐색 완료 (Explored Sub-Pages)",
+                name="🔍 7. Depth 2 연관 하위 위키 탐색 완료 (Explored Sub-Pages)",
                 value=f"AI가 메인 문서뿐만 아니라 아래 세부 문서들까지 함께 읽고 분석했습니다:\n{sub_list_str}",
                 inline=False
             )
