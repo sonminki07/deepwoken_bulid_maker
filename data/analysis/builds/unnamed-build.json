@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "title": "How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=wlzf6QO0g_Q",
+    "patch_version": "Verse 2 (Diluvian / Layer 2 Era)"
+  },
+  "summary": {
+    "build_name": "Hailstorm (Frostdraw Pale Briar PvE)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 영상은 단순히 특정 '갓 빌드(God PvE Build)' 하나만을 복사해서 사용하기보다는, 플레이어 본인의 스타일에 맞는 최적의 PvE 빌드를 직접 설계하고 구축할 수 있도록 핵심 원리와 템플릿을 제공하는 가이드입니다. 예시로 제시된 'Hailstorm' 빌드는 디루비안(Diluvian Mechanism)과 헬 모드(Hell Mode) 같은 대규모 몬스터 웨이브를 효율적으로 소탕하기 위해 설계된 방어형 폭딜 아키타입입니다.\n\n이 빌드의 핵심은 높은 방어적 스탯(100 Fortitude, 80 Willpower)을 바탕으로 Shrine of Order를 활용해 핵심 탤런트(Reinforced Armor, Heretic's Sutra, Piercing Will)를 확보한 뒤, Frostdraw의 광역 응결(Crystallization) 파생 탤런트와 Pale Briar의 관통 크리티컬 공격을 조합하는 것입니다. 몬스터들의 물리/원소 공격을 탱크처럼 버티면서 광역 마법과 무기 크리티컬로 고위험군 몹 집단을 한 번에 도살하는 강력한 성능을 자랑합니다.\n\n실전에서는 수많은 적에게 둘러싸이더라도 Brick Wall과 Reinforced Armor 덕분에 넉백이나 라그돌(Ragdoll) 상태에 빠지지 않고 안정적으로 공격을 이어갈 수 있습니다. 또한 Heretic's Sutra와 Lose Your Mind, Piercing Will의 조합으로 항시 높은 방어력 무시(PEN)와 대미지 증가 버프를 유지하며, Beast Burrow 및 Ghost 같은 무적/스텔스 유틸기를 통해 위기 상황을 완벽하게 넘길 수 있는 다재다능한 PvE 엔드게임 빌드입니다.",
+    "strengths": [
+      "디루비안 웨이브 및 헬 모드 몬스터 군집 청소에 특화된 극강의 범위(AoE) 대미지 성능",
+      "Brick Wall(넉백/라그돌 면제) 및 Reinforced Armor(관통 대미지 30% 감소) 조합으로 최고 수준의 튼튼함 제공",
+      "Heretic's Sutra + Lose Your Mind + Piercing Will 연계로 상시 +15% 대미지 버프 및 높은 방어 무시(PEN) 확보",
+      "Carnivore 탤런트로 몬스터를 처치할 때마다 허기와 갈증이 자동 회복되어 장시간 수확/파밍 가능",
+      "Beast Burrow 및 Ghost를 활용한 확실한 타겟팅 해제 및 쿨다운 벌기 유틸리티"
+    ],
+    "weaknesses": [
+      "Pale Briar 크리티컬 사용 중에는 만트라를 시전할 수 없으므로 공격 순서(모션 메커니즘) 숙지 필수",
+      "광역 잡몹전에 매우 뛰어나나 1대1 단일 보스전(Maestro 등)에서는 전용 단일 폭딜 빌드에 비해 속도가 약간 떨어질 수 있음",
+      "광란(Insanity) 상태를 유지해야 최대 대미지가 나오므로 광란 관리가 미숙할 경우 환각으로 인한 불편함 존재"
+    ]
+  },
+  "stats": {
+    "strength": 0,
+    "fortitude": 100,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 80,
+    "charisma": 0,
+    "heavy_wep": 85,
+    "medium_wep": 0,
+    "light_wep": 0,
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 75,
+      "thundercall": 0,
+      "galebreathe": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Any Race (Ganymede, Vesperian 추천)",
+    "origin": "Deepbound",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    },
+    {
+      "name": "Heretic's Sutra",
+      "is_core": true
+    },
+    {
+      "name": "Piercing Will",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    },
+    {
+      "name": "Brick Wall",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Berserker",
+      "is_core": true
+    },
+    {
+      "name": "Carnivore",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Glass Path: Crystallization",
+      "is_core": true
+    },
+    {
+      "name": "Reclaimed Glass",
+      "is_core": false
+    },
+    {
+      "name": "Crystal Shrapnel",
+      "is_core": false
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Dread Breath"
+    },
+    {
+      "name": "Ice Cubes"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Beast Burrow"
+    }
+  ],
+  "equipment": [],
+  "target_mobs": {
+    "target_mobs": [
+      "Diluvian Mechanism Waves",
+      "Hell Mode Mobs",
+      "Bonekeeper",
+      "Squibbo",
+      "Chaser"
+    ],
+    "mob_strategy": "1. **디루비안 웨이브 소탕**: 몬스터들이 리스폰되면 먼저 Warden's Blades 및 Ice Cubes를 시전하여 주변 적들에게 냉기 결정화 스택을 쌓습니다. 적들이 뭉쳤을 때 Pale Briar의 크리티컬 공격을 사용하여 단숨에 결정 폭발 대미지를 터뜨립니다.\n2. **대형 몹 및 보스(Bonekeeper, Chaser)**: Heretic's Sutra를 사용하여 즉시 35% 이하의 정신력(Sanity) 상태를 만들어 Lose Your Mind(+15% 대미지) 및 Piercing Will(+15% PEN) 버프를 활성화합니다.\n3. **위기 관리 및 체력 수급**: 피가 깎였을 때는 피흡 보석(Bloodless Gem)이 박힌 폭딜 만트라를 사용하여 체력을 즉시 회복하며, 적의 강력한 장판 공격 패턴 시에는 Beast Burrow를 사용해 땅속으로 숨어 무적 판정으로 쿨타임을 번 후 재공격합니다."
+  },
+  "guides": {
+    "combo_guide": "1. **전투 준비**: 교전 직전 'Heretic's Sutra'를 시전하여 광란 스택을 쌓아 대미지 및 관통력 버프를 활성화시킵니다.\n2. **선제 진입 및 버프**: 'Warden's Blades'를 켜고 적 진형 중앙으로 진입한 뒤, 'Ice Cubes'와 'Ice Flock'을 연사하여 주변 모든 적에게 얼음 결정화(Crystallization) 효과를 부여합니다.\n3. **핵심 폭딜 스킬**: 만트라 시전이 끝난 직후 'Pale Briar 크리티컬(M2/Special)'을 찍어 내립니다. (주의: Pale Briar 크리티컬 채널링 중에는 만트라를 쓸 수 없으므로 반드시 만트라를 먼저 퍼부은 뒤 크리티컬을 사용해야 합니다).\n4. **후속 및 생존**: 쿨타임 동안 'Beast Burrow'를 사용하여 땅속에 숨어 어그로를 해제하거나, 'Ghost' 구르기로 무적 프레임을 활용해 거리를 벌린 후 다시 1단계부터 반복합니다."
+  },
+  "video_meta": {
+    "title": "How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide",
+    "channel": "Infekted",
+    "url": "https://www.youtube.com/watch?v=wlzf6QO0g_Q",
+    "upload_date": "20250503",
+    "estimated_patch": "Unknown"
+  },
+  "build_summary": {
+    "build_name": "Unnamed Build",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "No summary provided.",
+    "strengths": [],
+    "weaknesses": []
+  },
+  "attunements": {}
+}
