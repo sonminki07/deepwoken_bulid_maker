@@ -22,7 +22,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (8개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (9개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -33,4 +33,5 @@
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
 | **Starter Brick Wall Blindseer PvE** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/starter-brick-wall-blindseer-pve.md) |
 | **The #1 Shadowcast Medium Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/the-1-shadowcast-medium-build.md) |
+| **Vampiric Bastion (Drain Tank PvE Bu** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve-build.md) |
 | **Volcanic Glass Brick Wall PvE Spear** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/volcanic-glass-brick-wall-pve-spear.md) |
