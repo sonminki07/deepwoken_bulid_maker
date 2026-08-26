@@ -1,0 +1,134 @@
+{
+  "video_metadata": {
+    "title": "The Saintsworn Nuke Build. | Deepwoken",
+    "channel": "fatedw",
+    "url": "https://www.youtube.com/watch?v=nagZrLSCftM",
+    "upload_date": "2025-10-25",
+    "patch_version": "Verse 2 - Depths Wastes / Saintsworn Patch"
+  },
+  "build_summary": {
+    "build_name": "Saintsworn Nuke & AoE Burst Build",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 다대다 전투와 뎁스(The Depths) 갱킹 상황에서 적 다수를 단번에 섬멸하도록 설계된 극단적인 폭딜(Nuke) 아키타입입니다. 원거리와 광역(AoE) 장판형 만트라의 시너지를 극대화하여 좁은 공간이나 런웨이에서 압도적인 화력을 뿜어내는 것이 특징입니다.\n\n전투 템포는 결코 인파이팅에 얽매이지 않으며, 상대의 진형을 강제로 붕괴시키는 원거리 포격과 가드 브레이크를 유도한 뒤 강력한 썬더 스라이크와 크리스탈 계열 만트라를 연계하는 방식으로 운영됩니다. 다수의 적이 뭉쳐 있을 때 최고의 효율을 발휘하며, 방심한 적의 체력을 순식간에 0으로 만들어버리는 카타클리스마급 파괴력을 지닙니다.\n\n실전 교전에서는 광역 메즈와 스태미나 압박을 동시에 가하면서 상대의 벨(Bell) 타이밍을 무력화하는 심리전이 핵심입니다. 아군의 연계와 호흡을 맞추거나 좁은 지형에서 적을 유인하여 전투를 개시하면 상대를 압살할 수 있습니다.",
+    "strengths": [
+      "광역(AoE) 폭딜 능력: 다수의 적을 동시에 타격하여 순식간에 빈사 상태로 만드는 압도적인 광역 누적 대미지",
+      "변칙적인 이니시에이팅: 원거리 만트라와 스킬 콤보를 통해 안전한 거리에서 적의 진형을 붕괴시키고 강제 교전 유도 가능",
+      "강력한 유틸리티 시너지: 다양한 탤런트와 옴니(Omni) 계열 버프를 통해 순간적인 이동 속도 및 방어력 보완"
+    ],
+    "weaknesses": [
+      "높은 스킬 의존도: 만트라 쿨다운 중에는 근접 평타 싸움에서 상대적으로 취약해질 수 있음",
+      "자원 관리의 까다로움: 스태미나와 에테르(Ether) 소모량이 매우 커서 전투 지속력이 다소 떨어짐",
+      "팀원과의 합 필요: 솔로 플레이보다는 적을 묶어둘 수 있는 팀 파이트 환경에서 효율이 극대화됨"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 40,
+    "intelligence": 20,
+    "willpower": 80,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 80,
+    "frostdraw": 0,
+    "thundercall": 80,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Thundercall Resonance",
+    "resonance_bell": "Wind Up"
+  },
+  "talents": [
+    {
+      "name": "Million Ton Piercer",
+      "is_core": true
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": true
+    },
+    {
+      "name": "Reinforce",
+      "is_core": false
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": false
+    },
+    {
+      "name": "To the Finish",
+      "is_core": false
+    },
+    {
+      "name": "Last Resort",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Lava Serpent: Eruption"
+    },
+    {
+      "name": "Flame Wisp"
+    },
+    {
+      "name": "Thunder Strike"
+    },
+    {
+      "name": "Crystal Prism"
+    },
+    {
+      "name": "Graceful Flame"
+    }
+  ],
+  "weapons": {
+    "weapon": "Saintblade",
+    "weapon_class": "Heavy",
+    "enchant": "Vampiric / Grim"
+  },
+  "outfit": {
+    "armor": "Prophet's Cloak"
+  },
+  "accessories": {
+    "head": "Moonlit Earrings",
+    "chest": "Aurore Brevetine Citadel Frames",
+    "ring": "Ring of Wisp"
+  },
+  "target_mobs": [
+    "Chaser",
+    "Scion of Ethiron",
+    "Duke Erisia",
+    "Squibbo"
+  ],
+  "mob_strategy": [
+    "원거리 포격 활용: 보스나 강력한 몹과의 교전 시 접근하기 전 Lava Serpent와 Thunder Serpent를 활용해 원거리에서 안정적으로 체력을 깎아냅니다.",
+    "장판 및 회피 기동: 보스의 광역 패턴 시 Flame Wisp과 기동성 탤런트를 활용해 안전한 거리를 유지하며 에테르를 수급합니다.",
+    "스태미나 관리: 콤보 도중 스태미나가 바닥나지 않도록 가드와 패리 타이밍을 조절하며, 윈드업(Wind Up) 벨을 통해 위기 상황을 탈출합니다.",
+    "그림/뱀파릭 인챈트 활용: 잡몹 처치 시 지속적인 피흡과 탤런트 버프를 유지하여 생존력을 극대화합니다."
+  ],
+  "combo_guide": [
+    "1단계 (진입 및 유인): Graceful Flame과 원거리 견제 만트라를 사용하여 적들이 한곳으로 뭉치도록 유도합니다.",
+    "2단계 (진형 붕괴 및 가드 브레이크): Lava Serpent와 Thunder Strike를 연계하여 적의 스태미나를 깎고 가드를 강제로 해제합니다.",
+    "3단계 (폭딜 퍼붓기): 적들이 경직되거나 에어본 상태가 되었을 때 핵심 광역 만트라와 무기 전용 크리티컬 공격을 퍼부어 대미지를 극대화합니다.",
+    "4단계 (이탈 및 생존): 교전 후 남은 적이 있다면 무기 인챈트 효과(Vampiric)로 체력을 회복하고, 위급 시 Wind Up 벨로 전장을 이탈합니다."
+  ],
+  "video_meta": {
+    "title": "The Saintsworn Nuke Build. | Deepwoken",
+    "channel": "fatedw",
+    "url": "https://www.youtube.com/watch?v=nagZrLSCftM",
+    "upload_date": "20251025",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
