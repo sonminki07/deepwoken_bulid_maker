@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (39개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (40개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -46,6 +46,7 @@
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
 | **Ironsing Steelscale Cestus & Jailer** | `PvP` | ` / ironsing` | [📄 문서 보기](builds/ironsing-steelscale-cestus-jailer-path.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
+| **Meta All-Rounder PvP & PvE Mastercl** | `Hybrid` | ` / ironsing` | [📄 문서 보기](builds/meta-all-rounder-pvp-pve-masterclass-build.md) |
 | **Min-Maxed General Hybrid Build Guid** | `Hybrid` | ` / flamecharm` | [📄 문서 보기](builds/min-maxed-general-hybrid-build-guide.md) |
 | **Nanji's Posture Guard-Break Bruiser** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nanjis-posture-guard-break-bruiser.md) |
 | **NLK Blindseer Medium Greatsword** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nlk-blindseer-medium-greatsword.md) |
