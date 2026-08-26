@@ -1,0 +1,147 @@
+{
+  "video_metadata": {
+    "title": "NEW BEST BROKEN SILENTHEART M1 PvE BUILD V2 .. (ONE SHOT EVERY BOSS) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=nUDuyPO7rbo",
+    "patch_version": "Verse 2 / Layer 2 Era"
+  },
+  "build_summary": {
+    "build_name": "Silentheart Rapier & Moppet PvE Boss Slayer V2",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "본 빌드는 사일런트하트(Silentheart) 서약을 기반으로 한 최상위 PvE M1 전용 빌드입니다. 만트라를 사용하는 대신 평타(M1) 대미지 및 크리티컬 효율을 극대화하여 Deepwoken 내 모든 보스를 빠르게 도륙할 수 있도록 설계되었습니다.\n\n체이서(Chaser)처럼 패링 유도가 적은 보스에게는 모펫(Moppet)이나 대거(Dagger)를 사용하여 체인 스택(Chain Stacks)을 순식간에 쌓아 폭딜을 넣고, 패링 위주의 보스에게는 레이피어(Rapier)의 우수한 크리티컬 모션과 퍼니시 성능을 활용해 안정적인 딜링을 퍼붓는 유연성을 갖추고 있습니다.\n\n또한 Lone Warrior 및 Maverick 조합으로 솔로 플레이 시 경험치 획득 속도와 대미지 보너스를 확보하였으며, Shrine of Order를 통해 Charisma 75(Unnecessary Theatrics, Tough Love), Fortitude 50, Willpower 50의 주요 유틸리티/생존 탤런트를 고루 챙긴 뒤 Strength 80과 Light Weapon 100을 투자해 강력한 딜탱 밸런스를 완성했습니다.",
+    "strengths": [
+      "모펫(Moppet)/대거와 레이피어 무기 스왑을 통한 보스 패턴별 맞춤형 극딜 가능",
+      "사일런트하트의 압도적인 평타(M1) 계수 및 광폭화(Berserk) 대미지 시너지",
+      "Lone Warrior 및 Maverick 탤런트로 인한 육성 편의성 및 솔로 대미지 5% 증가",
+      "Charm 및 Charisma 75 탤런트 연계로 상시 대미지 증폭 및 피해 감소 혜택 보유"
+    ],
+    "weaknesses": [
+      "만트라를 일절 사용할 수 없어 이동기나 원거리 견제 수단이 부족함",
+      "보스 패턴 패링 및 도지(Dodge) 등 유저의 순수 전투 피지컬 의존도가 높음"
+    ]
+  },
+  "stats_and_attunements": {
+    "stats": {
+      "strength": 80,
+      "fortitude": 50,
+      "agility": 25,
+      "intelligence": 0,
+      "willpower": 50,
+      "charisma": 75,
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 100
+    },
+    "attunements": {
+      "flamecharm": false,
+      "frostdraw": false,
+      "thundercall": false,
+      "galebreathe": false,
+      "shadowcast": false,
+      "ironsing": false,
+      "bloodrend": false
+    }
+  },
+  "character_setup": {
+    "oath": "Silentheart",
+    "race": "Any (Vesperian or Ganymede recommended)",
+    "origin": "Lone Warrior",
+    "murmur": "Ardour",
+    "resonance_bell": "Reaper or Kamui"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Mark of the Lone Warrior",
+        "is_core": true
+      },
+      {
+        "name": "Maverick",
+        "is_core": true
+      },
+      {
+        "name": "Unnecessary Theatrics",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Golden Tongue",
+        "is_core": true
+      },
+      {
+        "name": "Chaotic Charm",
+        "is_core": true
+      },
+      {
+        "name": "Manipulator",
+        "is_core": false
+      },
+      {
+        "name": "Exoskeleton",
+        "is_core": true
+      },
+      {
+        "name": "To the Finish",
+        "is_core": false
+      },
+      {
+        "name": "Unfazed",
+        "is_core": true
+      },
+      {
+        "name": "Conditioned Runner",
+        "is_core": false
+      },
+      {
+        "name": "Wyvern's Claw",
+        "is_core": false
+      },
+      {
+        "name": "Matador",
+        "is_core": false
+      }
+    ],
+    "mantras": []
+  },
+  "weapons_and_equipment": {
+    "weapon": "Needle's Eye (Rapier) / Moppet (Light Dagger) / Flippers of Fate",
+    "outfit": "Prophet's Cloak or Black Diver",
+    "accessories": "Empress Threat, Hp/Posture Rings, Dagger/Light Damage Boost Equipment"
+  },
+  "target_mobs_and_strategy": {
+    "target_mobs": [
+      "Chaser (Scholar of the Crimson Contract)",
+      "Scion of Ethiron",
+      "Elder Primadon",
+      "Ferryman",
+      "Kaido (Dread Serpent)"
+    ],
+    "mob_strategy": "1. 체이서(Chaser): 패링 기회가 적으므로 모펫(Moppet)이나 대거류 무기를 착용합니다. Berserk 활성화 후 M1을 빠르게 연타하여 체인 스택을 즉시 누적시키고 폭딜을 넣습니다.\n2. 에티론의 후예(Scion of Ethiron) / 페리맨 / 프리마돈: 패링 위주의 보스전에서는 레이피어(Rapier)로 스왑합니다. 보스의 공격을 패링한 뒤 레이피어 특유의 빠르고 강력한 크리티컬 모션으로 대미지를 누적시킵니다.\n3. 프리마돈(Primadon): 발구르기 및 휩쓸기 패턴 시 회피(Dodge) 후 M1 콤보 및 크리티컬을 적중시켜 가드브레이크 및 넉백 피해를 극대화합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1. 교전 진입 시: Ardour Murmur 및 사일런트하트 버프 효과를 유발하기 위해 인게이지 및 무기 들기 모션을 수행합니다.\n2. 보스 유형별 무기 선택: 패링 위주 보스 ➔ 레이피어(Rapier), 고정형/연타형 보스 ➔ 모펫(Moppet)/대거.\n3. 사일런트하트 딜링 연계: 보스 패턴 패링 ➔ 크리티컬(M2) 적중으로 디버프 부여 ➔ M1 평타 연타로 체인 스택 쌓기 및 광폭화(Berserk) 대미지 폭발.\n4. 위기 상황: Unfazed 및 Exoskeleton의 방어 보너스를 바탕으로 패링에 집중하여 포스처(Posture)를 회복하고 다시 M1 누적 딜링을 지속합니다."
+  },
+  "video_meta": {
+    "title": "NEW BEST BROKEN SILENTHEART M1 PvE BUILD V2 .. (ONE SHOT EVERY BOSS) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=nUDuyPO7rbo",
+    "upload_date": "20260721",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {
+    "flamecharm": false,
+    "frostdraw": false,
+    "thundercall": false,
+    "galebreathe": false,
+    "shadowcast": false,
+    "ironsing": false,
+    "bloodrend": false
+  },
+  "mantras": [],
+  "equipment": []
+}
