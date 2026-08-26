@@ -1,0 +1,338 @@
+Title: Weapons — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/weapon
+Description: All wielded gear and their information.
+
+==================================================
+
+Weapons — Wiki - Deepwoken Builder
+Filter
+253
+entries
+Rare
+Acheron's Warspear
+Medium Weapon
+40
+...
+Uncommon
+Adretian Aegis
+A sturdy shield, traditionally crafted to suit the rank of it's holder.
+Rare
+Adretian Axe
+A bound axe in the typical Adretian fashion.
+Rare
+Alloyed Adretian Axe
+A bound axe in the typical Adretian fashion.
+Legendary
+Alloyed Canorian Axe
+Heavy Weapon
+75
+An axe much like the ones once wielded by the Canor Swornfangs, loyal protectors of the early Adretian Empire.
+Rare
+Alloyed Cavalry Saber
+To those of the current world, the notion of cavalry is farfetched. Still, the cavalry saber lives on as an effective blade for raiding.
+Legendary
+Alloyed Crescent Cleaver
+Heavy Weapon
+75
+Strength
+10
+Greatblades like these are often used by monster hunters, the serrated blade ensuring that even if their quarry flees, they need only follow the blood.
+Rare
+Alloyed Dawnshot
+Light Weapon
+75
+With an almost flawless silver sheen that prevents corrosion from saltwater, the Dawnshot was purpose-built by Rosen for his lengthy travels at sea. Its short range is compensated for by the almost…
+Legendary
+Alloyed Falchion
+Medium Weapon
+75
+A single-edged sabre often wielded by conscripted Authority militiamen due to its relative ease of production.
+Legendary
+Alloyed Forge Greathammer
+Heavy Weapon
+75
+Strength
+10
+It is said that blacksmiths always keep one of these handy should someone ever stiff them on the bill.
+Uncommon
+Alloyed Halberd
+Heavy Weapon
+75
+A standard issue halberd of the Authority, often seen in larger skirmishes.
+Uncommon
+Alloyed Inheritor
+Heavy Weapon
+75
+Strength
+10
+The Blade Scholars of Markor, said to catalog the world itself, travel from land to land collecting information by force of their blades. Mastering the styles of combat from various stretches of the…
+Uncommon
+Alloyed Katana
+Medium Weapon
+75
+An exquisite blade of Etrean make, it's said to have put the early Kingdom of Etrea's name on the map.
+Legendary
+Alloyed Longspear
+Medium Weapon
+75
+Beyond the safety of walls, these long spears are used by the Children of Navae to defend themselves out in the wilderness.
+Legendary
+Alloyed Messer
+Medium Weapon
+75
+Considered by many to be an overgrown kitchen knife, the Messer is a favourite of rangers and beast hunters the world over.
+Rare
+Alloyed Officer Saber
+Medium Weapon
+75
+The characteristic saber of an Authority Officer. Typically used in Authority raids on disputed territories.
+Legendary
+Alloyed Scalesplitter
+Medium Weapon
+65
+An ancient Etrean twinblade, recently repurposed and refurbished with alloys of the contemporary world, taken from the void's grasp and returned to life. Now this weapon, once worn by time and war,…
+Legendary
+Alloyed Shotel
+Medium Weapon
+75
+A blade from Markor prized by warriors for its ability to effortlessly slip past the guards of foes.
+Legendary
+Alloyed Steel Maul
+Heavy Weapon
+75
+Strength
+10
+A sturdy maul perfect for knocking walls and people down alike.
+Legendary
+Alloyed Tanto
+Light Weapon
+80
+A dagger forged by a Etrean smith, the Tanto is said to bear the same durability as the Katana, but in a smaller profile
+Legendary
+Alloyed Trident Spear
+Medium Weapon
+85
+A surprisingly effective weapon despite its previous use by fishermen.
+Legendary
+Alloyed Vigil Longsword
+Medium Weapon
+75
+Despite the popularity of the Katana, the Vigil Longsword represents Etrea's need for more cost-efficient production processes in blades. Regarded as an equally fine blade, nonetheless.
+Legendary
+Alloyed Whaling Knife
+Light Weapon
+75
+The knife of one of the infamous Knives of Eylis, mercenaries and assassins feared and reviled the world over. Carries a unique critical that has a higher chance to do Critcal Damage if you wield…
+Legendary
+Alloyed Zweihander
+Heavy Weapon
+75
+Strength
+10
+Popularised by the Canor Borderwatchers, the Zweihander is as fearsome as it is heavy.
+Rare
+Anklets of Alsin
+Light Weapon
+25
+Talent
+Jus Karita
+...
+Uncommon
+Apprentice Rapier
+Light Weapon
+20
+Although fragile in appearance, this beginner's blade has been the starting point for many Pathfinders beginning their journey.
+Common
+Avenger
+A greatsword passed down by your ancestors.
+Common
+Battleaxe
+A sturdy axe perfect for splitting bone.
+Mythical
+Bellmarrow Reave
+Medium Weapon
+65
+Wrought from the hardened inner husks of Simforea's native Arkasids and bound with fragments of local flora, this twinblade bears the unmistakable mark of the resident Anansi Knell. Its paired edges…
+Mythical
+Big Brother
+Light Weapon
+80
+A gift from High Inquisitor Merey. Far from a weapon of war, this dagger is a perfect tool for the stealthy wetwork missions of the Inquisition. Eyes and ears may watch and listen, but must never…
+Mythical
+Black Death
+Medium Weapon
+30
+Mind
+50
+Shadowcast
+70
+Tool of the Ministry. Unlike its counterpart this pike cares not for the mess it intends to leave behind.
+Named
+Bloodbane
+Heavy Weapon
+60
+Strength
+30
+An heirloom of the Canor Borderwatchers, this bloodsoaked zweihander has been passed down by its leaders for generations. At times, you swear you can feel a heartbeat resounding from within.
+Unique
+Bloodfouler
+Heavy Weapon
+50
+Bloodrend
+75
+A deep crimson odachi, commissioned and forged for a prophet-in-training, then relinquished in later years. Marked by its maker's seal, a sinister vow seeps through its scarlet fibers. Its jagged…
+Legendary
+Bloodtide Trident
+Medium Weapon
+75
+...
+Mythical
+Boltcrusher
+Heavy Weapon
+55
+Strength
+20
+Thundercall
+80
+A cutting-edge Deepdelver creation, uniquely modified from their renowned explosive picks, this boring tool is designed to quarry and demolish the deep's toughest materials - and those who can't…
+Uncommon
+Bronze Aspis
+A round, wooden shield often accompanied by spear or shortblade.
+Rare
+Broodalloy Cestus
+Light Weapon
+85
+You've done the unthinkable... merging nature and metal into a brutal instrument of destruction. The raw purple sheen of untreated pluripotent alloys twists through the craggy gnarled texture of the…
+Exclusive
+Calamity Cinnabar
+Heavy Weapon
+40
+Shadowcast
+75
+A blade said to have been forged from the remains of the Last Dead, the last fortunate souls at the end of the Canticlysm to be spared the Drowning.
+Rare
+Canor Fang
+Light Weapon
+40
+...
+Uncommon
+Canorian Axe
+Heavy Weapon
+35
+An axe much like the ones once wielded by the Canor Swornfangs, loyal protectors of the early Adretian Empire.
+Uncommon
+Cavalry Saber
+To those of the current world, the notion of cavalry is farfetched. Still, the cavalry saber lives on as an effective blade for raiding.
+Uncommon
+Central Dirk
+...
+Mythical
+Cerulean Thread
+Light Weapon
+85
+Weapon of a former student of the 4th Prophet who quickly moved up through the ranks of the Ministry due to their own ingenuity and modifications upon Zi'eer's puppet strings. Met their demise at the…
+Rare
+Champion's Dagger
+Light Weapon
+50
+A blade heralded by those who have braved the challenges of 'The Golden Rat'. Befitting of a champion, its metal shines as bright as the spirit of the Golden Rat itself.
+Rare
+Champion's Sword
+Medium Weapon
+40
+A blade heralded by those who have braved the challenges of 'The Golden Rat'. Befitting of a champion, its metal shines as bright as the spirit of the Golden Rat itself.
+Unique
+Chorus of Agonies
+Heavy Weapon
+100
+Strength
+20
+Towering over the trial like a monument, Enmity's presence draws the very air from your lungs, oppressive and unyielding, as if it too was full of scorn. Now in your grasp, the vile axe pulses with a…
+Legendary
+Coldpoint
+Light Weapon
+70
+Frostdraw
+25
+Harvested from the upper crust of the Second Layer, this long icicle is kept forever frozen by a vow, and bears a Kyrsan ice brand on its hilt. Before Ethiron's arrival, such weapons were made as…
+Rare
+Coral Cestus
+Light Weapon
+50
+Cestus fashioned from the remains of a Mudskipper Brute.
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Bellmarrow Reave - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Bellmarrow%20Reave
+Bellmarrow Reave - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Anklets of Alsin - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Anklets%20of%20Alsin
+Anklets of Alsin - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Black Death - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Black%20Death
+Black Death - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Bloodfouler - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Bloodfouler
+Bloodfouler - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Boltcrusher - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Boltcrusher
+Boltcrusher - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Calamity Cinnabar - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Calamity%20Cinnabar
+Calamity Cinnabar - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Coldpoint - Weapon Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/weapon/Coldpoint
+Coldpoint - Weapon Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+=== Sub Pages Explored ===
+- Bellmarrow%20Reave
+- Anklets%20of%20Alsin
+- Black%20Death
+- Bloodfouler
+- Boltcrusher
+- Calamity%20Cinnabar
+- Coldpoint
