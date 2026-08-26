@@ -1,0 +1,120 @@
+{
+  "video_metadata": {
+    "title": "This BEGINNER PVE Build Can Do ANYTHING... | Deepwoken",
+    "channel": "Valklist",
+    "url": "https://www.youtube.com/watch?v=Pyy468RDJrQ",
+    "patch_version": "Verse 2 (Layer 2)"
+  },
+  "build_summary": {
+    "build_name": "Volcanic Glass Brick Wall PvE Spear",
+    "build_type": "PvE",
+    "difficulty": "Beginner",
+    "creator_opinion": "이 빌드는 Flamecharm과 Frostdraw의 하이브리드 탤런트인 'Volcanic Glass'를 핵심으로 사용하는 초보자 친화적인 PvE 빌드입니다. 'Brick Wall'과 'Reinforced Armor'를 채용하여 넉백에 면역이며 극강의 탱킹력을 자랑합니다. 얼음 만트라로 생성된 크리스탈이 폭발할 때 용암 폭발(Lava Explosion)을 일으켜 체인 스택이 쌓였을 때 만트라당 2000 이상의 폭발적인 데미지를 선사합니다.",
+    "strengths": [
+      "Brick Wall과 Reinforced Armor 조합으로 인한 압도적인 생존력 및 넉백 면역",
+      "Volcanic Glass 시너지로 얼음 크리스탈 폭발 시 강력한 화염 추가 피해",
+      "Grim 인챈트와 Trident Spear 모티프의 다단히트 크리티컬을 활용한 상시 25% 피해 증가 버프",
+      "Ice Skate 만트라를 활용한 레이어 2 바람 지대 및 몹 손쉬운 패스"
+    ],
+    "weaknesses": [
+      "Brick Wall(Fortitude 100, Willpower 100) 조건 충족을 위해 스탯 소모가 커 유틸리티 스탯 투자 제한",
+      "최대 데미지를 뽑아내기 위해 사전 체인 스택 작업이 필요함"
+    ]
+  },
+  "stats": {
+    "strength": 20,
+    "fortitude": 100,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 100,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 75,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 40,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Any",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Volcanic Glass",
+      "is_core": true
+    },
+    {
+      "name": "Brick Wall",
+      "is_core": true
+    },
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    },
+    {
+      "name": "Piercing Will",
+      "is_core": false
+    },
+    {
+      "name": "Heretic's Sutra",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Ice Skate"
+    },
+    {
+      "name": "Flame Sentinel"
+    },
+    {
+      "name": "Empowered Eruption"
+    },
+    {
+      "name": "Blizzard Gem"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": "Iron Spear (Grim Enchant, Trident Spear Motif)",
+    "outfit": "Pathfinder Elite (+5% Monster DMG)",
+    "accessories": [
+      "Isshin's Ring (+15% DMG)",
+      "Ring of Casters (+5% DMG)",
+      "Diver's Ring (+5% DMG)",
+      "Thrall of Enmity (Grants 'Lose Your Mind' talent, +15% DMG)"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Bounders"
+    ],
+    "mob_strategy": "Chaser 전투 시, Chaser가 공중으로 솟구칠 때 'Flame Sentinel' 만트라를 즉시 캐스팅하면 Chaser의 블러드 자(Blood Jars)를 한 번에 모두 파괴하여 패턴을 스킵할 수 있습니다. 일반 몹이나 보스전에서는 얼음 만트라로 크리스탈을 생성한 뒤 폭발시켜 용암 폭발 데미지를 연쇄적으로 입힙니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "전투 시작 전 Heretic's Sutra를 사용하여 광기(Insanity) 상태를 유도하고 'Lose Your Mind' 버프를 활성화합니다. Trident Spear의 다단히트 크리티컬 공격을 적중시켜 Grim 인챈트의 25% 피해 증가 버프를 즉시 획득합니다. 이후 체인 스택을 쌓은 상태에서 얼음 만트라와 화염 만트라를 번갈아 사용하여 Volcanic Glass 폭발 데미지를 극대화합니다."
+  },
+  "video_meta": {
+    "title": "This BEGINNER PVE Build Can Do ANYTHING... | Deepwoken",
+    "channel": "Valklist",
+    "url": "https://www.youtube.com/watch?v=Pyy468RDJrQ",
+    "upload_date": "20260527",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
