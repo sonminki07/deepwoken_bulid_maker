@@ -141,32 +141,75 @@ class DeepwokenFactChecker:
 
     @staticmethod
     def parse_stats_from_advice(text: str) -> Dict[str, int]:
-        """AI 조언 텍스트에서 추천된 스탯 수치를 정규식으로 정밀 자동 추출"""
+        """AI 조언 텍스트에서 추천된 사원 후(Post-Shrine) 최종 330pt 스탯을 최우선 정밀 자동 추출 (마크다운 표 및 리스트 지원)"""
         key_patterns = {
-            "Strength": r"(?:Strength|힘|근력)",
-            "Fortitude": r"(?:Fortitude|인내|체력)",
-            "Agility": r"(?:Agility|민첩)",
-            "Intelligence": r"(?:Intelligence|지능)",
-            "Willpower": r"(?:Willpower|의지|정신력)",
-            "Charisma": r"(?:Charisma|매력)",
-            "Heavy Wep": r"(?:Heavy\s*Weapon|Heavy\s*Wep|중무기|대검|헤비)",
-            "Medium Wep": r"(?:Medium\s*Weapon|Medium\s*Wep|중검|미디엄)",
-            "Light Wep": r"(?:Light\s*Weapon|Light\s*Wep|단검|라이트)",
-            "Flamecharm": r"(?:Flamecharm|화염)",
-            "Frostdraw": r"(?:Frostdraw|프로스트|빙결)",
-            "Thundercall": r"(?:Thundercall|번개|선더)",
-            "Galebreathe": r"(?:Galebreathe|바람|게일)",
-            "Shadowcast": r"(?:Shadowcast|그림자|섀도우)",
-            "Ironsing": r"(?:Ironsing|철|아이언)",
+            "Strength": [r"(?:Strength|근력|힘)\b", r"STR\b"],
+            "Fortitude": [r"(?:Fortitude|인내|체력)\b", r"FORT\b"],
+            "Agility": [r"(?:Agility|민첩)\b", r"AGI\b"],
+            "Intelligence": [r"(?:Intelligence|지능)\b", r"INT\b"],
+            "Willpower": [r"(?:Willpower|의지|정신력)\b", r"WIL\b"],
+            "Charisma": [r"(?:Charisma|매력)\b", r"CHA\b"],
+            "Heavy Wep": [r"(?:Heavy\s*Weapon|Heavy\s*Wep|중무기|대검|헤비)\b"],
+            "Medium Wep": [r"(?:Medium\s*Weapon|Medium\s*Wep|중검|미디엄)\b"],
+            "Light Wep": [r"(?:Light\s*Weapon|Light\s*Wep|단검|라이트)\b"],
+            "Flamecharm": [r"(?:Flamecharm|화염|플레임)\b"],
+            "Frostdraw": [r"(?:Frostdraw|프로스트|빙결)\b"],
+            "Thundercall": [r"(?:Thundercall|번개|선더)\b"],
+            "Galebreathe": [r"(?:Galebreathe|바람|게일)\b"],
+            "Shadowcast": [r"(?:Shadowcast|그림자|섀도우)\b"],
+            "Ironsing": [r"(?:Ironsing|철|아이언)\b"],
         }
-        parsed = {}
-        for canonical_name, pat in key_patterns.items():
-            # 예: **Heavy Weapon (중무기): 100** 또는 Fortitude: 50
-            full_pat = rf"{pat}(?:[^\d\n:]*?)[:\s=]+\**(\d{{1,3}})\**"
-            match = re.search(full_pat, text, re.IGNORECASE)
-            if match:
-                parsed[canonical_name] = int(match.group(1))
-        return parsed
+
+        def _extract_from_table(src: str) -> Dict[str, int]:
+            table_dict = {}
+            for line in src.split("\n"):
+                if "|" in line:
+                    cells = [c.strip() for c in line.split("|") if c.strip()]
+                    # 세로형 표는 첫 번째 셀에 콜론(:)이 없어야 함 (예: | Strength | 40 | 30 |)
+                    if len(cells) >= 2 and ":" not in cells[0]:
+                        first_cell = cells[0]
+                        val_cell = cells[-1] # 사원 후(마지막 셀) 스탯
+                        for canonical_name, pat_list in key_patterns.items():
+                            if canonical_name in table_dict:
+                                continue
+                            if any(re.search(pat, first_cell, re.IGNORECASE) for pat in pat_list):
+                                num_match = re.search(r"\b(\d{1,3})\b", val_cell)
+                                if num_match:
+                                    v = int(num_match.group(1))
+                                    if 0 <= v <= 102:
+                                        table_dict[canonical_name] = v
+            return table_dict
+
+        def _extract_from_text(src: str) -> Dict[str, int]:
+            parsed_dict = {}
+            chunks = re.split(r"[\n,;|]", src)
+            for chunk in chunks:
+                for canonical_name, pat_list in key_patterns.items():
+                    if canonical_name in parsed_dict:
+                        continue
+                    for pat in pat_list:
+                        match = re.search(rf"{pat}[^\d\n:]*?[:\s=]+\**(\d{{1,3}})\**", chunk, re.IGNORECASE)
+                        if match:
+                            val = int(match.group(1))
+                            if 0 <= val <= 102:
+                                parsed_dict[canonical_name] = val
+                                break
+            return parsed_dict
+
+        # 1. 마크다운 테이블 우선 파싱
+        from_table = _extract_from_table(text)
+        if len(from_table) >= 4:
+            return from_table
+
+        # 2. Post-Shrine 섹션 우선 추출
+        post_sections = re.split(r"(?:Post-Shrine|사원 후|최종 스탯|최종 종결 스탯|완성 스탯)", text, flags=re.IGNORECASE)
+        if len(post_sections) > 1:
+            res = _extract_from_text(post_sections[-1])
+            if len(res) >= 3:
+                return res
+
+        # 3. 전체 텍스트에서 추출 (폴백)
+        return _extract_from_text(text)
 
     @staticmethod
     def validate_racial_base_stats(race: str, stats: Dict[str, int]) -> Tuple[bool, List[str]]:

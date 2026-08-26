@@ -1,5 +1,6 @@
 import os
 import re
+import json
 import logging
 from typing import Optional, List, Dict, Any
 from google import genai
@@ -41,7 +42,7 @@ class BuildAdvisor:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        model_name: str = "gemini-3.7-flash",
+        model_name: str = "gemini-2.5-flash",
         db_path: str = "data/chromadb",
         collection_name: str = "deepwoken_builds",
         top_k: int = 4
@@ -83,7 +84,56 @@ class BuildAdvisor:
         from chatbot.slang_normalizer import DeepwokenSlangResolver
         enriched_query = DeepwokenSlangResolver.enrich_prompt_with_deep_knowledge(user_query)
 
-        # 1. 로컬 RAG 검색 (지식 베이스 + 노트북LM 노트)
+        # 1. 마스터 비디오 빌드 데이터베이스 직접 조회 및 그라운딩 (Golden Truth)
+        matched_master_build_text = ""
+        try:
+            from pathlib import Path
+            profiles_file = Path(__file__).parent.parent / "data" / "user_profiles.json"
+            if profiles_file.exists():
+                profiles_data = json.loads(profiles_file.read_text(encoding="utf-8"))
+                query_lower = user_query.lower()
+                matched_data = None
+                for b_name, b_data in profiles_data.items():
+                    if any(k in query_lower for k in ["silentheart", "사일런트하트", "사하", "canor", "카노르", "m1 melter", "사슬"]) and "Silentheart" in b_data.get("oath", ""):
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["kato", "카토", "gale", "게일", "depth"]) and "Gale" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["bloodrend", "블러드렌드", "vampire", "뱀파이어", "흡혈"]) and "Bloodrend" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["azure", "아주르", "steam duster", "너클"]) and "Azure" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["poser", "포저", "ironsing", "아이언싱", "thundercall", "썬더콜"]) and "Poser" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["volcanic", "brick wall", "브릭월", "창", "spear"]) and "Brick Wall" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["soul beam", "소울 빔", "blindseer", "블라인드시어"]) and "Soul Beam" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["shattered", "katana", "카타나", "silent swordsman"]) and "Shattered" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["shadow", "섀도우", "암흑", "그림자"]) and "Shadowcast" in b_name:
+                        matched_data = (b_name, b_data); break
+                    elif any(k in query_lower for k in ["ashen", "moppet", "dagger", "단검", "글래스"]) and "Dagger" in b_name:
+                        matched_data = (b_name, b_data); break
+
+                if matched_data:
+                    m_name, m_val = matched_data
+                    matched_master_build_text = (
+                        f"=== [공식 100% 검증된 마스터 비디오 빌드 데이터: '{m_name}'] ===\n"
+                        f"- 종족(Race): {m_val.get('race')} (기본치 훼손 금지)\n"
+                        f"- Oath(서약): {m_val.get('oath')}\n"
+                        f"- 주무기: {m_val.get('weapon_type')}, 주속성: {m_val.get('attunement')}\n"
+                        f"- Pre-Shrine(사원 전) 스탯: {m_val.get('pre_shrine')}\n"
+                        f"- Post-Shrine(사원 후 최종 330pt) 스탯: {m_val.get('stats')}\n"
+                        f"- 11대 장비 세팅: {m_val.get('equipment')}\n"
+                        f"- 만트라 및 스킬: {m_val.get('mantras')}\n"
+                        f"- 핵심 탤런트: {m_val.get('talents')}\n"
+                        f"- 출처 영상: {m_val.get('source_video')}\n"
+                        f"⚠️ 위 마스터 빌드의 스탯 수치(Post-Shrine 합계 정확히 330pt)를 절대로 변경하거나 왜곡하지 말고 원형 그대로 명확하게 제시하세요.\n"
+                    )
+        except Exception as e:
+            logger.warning(f"Master build lookup failed: {e}")
+
+        # 2. 로컬 RAG 검색 (지식 베이스 + 노트북LM 노트)
         rag_context = ""
         try:
             results = self.kb.query(query_text=user_query, n_results=self.top_k)
@@ -96,10 +146,10 @@ class BuildAdvisor:
         except Exception as e:
             logger.warning(f"RAG search warning: {e}")
 
-        # 2. 실시간 웹 검색 (Wiki / Reddit)
+        # 3. 실시간 웹 검색 (Wiki / Reddit)
         web_context = self.search_web(user_query, max_results=4)
 
-        # 3. 대화 맥락(History) 포맷팅
+        # 4. 대화 맥락(History) 포맷팅
         history_text = ""
         if history:
             history_text = "=== [이전 대화 맥락 (기억)] ===\n"
@@ -126,28 +176,31 @@ class BuildAdvisor:
                 "8. 💡 최종 EHP(실질 체력) 및 보스전(Duke/Primadon/Chaser) 극딜을 위한 종합 개선안"
             )
 
-        # 4. 통합 프롬프트 생성 (4중 지식 융합)
+        # 5. 통합 프롬프트 생성 (5중 지식 융합)
         prompt = (
             f"{history_text}"
             f"=== [사용자의 현재 질문 및 딥위큰 룰 분석] ===\n{enriched_query}\n\n"
+            f"{matched_master_build_text}\n"
             f"=== [참고 1: 로컬 깃허브 & 노트북LM 지식 데이터베이스] ===\n"
             f"{rag_context if rag_context else '로컬에 직접 매칭된 빌드 없음'}\n\n"
             f"=== [참고 2: 실시간 Deepwoken 위키 및 빌더 검색 데이터] ===\n"
             f"{web_context if web_context else '웹 검색 결과 없음'}\n"
             f"{audit_instruction}\n\n"
-            f"위 대화 맥락과 딥위큰 시스템 룰을 엄격히 준수하여, 사용자가 의도한 정확한 빌드(예: 사일런트하트 평타, 브릭월 극탱 등)로 실전 전술과 정확한 330pt 분배를 한국어로 명확히 제시하세요."
+            f"⚠️ [절대 필수 검증 룰]\n"
+            f"1. 사원 후(Post-Shrine) 최종 스탯을 제시할 때는 6대 기본 스탯 + 무기 + 속성의 합산이 반드시 '정확히 330 pt'가 되도록 암산하여 1포인트의 오차도 없이 작성하세요.\n"
+            f"2. 종족 기본치 이하로 스탯을 깎지 마세요 (Canor는 Str 3 이상, Cha 2 이상 필수. 불필요한 Int 2 등을 임의로 넣지 마세요).\n"
+            f"3. 위 대화 맥락과 딥위큰 시스템 룰을 엄격히 준수하여, 사용자가 의도한 정확한 빌드(예: 사일런트하트 평타, 브릭월 극탱 등)로 실전 전술과 정확한 330pt 분배를 한국어로 명확히 제시하세요."
         )
 
         def _call_model(client: genai.Client) -> str:
             last_err = None
-            # 최고 성능 고지능/고추론 플래그십 모델 우선 호출
+            # 신속하고 안정적인 고성능 모델 우선 호출
             for m_name in [
-                "gemini-3.7-flash",
-                "gemini-3.6-flash",
-                "gemini-pro-latest",
-                "gemini-3.1-pro-preview",
-                "gemini-flash-latest",
                 "gemini-flash-lite-latest",
+                "gemini-3.6-flash",
+                "gemini-3.7-flash",
+                "gemini-flash-latest",
+                "gemini-3.1-pro-preview"
             ]:
                 try:
                     response = client.models.generate_content(
@@ -155,7 +208,7 @@ class BuildAdvisor:
                         contents=prompt,
                         config=types.GenerateContentConfig(
                             system_instruction=ADVISOR_SYSTEM_PROMPT,
-                            temperature=0.3
+                            temperature=0.2
                         )
                     )
                     return response.text
