@@ -9,6 +9,7 @@ import streamlit as st
 from chatbot.build_advisor import BuildAdvisor
 from chatbot.coach_validator import DeepwokenFactChecker, TALENT_PREREQUISITES, OATH_PREREQUISITES
 from chatbot.builder_calculator import DeepwokenCalculator, DEEPWOKEN_RACES, OUTFIT_PRESETS
+from chatbot.deepwoken_database import DEEPWOKEN_TALENTS_DB, DEEPWOKEN_MANTRAS_DB
 
 # 페이지 기본 설정
 st.set_page_config(
@@ -21,50 +22,50 @@ st.set_page_config(
 # Deepwoken Builder 고유 고딕 다크 테마 커스텀 CSS
 st.markdown("""
 <style>
-    /* 전체 테마 색상 (Deepwoken Builder Dark Theme) */
+    /* 메인 배경 및 폰트 */
     .stApp {
-        background-color: #0b0c10;
-        color: #e0e2ec;
-        font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+        background-color: #0c0d14;
+        color: #e2e8f0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
-    /* 헤더 스타일링 */
+    /* 카드 컨테이너 테두리 */
+    .deepwoken-card {
+        background: linear-gradient(145deg, #151824, #1b2030);
+        border: 1px solid #2d3748;
+        border-radius: 10px;
+        padding: 18px;
+        margin-bottom: 16px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+    
+    /* 타이틀 골드 텍스트 */
     .deepwoken-title {
-        font-family: 'Cinzel', serif, -apple-system;
-        font-size: 2.2rem;
-        font-weight: 700;
         color: #e5b869;
-        text-shadow: 0 0 12px rgba(229, 184, 105, 0.4);
-        margin-bottom: 0.2rem;
+        font-family: 'Cinzel', 'Georgia', serif;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-shadow: 0 0 10px rgba(229, 184, 105, 0.3);
+        margin-bottom: 4px;
     }
     .deepwoken-subtitle {
+        color: #94a3b8;
         font-size: 0.95rem;
-        color: #8c93a8;
-        margin-bottom: 1.5rem;
-    }
-
-    /* 빌더 카드 및 컨테이너 */
-    .builder-card {
-        background: #141721;
-        border: 1px solid #232838;
-        border-radius: 8px;
-        padding: 16px;
-        margin-bottom: 14px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
     }
     
     /* 스탯 요약 뱃지 */
     .stat-badge-ok {
-        background-color: #133a26;
-        color: #4ade80;
+        background-color: rgba(16, 185, 129, 0.15);
+        color: #34d399;
         padding: 6px 12px;
         border-radius: 6px;
         font-weight: bold;
         display: inline-block;
-        border: 1px solid #22c55e;
+        border: 1px solid #10b981;
     }
     .stat-badge-warn {
-        background-color: #451a1a;
+        background-color: rgba(239, 68, 68, 0.15);
         color: #f87171;
         padding: 6px 12px;
         border-radius: 6px;
@@ -73,13 +74,47 @@ st.markdown("""
         border: 1px solid #ef4444;
     }
 
-    /* 속성 알약 태그 (Attunement Pills) */
-    .attunement-frost { color: #38bdf8; font-weight: bold; }
-    .attunement-flame { color: #f87171; font-weight: bold; }
-    .attunement-thunder { color: #fbbf24; font-weight: bold; }
-    .attunement-gale { color: #34d399; font-weight: bold; }
-    .attunement-shadow { color: #c084fc; font-weight: bold; }
-    .attunement-iron { color: #cbd5e1; font-weight: bold; }
+    /* 탤런트 & 만트라 호버 툴팁 태그 */
+    .talent-tag {
+        display: inline-block;
+        background: linear-gradient(135deg, rgba(234, 88, 12, 0.18), rgba(245, 158, 11, 0.12));
+        border: 1px solid rgba(245, 158, 11, 0.5);
+        color: #fde68a;
+        padding: 5px 11px;
+        border-radius: 7px;
+        margin: 3px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        cursor: help;
+        transition: all 0.2s ease;
+    }
+    .talent-tag:hover {
+        background: rgba(245, 158, 11, 0.35);
+        border-color: #fbbf24;
+        color: #ffffff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+    }
+    .mantra-tag {
+        display: inline-block;
+        background: linear-gradient(135deg, rgba(147, 51, 234, 0.18), rgba(59, 130, 246, 0.12));
+        border: 1px solid rgba(147, 51, 234, 0.5);
+        color: #e9d5ff;
+        padding: 5px 11px;
+        border-radius: 7px;
+        margin: 3px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        cursor: help;
+        transition: all 0.2s ease;
+    }
+    .mantra-tag:hover {
+        background: rgba(147, 51, 234, 0.35);
+        border-color: #c084fc;
+        color: #ffffff;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(147, 51, 234, 0.35);
+    }
 
     /* 채팅 말풍선 커스텀 */
     .chat-user {
@@ -226,24 +261,24 @@ with col_builder:
         att_idx = att_options.index(curr_data.get("attunement", "Frostdraw")) if curr_data.get("attunement") in att_options else 0
         main_attunement = st.selectbox("주속성", att_options, index=att_idx, key=f"{selected_name}_matt")
 
-    # 3. 4대 보조 특성 (Traits - 최대 6pt)
-    st.markdown("#### 🌟 4대 특성 (Traits - 만렙 6pt 분배)")
-    saved_traits = curr_data.get("traits", {"Vitality": 6, "Erudition": 0, "Proficiency": 0, "Songchant": 0})
+    # 3. 4대 보조 특성 (Traits - Deepwoken Wiki 공식 기준: 만렙 총 12pt 분배, 각 항목당 최대 6pt)
+    st.markdown("#### 🌟 4대 특성 (Traits - 만렙 총 12pt 분배)")
+    saved_traits = curr_data.get("traits", {"Vitality": 6, "Erudition": 6, "Proficiency": 0, "Songchant": 0})
     t_col1, t_col2, t_col3, t_col4 = st.columns(4)
     with t_col1:
-        vit_val = st.number_input("Vitality (체력)", 0, 6, int(saved_traits.get("Vitality", 6)), key=f"{selected_name}_vit")
+        vit_val = st.number_input("Vitality (체력 +10/pt)", 0, 6, int(saved_traits.get("Vitality", 6)), key=f"{selected_name}_vit")
     with t_col2:
-        eru_val = st.number_input("Erudition (에테르)", 0, 6, int(saved_traits.get("Erudition", 0)), key=f"{selected_name}_eru")
+        eru_val = st.number_input("Erudition (에테르 +25/pt)", 0, 6, int(saved_traits.get("Erudition", 6)), key=f"{selected_name}_eru")
     with t_col3:
-        pro_val = st.number_input("Proficiency (무기딜)", 0, 6, int(saved_traits.get("Proficiency", 0)), key=f"{selected_name}_pro")
+        pro_val = st.number_input("Proficiency (무기 딜증)", 0, 6, int(saved_traits.get("Proficiency", 0)), key=f"{selected_name}_pro")
     with t_col4:
-        son_val = st.number_input("Songchant (만트라)", 0, 6, int(saved_traits.get("Songchant", 0)), key=f"{selected_name}_son")
+        son_val = st.number_input("Songchant (만트라 딜)", 0, 6, int(saved_traits.get("Songchant", 0)), key=f"{selected_name}_son")
 
     total_traits = vit_val + eru_val + pro_val + son_val
-    if total_traits <= 6:
-        st.caption(f"🌟 특성 포인트 사용: **{total_traits} / 6 pt** (정상 ✅)")
+    if total_traits <= 12:
+        st.caption(f"🌟 특성 포인트 사용: **{total_traits} / 12 pt** (공식 룰 일치 ✅)")
     else:
-        st.warning(f"⚠️ 특성 포인트 초과: {total_traits} / 6 pt (+{total_traits - 6}pt 초과)")
+        st.warning(f"⚠️ 특성 포인트 초과: {total_traits} / 12 pt (+{total_traits - 12}pt 초과)")
 
     # 4. ⛩️ Shrine of Order (사원) 전/후 스탯 분배
     st.markdown("#### ⛩️ Shrine of Order (사원) 전 / 후 스탯")
@@ -352,9 +387,54 @@ with col_builder:
         "extra_dve": saved_eq.get("extra_dve", 10),
     }
 
-    # 7. 장착 만트라 및 핵심 탤런트
-    mantras_input = st.text_input("🔮 장착 만트라 목록 (쉼표 구분):", value=curr_data.get("mantras", ""), key=f"{selected_name}_mantras")
-    talents_input = st.text_input("⭐ 핵심 탤런트 목록 (쉼표 구분):", value=curr_data.get("talents", ""), key=f"{selected_name}_talents")
+    # 7. ⭐ 핵심 탤런트 & 🔮 장착 만트라 (호버 툴팁 인터랙티브 뷰)
+    st.markdown("#### ⭐ 핵심 탤런트 (마우스를 올리면 상세 효과/요구치가 표시됩니다)")
+    current_talents_str = curr_data.get("talents", "")
+    
+    # 탤런트 호버 칩 렌더링
+    talent_tokens = [t.strip() for t in current_talents_str.replace("•", ",").split(",") if t.strip()]
+    talent_badges_html = []
+    for t_raw in talent_tokens:
+        clean_name = t_raw.split("(")[0].strip()
+        matched_info = None
+        for db_name, db_info in DEEPWOKEN_TALENTS_DB.items():
+            if db_name.lower() in clean_name.lower() or clean_name.lower() in db_name.lower():
+                matched_info = db_info
+                break
+        
+        if matched_info:
+            tooltip = f"[{matched_info['name_ko']}]\n📋 요구치: {matched_info['req']}\n🎯 효과: {matched_info['desc']}"
+            talent_badges_html.append(f'<span class="talent-tag" title="{tooltip}">⭐ {clean_name}</span>')
+        else:
+            talent_badges_html.append(f'<span class="talent-tag" title="Deepwoken 고유 패시브 탤런트">⭐ {clean_name}</span>')
+    
+    if talent_badges_html:
+        st.markdown("".join(talent_badges_html), unsafe_allow_html=True)
+    
+    talents_input = st.text_input("✏️ 탤런트 직접 편집 (쉼표로 구분):", value=current_talents_str, key=f"{selected_name}_talents")
+
+    st.markdown("#### 🔮 장착 만트라 (마우스를 올리면 상세 효과/계열이 표시됩니다)")
+    current_mantras_str = curr_data.get("mantras", "")
+    mantra_tokens = [m.strip() for m in current_mantras_str.replace("•", ",").split(",") if m.strip()]
+    mantra_badges_html = []
+    for m_raw in mantra_tokens:
+        clean_name = m_raw.split("(")[0].strip()
+        matched_info = None
+        for db_name, db_info in DEEPWOKEN_MANTRAS_DB.items():
+            if db_name.lower() in clean_name.lower() or clean_name.lower() in db_name.lower():
+                matched_info = db_info
+                break
+        
+        if matched_info:
+            tooltip = f"[{matched_info['name_ko']}]\n🏷️ 분류: {matched_info['category']}\n🎯 효과: {matched_info['desc']}"
+            mantra_badges_html.append(f'<span class="mantra-tag" title="{tooltip}">🔮 {clean_name}</span>')
+        else:
+            mantra_badges_html.append(f'<span class="mantra-tag" title="Deepwoken 전투 액티브 스킬/만트라">🔮 {clean_name}</span>')
+    
+    if mantra_badges_html:
+        st.markdown("".join(mantra_badges_html), unsafe_allow_html=True)
+        
+    mantras_input = st.text_input("✏️ 만트라 직접 편집 (쉼표로 구분):", value=current_mantras_str, key=f"{selected_name}_mantras")
 
     # 8. 🧮 실시간 종합 계산기 (STATS & RESISTANCES Dashboard)
     char_sheet = DeepwokenCalculator.calculate_character_sheet(

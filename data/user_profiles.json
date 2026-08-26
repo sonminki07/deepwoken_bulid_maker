@@ -7,7 +7,7 @@
     "attunement": "Attunementless (무속성)",
     "traits": {
       "Vitality": 6,
-      "Erudition": 0,
+      "Erudition": 6,
       "Proficiency": 0,
       "Songchant": 0
     },
@@ -62,8 +62,8 @@
     "weapon_type": "Heavy Weapon",
     "attunement": "Frostdraw",
     "traits": {
-      "Vitality": 4,
-      "Erudition": 2,
+      "Vitality": 6,
+      "Erudition": 6,
       "Proficiency": 0,
       "Songchant": 0
     },
@@ -119,7 +119,7 @@
     "attunement": "Flamecharm",
     "traits": {
       "Vitality": 6,
-      "Erudition": 0,
+      "Erudition": 6,
       "Proficiency": 0,
       "Songchant": 0
     },
@@ -174,8 +174,8 @@
     "weapon_type": "Light Weapon",
     "attunement": "Thundercall",
     "traits": {
-      "Vitality": 2,
-      "Erudition": 4,
+      "Vitality": 6,
+      "Erudition": 6,
       "Proficiency": 0,
       "Songchant": 0
     },

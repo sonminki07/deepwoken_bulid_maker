@@ -51,7 +51,7 @@ class DeepwokenCalculator:
         light_wep = stats.get("Light Wep", 0)
         max_wep = max(heavy_wep, med_wep, light_wep)
 
-        # 2. 4대 Traits (최대 6pt)
+        # 2. 4대 Traits (각 특성당 0~6pt, 총합 최대 12pt 투자 - Deepwoken Wiki 공식 룰)
         vitality = min(6, max(0, traits.get("Vitality", 0)))
         erudition = min(6, max(0, traits.get("Erudition", 0)))
         proficiency = min(6, max(0, traits.get("Proficiency", 0)))
@@ -75,19 +75,17 @@ class DeepwokenCalculator:
         has_speed_demon = "speed demon" in talents_str.lower() or agility >= 25
         has_brick_wall = "brick wall" in talents_str.lower() or (fortitude >= 100 and willpower >= 100)
 
-        # 5. ❤️ Max Health (체력) 산출
-        # 기본 200 + (Fortitude * 0.5) + (Vitality * 5) + 장비 HP + 탤런트(Exo +5, To the Finish +10, Reinforced +15)
+        # 5. ❤️ Max Health (체력) 산출 (Wiki: Vitality 포인트당 +10 HP)
+        # 기본 200 + (Fortitude * 0.5) + (Vitality * 10) + 장비 HP + 탤런트(Exo +5, To the Finish +10, Reinforced +15)
         talent_hp_bonus = (5 if has_exoskeleton else 0) + (10 if has_to_the_finish else 0) + (15 if has_reinforced else 0)
-        total_hp = int(200 + (fortitude * 0.5) + (vitality * 5) + extra_hp + talent_hp_bonus)
+        total_hp = int(200 + (fortitude * 0.5) + (vitality * 10) + extra_hp + talent_hp_bonus)
 
         # 6. 🛡️ Posture (자세)
         # 기본 20 + (Strength * 0.25) + (Fortitude * 0.25)
         total_posture = int(20 + (strength * 0.25) + (fortitude * 0.25) + (10 if has_brick_wall else 0))
 
-        # 7. 💠 Ether (에테르) & ⏩ Tempo (템포)
-        # Ether: 100 + (Int * 0.5) + (Erudition * 10)
-        total_ether = int(100 + (intelligence * 0.5) + (erudition * 10) + (5 if race == "Castellan" else 0))
-        # Tempo: 100 + (Willpower * 0.5) + (Erudition * 5)
+        # 7. 💠 Ether (에테르) & ⏩ Tempo (템포) (Wiki: Erudition 포인트당 +25 Ether, +5 Tempo)
+        total_ether = int(100 + (intelligence * 0.5) + (erudition * 25) + (5 if race == "Castellan" else 0))
         total_tempo = int(100 + (willpower * 0.5) + (erudition * 5))
 
         # 8. 🧠 Sanity & 🏃 Movement Speed %
