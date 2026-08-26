@@ -1,0 +1,123 @@
+{
+  "video_metadata": {
+    "title": "The Strongest Frostdraw Build in Deepwoken",
+    "channel": "blacklisting",
+    "url": "https://www.youtube.com/watch?v=rN6HRBzpNvo",
+    "patch_version": "Verse 2 (Layer 2 Era)"
+  },
+  "build_summary": {
+    "build_name": "Medium Frostdraw Oathless Tank",
+    "build_type": "PvP",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 540이 넘는 체력과 50% 이상의 높은 물리 저항력을 자랑하는 프로스트드로우(Frostdraw) 기반의 미디엄 웨폰 PvP 빌드입니다. Shrine of Order를 활용하여 프리 shrine 단계에서 핵심 유틸리티 및 스탯 요구치를 충족한 뒤, 포티튜드 50, 미디엄 웨폰 95, 프로스트드로우 80을 확보하여 강력한 탱킹력과 속성 폭딜을 겸비했습니다.\n\n오스리스(Oathless)를 채택해 추가 만트라 슬롯을 확보함으로써 Ice Smash, Ice Flock, Ice Lance 등 프로스트드로우의 우수한 속성 만트라들을 풀 세팅으로 운용합니다.\n\n높은 맷집으로 교전 지속력이 뛰어나며, 상대의 움직임을 제어하는 빙결 및 둔화 효과와 강력한 미디엄 무기 평타 콤보를 통해 1v1 다엘은 물론 다대일 갱크(Gank)전에서도 압도적인 승률을 보여주는 빌드입니다.",
+    "strengths": [
+      "540 HP 및 50% 이상의 물리 저항력으로 뛰어난 탱킹력 확보",
+      "미디엄 웨폰 95로 Purple Cloud, Alloy Katana 등 고성능 중형 무기 자유롭게 장착 가능",
+      "프로스트드로우(Frostdraw) 속성의 우수한 CC기 및 강력한 만트라 콤보 연계"
+    ],
+    "weaknesses": [
+      "Shrine of Order 활용 전 육성 과정에서 스탯 배분이 까다로움",
+      "장거리 전용 만트라의 부재로 거리를 극단적으로 벌리는 아웃파이터 상대 시 접근이 요구됨"
+    ]
+  },
+  "stats": {
+    "strength": 20,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 20,
+    "willpower": 20,
+    "charisma": 20,
+    "heavy_wep": 0,
+    "medium_wep": 95,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 80,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Vesperian",
+    "origin": "Voidwalker",
+    "murmur": "Ardour",
+    "resonance_bell": "Reaper"
+  },
+  "talents": [
+    {
+      "name": "Showstopper",
+      "is_core": true
+    },
+    {
+      "name": "The Eleventh Hour",
+      "is_core": true
+    },
+    {
+      "name": "Perfect Flash",
+      "is_core": true
+    },
+    {
+      "name": "Spine Cutter",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Cryonis",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": false
+    },
+    {
+      "name": "Disbelief",
+      "is_core": false
+    },
+    {
+      "name": "To The Finish",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Ice Smash"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Ice Lance"
+    },
+    {
+      "name": "Slice 'n' Dice"
+    },
+    {
+      "name": "Iceberg"
+    },
+    {
+      "name": "Frozen Servants"
+    }
+  ],
+  "equipment": [],
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": "Ferryman, Dread Serpent, PvP Players",
+    "mob_strategy": "페리맨(Ferryman)전에서는 패턴 패링 후 미디엄 M1 평타와 Ice Smash를 연계하여 속전속결로 처치합니다. 드레드 서펀트(Dread Serpent) 등 대형 몬스터 및 필드 보스전에서는 높은 체력과 방어력을 바탕으로 안정적인 맞딜을 넣으며 Frozen Servants와 Ice Flock으로 데미지를 누적합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "1단계(진입): Spine Cutter 또는 패링 후 빠른 근접 접근으로 교전을 시작합니다.\n2단계(제어 및 가드브레이크): Ice Flock으로 상대의 발을 묶은 뒤 Ice Smash로 가드를 무너뜨리거나 에어본시킵니다.\n3단계(폭딜 연계): 공중에 뜨거나 둔화된 상대에게 M1 평타 연계 후 Slice 'n' Dice와 Frozen Servants를 퍼부어 폭딜을 넣습니다.\n4단계(방어 및 유지): 상대의 강한 반격 타임에는 Exoskeleton과 high HP 저항력을 바탕으로 버티고, 벤팅(Vent)을 활용해 정열 후 다시 콤보를 이어갑니다."
+  },
+  "video_meta": {
+    "title": "The Strongest Frostdraw Build in Deepwoken",
+    "channel": "blacklisting",
+    "url": "https://www.youtube.com/watch?v=rN6HRBzpNvo",
+    "upload_date": "20260826",
+    "estimated_patch": "Unknown"
+  }
+}

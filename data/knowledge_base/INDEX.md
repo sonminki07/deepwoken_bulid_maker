@@ -15,11 +15,12 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 📜 Oaths (서약 가이드) (1개)
+## 📜 Oaths (서약 가이드) (2개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
 | **Deepwoken Wiki: Oath: Silentheart** | `Hybrid` | `Oathless / Attunementless` | [📄 문서 보기](oaths/deepwoken-wiki-oath-silentheart.md) |
+| **Medium Frostdraw Oathless Tank** | `PvP` | ` / frostdraw` | [📄 문서 보기](oaths/medium-frostdraw-oathless-tank.md) |
 
 ## ⚔️ Weapons & Equipment (무기 및 장비) (0개)
 
