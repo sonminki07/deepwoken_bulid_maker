@@ -22,7 +22,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (9개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (10개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -31,6 +31,7 @@
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
 | **Poser's Ring Ironsing Thundercall S** | `PvE` | `Soulbreaker / Attunementl` | [📄 문서 보기](builds/posers-ring-ironsing-thundercall-soulbre.md) |
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
+| **Shining Maelstrom V4** | `PvE` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/shining-maelstrom-v4.md) |
 | **Starter Brick Wall Blindseer PvE** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/starter-brick-wall-blindseer-pve.md) |
 | **The #1 Shadowcast Medium Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/the-1-shadowcast-medium-build.md) |
 | **Vampiric Bastion (Drain Tank PvE Bu** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve-build.md) |

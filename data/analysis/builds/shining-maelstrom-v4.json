@@ -1,0 +1,230 @@
+{
+  "video_metadata": {
+    "title": "Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=D3MIbCVb7ZU",
+    "patch_version": "Verse 2 (Layer 2 Era)"
+  },
+  "build_summary": {
+    "build_name": "Shining Maelstrom V4",
+    "build_type": "PvE",
+    "difficulty": "Expert",
+    "creator_opinion": "Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 만트라를 현재 스탠스 속성으로 변환시키는 극딜형 PvE 빌드입니다. 특히 Ironsing의 방어구 관통 메커니즘과 Frostdraw의 빙결 상태 이상을 조합하여 보스의 저항력을 무력화하고 폭발적인 데미지를 가합니다. 0 Fortitude와 0 Vitality 세팅으로 생존력이 낮아 보이지만, 원소 시너지와 높은 기동성을 통해 보스의 패턴을 피하며 일방적인 딜링이 가능합니다.",
+    "strengths": [
+      "Ironsing의 방어구 관통(Armor Shred) 효과를 통한 압도적인 M1 및 만트라 데미지",
+      "Saintsworn 오스의 만트라 속성 변환을 활용한 유연한 원소 시너지 극대화",
+      "Frostdraw의 빙결 및 스턴 연계를 통한 안정적인 보스 무력화",
+      "높은 기동성(Ice Skates, Wind Passage 등)을 활용한 패턴 회피 능력"
+    ],
+    "weaknesses": [
+      "Fortitude와 Vitality가 0인 극단적인 유리대포(Glass Cannon) 스탯 구성",
+      "Saintsworn 오스의 복잡한 원소 스탠스 전환 메커니즘에 대한 높은 숙련도 요구",
+      "Inhale 버프를 유지하기 위해 특정 스탠스(Galebreathe)를 강제해야 하는 제약"
+    ]
+  },
+  "stats_and_attunements": {
+    "stats": {
+      "strength": 0,
+      "fortitude": 0,
+      "agility": 0,
+      "intelligence": 35,
+      "willpower": 0,
+      "charisma": 15,
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 100
+    },
+    "attunements": {
+      "flamecharm": 40,
+      "frostdraw": 60,
+      "galebreathe": 60,
+      "ironsing": 80,
+      "shadowcast": 20,
+      "thundercall": 20,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Saintsworn",
+    "race": "Canor",
+    "origin": "Lone Warrior",
+    "murmur": "Murmur Ardent",
+    "resonance_bell": "Crazy Slots"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Flame Within",
+        "is_core": true
+      },
+      {
+        "name": "Flaming Flourish",
+        "is_core": true
+      },
+      {
+        "name": "Agitating Spark",
+        "is_core": true
+      },
+      {
+        "name": "Dark Hours",
+        "is_core": false
+      },
+      {
+        "name": "Inhale",
+        "is_core": true
+      },
+      {
+        "name": "Gale Reflection",
+        "is_core": true
+      },
+      {
+        "name": "Gale Trap",
+        "is_core": true
+      },
+      {
+        "name": "Neuroplasticity",
+        "is_core": true
+      },
+      {
+        "name": "Tough Love",
+        "is_core": true
+      },
+      {
+        "name": "Taunt",
+        "is_core": true
+      },
+      {
+        "name": "Masterwork",
+        "is_core": true
+      },
+      {
+        "name": "Reshaping Mold",
+        "is_core": false
+      },
+      {
+        "name": "Piercing Metal",
+        "is_core": true
+      },
+      {
+        "name": "Metal Eater",
+        "is_core": true
+      },
+      {
+        "name": "Chilling Flourish",
+        "is_core": true
+      },
+      {
+        "name": "Decisive Blow",
+        "is_core": false
+      },
+      {
+        "name": "Steel Scales",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Ice Skates"
+      },
+      {
+        "name": "Warden's Blades"
+      },
+      {
+        "name": "Frozen Servants"
+      },
+      {
+        "name": "Wind Passage"
+      },
+      {
+        "name": "Flame Leap"
+      },
+      {
+        "name": "Shade Devour"
+      },
+      {
+        "name": "Metal Rain"
+      },
+      {
+        "name": "Oxidizing Rush"
+      },
+      {
+        "name": "Flame Sentinel"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Muffled / Central Dirk",
+      "type": "Light Weapon (Dagger)",
+      "recommended_enchant": "Vampiric / Grim"
+    },
+    "outfit": {
+      "name": "Black Diver / Jester's Garb"
+    },
+    "accessories": [
+      "Providence's Thorns",
+      "Sanguine Wager",
+      "All Blood Ring",
+      "Ishtar's Ring"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Elder Primadon",
+      "Scion of Ethiron",
+      "Chaser",
+      "The Ferryman"
+    ],
+    "mob_strategy": "Elder Primadon이나 Scion of Ethiron 같이 방어력이 매우 높은 보스를 상대할 때는 Ironsing 속성의 방어구 관통(Armor Shred) 효과를 먼저 적용시키는 것이 핵심입니다. 이후 Frostdraw 만트라(Frozen Servants, Warden's Blades)를 연계하여 보스를 빙결 상태로 묶어두고, Saintsworn 오스의 스탠스 변환을 통해 극대화된 원소 데미지를 가합니다. 체력이 낮으므로 보스의 큰 공격 패턴은 Ice Skates나 Wind Passage의 무적 프레임 및 기동성을 활용해 완벽히 회피해야 합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "전투 시작 시 Gale 스탠스에서 Inhale 버프를 활성화한 뒤, Ironsing 만트라를 사용해 적의 방어력을 깎아냅니다. 그 후 Frostdraw 스탠스로 전환하여 Frozen Servants와 Warden's Blades를 소환해 지속적인 빙결 압박을 가합니다. 보스가 무력화되면 Taunt와 M1 평타 평타 콤보를 우겨넣어 폭발적인 데미지를 입힙니다. 위급 상황에서는 Wind Passage나 Flame Leap을 사용해 거리를 벌리며 재정비합니다."
+  },
+  "video_meta": {
+    "title": "Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=D3MIbCVb7ZU",
+    "upload_date": "20260526",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 60,
+    "galebreathe": 60,
+    "ironsing": 80,
+    "shadowcast": 20,
+    "thundercall": 20,
+    "bloodrend": 0
+  },
+  "mantras": [
+    {
+      "name": "Ice Skates"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Wind Passage"
+    },
+    {
+      "name": "Flame Leap"
+    },
+    {
+      "name": "Shade Devour"
+    },
+    {
+      "name": "Metal Rain"
+    },
+    {
+      "name": "Oxidizing Rush"
+    },
+    {
+      "name": "Flame Sentinel"
+    }
+  ],
+  "equipment": []
+}
