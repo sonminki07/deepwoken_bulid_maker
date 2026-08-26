@@ -42,9 +42,14 @@ Branch: main
 [4. 10대 영상 마스터 빌드 전수 검증 및 330pt 수학적 무결성 완료 (2026-08-27)]
 - Canor 및 12대 종족 공식 Wiki 기본치(Canor: Str 3, Cha 2) 동기화 및 질서의 성소(Shrine of Order) 삭감 불가 최하한선 룰 전면 반영.
 - 총 10개 이상의 유튜브 분석 빌드(Silentheart Canor, Gale Medium Kato, Bloodrend Vampire, Poser's Ring, Azure Flame, Brick Wall Spear, Soul Beam Blindseer, Silent Swordsman, Shadowcast Medium, Ashen Moppet Dagger) 330pt 정밀 검증 100% 통과 (10/10 PASS ✅).
-- RAG 지식 베이스(ChromaDB 45개 문서) 및 Golden Profile 연동으로 단편 힌트 질의 시 100% 원본 빌드 정확 복원 확인.
+- RAG 지식 베이스(ChromaDB 67개 문서) 및 Golden Profile 연동으로 단편 힌트 질의 시 100% 원본 빌드 정확 복원 확인.
 
-[5. 신규 세션/프로젝트 인수인계 가이드]
+[5. 1,043개 공식 위키 탤런트 전수 2중 크로스체크 및 구버전 잔재 박멸 (2026-08-27)]
+- `Giant Slayer` 팩트체크: 2024년 12월 24일 대규모 패치로 `Underdog (Willpower 30)`에 공식 통합 및 단독 삭제 확인.
+- `deepwoken.co` 및 `Deepwoken Fandom Wiki` 1,043개 실시간 공식 탤런트 데이터베이스 100% 전수 동기화 (`deepwoken_database.py`, `coach_validator.py`, `user_profiles.json`).
+- `Underdog`, `Collapsed Lung`, `Showstopper`, `Lose Your Mind`, `Ghost` 등 핵심 선행 스탯 및 공식 효과 완벽 재정립.
+
+[6. 신규 세션/프로젝트 인수인계 가이드]
 - 상세 인수인계 사양서 아티팩트: DEEPWOKEN_ANALYZER_HANDOVER_SPEC.md 참조
 - 실행 커맨드: pip install -r requirements.txt && python web_coach.py
 - 필수 환경변수: DISCORD_BOT_TOKEN, GEMINI_API_KEYS
