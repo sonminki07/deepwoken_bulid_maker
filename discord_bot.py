@@ -470,12 +470,20 @@ async def on_message(message: discord.Message):
         async with message.channel.typing():
             try:
                 from chatbot.build_advisor import DeepwokenBuildAdvisor
+                from chatbot.coach_validator import DeepwokenFactChecker
+
                 advisor = DeepwokenBuildAdvisor(top_k=4)
                 loop = asyncio.get_running_loop()
 
                 # 사용자별 이전 대화 히스토리 가져오기
                 user_hist = user_chat_memories.get(message.author.id, [])
                 reply_text = await loop.run_in_executor(None, advisor.answer_query, user_query, user_hist)
+
+                # 팩트체크 & 스탯 무결성 검증 (Audit Pass)
+                audit_res = DeepwokenFactChecker.audit_profile_and_advice({}, reply_text)
+                if audit_res.get("has_warnings"):
+                    v_badge = DeepwokenFactChecker.generate_verification_badge(audit_res)
+                    reply_text = reply_text + "\n" + v_badge
 
                 # 대화 히스토리 갱신 (최근 8개 턴 유지)
                 user_hist.append({"role": "user", "content": user_query})
