@@ -113,12 +113,16 @@ def translate_to_korean_text(text: Any, default_text: str = "") -> str:
 def format_error_message(e: Exception) -> str:
     """에러 메시지를 사용자가 알아보기 쉬운 친절한 한국어로 변환"""
     err = str(e).lower()
+    if "429" in err or "quota" in err:
+        return "⚠️ **구글 AI 일일 사용량 한도 초과 (429 Error)**\n모든 API 키의 일일 한도가 소진되었습니다. 24시간 뒤에 시도하거나 새 구글 계정으로 API 키를 발급받으세요."
+    if "model" in err and "404" in err:
+        return "⚠️ **AI 모델 에러 (404 Not Found)**\n선택한 AI 모델을 구글 서버에서 찾을 수 없거나 지원이 종료되었습니다."
     if "video is unavailable" in err or "private video" in err or "this video is unavailable" in err:
         return "⚠️ 해당 유튜브 영상이 비공개로 전환되었거나 삭제된 영상입니다."
     if "sign in to confirm you're not a bot" in err:
         return "⚠️ 유튜브 서버 일시 차단 감지 (잠시 후 다시 시도해 주세요)."
     if "404" in err or "not found" in err:
-        return "⚠️ 해당 링크의 웹페이지를 찾을 수 없습니다 (404 Not Found)."
+        return "⚠️ 해당 링크의 웹페이지를 찾을 수 없습니다 (404 Not Found).\n링크가 정확한지, 비공개 영상이 아닌지 확인해주세요."
     if "403" in err or "forbidden" in err:
         return "⚠️ 해당 웹사이트의 접근이 제한되어 있습니다 (403 Forbidden)."
     if "too large" in err or "exceeds limit" in err or "2gb" in err:
