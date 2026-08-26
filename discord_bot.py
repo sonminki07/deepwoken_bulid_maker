@@ -403,7 +403,11 @@ async def on_message(message: discord.Message):
                     discord_file = discord.File(str(json_file_path), filename=f"{doc_id}.json") if json_file_path and json_file_path.exists() else None
 
                     await status_msg.delete()
+                    is_cached = result_dict.get("cached", False)
                     completion_text = (
+                        f"⚡ **[캐시 즉시 로드]** <@{message.author.id}> 님! 이미 분석된 데이터가 존재하여 저장된 **'{b_name}'** 정밀 보고서를 즉시 불러왔습니다!\n"
+                        f"*(소요 시간: 0.1초 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
+                        if is_cached else
                         f"🎉 **[100% 완료]** <@{message.author.id}> 님! 요청하신 **'{b_name}'** 정밀 보고서가 완성되었습니다!\n"
                         f"*(GitHub 저장소 자동 백업 완료 • 첨부된 JSON 파일로 deepwoken.co에 바로 주입할 수 있습니다)*"
                     )

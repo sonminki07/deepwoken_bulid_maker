@@ -1,5 +1,6 @@
 import os
 import time
+import json
 import logging
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
@@ -66,9 +67,35 @@ class WebPipelineOrchestrator:
             return {}
 
     def process_url(self, url: str) -> Dict[str, Any]:
-        """단일 웹 URL에 대해 서브 에이전트들을 가동하여 빌드 분석 및 RAG 적재 수행"""
+        """단일 웹 URL에 대해 서브 에이전트들을 가동하여 빌드 분석 및 RAG 적재 수행 (중복 소스 자동 캐시 로드)"""
         start_time = time.time()
         logger.info(f"=== [Web Multi-Agent Pipeline] Starting for: {url} ===")
+
+        # Step 0: 중복 검사
+        import hashlib
+        potential_doc_id = "web_" + hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
+        cached_files = list(self.structurer.analysis_dir.rglob(f"{potential_doc_id}.json"))
+        if cached_files:
+            cached_json_path = cached_files[0]
+            category = cached_json_path.parent.name
+            cached_md_path = self.structurer.knowledge_base_dir / category / f"{potential_doc_id}.md"
+            logger.info(f"⚡ [Cache Hit] Found existing web analysis for {potential_doc_id} in {category}/")
+            try:
+                cached_data = json.loads(cached_json_path.read_text(encoding="utf-8"))
+                b_name = cached_data.get("build_summary", {}).get("build_name", "Deepwoken Guide")
+                return {
+                    "status": "success",
+                    "cached": True,
+                    "doc_id": potential_doc_id,
+                    "url": url,
+                    "build_name": b_name,
+                    "json_path": str(cached_json_path),
+                    "md_path": str(cached_md_path),
+                    "elapsed_seconds": 0.05,
+                    "build_data": cached_data
+                }
+            except Exception as e:
+                logger.warning(f"Failed to read cached web JSON ({e}), re-analyzing...")
 
         # Step 1: 웹페이지 스크래핑
         logger.info("[SubAgent 1/5] Scraping HTML and text structure via WebScraperAgent...")

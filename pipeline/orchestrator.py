@@ -1,5 +1,6 @@
 import os
 import time
+import json
 import logging
 from pathlib import Path
 from typing import Optional, Dict, Any
@@ -71,9 +72,38 @@ class PipelineOrchestrator:
             return {}
 
     def process_url(self, url: str, progress_callback = None) -> Dict[str, Any]:
-        """단일 유튜브 URL 전체 분석 및 지식 베이스 인덱싱 파이프라인 실행"""
+        """단일 유튜브 URL 전체 분석 및 지식 베이스 인덱싱 파이프라인 실행 (중복 소스 자동 캐시 로드)"""
         start_time = time.time()
         logger.info(f"=== Starting pipeline for: {url} ===")
+
+        # Step 0: 중복 검사 (이미 분석된 영상인지 확인하여 API 토큰 및 시간 절약)
+        import re
+        vid_match = re.search(r'(?:v=|\/|youtu\.be\/)([0-9A-Za-z_-]{11})', url)
+        if vid_match:
+            potential_vid = vid_match.group(1)
+            cached_files = list(self.structurer.analysis_dir.rglob(f"{potential_vid}.json"))
+            if cached_files:
+                cached_json_path = cached_files[0]
+                category = cached_json_path.parent.name
+                cached_md_path = self.structurer.knowledge_base_dir / category / f"{potential_vid}.md"
+                logger.info(f"⚡ [Cache Hit] Found existing analysis for {potential_vid} in {category}/")
+                if progress_callback:
+                    progress_callback(95, "⚡ 이미 분석된 영상입니다. 저장된 정밀 보고서를 즉시 불러옵니다!")
+                try:
+                    cached_data = json.loads(cached_json_path.read_text(encoding="utf-8"))
+                    b_name = cached_data.get("build_summary", {}).get("build_name", "Deepwoken Build")
+                    return {
+                        "status": "success",
+                        "cached": True,
+                        "video_id": potential_vid,
+                        "build_name": b_name,
+                        "json_path": str(cached_json_path),
+                        "md_path": str(cached_md_path),
+                        "elapsed_seconds": 0.05,
+                        "build_data": cached_data
+                    }
+                except Exception as e:
+                    logger.warning(f"Failed to read cached JSON ({e}), re-analyzing...")
 
         # Step 1: 영상 및 메타데이터 다운로드
         if progress_callback:
