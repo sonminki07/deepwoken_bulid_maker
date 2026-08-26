@@ -272,7 +272,7 @@ EQUIPMENT_SLOTS_DB = {
 }
 
 def render_tooltip_badge(name: str, item_type: str = "talent") -> str:
-    """CSS 툴팁 박스가 즉시 마우스 호버 시 뜨는 고품격 HTML 뱃지 렌더링"""
+    """CSS 툴팁 박스가 즉시 마우스 호버 시 뜨는 고품격 HTML 뱃지 렌더링 (Markdown 코드블록 오작동 방지용 단일 라인 포맷)"""
     clean = name.split("(")[0].strip()
     db = DEEPWOKEN_TALENTS_DB if item_type == "talent" else DEEPWOKEN_MANTRAS_DB
     
@@ -288,25 +288,9 @@ def render_tooltip_badge(name: str, item_type: str = "talent") -> str:
         tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
         icon = "⭐" if item_type == "talent" else "🔮"
         
-        return f"""
-        <div class="deepwoken-tooltip-container">
-            <span class="{tag_class}">{icon} {clean}</span>
-            <div class="tooltip-box">
-                <div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{title_text}</div>
-                <div style="color: #cbd5e1; font-size: 0.8rem;">{sub_text}</div>
-            </div>
-        </div>
-        """
+        return f'<div class="deepwoken-tooltip-container"><span class="{tag_class}">{icon} {clean}</span><div class="tooltip-box"><div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{title_text}</div><div style="color: #cbd5e1; font-size: 0.8rem;">{sub_text}</div></div></div>'
     else:
         tag_class = "talent-tag" if item_type == "talent" else "mantra-tag"
         icon = "⭐" if item_type == "talent" else "🔮"
-        return f"""
-        <div class="deepwoken-tooltip-container">
-            <span class="{tag_class}">{icon} {clean}</span>
-            <div class="tooltip-box">
-                <div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{clean}</div>
-                <div style="color: #cbd5e1; font-size: 0.8rem;">Deepwoken 고유 {item_type}입니다.</div>
-            </div>
-        </div>
-        """
+        return f'<div class="deepwoken-tooltip-container"><span class="{tag_class}">{icon} {clean}</span><div class="tooltip-box"><div style="color: #e5b869; font-weight: bold; margin-bottom: 4px;">{clean}</div><div style="color: #cbd5e1; font-size: 0.8rem;">Deepwoken 고유 {item_type}입니다.</div></div></div>'
 
