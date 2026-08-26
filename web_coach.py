@@ -567,7 +567,7 @@ with col_builder:
                 except Exception as ex:
                     st.error(f"❌ JSON 파싱 실패: {ex}")
 
-        # 2. JSON 내보내기
+        # 2. JSON 내보내기 및 deepwoken.co 1초 주입 코드
         current_export_json = json.dumps(st.session_state.profiles[selected_name], ensure_ascii=False, indent=2)
         st.download_button(
             label="📤 현재 빌드 deepwoken.co 호환 JSON 파일 다운로드",
@@ -576,7 +576,13 @@ with col_builder:
             mime="application/json",
             key="btn_download_export"
         )
-        st.code(current_export_json[:350] + "\n...", language="json")
+        
+        st.markdown("##### 🌐 deepwoken.co 공식 웹사이트에 1초 만에 강제 로드하기")
+        st.caption("공식 사이트는 웹 UI에 Import 버튼이 없기 때문에, `deepwoken.co/builder` 창에서 **F12 (또는 Ctrl+Shift+I)**를 누르고 **Console(콘솔)**에 아래 1줄을 복사해 붙여넣고 엔터를 치면 즉시 로드됩니다!")
+        
+        # deepwoken.co 호환 localStorage 인젝션 스크립트 생성
+        js_inject_code = f"localStorage.setItem('saved_build', JSON.stringify({json.dumps(st.session_state.profiles[selected_name])})); alert('Deepwoken 빌드가 성공적으로 주입되었습니다!'); location.reload();"
+        st.code(js_inject_code, language="javascript")
 
 # ==========================================
 # 💬 우측: 1:1 맞춤형 AI 전담 코치 & 팩트체커
