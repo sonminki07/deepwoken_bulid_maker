@@ -44,7 +44,7 @@ class VideoCollector:
             "no_warnings": True,
             "extractor_args": {
                 "youtube": {
-                    "player_client": ["android", "ios", "web_embedded", "web"]
+                    "player_client": ["android_vr", "android", "ios", "web_embedded", "web"]
                 }
             }
         }
@@ -114,7 +114,7 @@ class VideoCollector:
                 "retries": max_retries,
                 "extractor_args": {
                     "youtube": {
-                        "player_client": ["android", "ios", "web_embedded", "web"]
+                        "player_client": ["android_vr", "android", "ios", "web_embedded", "web"]
                     }
                 }
             }
