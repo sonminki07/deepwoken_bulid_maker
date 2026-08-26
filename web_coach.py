@@ -245,47 +245,93 @@ with col_builder:
     else:
         st.warning(f"⚠️ 특성 포인트 초과: {total_traits} / 6 pt (+{total_traits - 6}pt 초과)")
 
-    # 4. 6대 기본 스탯 (Core Attributes)
-    st.markdown("#### 📊 기본 스탯 (Core Attributes)")
-    saved_stats = curr_data.get("stats", {})
+    # 4. ⛩️ Shrine of Order (사원) 전/후 스탯 분배
+    st.markdown("#### ⛩️ Shrine of Order (사원) 전 / 후 스탯")
     
-    s_col1, s_col2, s_col3 = st.columns(3)
-    with s_col1:
-        str_val = st.number_input("Strength (근력)", 0, 102, int(saved_stats.get("Strength", 0)), key=f"{selected_name}_str")
-        fort_val = st.number_input("Fortitude (인내)", 0, 102, int(saved_stats.get("Fortitude", 0)), key=f"{selected_name}_fort")
-    with s_col2:
-        agi_val = st.number_input("Agility (민첩)", 0, 102, int(saved_stats.get("Agility", 0)), key=f"{selected_name}_agi")
-        int_val = st.number_input("Intelligence (지능)", 0, 102, int(saved_stats.get("Intelligence", 0)), key=f"{selected_name}_int")
-    with s_col3:
-        wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_stats.get("Willpower", 0)), key=f"{selected_name}_wil")
-        cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_stats.get("Charisma", 0)), key=f"{selected_name}_cha")
+    saved_pre = curr_data.get("pre_shrine", {})
+    saved_post = curr_data.get("stats", {})
 
-    # 5. 무기 및 속성 투자 (Weapons & Attunements)
-    st.markdown("#### ⚔️ 무기 및 속성 포인트 (Weapon & Element)")
-    w_col1, w_col2 = st.columns(2)
-    with w_col1:
-        saved_wep_val = saved_stats.get("Heavy Wep", 0) or saved_stats.get("Medium Wep", 0) or saved_stats.get("Light Wep", 0)
-        wep_stat = st.number_input(f"{weapon_type} 투자", 0, 100, int(saved_wep_val), key=f"{selected_name}_wstat")
-    with w_col2:
-        saved_att_val = saved_stats.get(main_attunement, 0)
-        att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_att_val), key=f"{selected_name}_astat")
+    tab_post, tab_pre = st.tabs([
+        "📊 Post-Shrine (사원 사용 후 최종 330pt 완성)", 
+        "⛩️ Pre-Shrine (사원 사용 전 핵심 탤런트 해금)"
+    ])
 
-    # 스탯 총합 계산 및 330 상한선 표시
-    current_stat_dict = {
-        "Strength": str_val, "Fortitude": fort_val, "Agility": agi_val,
-        "Intelligence": int_val, "Willpower": wil_val, "Charisma": cha_val,
-        "Heavy Wep": wep_stat if "Heavy" in weapon_type else 0,
-        "Medium Wep": wep_stat if "Medium" in weapon_type else 0,
-        "Light Wep": wep_stat if "Light" in weapon_type else 0,
-        main_attunement: att_stat
-    }
-    total_stat_points = DeepwokenFactChecker.calculate_total_stats(current_stat_dict)
-    max_cap = DeepwokenFactChecker.MAX_VALID_STAT_SUM
+    # --- [탭 1: Post-Shrine (최종 완성 330pt)] ---
+    with tab_post:
+        st.caption("✨ 질서의 성소(Shrine of Order)로 스탯을 재분배한 뒤 최종 20레벨까지 완성한 최종 스탯입니다.")
+        s_col1, s_col2, s_col3 = st.columns(3)
+        with s_col1:
+            str_val = st.number_input("Strength (근력)", 0, 102, int(saved_post.get("Strength", 0)), key=f"{selected_name}_str")
+            fort_val = st.number_input("Fortitude (인내)", 0, 102, int(saved_post.get("Fortitude", 0)), key=f"{selected_name}_fort")
+        with s_col2:
+            agi_val = st.number_input("Agility (민첩)", 0, 102, int(saved_post.get("Agility", 0)), key=f"{selected_name}_agi")
+            int_val = st.number_input("Intelligence (지능)", 0, 102, int(saved_post.get("Intelligence", 0)), key=f"{selected_name}_int")
+        with s_col3:
+            wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_post.get("Willpower", 0)), key=f"{selected_name}_wil")
+            cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_post.get("Charisma", 0)), key=f"{selected_name}_cha")
 
-    if total_stat_points <= max_cap:
-        st.markdown(f'<div class="stat-badge-ok">📊 총 스탯 투자: {total_stat_points} / {max_cap} pt (deepwoken.co 공식 룰 100% 일치 ✅)</div>', unsafe_allow_html=True)
-    else:
-        st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
+        w_col1, w_col2 = st.columns(2)
+        with w_col1:
+            saved_wep_val = saved_post.get("Heavy Wep", 0) or saved_post.get("Medium Wep", 0) or saved_post.get("Light Wep", 0)
+            wep_stat = st.number_input(f"{weapon_type} 투자", 0, 100, int(saved_wep_val), key=f"{selected_name}_wstat")
+        with w_col2:
+            saved_att_val = saved_post.get(main_attunement, 0)
+            att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_att_val), key=f"{selected_name}_astat")
+
+        post_stat_dict = {
+            "Strength": str_val, "Fortitude": fort_val, "Agility": agi_val,
+            "Intelligence": int_val, "Willpower": wil_val, "Charisma": cha_val,
+            "Heavy Wep": wep_stat if "Heavy" in weapon_type else 0,
+            "Medium Wep": wep_stat if "Medium" in weapon_type else 0,
+            "Light Wep": wep_stat if "Light" in weapon_type else 0,
+            main_attunement: att_stat
+        }
+        total_stat_points = DeepwokenFactChecker.calculate_total_stats(post_stat_dict)
+        max_cap = DeepwokenFactChecker.MAX_VALID_STAT_SUM
+
+        if total_stat_points <= max_cap:
+            st.markdown(f'<div class="stat-badge-ok">📊 최종 스탯 총합: {total_stat_points} / {max_cap} pt (공식 룰 100% 일치 ✅)</div>', unsafe_allow_html=True)
+        else:
+            st.markdown(f'<div class="stat-badge-warn">⚠️ 최종 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
+
+    # --- [탭 2: Pre-Shrine (사원 사용 전 탤런트 스탯)] ---
+    with tab_pre:
+        st.caption("⛩️ 육성 초반 높은 스탯을 요구하는 핵심 탤런트(Collapsed Lung, Reinforced Armor, Brick Wall 등)를 선행 획득하기 위한 스탯입니다.")
+        p_col1, p_col2, p_col3 = st.columns(3)
+        with p_col1:
+            pre_str = st.number_input("Pre Strength (힘)", 0, 102, int(saved_pre.get("Strength", str_val)), key=f"{selected_name}_pre_str")
+            pre_fort = st.number_input("Pre Fortitude (인내)", 0, 102, int(saved_pre.get("Fortitude", fort_val)), key=f"{selected_name}_pre_fort")
+        with p_col2:
+            pre_agi = st.number_input("Pre Agility (민첩)", 0, 102, int(saved_pre.get("Agility", agi_val)), key=f"{selected_name}_pre_agi")
+            pre_int = st.number_input("Pre Intelligence (지능)", 0, 102, int(saved_pre.get("Intelligence", int_val)), key=f"{selected_name}_pre_int")
+        with p_col3:
+            pre_wil = st.number_input("Pre Willpower (의지)", 0, 102, int(saved_pre.get("Willpower", wil_val)), key=f"{selected_name}_pre_wil")
+            pre_cha = st.number_input("Pre Charisma (매력)", 0, 102, int(saved_pre.get("Charisma", cha_val)), key=f"{selected_name}_pre_cha")
+
+        pre_stat_dict = {
+            "Strength": pre_str, "Fortitude": pre_fort, "Agility": pre_agi,
+            "Intelligence": pre_int, "Willpower": pre_wil, "Charisma": pre_cha,
+            "Heavy Wep": 0, "Medium Wep": 0, "Light Wep": 0,
+            main_attunement: 0
+        }
+
+        # 사원 전 해금 가능한 상위 탤런트 실시간 판별
+        unlocked_talents = []
+        if pre_fort >= 90: unlocked_talents.append("🛡️ Reinforced Armor (Fort 90)")
+        if pre_fort >= 40: unlocked_talents.append("🦴 Exoskeleton (Fort 40)")
+        if pre_str >= 80: unlocked_talents.append("💥 Collapsed Lung (Str 80)")
+        if pre_str >= 40: unlocked_talents.append("🥊 Showstopper (Str 40)")
+        if pre_agi >= 40: unlocked_talents.append("👻 Ghost (Agl 40)")
+        if pre_wil >= 50: unlocked_talents.append("🗡️ Giant Slayer (Wil 50)")
+        if pre_cha >= 55: unlocked_talents.append("🎭 Chaotic Charm D3 (Cha 55)")
+        if pre_fort >= 100 and pre_wil >= 100: unlocked_talents.append("🧱 Brick Wall (Fort 100, Wil 100)")
+
+        if unlocked_talents:
+            st.success(f"**⛩️ 사원 전 선행 획득 확정 탤런트:**\n" + " • ".join(unlocked_talents))
+        else:
+            st.info("💡 사원 전 필요한 핵심 탤런트 수치를 입력하세요.")
+
+    current_stat_dict = post_stat_dict
 
     # 6. 장비 & 방어구 세팅 (Equipment)
     st.markdown("#### 🛡️ 장비 및 방어구 세팅 (Equipment)")
@@ -349,13 +395,14 @@ with col_builder:
             "weapon_type": weapon_type,
             "attunement": main_attunement,
             "traits": {"Vitality": vit_val, "Erudition": eru_val, "Proficiency": pro_val, "Songchant": son_val},
-            "stats": current_stat_dict,
+            "pre_shrine": pre_stat_dict,
+            "stats": post_stat_dict,
             "equipment": current_eq_dict,
             "mantras": mantras_input,
             "talents": talents_input
         }
         save_user_profiles(st.session_state.profiles)
-        st.success(f"'{selected_name}' 프로필(종족, 특성, 장비, 저항력)이 안전하게 저장되었습니다! ✅")
+        st.success(f"'{selected_name}' 프로필(사원 전/후 스탯, 종족, 특성, 장비, 저항력)이 안전하게 저장되었습니다! ✅")
 
 # ==========================================
 # 💬 우측: 1:1 맞춤형 AI 전담 코치 & 팩트체커
@@ -390,7 +437,7 @@ with col_coach:
         if not st.session_state.chat_history and not prompt_to_send:
             st.markdown("""
             <div class="chat-assistant">
-            🤖 <b>Deepwoken AI Coach</b>: 안녕하세요! 현재 좌측에 설정하신 <b>캐릭터 빌드</b>를 완벽하게 파악하고 있습니다.<br>
+            🤖 <b>Deepwoken AI Coach</b>: 안녕하세요! 현재 좌측에 설정하신 <b>캐릭터 빌드(사원 전/후 스탯 포함)</b>를 완벽하게 파악하고 있습니다.<br>
             보스별 그로기 딜 사이클, 만트라 연계 순서, Shrine of Order 스탯 육성법 등 무엇이든 물어보세요!
             </div>
             """, unsafe_allow_html=True)
@@ -414,7 +461,8 @@ with col_coach:
                 f"- 주무기: {active_profile.get('weapon_type')}\n"
                 f"- 주속성: {active_profile.get('attunement')}\n"
                 f"- 4대 특성(Traits): {active_profile.get('traits', {})}\n"
-                f"- 6대 스탯: {active_profile.get('stats')}\n"
+                f"- ⛩️ 사원 전(Pre-Shrine) 1차 스탯: {active_profile.get('pre_shrine', {})}\n"
+                f"- 📊 사원 후(Post-Shrine) 최종 스탯: {active_profile.get('stats', {})}\n"
                 f"- 장비/인챈트: {active_profile.get('equipment', {})}\n"
                 f"- 최종 산출 수치(STATS): Max HP: {computed_stats['health']}, Posture: {computed_stats['posture']}, Ether: {computed_stats['ether']}, Tempo: {computed_stats['tempo']}, PvE 보스딜: +{computed_stats['pve_dmg_pct']}%\n"
                 f"- 최종 저항력(RESISTANCES): 물리 {computed_res['slash']}%, 화염 {computed_res['flame']}%, 빙결 {computed_res['frost']}%, 번개 {computed_res['thunder']}%\n"

@@ -11,6 +11,23 @@
       "Proficiency": 0,
       "Songchant": 0
     },
+    "pre_shrine": {
+      "Strength": 80,
+      "Fortitude": 90,
+      "Agility": 40,
+      "Intelligence": 0,
+      "Willpower": 50,
+      "Charisma": 0,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Frostdraw": 0,
+      "Flamecharm": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
+    },
     "stats": {
       "Strength": 50,
       "Fortitude": 90,
@@ -35,7 +52,8 @@
       "extra_dve": 15
     },
     "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
-    "talents": "Heavy Intent (하얀 인텐트 평타 폭딜), Reinforced Armor (체력 450+ 깡방어), Giant Slayer (보스 딜 +15%), Exoskeleton, Collapse, Speed Demon"
+    "talents": "Collapsed Lung (방어 파괴), Showstopper, Reinforced Armor (체력 450+ 깡방어), Ghost (확정 회피), Giant Slayer (보스 딜 +15%), Exoskeleton, Speed Demon",
+    "shrine_guide": "1. 사원 전 Strength 80 (Collapsed Lung)과 Fortitude 90 (Reinforced Armor), Agility 40 (Ghost) 선행 탤런트 획득 ➔ 2. Shrine of Order(질서의 성소)로 스탯 리밸런싱 ➔ 3. Heavy Weapon 100 마스터 및 Silentheart Oath 획득"
   },
   "🩸 Vampiric Blood Drain Tank": {
     "name": "🩸 Vampiric Blood Drain Tank",
@@ -48,6 +66,23 @@
       "Erudition": 2,
       "Proficiency": 0,
       "Songchant": 0
+    },
+    "pre_shrine": {
+      "Strength": 40,
+      "Fortitude": 90,
+      "Agility": 40,
+      "Intelligence": 0,
+      "Willpower": 40,
+      "Charisma": 55,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Frostdraw": 0,
+      "Flamecharm": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
     },
     "stats": {
       "Strength": 30,
@@ -73,7 +108,8 @@
       "extra_dve": 10
     },
     "mantras": "Glacial Arc, Crystal Impale, Sightless Beam, Tranquil Circle",
-    "talents": "Reinforced Armor, Exoskeleton, Grand Feast, To the Finish, Conditioned Runner, Charismatic Cast"
+    "talents": "Reinforced Armor, Exoskeleton, Grand Feast, To the Finish, Conditioned Runner, Charismatic Cast, Chaotic Charm (D3)",
+    "shrine_guide": "1. 사원 전 Charisma 55 (Chaotic Charm)과 Fortitude 90 (Reinforced Armor) 획득 ➔ 2. Shrine of Order 실행 ➔ 3. Heavy 90 및 Frostdraw 30 투자 후 Blindseer 완료"
   },
   "🛡️ Immortal Juggernaut (Brick Wall Max HP)": {
     "name": "🛡️ Immortal Juggernaut (Brick Wall Max HP)",
@@ -86,6 +122,23 @@
       "Erudition": 0,
       "Proficiency": 0,
       "Songchant": 0
+    },
+    "pre_shrine": {
+      "Strength": 40,
+      "Fortitude": 100,
+      "Agility": 25,
+      "Intelligence": 0,
+      "Willpower": 100,
+      "Charisma": 0,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Flamecharm": 0,
+      "Frostdraw": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
     },
     "stats": {
       "Strength": 40,
@@ -111,7 +164,8 @@
       "extra_dve": 10
     },
     "mantras": "Flame Leap, Fire Blade, Graceful Flame, Ash Slam",
-    "talents": "Brick Wall, Reinforced Armor, Exoskeleton, To the Finish, Grand Feast, Conditioned Runner, All the Rage"
+    "talents": "Brick Wall (스턴/넉다운 면역), Reinforced Armor, Exoskeleton, To the Finish, Grand Feast, Conditioned Runner, All the Rage",
+    "shrine_guide": "1. 사원 전 Fortitude 100과 Willpower 100을 우선 달성하여 절대 불패 탤런트 Brick Wall 획득 ➔ 2. 무기 및 화염 속성에 나머지 포인트 투자"
   },
   "🏹 Celestial Long-Range Support": {
     "name": "🏹 Celestial Long-Range Support",
@@ -124,6 +178,23 @@
       "Erudition": 4,
       "Proficiency": 0,
       "Songchant": 0
+    },
+    "pre_shrine": {
+      "Strength": 0,
+      "Fortitude": 40,
+      "Agility": 40,
+      "Intelligence": 50,
+      "Willpower": 50,
+      "Charisma": 55,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Thundercall": 0,
+      "Flamecharm": 0,
+      "Frostdraw": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
     },
     "stats": {
       "Strength": 0,
@@ -149,6 +220,7 @@
       "extra_dve": 10
     },
     "mantras": "Lightning Stream, Grand Javelin, Sightless Beam, Tranquil Circle, Spark Trap",
-    "talents": "Nullifying Clarity, Eureka, Master Craftsman, Charismatic Cast, Tough Love, Exoskeleton, Eel's Instinct"
+    "talents": "Nullifying Clarity, Eureka, Master Craftsman, Charismatic Cast, Tough Love, Exoskeleton, Eel's Instinct",
+    "shrine_guide": "1. 사원 전 Agility 40, Intelligence 50, Willpower 50, Charisma 55 선행 마법/서포트 탤런트 획득 ➔ 2. Shrine of Order로 스탯 분산 ➔ 3. Thundercall 80 및 Light Weapon 60 완성"
   }
 }
