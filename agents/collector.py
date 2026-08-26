@@ -87,11 +87,11 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략 (모바일 폰 및 초고속 AI 분석을 위해 480p/360p 경량 고속 포맷 우선 적용: 용량 90% 절감)
+        # 다운로드 포맷 전략 (사용자 요청: 선명한 720p 고화질 우선 적용)
         format_strategies = [
-            "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]/best[height<=480]/bestvideo[height<=360]+bestaudio/best[height<=360]/best",
-            "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best",
-            "best[ext=mp4][filesize<?500M]",
+            "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best[ext=mp4]/best",
+            "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best",
+            "best[filesize<?2G]",
         ]
 
         # 2시간(7200초)이 넘어가는 영상 필터링

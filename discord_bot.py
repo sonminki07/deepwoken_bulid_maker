@@ -380,11 +380,11 @@ async def on_message(message: discord.Message):
 
             async with analysis_queue_lock:
                 try:
-                    # 4분(240초) 제한을 15분(900초)으로 대폭 늘려서 모바일 폰 네트워크 환경에 대응
                     task = asyncio.create_task(run_pipeline_with_progress(url, status_msg))
                     active_tasks[message.id] = task
                     
-                    data = await asyncio.wait_for(task, timeout=900.0)
+                    # 시간 제한 완전 해제: 사용자가 ❌로 직접 취소할 때까지 끝까지 작업 완수
+                    data = await task
                     raw = data["raw"]
                     result_dict = data["result_dict"]
                     b_name = raw.get("build_summary", {}).get("build_name", "Build")

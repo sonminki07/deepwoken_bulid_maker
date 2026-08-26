@@ -50,7 +50,7 @@ class BuildAnalyzer:
             raise FileNotFoundError(f"Schema file not found at: {path}")
         return json.loads(p.read_text(encoding="utf-8"))
 
-    def _wait_for_file_active(self, client: genai.Client, file_name: str, timeout_seconds: int = 600, poll_interval: int = 5):
+    def _wait_for_file_active(self, client: genai.Client, file_name: str, timeout_seconds: int = 3600, poll_interval: int = 5):
         """비디오 파일 프로세싱 완료 대기"""
         logger.info(f"Waiting for video processing on Gemini Cloud: {file_name}...")
         start_time = time.time()
