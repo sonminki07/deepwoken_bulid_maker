@@ -4,7 +4,11 @@ import logging
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from typing import Dict, Any, Optional
-import yaml
+try:
+    import yaml
+    YAML_AVAILABLE = True
+except ImportError:
+    YAML_AVAILABLE = False
 
 from agents.web_scraper import WebScraperAgent, ScrapedWebContent
 from agents.subagents.build_parser import BuildParserSubAgent
@@ -51,10 +55,15 @@ class WebPipelineOrchestrator:
         )
 
     def _load_config(self, path: str) -> dict:
+        if not YAML_AVAILABLE:
+            return {}
         p = Path(path)
         if not p.exists():
             return {}
-        return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        try:
+            return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        except Exception:
+            return {}
 
     def process_url(self, url: str) -> Dict[str, Any]:
         """단일 웹 URL에 대해 서브 에이전트들을 가동하여 빌드 분석 및 RAG 적재 수행"""

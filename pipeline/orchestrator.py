@@ -3,7 +3,11 @@ import time
 import logging
 from pathlib import Path
 from typing import Optional, Dict, Any
-import yaml
+try:
+    import yaml
+    YAML_AVAILABLE = True
+except ImportError:
+    YAML_AVAILABLE = False
 
 from agents.collector import VideoCollector, DownloadResult
 from agents.analyzer import BuildAnalyzer
@@ -55,11 +59,16 @@ class PipelineOrchestrator:
         )
 
     def _load_config(self, path: str) -> dict:
+        if not YAML_AVAILABLE:
+            return {}
         p = Path(path)
         if not p.exists():
             logger.warning(f"Config file not found at {path}. Using default configurations.")
             return {}
-        return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        try:
+            return yaml.safe_load(p.read_text(encoding="utf-8")) or {}
+        except Exception:
+            return {}
 
     def process_url(self, url: str, progress_callback = None) -> Dict[str, Any]:
         """단일 유튜브 URL 전체 분석 및 지식 베이스 인덱싱 파이프라인 실행"""
