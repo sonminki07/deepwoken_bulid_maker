@@ -286,10 +286,14 @@ with col_coach:
     if quick_cols[3].button("🛡️ 탤런트 무결성 검증"):
         quick_q = "현재 내 스탯으로 찍을 수 있는 핵심 필수 탤런트와 누락된 선행 스탯이 있는지 정밀 감사해줘."
 
+    # 사용자 질문 입력창
+    user_input = st.chat_input("질문을 입력하세요 (예: 듀크 딜 타임 때 어떤 콤보를 써야 해?)...")
+    prompt_to_send = quick_q or user_input
+
     # 채팅 메시지 전용 독립 스크롤 박스 (Fixed-Height Scroll Container)
     chat_container = st.container(height=560)
     with chat_container:
-        if not st.session_state.chat_history:
+        if not st.session_state.chat_history and not prompt_to_send:
             st.markdown("""
             <div class="chat-assistant">
             🤖 <b>Deepwoken AI Coach</b>: 안녕하세요! 현재 좌측에 설정하신 <b>캐릭터 빌드</b>를 완벽하게 파악하고 있습니다.<br>
@@ -303,42 +307,34 @@ with col_coach:
                 else:
                     st.markdown(f'<div class="chat-assistant">🤖 <b>AI 코치:</b><br>{turn["content"]}</div>', unsafe_allow_html=True)
 
-    # 사용자 질문 입력창
-    user_input = st.chat_input("질문을 입력하세요 (예: 듀크 딜 타임 때 어떤 콤보를 써야 해?)...")
-    prompt_to_send = quick_q or user_input
-
-    if prompt_to_send:
-        # 사용자 질문 추가
-        st.session_state.chat_history.append({"role": "user", "content": prompt_to_send})
-        
-        # AI 코칭 질문 프롬프트 구성 (캐릭터 프로필 강제 주입)
-        profile_context = (
-            f"[현재 사용자 캐릭터 프로필]\n"
-            f"- 빌드명: {active_profile.get('name')}\n"
-            f"- Oath: {active_profile.get('oath')}\n"
-            f"- 주무기: {active_profile.get('weapon_type')}\n"
-            f"- 주속성: {active_profile.get('attunement')}\n"
-            f"- 스탯 분배: {active_profile.get('stats')}\n"
-            f"- 장착 만트라: {active_profile.get('mantras')}\n"
-            f"- 장착/목표 탤런트: {active_profile.get('talents')}\n"
-        )
-        
-        full_query = f"{profile_context}\n[사용자 질문]\n{prompt_to_send}"
-        
-        with st.spinner("🧠 깃허브 지식 베이스 검색 & 팩트체크 검증 중..."):
-            # 1. AI 조언가 응답 생성
-            raw_advice = st.session_state.advisor.answer_query(
-                user_query=full_query,
-                history=st.session_state.chat_history[:-1]
+        # 새 질문 입력 시 즉시 화면에 내 질문 말풍선을 띄우고 답변 생성
+        if prompt_to_send:
+            st.markdown(f'<div class="chat-user">👤 <b>나:</b> {prompt_to_send}</div>', unsafe_allow_html=True)
+            st.session_state.chat_history.append({"role": "user", "content": prompt_to_send})
+            
+            profile_context = (
+                f"[현재 사용자 캐릭터 프로필]\n"
+                f"- 빌드명: {active_profile.get('name')}\n"
+                f"- Oath: {active_profile.get('oath')}\n"
+                f"- 주무기: {active_profile.get('weapon_type')}\n"
+                f"- 주속성: {active_profile.get('attunement')}\n"
+                f"- 스탯 분배: {active_profile.get('stats')}\n"
+                f"- 장착 만트라: {active_profile.get('mantras')}\n"
+                f"- 장착/목표 탤런트: {active_profile.get('talents')}\n"
             )
+            full_query = f"{profile_context}\n[사용자 질문]\n{prompt_to_send}"
             
-            # 2. 팩트체크 & 스탯 무결성 2차 감사 (Validation Pass)
-            audit_result = DeepwokenFactChecker.audit_profile_and_advice(active_profile, raw_advice)
-            verification_badge = DeepwokenFactChecker.generate_verification_badge(audit_result)
-            
-            final_response = raw_advice + "\n" + verification_badge
-            st.session_state.chat_history.append({"role": "assistant", "content": final_response})
-            st.rerun()
+            with st.spinner("🧠 깃허브 지식 베이스 검색 & 팩트체크 검증 중..."):
+                raw_advice = st.session_state.advisor.answer_query(
+                    user_query=full_query,
+                    history=st.session_state.chat_history[:-1]
+                )
+                audit_result = DeepwokenFactChecker.audit_profile_and_advice(active_profile, raw_advice)
+                verification_badge = DeepwokenFactChecker.generate_verification_badge(audit_result)
+                
+                final_response = raw_advice + "\n" + verification_badge
+                st.session_state.chat_history.append({"role": "assistant", "content": final_response})
+                st.rerun()
 
     # 대화 초기화 버튼
     if st.button("🧹 대화 기억 초기화"):
