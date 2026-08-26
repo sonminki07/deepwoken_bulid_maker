@@ -50,13 +50,13 @@ class BuildAnalyzer:
             raise FileNotFoundError(f"Schema file not found at: {path}")
         return json.loads(p.read_text(encoding="utf-8"))
 
-    def _wait_for_file_active(self, file_name: str, timeout_seconds: int = 600, poll_interval: int = 5):
+    def _wait_for_file_active(self, client: genai.Client, file_name: str, timeout_seconds: int = 600, poll_interval: int = 5):
         """비디오 파일 프로세싱 완료 대기"""
         logger.info(f"Waiting for video processing on Gemini Cloud: {file_name}...")
         start_time = time.time()
         
         while time.time() - start_time < timeout_seconds:
-            f = self.client.files.get(name=file_name)
+            f = client.files.get(name=file_name)
             state = f.state.name if hasattr(f.state, 'name') else str(f.state)
             logger.debug(f"File state: {state}")
             
@@ -75,40 +75,41 @@ class BuildAnalyzer:
         if not video_path.exists():
             raise FileNotFoundError(f"Video file does not exist: {video_path}")
 
-        if progress_callback:
-            progress_callback(35, "Gemini 클라우드로 영상 업로드 중...")
-        logger.info(f"Uploading {video_path.name} to Gemini Files API via google-genai...")
-        remote_file = self.client.files.upload(file=str(video_path))
-        
-        try:
-            if progress_callback:
-                progress_callback(55, "Gemini 클라우드 비디오 프레임 변환 및 인코딩 중...")
-            active_file = self._wait_for_file_active(remote_file.name)
-            
-            # 메타데이터 컨텍스트 구성
-            context_prompt = self.system_prompt
-            if metadata:
-                meta_str = (
-                    f"\n[영상 메타데이터]\n"
-                    f"- 제목: {metadata.get('title', 'N/A')}\n"
-                    f"- 채널: {metadata.get('channel', 'N/A')}\n"
-                    f"- URL: {metadata.get('url', 'N/A')}\n"
-                    f"- 업로드 날짜: {metadata.get('upload_date', 'N/A')}\n"
-                    f"- 설명: {metadata.get('description', '')[:500]}...\n"
-                )
-                context_prompt = context_prompt + "\n" + meta_str
+        from agents.key_manager import global_key_manager
 
-            if progress_callback:
-                progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 스탯/탤런트/콤보 추출 중...")
-            logger.info(f"Invoking Gemini models for build extraction...")
-            from agents.key_manager import global_key_manager
-            
-            last_error = None
-            for attempt in range(1, 6):
-                client = global_key_manager.get_client()
+        # 메타데이터 컨텍스트 구성
+        context_prompt = self.system_prompt
+        if metadata:
+            meta_str = (
+                f"\n[영상 메타데이터]\n"
+                f"- 제목: {metadata.get('title', 'N/A')}\n"
+                f"- 채널: {metadata.get('channel', 'N/A')}\n"
+                f"- URL: {metadata.get('url', 'N/A')}\n"
+                f"- 업로드 날짜: {metadata.get('upload_date', 'N/A')}\n"
+                f"- 설명: {metadata.get('description', '')[:500]}...\n"
+            )
+            context_prompt = context_prompt + "\n" + meta_str
+
+        last_error = None
+        for attempt in range(1, 6):
+            client = global_key_manager.get_client()
+            remote_file = None
+            try:
+                if progress_callback:
+                    progress_callback(35, f"Gemini 클라우드로 영상 업로드 중... (시도 {attempt})")
+                logger.info(f"Uploading {video_path.name} to Gemini Files API with active client key (Attempt {attempt})...")
+                remote_file = client.files.upload(file=str(video_path))
+                
+                if progress_callback:
+                    progress_callback(55, "Gemini 클라우드 비디오 프레임 변환 및 인코딩 중...")
+                active_file = self._wait_for_file_active(client=client, file_name=remote_file.name)
+                
+                if progress_callback:
+                    progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 스탯/탤런트/콤보 추출 중...")
+                
                 for m_name in ["gemini-3.6-flash", "gemini-3.7-flash", "gemini-flash-latest"]:
                     try:
-                        logger.info(f"Sending video to model {m_name} with client key (Attempt {attempt})...")
+                        logger.info(f"Sending video to model {m_name} with matching client key (Attempt {attempt})...")
                         response = client.models.generate_content(
                             model=m_name,
                             contents=[active_file, context_prompt],
@@ -142,17 +143,22 @@ class BuildAnalyzer:
                     except Exception as e:
                         err_str = str(e).lower()
                         logger.warning(f"Model {m_name} failed on attempt {attempt}: {e}")
-                        if "429" in err_str or "quota" in err_str or "exhausted" in err_str:
-                            global_key_manager.rotate_key(reason="Video 429 Quota Exceeded")
-                            break
                         last_error = e
+                        if "429" in err_str or "quota" in err_str or "exhausted" in err_str:
+                            break  # Try next key attempt
+            except Exception as e:
+                err_str = str(e).lower()
+                logger.warning(f"Key attempt {attempt} failed during upload/analysis: {e}")
+                last_error = e
+            finally:
+                if self.cleanup_remote_file and remote_file:
+                    try:
+                        logger.info(f"Cleaning up remote file from Gemini Cloud: {remote_file.name}")
+                        client.files.delete(name=remote_file.name)
+                    except Exception as ex:
+                        logger.warning(f"Failed to delete remote file: {ex}")
 
-            raise RuntimeError(f"All Gemini models and API keys failed for video analysis: {last_error}")
+            # 429 또는 에러 시 다음 키로 로테이션
+            global_key_manager.rotate_key(reason=f"Gemini API Error on attempt {attempt}: {last_error}")
 
-        finally:
-            if self.cleanup_remote_file and 'remote_file' in locals():
-                try:
-                    logger.info(f"Cleaning up remote file from Gemini Cloud: {remote_file.name}")
-                    self.client.files.delete(name=remote_file.name)
-                except Exception as e:
-                    logger.warning(f"Failed to delete remote file: {e}")
+        raise RuntimeError(f"All Gemini models and API keys failed for video analysis: {last_error}")
