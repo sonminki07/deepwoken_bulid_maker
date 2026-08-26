@@ -94,13 +94,14 @@ class BuildAdvisor:
 
         def _call_model(client: genai.Client) -> str:
             last_err = None
+            # 최고 성능 고지능/고추론 플래그십 모델 우선 호출
             for m_name in [
-                "gemini-3.6-flash",
-                "gemini-flash-latest",
                 "gemini-3.7-flash",
+                "gemini-3.6-flash",
+                "gemini-pro-latest",
+                "gemini-3.1-pro-preview",
+                "gemini-flash-latest",
                 "gemini-flash-lite-latest",
-                "gemini-3.1-flash-lite",
-                "gemini-3.5-flash-lite",
             ]:
                 try:
                     response = client.models.generate_content(
@@ -114,7 +115,7 @@ class BuildAdvisor:
                     return response.text
                 except Exception as model_err:
                     last_err = model_err
-                    logger.warning(f"Advisor model {m_name} failed ({model_err}), trying next model...")
+                    logger.warning(f"Advisor model {m_name} failed ({model_err}), trying next high-tier model...")
             if last_err:
                 raise last_err
             raise RuntimeError("All advisor reasoning models failed")
