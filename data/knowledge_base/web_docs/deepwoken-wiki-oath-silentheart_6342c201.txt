@@ -1,0 +1,1050 @@
+Title: Deepwoken Wiki: Oath: Silentheart
+URL: https://deepwoken.fandom.com/wiki/Oath:_Silentheart
+Description: Official Fandom Wiki document for Oath: Silentheart
+
+==================================================
+
+For the version that existed prior to the 13th September, 2024, see
+here
+.
+“ Your old heart is no more, hateful one. We have exchanged it for one aligned with our ideals, deafened to the chaos of the Song. You are Silent now, hateful one. ”
+― The Dreadstar
+Contents
+1
+Description
+2
+Obtainment
+3
+Progression
+4
+Effects
+5
+Abilities
+5.1
+Talents
+5.1.1
+Talent Abilities
+6
+Gallery
+7
+Notes
+8
+Trivia
+9
+References
+10
+Navigation
+Description
+[
+]
+Oath
+: Silentheart
+is one of the 17 obtainable Oaths
+.
+It sacrifices
+Mantras
+and
+Attunements
+as a whole in exchange for the ability to change weapons during battle and a unique set of attacks integrated into your moveset.
+“ You feel as though a part of yourself has drifted away, into the vast nothingness of the Song. As sudden as this sensation arrived, a new piece of you took place. This heart beats differently, it drums to the beat of the world, not the Song, ever silent. ”
+― Obtaining Silentheart
+Silentheart is a result of a Vow made with
+The Dreadstar
+, a mysterious entity residing in the
+Voidsea
+made from the souls of various deceased individuals. Vengeful due to its death at the hands of the users of Mantras, it falsely believes it can rewire the hearts of those willing to engage in a Vow with it to avoid using the Song. Upon the Silentheart reaching their true potential, the Dreadstar fuses with them to form a single entity.
+Unfortunately, the Song is so permeating that the Silentheart is only able to sidestep the Mantras that killed them; their newfound abilities too rely on the Song. Had it truly become disconnected, the Silentheart would have become an ordinary human being with little strength or durability, akin to a
+Lightkeeper
+and their inability to use the Song.
+The Vow is one of malevolent nature however, as The Dreadstar likely gave the user's previous, song-attuned heart to the Drowned God
+Yun'Shul, Keeper of Hearts
+, possibly in an attempt to earn their favour. This is evidenced by The Dreadstar themselves, who state that the user's "Heart has already been claimed" upon
+Oathbreak
+.
+Obtainment
+[
+]
+Meet the following requirements in any order:
+Be attunementless
+Have a total of 75 points in Weapons (LHT, MED, HVY all count, you can do 25/25/25, for example)
+Have 25 points in Strength
+Have 25 points in
+either
+Charisma or Agility
+Die to a
+player
+that uses an attunement. Chime of Conflict does not count, nor does getting gripped in the
+Second Layer
+with a Light Hook.
+Encounter a ghost npc on the
+Beloved Zofia
+and speak to the Dreadstar afterwards, if you are the first player to do so on a server this will spawn the dread star in, if you however are not the first in the server to do so you must slay/survive a ghost encounter to interact with the Dreadstar.
+Once
+all
+met, head over to the
+Beloved Zofia
+in the
+Voidsea
+to talk to The Dreadstar
+Failing to meet any of the first 4 will cause The Dreadstar to say you do not have aptitude.
+If you haven't died to an attunement player, The Dreadstar will say "You lack focus on your rage".
+For a more in-depth walkthrough, consider watching
+this video
+.
+(While the video suggests starting
+Suyuan
+'s quest, intending that it spawns the ship - obtaining the Oath doesn't actually depend on it.)
+Progression
+[
+]
+This Oath is progressed via the killing of
+Attunement Trainers
+(excluding
+Regek
+, and
+Beatra
+).
+This can be done in any order; however, the recommended order is
+Nell
+,
+Friid
+,
+Amashi
+,
+Vyrelda
+,
+Funke
+,
+Adar
+, and
+Nostor
+due to their locations.
+Note that killing the Spelltrainers
+will make you lose Reputation
+with some factions :
+Nell and Friid with Etrea
+Funke with Summer Company
+Adar with Ignition Union
+Alternatively, if you've fully progressed the Oath previously, 10
+Knowledge
+can be spent to immediately unlock all related Talents.
+Silentheart
+cannot
+be reobtained if you
+Oathbreak
+it, as the Dreadstar will not spawn.
+Effects
+[
+]
+Ability to wield weapons with 25 investment points lower than its weapon stat requirement (this will not work on core attribute requirements).
+Entirely lose access to using Mantras
+; learned Mantras can still be viewed in your Journal and turned in to
+Shrine of Division
+, but they will disappear from your inventory and they cannot be used.
+Attunements are unable to be obtained.
+"Elemental" weapons
+cannot
+be equipped.
+All Silentheart abilities gain a secondary damage instance in PvE that deals 133% of the original attack's damage. This benefits from
+Chain of Perfection
+twice.
+You gain glowing red tattoos coursing over your arms and torso.
+Your eye color becomes duller and darker.
+Eye color difference
+Silentheart Visual
+Abilities
+[
+]
+Talents
+[
+]
+Dread Fighter
+- Parrying and getting hit by mantras now give you stacks of
+Dread
+. Each stack lasts for 15 seconds.
+Dread stacks grant 5% Mantra resistance per stack, stacking up to 25% with 5 stacks.
+Stacks of dread are represented as a halo that grows from your chest. Each stack makes the halo larger and raises your mantra resistance.
+Maxed Dread Stacks
+Merciless Blade
+- Increases your Execute speed by 40%.
+Reduces execution animation duration by 1.2 seconds (3 seconds down to 1.8).
+Comes with the Oath.
+True Vantage
+-
+Venting
+makes you invisible briefly, as well as boosting your speed.
+This turns your Vents Red which is purely cosmetic.
+If you have used Dyes, instead turns your vents to your tattoo colour.
+This does not affect
+Brute Strength
+'s Vent.
+Unmatched Dexterity
+- Press
+X
+to Quick Swap between weapons within your toolbar.
+Swaps your current weapon with a random one on your hotbar.
+Weapon swap will not swap to a weapon you are currently holding (not equipped, but holding the weapon out).
+You can use this to confirm a weapon swap while using 3 weapons.
+This Talent passively allows Silenthearts to manually swap equipment or weapons while in danger as well.
+Notably, the
+Curse of the No Life King
+and
+Curse of Void
+curse effects of always having a stained healthbar have their durations extended for 60 seconds upon taking damage. This means you cannot avoid being sent to
+The Depths
+by swapping to a non-cursed weapon just before being knocked Unconscious.
+Talent Abilities
+[
+]
+Flow State
+- Enter a moment of extreme focus in which you can change the windup of your special attacks with the correct timing.
+Activating Ankle Cutter, Mayhem, Relentless Hunt, or Rising Star within 2 seconds of activating Flow State will enhance these attacks.
+Flow State has a 10 second cooldown, landing a Flow State-enhanced Silentheart ability will reset Flow State's cooldown.
+The Flow State enhanced effects on Silentheart abilities will be highlighted in
+red
+.
+Flow state is a Talent tool.
+Flow State changes the behavior of a move:
+Increases the damage of most Silentheart abilities.
+Grants Mayhem the ability to autogrip.
+May add additional effects to certain Silentheart abilities.
+Shortens the windup of most Silentheart abilities.
+Adds a loud whooshing sound effect right before you do the move.
+Flow State activated
+Ankle Cutter
+- You can now do a special ground slash while sliding, applying a temporary speed debuff to those hit, as well as preventing jumping.
+Deals
+37.5/
+52.5
+damage with innate
+Bleed
+.
+Has a fixed attack speed across all weapon types.
+Can be used while sliding down slopes at no cost to your speed.
+Flow State shortens the windup and increases the damage.
+5 second cooldown.
+Standard Windup
+Mayhem
+- Initiate a special dash attack by pressing M1 during the start of your dodge.
+16s CD per weapon type, 6s CD if feinted.
+Can be feinted by pressing
+M2
+during its windup.
+Movesets differ depending on the weapon type. Cooldowns are per weapon type; using Light and switching to Heavy will allow you to immediately use the Heavy variant.
+All variants are capable of
+auto-gripping
+with Flow State active.
+Light
+- deals
+7.5
+Oath damage with 40 Light Weapon scaling, dealing
+37.5
+damage at 100 Light Weapon. Flow State adds
++2.5
+damage.
+Medium
+- deals
+6
+Oath damage with 40 Medium Weapon scaling, dealing
+30
+damage at 100 Medium Weapon. Flow State adds
++22.5
+damage.
+Heavy
+- deals
+9
+Oath damage with 40 Heavy Weapon scaling, dealing
+45
+damage at 100 Heavy Weapon. Flow State adds
++7.5
+damage.
+Light Weapon
+Medium Weapon
+Heavy Weapon
+Relentless Hunt
+- M1 while doing an Aerial Attack to initiate a special gap closer attack.
+20s CD per weapon type, 6s CD if feinted.
+Can be feinted by pressing
+M2
+during its windup.
+Mostly used as a gap closer.
+Movesets differ depending on the weapon type.
+Has
+lower windup
+with Flow State active. The delay can trick opponents.
+Light
+-
+3.6
+Oath damage with 40 Light Weapon scaling, dealing
+18
+damage at 100 Light Weapon. This ability
+hits twice
+in Flow State, moving you back to the cast position. The second hit from Flow State deals the same amount of damage as the initial hit.
+Medium
+-
+3.6
+Oath damage per hit (2), with 40 Medium Weapon scaling, dealing
+18
+damage per hit (2) at 100 Medium Weapon. Flow State adds
+9
+damage to each hit (2).
+Heavy
+-
+6
+Oath damage with 40 Heavy Weapon scaling, dealing
+30
+damage at 100 Heavy Weapon. Flow State adds
++7.5
+damage.
+Light Weapon
+Medium Weapon
+Heavy Weapon
+Rising Star
+- Press
+CTRL
++
+M2
+to activate a special uppercut attack.
+12s CD per weapon type, 4s CD if feinted. This cooldown is per weapon type; using Light then switching to Heavy will allow you to immediately use the Heavy Variant.
+Can be feinted by pressing
+M2
+during its windup.
+Changing your feint key will change Rising Star's [
+M2
+] activation key, however Rising Star is always bound to CTRL, even if your Crouch isn't.
+Procs all "on Uppercut" Talents.
+Movesets differ depending on the weapon type.
+Light
+-
+6
+Oath damage per hit (2), with 40 Light Weapon scaling, dealing
+30
+damage per hit at 100 Light Weapon. Flow State adds an additional damage instance that deals
+1.2
+damage with 40 Light Weapon scaling, adding
++6
+damage at 100 Light Weapon.
+Medium
+-
+9
+Oath damage with 40 Medium Weapon scaling, dealing
+45
+damage at 100 Medium Weapon. Flow State adds
++15
+damage.
+Heavy
+-
+12
+Oath damage with 40 Heavy Weapon scaling, dealing
+60
+damage at 100 Heavy Weapon. This ability has a
+lower windup
+in Flow State; 0.25s -> 0.2s.
+Light and Medium Rising Star variants give user brief momentum (view in gifs below).
+Light Weapon
+Medium Weapon
+Heavy Weapon
+Vengeful Pursuit
+- Your running M1's that don't hit send out a special mid-range crescent projectile that slows on hit. Tracks onto those with their backs turned to you.
+Deals slash damage.
+Deals 5 posture damage if blocked.
+Damage changes based on weapon type.
+Light
+-
+18
+Base Damage with
+3
+STR and
+3
+LHT scaling.
+Medium
+-
+21.6
+Base Damage with
+3
+STR and
+3
+MED scaling.
+Heavy
+-
+25.2
+Base Damage with
+3
+STR and
+3
+HVY scaling.
+8 second cooldown.
+This attack procs
+Bear Trap
+.
+Silent Cascade
+- Landing any physical attacks on your opponent charges up your Silent Cascade, a devastating barrage that can be unleashed with
+Ctrl
++
+M2
+.
+Landing 8 weapon attacks or Silentheart abilities grants the Silent Cascade status effect, allowing you to use the Silent Cascade attack. This effect lasts 30 seconds or until you use Silent Cascade.
+Deals 7.5 Oath damage per hit (6) regardless of your equipped weapon.
+Has autoparry frames.
+This attack is identical to old Silentheart's Mani Katti.
+Gallery
+[
+]
+Old icon
+Notes
+[
+]
+If you have 0% Tempo, your Rising Star, Relentless Hunt, and Mayhem deal reduced damage, posture damage, and will have longer windups.
+Heavy: -15 damage, -5 posture damage / Medium: -15 damage, -4 posture damage / Light: -7.5 damage, -1 posture damage.
+All Silentheart abilities count as weapon damage, proccing
+Talents
+and
+Enchantments
+. However, Silentheart has a 30 second cooldown on a Silentheart Ability proccing an Enchantment.
+Using any Silentheart ability will remove your active Whistleguard, granted you are wearing a
+Whistling Periapt
+.
+Dying to an attunement user does not necessarily mean being manually executed by them; dying by any method as long as they are the killer will work.
+You will still gain
+Whisper Draws
+when leveling up, and from Special Mantra Hands.
+Wyrmtooth
+can utilize both the Medium and Heavy Silentheart abilities, using Heavy if the Medium ones are on cooldown.
+The Attunement-less trainer, Regek, cannot be killed for progression despite Physical Mantras also using the song. This may be due to the fact they do not "misuse" the song like the other attunement trainers, and therefore it isn't counted as "song abuse" by The Dreadstar.
+Beatra
+cannot be killed for progression due to her old age.
+Silentheart's vow rejects the Words of the Song (Mantra chants). Resonances and Murmurs are not words and thus, are not affected by this Oath.
+You will be able to pass
+Aelita
+'s game by using any of your Silentheart abilities.
+Funnily enough, before an unknown update, Silenthearts were unable to do so.
+Vyrelda
+will still appear in the Derelict Highchurch regardless of if you've achieved bloodrend on the account so long as you have the oath
+To make the Dreadstar appear, interact with one of the Ghosts on the ship and fight them.
+During a brief moment before the weekly update Silentheart was reworked in, you were capable of receiving a bugged version of the
+Unmatched Dexterity
+Talent card with a different description alongside the old Talent set. (image attachment)
+Silent Cascade
+,
+Rising Star
+, and
+normal uppercut
+all share same keybinds, however there's a clear priority (the further to the left = the more prioritized)
+Silent Cascade > Rising Star > Uppercut
+Trivia
+[
+]
+The lines that adorn a Silentheart's arms and chest are tattoos, not veins.
+Despite this, they will lose their coloration should the Silentheart be killed by
+Blood Scourge
+, which specifically drains blood.
+The dialogue with the
+Attunement Trainers
+changes after obtaining Silentheart, stating "Your Ether ... Just what have you done?"
+Vyrelda
+has further unique dialogue, stating "I don't have time for this."
+Previously, there was a bug allowing you to acquire an Attunement and its Talents (albeit not its Mantras) by drinking an
+Attunement Potion
+while in the Dreadstar's dialogue. However, this was eventually fixed. This let some people have Talents like
+Flaming Flourish
+along with Silentheart, allowing for huge damage potential. Builds created before it was patched still have their abilities.
+On top of changing the color of your Silentheart tattoos,
+dying
+the Silentheart Oath cosmetic will also recolor your True Vantage Vent, Dread Fighter, and Flow State.
+The sound of landing a hit / obtaining a stack of dread is the same sound used in Terraria when a Fallen Star lands.
+[
+1
+]
+Ankle Cutter is a reference to Ankle Cutter from
+Black Desert Online.
+Several terms related to the Silentheart Oath before its rework reference the
+Fire Emblem
+series.
+The Beloved Zofia references Celica's
+weapon of the same name
+in
+Fire Emblem Echoes: Shadows of Valentia
+.
+Both
+Dread Fighter
+and
+Lodestar
+reference obtainable classes in different
+Fire Emblem
+games.
+True Vantage is a reference to the skill
+Vantage
+i
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Oath: Oathless]
+“ Those eyes.. you wish to walk alone too. ”
+― Disciple of Cerulean
+Contents
+1
+Description
+2
+Obtainment
+3
+Effects
+4
+Abilities
+4.1
+Passives
+5
+Talents
+5.1
+Sage of Wisps
+6
+Mantras
+6.1
+Combat Mantras
+7
+Soul Beam (☆☆☆)
+8
+Gallery
+9
+Trivia
+10
+References
+11
+Navigation
+Description
+[
+]
+Oath
+: Oathless
+is one of the 17 obtainable Oaths in
+Deepwoken.
+It is a rather varied Oath, given that its purpose is to extend the capabilities of what would be considered a Pathfinder. Together with
+Linkstrider
+,
+Fadetrimmer
+,
+Dawnwalker
+, and
+Contractor
+, it is one of 5 Oaths that have no direct stat requirements.
+Despite its oxymoronic nature, this still counts as an Oath. So other Oaths like
+Linkstrider
+or
+Contractor
+that has their progression tied to killing Oath users can progress by killing people with this Oath, along with other Oaths.
+Obtainment
+[
+]
+To start the Oathless quest, head to the docks at
+Miner's Landing
+and pass through the entrance. Climb up the ramp in front of
+Tolkat
+walking onwards until you find a log by the ledge facing the sea highway. Through this log is a cave in which
+Cerulean
+can be found leaning against a wall. They'll inform you that, in order to understand the freedom of being Oathless, you must seek out their disciples.
+If you have obtained Oathless, you may speak to
+Cerulean
+again to permanently unlock it. This skips the quest on all of your characters/slots, even if that character/slot was created before you permanently unlocked Oathless.
+[Note that obtaining Oathless via any method requires 10 minutes of playtime on that character.]
+Oathless
+can
+be reobtained if you
+Oathbreak
+it.
+Aforementioned log tunnel
+Though order does not matter, the following order is recommended.
+Viridian
+is located at
+Fort Merit
+, in the street near the elevator.
+Saffron
+is located at
+Meteor Isle
+, in a 2-story house.
+Celadon
+is located at
+Summer Isle
+, on the second floor of the guildhall.
+After talking to all three of their disciples, return to Cerulean to receive the Oath.
+For a more in-depth walkthrough, consider watching
+this video
+.
+Effects
+[
+]
+This Oath grants the player three extra
+Wildcard Mantra
+slots, 10 Health, 20% Monster Armor, 20% Oath armor, and 5% general PEN. Oath Armor decreases the damage received from the Oath damage type
+[
+1
+]
+.
+As for its appearance,
+nothing
+is added to your outfit, making it impossible to tell if a person has Oathless or not, which makes sense because Oathless makes you unbound to an Oath.
+Abilities
+[
+]
+Passives
+[
+]
+Oath Armor
+- Oathless grants 20% Oath Armor
+.
+This does not work on every Oath ability, as not all of them deal Oath damage in general.
+Due to this being "
+armor
+" instead of "
+resistance
+", PEN will affect it and it will be tied to your armor value, being deactivated if your armor is broken.
+Oath attacks with multiple damage types will effectively bypass your Oath armor because the game will take your highest applicable armor resistance and apply that for damage calculation.
+For example, if you have under 20%
+
+### 📖 [하위 연관 위키: Oath: Arcwarder]
+“ Look at that! Seems like it fits you just fine. Why not go put it to practice? Hm... Although, it doesn't seem quite attuned to you yet. Nothing you can't figure out, I'm sure. ”
+― Delta
+Contents
+1
+Description
+2
+Obtainment
+3
+Progression
+4
+Effects
+5
+Abilities
+5.1
+Talents
+5.2
+Mantras
+5.2.1
+Combat Mantras
+6
+Arc Beam (☆☆☆)
+7
+Arc Wave (☆☆☆)
+7.1
+Support Mantras
+8
+Arc Suit (☆☆☆)
+9
+Gallery
+10
+Trivia
+11
+References
+12
+Navigation
+Description
+[
+]
+Oath
+: Arcwarder
+is one of the 17 obtainable Oaths in
+Deepwoken.
+It heavily focuses on defense; four of its passives are defensive, and the other two are mobility. It still allows for a fair bit of offensive play however as dash allows the user to close gaps and maneuver around opponents, and both combat mantras are as effective if not more in aggressive play.
+“ Unlike the Central Authority, the Union's identity is not defined wholly by internal hierarchy, lingering military traditions, and loyalty to power. Instead, it is rooted in the solidarity of toil - a sense of kinship among those working for the same goal. ”
+― The Hammer's Call
+The Arc Suit is a defence orientated piece of semi-sentient armour that
+The Ignition Union
+bestows upon their most trusted. It fuses with the soul of those who swear the oath, allowing them to manifest it around them at will. Arcwarders are sworn to become a conduit of protection to their fellow Union mates and do whatever it takes to defend them. Notably, Arcwarders are the only people known to utilize Plasma in their attacks, likely from a result of the
+Flamecharm
+and
+Thundercall
+being combined within the suit.
+Obtainment
+[
+]
+Go to
+Layer 2
+and Complete Alpha's quest.
+Activate the Generator.
+Talk to
+Alpha
+.
+Retrieve injured
+Epsi
+.
+Choose option 2 when you talk to Epsi.
+Option 1 causes
+Epsi
+to perish due to the parasites. Epsi will always be outside of
+Firfire Caverns
+when you repeat
+Floor 1
+, so you may go back and choose the right option if you messed up the first time.
+Talk to Alpha again.
+Have at least 20 Fortitude, 20
+Flamecharm
+and 20
+Thundercall
+.
+Return to surface and talk to
+Delta
+at
+Miner's Landing
+inside the lower-mountain part of the town, specifically behind the water mill located right where the waterfall is. In order to progress the Oath, you must kill
+Chaser
+or
+Scion of Ethiron
+For a more in-depth walkthrough, consider watching
+this video
+.
+Arcwarder
+cannot
+be reobtained if you
+Oathbreak
+it.
+Progression
+[
+]
+Arcwarder Passives and Mantras are obtained via defeating either
+Chaser
+or the
+Scion of Ethiron
+AND taking Klaris' light hook a total of 4 times (Killing the bosses does not grant progression, taking the light hook Klaris' spawns after killing them (not the one in your inventory) does. So killing chaser, going to floor 2, and using inventory light hook will not grant progression) granting one passive Talent/Mantra per kill until the Oath is fully progressed. Mantras are received every 2 kills in addition to the talents. If you have progressed Arcwarder before, you
+
+### 📖 [하위 연관 위키: Oath: Bladeharper]
+“ Your presence here... We both know what it means. If you believe yourself ready, this is where you shall pledge yourself to the Blade. ”
+― The Blade Within
+Contents
+1
+Description
+2
+Obtainment
+3
+Progression
+4
+Effects
+5
+Abilities
+5.1
+Passives
+5.2
+Talents
+5.3
+Mantras
+5.3.1
+Combat Mantras
+6
+Palm Strike (☆☆☆)
+7
+Decimate (☆☆☆)
+8
+Strategy
+9
+Trivia
+10
+Gallery
+11
+Navigation
+Description
+[
+]
+Oath
+: Bladeharper
+is one of the 17 obtainable Oaths in
+Deepwoken
+. It's known for the user's ability to gain extreme proficiency with its slash-based attacks, and the ability to massively buff its offensive means by landing consecutive hits or through sacrificing health.
+“ Within your mind, many futures present themselves before you. Only your own must stand supreme. ”
+― The Blade Within
+The Bladeharper Oath is a result of the player conducting a
+Reflection Ritual
+at the Sky Statues scattered around the
+Luminants
+. The user makes a Vow with their own weapon, to spend the rest of their future with their own blade, out of the many futures presented to them during the Reflection Ritual.
+Obtainment
+[
+]
+The Oath requires 25 AGL or STR, plus either 75 points in Medium Weapon or a total of 90 points spread across any Weapon stats. The weapon equipped by a player must also not be
+Fists
+, else the interaction will not start the Oath quest.
+Interact with one of the numerous
+Sky Statues
+located throughout both Luminants. This will transport you to Blade Within.
+Defeat Mind's Reflection (a 1:1 copy of yourself, which has your currently equipped weapon, Talents and Mantras) to obtain the Oath.
+It will use all Mantras you have, not just the ones you have equipped, and also Bladeharper Mantras that you haven't unlocked (e.g. On the first statue, the mirror can use Palm Strike and at the last statue the mirror can use Decimate). It's best to get rid of unwanted Mantras via
+Deep Shrines
+if you're not ready.
+It seems to not have the same Mantra modifiers that you may have. For example: Frostdraw's Warden Blades can become bigger using stratus stones but the mirror will have the original size and possibly the original level (not tested).
+The mirror starts out with 1 life in the first encounter, increasing by 1 for each encounter (1 + 2 + 3). When the mirror loses a life and still has lives, it vents then teleports back within the center of the Blade Within to return to neutral. This makes 6 in total to obtain and fully progress the oath.
+NOTE:
+Losing to your Bladeharper mirror
+DOES
+result in losing a life.
+For a more in-depth walkthrough, consider watching
+this video
+.
+Sky Statue near
+Lower Erisia
+Lower Erisia Statue Map
+Sky Statue behind
+Etris Palace
+in
+Etris
+Etris Palace Statue Map
+Sky Statue on the mountain peak near
+Derelict Highchurch
+Derelict Highchurch
+Statue Map
+Bladeharper
+can
+be reobtained if you
+Oathbreak
+it.
+Progression
+[
+]
+The Oath can be progressed through interaction with the different other
+Sky Statues
+and defeating Mind's Reflection again with each, up to three times, 
+
+### 📖 [하위 연관 위키: Oath: Blightsurger]
+“
+A withering storm gathers.
+Lightning must strike the eye of the tempest.
+”
+― Titus Fulminus Destellus
+Contents
+1
+Description
+2
+Obtainment
+3
+Progression
+4
+Abilities
+4.1
+Status Effect
+4.2
+Weapon
+4.3
+Talents
+4.4
+Mantras
+4.4.1
+Combat Mantras
+5
+Skycrash (☆☆☆)
+6
+Sovereign Drive (☆☆☆)
+7
+Warp Kick (☆☆☆)
+8
+Gallery
+9
+Trivia
+10
+References
+11
+Navigation
+Description
+[
+]
+Oath
+: Blightsurger
+is one of the 17 obtainable Oaths in
+Deepwoken.
+It is an Oath centered on the
+Wither
+Status and hindering your opponent. This Oath is associated with
+The Hundred Legions
+.
+“ History only remembers the general, and never the soldier. [...] Together, we were an unstoppable force. ”
+― Titus, Fulminus Destellus
+Blightsurger draws most of its power from Sacred Lightning. It was invented by
+Theros
+, who passed it onto their disciples.
+Titus
+is one of its users and a trainer of the power, who used it alongside the 49th Legion - which he was the leader of - to conquer a majority of the Western Luminant in the name of The Empire.
+Obtainment
+[
+]
+To obtain Blightsurger, the player must defeat
+Titus Fulminus Destellus
+. Afterwards, approach Titus and select his second dialogue option. Finally, leave the
+Merit Detainment Core
+and speak to
+Brutus
+to obtain the Oath.
+The player must have at least a sum of 80 points invested into Strength, Agility, or Fortitude, as well as a sum of 40 points invested into
+Thundercall
+or
+Galebreathe
+, and slightly higher than Ally reputation with
+The Hundred Legions
+to obtain Blightsurger.
+Blightsurger
+can
+be reobtained if you
+Oathbreak
+it.
+Progression
+[
+]
+To progress Blightsurger, the player will need to activate
+Sovereign State
+multiple times
+in combat
+.
+Recommended method is to hit training dummies. Attack until your
+Blight meter
+is full, then drop a note to be in combat. After that, activate Sovereign Mode and allow it to drain for 1 sec, then turn it off. It is not required to stay in the transformation the whole time or to attack in it.
+10 ~ 100% Activations - Sovereign Drive
+10 ~ 100% Activations - Blighted Touch
+10 ~ 100% Activations - Skycrash/Blight Pierce
+10 ~ 100% Activations - Warp Kick
+10 ~ 100% Activations - Anchor Shock
+10 ~ 100% Activations - Blight Lash
+Rounded up in total would be 60 ~ 100
+Sovereign Mode
+activations.
+You
+cannot
+oath skip Blightsurger. Attempting to do will have Brutus beat you down.
+Abilities
+[
+]
+Status Effect
+[
+]
+Blightshock
+- Apply 70% of damage dealt as Wither.
+Blightshock is applied through your Sovereign Bangle attacks and Blightsurge Mantras.
+Blightshock from Sovereign Bangle deals 80% of its damage as Wither instead.
+Blightshock can be further buffed with the Blight Pierce, Blighted Touch, and Anchor Shock Talents.
+Weapon
+[
+]
+Sovereign Bangle
+- An ancient bangle bestowed upon the disciples of
+Theros
+, its bearer once honored among the Legion. Sovereign State does not automatically activate at 100% Blight Meter anymore.
+This Fist Oath weapon is automatically granted upon entering Sovereign State and will automatic
+
+### 📖 [하위 연관 위키: Oath: Blindseer]
+“ The light rearranges into a missive now legible. It details the tenets of an Oath - that we are born with our eyes closed, and we merely choose to open them. ”
+― Glyphs found in the Temple of the Forgotten Flame
+Contents
+1
+Description
+2
+Obtainment
+3
+Progression
+4
+Effects
+5
+Abilities
+5.1
+Talents
+5.2
+Mantras
+5.2.1
+Combat Mantras
+6
+Sightless Beam (☆☆☆)
+6.1
+Support Mantras
+7
+Mindsoothe (☆☆☆)
+8
+Tranquil Circle (☆☆☆)
+9
+Notes
+10
+Gallery
+11
+Trivia
+12
+Navigation
+Description
+[
+]
+Oath
+: Blindseer
+is one of the 17 obtainable Oaths in
+Deepwoken.
+The Oath is based around utility and uses sanity as its resource. It can serve many useful and potentially life-saving purposes in combat and in
+The Depths
+. It is the opposing Oath to
+Visionshaper
+.
+Obtainment
+[
+]
+Blindseer glyphs
+at
+the Temple of the Forgotten Flame
+Meet the following requirements:
+Have 40 Willpower
+Have the 3 Talents from the
+Mental Fortress
+set:
+Breathing Exercise
+,
+Conquer your Fears
+and
+Disbelief
+from Talent rolls, not equipment. (You can reroll these into different talents at the
+Shrine of Chance
+once you obtain the oath)
+Be blind through the
+Blinded
+Talent from Blindfolds.
+Head to
+Lower Erisia
+and make your way to the village past the camp in the ruins.
+Above Path's Respite lies the
+Temple of the Forgotten Flame
+. Climb up the wall bordering the village to reach it.
+Climb above the temple doors or go through them if they are open and proceed inside the temple.
+Watch out for the
+Watcher
+guarding the temple, as they will spawn a
+Hollow Angel
+if they catch sight of you. Once inside the temple, proceed through a passage on the left.
+Inside the room, interact with the
+Blindseer Glyph
+while blind either from the Blind flaw or from a
+Blindfold
+(any other glyphs cannot be used to obtain the oath)
+For a more in-depth walkthrough, consider watching
+this video
+.
+Blindseer
+can
+be reobtained if you
+Oathbreak
+it.
+Progression
+[
+]
+To progress the Oath and obtain the Blindseer Mantras, you need to help Pathfinders, players who lack an Oath, in the
+Depths Trial
+. The first Mantra is unlocked after the first successful trial, the second at 3, and the last at 5. A passive Talent is also obtained after four trials (you can quickly leave three seconds after the Voice of Authority starts talking). Do note that helping people who have
+Oathless
+will not grant progression.
+Blindseer will only progress if you are faced with a trial. If both the Blindseer and the Pathfinder are low enough level to not receive a trial, you will not gain Blindseer progression.
+Alternatively, if you've fully progressed the Oath in a previous life, 10
+Knowledge
+can be spent to immediately unlock all related Talents.
+The hints toward how to progress this Oath are glyphs located at
+Su
+
+=== Tables ===
+
+[Table 1]
+Oaths
+OathlessArcwarderBladeharperBlightsurgerBlindseerChainwardenContractorDawnwalkerFadetrimmerJetstrikerLinkstriderSaintswornSaltchemistSilentheartSoulbreakerStarkindredVisionshaper
+
+=== Sub Pages Explored ===
+- Oath: Oathless
+- Oath: Arcwarder
+- Oath: Bladeharper
+- Oath: Blightsurger
+- Oath: Blindseer
+- Oath: Chainwarden
+- Oath: Contractor
