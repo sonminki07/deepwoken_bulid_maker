@@ -64,7 +64,7 @@ class DeepwokenAnalyzerGUI:
         btn_grid.pack(fill=tk.X)
 
         self.analyze_btn = tk.Button(
-            btn_grid, text="🚀 빌드 자동 분석 시작 (Analyze)", command=self.start_analysis,
+            btn_grid, text="⬇️ 대기열에 추가 및 시작", command=self.start_analysis,
             bg="#2563eb", fg="white", activebackground="#1d4ed8", activeforeground="white",
             font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=15, pady=7, cursor="hand2"
         )
@@ -98,6 +98,22 @@ class DeepwokenAnalyzerGUI:
         )
         self.wiki_btn.pack(side=tk.RIGHT)
 
+        # 대기열 리스트박스 (새로 추가됨)
+        queue_label = tk.Label(
+            input_frame, 
+            text="📋 대기열 (Queue): 위에 링크를 넣고 '분석 큐에 추가'를 누르세요. 순서대로 자동 실행됩니다.", 
+            bg="#1e293b", fg="#94a3b8", font=("Malgun Gothic", 9)
+        )
+        queue_label.pack(anchor="w", pady=(15, 2))
+
+        self.queue_listbox = tk.Listbox(
+            input_frame, height=4, font=("Consolas", 9),
+            bg="#0f172a", fg="#f8fafc", bd=1, relief=tk.SOLID, selectbackground="#38bdf8"
+        )
+        self.queue_listbox.pack(fill=tk.X)
+        self.is_processing = False
+        self.queue_thread = None
+
         # 로그 출력 영역
         log_header_frame = tk.Frame(self.root, bg="#12161f")
         log_header_frame.pack(fill=tk.X, padx=20, pady=(10, 2))
@@ -117,35 +133,70 @@ class DeepwokenAnalyzerGUI:
         )
         self.log_text.pack(fill=tk.BOTH, expand=True, padx=20, pady=(0, 15))
 
-        self.log("💡 [안내] URL 입력창에 유튜브 영상 링크나 웹 가이드 링크를 넣고 '빌드 분석 시작'을 누르세요.\n")
+        self.log("💡 [안내] URL 입력창에 링크를 넣고 '대기열에 추가'를 누르면 순서대로 자동 분석됩니다.\n")
 
     def log(self, message):
         self.log_text.insert(tk.END, message + "\n")
         self.log_text.see(tk.END)
 
     def start_analysis(self):
+        """기존 start_analysis를 큐 추가(Add to Queue) 로직으로 대체합니다."""
         raw_text = self.url_text.get(1.0, tk.END).strip()
         if not raw_text:
-            messagebox.showwarning("입력 확인", "분석할 유튜브 영상 또는 웹 가이드 링크를 입력해 주세요.")
+            messagebox.showwarning("입력 확인", "URL을 입력해 주세요.")
             return
 
         urls = [line.strip() for line in raw_text.splitlines() if line.strip() and not line.strip().startswith("#")]
         if not urls:
-            messagebox.showwarning("입력 확인", "유효한 링크가 없습니다.")
             return
-
-        self.analyze_btn.config(state=tk.DISABLED, text="⏳ 분석 진행 중...")
-        self.log_text.delete(1.0, tk.END)
+            
+        for u in urls:
+            self.queue_listbox.insert(tk.END, u)
+            self.log(f"✅ 대기열 추가됨: {u}")
+            
+        self.url_text.delete(1.0, tk.END)
         
-        if len(urls) == 1:
-            self.log(f"🚀 단일 링크 분석 시작: {urls[0]}\n" + "="*60)
-            threading.Thread(target=self._run_analysis_thread, args=(urls[0],), daemon=True).start()
-        else:
-            self.log(f"🚀 총 {len(urls)}개의 링크 일괄 분석 시작...\n" + "="*60)
-            from agents.queue_manager import QueueManager
-            qm = QueueManager()
-            qm.add_urls(urls)
-            threading.Thread(target=self._run_queue_thread, args=(len(urls),), daemon=True).start()
+        if not self.is_processing:
+            self.is_processing = True
+            self.analyze_btn.config(text="⏳ 분석 큐 가동 중 (추가 가능)")
+            self.queue_thread = threading.Thread(target=self._process_queue_worker, daemon=True)
+            self.queue_thread.start()
+
+    def _process_queue_worker(self):
+        while True:
+            size = self.queue_listbox.size()
+            if size == 0:
+                self.is_processing = False
+                self.root.after(0, lambda: self.analyze_btn.config(state=tk.NORMAL, text="⬇️ 대기열에 추가 및 시작"))
+                self.root.after(0, self.log, "\n🎉 [완료] 대기열의 모든 분석이 끝났습니다!")
+                break
+                
+            current_url = self.queue_listbox.get(0)
+            self.queue_listbox.delete(0)
+            
+            self.root.after(0, self.log, "\n" + "="*60 + f"\n🚀 큐 자동 분석 시작: {current_url}")
+            
+            # main.py analyze 명령어 동기식 실행
+            is_youtube = "youtube.com" in current_url.lower() or "youtu.be" in current_url.lower()
+            cmd = [sys.executable, "main.py", "analyze" if is_youtube else "web", current_url]
+
+            try:
+                process = subprocess.Popen(
+                    cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+                )
+                for line in iter(process.stdout.readline, ''):
+                    if line:
+                        self.root.after(0, self.log, line.rstrip())
+                process.stdout.close()
+                process.wait()
+
+                if process.returncode == 0:
+                    self.root.after(0, self.log, "✅ [성공] 분석 완료!")
+                    self.root.after(0, self._on_analysis_success, current_url)
+                else:
+                    self.root.after(0, self.log, f"❌ [실패] 에러 코드 {process.returncode}")
+            except Exception as e:
+                self.root.after(0, self.log, f"❌ [예외 발생] {e}")
 
     def _run_queue_thread(self, total_count: int):
         cmd = [sys.executable, "main.py", "queue"]
