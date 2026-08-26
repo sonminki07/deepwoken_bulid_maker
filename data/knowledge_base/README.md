@@ -22,12 +22,13 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (21개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (22개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
 | **Ashen Moppet Dagger M1 PvE Glass Ca** | `PvE` | ` / thundercall, galebreat` | [📄 문서 보기](builds/ashen-moppet-dagger-m1-pve-glass-cannon.md) |
 | **Augmenter Cleave (90 HVY + 90 IRON)** | `Hybrid` | ` / flamecharm, galebreath` | [📄 문서 보기](builds/augmenter-cleave-90-hvy-90-iron.md) |
+| **Azure Flame & Steam Duster Knockdow** | `PvP` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/azure-flame-steam-duster-knockdown-combo-pvp.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |

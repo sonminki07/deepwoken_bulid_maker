@@ -1,0 +1,126 @@
+{
+  "video_metadata": {
+    "title": "Yun Shul Sent Me This Build In My Sleep | Deepwoken",
+    "channel": "Darksteel",
+    "url": "https://www.youtube.com/watch?v=Gp18Z6MqI3I",
+    "version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Azure Flame & Steam Duster Knockdown Combo PvP Build",
+    "build_type": "PvP",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 플레이어가 'Yun Shul이 꿈에서 계시해준 빌드'라고 부를 만큼 독창적인 스팀(Steam) 및 아주르 플레임(Azure Flames) 지속 도트 대미지(DoT) 기반의 연계형 PvP 빌드입니다. M1이나 단순 만트라의 순수 한 방 대미지는 낮지만, 상대에게 지속적인 넉다운(Knockdown)과 래그돌(Ragdoll) 상태를 무한히 체이닝하여 상대의 반응을 억제하고 스팀 도트 대미지와 불꽃 지속 대미지를 중첩시켜 체력을 갉아먹는 아키타입입니다.\n\n핵심 메커니즘은 Flame Leap으로 빠르게 접근하거나 콤보를 시작한 뒤, Rising Flame과 Crystal Impale, Meteor Slam으로 이어지는 공중/지상 넉다운 연계입니다. 여기에 Steel Skewered Dusters 무기의 크리티컬 공격이 부여하는 1초 래그돌 판정을 이용해 확정적으로 Ice Lance까지 꽂아 넣는 콤보 체인을 완성합니다. 스팀 지속 대미지(초당 약 10+ 대미지)와 Azure Flame burn 도트(초당 약 5.3 대미지)가 합쳐져 초당 20에 가까운 고정 트루 대미지를 지속적으로 가합니다.\n\n다만 HP가 50% 미만으로 떨어지면 Flame Leap의 도약 거리가 급격히 줄어들어 콤보 매끄러움과 기동성이 약화되는 치명적인 단점이 있습니다. 따라서 가능한 한 높은 체력(HP) 세팅을 유지하여 50% 이상의 체력 구간에서 압도적인 주도권을 쥐고 경기를 빠르게 끝내는 플레이 스타일이 요구됩니다.",
+    "strengths": [
+      "스팀(Steam)의 타입리스(Typeless) 고정 대미지와 아주르 불꽃(Azure Flames)의 강렬한 도트 대미지 중첩으로 상대 방어력을 무시하는 강력한 지속 폭딜",
+      "Steel Skewered Dusters의 1초 래그돌 크리티컬 판정을 활용한 확정 후속타(Ice Lance 등) 콤보 체인",
+      "공중 넉다운, 지상 임페일, 메테오 슬램을 연계하여 상대의 가드 및 탈출 기회를 완전히 봉쇄하는 압도적 콤보 주도권"
+    ],
+    "weaknesses": [
+      "체력이 50% 이하로 떨어지면 Flame Leap의 도약 성능이 저하되어 메인 콤보 매커니즘 및 기동성이 크게 약화됨",
+      "M1 및 단발 만트라 자체의 기본 대미지가 낮아 콤보 연계를 실패할 경우 딜 교환에서 손해를 볼 수 있음",
+      "공중 연계 및 래그돌 타이밍에 맞춘 기어 조작과 핑(Ping) 의존도가 높아 높은 숙련도 요구"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 20,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 75
+  },
+  "attunements": {
+    "flamecharm": 80,
+    "frostdraw": 30,
+    "thundercall": 0,
+    "galebreathe": 30,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Vesperian",
+    "origin": "Castaway",
+    "murmur": "Rhythm",
+    "resonance_bell": "Reaper"
+  },
+  "talents": [
+    {
+      "name": "Azure Flames",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Steam Engine",
+      "is_core": true
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": false
+    },
+    {
+      "name": "Eel's Instinct",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Flame Leap"
+    },
+    {
+      "name": "Rising Flame"
+    },
+    {
+      "name": "Crystal Impale"
+    },
+    {
+      "name": "Meteor Slam"
+    },
+    {
+      "name": "Ice Lance"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": {
+      "name": "Steel Skewered Dusters",
+      "category": "Light Weapon",
+      "enchant": "Vampiric"
+    },
+    "outfit": "Prophet's Cloak",
+    "accessories": [
+      "Ring of Yser",
+      "Hallow's Halo"
+    ]
+  },
+  "target_mobs": {
+    "target_mobs": [
+      "PvP Players",
+      "Chaser",
+      "Duke of Erisia"
+    ],
+    "mob_strategy": [
+      "보스전 및 몬스터 사냥 시에도 넉다운 판정과 스팀 도트 대미지를 활용해 몬스터의 슈퍼아머 패턴 사이마다 무한 콤보 지속",
+      "Azure Flames 도트 디버프를 항상 유지하여 몬스터의 체력을 고정 대미지로 깎아내고 Vampiric 인챈트로 체력 50% 이상 구간 유지",
+      "보스가 대형 패턴을 캐스팅할 때 Flame Leap으로 빠르게 공중으로 탈출 후 공중 강타로 역공 기회 포착"
+    ]
+  },
+  "combo_and_playstyle": {
+    "combo_guide": "1단계 (진입 및 공중 연계): Flame Leap으로 상대의 헤드 위로 돌진한 후 Rising Flame을 시전하여 상대를 공중으로 띄웁니다.\n2단계 (넉다운 및 다운 타격): 공중에 뜬 상대에게 Crystal Impale을 맞혀 지상으로 찍어누른 뒤, 즉시 Meteor Slam을 연결하여 추가 넉다운 및 스팀 장판을 형성합니다.\n3단계 (래그돌 확정 연계): 상대가 일어나는 타이밍에 맞춰 Steel Skewered Dusters의 크리티컬(Crit) 공격을 명중시켜 1초간 래그돌 상태로 만듭니다.\n4단계 (마무리 폭딜): 래그돌 상태에 빠진 상대에게 확정적으로 Ice Lance를 꽂아 넣어 아주르 불꽃과 스팀 폭발 도트 대미지를 동시에 터뜨리며 딜 교환을 완승으로 이끕니다."
+  },
+  "video_meta": {
+    "title": "Yun Shul Sent Me This Build In My Sleep | Deepwoken",
+    "channel": "Darksteel",
+    "url": "https://www.youtube.com/watch?v=Gp18Z6MqI3I",
+    "upload_date": "20260826",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": [],
+  "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n"
+}
