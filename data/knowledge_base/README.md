@@ -22,7 +22,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (19개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (20개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -38,6 +38,7 @@
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
 | **Saltchemist Heavy Gale (Gale Triden** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/saltchemist-heavy-gale-gale-trident.md) |
 | **Shining Maelstrom V4** | `PvE` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/shining-maelstrom-v4.md) |
+| **Silent Swordsman PvE (Poser's Ring ** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/silent-swordsman-pve-posers-ring-shattered-ka.md) |
 | **Silentheart Fist Brick Wall PvE Bui** | `PvE` | ` / Attunementless` | [📄 문서 보기](builds/silentheart-fist-brick-wall-pve-build.md) |
 | **Starter Brick Wall Blindseer PvE** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/starter-brick-wall-blindseer-pve.md) |
 | **Super Sigma Soul Beam Blindseer** | `Hybrid` | ` / Attunementless` | [📄 문서 보기](builds/super-sigma-soul-beam-blindseer.md) |
