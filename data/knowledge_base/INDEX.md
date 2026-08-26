@@ -23,7 +23,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (43개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (44개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -36,6 +36,7 @@
 | **Bloodrend Hybrid PvP Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/bloodrend-hybrid-pvp-build.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
 | **Dark Pearls Inky Vent Shadowcast Pv** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/dark-pearls-inky-vent-shadowcast-pvp.md) |
+| **Deep Shrines / Shrine of Order Guid** | `Hybrid` | `Oathless / Attunementless` | [📄 문서 보기](builds/deep-shrines-shrine-of-order-guide.md) |
 | **Deep Shrines / Shrine of Order** | `Hybrid` | `Oathless / flamecharm` | [📄 문서 보기](builds/deep-shrines-shrine-of-order.md) |
 | **Deepwoken Meta Talent Tier List & O** | `PvP` | ` / flamecharm, shadowcast` | [📄 문서 보기](builds/deepwoken-meta-talent-tier-list-optimization.md) |
 | **Duchess Erisia (Galebreathe Jus Kar** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/duchess-erisia-galebreathe-jus-kar.md) |

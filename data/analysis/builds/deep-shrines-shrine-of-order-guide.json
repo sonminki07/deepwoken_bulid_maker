@@ -1,0 +1,79 @@
+{
+  "video_meta": {
+    "title": "Deep Shrines / Shrine of Order Guide",
+    "channel": "Web Source",
+    "url": "https://deepwoken.fandom.com/wiki/Deep_Shrines/Shrine_of_Order",
+    "upload_date": "N/A",
+    "estimated_patch": "Current Patch"
+  },
+  "build_summary": {
+    "build_name": "Deep Shrines / Shrine of Order Guide",
+    "build_type": "Hybrid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최적화의 핵심인 '질서의 신전(Shrine of Order)'과 기타 관련 신전들의 작동 원리, 위치 및 활용법을 다루는 위키 가이드입니다.",
+    "strengths": [
+      "제한된 레벨 포인트 내에서 고성능 탤런트 및 만트라 요구치를 초과 달성하여 복합 빌드 구성 가능",
+      "스탯 평균화를 통한 효율적인 자원 분배로 캐릭터의 잠재력 극대화",
+      "Temple of Hearts 및 필드 곳곳에 위치하여 접근성이 좋음"
+    ],
+    "weaknesses": [
+      "캐릭터당 단 한 번만 사용 가능하며, Power 8 이상 및 오맹 미보유 조건이 강제됨",
+      "스탯이 낮아지면서 기존에 해금했던 탤런트나 장비 착용 요구치를 만족하지 못해 비활성화될 수 있음",
+      "치밀한 스탯 계산 없이 사용 시 빌드가 망가지거나 탤런트가 잠길 위험이 있음"
+    ]
+  },
+  "race": "N/A",
+  "origin": "N/A",
+  "oath": "Oathless",
+  "resonance": "N/A",
+  "murmur": "N/A",
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 15,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "weapons": [],
+  "talents": [],
+  "mantras": [],
+  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n- Heavy Weapon 75 달성\n- 유틸리티 및 방어구 탤런트 최적화",
+  "equipment": [],
+  "combo_guide": "",
+  "explored_sub_pages": [
+    "Deep Shrines",
+    "Deep Shrines/Shrine of Blasphemy",
+    "Deep Shrines/Shrine of Chance",
+    "Deep Shrines/Shrine of Conceit",
+    "Deep Shrines/Shrine of Division",
+    "Deep Shrines/Shrine of Mastery",
+    "Deep Shrines/Shrine of Temptation"
+  ],
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 50,
+      "agility": 25,
+      "intelligence": 15,
+      "willpower": 40,
+      "charisma": 25
+    },
+    "post_shrine_priority": [
+      "Heavy Weapon 75 달성",
+      "유틸리티 및 방어구 탤런트 최적화"
+    ]
+  }
+}
