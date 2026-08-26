@@ -1,0 +1,77 @@
+{
+  "🩸 Vampiric Blood Drain Tank": {
+    "name": "🩸 Vampiric Blood Drain Tank",
+    "oath": "Blindseer",
+    "weapon_type": "Heavy Weapon",
+    "attunement": "Frostdraw",
+    "stats": {
+      "Strength": 30,
+      "Fortitude": 90,
+      "Agility": 25,
+      "Intelligence": 0,
+      "Willpower": 40,
+      "Charisma": 25,
+      "Heavy Wep": 100,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Frostdraw": 30,
+      "Flamecharm": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
+    },
+    "mantras": "Glacial Arc, Crystal Impale, Sightless Beam, Tranquil Circle",
+    "talents": "Reinforced Armor, Exoskeleton, Grand Feast, To the Finish, Conditioned Runner, Charismatic Cast"
+  },
+  "🛡️ Immortal Juggernaut (Brick Wall Max HP)": {
+    "name": "🛡️ Immortal Juggernaut (Brick Wall Max HP)",
+    "oath": "Oathless",
+    "weapon_type": "Heavy Weapon",
+    "attunement": "Flamecharm",
+    "stats": {
+      "Strength": 40,
+      "Fortitude": 100,
+      "Agility": 25,
+      "Intelligence": 0,
+      "Willpower": 100,
+      "Charisma": 0,
+      "Heavy Wep": 50,
+      "Medium Wep": 0,
+      "Light Wep": 0,
+      "Flamecharm": 30,
+      "Frostdraw": 0,
+      "Thundercall": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
+    },
+    "mantras": "Flame Leap, Fire Blade, Graceful Flame, Ash Slam",
+    "talents": "Brick Wall, Reinforced Armor, Exoskeleton, To the Finish, Grand Feast, Conditioned Runner, All the Rage"
+  },
+  "🏹 Celestial Long-Range Support": {
+    "name": "🏹 Celestial Long-Range Support",
+    "oath": "Blindseer",
+    "weapon_type": "Light Weapon",
+    "attunement": "Thundercall",
+    "stats": {
+      "Strength": 0,
+      "Fortitude": 40,
+      "Agility": 30,
+      "Intelligence": 45,
+      "Willpower": 40,
+      "Charisma": 40,
+      "Heavy Wep": 0,
+      "Medium Wep": 0,
+      "Light Wep": 70,
+      "Thundercall": 80,
+      "Flamecharm": 0,
+      "Frostdraw": 0,
+      "Galebreathe": 0,
+      "Shadowcast": 0,
+      "Ironsing": 0
+    },
+    "mantras": "Lightning Stream, Grand Javelin, Sightless Beam, Tranquil Circle, Spark Trap",
+    "talents": "Nullifying Clarity, Eureka, Master Craftsman, Charismatic Cast, Tough Love, Exoskeleton, Eel's Instinct"
+  }
+}

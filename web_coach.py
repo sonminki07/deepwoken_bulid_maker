@@ -130,10 +130,9 @@ def save_user_profiles(profiles: Dict[str, Any]):
     PROFILES_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROFILES_FILE.write_text(json.dumps(profiles, ensure_ascii=False, indent=2), encoding="utf-8")
 
-# 세션 상태 초기화
-if "profiles" not in st.session_state:
-    st.session_state.profiles = load_user_profiles()
-if "current_profile_name" not in st.session_state:
+# 세션 상태 초기화 (새로고침 시 항상 최신 JSON 파일에서 불러옴)
+st.session_state.profiles = load_user_profiles()
+if "current_profile_name" not in st.session_state or st.session_state.current_profile_name not in st.session_state.profiles:
     st.session_state.current_profile_name = list(st.session_state.profiles.keys())[0]
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -157,20 +156,31 @@ with col_builder:
     
     # 1. 프로필 슬롯 선택 & 관리
     profile_names = list(st.session_state.profiles.keys())
-    selected_name = st.selectbox("📂 캐릭터 빌드 슬롯 선택:", profile_names, index=profile_names.index(st.session_state.current_profile_name) if st.session_state.current_profile_name in profile_names else 0)
+    selected_name = st.selectbox(
+        "📂 캐릭터 빌드 슬롯 선택:", 
+        profile_names, 
+        index=profile_names.index(st.session_state.current_profile_name) if st.session_state.current_profile_name in profile_names else 0,
+        key="slot_selector"
+    )
     st.session_state.current_profile_name = selected_name
     curr_data = st.session_state.profiles[selected_name]
 
-    with st.expander("➕ 새 빌드 생성 / 이름 변경", expanded=False):
-        new_slot_name = st.text_input("새 빌드 이름:", value=f"내 캐릭터 빌드 {len(profile_names)+1}")
-        if st.button("✨ 새 빌드 생성"):
+    with st.expander("➕ 새 빌드 슬롯 생성", expanded=False):
+        new_slot_name = st.text_input("새 빌드 이름:", value=f"내 캐릭터 빌드 {len(profile_names)+1}", key="new_slot_input")
+        if st.button("✨ 새 슬롯 생성", key="create_slot_btn"):
             if new_slot_name and new_slot_name not in st.session_state.profiles:
                 st.session_state.profiles[new_slot_name] = {
                     "name": new_slot_name,
                     "oath": "Oathless",
                     "weapon_type": "Heavy Weapon",
                     "attunement": "Frostdraw",
-                    "stats": {k: 0 for k in curr_data.get("stats", {})},
+                    "stats": {
+                        "Strength": 0, "Fortitude": 0, "Agility": 0,
+                        "Intelligence": 0, "Willpower": 0, "Charisma": 0,
+                        "Heavy Wep": 0, "Medium Wep": 0, "Light Wep": 0,
+                        "Frostdraw": 0, "Flamecharm": 0, "Thundercall": 0,
+                        "Galebreathe": 0, "Shadowcast": 0, "Ironsing": 0
+                    },
                     "mantras": "",
                     "talents": ""
                 }
@@ -182,11 +192,16 @@ with col_builder:
     c1, c2, c3 = st.columns(3)
     with c1:
         oath_list = list(OATH_PREREQUISITES.keys())
-        current_oath = st.selectbox("Oath", oath_list, index=oath_list.index(curr_data.get("oath", "Oathless")) if curr_data.get("oath") in oath_list else 0)
+        oath_idx = oath_list.index(curr_data.get("oath", "Oathless")) if curr_data.get("oath") in oath_list else 0
+        current_oath = st.selectbox("Oath", oath_list, index=oath_idx, key=f"{selected_name}_oath")
     with c2:
-        weapon_type = st.selectbox("주무기군", ["Heavy Weapon", "Medium Weapon", "Light Weapon", "Fist / Gun"], index=0)
+        wep_options = ["Heavy Weapon", "Medium Weapon", "Light Weapon", "Fist / Gun"]
+        wep_idx = wep_options.index(curr_data.get("weapon_type", "Heavy Weapon")) if curr_data.get("weapon_type") in wep_options else 0
+        weapon_type = st.selectbox("주무기군", wep_options, index=wep_idx, key=f"{selected_name}_wtype")
     with c3:
-        main_attunement = st.selectbox("주속성", ["Frostdraw", "Flamecharm", "Thundercall", "Galebreathe", "Shadowcast", "Ironsing", "Attunementless (무속성)"], index=0)
+        att_options = ["Frostdraw", "Flamecharm", "Thundercall", "Galebreathe", "Shadowcast", "Ironsing", "Attunementless (무속성)"]
+        att_idx = att_options.index(curr_data.get("attunement", "Frostdraw")) if curr_data.get("attunement") in att_options else 0
+        main_attunement = st.selectbox("주속성", att_options, index=att_idx, key=f"{selected_name}_matt")
 
     # 3. 6대 기본 스탯 (Core Attributes)
     st.markdown("#### 📊 기본 스탯 (Core Attributes)")
@@ -194,22 +209,24 @@ with col_builder:
     
     s_col1, s_col2, s_col3 = st.columns(3)
     with s_col1:
-        str_val = st.number_input("Strength (근력)", 0, 102, int(saved_stats.get("Strength", 0)))
-        fort_val = st.number_input("Fortitude (인내)", 0, 102, int(saved_stats.get("Fortitude", 0)))
+        str_val = st.number_input("Strength (근력)", 0, 102, int(saved_stats.get("Strength", 0)), key=f"{selected_name}_str")
+        fort_val = st.number_input("Fortitude (인내)", 0, 102, int(saved_stats.get("Fortitude", 0)), key=f"{selected_name}_fort")
     with s_col2:
-        agi_val = st.number_input("Agility (민첩)", 0, 102, int(saved_stats.get("Agility", 0)))
-        int_val = st.number_input("Intelligence (지능)", 0, 102, int(saved_stats.get("Intelligence", 0)))
+        agi_val = st.number_input("Agility (민첩)", 0, 102, int(saved_stats.get("Agility", 0)), key=f"{selected_name}_agi")
+        int_val = st.number_input("Intelligence (지능)", 0, 102, int(saved_stats.get("Intelligence", 0)), key=f"{selected_name}_int")
     with s_col3:
-        wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_stats.get("Willpower", 0)))
-        cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_stats.get("Charisma", 0)))
+        wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_stats.get("Willpower", 0)), key=f"{selected_name}_wil")
+        cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_stats.get("Charisma", 0)), key=f"{selected_name}_cha")
 
     # 4. 무기 및 속성 투자 (Weapons & Attunements)
     st.markdown("#### ⚔️ 무기 및 속성 포인트 (Weapon & Element)")
     w_col1, w_col2 = st.columns(2)
     with w_col1:
-        wep_stat = st.number_input(f"{weapon_type} 투자", 0, 100, int(saved_stats.get("Heavy Wep", 0) or saved_stats.get("Medium Wep", 0) or saved_stats.get("Light Wep", 0)))
+        saved_wep_val = saved_stats.get("Heavy Wep", 0) or saved_stats.get("Medium Wep", 0) or saved_stats.get("Light Wep", 0)
+        wep_stat = st.number_input(f"{weapon_type} 투자", 0, 100, int(saved_wep_val), key=f"{selected_name}_wstat")
     with w_col2:
-        att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_stats.get(main_attunement, 0)))
+        saved_att_val = saved_stats.get(main_attunement, 0)
+        att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_att_val), key=f"{selected_name}_astat")
 
     # 스탯 총합 계산 및 345 상한선 표시 (Deepwoken Builder 기준: 기본 시작 스탯 + 327 투자 스탯)
     current_stat_dict = {
@@ -229,11 +246,11 @@ with col_builder:
         st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
 
     # 5. 장착 만트라 및 핵심 탤런트
-    mantras_input = st.text_input("🔮 장착 만트라 목록 (쉼표 구분):", value=curr_data.get("mantras", ""))
-    talents_input = st.text_input("⭐ 핵심 탤런트 목록 (쉼표 구분):", value=curr_data.get("talents", ""))
+    mantras_input = st.text_input("🔮 장착 만트라 목록 (쉼표 구분):", value=curr_data.get("mantras", ""), key=f"{selected_name}_mantras")
+    talents_input = st.text_input("⭐ 핵심 탤런트 목록 (쉼표 구분):", value=curr_data.get("talents", ""), key=f"{selected_name}_talents")
 
     # 저장 버튼
-    if st.button("💾 현재 캐릭터 프로필 저장", use_container_width=True):
+    if st.button("💾 현재 캐릭터 프로필 저장", use_container_width=True, key=f"{selected_name}_save_btn"):
         st.session_state.profiles[selected_name] = {
             "name": selected_name,
             "oath": current_oath,
