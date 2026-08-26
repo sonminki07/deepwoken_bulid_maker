@@ -286,8 +286,8 @@ with col_coach:
     if quick_cols[3].button("🛡️ 탤런트 무결성 검증"):
         quick_q = "현재 내 스탯으로 찍을 수 있는 핵심 필수 탤런트와 누락된 선행 스탯이 있는지 정밀 감사해줘."
 
-    # 채팅 메시지 기록 출력
-    chat_container = st.container()
+    # 채팅 메시지 전용 독립 스크롤 박스 (Fixed-Height Scroll Container)
+    chat_container = st.container(height=560)
     with chat_container:
         if not st.session_state.chat_history:
             st.markdown("""
