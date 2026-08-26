@@ -296,6 +296,7 @@ async def on_ready():
     print("="*60 + "\n")
 
 analysis_queue_lock = asyncio.Lock()
+active_tasks: Dict[int, asyncio.Task] = {}
 
 @bot.event
 async def on_message(message: discord.Message):
@@ -320,23 +321,27 @@ async def on_message(message: discord.Message):
         except Exception:
             pass
 
-        for url in urls:
-            is_waiting = analysis_queue_lock.locked()
-            init_text = (
-                f"⏳ **[대기열 등록]** <@{message.author.id}> 님, 앞선 작업이 완료된 후 순서대로 자동 시작됩니다...\n`{url}`"
-                if is_waiting else
-                f"🚀 **[0%]** <@{message.author.id}> 님의 링크를 접수했습니다. 분석 준비 중...\n`{url}`"
-            )
-            status_msg = await message.reply(init_text)
+            for url in urls:
+                is_waiting = analysis_queue_lock.locked()
+                init_text = (
+                    f"⏳ **[대기열 등록]** <@{message.author.id}> 님, 앞선 작업이 완료된 후 순서대로 자동 시작됩니다...\n`{url}`"
+                    if is_waiting else
+                    f"🚀 **[0%]** <@{message.author.id}> 님의 링크를 접수했습니다. 분석 준비 중...\n(원본 메시지에 ❌ 이모지를 달면 작업을 취소할 수 있습니다)\n`{url}`"
+                )
+                status_msg = await message.reply(init_text)
 
-            async with analysis_queue_lock:
-                try:
-                    data = await asyncio.wait_for(run_pipeline_with_progress(url, status_msg), timeout=240.0)
-                    raw = data["raw"]
-                    result_dict = data["result_dict"]
-                    b_name = raw.get("build_summary", {}).get("build_name", "Build")
+                async with analysis_queue_lock:
+                    try:
+                        # 4분(240초) 제한을 15분(900초)으로 대폭 늘려서 모바일 폰 네트워크 환경에 대응
+                        task = asyncio.create_task(run_pipeline_with_progress(url, status_msg))
+                        active_tasks[message.id] = task
+                        
+                        data = await asyncio.wait_for(task, timeout=900.0)
+                        raw = data["raw"]
+                        result_dict = data["result_dict"]
+                        b_name = raw.get("build_summary", {}).get("build_name", "Build")
 
-                    embed = create_rich_build_embed(raw, url)
+                        embed = create_rich_build_embed(raw, url)
 
                     # JSON 파일 첨부
                     doc_id = raw.get("doc_id") or result_dict.get("video_id") or url.split("v=")[-1].split("&")[0] or "build"
@@ -367,10 +372,16 @@ async def on_message(message: discord.Message):
 
                 except asyncio.TimeoutError:
                     logger.error(f"Analysis timed out for {url}")
-                    await status_msg.edit(content=f"⚠️ **[시간 초과]** <@{message.author.id}> 님, `{url}`\n영상 처리 시간이 초과되었습니다 (네트워크 상태 확인 후 다시 시도해 주세요).")
+                    await status_msg.edit(content=f"⚠️ **[시간 초과]** <@{message.author.id}> 님, `{url}`\n영상 처리 시간(15분)이 초과되었습니다. 유튜브 다운로드가 느리거나 제미나이 응답이 지연되었습니다.")
                     try:
                         await message.remove_reaction("⏳", bot.user)
                         await message.add_reaction("❌")
+                    except Exception:
+                        pass
+                except asyncio.CancelledError:
+                    logger.warning(f"Analysis cancelled for {url}")
+                    try:
+                        await message.remove_reaction("⏳", bot.user)
                     except Exception:
                         pass
                 except Exception as e:
@@ -382,6 +393,9 @@ async def on_message(message: discord.Message):
                         await message.add_reaction("❌")
                     except Exception:
                         pass
+                finally:
+                    if message.id in active_tasks:
+                        del active_tasks[message.id]
         return
 
     # Case 2: '#chat' 채널이거나 봇 멘션 -> Search Grounding RAG AI 빌드 어드바이저 대화
@@ -413,6 +427,21 @@ async def on_message(message: discord.Message):
         return
 
     await bot.process_commands(message)
+
+@bot.event
+async def on_raw_reaction_add(payload: discord.RawReactionActionEvent):
+    if payload.user_id == bot.user.id:
+        return
+        
+    if str(payload.emoji) == "❌":
+        task = active_tasks.get(payload.message_id)
+        if task and not task.done():
+            task.cancel()
+            logger.info(f"🚫 [Cancel] User {payload.user_id} cancelled analysis for message {payload.message_id}")
+            channel = bot.get_channel(payload.channel_id)
+            if channel:
+                msg = await channel.fetch_message(payload.message_id)
+                await msg.reply("🚫 **[취소됨]** 사용자의 요청으로 분석이 중단되었습니다.")
 
 def main():
     ensure_single_instance(49281)
