@@ -2,7 +2,6 @@ discord.py==2.7.1
 google-genai==2.19.0
 google-generativeai
 yt-dlp
-pydantic
 python-dotenv
 rich
 beautifulsoup4
