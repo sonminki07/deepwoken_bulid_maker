@@ -67,12 +67,12 @@ ATTUNEMENTS = ["Flamecharm", "Frostdraw", "Thundercall", "Galebreathe", "Shadowc
 class DeepwokenFactChecker:
     """Deepwoken Builder(deepwoken.co) 공식 룰 기반 수치, 탤런트 선행 조건, 스탯 무결성 정밀 검증기"""
 
-    # Deepwoken Builder 기준: 기본 시작 베이스(12~15pt) + 레벨업 투자 포인트(327pt) = 최대 345~347pt
-    MAX_VALID_STAT_SUM = 345
+    # Deepwoken Builder (deepwoken.co) 공식 순수 투자 포인트 한도: 정확히 330 pt
+    MAX_VALID_STAT_SUM = 330
 
     @staticmethod
     def calculate_total_stats(stats: Dict[str, int]) -> int:
-        """스탯 총합 계산 (기본 베이스 + 투자치 포함 345pt 한도)"""
+        """스탯 총 투자 포인트 합산 (deepwoken.co 기준 330pt 한도)"""
         valid_keys = [
             "Strength", "Fortitude", "Agility", "Intelligence", "Willpower", "Charisma",
             "Heavy Wep", "Medium Wep", "Light Wep",

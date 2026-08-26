@@ -228,7 +228,7 @@ with col_builder:
         saved_att_val = saved_stats.get(main_attunement, 0)
         att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_att_val), key=f"{selected_name}_astat")
 
-    # 스탯 총합 계산 및 345 상한선 표시 (Deepwoken Builder 기준: 기본 시작 스탯 + 327 투자 스탯)
+    # 스탯 총합 계산 및 330 상한선 표시 (Deepwoken Builder deepwoken.co 공식 기준: 정확히 330 pt)
     current_stat_dict = {
         "Strength": str_val, "Fortitude": fort_val, "Agility": agi_val,
         "Intelligence": int_val, "Willpower": wil_val, "Charisma": cha_val,
@@ -241,7 +241,7 @@ with col_builder:
     max_cap = DeepwokenFactChecker.MAX_VALID_STAT_SUM
 
     if total_stat_points <= max_cap:
-        st.markdown(f'<div class="stat-badge-ok">📊 총 스탯: {total_stat_points} / {max_cap} pt (Deepwoken Builder 공식 룰 준수 ✅)</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="stat-badge-ok">📊 총 스탯 투자: {total_stat_points} / {max_cap} pt (deepwoken.co 공식 룰 100% 일치 ✅)</div>', unsafe_allow_html=True)
     else:
         st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
 
