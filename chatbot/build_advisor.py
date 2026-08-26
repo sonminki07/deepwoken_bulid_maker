@@ -50,17 +50,21 @@ class BuildAdvisor:
         self.top_k = top_k
         self.kb = KnowledgeBuilder(db_path=db_path, collection_name=collection_name, api_key=self.api_key, use_gemini_embedding=False)
 
-    def search_web(self, query: str, max_results: int = 3) -> str:
-        """실시간 웹 검색 (Deepwoken Wiki, Reddit, 빌더 등 - 최대 3초 타임아웃)"""
-        # 멀티라인 및 특수문자 제거하여 핵심 키워드만 추출
-        clean_q = re.sub(r'\[.*?\]', '', query).replace('\n', ' ').strip()
-        clean_q = ' '.join(clean_q.split()[:8])  # 최대 8단어
+    def search_web(self, query: str, max_results: int = 4) -> str:
+        """실시간 웹 검색 (Deepwoken Wiki, Reddit, Fandom 등 심층 검색)"""
+        # 사용자 질문 본문만 추출하여 정확도 높은 검색 쿼리 구성
+        if "[사용자 질문]" in query:
+            clean_q = query.split("[사용자 질문]")[-1].strip()
+        else:
+            clean_q = re.sub(r'\[.*?\]', '', query).replace('\n', ' ').strip()
+            
+        clean_q = ' '.join(clean_q.split()[:20])  # 풍부한 맥락 유지
         if not clean_q:
             return ""
 
         search_query = f"Deepwoken {clean_q}"
         try:
-            with DDGS(timeout=3) as ddgs:
+            with DDGS(timeout=10) as ddgs:
                 results = list(ddgs.text(search_query, max_results=max_results))
                 if not results:
                     return ""
@@ -69,7 +73,7 @@ class BuildAdvisor:
                     snippets.append(f"- **{r.get('title')}**: {r.get('body')}")
                 return "\n".join(snippets)
         except Exception as e:
-            logger.warning(f"Web search skipped: {e}")
+            logger.warning(f"Web search note: {e}")
             return ""
 
     def ask(self, user_query: str, history: Optional[List[Dict[str, str]]] = None) -> str:

@@ -126,6 +126,20 @@ def load_user_profiles() -> Dict[str, Any]:
         }
     }
 
+CHAT_HISTORY_FILE = Path("data/coach_chat_history.json")
+
+def load_chat_history() -> List[Dict[str, str]]:
+    if CHAT_HISTORY_FILE.exists():
+        try:
+            return json.loads(CHAT_HISTORY_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return []
+
+def save_chat_history(history: List[Dict[str, str]]):
+    CHAT_HISTORY_FILE.parent.mkdir(parents=True, exist_ok=True)
+    CHAT_HISTORY_FILE.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
+
 def save_user_profiles(profiles: Dict[str, Any]):
     PROFILES_FILE.parent.mkdir(parents=True, exist_ok=True)
     PROFILES_FILE.write_text(json.dumps(profiles, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -135,7 +149,7 @@ st.session_state.profiles = load_user_profiles()
 if "current_profile_name" not in st.session_state or st.session_state.current_profile_name not in st.session_state.profiles:
     st.session_state.current_profile_name = list(st.session_state.profiles.keys())[0]
 if "chat_history" not in st.session_state:
-    st.session_state.chat_history = []
+    st.session_state.chat_history = load_chat_history()
 if "advisor" not in st.session_state:
     st.session_state.advisor = BuildAdvisor(top_k=4)
 
@@ -334,11 +348,13 @@ with col_coach:
                 
                 final_response = raw_advice + "\n" + verification_badge
                 st.session_state.chat_history.append({"role": "assistant", "content": final_response})
+                save_chat_history(st.session_state.chat_history)
                 st.rerun()
 
     # 대화 초기화 버튼
     if st.button("🧹 대화 기억 초기화"):
         st.session_state.chat_history = []
+        save_chat_history([])
         st.rerun()
 
 # ==========================================
