@@ -211,7 +211,7 @@ with col_builder:
     with w_col2:
         att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_stats.get(main_attunement, 0)))
 
-    # 스탯 총합 계산 및 330 상한선 표시
+    # 스탯 총합 계산 및 345 상한선 표시 (Deepwoken Builder 기준: 기본 시작 스탯 + 327 투자 스탯)
     current_stat_dict = {
         "Strength": str_val, "Fortitude": fort_val, "Agility": agi_val,
         "Intelligence": int_val, "Willpower": wil_val, "Charisma": cha_val,
@@ -221,11 +221,12 @@ with col_builder:
         main_attunement: att_stat
     }
     total_stat_points = DeepwokenFactChecker.calculate_total_stats(current_stat_dict)
+    max_cap = DeepwokenFactChecker.MAX_VALID_STAT_SUM
 
-    if total_stat_points <= 330:
-        st.markdown(f'<div class="stat-badge-ok">📊 총 스탯 투자: {total_stat_points} / 330 pt (정상 범위 ✅)</div>', unsafe_allow_html=True)
+    if total_stat_points <= max_cap:
+        st.markdown(f'<div class="stat-badge-ok">📊 총 스탯: {total_stat_points} / {max_cap} pt (Deepwoken Builder 공식 룰 준수 ✅)</div>', unsafe_allow_html=True)
     else:
-        st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / 330 pt (+{total_stat_points - 330}pt 초과)</div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
 
     # 5. 장착 만트라 및 핵심 탤런트
     mantras_input = st.text_input("🔮 장착 만트라 목록 (쉼표 구분):", value=curr_data.get("mantras", ""))

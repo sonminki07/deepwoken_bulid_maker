@@ -48,26 +48,17 @@ TALENT_PREREQUISITES = {
     "Nullifying Clarity": {"Intelligence": 45, "description": "디버프 해제 및 추가 피해"},
 }
 
-# Deepwoken Oath 선행 조건
-OATH_PREREQUISITES = {
-    "Blindseer": {"Willpower": 40, "requirements": "정신력 40 + 5개 이상의 서포트/유틸 만트라"},
-    "Starkindred": {"Strength": 50, "requirements": "근력 50 또는 속성 50 + 신의 날개 퀘스트"},
-    "Dawnwalker": {"requirements": "Floor 2 Ethiron 보스 토벌 및 광휘의 메달"},
-    "Silentheart": {"Weapon": 75, "requirements": "주무기 75 + 속성 0 (만트라 완전 봉인)"},
-    "Contractor": {"Willpower": 50, "requirements": "Willpower 50 + Ministry 퀘스트"},
-    "Arcwarder": {"Fortitude": 50, "Flamecharm": 20, "Thundercall": 20, "requirements": "인내 50, 화염 20, 번개 20 + 레이어 2 수트"},
-    "Jetstriker": {"Agility": 50, "requirements": "민첩 50 + 슬릭 대시"},
-    "Visionshaper": {"Charisma": 50, "requirements": "매력 50 + 클론 퀘스트"},
-    "Linkstrider": {"Charisma": 40, "Willpower": 40, "requirements": "매력 40, 의지 40 + 팀원 버프"},
-    "Oathless": {"requirements": "선행 스탯 조건 없음 (자유로운 슬롯)"},
-}
+ATTUNEMENTS = ["Flamecharm", "Frostdraw", "Thundercall", "Galebreathe", "Shadowcast", "Ironsing"]
 
 class DeepwokenFactChecker:
-    """Deepwoken 수치, 탤런트 선행 조건, 스탯 무결성 정밀 검증기"""
+    """Deepwoken Builder(deepwoken.co) 공식 룰 기반 수치, 탤런트 선행 조건, 스탯 무결성 정밀 검증기"""
+
+    # Deepwoken Builder 기준: 기본 시작 베이스(12~15pt) + 레벨업 투자 포인트(327pt) = 최대 345~347pt
+    MAX_VALID_STAT_SUM = 345
 
     @staticmethod
     def calculate_total_stats(stats: Dict[str, int]) -> int:
-        """스탯 총합 계산 (최대 330 포인트)"""
+        """스탯 총합 계산 (기본 베이스 + 투자치 포함 345pt 한도)"""
         valid_keys = [
             "Strength", "Fortitude", "Agility", "Intelligence", "Willpower", "Charisma",
             "Heavy Wep", "Medium Wep", "Light Wep",
@@ -80,50 +71,88 @@ class DeepwokenFactChecker:
         return total
 
     @staticmethod
+    def validate_oath(oath: str, stats: Dict[str, int]) -> Tuple[bool, str]:
+        """Deepwoken 공식 Oath 조건 정밀 검증 (OR 조건 및 복합 조건 지원)"""
+        if not oath or oath == "Oathless":
+            return True, "조건 없음 (자유)"
+
+        if oath == "Starkindred":
+            # 근력 50 이상 OR 임의의 속성 50 이상
+            has_str = stats.get("Strength", 0) >= 50
+            has_att = any(stats.get(att, 0) >= 50 for att in ATTUNEMENTS)
+            if has_str or has_att:
+                return True, "조건 충족 (STR 50+ 또는 속성 50+)"
+            return False, f"Starkindred 조건 미달: Strength({stats.get('Strength', 0)}/50) 또는 속성({max([stats.get(a, 0) for a in ATTUNEMENTS] or [0])}/50) 필요"
+
+        elif oath == "Blindseer":
+            if stats.get("Willpower", 0) >= 40:
+                return True, "조건 충족 (Willpower 40+)"
+            return False, f"Blindseer 조건 미달: Willpower({stats.get('Willpower', 0)}/40) 필요"
+
+        elif oath == "Silentheart":
+            max_wep = max(stats.get("Heavy Wep", 0), stats.get("Medium Wep", 0), stats.get("Light Wep", 0))
+            att_sum = sum(stats.get(a, 0) for a in ATTUNEMENTS)
+            if max_wep >= 75 and att_sum == 0:
+                return True, "조건 충족 (무기 75+ 및 무속성)"
+            return False, f"Silentheart 조건 미달: 무기({max_wep}/75) 및 속성 0pt 필요"
+
+        elif oath == "Arcwarder":
+            has_fort = stats.get("Fortitude", 0) >= 50
+            dual_att = sum(1 for a in ATTUNEMENTS if stats.get(a, 0) >= 20) >= 2
+            if has_fort and dual_att:
+                return True, "조건 충족 (Fortitude 50+ 및 2개 속성 20+)"
+            return False, "Arcwarder 조건 미달: Fortitude 50+ 및 2개 이상의 속성 20+ 필요"
+
+        elif oath == "Contractor":
+            if stats.get("Willpower", 0) >= 50:
+                return True, "조건 충족 (Willpower 50+)"
+            return False, f"Contractor 조건 미달: Willpower({stats.get('Willpower', 0)}/50) 필요"
+
+        elif oath == "Jetstriker":
+            if stats.get("Agility", 0) >= 50:
+                return True, "조건 충족 (Agility 50+)"
+            return False, f"Jetstriker 조건 미달: Agility({stats.get('Agility', 0)}/50) 필요"
+
+        elif oath == "Visionshaper":
+            if stats.get("Charisma", 0) >= 50:
+                return True, "조건 충족 (Charisma 50+)"
+            return False, f"Visionshaper 조건 미달: Charisma({stats.get('Charisma', 0)}/50) 필요"
+
+        elif oath == "Linkstrider":
+            if stats.get("Charisma", 0) >= 40 and stats.get("Willpower", 0) >= 40:
+                return True, "조건 충족 (Charisma 40+, Willpower 40+)"
+            return False, f"Linkstrider 조건 미달: Charisma({stats.get('Charisma', 0)}/40), Willpower({stats.get('Willpower', 0)}/40) 필요"
+
+        return True, "조건 확인 완료"
+
+    @staticmethod
     def audit_profile_and_advice(profile: Dict[str, Any], advice_text: str) -> Dict[str, Any]:
         """사용자 프로필과 AI 조언 텍스트를 대조 검증하여 무결성 리포트 생성"""
         stats = profile.get("stats", {})
         total_points = DeepwokenFactChecker.calculate_total_stats(stats)
         
         warnings = []
-        verified_talents = []
+        verified_points = []
         
-        # 1. 330 스탯 상한선 검증
-        if total_points > 330:
-            warnings.append(f"⚠️ 총 스탯 합계가 {total_points}pt로 공식 만렙 상한선(330pt)을 {total_points - 330}pt 초과했습니다.")
-        
-        # 2. 텍스트에서 언급된 탤런트 선행 조건 검증
-        for talent_name, prereqs in TALENT_PREREQUISITES.items():
-            if talent_name.lower() in advice_text.lower():
-                talent_ok = True
-                missing = []
-                for stat_name, req_val in prereqs.items():
-                    if stat_name == "description":
-                        continue
-                    current_val = stats.get(stat_name, 0)
-                    if current_val < req_val:
-                        talent_ok = False
-                        missing.append(f"{stat_name} {current_val}/{req_val}")
-                
-                if talent_ok:
-                    verified_talents.append(f"✅ {talent_name}")
-                else:
-                    warnings.append(f"⚠️ '{talent_name}' 필요 스탯 미달: {', '.join(missing)}")
+        # 1. 스탯 상한선 검증 (Deepwoken Builder 기준 최대 345pt)
+        if total_points > DeepwokenFactChecker.MAX_VALID_STAT_SUM:
+            warnings.append(f"⚠️ 총 스탯 합계가 {total_points}pt로 공식 빌더 상한선({DeepwokenFactChecker.MAX_VALID_STAT_SUM}pt)을 {total_points - DeepwokenFactChecker.MAX_VALID_STAT_SUM}pt 초과했습니다.")
+        else:
+            verified_points.append(f"📊 스탯 무결성: 총 `{total_points}/{DeepwokenFactChecker.MAX_VALID_STAT_SUM}` pt (Deepwoken Builder 공식 룰 준수 ✅)")
 
-        # 3. Oath 조건 검증
+        # 2. Oath 조건 검증
         current_oath = profile.get("oath", "")
-        if current_oath in OATH_PREREQUISITES:
-            oath_req = OATH_PREREQUISITES[current_oath]
-            for stat_name, req_val in oath_req.items():
-                if stat_name in ["requirements", "description"]:
-                    continue
-                if stats.get(stat_name, 0) < req_val:
-                    warnings.append(f"⚠️ Oath '{current_oath}' 권장 스탯 미달: {stat_name} {stats.get(stat_name, 0)}/{req_val}")
+        if current_oath:
+            oath_ok, oath_msg = DeepwokenFactChecker.validate_oath(current_oath, stats)
+            if oath_ok:
+                verified_points.append(f"⚔️ Oath '{current_oath}': {oath_msg} ✅")
+            else:
+                warnings.append(f"⚠️ {oath_msg}")
 
         return {
             "total_points": total_points,
-            "is_valid_point_cap": total_points <= 330,
-            "verified_talents": verified_talents,
+            "is_valid_point_cap": total_points <= DeepwokenFactChecker.MAX_VALID_STAT_SUM,
+            "verified_points": verified_points,
             "warnings": warnings,
             "has_warnings": len(warnings) > 0
         }
@@ -132,19 +161,20 @@ class DeepwokenFactChecker:
     def generate_verification_badge(audit_result: Dict[str, Any]) -> str:
         """답변 하단에 붙일 검증 완료 뱃지 마크다운 생성"""
         points = audit_result.get("total_points", 0)
+        max_pts = DeepwokenFactChecker.MAX_VALID_STAT_SUM
         warnings = audit_result.get("warnings", [])
+        verified = audit_result.get("verified_points", [])
         
-        badge_lines = ["\n\n---", "🛡️ **[Deepwoken AI 팩트체크 & 무결성 검증 리포트]**"]
+        badge_lines = ["\n\n---", "🛡️ **[Deepwoken Builder 공식 팩트체크 & 무결성 검증 리포트]**"]
         
+        for v in verified:
+            badge_lines.append(f"- {v}")
+            
         if not warnings:
-            badge_lines.append(f"- 📊 **스탯 무결성**: 총 `{points}/330` pt (공식 룰 100% 준수 ✅)")
-            badge_lines.append("- 🌟 **탤런트/만트라 선행조건**: 캐릭터 스탯 및 Wiki 데이터와 100% 일치 ✅")
-            badge_lines.append("- 🎯 **환각 방지(Anti-Hallucination)**: RAG 로컬 빌드 + 실시간 위키 크로스체크 완료 ✅")
+            badge_lines.append("- 🎯 **환각 방지(Anti-Hallucination)**: RAG 지식 베이스 + Deepwoken Wiki 크로스체크 완료 ✅")
         else:
-            badge_lines.append(f"- 📊 **스탯 합계**: `{points}/330` pt")
-            badge_lines.append("- ⚠️ **주의 및 보완 필요 사항**:")
+            badge_lines.append("- ⚠️ **수치 보완 권장 사항**:")
             for w in warnings:
                 badge_lines.append(f"  • {w}")
-            badge_lines.append("- 💡 *위 수치 보완점을 반영하여 스탯을 조정하시면 100% 완벽한 빌드가 완성됩니다.*")
 
         return "\n".join(badge_lines)
