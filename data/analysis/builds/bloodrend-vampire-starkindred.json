@@ -1,0 +1,130 @@
+{
+  "video_metadata": {
+    "title": "Progressing The BLOODREND VAMPIRE Build (1-20) | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=3pRtMXlLFdU",
+    "upload_date": "2026-08-19",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Bloodrend Vampire Starkindred",
+    "build_type": "Hybrid",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Bloodrend 속성과 Starkindred 오스를 결합하여 강력한 흡혈 능력과 공중 기동성을 극대화한 하이브리드 빌드입니다. Shrine of Order를 활용해 스탯 효율을 최적화하였으며, 적에게 지속적인 출혈 피해를 입히고 가해진 피해의 일부를 체력으로 흡수하여 난전에서 압도적인 생존력을 보여줍니다. 특히 Skyreap Blade(낫)와의 시너지가 뛰어나 스타일리시하면서도 실속 있는 전투가 가능합니다.",
+    "strengths": [
+      "Bloodrend의 강력한 흡혈(Vampiric) 메커니즘을 통한 뛰어난 유지력",
+      "Starkindred의 날개를 활용한 우수한 공중 기동성 및 추격 능력",
+      "과다출혈 및 지속 출혈 데미지를 통한 압도적인 누적 딜링",
+      "난전 및 다대다(Gank) 상황에서 빛을 발하는 생존력"
+    ],
+    "weaknesses": [
+      "Shrine of Order를 거쳐야 하므로 육성 난이도가 높음",
+      "흡혈에 의존하기 때문에 패링을 당하거나 딜을 넣지 못하면 급격히 취약해짐"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 90,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 80
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Kiron",
+    "origin": "Voidheart",
+    "murmur": "None",
+    "resonance_bell": "Kamui"
+  },
+  "talents": [
+    {
+      "name": "Tough Love",
+      "is_core": true
+    },
+    {
+      "name": "To the Finish",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Evasive Expert",
+      "is_core": false
+    },
+    {
+      "name": "Unwavering Resolve",
+      "is_core": true
+    },
+    {
+      "name": "Showstopper",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Blood Siphon"
+    },
+    {
+      "name": "Ascension"
+    },
+    {
+      "name": "Crescent Assault"
+    },
+    {
+      "name": "Rapid Punches"
+    },
+    {
+      "name": "Agile Dash"
+    },
+    {
+      "name": "Exhaustion Strike"
+    }
+  ],
+  "weapons_equipment": {
+    "weapon": "Skyreap Blade (Scythe)",
+    "outfit": "Prophet's Cloak",
+    "accessories": [
+      "Providence's Thorns Enchanted Weapon",
+      "Vampiric / Bloodrend Synergized Rings"
+    ]
+  },
+  "target_mobs_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Duke of Erisia",
+      "Primadon",
+      "Scion of Ethiron"
+    ],
+    "mob_strategy": "기본적으로 몹의 패턴을 패링한 후, Bloodrend 만트라(예: Blood Siphon 등)를 연계하여 출혈을 묻힙니다. Starkindred의 Ascension을 사용해 공중으로 띄운 뒤 내려찍는 콤보로 광역 데미지를 입히며, 체력이 낮아질 때마다 흡혈 만트라와 평타 연계로 안정적으로 체력을 복구합니다."
+  },
+  "combo_playstyle_guide": {
+    "combo_guide": "Starkindred의 'Ascension'으로 진입하거나 적을 띄운 뒤, 공중 평타와 'Crescent Assault'를 연계합니다. 이후 지상으로 내려와 'Blood Siphon' 또는 'Rapid Punches'를 사용해 폭발적인 다단 히트와 출혈을 유도합니다. 적이 거리를 벌리려 하면 'Agile Dash'와 Starkindred의 기동성을 활용해 끝까지 추격하며 페인트를 섞어 패링 타이밍을 빼앗는 것이 핵심입니다."
+  },
+  "video_meta": {
+    "title": "Progressing The BLOODREND VAMPIRE Build (1-20) | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=3pRtMXlLFdU",
+    "upload_date": "20260819",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
