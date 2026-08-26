@@ -72,80 +72,74 @@ class WebPipelineOrchestrator:
             return {}
 
     def process_url(self, url: str) -> Dict[str, Any]:
-        """단일 웹 URL에 대해 서브 에이전트들을 가동하여 빌드 분석 및 RAG 적재 수행 (중복 소스 자동 캐시 로드)"""
+        """단일 웹 URL에 대해 웹 스크래핑을 수행하고 텍스트 원본을 마크다운으로 저장합니다."""
         start_time = time.time()
-        logger.info(f"=== [Web Multi-Agent Pipeline] Starting for: {url} ===")
+        logger.info(f"=== [Web Scraping Pipeline] Starting for: {url} ===")
 
         # Step 0: 중복 검사
         import hashlib
         potential_doc_id = "web_" + hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
-        cached_files = list(self.structurer.analysis_dir.rglob(f"{potential_doc_id}.json"))
-        if cached_files:
-            cached_json_path = cached_files[0]
-            category = cached_json_path.parent.name
-            cached_md_path = self.structurer.knowledge_base_dir / category / f"{potential_doc_id}.md"
-            logger.info(f"⚡ [Cache Hit] Found existing web analysis for {potential_doc_id} in {category}/")
-            try:
-                cached_data = json.loads(cached_json_path.read_text(encoding="utf-8"))
-                b_name = cached_data.get("build_summary", {}).get("build_name", "Deepwoken Guide")
-                return {
-                    "status": "success",
-                    "cached": True,
-                    "doc_id": potential_doc_id,
-                    "url": url,
-                    "build_name": b_name,
-                    "json_path": str(cached_json_path),
-                    "md_path": str(cached_md_path),
-                    "elapsed_seconds": 0.05,
-                    "build_data": cached_data
-                }
-            except Exception as e:
-                logger.warning(f"Failed to read cached web JSON ({e}), re-analyzing...")
+        
+        target_dir = self.structurer.knowledge_base_dir / "web_docs"
+        target_dir.mkdir(parents=True, exist_ok=True)
+        cached_md_path = target_dir / f"{potential_doc_id}.md"
+        
+        if cached_md_path.exists():
+            logger.info(f"⚡ [Cache Hit] Found existing scraped doc for {potential_doc_id}")
+            return {
+                "status": "success",
+                "cached": True,
+                "doc_id": potential_doc_id,
+                "url": url,
+                "build_name": potential_doc_id,
+                "json_path": "",
+                "md_path": str(cached_md_path),
+                "elapsed_seconds": 0.05,
+                "build_data": {}
+            }
 
         # Step 1: 웹페이지 스크래핑
-        logger.info("[SubAgent 1/5] Scraping HTML and text structure via WebScraperAgent...")
+        logger.info("Scraping HTML and text structure via WebScraperAgent...")
         scraped: ScrapedWebContent = self.scraper.scrape(url)
 
-        # Step 2 & 3: 서브 에이전트 병렬 가동 (BuildParser & ContextParser)
-        logger.info("[SubAgent 2 & 3] Running BuildParser and ContextParser subagents in parallel...")
-        with ThreadPoolExecutor(max_workers=2) as executor:
-            future_mechanics = executor.submit(self.build_parser.parse, scraped)
-            future_context = executor.submit(self.context_parser.parse, scraped)
-
-            build_mechanics = future_mechanics.result()
-            context_data = future_context.result()
-
-        # Step 4: 교차 검증 및 데이터 병합
-        logger.info("[SubAgent 4/5] Merging and cross-validating via CrossValidatorAgent...")
-        merged_build = self.validator.validate_and_merge(scraped, build_mechanics, context_data)
-        if scraped.sub_pages:
-            merged_build["explored_sub_pages"] = scraped.sub_pages
-
-        # Step 4.5: 스탯 누락 시 자가 질의응답 및 웹 검색을 통한 자동 스탯 추론/보강
-        merged_build = self.stat_inferrer.enrich_if_missing(merged_build, {"title": scraped.title})
-
-        # Step 5: JSON 검증 & Markdown 생성 및 ChromaDB 인덱싱
-        logger.info("[SubAgent 5/5] Structuring and indexing to ChromaDB knowledge base...")
+        # Step 2: 마크다운 파일로 원문 통째로 저장
+        logger.info("Saving scraped raw text to markdown...")
         doc_id = scraped.doc_id
-        saved_paths = self.structurer.process_and_save(raw_json=merged_build, video_id=doc_id)
+        md_content = f"# {scraped.title}\n\n"
+        md_content += f"**URL**: {scraped.url}\n\n"
+        if scraped.meta_description:
+            md_content += f"**Description**: {scraped.meta_description}\n\n"
+        
+        md_content += "---\n\n"
+        md_content += scraped.cleaned_text
+        
+        if scraped.tables_text:
+            md_content += "\n\n## Tables\n\n" + scraped.tables_text
 
-        self.knowledge_builder.ingest_build(
-            video_id=doc_id,
-            json_path=saved_paths["json_path"],
-            md_path=saved_paths["md_path"]
-        )
+        if scraped.sub_pages:
+            md_content += "\n\n## Sub Pages Explored\n"
+            for sp in scraped.sub_pages:
+                md_content += f"- {sp}\n"
+
+        md_path = target_dir / f"{doc_id}.md"
+        md_path.write_text(md_content, encoding="utf-8")
+
+        # dummy json path for compatibility with gui_app.py
+        json_dir = self.structurer.analysis_dir / "web_docs"
+        json_dir.mkdir(parents=True, exist_ok=True)
+        json_path = json_dir / f"{doc_id}.json"
+        json_path.write_text(json.dumps({"url": url, "title": scraped.title}, ensure_ascii=False, indent=2), encoding="utf-8")
 
         elapsed = time.time() - start_time
-        build_name = merged_build.get("build_summary", {}).get("build_name", scraped.title)
-        logger.info(f"=== Web Pipeline completed in {elapsed:.2f}s for '{build_name}' ===")
+        logger.info(f"=== Web Scraping Pipeline completed in {elapsed:.2f}s for '{scraped.title}' ===")
 
         return {
             "status": "success",
             "doc_id": doc_id,
             "url": url,
-            "build_name": build_name,
-            "json_path": str(saved_paths["json_path"]),
-            "md_path": str(saved_paths["md_path"]),
+            "build_name": scraped.title,
+            "json_path": str(json_path),
+            "md_path": str(md_path),
             "elapsed_seconds": elapsed,
-            "build_data": merged_build
+            "build_data": {"title": scraped.title, "url": url}
         }
