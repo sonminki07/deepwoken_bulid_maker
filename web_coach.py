@@ -8,6 +8,7 @@ import streamlit as st
 # 로컬 백엔드 모듈 임포트
 from chatbot.build_advisor import BuildAdvisor
 from chatbot.coach_validator import DeepwokenFactChecker, TALENT_PREREQUISITES, OATH_PREREQUISITES
+from chatbot.builder_calculator import DeepwokenCalculator, DEEPWOKEN_RACES, OUTFIT_PRESETS
 
 # 페이지 기본 설정
 st.set_page_config(
@@ -202,12 +203,20 @@ with col_builder:
                 save_user_profiles(st.session_state.profiles)
                 st.rerun()
 
-    # 2. 기본 정보 (Oath, 무기, 속성)
-    c1, c2, c3 = st.columns(3)
-    with c1:
+    # 2. Aspect / Race (종족) 및 Oath, 무기군
+    r_col1, r_col2 = st.columns([1, 1])
+    with r_col1:
+        race_list = list(DEEPWOKEN_RACES.keys())
+        saved_race = curr_data.get("race", "Vesperian")
+        race_idx = race_list.index(saved_race) if saved_race in race_list else race_list.index("Vesperian")
+        selected_race = st.selectbox("🧬 Aspect / Race (종족)", race_list, index=race_idx, key=f"{selected_name}_race")
+        st.caption(f"💡 {DEEPWOKEN_RACES[selected_race]['desc']}")
+    with r_col2:
         oath_list = list(OATH_PREREQUISITES.keys())
         oath_idx = oath_list.index(curr_data.get("oath", "Oathless")) if curr_data.get("oath") in oath_list else 0
-        current_oath = st.selectbox("Oath", oath_list, index=oath_idx, key=f"{selected_name}_oath")
+        current_oath = st.selectbox("⚔️ Oath (서약)", oath_list, index=oath_idx, key=f"{selected_name}_oath")
+
+    c2, c3 = st.columns(2)
     with c2:
         wep_options = ["Heavy Weapon", "Medium Weapon", "Light Weapon", "Fist / Gun"]
         wep_idx = wep_options.index(curr_data.get("weapon_type", "Heavy Weapon")) if curr_data.get("weapon_type") in wep_options else 0
@@ -217,7 +226,26 @@ with col_builder:
         att_idx = att_options.index(curr_data.get("attunement", "Frostdraw")) if curr_data.get("attunement") in att_options else 0
         main_attunement = st.selectbox("주속성", att_options, index=att_idx, key=f"{selected_name}_matt")
 
-    # 3. 6대 기본 스탯 (Core Attributes)
+    # 3. 4대 보조 특성 (Traits - 최대 6pt)
+    st.markdown("#### 🌟 4대 특성 (Traits - 만렙 6pt 분배)")
+    saved_traits = curr_data.get("traits", {"Vitality": 6, "Erudition": 0, "Proficiency": 0, "Songchant": 0})
+    t_col1, t_col2, t_col3, t_col4 = st.columns(4)
+    with t_col1:
+        vit_val = st.number_input("Vitality (체력)", 0, 6, int(saved_traits.get("Vitality", 6)), key=f"{selected_name}_vit")
+    with t_col2:
+        eru_val = st.number_input("Erudition (에테르)", 0, 6, int(saved_traits.get("Erudition", 0)), key=f"{selected_name}_eru")
+    with t_col3:
+        pro_val = st.number_input("Proficiency (무기딜)", 0, 6, int(saved_traits.get("Proficiency", 0)), key=f"{selected_name}_pro")
+    with t_col4:
+        son_val = st.number_input("Songchant (만트라)", 0, 6, int(saved_traits.get("Songchant", 0)), key=f"{selected_name}_son")
+
+    total_traits = vit_val + eru_val + pro_val + son_val
+    if total_traits <= 6:
+        st.caption(f"🌟 특성 포인트 사용: **{total_traits} / 6 pt** (정상 ✅)")
+    else:
+        st.warning(f"⚠️ 특성 포인트 초과: {total_traits} / 6 pt (+{total_traits - 6}pt 초과)")
+
+    # 4. 6대 기본 스탯 (Core Attributes)
     st.markdown("#### 📊 기본 스탯 (Core Attributes)")
     saved_stats = curr_data.get("stats", {})
     
@@ -232,7 +260,7 @@ with col_builder:
         wil_val = st.number_input("Willpower (의지)", 0, 102, int(saved_stats.get("Willpower", 0)), key=f"{selected_name}_wil")
         cha_val = st.number_input("Charisma (매력)", 0, 102, int(saved_stats.get("Charisma", 0)), key=f"{selected_name}_cha")
 
-    # 4. 무기 및 속성 투자 (Weapons & Attunements)
+    # 5. 무기 및 속성 투자 (Weapons & Attunements)
     st.markdown("#### ⚔️ 무기 및 속성 포인트 (Weapon & Element)")
     w_col1, w_col2 = st.columns(2)
     with w_col1:
@@ -242,7 +270,7 @@ with col_builder:
         saved_att_val = saved_stats.get(main_attunement, 0)
         att_stat = st.number_input(f"{main_attunement} 투자", 0, 100, int(saved_att_val), key=f"{selected_name}_astat")
 
-    # 스탯 총합 계산 및 330 상한선 표시 (Deepwoken Builder deepwoken.co 공식 기준: 정확히 330 pt)
+    # 스탯 총합 계산 및 330 상한선 표시
     current_stat_dict = {
         "Strength": str_val, "Fortitude": fort_val, "Agility": agi_val,
         "Intelligence": int_val, "Willpower": wil_val, "Charisma": cha_val,
@@ -259,23 +287,75 @@ with col_builder:
     else:
         st.markdown(f'<div class="stat-badge-warn">⚠️ 총 스탯 초과: {total_stat_points} / {max_cap} pt (+{total_stat_points - max_cap}pt 초과)</div>', unsafe_allow_html=True)
 
-    # 5. 장착 만트라 및 핵심 탤런트
+    # 6. 장비 & 방어구 세팅 (Equipment)
+    st.markdown("#### 🛡️ 장비 및 방어구 세팅 (Equipment)")
+    saved_eq = curr_data.get("equipment", {})
+    eq_col1, eq_col2 = st.columns(2)
+    with eq_col1:
+        outfit_list = list(OUTFIT_PRESETS.keys())
+        saved_outfit = saved_eq.get("outfit", outfit_list[0])
+        outfit_idx = outfit_list.index(saved_outfit) if saved_outfit in outfit_list else 0
+        selected_outfit = st.selectbox("👔 방어구 (Outfit)", outfit_list, index=outfit_idx, key=f"{selected_name}_outfit")
+    with eq_col2:
+        weapon_enchant = st.selectbox("✨ 무기 인챈트 (Enchant)", ["None", "Detonation (폭발 딜)", "Astral (하얀 오라/물리)", "Vampirism (흡혈)", "Chilling (동결)", "Blazing (화염)", "Grim (피해량 증폭)"], index=1 if "Silentheart" in current_oath else 0, key=f"{selected_name}_enchant")
+
+    current_eq_dict = {
+        "outfit": selected_outfit,
+        "enchant": weapon_enchant,
+        "extra_hp": saved_eq.get("extra_hp", 20),
+        "extra_dve": saved_eq.get("extra_dve", 10),
+    }
+
+    # 7. 장착 만트라 및 핵심 탤런트
     mantras_input = st.text_input("🔮 장착 만트라 목록 (쉼표 구분):", value=curr_data.get("mantras", ""), key=f"{selected_name}_mantras")
     talents_input = st.text_input("⭐ 핵심 탤런트 목록 (쉼표 구분):", value=curr_data.get("talents", ""), key=f"{selected_name}_talents")
+
+    # 8. 🧮 실시간 종합 계산기 (STATS & RESISTANCES Dashboard)
+    char_sheet = DeepwokenCalculator.calculate_character_sheet(
+        race=selected_race,
+        stats=current_stat_dict,
+        traits={"Vitality": vit_val, "Erudition": eru_val, "Proficiency": pro_val, "Songchant": son_val},
+        equipment=current_eq_dict,
+        talents_str=talents_input
+    )
+    computed_stats = char_sheet["stats"]
+    computed_res = char_sheet["resistances"]
+
+    st.markdown("---")
+    st.markdown("#### 📈 최종 종합 능력치 (STATS)")
+    stat_c1, stat_c2, stat_c3, stat_c4 = st.columns(4)
+    stat_c1.metric("❤️ Max HP", f"{computed_stats['health']} HP")
+    stat_c2.metric("🛡️ Posture", f"{computed_stats['posture']}")
+    stat_c3.metric("💠 Ether", f"{computed_stats['ether']}")
+    stat_c4.metric("⏩ Tempo", f"{computed_stats['tempo']}")
+
+    stat_c5, stat_c6 = st.columns(2)
+    stat_c5.metric("🗡️ PvE 딜증 (Dmg vs Monsters)", f"+{computed_stats['pve_dmg_pct']}%")
+    stat_c6.metric("🏃 이동 속도 (Speed)", f"{computed_stats['speed_pct']}%")
+
+    st.markdown("#### 🛡️ 최종 저항력 (RESISTANCES)")
+    res_c1, res_c2, res_c3, res_c4 = st.columns(4)
+    res_c1.metric("🛡️ 물리 저항", f"{computed_res['slash']}%")
+    res_c2.metric("🔥 화염 저항", f"{computed_res['flame']}%")
+    res_c3.metric("❄️ 빙결 저항", f"{computed_res['frost']}%")
+    res_c4.metric("⚡ 번개 저항", f"{computed_res['thunder']}%")
 
     # 저장 버튼
     if st.button("💾 현재 캐릭터 프로필 저장", use_container_width=True, key=f"{selected_name}_save_btn"):
         st.session_state.profiles[selected_name] = {
             "name": selected_name,
+            "race": selected_race,
             "oath": current_oath,
             "weapon_type": weapon_type,
             "attunement": main_attunement,
+            "traits": {"Vitality": vit_val, "Erudition": eru_val, "Proficiency": pro_val, "Songchant": son_val},
             "stats": current_stat_dict,
+            "equipment": current_eq_dict,
             "mantras": mantras_input,
             "talents": talents_input
         }
         save_user_profiles(st.session_state.profiles)
-        st.success(f"'{selected_name}' 프로필이 안전하게 저장되었습니다! ✅")
+        st.success(f"'{selected_name}' 프로필(종족, 특성, 장비, 저항력)이 안전하게 저장되었습니다! ✅")
 
 # ==========================================
 # 💬 우측: 1:1 맞춤형 AI 전담 코치 & 팩트체커
@@ -329,10 +409,15 @@ with col_coach:
             profile_context = (
                 f"[현재 사용자 캐릭터 프로필]\n"
                 f"- 빌드명: {active_profile.get('name')}\n"
+                f"- 종족(Aspect/Race): {active_profile.get('race', 'Vesperian')}\n"
                 f"- Oath: {active_profile.get('oath')}\n"
                 f"- 주무기: {active_profile.get('weapon_type')}\n"
                 f"- 주속성: {active_profile.get('attunement')}\n"
-                f"- 스탯 분배: {active_profile.get('stats')}\n"
+                f"- 4대 특성(Traits): {active_profile.get('traits', {})}\n"
+                f"- 6대 스탯: {active_profile.get('stats')}\n"
+                f"- 장비/인챈트: {active_profile.get('equipment', {})}\n"
+                f"- 최종 산출 수치(STATS): Max HP: {computed_stats['health']}, Posture: {computed_stats['posture']}, Ether: {computed_stats['ether']}, Tempo: {computed_stats['tempo']}, PvE 보스딜: +{computed_stats['pve_dmg_pct']}%\n"
+                f"- 최종 저항력(RESISTANCES): 물리 {computed_res['slash']}%, 화염 {computed_res['flame']}%, 빙결 {computed_res['frost']}%, 번개 {computed_res['thunder']}%\n"
                 f"- 장착 만트라: {active_profile.get('mantras')}\n"
                 f"- 장착/목표 탤런트: {active_profile.get('talents')}\n"
             )

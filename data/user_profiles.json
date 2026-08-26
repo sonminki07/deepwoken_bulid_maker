@@ -1,9 +1,16 @@
 {
   "⚓ Silentheart Heavy M1 Melter (Duke/Primadon 1-Min Cut)": {
     "name": "⚓ Silentheart Heavy M1 Melter (Duke/Primadon 1-Min Cut)",
+    "race": "Vesperian",
     "oath": "Silentheart",
     "weapon_type": "Heavy Weapon",
     "attunement": "Attunementless (무속성)",
+    "traits": {
+      "Vitality": 6,
+      "Erudition": 0,
+      "Proficiency": 0,
+      "Songchant": 0
+    },
     "stats": {
       "Strength": 50,
       "Fortitude": 90,
@@ -21,14 +28,27 @@
       "Shadowcast": 0,
       "Ironsing": 0
     },
+    "equipment": {
+      "outfit": "Ignition Centurion (초중장갑 극탱)",
+      "enchant": "Detonation (폭발 딜)",
+      "extra_hp": 25,
+      "extra_dve": 15
+    },
     "mantras": "Mani Katti (사슬 다단베기), Dread Breath (전방 포효), Ankle Cutter (자세 붕괴), Enrapture (사슬 결박)",
     "talents": "Heavy Intent (하얀 인텐트 평타 폭딜), Reinforced Armor (체력 450+ 깡방어), Giant Slayer (보스 딜 +15%), Exoskeleton, Collapse, Speed Demon"
   },
   "🩸 Vampiric Blood Drain Tank": {
     "name": "🩸 Vampiric Blood Drain Tank",
+    "race": "Capra",
     "oath": "Blindseer",
     "weapon_type": "Heavy Weapon",
     "attunement": "Frostdraw",
+    "traits": {
+      "Vitality": 4,
+      "Erudition": 2,
+      "Proficiency": 0,
+      "Songchant": 0
+    },
     "stats": {
       "Strength": 30,
       "Fortitude": 90,
@@ -46,14 +66,27 @@
       "Shadowcast": 0,
       "Ironsing": 0
     },
+    "equipment": {
+      "outfit": "Black Diver (엔드게임 방어구)",
+      "enchant": "Vampirism (흡혈)",
+      "extra_hp": 20,
+      "extra_dve": 10
+    },
     "mantras": "Glacial Arc, Crystal Impale, Sightless Beam, Tranquil Circle",
     "talents": "Reinforced Armor, Exoskeleton, Grand Feast, To the Finish, Conditioned Runner, Charismatic Cast"
   },
   "🛡️ Immortal Juggernaut (Brick Wall Max HP)": {
     "name": "🛡️ Immortal Juggernaut (Brick Wall Max HP)",
+    "race": "Canor",
     "oath": "Oathless",
     "weapon_type": "Heavy Weapon",
     "attunement": "Flamecharm",
+    "traits": {
+      "Vitality": 6,
+      "Erudition": 0,
+      "Proficiency": 0,
+      "Songchant": 0
+    },
     "stats": {
       "Strength": 40,
       "Fortitude": 100,
@@ -71,14 +104,27 @@
       "Shadowcast": 0,
       "Ironsing": 0
     },
+    "equipment": {
+      "outfit": "Ignition Centurion (초중장갑 극탱)",
+      "enchant": "Blazing (화염)",
+      "extra_hp": 30,
+      "extra_dve": 10
+    },
     "mantras": "Flame Leap, Fire Blade, Graceful Flame, Ash Slam",
     "talents": "Brick Wall, Reinforced Armor, Exoskeleton, To the Finish, Grand Feast, Conditioned Runner, All the Rage"
   },
   "🏹 Celestial Long-Range Support": {
     "name": "🏹 Celestial Long-Range Support",
+    "race": "Celtor",
     "oath": "Blindseer",
     "weapon_type": "Light Weapon",
     "attunement": "Thundercall",
+    "traits": {
+      "Vitality": 2,
+      "Erudition": 4,
+      "Proficiency": 0,
+      "Songchant": 0
+    },
     "stats": {
       "Strength": 0,
       "Fortitude": 40,
@@ -95,6 +141,12 @@
       "Galebreathe": 0,
       "Shadowcast": 0,
       "Ironsing": 0
+    },
+    "equipment": {
+      "outfit": "Prophet Cloak (에테르 마법사)",
+      "enchant": "Astral (하얀 오라/물리)",
+      "extra_hp": 15,
+      "extra_dve": 10
     },
     "mantras": "Lightning Stream, Grand Javelin, Sightless Beam, Tranquil Circle, Spark Trap",
     "talents": "Nullifying Clarity, Eureka, Master Craftsman, Charismatic Cast, Tough Love, Exoskeleton, Eel's Instinct"
