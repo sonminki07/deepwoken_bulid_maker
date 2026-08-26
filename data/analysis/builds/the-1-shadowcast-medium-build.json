@@ -1,0 +1,108 @@
+{
+  "video_metadata": {
+    "title": "The #1 Shadowcast Build | Deepwoken",
+    "channel": "mrsaje",
+    "url": "https://www.youtube.com/watch?v=ISNt-FN_miY",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "The #1 Shadowcast Medium Build",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 강력한 섀도우캐스트(Shadowcast) 만트라와 미디엄 무기의 빠른 공격 속도를 결합한 최상위권 PvP 빌드입니다. 상대의 에테르를 흡수하는 섀도우캐스트의 고유 특성을 극대화하여 장기전에서 압도적인 우위를 점할 수 있습니다. 다양한 유틸리티 만트라와 강력한 콤보 연계를 통해 상대방의 가드를 무너뜨리고 지속적인 압박을 가하는 데 특화되어 있습니다.",
+    "strengths": [
+      "상대의 에테르를 흡수하여 스킬 사용을 억제함",
+      "섀도우 체인과 에럽션을 활용한 강력한 콤보 연계력",
+      "미디엄 무기의 빠른 공속과 리치를 활용한 안정적인 딜링"
+    ],
+    "weaknesses": [
+      "섀도우캐스트 만트라의 높은 에테르 소모량",
+      "정교한 패링과 거리 조절이 요구되는 높은 난이도"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 40,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 20,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 75,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 80,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Vesperian",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Kamui"
+  },
+  "talents": [
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": true
+    },
+    {
+      "name": "Shadow Eater",
+      "is_core": true
+    },
+    {
+      "name": "Dark Rift",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    "Shadow Chains",
+    "Shadow Eruption",
+    "Shadow Gun",
+    "Shadow Roar",
+    "Shadow Travel"
+  ],
+  "weapons_equipment": {
+    "weapon": "Shattered Katana",
+    "weapon_type": "Medium",
+    "recommended_enchant": "Grim",
+    "outfit": "Black Diver",
+    "accessories": [
+      "Imperial Boots",
+      "Starfire Ring"
+    ]
+  },
+  "target_mobs_boss_strategy": {
+    "target_mobs": [
+      "Duke of Erisia",
+      "Chaser",
+      "Primadon"
+    ],
+    "mob_strategy": "섀도우 에럽션과 섀도우 건을 사용하여 안전한 거리에서 보스의 패턴을 캔슬시키고, 보스가 그로기 상태일 때 미디엄 무기의 빠른 평타 콤보와 섀도우 체인을 연계하여 폭발적인 데미지를 누적시킵니다."
+  },
+  "combo_playstyle_guide": {
+    "combo_guide": "기본적으로 섀도우 트래블(Shadow Travel)을 사용해 상대의 사각지대로 빠르게 파고든 뒤, 평타 2타 후 섀도우 에럽션(Shadow Eruption)으로 에어본을 유도합니다. 공중에 뜬 상대에게 섀도우 체인(Shadow Chains)을 연계하여 구속하고, 마지막으로 섀도우 건(Shadow Gun)이나 강력한 평타 크리티컬로 마무리하는 콤보가 핵심입니다. 상대의 에테르를 지속적으로 흡수하므로 페이스를 유지하며 압박하는 것이 중요합니다."
+  },
+  "video_meta": {
+    "title": "The #1 Shadowcast Build | Deepwoken",
+    "channel": "mrsaje",
+    "url": "https://www.youtube.com/watch?v=ISNt-FN_miY",
+    "upload_date": "20260825",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}
