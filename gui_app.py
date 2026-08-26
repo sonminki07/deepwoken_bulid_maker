@@ -180,9 +180,11 @@ class DeepwokenAnalyzerGUI:
             is_youtube = "youtube.com" in current_url.lower() or "youtu.be" in current_url.lower()
             cmd = [sys.executable, "main.py", "analyze" if is_youtube else "web", current_url]
 
+            creation_flags = 0x08000000 if sys.platform == "win32" else 0
             try:
                 process = subprocess.Popen(
-                    cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+                    cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1,
+                    creationflags=creation_flags
                 )
                 for line in iter(process.stdout.readline, ''):
                     if line:
@@ -200,9 +202,11 @@ class DeepwokenAnalyzerGUI:
 
     def _run_queue_thread(self, total_count: int):
         cmd = [sys.executable, "main.py", "queue"]
+        creation_flags = 0x08000000 if sys.platform == "win32" else 0
         try:
             process = subprocess.Popen(
-                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1,
+                creationflags=creation_flags
             )
             for line in iter(process.stdout.readline, ''):
                 if line:
@@ -222,10 +226,12 @@ class DeepwokenAnalyzerGUI:
     def _run_analysis_thread(self, url: str):
         is_youtube = "youtube.com" in url.lower() or "youtu.be" in url.lower()
         cmd = [sys.executable, "main.py", "analyze" if is_youtube else "web", url]
+        creation_flags = 0x08000000 if sys.platform == "win32" else 0
 
         try:
             process = subprocess.Popen(
-                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+                cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1,
+                creationflags=creation_flags
             )
 
             for line in iter(process.stdout.readline, ''):
@@ -248,16 +254,17 @@ class DeepwokenAnalyzerGUI:
 
     def _on_analysis_success(self, url: str):
         self.copy_json_btn.config(state=tk.NORMAL)
-        # 깃허브 자동 백업 실행
+        # 깃허브 자동 백업 실행 (백그라운드 무음 실행)
         threading.Thread(target=self._auto_push_github, args=(url,), daemon=True).start()
 
     def _auto_push_github(self, url: str):
+        creation_flags = 0x08000000 if sys.platform == "win32" else 0
         try:
-            subprocess.run(["git", "add", "data/analysis/", "data/knowledge_base/"], cwd=str(PROJECT_DIR), check=True)
-            diff_proc = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(PROJECT_DIR))
+            subprocess.run(["git", "add", "data/analysis/", "data/knowledge_base/"], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
+            diff_proc = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(PROJECT_DIR), creationflags=creation_flags)
             if diff_proc.returncode != 0:
-                subprocess.run(["git", "commit", "-m", f"🤖 [Local PC] 빌드 분석 자동 동기화 ({url[:30]})"], cwd=str(PROJECT_DIR), check=True)
-                subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_DIR), check=True)
+                subprocess.run(["git", "commit", "-m", f"🤖 [Local PC] 빌드 분석 자동 동기화 ({url[:30]})"], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
+                subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
                 self.root.after(0, self.log, "☁️ [GitHub 동기화 완료] 깃허브 저장소에 최신 빌드 데이터가 자동 백업되었습니다.")
         except Exception as e:
             self.root.after(0, self.log, f"⚠️ [GitHub 동기화 건너뜀] {e}")

@@ -39,14 +39,15 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 def push_to_github(commit_msg: str) -> bool:
-    """분석된 빌드 JSON 및 지식 문서를 GitHub 저장소에 자동 커밋 & 푸시"""
+    """분석된 빌드 JSON 및 지식 문서를 GitHub 저장소에 자동 커밋 & 푸시 (무음 백그라운드)"""
+    creation_flags = 0x08000000 if sys.platform == "win32" else 0
     try:
-        subprocess.run(["git", "add", "data/analysis/", "data/knowledge_base/"], cwd=str(PROJECT_DIR), check=True)
-        diff_proc = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(PROJECT_DIR))
+        subprocess.run(["git", "add", "data/analysis/", "data/knowledge_base/"], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
+        diff_proc = subprocess.run(["git", "diff", "--staged", "--quiet"], cwd=str(PROJECT_DIR), creationflags=creation_flags)
         if diff_proc.returncode == 0:
             return True
-        subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(PROJECT_DIR), check=True)
-        subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_DIR), check=True)
+        subprocess.run(["git", "commit", "-m", commit_msg], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
+        subprocess.run(["git", "push", "origin", "main"], cwd=str(PROJECT_DIR), check=True, creationflags=creation_flags)
         return True
     except Exception as e:
         logger.error(f"[Git Push Error] {e}")
