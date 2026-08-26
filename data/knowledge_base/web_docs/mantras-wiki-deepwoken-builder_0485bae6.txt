@@ -1,0 +1,290 @@
+Title: Mantras — Wiki - Deepwoken Builder
+URL: https://deepwoken.co/wiki/mantra
+Description: Combat, mobility, support, and wisp skills.
+
+==================================================
+
+Mantras — Wiki - Deepwoken Builder
+Filter
+237
+entries
+Abyssal Ridge
+Objective
+Speak to Carrion with a Nautilodaunt Beak
+Send a cascading eruption towards your foes, forcing them to react.
+Abyssal Tendrils
+Objective
+Speak to carrion with a Charged Parasol Part
+Create tentacles and pierce multiple opponents at once.
+Adrenaline Surge
+Agility
+20
+An adrenaline rush of mobility.
+Agile Dash
+Agility
+40
+Launch forwards into an agile dash.
+Air Force
+Galebreathe
+1
+Shoots out an air blast.
+Alsin's Aid
+Objective
+Warder Path
+Origin
+Justicar
+Give your ally an aura that grants them more speed, and increases the amount of healing they receive for 10 seconds.
+Arc Beam
+Talent
+Oath: Arcwarder
+Fire plasma energy. Deals additional damage in PvE.
+Arc Suit
+Talent
+Oath: Arcwarder
+Conjure and equip your Arcwarder suit.
+Arc Wave
+Talent
+Oath: Arcwarder
+Stomp the ground releasing a wave of Arc energy.
+Ardour Slicer
+Talent
+Oath: Soulbreaker
+Close the distance and deliver a fast slash using your Ardour.
+Ascension
+Talent
+Oath: Starkindred
+Take to the skies for a devastating strike.
+Ash Slam
+Flamecharm
+50
+Strength
+20
+Strike the ground, turning it to ash.
+Astral Wind
+Galebreathe
+50
+A rapid delivery of consecutive attacks.
+Beast Burrow
+Objective
+Speak to Carrion with a Thresher Talon
+...
+Blade of Saints
+Talent
+Oath: Saintsworn
+Perform an Attuned attack. This attack will change depending on your current Saint Stance.
+Blinding Dawn
+Talent
+Oath: Dawnwalker
+Spin rapidly to unleash powerful rays of light.
+Blood Orb
+Bloodrend
+1
+Release an amalgamation of your blood.
+Blood Stakes
+Bloodrend
+20
+Create stakes of blood.
+Blood Wisp
+Bloodrend
+30
+A servant of blood.
+Bloodcurdle
+Bloodrend
+50
+Manipulate the blood within your target's body.
+Bloodedge
+Bloodrend
+20
+Conjure a scythe of blood and swing.
+Bloodtide Ritual
+Bloodrend
+50
+Summon the Bloodtide and perform a sacrificial judgement.
+Bolt Piercer
+Thundercall
+30
+An arrow of lightning.
+Bone Wisp
+Objective
+Speak to Carrion with a Charged Bonecharm
+A servant of bone, powered by the Eternal Gale.
+Brace
+Fortitude
+75
+Brace yourself against attacks and gain hyperarmour.
+Brachial Spear
+Objective
+Speak to carrion with a Giant Femur
+A javelin of jagged bone.
+Burning Servants
+Flamecharm
+1
+Summon a legion of flaming spearmen that lunge inwards.
+Caltrops
+Ironsing
+30
+Sharp metal traps.
+Ceaseless Slashes
+Light Weapon
+50
+Click to reveal yourself and deliver a rapid flurry of slashes that can chain together.
+Celestial Assault
+Talent
+Oath: Starkindred
+Use your wings and deliver two critical blows.
+Chain Pull
+Ironsing
+20
+Manifest chains to brutally pull enemies towards you.
+Champion's Whirlthrow
+Galebreathe
+30
+Grab your opponent and toss them with the power of gale. Pressing F will toss your opponent straight down.
+Close Shave
+Talent
+Oath: Fadetrimmer
+Close the distance and deliver a fast slash.
+Clutching Shadow
+Shadowcast
+1
+A shadowy hand.
+Coral Spear
+Objective
+Speak to carrion with a Megalodaunt Coral
+...
+Crimson Rain
+Bloodrend
+30
+Release blood daggers. Recast to call them.
+Crimson Surge
+Bloodrend
+30
+Slash upwards and launch slashes of blood.
+Crucifixion
+Bloodrend
+1
+Conjure a bloody cross.
+Crystal Impale
+Frostdraw
+30
+Talent
+Glass Path: Crystallization
+Impale your foes with a brutal ice barrage. Does +25% damage if enemy is airborne, or after a Crystal Knee.
+Crystal Knee
+Frostdraw
+30
+Talent
+Glass Path: Crystallization
+Knock your enemy skyward with a kick of crystal.
+Dark Blade
+Shadowcast
+1
+Slicing blades of dark energy.
+Decimate
+Talent
+Oath: Bladeharper
+Cut through your opponent.
+Devouring Eye
+Shadowcast
+30
+Summons a fragile eye that consumes the Ether of those who try to cast Mantras within its gaze.
+Disguise
+Charisma
+20
+Objective
+Complete Mime's Quest
+Take on an unimaginable disguise.
+Dread Breath
+Objective
+Speak to carrion with a Dread Serpent's Tooth
+...
+Dread Whisper
+Charisma
+50
+Grab your opponent and whisper a terrible truth in their ear. Further truths are unbearable. Deals increased damage to the insane.
+Eclipse Kick
+Shadowcast
+50
+Strength
+15
+Show your foes your strength.
+Electro Carve
+Thundercall
+20
+Produce a highly potent field of electromagnetism, shocking all inside.
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Arc Beam - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Arc%20Beam
+Arc Beam - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Arc Suit - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Arc%20Suit
+Arc Suit - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Arc Wave - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Arc%20Wave
+Arc Wave - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Ardour Slicer - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Ardour%20Slicer
+Ardour Slicer - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Ascension - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Ascension
+Ascension - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Blade of Saints - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Blade%20of%20Saints
+Blade of Saints - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+### 📖 [하위 상세 문서: Blinding Dawn - Mantra Wiki - Deepwoken Builder]
+- URL: https://deepwoken.co/wiki/mantra/Blinding%20Dawn
+Blinding Dawn - Mantra Wiki - Deepwoken Builder
+Article
+No article yet.
+Sign in
+to leave a comment.
+No comments yet. Be the first.
+
+=== Sub Pages Explored ===
+- Arc%20Beam
+- Arc%20Suit
+- Arc%20Wave
+- Ardour%20Slicer
+- Ascension
+- Blade%20of%20Saints
+- Blinding%20Dawn
