@@ -25,7 +25,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (30개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (31개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -43,6 +43,7 @@
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
 | **NLK Blindseer Medium Greatsword** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nlk-blindseer-medium-greatsword.md) |
 | **Palace Tachi Shadowcast Contractor** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/palace-tachi-shadowcast-contractor.md) |
+| **Pale Briar Arcwarder Ironsing (Atla** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/pale-briar-arcwarder-ironsing-atlas-v1.md) |
 | **Poser's Ring Ironsing Thundercall S** | `PvE` | `Soulbreaker / Attunementl` | [📄 문서 보기](builds/posers-ring-ironsing-thundercall-soulbre.md) |
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
 | **Saintsworn Nuke & AoE Burst Build** | `PvP` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/saintsworn-nuke-aoe-burst-build.md) |
