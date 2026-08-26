@@ -1,0 +1,214 @@
+{
+  "video_metadata": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "patch_version": "Verse 2 (Ironsing Augmenter Buff Patch)"
+  },
+  "build_summary": {
+    "build_name": "Augmenter Cleave (90 HVY + 90 IRON)",
+    "build_type": "Hybrid",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Ironsing의 Augmenter 경로 버프를 극대화하여 강력한 메탈 그레이트소드(Metal Greatsword)를 소환하고 대미지를 가하는 빌드입니다. Shrine of Order를 활용해 높은 스탯 요구치를 가진 핵심 탤런트들을 미리 획득한 뒤 스탯을 최적화했습니다. 뛰어난 기동성과 생존력, 그리고 강력한 한 방 딜을 동시에 챙긴 하이브리드 빌드입니다.",
+    "strengths": [
+      "Augmenter 버프로 인한 메탈 그레이트소드의 강력한 화력",
+      "Galebreathe와 Flamecharm을 활용한 압도적인 기동성 및 유틸리티",
+      "Undying Flame과 Graceful Flame을 통한 심해(Depths)에서의 뛰어난 유지력 및 자가 치유",
+      "높은 물리 방어력 및 피해 감소 시너지"
+    ],
+    "weaknesses": [
+      "Shrine of Order를 사용하기 위한 정교한 레벨업 및 스탯 분배 순서 필요",
+      "다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 난이도가 높음"
+    ]
+  },
+  "stats": {
+    "strength": 25,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 75,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 25,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 25,
+    "shadowcast": 0,
+    "ironsing": 25,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Soulbreaker",
+    "race": "Felinor",
+    "origin": "Deepbound",
+    "murmur": "All",
+    "resonance_bell": "Crazy Slots"
+  },
+  "talents": [
+    {
+      "name": "Rending Needle: Augmenter",
+      "is_core": true
+    },
+    {
+      "name": "Risky Moves",
+      "is_core": true
+    },
+    {
+      "name": "Destructive Recovery",
+      "is_core": true
+    },
+    {
+      "name": "To The Finish",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "Undying Flame",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": false
+    },
+    {
+      "name": "Charm",
+      "is_core": false
+    },
+    {
+      "name": "Phantom Step",
+      "is_core": true
+    },
+    {
+      "name": "Air Pressure",
+      "is_core": true
+    },
+    {
+      "name": "Gale Lunge",
+      "is_core": false
+    },
+    {
+      "name": "Phoenix Impact",
+      "is_core": false
+    },
+    {
+      "name": "Meteor Impact",
+      "is_core": true
+    },
+    {
+      "name": "Endurance Runner",
+      "is_core": false
+    },
+    {
+      "name": "Flame Within",
+      "is_core": false
+    },
+    {
+      "name": "Lowstride",
+      "is_core": false
+    },
+    {
+      "name": "Charged Return",
+      "is_core": false
+    },
+    {
+      "name": "All Habits Die Hard",
+      "is_core": false
+    },
+    {
+      "name": "Breathing Exercise",
+      "is_core": false
+    },
+    {
+      "name": "Conquer Your Fears",
+      "is_core": false
+    },
+    {
+      "name": "Magical Resolve",
+      "is_core": false
+    },
+    {
+      "name": "Flaming Flourish",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Rising Flame"
+    },
+    {
+      "name": "Gale Trap"
+    },
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Rising Wind"
+    },
+    {
+      "name": "Oxidizing Rush"
+    },
+    {
+      "name": "Metal Armament"
+    },
+    {
+      "name": "Metal Fakeout"
+    },
+    {
+      "name": "Exhaustion Strike"
+    },
+    {
+      "name": "Flame Leap"
+    },
+    {
+      "name": "Graceful Flame"
+    },
+    {
+      "name": "Chain Pull"
+    }
+  ],
+  "weapons_and_equipment": {
+    "weapon": "Kyrsleave",
+    "weapon_type": "Heavy Weapon",
+    "recommended_enchant": "Metal",
+    "outfit": "Familiar Assassin's Armor (Hallotide)",
+    "accessories": [
+      "Tyran Pendant",
+      "Bastions of Enmity",
+      "Star Boots",
+      "Aegis of Enmity",
+      "Kong's Clutch Ring",
+      "Ferryman's Ring",
+      "Master Thief Earrings",
+      "Citadel Frames",
+      "Bloodiron Ring",
+      "Akira's Ring"
+    ]
+  },
+  "target_mobs_and_boss_strategy": {
+    "target_mobs": [
+      "Chaser",
+      "Scion of Ethiron",
+      "Duke Eriasia",
+      "Squibbo"
+    ],
+    "mob_strategy": "심해 몬스터나 보스를 상대할 때, 먼저 Oxidizing Rush를 사용해 적에게 금속 막대(Rods)를 심습니다. 5개 이상의 막대가 쌓이면 Augmenter 효과로 메탈 그레이트소드가 소환되어 강력한 치명타(Critical) 공격을 가할 수 있습니다. 체력이 낮아지면 Flame Leap과 Gale Dash로 거리를 벌린 뒤, 안전한 곳에서 Graceful Flame을 사용해 체력을 빠르게 회복합니다."
+  },
+  "combo_and_playstyle_guide": {
+    "combo_guide": "기본 콤보는 Gale Lunge 또는 Oxidizing Rush로 진입하여 적에게 Rod를 부여하는 것으로 시작합니다. 이후 Rising Wind로 적을 에어본 시킨 뒤 Meteor Impact와 연계하여 강력한 메테오 슬램을 꽂아 넣습니다. 적이 방어하거나 거리를 벌리려 할 때는 Metal Fakeout과 Chain Pull을 섞어 예측 불가능한 타이밍에 그레이트소드 치명타를 적중시킵니다."
+  },
+  "video_meta": {
+    "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=51a92WguMp0",
+    "upload_date": "20260505",
+    "estimated_patch": "Unknown"
+  },
+  "equipment": []
+}

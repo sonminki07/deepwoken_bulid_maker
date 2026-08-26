@@ -22,10 +22,11 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (3개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (4개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
+| **Augmenter Cleave (90 HVY + 90 IRON)** | `Hybrid` | ` / flamecharm, galebreath` | [📄 문서 보기](builds/augmenter-cleave-90-hvy-90-iron.md) |
 | **Poser's Ring Ironsing Thundercall S** | `PvE` | `Soulbreaker / Attunementl` | [📄 문서 보기](builds/posers-ring-ironsing-thundercall-soulbre.md) |
 | **Rioshinki Frostdraw (프로스트드로)** | `PvP` | `Oathless / frostdraw` | [📄 문서 보기](builds/rioshinki-frostdraw-프로스트드로.md) |
 | **Volcanic Glass Brick Wall PvE Spear** | `PvE` | ` / flamecharm, frostdraw` | [📄 문서 보기](builds/volcanic-glass-brick-wall-pve-spear.md) |
