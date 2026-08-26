@@ -93,15 +93,24 @@ class BuildAdvisor:
         )
 
         def _call_model(client: genai.Client) -> str:
-            response = client.models.generate_content(
-                model=self.model_name,
-                contents=prompt,
-                config=types.GenerateContentConfig(
-                    system_instruction=ADVISOR_SYSTEM_PROMPT,
-                    temperature=0.2
-                )
-            )
-            return response.text
+            last_err = None
+            for m_name in ["gemini-3.6-flash", "gemini-flash-latest", "gemini-3.7-flash"]:
+                try:
+                    response = client.models.generate_content(
+                        model=m_name,
+                        contents=prompt,
+                        config=types.GenerateContentConfig(
+                            system_instruction=ADVISOR_SYSTEM_PROMPT,
+                            temperature=0.3
+                        )
+                    )
+                    return response.text
+                except Exception as model_err:
+                    last_err = model_err
+                    logger.warning(f"Advisor model {m_name} failed ({model_err}), trying next model...")
+            if last_err:
+                raise last_err
+            raise RuntimeError("All advisor reasoning models failed")
 
         try:
             return global_key_manager.execute_with_failover(_call_model)
