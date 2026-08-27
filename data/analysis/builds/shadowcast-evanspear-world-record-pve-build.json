@@ -1,0 +1,158 @@
+{
+  "video_metadata": {
+    "title": "This NEW BEST PvE Build has 2 WORLD RECORDS... | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=PpNQXuFssIk",
+    "patch_version": "Verse 3"
+  },
+  "build_summary": {
+    "build_name": "Shadowcast Evanspear World Record PvE Build",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "본 빌드는 Deepwoken의 종결급 PvE 콘텐츠(Elder Primadon, Scion of Ethiron 등)를 최속의 스피드로 파괴하기 위해 극대화된 최고 효율의 Heavy Shadowcast PvE 메타 빌드입니다. 핵심 수치인 노버프 M1 대미지 1,000+ 및 버프 후 1,030~1,040+에 달하는 압도적인 타격력을 바탕으로, 보스의 체력바를 수 초 내에 삭제시키는 미친 폭딜 성능을 자랑합니다.\n\nArdour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 Taunt 및 Shade Devour 등의 데미지 증폭 탤런트 조합을 매끄럽게 연계하여 100% 버프 업타임을 유지하는 것이 핵심입니다. Elder Primadon을 59초, Scion of Ethiron을 1분 25초 만에 솔로 클리어하여 2개의 세계 기록을 경신할 정도로 현재 최강의 스피드런 성능을 입증했습니다.\n\n고난도 보스 레이드와 딜 버스(Carry) 서버 운영 시 최고의 효율을 보이며, 간단한 평타(M1) 체인 및 크리티컬 연계만으로도 보스를 손쉽게 포스처 브레이크(Posture Break) 상태로 몰아넣어 안정적이면서도 극도의 속도감을 제공하는 빌드입니다.",
+    "strengths": [
+      "세계 기록급 최강의 M1 평타 대미지 (노버프 1,010+ / 풀버프 1,040+ 및 크리티컬 2,500+)",
+      "Elder Primadon 59초, Scion of Ethiron 1분 25초 컷이 가능한 압도적인 보스 녹이기 속도",
+      "Glazed Fish, Gold Potion, Ardour Murmur를 통한 쉬운 100% 버프 업타임 유지",
+      "간단한 평타 체인 및 크리티컬 스팸만으로 보스의 포스처를 빠르게 파괴 가능"
+    ],
+    "weaknesses": [
+      "PvE 전용 세팅으로 대인전(PvP) 전투에서는 효율이 저하됨",
+      "버프 아이템(Glazed Fish, Gold Potion) 소모품 의존도가 높음",
+      "보스의 공격 패턴에 맞춘 지속적인 밀착 및 패링 숙련도 요구"
+    ]
+  },
+  "stats_and_attunements": {
+    "stats": {
+      "strength": 80,
+      "fortitude": 50,
+      "agility": 25,
+      "intelligence": 0,
+      "willpower": 80,
+      "charisma": 55,
+      "heavy_wep": 100,
+      "medium_wep": 0,
+      "light_wep": 0
+    },
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "thundercall": 0,
+      "galebreathe": 0,
+      "shadowcast": 80,
+      "ironsing": 0,
+      "bloodrend": 0
+    }
+  },
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Ganymede",
+    "origin": "Deepbound",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents_and_mantras": {
+    "talents": [
+      {
+        "name": "Million Ton Piercer",
+        "is_core": true
+      },
+      {
+        "name": "Heretic's Sutra",
+        "is_core": true
+      },
+      {
+        "name": "Shared Misery",
+        "is_core": true
+      },
+      {
+        "name": "Unnecessary Dramatics",
+        "is_core": true
+      },
+      {
+        "name": "Taunt",
+        "is_core": true
+      },
+      {
+        "name": "Shade Devour",
+        "is_core": true
+      },
+      {
+        "name": "Conditioned Runner",
+        "is_core": false
+      }
+    ],
+    "mantras": [
+      {
+        "name": "Reinforce"
+      },
+      {
+        "name": "Shadow Gun"
+      },
+      {
+        "name": "Shade Devour"
+      }
+    ]
+  },
+  "weapons_and_equipment": {
+    "weapon": "Evanspear Handaxe",
+    "outfit": "Black Diver",
+    "accessories": "Drowned Rings, Delver Gear"
+  },
+  "target_mobs_and_strategy": {
+    "target_mobs": [
+      "Elder Primadon",
+      "Scion of Ethiron",
+      "Chaser",
+      "Duke Erisia"
+    ],
+    "mob_strategy": "1. [Elder Primadon] 전투 시작 전 Glazed Fish와 Gold Potion을 복용하고 Ardour Murmur를 활성화합니다. 발밑에 밀착하여 평타(M1) 체인을 빌드업하고 Taunt 및 Shade Devour 디버프를 부여해 딜을 극대화합니다. 점프 파동 및 휘두르기 패턴을 패링하며 무한 크리티컬 스팸으로 1분 미만 클리어를 달성합니다.\n2. [Scion of Ethiron] 중앙 플랫폼에서 보스가 출현하자마자 버프 스택을 활성화한 후 발목 근처에서 M1 스팸을 유지합니다. 잡몹이 생환하더라도 Shared Misery 및 광역 패시브 딜로 자연스럽게 처리하며, 포스처 브레이크를 유도해 빠른 페이즈 전환을 이끌어냅니다.\n3. [일반 보스 공통] M1 대미지가 1,000 이상이므로 복잡한 만트라 연계보다는 가드/패링 후 크리티컬을 적극적으로 넣어 스턴 및 포스처 브레이크를 연속으로 일으키는 것이 최선입니다."
+  },
+  "combo_and_playstyle": {
+    "combo_guide": "1단계 (버프 및 도핑): 전투 돌입 직전 Glazed Fish(근접 대미지 증가) 먹기 ➔ Gold Potion 소모 ➔ 무기에 Ardour Murmur 적용.\n2단계 (디버프 부여): 보스 접근 후 Taunt 사용 ➔ Shade Devour로 근접 대미지 증폭 디버프 적용.\n3단계 (주력 딜링): 기본 평타(M1) 4회 체인으로 대미지 스택 쌓기 ➔ Heavy Weapon 전용 크리티컬 스킬 스팸으로 2,500+ 폭딜 입력.\n4단계 (지속 유지): 패링을 통해 포스처 회복 및 보스 공격 무력화 ➔ 100% 버프 업타임 유지하며 무한 M1/크리티컬 순환."
+  },
+  "video_meta": {
+    "title": "This NEW BEST PvE Build has 2 WORLD RECORDS... | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=PpNQXuFssIk",
+    "upload_date": "20260825",
+    "estimated_patch": "Unknown"
+  },
+  "stats": {},
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 80,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 90,
+      "fortitude": 50,
+      "agility": 25,
+      "willpower": 80,
+      "charisma": 25
+    },
+    "post_shrine_priority": [
+      "Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)",
+      "Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)"
+    ]
+  },
+  "mantras": [
+    {
+      "name": "Reinforce"
+    },
+    {
+      "name": "Shadow Gun"
+    },
+    {
+      "name": "Shade Devour"
+    }
+  ],
+  "equipment": [],
+  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n- Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)\n- Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)",
+  "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n"
+}
