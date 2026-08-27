@@ -1,0 +1,1211 @@
+Title: Deepwoken Wiki: Monster Mantras
+URL: https://deepwoken.fandom.com/wiki/Monster_Mantras
+Description: Official Fandom Wiki document for Monster Mantras
+
+==================================================
+
+Contents
+1
+Description
+2
+Obtainment
+3
+Mantras
+3.1
+Combat Mantras
+4
+Abyssal Ridge (★★☆)
+5
+Abyssal Tendrils (★★☆)
+6
+Brachial Spear (★★☆)
+7
+Coral Spear (★★☆)
+8
+Dread Breath (★★☆)
+9
+Mecha Gatling (★★☆)
+10
+Whirling Blade (★★☆)
+10.1
+Mobility Mantras
+11
+Beast Burrow (★★☆)
+11.1
+Support Mantras
+12
+Bone Wisp (★★☆)
+13
+Enforcer Pull (★★☆)
+14
+Trivia
+15
+Navigation
+Description
+[
+]
+Monster Mantras are
+Mantras
+that players are capable of obtaining which mimic a specific move from a
+monster
+. Obtaining the monster drops required to acquire the
+Mantras
+. It can be difficult to obtain, although most, if not all of the
+Mantras
+are considered worth the requirements. Having the ability to throw bones like a
+Bonekeeper
+, shoot coral as if you were a
+Megalodaunt
+, pull enemies as though you were an
+Enforcer
+, monster mantras allow the player to have more versatility within combat. These mantras do not belong to any
+Attunement
+, being their own category of abilities. This means the Mantras are not upgradable, retaining the
+damage
+from obtainment.
+Obtainment
+[
+]
+Talk to
+Carrion, Father of Evolution
+at the end of the maze in Layer 2: Floor 2, after which he appears and stays at
+Castle Light
+, allowing you to speak with him and obtain the mantras. Monster mantras are obtained by talking to Carrion and giving him rare drops from certain monsters. The drops follow:
+Enforcer Eye
+,
+Thresher Talon
+,
+Megalodaunt Coral
+,
+Dread Serpent's Tooth
+,
+Giant Femur
+,
+Broken Gatling Gun
+,
+Terrapod Shell
+,
+Nautilodaunt Beak
+and
+Charged Parasol Part
+.
+For a more in-depth walkthrough, consider watching
+this video
+.
+Mantras
+[
+]
+Combat Mantras
+[
+]
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Abyssal Ridge
+(★★☆)
+Send a cascading eruption towards your foes, forcing them to react.
+Abyssal Ridge (★★☆)
+Send a cascading eruption towards your foes, forcing them to react.
+55 Ether
+Typeless
+Nautilodaunt Beak
+Effect:
+The caster stomps into the ground and sends out a eruption that can automatically targets the nearest opponent, knocking them upward. This mantra is based on the
+Nautilodaunt's
+'
+Grand Stomp'
+attack.
+Deals 38.25 damage and 15 posture damage
+Has a windup of 0.9 seconds
+This Mantra has two hits. The first one scans for if it touches the opponent and the second deals the damage.
+The wave tracks and follows the opponent. Because there is a slight delay, if your opponent is running from you, Abyssal Ridge may miss.
+Abyssal Tendrils
+(★★☆)
+Create tentacles and pierce multiple opponents at once.
+Abyssal Tendrils (★★☆)
+Create tentacles and pierce multiple opponents at once.
+50 Ether
+Typeless
+Charged Parasol Part
+Effect:
+4 large tentacles protrude outward from the user and quickly stab the nearest opponents within a
+large radius
+. Based on the
+Interluminary Parasol
+'s '
+Pierce'
+attack.
+Deals 15 typeless damage and 4.75 posture per tentacle, bypassing armor resistances. Damage decreases the further away the opponent is.
+Targets up to 4 people. If there are less than 4 people, the tendrils will allocate randomly. If there are no targets in range within its short timeframe of activation, tendrils will not attack. Opponents using
+Murmur: Tacet
+will still be targeted.
+Does not target allies, making it useful in ganks.
+Targeting is automatic within a large radius - not manual - and can target opponents behind the player.
+Up close, tendrils will hold the opponent in place for 0.5s.
+Further away, tendrils will knock the opponent away in a random direction and apply Dazed.
+Is able to be feinted instantly.
+You're able to move and attack during the Mantra.
+Consecutive hits have no "auto-dodge" frames, allowing them to hit after dodge invincibility runs out and bypass abilities like
+Risky Moves
+.
+Brachial Spear
+(★★☆)
+A javelin of jagged bone.
+Brachial Spear (★★☆)
+A javelin of jagged bone.
+60 Ether
+Blunt
+Giant Femur
+Effect:
+The user digs into the ground, pulling out a comically large bone, and throwing it for hefty damage. This move has a large startup and is based on the
+Bone Keeper
+'s '
+Femur Throw'
+attack.
+Has a base of about 100 damage.
+Landing direct hits with this Mantra deals less damage than landing the AoE.
+Applies HEAVY posture damage, almost always guardbreaking.
+Grants hyperarmor during startup.
+Ragdolls
+the opponent and flings them on hit.
+Has 9.18x PvE scaling.
+The damage of this Mantra can be improved by equipping the
+Bone Ring
+, granting it 30 additional damage.
+The range can be compared to a little less than twice the distance between
+Das
+and
+Maestro Evengarde Rest
+in the
+Temple Sparring Hall
+Coral Spear
+(★★☆)
+...
+Coral Spear (★★☆)
+...
+60 Ether
+Slash
+Megalodaunt Coral
+Effect:
+The user grows coral on their back and sprays coral in every direction. Based on the
+Megalodaunt
+'s '
+Thousand Needles'
+attack.
+This Mantra has ~4 damage per hit with 8 hits, totalling for ~32 damage.
+Deals 90 damage to ships.
+This Mantra has 9.18x PvE scaling.
+Dread Breath
+(★★☆)
+...
+Dread Breath (★★☆)
+...
+60 Ether
+Ice
+Dread Serpent's Tooth
+Effect:
+The user shoots out a devastating beam of compressed ice, based on the
+Dread Serpent
+'s
+Ice Beam
+. This move stuns and procs ice, slowing enemies.
+Inflicts
+Chill
+.
+It will change color to pink and apply
+crystals
+if the user has
+Glass Path: Crystallization
+.
+Mecha Gatling
+(★★☆)
+...
+Mecha Gatling (★★☆)
+...
+60 Ether
+Fire
+Broken Gatling Gun
+Effect:
+Pull out a Gatling gun, mowing down the enemies in your way. This mantra is based on the
+Mechalodaunt
+'s '
+Bullet Fury'
+attack.
+The bullets do not stun, dealing minuscule damage with a short range of fire.
+Inflicts
+Burn
+and sets the user
+on fire
+.
+Will proc eruptions instead of applying burn if the user has
+Eruption Path: Lava Serpent
+.
+Whirling Blade
+(★★☆)
+A chitinous scythe to cut through your foes in a whirl.
+Whirling Blade (★★☆)
+A chitinous scythe to cut through your foes in a whirl.
+60 Ether
+Slash
+Terrapod Shell
+Effect:
+The user grows a
+Terrapod
+claw from their left arm and begins to spin forward after a short windup.
+Deals ~6 damage per hit with innate
+bleed
+damage and a total of 6 hits, totalling to 36 + bleed.
+Deals about 10 posture in total.
+Cancels if parried. The movement speed increase will be retained after it has been parried, lasting until the Mantra would have ended.
+Can be modified with Aeon and Eternal Logstones to increase the number of times it hits
+Can be modified with Drift and Rush Shards, but it doesn't seem to do anything (needs testing)
+Mobility Mantras
+[
+]
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Beast Burrow
+(★★☆)
+...
+Beast Burrow (★★☆)
+...
+60 Ether
+Blunt
+Thresher Talon
+Effect:
+Burrow into the ground, giving invincibility for its duration. Click to cancel the Mantra and hit anybody above, knocking them upwards. Based on the
+Thresher
+'s '
+Burrow'
+.
+Deals 35 damage.
+The burrow has a duration of 3 seconds, ending early if you get close to a player/NPC.
+Unlike
+Sanguine Dive
+and
+Shade Step
+, this cannot be manually deactivated early by pressing
+M1
+.
+Can be enhanced by using the
+Thresher Charm
+, increasing the burrow duration by 30%, and reducing its cooldown by 25%.
+Shares a cooldown with
+Shade Step
+and
+Sanguine Dive
+.
+Support Mantras
+[
+]
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Bone Wisp
+(★★☆)
+A servant of bone, powered by the Eternal Gale.
+Bone Wisp (★★☆)
+A servant of bone, powered by the Eternal Gale.
+100 Ether
+Typeless
+Charged Bonecharm
+Effect:
+Summon a wisp that shoots an undodgeable bone on uppercut and flourish. Based on the
+Scion of Ethiron
+'s '
+Bonestaves of Eld'
+attack.
+Deals 15 typeless damage on proc, bypassing armor resistances.
+Alternatively procs on all uppercut Mantras, such as Skyshatter Kick and Celestial Assault.
+3 charges unmodded (5 with
+Bone Ring
+)
+5 second cooldown (1s cd with Bone Ring)
+Bone Wisp has various inconsistencies on what can or cannot proc it. Below is a list of all things that are confirmed on whether or not they proc it.
+The following abilities
+can proc
+Bone Wisp:
+Base combat: Uppercuts, Flourishes, and Offhand
+Pistol
+shots (even if you do not have
+Execution
+).
+Talents: Air Counters with
+Cut to the Chase
+and
+Emperor Flame
+.
+Mantras:
+Celestial Assault
+,
+Crimson Surge
+,
+Crystal Knee
+,
+Onslaught
+,
+Palm Strike
+(in True Strength),
+Razor Blitz
+,
+Rising Flame
+,
+Rising Wind
+,
+Shade Step
+,
+Skyshatter Kick
+(Round Spark), and
+Wind Blade
+(slide jump variant).
+Weapon Criticals:
+Ysley's Pyre Keeper
+, and
+Rimebreakers
+.
+The following abilities
+do not proc
+Bone Wisp, despite uptilting:
+Mantras:
+Abyssal Ridge
+,
+Flame Leap
+,
+Lightning Impact
+,
+Rising Frost
+, and
+Updraft
+.
+Resonances:
+Portals
+(Dive Variant).
+Enforcer Pull
+(★★☆)
+A powerful gravitational pull.
+Enforcer Pull (★★☆)
+A powerful gravitational pull.
+40 Ether
+N/A
+Enforcer Eye
+Effect:
+Create a vacuum of space from your hand, auto-tracking enemies and pulling them in. Based on the
+Enforcer
+'s '
+Space Pull'
+attack.
+Missing still takes Ether and does not put this mantra on cooldown.
+The set Talent "
+Enforcer's Pull
+" from
+Reinforced Enforcer Plate
+and
+Reinforced Enforcer Boots
+all-but removes the windup of the pull after landing a flourish.
+Can be modified with Crystal and Perfect lens to slighty increase range.
+Trivia
+[
+]
+For unknown reasons, Abyssal Ridge was originally a Mobility Mantra.
+Monster Mantras are somewhat similar conceptually to Blue Mages in the Final Fantasy Series; Blue Mages are able to acquire enemy abilities (Monster Spells) through various means in encounters, somewhat echoed in Monster Mantras and their obtainment methods.
+The maximum stack size of monster mantra ingredients is 6.
+Navigation
+[
+]
+Attunements
+&
+Mantras
+Base Attunements
+Flamecharm
+•
+Frostdraw
+•
+Galebreathe
+•
+Thundercall
+Unlockable Attunements
+Bloodrend
+•
+Ironsing
+•
+Shadowcast
+Mantras
+Attunement-less
+•
+Hybrid Mantras
+•
+Monster Mantras
+•
+Pumpkin Pitch
+Mechanics
+Attunement Trainers
+•
+Attunement Potions
+•
+Deep Gems
+•
+Mantra Modifiers
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Frostdraw]
+“ Frost gathers at our fingertips, promising the coming winter. Have you come to let it envelop you? ”
+― Nell, Master of Frost
+Frostdraw icon
+Contents
+1
+Description
+1.1
+Abilities
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+5
+Mantras
+5.1
+Combat Mantras
+6
+Frozen Servants (☆☆☆)
+7
+Ice Beam (☆☆☆)
+8
+Ice Spikes (☆☆☆)
+9
+Warden's Blades (☆☆☆)
+10
+Ice Blade (★☆☆)
+11
+Ice Chain (★☆☆)
+12
+Ice Daggers (★☆☆)
+13
+Ice Eruption (★☆☆)
+14
+Ice Forge (★☆☆)
+15
+Ice Smash (★☆☆)
+16
+Ice Carve (★★☆)
+17
+Ice Flock (★★☆)
+18
+Ice Lance (★★☆)
+19
+Rising Frost (★★☆)
+20
+Frost Grab (★★☆)
+21
+Ice Cubes (★★★)
+22
+Ice Fissure (★★★)
+22.1
+Glass Path: Crystallization Mantras
+23
+Crystal Impale (★★☆)
+24
+Crystal Knee (★★☆)
+25
+Ice Lasers (★★☆)
+25.1
+Mobility Mantras
+26
+Glacial Arc (★☆☆)
+27
+Ice Skate (★★★)
+27.1
+Support Mantras
+28
+Frost Wisp (★★☆)
+29
+Iceberg (★★★)
+30
+Talents
+31
+Trivia
+32
+References
+33
+Navigation
+Description
+[
+]
+Frostdraw
+is an
+Attunement
+that grants the user the ability to bring forth frost and the freezing cold, giving them access to abilities which focus on area denial and debuffs. Frostdraw is slightly slower compared to other
+Attunements
+, but still offers offensive options that are relatively quick and cunning. This translates to the fact that the Attunement would fit well to people who have a defensive approach to combat.
+Abilities
+[
+]
+Landing Frostdraw
+Mantras
+applies
+Chill
+, which slows down enemies and is able to be improved upon with certain
+Talents
+. Adding
+Logstones
+to certain Mantras can increase the duration of Chill.
+Obtainment
+[
+]
+The Attunement can be unlocked by using a
+Glassblood Potion
+obtained by giving
+Nell
+, the Frostdraw trainer at
+Etris
+, two
+Frigid Prisms
+. Nell is located in a small house to the right of the Etris Guild Hall. Alternatively, you can simply pick Frostdraw as your starting Attunement in Character Creation.
+Training
+[
+]
+A Hemafrosted Capra casting a beam of ice.
+This is where the Attunement trainer is located.
+Frostdraw can be trained by using the
+Hemafrost
+to increase the attribute after either landing Frostdraw Mantras or eating
+Frigid Prisms
+to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Frostdraw, players will receive the
+Frostdrawer
+Talent. This allows players to obtain 0-star Frostdraw Mantras.
+At 20 Frostdraw, players will receive the
+Adept Frostdrawer
+Talent. This allows players to obtain 1-star Frostdraw Mantras.
+At 30 Frostdraw, players will receive the
+Expert Frostdrawer
+Talent. This allows players to obtain 2-star Frostdraw Mantras.
+Finally, at 50 Frostdraw, players will receive the
+Master Frostdrawer
+Talent. This allows players to obtain 3-star Frostdraw Mantras.
+You can speak to
+Nell
+at
+Etris
+or a
+Mantra Lectern
+to upgrade your Frostdraw Mantras for 100
+each. Each upgrade purchased will make the next upgrade for the same Mantra 100
+more expensive.
+To upgrade a Frostdraw Mantra from level 1 to level 2 costs 100
+and 20 Frostdraw investment.
+T
+
+### 📖 [하위 연관 위키: Flamecharm]
+“ The inferno burns ever brighter. Have you come to fuel it? ”
+― Amashi, Master of Flame
+Flamecharm Icon
+Contents
+1
+Description
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+4.1
+Produce Spark
+5
+Mantras
+5.1
+Combat Mantras
+6
+Burning Servants (☆☆☆)
+7
+Fire Blade (☆☆☆)
+8
+Fire Gun (☆☆☆)
+9
+Flame Grab (☆☆☆)
+10
+Flame Repulsion (☆☆☆)
+11
+Fire Eruption (★☆☆)
+12
+Fire Forge (★☆☆)
+13
+Fire Palm (★☆☆)
+14
+Searing Snare (★☆☆)
+15
+Flame Sentinel (★★☆)
+16
+Flare Volley (★★☆)
+17
+Relentless Flames (★★☆)
+18
+Rising Flame (★★☆)
+19
+Ash Slam (★★★)
+20
+Flame Ballista (★★★)
+21
+Flaming Scourge (★★★)
+21.1
+Mobility Mantras
+22
+Flame Assault (★★☆)
+23
+Flame Leap (★★☆)
+23.1
+Support Mantras
+24
+Flame Blind (☆☆☆)
+25
+Flame of Denial (☆☆☆)
+26
+Graceful Flame (★☆☆)
+27
+Flame Wisp (★★☆)
+28
+Talents
+29
+Trivia
+30
+References
+31
+Navigation
+Description
+[
+]
+Flamecharm
+is an
+Attunement
+that grants the user the ability to create flames using Ether.. These abilities are primarily focused on DOT and AoE effects, while still providing a notable amount of utility and mobility.
+This Attunement is ideal for new players, due to its innate ability to grip knocked humanoid NPCs with its DOT burn effect, alongside its superior utility in comparison with other Attunements, making progression and exploration much easier.
+As mentioned previously, Flamecharm focuses on DOT and AoE effects. This Attunement's mantras usually create a large hitbox either around the user or in front of them, making hitting your opponent incredibly easy at close range. To compensate, its mantras rarely propel the user horizontally, with most of its mantras either slowing the user down or preventing movement almost entirely. This makes builds with lots of movement options and range viable against this Attunement, as it limits the amount of mantras you have to worry about. Do note that it does have a couple of options in order to close the distance or deal damage at considerable range, namely Fire Palm, Flaming Scourge modified with Reversal Spark, and the Flame Dancer talents.
+Obtainment
+[
+]
+The
+Attunement Trainer
+,
+Amashi
+, can be located at the
+Songseeker Temple
+in
+Songseeker Wilds
+. Once you give Amashi two Dying Embers, he will hand you the
+Hearthblood Potion
+which you must drink in order to obtain the Attunement. Alternatively, you can simply pick the Attunement from Character Creation.
+Training
+[
+]
+Flamecharm can be trained by using the
+Hearthgem
+to increase the attribute after either landing Flamecharm Mantras or eating
+Dying Embers
+to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Flamecharm, players will receive the
+Flamecharmer
+Talent. This allows players to obtain 0-star Flamecharm Mantras.
+At 20 Flamecharm, players will receive the
+Adept Flamecharmer
+Talent. This allows players to obtain 1-star Flamecharm Mantras.
+At 30 Flamecharm, players will receive the
+Expert Flamecharmer
+Talent. This allows players to obtain 2-star Flamecharm Mantras.
+F
+
+### 📖 [하위 연관 위키: Attunement]
+Redirect to:
+Attunements
+
+### 📖 [하위 연관 위키: Attunement-less]
+Attunement-less icon
+Attunement-less Mantras, or Physical Mantras, consist of Mantras that are chosen based on your attributes, similar to Talents, rather than your Attunements.
+NOTE: Attunement-less Mantras are rarer if you have an Attunement and depend on how much you have in said stat opposed to your Attunement.
+Contents
+1
+Description
+2
+Upgrading Mantras
+2.1
+Mantra Damage Calculation
+3
+Attribute Mantras
+3.1
+Strength Mantras
+4
+Strong Left (☆☆☆)
+5
+Rapid Punches (☆☆☆)
+6
+Table Flip (☆☆☆)
+7
+Skyshatter Kick (☆☆☆)
+8
+Strong Leap (☆☆☆)
+9
+Tacet Drop Kick (☆☆☆)
+10
+Throw (★★☆)
+10.1
+Fortitude Mantras
+11
+Shoulder Bash (☆☆☆)
+12
+Rally (☆☆☆)
+13
+Reinforce (☆☆☆)
+14
+Brace (☆☆☆)
+14.1
+Agility Mantras
+15
+Revenge (☆☆☆)
+16
+Twinstrikes (☆☆☆)
+17
+Agile Dash (☆☆☆)
+18
+Adrenaline Surge (☆☆☆)
+18.1
+Intelligence Mantras
+19
+Ether Barrage (☆☆☆)
+20
+Prediction (☆☆☆)
+21
+Neural Pathway (☆☆☆)
+22
+Summon Cauldron (☆☆☆)
+22.1
+Willpower Mantras
+23
+Exhaustion Strike (☆☆☆)
+24
+Glare (☆☆☆)
+25
+Gaze (☆☆☆)
+25.1
+Charisma Mantras
+26
+Taunt (☆☆☆)
+27
+Sing (☆☆☆)
+28
+Dread Whisper (☆☆☆)
+29
+Disguise (☆☆☆)
+30
+Weapon Mantras
+30.1
+Light Weapon Mantras
+31
+Rapid Slashes (☆☆☆)
+32
+Ceaseless Slashes (☆☆☆)
+33
+Karita Divebomb (☆☆☆)
+34
+Karita Leap (☆☆☆)
+34.1
+Medium Weapon Mantras
+35
+Master's Flourish (☆☆☆)
+36
+Prominence Draw (☆☆☆)
+37
+Twincleave (☆☆☆)
+38
+Slice 'n' Dice (☆☆☆)
+39
+Flashdraw Strike (☆☆☆)
+39.1
+Heavy Weapon Mantras
+40
+Pressure Blast (☆☆☆)
+41
+Onslaught (☆☆☆)
+42
+Punishment (☆☆☆)
+43
+Tips
+44
+Trivia
+45
+Navigation
+Description
+[
+]
+You don't have an Attunement, instead relying on your physical and mental abilities to give yourself an edge in battle.
+Most of your Mantras focus on your physical and mental capabilities instead of a specific element, allowing you to achieve incredible feats by utilizing your body alone, whether it's utilizing your raw strength combined with the Song to punch down trees and enemies alike, moving at a faster rate than usual,  or predicting attacks with your intelligence alone, just to name a few. Although Attunement-less sounds horrible on paper, it is, in reality, just as viable and completely usable as having an Attunement.
+In spite of its shortcomings, the potential of Attunement-less is nothing to scoff at, as stat points normally allocated to Attunements can instead be used to obtain Talents, as well making obtaining high investment Talents more worthwhile should a powerful combat Mantra scale off the same points.
+Upgrading Mantras
+[
+]
+The Attunement-less Mantra trainer
+Regek
+can be found at
+Greathive Aratel
+in the Archives area. To allow the user to upgrade their Mantras here, the player must complete a quest for the trainer by collecting sap from 3 Soulblooms. (You need to have washed your face at the
+Lightkeeper's Temple
+to activate the quest.)
+All of the Soulblooms can be found at the top of the tree, in Canopy Plaza.
+2 of them are located in the Blacksmith's area.
+1 is located outside of the Observatory.
+Once completed, the user can upgrade their Attunement-less Mantras by sp
+
+### 📖 [하위 연관 위키: Attunement Potions]
+Contents
+1
+Description
+2
+Obtainment
+3
+Trivia
+4
+Navigation
+Description
+[
+]
+Attunement Potions are items that allow the player obtain and permanently unlock further
+Attunements
+in
+Character Creation
+. Upon consumption, the user will take a small amount of elemental damage that corresponds with the Attunement and be momentarily ragdolled. After getting back up, they will acquire one Attribute point in the respective Attunement, and will permanently unlock it in Character Creation. Attunement Potions cannot be dropped or thrown, neither stored in bank.
+Obtainment
+[
+]
+The only way to acquire an Attunement Potion is to complete a quest given by the relevant
+Attunement Trainer
+, usually involving obtaining 5 (2 if the Attunement was unlocked before) of a specific Elemental Ingredient corresponding with their Attunement; with
+Ironsing
+being the only deviation from this.
+Trivia
+[
+]
+Alloyed Elixir is the only Attunement Potion that does not follow the general naming convention.
+Navigation
+Attunements
+&
+Mantras
+Base Attunements
+Flamecharm
+•
+Frostdraw
+•
+Galebreathe
+•
+Thundercall
+Unlockable Attunements
+Bloodrend
+•
+Ironsing
+•
+Shadowcast
+Mantras
+Attunement-less
+•
+Hybrid Mantras
+•
+Monster Mantras
+•
+Pumpkin Pitch
+Mechanics
+Attunement Trainers
+•
+Attunement Potions
+•
+Deep Gems
+•
+Mantra Modifiers
+
+### 📖 [하위 연관 위키: Attunement Trainers]
+Contents
+1
+Description
+2
+List of Trainers
+3
+Trivia
+4
+Navigation
+Description
+[
+]
+Attunement Trainers are NPCs around the map that level up Mantras for money. Each Trainer will increase a mantra level by one depending on which Attunement they train (the
+Frostdraw
+Attunement Trainer will level up Frostdraw
+Mantras
+, etc). The cost for leveling up Mantras starts at 100
+and increases by 100
+depending on the Mantra level. A leveled-up Mantra's damage will increase, as well as the potential for additional effects.
+A Trainer needs intervals of 20 points in your Attunement to upgrade a Mantra of the same elemental type as the trainer to upgrade, maxing out at Level 5 and 80 Attunement points.
+Killing trainers is also the progression for the
+Silentheart Oath
+, excluding
+Beatra
+,
+Vyrelda
+and
+Regek
+, who cannot and do not need to be killed to progress the Oath. Each trainer also uses a weapon similar to their attunement, for instance Nell uses the
+Gran Sudaruska
+, a
+Frostdraw
+weapon.
+For example:
+20 in an Attunement = Level 2 Mantra, 100
+40 = Level 3 Mantra, 200
+(300
+total)
+60 = Level 4 Mantra, 300
+(600
+total)
+80 = Level 5 Mantra, 400
+(1,000
+total) (Requires Attunement Unbound)
+An Attunement Trainer will not train you if you do not have the element learned. However, you can learn different Attunements by giving a trainer five (two if previously obtained) Elemental Ingredients of the respected Attunement (See
+Attunement Potions
+).
+List of Trainers
+[
+]
+Representation
+Trainer of
+Location
+Description
+Friid, Master of Gale
+Galebreathe
+Area:
+Isle of Vigils
+She is found sitting next to a campfire at a tent in a small area close to the entrance to the temple.
+Friid is a
+Celtor
+who uses
+Galebreathe
+.
+When fought, she uses a
+Curved Blade of Winds
+.
+Nell, Master of Frost
+Frostdraw
+Area:
+Etris
+Follow the path at the right of the
+Guildhouse.
+Click on the image to see full size.
+Nell is a
+Adret
+who uses
+Frostdraw
+.
+When fought, she uses a
+Gran Sudaruska
+.
+Amashi, Master of Flame
+Flamecharm
+Area:
+Songseeker Wilds
+This trainer is inside the
+temple
+on top of the mountain.
+Click on the image to see full size.
+Amashi is a
+Vesperian
+who uses
+Flamecharm
+.
+When fought, he uses a
+Hero Blade of Flame
+.
+Funke, Master of Thunder
+Thundercall
+Area:
+Summer Isle
+He is located in the second floor of the castle.
+Funke is a
+Canor
+who uses
+Thundercall
+.
+When fought, he uses a
+Stormseye
+.
+Nostor, Master of Shadow
+Shadowcast
+Area:
+Varicosa District
+To find them you will have to enter the City of the Drowned. The district is a little more empty than the rest and has light-teal-colored rooftops, it is located on the north-western side of the city. From there you will also have to watch out for
+Watchers
+, as they can be a nuisance especially this far into the journey.
+Map location:
+Go there, look for the entrance to Nostor's cave.
+Nostor is a
+Ganymede
+who uses
+Shadowcast
+.
+When fought, they use a
+Crypt Blade
+.
+Beatra
+Shadowcast
+Area:
+Derelict Highchurch
+She can be found to the left of the Derelic
+
+### 📖 [하위 연관 위키: Attunements]
+Attunements
+are forms of magic that the player can choose on
+Character Creation
+or obtain in the game through
+Trainers
+.
+IMPORTANT NOTE:
+For those learning about
+Shrine of Order
+,
+Attunements do not average-out in the same way that other attributes do in Shrine of Order. Unlike other stats, they have no "bottom-limit" - where, for example, a 65 investment in Agility when influenced by Shrine of Order can lose a maximum of 25 points to become a 40 investment instead. They can lose an unlimited amount of points, reminiscent of the old behavior of Shrine of Order.
+Contents
+1
+Overview
+2
+Base Attunements
+3
+Obtainable Attunements
+4
+Attunement Paths
+4.1
+Alternative Paths
+4.2
+Hybrid Paths
+4.3
+Non-Path Talents
+4.4
+Hybrid Non-Path Talents
+5
+Trivia
+6
+Navigation
+Overview
+[
+]
+There are currently four
+base
+Attunements that anyone may select when first
+creating a character
+, with three more being unlockable throughout the world.(Note that Ironsing, Shadowcast and Bloodrend, the 3 attunements you have to attain, will remain permanently unlocked for all of your slots).  Within the character creation menu, you may choose up to two attunements to start off with- or
+none
+, preferences considered.
+The more attunements you wield, the more expensive it will become to manage them,  because you do not have an infinite number of points to spend on your character. Choose wisely.
+By choosing no attunement, you are provided 10 extra investment points to make up for the loss of attunement. Normally, these 10 points would be auto-invested if you chose an attunement.
+Post-creation, the character is able to learn more attunements throughout their adventures by visiting individual
+attunement trainers
+around the world. For the character to wield more attunements post-creation, they must collect the respective elemental ingredients- aside for Ironsing, which utilizes a more convoluted unlock method, and then find and ask the trainer for the attunement.
+Flamecharm
+= 2
+Dying Embers
+Frostdraw
+= 2
+Frigid Prisms
+Thundercall
+= 2
+Spark Glands
+Galebreathe
+= 2
+Gale Stones
+Shadowcast
+= 2
+Umbral Obsidian
+Ironsing
+= 1
+Pluripotent Alloy
+, 6
+Ores
+(Iron, Gold, Erisore, Irithine, Astruline, Umbrite)
+Bloodrend
+= 2
+Heartstars
+These ingredients are typically dropped by those who wield the attunement, such as Gale Songseekers dropping Galestones. Some monsters may drop elemental ingredients as well- with Megalodaunts dropping Umbral Obsidians and Gigameds dropping Spark Glands. Upon collecting the ingredients, you can hand them into the trainer to obtain a bottle that once consumed will provide the character with a singular point in that attunement.
+Alternatively, if you happen to spawn in with an attunement which you do not possess via the Random Attunement function in the character creation menu, it will become available to freely choose upon next-character-basis.
+By default, players are given
+3 Combat Mantra slots, 1 Mobility Mantra slot, 1 Support Mantra slot and 1 Wildcard (freebie) Mantra slot.
+
+
+=== Tables ===
+
+[Table 1]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Abyssal Ridge(★★☆)Send a cascading eruption towards your foes, forcing them to react. | Abyssal Ridge (★★☆)Send a cascading eruption towards your foes, forcing them to react.
+55 Ether | Typeless | Nautilodaunt Beak
+Effect:The caster stomps into the ground and sends out a eruption that can automatically targets the nearest opponent, knocking them upward. This mantra is based on theNautilodaunt's'Grand Stomp'attack.Deals 38.25 damage and 15 posture damageHas a windup of 0.9 secondsThis Mantra has two hits. The first one scans for if it touches the opponent and the second deals the damage.The wave tracks and follows the opponent. Because there is a slight delay, if your opponent is running from you, Abyssal Ridge may miss.
+Abyssal Tendrils(★★☆)Create tentacles and pierce multiple opponents at once. | Abyssal Tendrils (★★☆)Create tentacles and pierce multiple opponents at once.
+50 Ether | Typeless | Charged Parasol Part
+Effect:4 large tentacles protrude outward from the user and quickly stab the nearest opponents within alarge radius. Based on theInterluminary Parasol's 'Pierce'attack.Deals 15 typeless damage and 4.75 posture per tentacle, bypassing armor resistances. Damage decreases the further away the opponent is.Targets up to 4 people. If there are less than 4 people, the tendrils will allocate randomly. If there are no targets in range within its short timeframe of activation, tendrils will not attack. Opponents usingMurmur: Tacetwill still be targeted.Does not target allies, making it useful in ganks.Targeting is automatic within a large radius - not manual - and can target opponents behind the player.Up close, tendrils will hold the opponent in place for 0.5s.Further away, tendrils will knock the opponent away in a random direction and apply Dazed.Is able to be feinted instantly.You're able to move and attack during the Mantra.Consecutive hits have no "auto-dodge" frames, allowing them to hit after dodge invincibility runs out and bypass abilities likeRisky Moves.
+Brachial Spear(★★☆)A javelin of jagged bone. | Brachial Spear (★★☆)A javelin of jagged bone.
+60 Ether | Blunt | Giant Femur
+Effect:The user digs into the ground, pulling out a comically large bone, and throwing it for hefty damage. This move has a large startup and is based on theBone Keeper's 'Femur Throw'attack.Has a base of about 100 damage.Landing direct hits with this Mantra deals less damage than landing the AoE.Applies HEAVY posture damage, almost always guardbreaking.Grants hyperarmor during startup.Ragdollsthe opponent and flings them on hit.Has 9.18x PvE scaling.The damage of this Mantra can be improved by equipping theBone Ring, granting it 30 additional damage.The range can be compared to a little less than twice the distance betweenDasandMaestro Evengarde Restin theTemple Sparring Hall
+Coral Spear(★★☆)... | Coral Spear (★★☆)...
+60 Ether | Slash | Megalodaunt Coral
+Effect:The user grows coral on their back and sprays coral in every direction. Based on theMegalodaunt's 'Thousand Needles'attack.This Mantra has ~4 damage per hit with 8 hits, totalling for ~32 damage.Deals 90 damage to ships.This Mantra has 9.18x PvE scaling.
+Dread Breath(★★☆)... | Dread Breath (★★☆)...
+60 Ether | Ice | Dread Serpent's Tooth
+Effect:The user shoots out a devastating beam of compressed ice, based on theDread Serpent'sIce Beam. This move stuns and procs ice, slowing enemies.InflictsChill.It will change color to pink and applycrystalsif the user hasGlass Path: Crystallization.
+Mecha Gatling(★★☆)... | Mecha Gatling (★★☆)...
+60 Ether | Fire | Broken Gatling Gun
+Effect:Pull out a Gatling gun, mowing down the enemies in your way. This mantra is based on theMechalodaunt's 'Bullet Fury'attack.The bullets do not stun, dealing minuscule damage with a short range of fire.InflictsBurnand sets the useron fire.Will proc eruptions instead of applying burn if the user hasEruption Path: Lava Serpent.
+Whirling Blade(★★☆)A chitinous scythe to cut through your foes in a whirl. | Whirling Blade (★★☆)A chitinous scythe to cut through your foes in a whirl.
+60 Ether | Slash | Terrapod Shell
+Effect:The user grows aTerrapodclaw from their left arm and begins to spin forward after a short windup.Deals ~6 damage per hit with innatebleeddamage and a total of 6 hits, totalling to 36 + bleed.Deals about 10 posture in total.Cancels if parried. The movement speed increase will be retained after it has been parried, lasting until the Mantra would have ended.Can be modified with Aeon and Eternal Logstones to increase the number of times it hitsCan be modified with Drift and Rush Shards, but it doesn't seem to do anything (needs testing)
+
+[Table 2]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Beast Burrow(★★☆)... | Beast Burrow (★★☆)...
+60 Ether | Blunt | Thresher Talon
+Effect:Burrow into the ground, giving invincibility for its duration. Click to cancel the Mantra and hit anybody above, knocking them upwards. Based on theThresher's 'Burrow'.Deals 35 damage.The burrow has a duration of 3 seconds, ending early if you get close to a player/NPC.UnlikeSanguine DiveandShade Step, this cannot be manually deactivated early by pressingM1.Can be enhanced by using theThresher Charm, increasing the burrow duration by 30%, and reducing its cooldown by 25%.Shares a cooldown withShade StepandSanguine Dive.
+
+[Table 3]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Bone Wisp(★★☆)A servant of bone, powered by the Eternal Gale. | Bone Wisp (★★☆)A servant of bone, powered by the Eternal Gale.
+100 Ether | Typeless | Charged Bonecharm
+Effect:Summon a wisp that shoots an undodgeable bone on uppercut and flourish. Based on theScion of Ethiron's 'Bonestaves of Eld'attack.Deals 15 typeless damage on proc, bypassing armor resistances.Alternatively procs on all uppercut Mantras, such as Skyshatter Kick and Celestial Assault.3 charges unmodded (5 withBone Ring)5 second cooldown (1s cd with Bone Ring)Bone Wisp has various inconsistencies on what can or cannot proc it. Below is a list of all things that are confirmed on whether or not they proc it.The following abilitiescan procBone Wisp:Base combat: Uppercuts, Flourishes, and OffhandPistolshots (even if you do not haveExecution).Talents: Air Counters withCut to the ChaseandEmperor Flame.Mantras:Celestial Assault,Crimson Surge,Crystal Knee,Onslaught,Palm Strike(in True Strength),Razor Blitz,Rising Flame,Rising Wind,Shade Step,Skyshatter Kick(Round Spark), andWind Blade(slide jump variant).Weapon Criticals:Ysley's Pyre Keeper, andRimebreakers.The following abilitiesdo not procBone Wisp, despite uptilting:Mantras:Abyssal Ridge,Flame Leap,Lightning Impact,Rising Frost, andUpdraft.Resonances:Portals(Dive Variant).
+Enforcer Pull(★★☆)A powerful gravitational pull. | Enforcer Pull (★★☆)A powerful gravitational pull.
+40 Ether | N/A | Enforcer Eye
+Effect:Create a vacuum of space from your hand, auto-tracking enemies and pulling them in. Based on theEnforcer's 'Space Pull'attack.Missing still takes Ether and does not put this mantra on cooldown.The set Talent "Enforcer's Pull" fromReinforced Enforcer PlateandReinforced Enforcer Bootsall-but removes the windup of the pull after landing a flourish.Can be modified with Crystal and Perfect lens to slighty increase range.
+
+[Table 4]
+Attunements&Mantras
+Base Attunements | Flamecharm•Frostdraw•Galebreathe•Thundercall
+Unlockable Attunements | Bloodrend•Ironsing•Shadowcast
+Mantras | Attunement-less•Hybrid Mantras•Monster Mantras•Pumpkin Pitch
+Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifiers
+
+=== Sub Pages Explored ===
+- Frostdraw
+- Flamecharm
+- Attunement
+- Attunement-less
+- Attunement Potions
+- Attunement Trainers
+- Attunements
