@@ -26,7 +26,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (49개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (50개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -64,6 +64,7 @@
 | **Rapier Parry-Buff PvE Meta Build** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/rapier-parry-buff-pve-meta-build.md) |
 | **Saintsworn Nuke & AoE Burst Build** | `PvP` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/saintsworn-nuke-aoe-burst-build.md) |
 | **Saltchemist Heavy Gale (Gale Triden** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/saltchemist-heavy-gale-gale-trident.md) |
+| **Sanguine Transfuser Hemorrhaging Bl** | `PvP` | `Oathless / bloodrend` | [📄 문서 보기](builds/sanguine-transfuser-hemorrhaging-blood-suppor.md) |
 | **Sclerostosis Tank Build** | `Hybrid` | ` / shadowcast` | [📄 문서 보기](builds/sclerostosis-tank-build.md) |
 | **Shadowcast Evanspear World Record P** | `PvE` | ` / shadowcast` | [📄 문서 보기](builds/shadowcast-evanspear-world-record-pve-build.md) |
 | **Shining Maelstrom V4** | `PvE` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/shining-maelstrom-v4.md) |

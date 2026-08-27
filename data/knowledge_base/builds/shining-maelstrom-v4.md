@@ -1,7 +1,7 @@
 # ⚔️ Shining Maelstrom V4
 
 > **출처 영상**: [Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)](https://www.youtube.com/watch?v=D3MIbCVb7ZU) by `Skipper Gripper`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Expert`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Expert`
 > **종족/출신**: `Canor` / `Lone Warrior` | **Oath**: `Saintsworn` | **Murmur/Bell**: `Murmur Ardent` / `Crazy Slots`
 
 ---
@@ -20,7 +20,7 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 - ⚠️ Saintsworn 오스의 복잡한 원소 스탠스 전환 메커니즘에 대한 높은 숙련도 요구
 - ⚠️ Inhale 버프를 유지하기 위해 특정 스탠스(Galebreathe)를 강제해야 하는 제약
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
@@ -42,7 +42,7 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 - **Thundercall**: `20`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Muffled / Central Dirk', 'type': 'Light Weapon (Dagger)', 'recommended_enchant': 'Vampiric / Grim'}** () — 인챈트: `None`
+- **{'name': 'Muffled / Central Dirk', 'type': 'Light Weapon ', 'recommended_enchant': 'Vampiric / Grim'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': "Black Diver / Jester's Garb"}
@@ -82,11 +82,6 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 - **Metal Rain**
 - **Oxidizing Rush**
 - **Flame Sentinel**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Elder Primadon, Scion of Ethiron, Chaser, The Ferryman`
-
-Elder Primadon이나 Scion of Ethiron 같이 방어력이 매우 높은 보스를 상대할 때는 Ironsing 속성의 방어구 관통(Armor Shred) 효과를 먼저 적용시키는 것이 핵심입니다. 이후 Frostdraw mantras(Frozen Servants, Warden's Blades)를 연계하여 보스를 빙결 상태로 묶어두고, Saintsworn 오스의 스탠스 변환을 통해 극대화된 원소 데미지를 가합니다. 체력이 낮으므로 보스의 큰 공격 패턴은 Ice Skates나 Wind Passage의 무적 프레임 및 기동성을 활용해 완벽히 회피해야 합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 시 Gale 스탠스에서 Inhale 버프를 활성화한 뒤, Ironsing mantras를 사용해 적의 방어력을 깎아냅니다. 그 후 Frostdraw 스탠스로 전환하여 Frozen Servants와 Warden's Blades를 소환해 지속적인 빙결 압박을 가합니다. 보스가 무력화되면 Taunt와 M1 평타 평타 콤보를 우겨넣어 폭발적인 데미지를 입힙니다. 위급 상황에서는 Wind Passage나 Flame Leap을 사용해 거리를 벌리며 재정비합니다.

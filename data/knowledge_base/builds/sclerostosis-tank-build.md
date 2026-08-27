@@ -1,7 +1,7 @@
 # ⚔️ Sclerostosis Tank Build
 
 > **출처 영상**: [Is The NEW FORTITUDE Talent Worth It? (Deepwoken)](https://www.youtube.com/watch?v=j-x3XbpFqfc) by `Duckexter`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
 > **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Aria` / `Default`
 
 ---
@@ -21,9 +21,21 @@
 - ⚠️ 포티튜드 stats을 강제로 높게 고정해야 하므로 weapons 및 기타 공격 속성 stats 분배에 제약이 생깁니다.
 - ⚠️ 숙련된 PvP 상대는 단일 고위력기나 딜레이가 긴 가드브레이크 기술로 talents의 쿨다운 윈도우를 쉽게 카운터 칠 수 있습니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `100` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `100` |
+| Charisma (매력) | `25` |
+| Heavy_wep | `80` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `75` |
 | Agility (민첩) | `45` |
@@ -33,6 +45,11 @@
 | Heavy Wep (중화기) | `80` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Brick Wall (Fortitude 100, Willpower 100) 확보
+- 🎯 Sclerostosis 탱커 빌드 메타 최적화
+- 🎯 Heavy Weapon 80 및 방어 위주 배분
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `45`
@@ -45,7 +62,7 @@
 - Heavy Weapon 80 및 방어 위주 배분
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Darkdiver Greatsword', 'category': 'Heavy', 'enchant': 'Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Darkdiver Greatsword', 'category': 'Heavy', 'enchant': 'Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Ignition Deepdelver Armor
@@ -64,11 +81,6 @@
 - **Flame Wisp**
 - **Fire Forge**
 - **Flame Leap**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Squibbo, Duke Erisia`
-
-['보스의 광역 장판이나 강력한 단발성 패턴을 맞이할 때 Sclerostosis의 99% 대미지 감소 효과를 의도적으로 발동시켜 피해를 최소화하세요.', '체력이 조금씩 깎이는 PvE 환경에서는 talents 쿨다운(5초) 텀을 계산하며 안정적으로 탱킹과 딜링을 교차하세요.', '다단히트 패턴을 사용하는 몹을 상대할 때는 첫 타격에 talents가 소모되지 않도록 거리 조절 및 패링에 집중하세요.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (접근 및 이니시에이트): Flame Leap을 활용해 거리를 빠르게 좁히고 상대의 가드를 압박합니다.

@@ -1,0 +1,171 @@
+{
+  "video_metadata": {
+    "title": "Progressing The Best COMBAT SUPPORT BUILD (1-20) | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=LUXBaJs5EuQ",
+    "patch_version": "Verse 2 (Layer 2 Era / Bloodrend Update)"
+  },
+  "build_summary": {
+    "build_name": "Sanguine Transfuser Hemorrhaging Blood Support Dagger",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken에서 유일무이한 메커니즘을 사용하는 변칙적 서포트 겸 전투형 피흡/상대 치유 역전 빌드입니다. 핵심은 Bloodrend 탤런트인 'Hemorrhaging Blow'와 단검류 제작 무기인 'Sanguine Transfuser', 그리고 'Hair Spray (Revitalizing)' 버프의 조합에 있습니다.\n\n상대방의 자세(Posture)를 파괴(Posture Break)한 직후 Bloodrend 만트라를 적중시키거나 힐링 메커니즘을 발동시키면, 상대가 받게 될 치유 효과가 즉시 막대한 데미지와 지속 출혈 데미지로 전환되어 폭딜을 넣을 수 있습니다. 동시에 자신은 Rush Hour와 Enhanced Flow, Deepscorn Casque의 시너지를 통해 자가 데미지를 최소화하면서 무한에 가까운 임시 체력(Temp Health)을 수급합니다.",
+    "strengths": [
+      "Hemorrhaging Blow 메커니즘을 통한 상대 치유 역전 폭딜 (상대가 Reaper나 자가 치유 기술 사용 시 즉사급 데미지 유발)",
+      "Sanguine Transfuser의 기본 23.1% 스윙 스피드와 관통력(Penetration) 50% 세팅으로 높은 방어 무시 평타 성능",
+      "Hair Spray (Revitalizing)와 Bloodrend 스킬의 콤보로 서포트/딜러 역할을 동시에 수행 가능",
+      "Rush Hour + Enhanced Flow + Deepscorn Casque 조합으로 자기 자해 데미지를 완벽히 상쇄하고 높은 Tankiness 유지"
+    ],
+    "weaknesses": [
+      "자세 파괴(Posture Break)가 유효하게 들어가지 않으면 핵심 기믹인 치유 역전 데미지를 발동하기 어려움",
+      "고각의 핑(Ping) 문제나 판정이 불안정한 서버 환경에서는 단검 특유의 스윙 판정과 타이밍 잡기가 까다로움",
+      "초반 육성 시 Shrine 오브 오더 및 95 Bloodrend 조건 입수를 위한 스탯 배분이 정교해야 함"
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 25,
+    "fortitude": 50,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 65
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 79
+  },
+  "combat_stats": {
+    "hp": 542,
+    "posture": 26,
+    "ether": 410,
+    "tempo": 120,
+    "sanity": 100,
+    "move_speed_pct": 105.0,
+    "pve_dmg_pct": 15.0
+  },
+  "resistances": {
+    "physical_slash": "50.0%",
+    "physical_blunt": "35.0%",
+    "physical_pierce": "44.0%",
+    "fire": "12.0%",
+    "ice": "15.0%",
+    "wind": "10.0%",
+    "shadow": "10.0%",
+    "lightning": "10.0%",
+    "iron": "10.0%",
+    "acid": "15.0%"
+  },
+  "weapons": [
+    {
+      "name": "Sanguine Transfuser",
+      "type": "Light Weapon",
+      "enchant": "None",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Deepscorn Casque"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Vanguard Grace"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ring of Wings"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Deepfire Ring"
+    }
+  ],
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Tiran",
+    "origin": "Voidwalker",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Hemorrhaging Blow",
+      "is_core": true
+    },
+    {
+      "name": "Enhanced Flow",
+      "is_core": true
+    },
+    {
+      "name": "Rush Hour",
+      "is_core": true
+    },
+    {
+      "name": "First Blood",
+      "is_core": true
+    },
+    {
+      "name": "Expert Bloodrender",
+      "is_core": false
+    },
+    {
+      "name": "Master Bloodrender",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Blood Orb"
+    },
+    {
+      "name": "Crucifixion"
+    },
+    {
+      "name": "Sanguine Dive"
+    },
+    {
+      "name": "Bloodedge"
+    },
+    {
+      "name": "Vein Tendrils"
+    },
+    {
+      "name": "Scarlet Cannon"
+    }
+  ],
+  "target_mobs": [
+    "Duke of Erisia",
+    "Ferryman",
+    "Chaser",
+    "Voidwalker Targets / Player Bounty"
+  ],
+  "mob_strategy": "Sanguine Transfuser 단검의 빠른 공격 속도를 활용해 출혈 및 자세 스태킹을 유지합니다. 보스전이나 대인전에서 Posture Break를 유도한 직후 Bloodrend 스킬을 연계하여 체력 회복 메커니즘을 차단하고 지속 출혈 데미지를 폭발시킵니다.",
+  "combo_guide": "1. 스피디한 단검 M1 평타 연타로 적의 Posture 게이지를 누적합니다.\n2. 상대 가드가 무너지며 Posture Break가 발생했을 때 즉시 Bloodrend 만트라(Crucifixion 또는 Bloodedge)를 적중시킵니다.\n3. Hemorrhaging Blow 탤런트 디버프가 적용된 상태에서 Hair Spray (Revitalizing) 또는 자가/타인 힐링 스킬을 사용할 시 상대는 힐 대신 1.5줄 이상의 체력 피해를 입고 폭사합니다.",
+  "video_meta": {
+    "title": "Progressing The Best COMBAT SUPPORT BUILD (1-20) | Deepwoken",
+    "channel": "ZakoTB",
+    "url": "https://www.youtube.com/watch?v=LUXBaJs5EuQ",
+    "upload_date": "20260722",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Oathless",
+  "race": "Tiran",
+  "origin": "Voidwalker",
+  "murmur": "None",
+  "resonance": "None"
+}

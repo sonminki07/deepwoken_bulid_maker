@@ -19,7 +19,7 @@
 - ⚠️ Brick Wall(Fortitude 100, Willpower 100) 조건 충족을 위해 stats 소모가 커 유틸리티 stats 투자 제한
 - ⚠️ 최대 데미지를 뽑아내기 위해 사전 체인 스택 작업이 필요함
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `20` |

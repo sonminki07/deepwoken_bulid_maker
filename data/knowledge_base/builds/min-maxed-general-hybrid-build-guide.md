@@ -20,7 +20,7 @@
 - ⚠️ Shrine 시스템과 퀘스트 순서를 잘못 진행할 경우 빌드가 완전히 망가질 수 있어 철저한 사전 계획이 필요합니다.
 - ⚠️ 고급 장비(God-roll 악세서리 및 헬모드 방어구) 파밍을 위해 레이드 콘텐츠에 대한 숙련도가 요구됩니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -37,9 +37,7 @@
 - **Flamecharm**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **category** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Ferocity`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

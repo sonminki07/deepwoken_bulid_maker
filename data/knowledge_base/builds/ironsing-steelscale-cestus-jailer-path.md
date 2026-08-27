@@ -24,7 +24,7 @@
 - ⚠️ 포티튜드 및 아이언싱 투자가 강제되어 stats 분배가 다소 경직됨
 - ⚠️ 근접 인파이팅에 특화되어 있어 원거리 오리진이나 광역 카이팅 빌드를 상대로 접근 타이밍을 잡기 까다로움
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -41,9 +41,7 @@
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_class** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Vampirism`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

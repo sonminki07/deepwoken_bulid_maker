@@ -1,7 +1,7 @@
 # ⚔️ Mudskipper Revenge (Infected Fistspec)
 
 > **출처 영상**: [I Became Deepwoken’s WEAKEST MONSTER!](https://www.youtube.com/watch?v=DiwjdsKfHJQ) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Reaper`
 
 ---
@@ -24,7 +24,7 @@
 - ⚠️ 특정 고성능 인챈트나 원거리 weapons(Gun User 등)와의 정면 맞다이 시 화력 열세
 - ⚠️ 실수형 콤보 미스 시 역으로 치명적인 반격을 허용할 수 있는 낮은 방어력 stats 구조
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -41,7 +41,7 @@
 - **Shadowcast**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Infected Fistspec / Default Fists', 'category': 'Fist', 'enchant': 'None'}** () — 인챈트: `None`
+- **{'name': 'Infected Fistspec / Default Fists', 'category': 'Fist', 'enchant': 'None'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': 'Purple Furry Trenchcoat / Mudskipper Disguise'}
@@ -62,11 +62,6 @@
 - **Skipper Kick**
 - **Vendetta**
 - **Broodlord Bash**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Squibbo, Corrupted Bounty Targets`
-
-['패턴 파훼: 몹의 선딜레이가 긴 광역 공격 모션을 확인한 즉시 회피 기동으로 빠져나가며, 단발 카운터 타이밍을 노려 Vengeance talents 발동 유도.', '대미지 누적: 단발 딜의 한계를 극복하기 위해 Chain Jail과 Rupture를 연계하여 지속적인 둔화 및 도트 대미지를 안정적으로 누적.', '장판 회피: 보스전에서 바닥에 깔리는 장판 패턴은 기동성이 높은 스텝을 활용해 즉시 회피하고, 피흡 및 포스트쳐 회복 타이밍을 확보.', '정신적 압박: 적 몬스터나 상대 플레이어가 가드를 올리고 대치할 때, 끊임없는 주먹 연타와 스킵퍼 킥(Skipper Kick)으로 가드 브레이크를 유발하여 그로기 상태로 전환.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입): 대시 및 기동성 스펠을 활용해 상대의 사각지대로 파고들며 첫 타격 적중.

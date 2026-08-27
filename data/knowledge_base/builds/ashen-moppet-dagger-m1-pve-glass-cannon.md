@@ -25,7 +25,7 @@
 - ⚠️ 극단적으로 낮은 생존력 (0 Fortitude): Fortitude stats이 0이기 때문에 단 한 번의 실수가 영구 사망(Depths 전송)으로 이어질 수 있어 완벽한 패링과 회피가 강제됩니다.
 - ⚠️ 짧은 리치: 단검 weapons 특성상 공격 사거리가 매우 짧아, 적에게 완전히 밀착해야 하므로 피격 위험성이 항상 존재합니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `83` |

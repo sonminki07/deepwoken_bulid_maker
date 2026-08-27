@@ -18,7 +18,7 @@
 - ⚠️ 정신력 관리에 실패할 경우 순식간에 광기(Insanity) 상태에 빠져 캐릭터가 삭제(Wipe)될 위험 존재
 - ⚠️ Shrine of Order를 활용한 매우 정교한 stats 분배 순서 요구
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

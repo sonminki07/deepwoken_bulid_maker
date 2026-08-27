@@ -24,17 +24,17 @@
   },
   "traits": {
     "vitality": 6,
-    "erudition": 0,
-    "proficiency": 6,
-    "songchant": 0
+    "erudition": 1,
+    "proficiency": 0,
+    "songchant": 5
   },
   "stats": {
     "strength": 5,
     "fortitude": 90,
     "agility": 40,
     "intelligence": 0,
-    "willpower": 2,
-    "charisma": 60,
+    "willpower": 17,
+    "charisma": 50,
     "heavy_wep": 0,
     "medium_wep": 0,
     "light_wep": 67
@@ -46,83 +46,57 @@
     "galebreathe": 0,
     "shadowcast": 0,
     "ironsing": 0,
-    "bloodrend": 1
+    "bloodrend": 60
+  },
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 5,
+      "fortitude": 40,
+      "agility": 40,
+      "willpower": 17,
+      "charisma": 50,
+      "bloodrend": 60
+    },
+    "post_shrine_priority": [
+      "Fortitude 90 달성 (Reinforced Armor 마스터)",
+      "Charisma 60 달성 (유틸리티/버프)",
+      "Light Weapon 67 투자 (Fist 위력 극대화)",
+      "Bloodrend 1 포인트 유지 (만트라 시전용)"
+    ]
   },
   "combat_stats": {
-    "hp": 500,
-    "posture": 26,
-    "ether": 100,
-    "tempo": 100,
-    "sanity": 100,
-    "move_speed_pct": 100.0,
-    "pve_dmg_pct": 0.0
+    "hp": 506,
+    "posture": 27,
+    "ether": 266,
+    "tempo": 133,
+    "sanity": 171,
+    "move_speed_pct": 108.0,
+    "pve_dmg_pct": 10.5
   },
   "resistances": {
     "physical_slash": "43.0%",
     "physical_blunt": "43.0%",
-    "physical_pierce": "43.0%",
-    "fire": "10.0%",
-    "ice": "10.0%",
-    "wind": "10.0%",
-    "shadow": "10.0%",
-    "lightning": "10.0%",
-    "iron": "10.0%",
+    "physical_pierce": "40.0%",
+    "fire": "40.0%",
+    "ice": "25.0%",
+    "wind": "25.0%",
+    "shadow": "25.0%",
+    "lightning": "25.0%",
+    "iron": "5.0%",
     "acid": "0.0%"
   },
   "weapons": [
     {
-      "name": "Withered Death Fist",
+      "name": "Legion Cestus (Fist)",
       "type": "Light Weapon",
-      "enchant": "None",
-      "stars": 0
-    }
-  ],
-  "equipment": [
-    {
-      "slot": "Helmet",
-      "name": "Familiar Knight's Helm"
-    },
-    {
-      "slot": "Face",
-      "name": "None"
-    },
-    {
-      "slot": "Amulet",
-      "name": "Tyran Pendant"
-    },
-    {
-      "slot": "Outfit",
-      "name": "Prophet's Cloak"
-    },
-    {
-      "slot": "Boots",
-      "name": "Star Boots"
-    },
-    {
-      "slot": "Ring 1",
-      "name": "Bastion of Events"
-    },
-    {
-      "slot": "Ring 2",
-      "name": "None"
-    },
-    {
-      "slot": "Ring 3",
-      "name": "None"
-    },
-    {
-      "slot": "Ring 4",
-      "name": "None"
-    },
-    {
-      "slot": "Bell",
-      "name": "None"
+      "enchant": "Grim",
+      "stars": 3
     }
   ],
   "character_setup": {
     "oath": "Dawnwalker",
     "race": "Canor",
-    "origin": "Castaway",
+    "origin": "Deepbound",
     "murmur": "None",
     "resonance_bell": "None"
   },

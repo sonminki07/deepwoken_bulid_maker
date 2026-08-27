@@ -1,7 +1,7 @@
 # ⚔️ Azure Flame & Steam Duster Knockdown Combo PvP Build
 
 > **출처 영상**: [Yun Shul Sent Me This Build In My Sleep | Deepwoken](https://www.youtube.com/watch?v=Gp18Z6MqI3I) by `Darksteel`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Rhythm` / `Reaper`
 
 ---
@@ -23,7 +23,7 @@
 - ⚠️ M1 및 단발 mantras 자체의 기본 대미지가 낮아 콤보 연계를 실패할 경우 딜 교환에서 손해를 볼 수 있음
 - ⚠️ 공중 연계 및 래그돌 타이밍에 맞춘 기어 조작과 핑(Ping) 의존도가 높아 높은 숙련도 요구
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -42,7 +42,7 @@
 - **Galebreathe**: `30`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Steel Skewered Dusters', 'category': 'Light Weapon', 'enchant': 'Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Steel Skewered Dusters', 'category': 'Light Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Prophet's Cloak

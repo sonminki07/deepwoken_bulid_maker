@@ -20,7 +20,7 @@
 - ⚠️ Shrine of Order를 사용하기 위한 정교한 stats 빌드업 순서가 강제됨
 - ⚠️ 광기(Insanity) 관리가 미숙할 경우 리스크가 존재함
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `30` |

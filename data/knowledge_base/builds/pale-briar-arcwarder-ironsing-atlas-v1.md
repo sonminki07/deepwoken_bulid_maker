@@ -18,7 +18,7 @@
 - ⚠️ 초고난도 보스 레이드(예: Ethiron, Chaser 등)에서는 공격 타이밍 확보가 까다로워 클리어 속도가 다소 느릴 수 있음.
 - ⚠️ 오스 및 속성 요구 stats 투자가 분산되어 있어, 빗나간 stats 분배 시 후반 빌드 완성에 차질이 생길 수 있음.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -35,9 +35,7 @@
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name** — 인챈트: `None`
-- **weapon_type** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Wild`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

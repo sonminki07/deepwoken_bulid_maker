@@ -2,7 +2,7 @@
 
 > **출처 영상**: [Ruin Showcase | Deepwoken](https://www.youtube.com/watch?v=v2k22Yayw10) by `Lazy`
 > **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `Canor` / `Castaway` | **Oath**: `Dawnwalker` | **Murmur/Bell**: `None` / `None`
+> **종족/출신**: `Canor` / `Deepbound` | **Oath**: `Dawnwalker` | **Murmur/Bell**: `None` / `None`
 
 ---
 
@@ -25,48 +25,62 @@ Withered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(
 ## 🧬 4대 고유 특성 (Traits)
 | Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
 | :---: | :---: | :---: | :---: |
-| `6` | `0` | `6` | `0` |
+| `6` | `1` | `0` | `5` |
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `17` |
+| Charisma (매력) | `50` |
+| Bloodrend | `60` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `5` |
 | Fortitude (인내) | `90` |
 | Agility (민첩) | `40` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `2` |
-| Charisma (매력) | `60` |
+| Willpower (의지) | `17` |
+| Charisma (매력) | `50` |
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `67` |
 
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Fortitude 90 달성 (Reinforced Armor 마스터)
+- 🎯 Charisma 60 달성 (유틸리티/버프)
+- 🎯 Light Weapon 67 투자 (Fist 위력 극대화)
+- 🎯 Bloodrend 1 포인트 유지 (만트라 시전용)
+
 ## ⚡ 속성 투자 (Attunements)
-- **Bloodrend**: `1`
+- **Bloodrend**: `60`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
 | Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `500` | `26` | `100` | `100` | `100` | `100.0%` | `+0.0%` |
+| `506` | `27` | `266` | `133` | `171` | `108.0%` | `+10.5%` |
 
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
 | 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
 | :--- | :--- | :--- |
-| 참격: `43.0%` / 타격: `43.0%` / 관통: `43.0%` | 화염: `10.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+| 참격: `43.0%` / 타격: `43.0%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `25.0%` / 바람: `25.0%` | 그림자: `25.0%` / 번개: `25.0%` / 철: `5.0%` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `Strength 5, Fortitude 40, Agility 40, Willpower 17, Charisma 50, Bloodrend 60`
+**Post-Shrine 우선순위**:
+- Fortitude 90 달성 (Reinforced Armor 마스터)
+- Charisma 60 달성 (유틸리티/버프)
+- Light Weapon 67 투자 (Fist 위력 극대화)
+- Bloodrend 1 포인트 유지 (만트라 시전용)
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Withered Death Fist** (Light Weapon) — 인챈트: `None`
-
-## 🛡️ 주요 장비 (Equipment)
-- **[Helmet]** Familiar Knight's Helm
-- **[Face]** None
-- **[Amulet]** Tyran Pendant
-- **[Outfit]** Prophet's Cloak
-- **[Boots]** Star Boots
-- **[Ring 1]** Bastion of Events
-- **[Ring 2]** None
-- **[Ring 3]** None
-- **[Ring 4]** None
-- **[Bell]** None
+- **Legion Cestus** (Light Weapon) — 인챈트: `Grim` ⭐x3
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

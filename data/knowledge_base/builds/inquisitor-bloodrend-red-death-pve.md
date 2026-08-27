@@ -20,7 +20,7 @@
 - ⚠️ 초반 육성 단계에서 여러 속성(Bloodrend, Shadowcast)을 동시에 올려야 하므로 성장이 다소 복잡함
 - ⚠️ 오쓰(Oath)를 Shrine of Order 사용 이후에만 획득해야 하는 제약이 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `1` |

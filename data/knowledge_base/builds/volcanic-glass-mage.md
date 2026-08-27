@@ -24,9 +24,20 @@
 - ⚠️ 스태미나 관리에 실패하면 메이지 특성상 근접전에서 취약해질 수 있음
 - ⚠️ 특정 속성 저항이 높은 상대에게는 대미지 효율이 다소 감소할 수 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `25` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `20` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `40` |
@@ -36,6 +47,10 @@
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `80` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Flamecharm 80 달성 (Volcanic Mage 마법)
+- 🎯 Medium Weapon 75 달성 (마법사 근접 weapons)
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`

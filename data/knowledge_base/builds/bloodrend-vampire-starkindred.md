@@ -19,7 +19,7 @@
 - ⚠️ Shrine of Order를 거쳐야 하므로 육성 difficulty가 높음
 - ⚠️ 흡혈에 의존하기 때문에 패링을 당하거나 딜을 넣지 못하면 급격히 취약해짐
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

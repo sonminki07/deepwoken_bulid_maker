@@ -1,7 +1,7 @@
 # ⚔️ Dark Pearls Inky Vent Shadowcast PvP
 
 > **출처 영상**: [NEW SHADOWCAST RELIC: Dark Pearls (Showcase + Obtainment) | Deepwoken](https://www.youtube.com/watch?v=cJbD4c7a8m8) by `Dolphie`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Kiron` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
@@ -24,9 +24,20 @@
 - ⚠️ 섀도우캐스트 stats 40 이상을 필수로 요구하므로 stats 분배의 자유도가 제한됨
 - ⚠️ 벤트 타이밍을 정확히 맞추지 못하면 에테르 강탈 효과를 보지 못하고 역공을 허용할 수 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `0` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `40` |
@@ -36,6 +47,10 @@
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `75` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Medium Weapon 80 달성
+- 🎯 Shadowcast 상위 mantras 및 talents 최적화
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
@@ -47,7 +62,7 @@
 - Shadowcast 상위 mantras 및 talents 최적화
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Kyrsglaive', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Kyrsglaive', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Traveler's Jacket
@@ -73,11 +88,6 @@
 - **Shadow Blink**
 - **Dark Drift**
 - **Wings of Enmity**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke Erisia, Squibbo, Primadon`
-
-['보스전 및 네임드 몹 상대 시 적의 공격 패턴 직전 또는 직후에 벤트를 사용하여 에테르 강탈 및 경직 효과를 동시에 유도하세요.', '다수의 몹이 몰려있는 상황에서 광역 벤트를 명중시키면 템포가 즉시 회복되므로 생존과 유지력 측면에서 적극 활용해야 합니다.', 'Dark Pearls의 포스처 감소 디메리트를 보완하기 위해 가드 의존도를 낮추고 회피 및 Shadow Blink를 통한 포지셔닝에 집중하세요.', '에테르가 가득 찬 상태에서 Dark God 효과를 발동시켜 추가적인 자원 변환 및 버프를 획득하여 폭딜 타이밍을 잡으세요.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입): Shadow Travel 또는 Shadow Blink를 활용하여 적의 사각지대로 신속하게 접근합니다.

@@ -1,7 +1,7 @@
 # ⚔️ Bloodrend Hybrid PvP Build
 
 > **출처 영상**: [This Build Became OVERPOWERED.. | Deepwoken](https://www.youtube.com/watch?v=IK8kp9Iv8SA) by `Inu`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Kiron` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Gravity Field`
 
 ---
@@ -23,9 +23,20 @@
 - ⚠️ 핑 불안정 시 리스크: 레이어 2 등지에서 핑(Ping)이 높을 경우 패링 및 회피 타이밍이 어긋나 위험할 수 있습니다.
 - ⚠️ 스태미나 관리 필요: 공격적인 압박을 지속할 경우 스태미나가 빠르게 소모되므로 자원 관리에 신경 써야 합니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `0` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `40` |
 | Agility (민첩) | `40` |
@@ -35,6 +46,10 @@
 | Heavy Wep (중화기) | `85` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Bloodrend 80 달성
+- 🎯 Heavy Weapon 80 달성
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
@@ -46,7 +61,7 @@
 - Heavy Weapon 80 달성
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Custom Heavy Weapon', 'category': 'Heavy', 'enchant': 'Grim'}** () — 인챈트: `None`
+- **{'name': 'Custom Heavy Weapon', 'category': 'Heavy', 'enchant': 'Grim'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Red Dleiver Outfit
@@ -64,11 +79,6 @@
 - **Rising Shadow**
 - **Visions of Duality**
 - **Crystal Blade**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Squibbo, Depths Gankers`
-
-['근접 몬스터 상대 시 Shadow Travel을 활용해 측면을 잡고 선공권을 확보하세요.', '보스전에서는 패턴 직전 가드를 올리기보다 회피 후 후속 딜레이를 노려 중량 weapons 강공격을 적중시키세요.', '다수의 적(갱커)과 조우했을 때는 지형물을 활용해 거리를 벌리며 각개격파 구도를 만드세요.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 ['1단계 (진입): Shadow Travel 또는 대시를 이용해 순식간에 상대의 품으로 파고듭니다.', '2단계 (가드 브레이크): 평타와 빠른 mantras 연계를 퍼부어 상대의 가드 내구도를 빠르게 소모시킵니다.', '3단계 (폭딜 콤보): 가드가 깨진 상대에게 에어본 유발 mantras를 명중시킨 뒤 공중 추가타를 확정 넣습니다.', '4단계 (유지 및 탈출): 체력이 부족할 경우 거리를 벌리고 mantras 쿨타임을 관리하며 재정비합니다.']

@@ -23,7 +23,7 @@
 - ⚠️ 자원 관리의 까다로움: 스태미나와 에테르(Ether) 소모량이 매우 커서 전투 지속력이 다소 떨어짐
 - ⚠️ 팀원과의 합 필요: 솔로 플레이보다는 적을 묶어둘 수 있는 팀 파이트 환경에서 효율이 극대화됨
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -41,9 +41,7 @@
 - **Thundercall**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_class** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Vampiric / Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

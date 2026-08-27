@@ -1,7 +1,7 @@
 # ⚔️ Attunementless Stone Palace Tachi PvP Build
 
 > **출처 영상**: [This Palace Tachi Build is BROKEN | Deepwoken](https://www.youtube.com/watch?v=nbr0y8JRlZ4) by `JudahGames`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian / Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Murmur: Rhythm` / `Reaper / Any PvP Bell`
 
 ---
@@ -24,7 +24,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 주력 화력이 패링/가드 심리전 및 근접 M1/크리티컬 명중에 의존함
 - ⚠️ 무기 밸런스 패치(너프) 시 빌드의 핵심 화력 기여도가 영향을 받을 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `25` |
@@ -38,7 +38,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Palace Tachi', 'category': 'Medium Weapon (Sword / Katana)', 'enchant': 'Stone'}** () — 인챈트: `None`
+- **{'name': 'Palace Tachi', 'category': 'Medium Weapon ', 'enchant': 'Stone'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': "Black Diver / Prophet's Cloak"}
@@ -64,13 +64,6 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Rhythm Advance**
 - **Taunt**
 - **Strong Left**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Duke of Erisia, Squibbo, Maestro Evengarde, Depth High-tier PvP Targets`
-
-1. 높은 물리 저항(53.8%)과 Reinforce 버프를 활용하여 보스의 강타를 직접 버티며 지속 근접 딜링을 유지합니다.
-2. Stone 인챈트가 부여된 Palace Tachi의 크리티컬 공격으로 Humanoid NPC나 보스의 포스처를 순식간에 깎아 가드 브레이크를 유발합니다.
-3. 가드가 터진 빈사 상태의 적에게 Taunt 및 Ardor Slicer를 연계하여 순간적으로 대미지 배율을 폭발시켜 마무리합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1. [진입 및 도발]: Rhythm Advance 또는 대시 M1으로 적에게 근접하며 Taunt를 사용해 상대의 포스처 및 대미지 감쇄율을 약화시킵니다.

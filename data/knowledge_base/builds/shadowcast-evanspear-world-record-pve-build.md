@@ -29,9 +29,20 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 | :---: | :---: | :---: | :---: |
 | `0` | `0` | `6` | `6` |
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `90` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `100` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `25` |
 | Fortitude (인내) | `0` |
 | Agility (민첩) | `5` |
@@ -41,6 +52,10 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `100` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)
+- 🎯 Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `20`

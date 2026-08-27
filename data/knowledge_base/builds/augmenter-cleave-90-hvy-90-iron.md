@@ -19,7 +19,7 @@
 - ⚠️ Shrine of Order를 사용하기 위한 정교한 레벨업 및 stats 분배 순서 필요
 - ⚠️ 다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 difficulty가 높음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `25` |

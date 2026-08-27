@@ -1,7 +1,7 @@
 # ⚔️ Megumi Ten Shadows Visionshaper Summoner Build
 
 > **출처 영상**: [The Megumi Summoner Progression! (1-20) | Deepwoken |](https://www.youtube.com/watch?v=VuAHR4PUlT8) by `Wormcave`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
 > **종족/출신**: `Etrean` / `Voidwalker` | **Oath**: `Visionshaper` | **Murmur/Bell**: `None` / `Run It Back`
 
 ---
@@ -22,7 +22,7 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ 다중 속성 및 유틸 stats 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 stats 단축이 필요함
 - ⚠️ 분신 및 소환 mantras의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `20` |
@@ -41,7 +41,7 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Shadowcast**: `25`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Messer / Katana', 'category': 'Medium Weapon', 'enchantment': 'Curse of Rust / Solar'}** () — 인챈트: `None`
+- **{'name': 'Messer / Katana', 'category': 'Medium Weapon', 'enchantment': 'Curse of Rust / Solar'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Hive Drone (Custom Megumi Jujutsu High Uniform Hair ID Setup)
@@ -65,13 +65,6 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Frozen Servants**
 - **Shadow Devour**
 - **Ice Flock**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Megalodaunt, Squibbo, Scion of Ethiron, Primadon`
-
-1. 일반 몬스터 (Megalodaunt, Squibbo): 진입 직후 분신(Shadow Clone / Visionshaper)을 먼저 생성하여 몬스터의 어그로를 분신 쪽으로 끌어줍니다. 몬스터가 분신을 공격하는 동안 측면이나 후방에서 안전하게 weapons 타격과 가드브레이크 mantras를 넣어 제압합니다.
-2. Layer 2 Floor 2 (Scion of Ethiron): 광역 레이저 및 뼈 기둥 패턴 시 기동 mantras와 회피를 이용해 기둥 뒤로 신속히 이동합니다. 코어 타격 페이즈에서는 얼음/번개 속성 mantras를 쿨타임마다 퍼부어 신속하게 퍼센트 대미지를 누적시킵니다.
-3. 필드 보스 (Primadon): 대형 보스를 상대할 때는 거리 유지가 필수적입니다. 어그로를 분신에 분산시킨 상태에서 중거리 얼음 찌르기 및 번개 분신을 활용해 보스의 패턴 후딜레이에 정확히 리치 긴 타격을 꽂아 넣습니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입 및 어그로 분산): 교전 개시 시 Shadow Clone 또는 Visionshaper 특유의 환영 분신을 시전하여 상대방의 시야와 어그로를 교란합니다.

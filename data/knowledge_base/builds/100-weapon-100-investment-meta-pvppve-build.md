@@ -1,7 +1,7 @@
 # ⚔️ 100 Weapon & 100 Investment Meta PvP/PvE Build
 
 > **출처 영상**: [These Talents Are INSANE... | Deepwoken](https://www.youtube.com/watch?v=v5oADnm3PTM) by `SoyX4`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Default Bell / Wind Up`
 
 ---
@@ -23,9 +23,21 @@
 - ⚠️ 원거리 카이팅 빌드나 고기동성 유저를 상대로 초근접 거리를 허용하지 않으면 딜 효율이 급감함
 - ⚠️ 스태미나 관리 실패 시 주력 M1 콤보 연계가 끊기며 역공의 빌미를 제공할 위험이 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `10` |
+| Heavy_wep | `100` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `90` |
 | Fortitude (인내) | `80` |
 | Agility (민첩) | `40` |
@@ -35,6 +47,11 @@
 | Heavy Wep (중화기) | `100` |
 | Medium Wep (중형무기) | `25` |
 | Light Wep (경화기) | `10` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Agility 25 확보
+- 🎯 Heavy Weapon 100 마스터
+- 🎯 Willpower 80 유지
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `100`
@@ -51,7 +68,7 @@
 - Willpower 80 유지
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Imperial Staff / Pale Briar', 'category': 'Heavy Weapon / Medium Weapon', 'enchant': 'Grim / Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Imperial Staff / Pale Briar', 'category': 'Heavy Weapon / Medium Weapon', 'enchant': 'Grim / Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Black Diver / Prophet's Cloak
@@ -74,11 +91,6 @@
 - **Flourish**
 - **Ash Ember Strike**
 - **Glacial Cascade**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke Erisia, Maestro Evangelisto, Squibbo`
-
-["초근접 인파이팅을 유지하며 'Flame Wisp'을 주기적으로 발동시켜 보스전 중 지속적인 체력 회복을 도모합니다.", '100 인베스트먼트 속성 talents의 디버프 효과를 활용해 보스의 패턴 시전 딜레이를 유도하고 가드를 무력화합니다.', "스쿼보(Squibbo) 같은 고난도 몹 상대로는 'Frozen Anchor'의 바텀 프리즈와 칠을 걸어 이동을 제한한 뒤 안전하게 폭딜을 누적합니다.", '에시론(Ethiron) 레이드 시 장판 패턴을 피하면서 M1 평타 강화 talents의 퍼센트 데미지를 활용해 안정적으로 체력을 깎아냅니다.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (접근 및 선공): 대쉬와 기동력을 활용해 상대에게 빠르게 파고든 뒤 강화된 M1(Night Terror)을 적중시켜 일시적인 이동 불가 상태로 만듭니다.

@@ -23,7 +23,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - ⚠️ Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
 - ⚠️ Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

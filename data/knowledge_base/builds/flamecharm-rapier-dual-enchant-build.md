@@ -24,7 +24,7 @@
 - ⚠️ 묵직한 대형 weapons(Heavy Weapon) 유저의 패리 및 리포스트 타이밍에 역공당할 위험 존재
 - ⚠️ 원거리 견제력이 상대적으로 부족하여 접근전 심리전 실패 시 주도권을 내어줄 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -38,9 +38,7 @@
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_type** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Curse of Yun'Shul & Tears of the Edenkite`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

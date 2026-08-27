@@ -22,7 +22,7 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 크리티컬 공격 빗나감 시 순간 리스크: Blood Plague 및 Critical Engine 기반의 피흡 의존도가 높아 크리티컬 공격을 실수로 허공에 날리면 순간 임시 체력 수급이 끊길 수 있습니다.
 - ⚠️ 고난도 제작 재료 요구: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings 등 엔드게임 세트 장비 제작에 많은 유니크 재료가 소비됩니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |

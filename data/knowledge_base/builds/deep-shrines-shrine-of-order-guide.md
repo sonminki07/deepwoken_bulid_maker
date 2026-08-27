@@ -19,9 +19,20 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 - ⚠️ 스탯이 낮아지면서 기존에 해금했던 탤런트나 장비 착용 요구치를 만족하지 못해 비활성화될 수 있음
 - ⚠️ 치밀한 스탯 계산 없이 사용 시 빌드가 망가지거나 탤런트가 잠길 위험이 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `25` |
@@ -31,6 +42,10 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 | Heavy Wep (중화기) | `75` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 75 달성
+- 🎯 유틸리티 및 방어구 탤런트 최적화
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`

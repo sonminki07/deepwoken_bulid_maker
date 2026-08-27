@@ -1,7 +1,7 @@
 # ⚔️ Deepwoken Meta Talent Tier List & Optimization Guide
 
 > **출처 영상**: [Ranking Every Meta Talent in Deepwoken](https://www.youtube.com/watch?v=YAk7SDHqdrg) by `Breeze`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Voice` / `Judgement / Wind Up`
 
 ---
@@ -24,7 +24,7 @@
 - ⚠️ 특정 talents(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움
 - ⚠️ 메타 변화나 패치에 따라 talents 효율이 급변할 수 있어 지속적인 빌드 수정 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `90` |
@@ -42,7 +42,7 @@
 - **Shadowcast**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Kyrsglaive', 'weapon_type': 'Heavy Weapon', 'enchant': 'Vampiric / Grim'}** () — 인챈트: `None`
+- **{'name': 'Kyrsglaive', 'weapon_type': 'Heavy Weapon', 'enchant': 'Vampiric / Grim'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Black Diver
@@ -78,11 +78,6 @@
 - **Shadow Gun**
 - **Aria**
 - **Rising Phoenix**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke Erisia, Squibbo, Primadon`
-
-['패턴 파훼법: 적의 공격을 정확히 패리(Parry)하고 스피드 부스트를 발동시켜 Speed Demon과 Cheap Shot의 관통력 버프를 상시 유지하세요.', '퍼센트 대미지 누적: Million Ton Piercer와 Piercing Will을 조합하여 보스의 높은 물리 방어력을 무력화하고 폭딜을 퍼붓습니다.', '장판 회피 및 피흡: Exoskeleton과 To The Finish로 체력이 낮아졌을 때의 받는 피해를 최소화하고, 지속적인 교전으로 생존력을 확보합니다.', '거리 조절: 기동성 talents(Ghost, Dustlunge)를 활용해 광역 패턴과 위험한 근접 패턴을 유연하게 회피합니다.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입 및 이속 확보): 패리 또는 닷지 성공 후 발동하는 Speed Demon 및 Fast Blade 버프를 통해 이동 속도와 공격력을 동시에 증폭시킵니다.

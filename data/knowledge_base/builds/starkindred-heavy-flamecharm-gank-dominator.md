@@ -27,7 +27,7 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ mantras 연타 시 높은 이더(Ether) 소비량으로 지속적인 이더 관리가 필수적임
 - ⚠️ 공중 강하 패턴이 단조로워질 경우 상급자에게 공중 패링을 허용할 위험 존재
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `50` |

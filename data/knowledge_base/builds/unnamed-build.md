@@ -9,7 +9,7 @@
 ## 📝 빌드 개요 및 총평
 No summary provided.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |

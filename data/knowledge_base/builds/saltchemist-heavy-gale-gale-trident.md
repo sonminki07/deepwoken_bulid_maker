@@ -1,7 +1,7 @@
 # ⚔️ Saltchemist Heavy Gale (Gale Trident)
 
 > **출처 영상**: [This Build Does TOO Much Damage | Deepwoken](https://www.youtube.com/watch?v=lo5ZZAglsR4) by `Saya`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Ganymede` / `Voidheart` | **Oath**: `Saltchemist` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---
@@ -19,7 +19,7 @@
 - ⚠️ 물약 제조 및 사용 타이밍에 대한 숙련도 요구
 - ⚠️ Gale Trident의 다소 느린 공격 속도로 인한 패링 취약성
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `30` |
@@ -36,7 +36,7 @@
 - **Galebreathe**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Gale Trident', 'type': 'Heavy', 'recommended_enchant': 'Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Gale Trident', 'type': 'Heavy', 'recommended_enchant': 'Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': 'Black Diver'}
@@ -55,11 +55,6 @@
 - **Wind Carve**
 - **Heavenly Wind**
 - **Gale Breath**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Duke of Erisia, Chaser, Voidwalkers`
-
-Gale Trident의 긴 사거리를 활용해 안전거리를 유지하며, Saltchemist 물약으로 공격력 버프를 부여한 뒤 Gale Lunge와 Wind Carve로 가드를 파괴하고 폭발적인 데미지를 누적시킵니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 기본 평타(M1)로 리치 우위를 점한 뒤, Gale Lunge로 진입하여 상대의 패링 타이밍을 흐트러뜨립니다. 이후 Saltchemist 물약을 투척해 디버프를 묻히고 Wind Carve와 Heavenly Wind 연계로 공중 콤보 및 넉백을 유도하여 전장을 지배합니다.

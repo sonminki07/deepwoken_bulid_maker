@@ -23,7 +23,7 @@
 - ⚠️ Fortitude 25 투자로 인해 최대 체력이 낮아 보스의 대형 패턴 직격 시 치명상 위험
 - ⚠️ 패링 실패나 Prediction 타이밍 미스로 인한 콤보 단절 시 생존력이 급격히 저하됨
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `5` |

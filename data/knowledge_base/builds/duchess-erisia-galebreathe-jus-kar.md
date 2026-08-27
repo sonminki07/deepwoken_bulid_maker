@@ -18,7 +18,7 @@
 - ⚠️ 사거리가 짧아 리치가 긴 weapons(창, 대검)를 상대로 정밀한 거리 조절 필요
 - ⚠️ 컨트롤 difficulty가 높아 Beginner가 다루기 어려움
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

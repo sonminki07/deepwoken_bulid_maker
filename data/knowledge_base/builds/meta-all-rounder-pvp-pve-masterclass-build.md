@@ -1,7 +1,7 @@
 # ⚔️ Meta All-Rounder PvP & PvE Masterclass Build
 
 > **출처 영상**: [MUST TAKE Talents | Deepwoken Building Masterclass](https://www.youtube.com/watch?v=cgbPyrooFG0) by `Rioshinki`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
 > **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall / Wind Wisp` / `Reaper`
 
 ---
@@ -24,9 +24,20 @@
 - ⚠️ mantras 콤보 의존도: 단순 평타 싸움보다는 talents 버프와 mantras 연계 타이밍에 크게 의존하므로, 프레임 단위의 패리/회피 숙련도가 요구됩니다.
 - ⚠️ 특정 오스(Oath) 강제성: Starkindred, Silentheart 등 빌드 목적에 맞는 오스를 선택하지 못하면 잠재력을 100% 발휘하기 어렵습니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `54` |
 | Agility (민첩) | `65` |
@@ -36,6 +47,11 @@
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `80` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 80 달성
+- 🎯 Ironsing 80 달성
+- 🎯 유틸리티 talents 및 mantras 최적화 분배
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `80`
@@ -48,7 +64,7 @@
 - 유틸리티 talents 및 mantras 최적화 분배
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Kyrsglaive / Pale Briar', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Kyrsglaive / Pale Briar', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': "Prophet's Cloak"}
@@ -78,11 +94,6 @@
 - **Astral Wind**
 - **Rising Wind**
 - **Wind Passage**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke Erisia, Maestro Evangelisto, Primadon, Squibbo`
-
-['보스전 및 레이드(Chaser, Scion of Ethiron 등)에서는 Exoskeleton과 To the Finish의 방어 버프를 상시 유지하여 광역 패턴과 누적 피해를 최소화하세요.', 'Squibbo 및 정예 몬스터 상대 시, Ghost의 회피 무적 타이밍과 Spine Cutter의 뒤돌기 크리티컬 연계를 활용해 순식간에 체력을 갉아먹어야 합니다.', 'Duke Erisia나 Humanoid 보스 상대 시, Anxious Guard와 Old Habits로 가드 내구도를 보강하고 패리 성공 직후 주력 mantras(Gale Lunge 등)로 딜레이 없는 카운터를 먹이세요.', '체력이 30% 이하로 떨어졌을 때 발동하는 투혼(To the Finish)과 피흡(Vampiric) 인챈트의 시너지를 계산하여, 위기 상황에서 역전의 발판을 마련하세요.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입): Conditioned Runner와 Ghost의 기동력을 활용해 상대의 가드 측면으로 빠르게 파고들며 압박을 시작합니다.

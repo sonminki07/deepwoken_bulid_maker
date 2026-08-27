@@ -20,7 +20,7 @@
 - ⚠️ 복잡한 stats 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 stats이 꼬일 수 있음
 - ⚠️ PVP보다는 PVE 레이드에 특화되어 있어 PvP 상황에서는 대처가 까다로울 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -38,9 +38,7 @@
 - **Thundercall**: `25`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_class** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Astral`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

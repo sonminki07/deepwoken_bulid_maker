@@ -18,7 +18,7 @@
 - ⚠️ 섀도우캐스트 mantras의 높은 에테르 소모량
 - ⚠️ 정교한 패링과 거리 조절이 요구되는 높은 difficulty
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

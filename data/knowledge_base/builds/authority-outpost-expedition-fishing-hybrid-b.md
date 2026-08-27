@@ -22,7 +22,7 @@
 - ⚠️ Bloodrend 계열의 시각 효과가 핑크빛으로 변경되어 기존의 묵직한 다크 판타지 감성을 선호하는 유저에게는 호불호가 갈릴 수 있습니다.
 - ⚠️ 낚시 시스템의 메커니즘 변화로 인해 최적의 미끼와 서식지 정보를 숙지하지 못하면 효율적인 자원 수급이 어렵습니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -40,9 +40,7 @@
 - **Bloodrend**: `40`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name** — 인챈트: `None`
-- **weapon_class** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `None (Runic Marked)`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

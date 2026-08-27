@@ -27,7 +27,7 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - ⚠️ 낮은 기동성(Agility): Agility stats이 매우 낮아 순수 기동력 싸움에서 밀릴 수 있으므로, 기동성 mantras(Rising Shadow 등)의 정확한 활용이 강제됩니다.
 - ⚠️ 높은 에테르 의존도: mantras의 크기를 키우기 위해 에테르 소모량이 많으므로, Bluestone Boots의 에테르 관리 효과를 상시 유지해야 합니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `1` |

@@ -20,7 +20,7 @@
 - ⚠️ 치유량 극대화를 위해 딜량이 15% 감소하는 Blindseer's Ring의 패널티 감수 필요
 - ⚠️ Shrine of Order를 사용한 정교한 stats 분배 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |

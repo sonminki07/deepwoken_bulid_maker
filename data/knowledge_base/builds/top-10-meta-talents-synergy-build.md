@@ -22,7 +22,7 @@
 - ⚠️ Everchanging Aegis의 경우 단일 속성 빌드나 Saintsworn 상대로는 속성 피격 시 오히려 디메리트를 받을 수 있음
 - ⚠️ Heretics Sutra 및 Insanity 계열 talents 운용 시 체력 및 광기 관리가 미숙하면 자멸할 위험이 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `90` |
@@ -36,9 +36,7 @@
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_type** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

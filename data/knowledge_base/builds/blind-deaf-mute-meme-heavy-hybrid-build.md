@@ -1,7 +1,7 @@
 # ⚔️ Blind, Deaf & Mute Meme Heavy Hybrid Build
 
 > **출처 영상**: [Beating Deepwoken but we're Blind, Deaf, & Mute...](https://www.youtube.com/watch?v=syUoute3AaQ) by `Solidz`
-> **패치 버전**: `Unknown` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Wind Up`
 
 ---
@@ -23,9 +23,20 @@
 - ⚠️ 적의 선딜레이를 사운드로 파악할 수 없어 패링 타이밍이 매우 까다로움
 - ⚠️ 회피 기동 중 지형지물에 걸리거나 낙사할 위험이 매우 높음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `75` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `10` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `50` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `40` |
@@ -35,6 +46,10 @@
 | Heavy Wep (중화기) | `80` |
 | Medium Wep (중형무기) | `10` |
 | Light Wep (경화기) | `10` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 80 달성
+- 🎯 Intelligence 25 유틸리티 talents 확보
 
 ## ⚡ 속성 투자 (Attunements)
 - **Thundercall**: `80`
@@ -46,7 +61,7 @@
 - Intelligence 25 유틸리티 talents 확보
 
 ## 🗡️ 추천 무기 (Weapons)
-- **{'name': 'Falchion / Heavy Greatsword', 'category': 'Heavy Weapon', 'enchant': 'Grim / Vampiric'}** () — 인챈트: `None`
+- **{'name': 'Falchion / Heavy Greatsword', 'category': 'Heavy Weapon', 'enchant': 'Grim / Vampiric'}** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** {'name': 'Ignition Deepdelver Outfit'}
@@ -66,11 +81,6 @@
 - **Tornado Kick**
 - **Air Force**
 - **Wind Step**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Squibbo, Primadon`
-
-['Chaser전에서는 보스의 장판 패턴과 피의 소용돌이 공격을 시각적 잔상으로만 판단해야 하므로, 파티원과 협력하여 가마솥(Cauldron) 기믹을 신속하게 작동시키고 지속적으로 피흡을 유지해야 합니다.', 'Scion of Ethiron 상대 시 보스의 거대한 보라색 광선과 십자 레이저 패턴의 예비 동작을 보고 즉시 측면으로 구르거나 고지대로 회피하여 광역즉사기를 피해야 합니다.', 'Squibbo 및 필드 몹 조우 시 사운드 플레이 불가로 인해 패링 브레이크 타이밍을 잡기 어려우므로, 팀원이 어그로를 끌어준 상태에서 후방에서 강공격(Heavy Attack)을 꽂아 포스처를 무너뜨려야 합니다.']
 
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engage': 'Wind Step 또는 돌진형 mantras를 활용해 시야가 차단된 상태에서도 적의 위치로 빠르게 접근하여 기습 타격을 시도합니다.', 'step_2_guard_break': '중화기의 높은 포스처 대미지를 이용해 평타와 강공격을 섞어 적의 가드를 강제로 파괴(Guard Break)합니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Thunder Spear 및 콤보 mantras를 연계하여 순식간에 최대 체력을 깎아내립니다.', 'step_4_recovery': '교전 중 체력이 부족할 경우 Vesperian race 특유의 방어력과 Vampiric 인챈트의 피흡 효과를 이용해 전선에서 이탈해 체력을 회복합니다.'}

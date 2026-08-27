@@ -18,7 +18,7 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ Requires Shrine of Order and multiple stat investments to assemble
 - ⚠️ Heavily optimized for PvE encounters rather than PvP fights
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |

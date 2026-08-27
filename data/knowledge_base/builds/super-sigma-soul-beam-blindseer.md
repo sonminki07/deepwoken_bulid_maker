@@ -20,7 +20,7 @@
 - ⚠️ mantras 의존도가 높아 게이지 관리가 중요함
 - ⚠️ Sightless Beam 사용 중 채널링 상태에서 취약해질 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |

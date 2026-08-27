@@ -19,7 +19,7 @@
 - ⚠️ Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 stats 순서 요구
 - ⚠️ 극단적인 극딜 빌드에 비해서는 보스 처치 속도가 다소 느릴 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `5` |

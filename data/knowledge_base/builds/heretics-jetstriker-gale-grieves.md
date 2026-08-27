@@ -24,7 +24,7 @@
 - ⚠️ 방어력(Fortitude)과 체력 stats이 상대적으로 낮아 방심할 경우 누적 데미지에 취약할 수 있음
 - ⚠️ Shrine of Order 빌딩 단계에서 stats Shrinoing 순서를 실수하면 핵심 talents를 누락할 위험이 큼
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -41,9 +41,7 @@
 - **Galebreathe**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon** — 인챈트: `None`
-- **weapon_class** — 인챈트: `None`
-- **enchant** — 인챈트: `None`
+- **Unknown** — 인챈트: `Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

@@ -22,7 +22,7 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 - ⚠️ 낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 stats 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함
 - ⚠️ 숙련도가 요구되는 콤보 타이밍: Astral Wind와 크리티컬 공중 추적 콤보의 프레임 타이밍을 정확히 맞추지 못하면 딜 손실 발생
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `20` |
