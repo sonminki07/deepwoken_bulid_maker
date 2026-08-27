@@ -4,10 +4,11 @@
 
 ---
 
-## 👑 Bosses & Raids (보스 & 레이드 공략) (2개)
+## 👑 Bosses & Raids (보스 & 레이드 공략) (3개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
+| **Rapier PvE Frozen & Burning Servant** | `Boss Raid` | ` / flamecharm, frostdraw` | [📄 문서 보기](bosses/rapier-pve-frozen-burning-servants-1-min-elde.md) |
 | **Silentheart Fist PvE Bosskiller & D** | `PvE` | `Silentheart / Attunementl` | [📄 문서 보기](bosses/silentheart-fist-pve-bosskiller-diluvian.md) |
 | **Silentheart Rapier & Moppet PvE Bos** | `PvE` | ` / Attunementless` | [📄 문서 보기](bosses/silentheart-rapier-moppet-pve-boss-slayer-v2.md) |
 

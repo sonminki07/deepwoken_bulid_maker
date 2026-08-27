@@ -1,0 +1,111 @@
+{
+  "video_metadata": {
+    "title": "1 MINUTE ELDER PRIMADON. | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=mYEcMRBqbZ0",
+    "patch_version": "Verse 3"
+  },
+  "build_summary": {
+    "build_name": "Rapier PvE Frozen & Burning Servants (1-Min Elder Primadon Destroyer)",
+    "build_type": "Boss Raid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "최근 패치로 레이피어(Rapier) 패링 시 피해량 +50%, 크리티컬 피해량 +33%라는 파격적인 버프가 추가되면서 PvE 메타의 핵심 무기로 급부상했습니다. 이 빌드는 이러한 레이피어의 가드브레이크/패링 특성을 극한으로 활용하기 위해 설계되었습니다.\n\n핵심 전투 테크닉은 프로스트드로우의 'Frozen Servants'와 프레임참 1포인트 스탯으로 개금한 'Burning Servants'에 리버스 스파크(Reverse Spark)를 조합하는 것입니다. 단 1회 발동으로 600 이상의 대미지를 쏟아부으며, 체인 소울 효과가 결합되면 기하급수적인 누적 딜량을 선사합니다.\n\n엘더 프리마돈(Elder Primadon)과 같은 대형 보스의 포스처(Posture)를 단번에 파괴한 후, 팜 스트라이크(Palm Strike)와 스펠/크리티컬 연타를 쏟아부어 단 한 번의 포스처 브레이크 타임 동안 5만 4천 이상의 폭딜(체력 3줄)을 깎아내는 사기적인 PvE 성능을 자랑합니다.",
+    "strengths": [
+      "레이피어 고유의 패링/포스처 브레이크 후속 대미지 버프(피해량 +50%, 크로 +33%) 극대화",
+      "Frozen Servants와 Burning Servants의 리버스 스파크 연계로 체인 소울 없이도 기본 630+ 대미지 보장",
+      "프레임참 단 1포인트 투자만으로 극강의 보조 딜링 스킬(Burning Servants) 확보 가능",
+      "엘더 프리마돈을 1분 이내에 솔로 녹여버리는 압도적인 보스 레이드 속도"
+    ],
+    "weaknesses": [
+      "레이피어의 타격 시점과 보스 패턴 패링 타이밍에 대한 높은 숙련도 요구",
+      "스펠 연계 중 무빙이 제한되므로 장판 패턴에 대한 철저한 회피 판단 필요"
+    ]
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 50,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "attunements": {
+    "flamecharm": 1,
+    "frostdraw": 80,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "character_setup": {
+    "oath": "Starkindred",
+    "race": "Any",
+    "origin": "Castaway",
+    "murmur": "Tacet",
+    "resonance_bell": "Kamui"
+  },
+  "talents": [
+    {
+      "name": "Spinning Clown",
+      "is_core": true
+    },
+    {
+      "name": "Million Ton Piercer",
+      "is_core": true
+    },
+    {
+      "name": "Brick Wall",
+      "is_core": false
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": false
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Tough Love",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Burning Servants"
+    },
+    {
+      "name": "Palm Strike"
+    },
+    {
+      "name": "Reinforce"
+    }
+  ],
+  "equipment": [],
+  "target_mobs": {
+    "target_mobs": [
+      "Elder Primadon",
+      "Chaser",
+      "Scion of Ethiron",
+      "Duke d'Eris"
+    ],
+    "mob_strategy": "1. **진입 및 패링 타임**: 보스의 공격 패턴을 정확히 패링하여 레이피어의 50% 피해량 버프 및 크리티컬 버프를 즉시 활성화합니다.\n2. **포스처 브레이크 유도**: 레이피어의 신속한 크리티컬 스러스트 및 팜 스트라이크(Palm Strike)를 사용하여 보스의 포스처 수치를 빠르게 깎아냅니다.\n3. **서번트 스펠 폭딜 타임**: 보스가 포스처 브레이크 상태에 빠지면 Frozen Servants와 Burning Servants(Reverse Spark 장착)를 연달아 시전하여 서번트 탄환들이 보스 몸체에 폭발적으로 꽂히게 만듭니다.\n4. **후속 대미지 누적**: 체인 소울 및 M1 평타 연계를 통해 포스처 브레이크 1회당 최소 3줄 이상의 체력을 안정적으로 제거합니다."
+  },
+  "combo_guide": {
+    "combo_guide": "1. **1단계 (버프 및 접근)**: Reinforce 시전 후 보스 패턴을 패링하여 레이피어 패링 버프(대미지 +50%)를 켜고 시야 확보.\n2. **2단계 (포스처 파괴)**: M1 평타 콤보 ➔ Palm Strike ➔ 크리티컬 공격으로 보스의 가드 및 포스처 파괴.\n3. **3단계 (서번트 스펠 폭발)**: 보스 다운 순간 Frozen Servants ➔ Burning Servants 순차 발동. 리버스 스파크 효과로 발사체가 집중 타격되며 600~1000+ 대미지 즉시 누적.\n4. **4단계 (마무리)**: 서번트 타격 직후 M1 크리티컬 및 연타 공격으로 다운 타임 내 최대 폭딜 달성."
+  },
+  "video_meta": {
+    "title": "1 MINUTE ELDER PRIMADON. | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=mYEcMRBqbZ0",
+    "upload_date": "20260711",
+    "estimated_patch": "Unknown"
+  }
+}
