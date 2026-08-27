@@ -1,7 +1,7 @@
 # ⚔️ Jetstriker Galebreathe Assassin
 
 > **출처 영상**: [The ULTIMATE Assassin Build | Deepwoken](https://www.youtube.com/watch?v=P6-Im_7hpp4) by `Mercy`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Jetstriker` | **Murmur/Bell**: `Thousand Stings` / `Reaper`
 
 ---

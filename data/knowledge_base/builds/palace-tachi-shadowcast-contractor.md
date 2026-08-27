@@ -1,7 +1,7 @@
 # ⚔️ Palace Tachi Shadowcast Contractor
 
 > **출처 영상**: [The New Palace Tachi Goes INSANE WITH THIS BUILD! | DeepWoken](https://www.youtube.com/watch?v=sJm04d99BK8) by `howmuch`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Khan` / `Castaway` | **Oath**: `Contractor` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
@@ -67,14 +67,6 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - **Shadow Roar**
 - **Judgement**
 - **Reinforce**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Duke of Erisia, Maestro Evengarde Rest, Primadon`
-
-1. Palace Tachi의 크리티컬 활용: 보스나 엘리트 몹이 가드를 올리는 타이밍에 맞춰 크리티컬 공격을 가해 가드를 깨뜨리고 딜 타임을 확보하세요.
-2. Shadowcast mantras를 통한 에테르 및 체력 흡수: Shadowcast의 고유 특성인 에테르 흡수를 활용해 mantras를 끊임없이 난사하며 유지력을 유지하세요.
-3. Contractor Judgement 카운터: 보스의 강력한 단타 패턴이나 패링하기 까다로운 광역기를 Judgement의 무적 판정 및 반격 메커니즘으로 파훼하세요.
-4. Trueblood 세트의 자가 치유 극대화: 보스전 중 몹을 처치하거나 치명타를 가할 때 발동하는 Critical Heal과 Blood Convergence 효과를 이용해 포션 없이도 높은 체력을 유지할 수 있습니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계: 진입 및 매혹 부여 - 전투 시작 시 원거리에서 Shadow Gun이나 기본 공격 연계로 적에게 Charm(매혹) 디버프를 부여하여 Cult of Personality 스택을 쌓습니다.

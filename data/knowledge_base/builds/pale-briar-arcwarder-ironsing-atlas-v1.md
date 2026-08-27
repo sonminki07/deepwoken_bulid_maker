@@ -1,7 +1,7 @@
 # ⚔️ Pale Briar Arcwarder Ironsing (Atlas V1)
 
 > **출처 영상**: [This New PVE BUILD is META FOR EVERYTHING....😲 "Atlas V1" | Deepwoken PvE Build Showcase](https://www.youtube.com/watch?v=9XzSUkPjVqI) by `Laptist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `Thundercall Spark` / `Wind Up`
 
 ---
@@ -35,9 +35,9 @@
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name**
-- **weapon_type**
-- **enchant**
+- **weapon_name** — 인챈트: `None`
+- **weapon_type** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

@@ -1,7 +1,7 @@
 # ⚔️ The #1 Shadowcast Medium Build
 
 > **출처 영상**: [The #1 Shadowcast Build | Deepwoken](https://www.youtube.com/watch?v=ISNt-FN_miY) by `mrsaje`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---

@@ -1,0 +1,196 @@
+{
+  "video_metadata": {
+    "title": "Ruin Showcase | Deepwoken",
+    "channel": "Lazy",
+    "url": "https://www.youtube.com/watch?v=v2k22Yayw10",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Dawnwalker Withered Death Fist Bloodrend Light Build",
+    "build_type": "PvP",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 Light Weapon 스탯 기반의 Withered Death Fist(피스트)와 Dawnwalker Oath, 그리고 Bloodrend 스펠을 결합하여 고속 연타와 높은 물리 저항을 극대화한 PvP 전용 Chime 빌드입니다. Shrine of Order를 활용하여 Pre-shrine 스탯(Carnivore, Reinforced Armor 등)을 확보한 뒤, Post-shrine 스탯으로 90 Fortitude와 60 Charisma, 40 Agility를 채워 탱킹력과 CC/유틸성을 갖췄습니다.\n\nWithered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(Uppercut -> Blood Edge -> Viscous Descent)를 기반으로 상대를 압박하는 전투 방식을 선호하는 플레이어에게 적극 추천합니다. 마나(Ether) 총량이 다소 낮아 지속적인 M1 수급이 필수적이지만, 높은 Physical Resistance(43%) 덕분에 교전 시 뛰어난 맞딜 성능을 보여줍니다.",
+    "strengths": [
+      "43%에 달하는 높은 물리 저항력(Physical Resistance)과 500 이상의 체력(HP)으로 뛰어난 탱킹 능력 보유",
+      "Withered Death Fist의 빠른 공격 속도와 2~3타 크리티컬 모션의 강력한 피해량 및 짧은 쿨타임",
+      "Reinforced Armor 및 Ghost 등 핵심 방어/회피 탤런트를 통한 탁월한 생존력",
+      "Charisma 60 기반의 버프/디버프 및 Dawnwalker 빛 공격과의 높은 시너지"
+    ],
+    "weaknesses": [
+      "최대 마나(Ether)가 100으로 매우 적어 만트라를 남발할 경우 금방 에테르가 고갈됨 (지속적인 M1 적중 필수)",
+      "Withered Death Fist 크리티컬 1타의 사거리가 매우 짧아 실전에서 파리(Parry)당하거나 거리 조절 실패 시 리스크 존재",
+      "상대방이 고숙련자일 경우 크리티컬 패링 타이밍에 취약해질 수 있음"
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 5,
+    "fortitude": 90,
+    "agility": 40,
+    "intelligence": 0,
+    "willpower": 2,
+    "charisma": 60,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 67
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 1
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 100,
+    "tempo": 100,
+    "sanity": 100,
+    "move_speed_pct": 100.0,
+    "pve_dmg_pct": 0.0
+  },
+  "resistances": {
+    "physical_slash": "43.0%",
+    "physical_blunt": "43.0%",
+    "physical_pierce": "43.0%",
+    "fire": "10.0%",
+    "ice": "10.0%",
+    "wind": "10.0%",
+    "shadow": "10.0%",
+    "lightning": "10.0%",
+    "iron": "10.0%",
+    "acid": "0.0%"
+  },
+  "weapons": [
+    {
+      "name": "Withered Death Fist",
+      "type": "Light Weapon",
+      "enchant": "None",
+      "stars": 0
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Familiar Knight's Helm"
+    },
+    {
+      "slot": "Face",
+      "name": "None"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Tyran Pendant"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Prophet's Cloak"
+    },
+    {
+      "slot": "Boots",
+      "name": "Star Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Bastion of Events"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "None"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "None"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "None"
+    },
+    {
+      "slot": "Bell",
+      "name": "None"
+    }
+  ],
+  "character_setup": {
+    "oath": "Dawnwalker",
+    "race": "Canor",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Reinforced Armor",
+      "is_core": true
+    },
+    {
+      "name": "Ghost",
+      "is_core": true
+    },
+    {
+      "name": "Carnivore",
+      "is_core": true
+    },
+    {
+      "name": "Charisma Unbounded",
+      "is_core": false
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Blood Orb"
+    },
+    {
+      "name": "Radiant Kick"
+    },
+    {
+      "name": "Radiant Dawn"
+    },
+    {
+      "name": "Crimson Surge"
+    },
+    {
+      "name": "Blood Edge"
+    },
+    {
+      "name": "Faint Tendrils"
+    },
+    {
+      "name": "Viscous Descent"
+    },
+    {
+      "name": "Razor Blades"
+    }
+  ],
+  "target_mobs": [
+    "PvP Chime Players",
+    "Duke d'Eris",
+    "Ethiron"
+  ],
+  "mob_strategy": "PvP 및 Chime of Conflict에 특화된 빌드로, 피스트(Fist) 계열 무기의 특성을 살려 상대와의 초근접 거리를 유지해야 합니다.\n상대가 가드를 올리거나 거리를 벌릴 때 러닝 M1이나 어퍼컷(Uppercut)으로 패링 타이밍을 빼앗고, 공중에 뜬 상대에게 Blood Edge와 Viscous Descent를 연계하여 지상으로 찍어누르는 컴보를 사용합니다. 에테르 최대 수치가 낮으므로 스펠 연타보다는 근접 M1 적중을 통한 에테르 수급을 지속해 주는 것이 핵심입니다.",
+  "combo_guide": "1. 어퍼컷(Uppercut) 적중으로 상대를 공중에 띄움\n2. 공중 M1 페인트(Feint) 후 M1 적중\n3. Blood Edge 만트라 발동으로 공중 홀딩 지속\n4. Viscous Descent를 사용하여 공중에서 지상으로 강력하게 둔탁한 찍기 타격\n5. 착지 직후 Withered Death Fist의 2타/3타 크리티컬(Critical) 연속 사용으로 마무리 데미지 딜링",
+  "video_meta": {
+    "title": "Ruin Showcase | Deepwoken",
+    "channel": "Lazy",
+    "url": "https://www.youtube.com/watch?v=v2k22Yayw10",
+    "upload_date": "20260629",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Dawnwalker",
+  "race": "Canor",
+  "origin": "Castaway",
+  "murmur": "None",
+  "resonance": "None"
+}

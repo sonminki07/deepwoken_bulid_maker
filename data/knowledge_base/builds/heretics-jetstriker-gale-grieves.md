@@ -1,7 +1,7 @@
 # ⚔️ Heretic's Jetstriker Gale Grieves
 
 > **출처 영상**: [Making Optimal Deepwoken Builds is So EASY Once You Understand THIS…](https://www.youtube.com/watch?v=QpqtJqTac3o) by `SpidersDW`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vowwalker` / `Navaan Warchef` | **Oath**: `Jetstriker` | **Murmur/Bell**: `Ardour` / `Blood Scourge`
 
 ---
@@ -41,9 +41,9 @@
 - **Galebreathe**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **weapon_class** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

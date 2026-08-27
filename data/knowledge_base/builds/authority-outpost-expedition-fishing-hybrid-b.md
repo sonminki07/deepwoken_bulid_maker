@@ -1,7 +1,7 @@
 # ⚔️ Authority Outpost Expedition & Fishing Hybrid Build
 
 > **출처 영상**: [THEY SAVED THE AUTHORITY! (NEW FISH) | Deepwoken](https://www.youtube.com/watch?v=HgtruqBr_Y0) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Authority Origin` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Adept` / `Wind Up`
 
 ---
@@ -40,9 +40,9 @@
 - **Bloodrend**: `40`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name**
-- **weapon_class**
-- **enchant**
+- **weapon_name** — 인챈트: `None`
+- **weapon_class** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

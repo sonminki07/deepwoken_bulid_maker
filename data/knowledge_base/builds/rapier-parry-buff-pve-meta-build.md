@@ -1,7 +1,7 @@
 # ⚔️ Rapier Parry-Buff PvE Meta Build
 
 > **출처 영상**: [RAPIER IS THE NEW PVE META?!?! | Deepwoken Verse 3](https://www.youtube.com/watch?v=9CrkABIhJrs) by `P4rzy`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Tough Love` / `Payback`
 
 ---

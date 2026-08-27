@@ -1,7 +1,7 @@
 # ⚔️ Silentheart Fist Brick Wall PvE Build
 
 > **출처 영상**: [NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression](https://www.youtube.com/watch?v=wL96bVek6Cg) by `African Luminant`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Silentheart` | **Murmur/Bell**: `Ardor` / `Sacred Field`
 
 ---

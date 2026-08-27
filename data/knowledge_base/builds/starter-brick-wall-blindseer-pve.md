@@ -1,7 +1,7 @@
 # ⚔️ Starter Brick Wall Blindseer PvE
 
 > **출처 영상**: [The Starter PvE Build You NEED in Deepwoken (2026)](https://www.youtube.com/watch?v=dPK2vw6a7rc) by `TRE_MONSTER`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
 > **종족/출신**: `Etriian` / `Ignition Union` | **Oath**: `Blindseer` | **Murmur/Bell**: `None` / `None`
 
 ---

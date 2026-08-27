@@ -1,7 +1,7 @@
 # ⚔️ Vampiric Bastion (Drain Tank PvE)
 
 > **출처 영상**: [This Build is IMMORTAL in PvE. - Deepwoken](https://www.youtube.com/watch?v=BGrR39bf6U0) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `N/A` / `Sacred Field`
 
 ---

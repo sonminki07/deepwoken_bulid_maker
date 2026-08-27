@@ -1,7 +1,7 @@
 # ⚔️ Duchess Erisia (Galebreathe Jus Kar)
 
 > **출처 영상**: [Duchess Erisia #deepwoken #roblox](https://www.youtube.com/watch?v=9mNMKWT_TZ4) by `Derk_Mage`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---

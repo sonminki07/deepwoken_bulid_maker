@@ -1,7 +1,7 @@
 # ⚔️ Super Sigma Soul Beam Blindseer
 
 > **출처 영상**: [The STRONGEST SOUL BEAM PvE/PvP BUILD... (ONE SHOT BOSSES) | Deepwoken Verse 3](https://www.youtube.com/watch?v=JjQ9LHjjltg) by `African Luminant`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Blindseer` | **Murmur/Bell**: `Tacet` / `Kamui`
 
 ---
@@ -57,11 +57,6 @@
 - **Lightning Clones**
 - **Relentless Flames**
 - **Fire Blade**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scholar of the Crimson Contract, The Ferryman, Primadon`
-
-Chaser나 Ferryman 같은 보스를 상대할 때, 먼저 Lightning Cloak을 켜서 공격 속도와 다단 히트 버프를 활성화합니다. 이후 Lightning Clones를 소환하여 체인 스택을 쌓고 보스의 어그로를 분산시킨 뒤, Relentless Flames로 지속 화상 대미지를 입힙니다. 보스가 그로기 상태에 빠지거나 고정되었을 때 Blindseer의 Sightless Beam(Soul Beam)을 정면에서 풀 히트시키면 순식간에 수천 이상의 체력을 깎아내며 원콤을 낼 수 있습니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 기본 콤보는 Lightning Cloak 버프 활성화 -> Lightning Clones 소환 -> weapons 평타(Heavy)로 압박 및 패링 유도 -> 상대가 방어적이거나 빈틈을 보일 때 Relentless Flames 연계 -> 마지막으로 Sightless Beam으로 마무리하는 흐름입니다. PvP에서는 Lightning Clones의 혼란을 틈타 기습적으로 Soul Beam을 차징하여 가드를 깨뜨리거나 폭딜을 넣는 플레이가 핵심입니다.

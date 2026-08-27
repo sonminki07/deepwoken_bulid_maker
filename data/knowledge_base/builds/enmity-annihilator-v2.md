@@ -1,7 +1,7 @@
 # ⚔️ Enmity Annihilator V2
 
 > **출처 영상**: [The new BEST Enmity Build does over 2.6k Damage Per M1 (Enmity Annihilator V2) | Deepwoken PvE](https://www.youtube.com/watch?v=KsQ1cyyPdpg) by `dustttt`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundering Swiftness` / `Wind Up`
 
 ---
@@ -38,9 +38,9 @@
 - **Thundercall**: `25`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **weapon_class** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

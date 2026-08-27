@@ -1,7 +1,7 @@
 # ⚔️ Inquisitor Bloodrend Red Death PvE
 
 > **출처 영상**: [Build Making Made Easy! - Deepwoken Buildmaking Guide](https://www.youtube.com/watch?v=o9fxuIc64NM) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Sacred Field`
 
 ---
@@ -62,11 +62,6 @@
 - **Blood Siphon**
 - **Shadow Gun**
 - **Shadow Chains**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke of Erisia, Primadon`
-
-보스전에서는 Red Death의 크리티컬(M2) 공격을 적극적으로 사용하여 Bloodrend의 흡혈 버프를 상시 유지합니다. Perfect Flash의 효과를 극대화하기 위해 체력을 95% 이상으로 유지하며 mantras 폭딜을 넣고, 만약 체력이 낮아지더라도 To The Finish와 Scarlet Donor의 시너지로 받는 피해를 줄이면서 맞딜을 통해 체력을 빠르게 복구합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 시 Shadow Chains로 적을 묶어 디버프를 건 뒤, Red Death 크리티컬 공격으로 진입하여 Bloodrend 흡혈 상태를 활성화합니다. 이후 Blood Siphon과 Blood Blade mantras를 연계하여 폭발적인 피해를 입힙니다. 적의 공격은 패링하거나 Exoskeleton의 단단한 맷집으로 버텨내며 끊임없이 평타와 mantras를 섞어 흡혈을 유도하는 맞딜 플레이스타일을 유지합니다.

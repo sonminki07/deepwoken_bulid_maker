@@ -1,7 +1,7 @@
 # ⚔️ Starkindred Heavy Flamecharm Gank Dominator
 
 > **출처 영상**: [The Strongest Gank Build Deepwoken](https://www.youtube.com/watch?v=B-S25iP9HQM) by `0wl`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian / Any` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Ardour` / `Paycheck / Sacred Field`
 
 ---

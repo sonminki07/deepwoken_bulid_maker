@@ -1,7 +1,7 @@
 # ⚔️ Min-Maxed General Hybrid Build Guide
 
 > **출처 영상**: [Make Any Build 120% Stronger | A guide to MinMaxing](https://www.youtube.com/watch?v=YcAPDMsWdX8) by `Crimson Kaido `
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
 > **종족/출신**: `Kiron` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Layer 2 Bound Bell / Default`
 
 ---
@@ -37,9 +37,9 @@
 - **Flamecharm**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **category**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **category** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

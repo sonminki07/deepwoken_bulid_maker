@@ -1,7 +1,7 @@
 # ⚔️ Vampiric Bastion (Drain Tank PvE Build)
 
 > **출처 영상**: [This Build is IMMORTAL in PvE. - Deepwoken](https://www.youtube.com/watch?v=BGrR39bf6U0) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
 > **종족/출신**: `Any` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `None` / `Sacred Field`
 
 ---
@@ -38,7 +38,7 @@
 - **Thundercall**: `65`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Pale Briar (Vampirism Enchant)** () — 인챈트: `None`
+- **Pale Briar** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Ferryman's Coat
@@ -75,11 +75,6 @@
 - **Arc Suit**
 - **Flame Wisp**
 - **Emotion Wave**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Diluvian Mobs, Hellmode Mobs`
-
-딜루비안이나 헬모드 등 다수의 몹이 몰려오는 환경에서 가장 강력합니다. 전투 시작 전 Arc Suit를 켜서 저항력을 높인 뒤, Pale Briar의 크리티컬 공격을 적극적으로 사용하여 Vampirism과 Bloodless Gem의 효과를 극대화합니다. 감전 디버프를 거는 Electro Carve와 광역 치유를 유도하는 Emotion Wave를 쿨타임마다 섞어주며, 위급할 때는 Sacred Field 벨을 펼쳐 적의 모든 공격을 버텨내며 맞딜로 체력을 채웁니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1. 전투 진입 전 Arc Suit 및 Flame Wisp 버프 활성화.

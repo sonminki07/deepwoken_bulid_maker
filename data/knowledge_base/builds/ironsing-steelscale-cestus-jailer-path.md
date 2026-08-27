@@ -1,7 +1,7 @@
 # ⚔️ Ironsing Steelscale Cestus & Jailer Path
 
 > **출처 영상**: [REST IN PEACE💀(WEAPON + TALENTS) | Deepwoken](https://www.youtube.com/watch?v=5g_nzlUpN6I) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Contractor` | **Murmur/Bell**: `Thundercall` / `Tranquil Circle`
 
 ---
@@ -41,9 +41,9 @@
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **weapon_class** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

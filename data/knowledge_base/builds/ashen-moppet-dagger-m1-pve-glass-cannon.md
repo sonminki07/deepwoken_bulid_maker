@@ -1,7 +1,7 @@
 # ⚔️ Ashen Moppet Dagger M1 PvE Glass Cannon
 
 > **출처 영상**: [Dagger M1 PvE Progression (1-20) | Deepwoken](https://www.youtube.com/watch?v=Uv_ectZcU_U) by `Drashun`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Expert`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Expert`
 > **종족/출신**: `Ganymede` / `Lone Warrior` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Smite`
 
 ---
@@ -44,7 +44,7 @@
 - **Shadowcast**: `20`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Moppet (Dagger)** (Light Weapon) — 인챈트: `Ashen`
+- **Moppet** (Light Weapon) — 인챈트: `Ashen`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Wavelight Vestments
@@ -73,15 +73,6 @@
 - **Shade Devour**
 - **Electrify**
 - **Taunt**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Kaido, Dreadhead`
-
-Chaser (Layer 2 Floor 1): Chaser가 플랫폼 중앙에서 패턴을 시전할 때 'Taunt'와 'Electrify' 버프를 활성화한 후, Moppet 단검의 빠른 M1 연타로 피를 깎습니다. 피가 부족할 때는 Shade Devour를 사용해 즉시 체력을 흡수하고, 낙하하는 비석 패턴은 Wind Step으로 빠르게 회피합니다.
-
-Scion of Ethiron (Layer 2 Floor 2): 에티론의 거대한 손 공격과 레이저 패턴은 타이밍에 맞춰 패링하거나 Phantom Step의 무적 프레임으로 흘려보냅니다. 딜 타임이 열리면 메달리온 버프와 모든 대미지 증폭 버프를 중첩시킨 뒤 단검 M1 극딜을 퍼부어 원사이클 킬을 노립니다.
-
-Kaido (Dreadhead): 카이도의 물기 및 포효 패턴은 정박 패링이 필수적입니다. 0 Fortitude 빌드 특성상 카이도의 브레스에 직격당하면 즉사할 수 있으므로, 카이도가 머리를 돌리는 모션을 취하면 즉시 측면으로 대시하여 회피한 뒤 딜을 넣어야 합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계 (진입 및 버프 활성화): 교전 시작 전 'Electrify'와 'Taunt'를 시전하여 weapons 대미지 버프를 활성화하고, 'Wind Step'을 사용해 적의 배후나 측면으로 빠르게 진입합니다.

@@ -1,7 +1,7 @@
 # ⚔️ Top 10 Meta Talents Synergy Build
 
 > **출처 영상**: [TOP 10 TALENTS YOU NEED! | Deepwoken](https://www.youtube.com/watch?v=SGNroucI8jI) by `Navarr2`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Wind Up`
 
 ---
@@ -36,9 +36,9 @@
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_type**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **weapon_type** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

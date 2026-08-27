@@ -1,7 +1,7 @@
 # ⚔️ Nanji's Posture Guard-Break Bruiser
 
 > **출처 영상**: [Deepwoken The New FREE Talent you Need](https://www.youtube.com/watch?v=cxyXOFuWkQs) by `Optiovernatus`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Beginner`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Beginner`
 > **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thousand Cuts` / `Wind Up`
 
 ---

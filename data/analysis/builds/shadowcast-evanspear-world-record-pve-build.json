@@ -57,6 +57,67 @@
       "songchant": 6
     }
   },
+  "combat_stats": {
+    "hp": 417,
+    "posture": 26,
+    "ether": 480,
+    "tempo": 120,
+    "sanity": 109,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "40.0%",
+    "ice": "35.0%",
+    "wind": "35.0%",
+    "shadow": "20.0%",
+    "lightning": "25.0%",
+    "iron": "25.0%",
+    "acid": "15.0%"
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 6
+  },
+  "weapons": [
+    {
+      "name": "Evanspear Handaxe",
+      "type": "Light Weapon",
+      "enchant": "None",
+      "stars": 0
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Mushroom Cap"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Black Diver"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Deepwoken Amulet"
+    },
+    {
+      "slot": "Boots",
+      "name": "Star Boots"
+    },
+    {
+      "slot": "Rings",
+      "name": "Drowned Rings (x4)"
+    },
+    {
+      "slot": "Bell",
+      "name": "Sacred Field"
+    }
+  ],
   "talents_and_mantras": {
     "talents": [
       {

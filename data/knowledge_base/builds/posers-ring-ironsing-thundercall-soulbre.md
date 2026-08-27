@@ -1,7 +1,7 @@
 # ⚔️ Poser's Ring Ironsing Thundercall Soulbreaker PvE
 
 > **출처 영상**: [The Strongest POSER'S RING PvE Build... | Deepwoken](https://www.youtube.com/watch?v=3AdR6aNWld8) by `Valklist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
 > **종족/출신**: `None` / `None` | **Oath**: `Soulbreaker` | **Murmur/Bell**: `Tacet / Rhythm / Ardour` / `None`
 
 ---

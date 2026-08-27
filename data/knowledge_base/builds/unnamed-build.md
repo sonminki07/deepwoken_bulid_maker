@@ -1,7 +1,7 @@
 # ⚔️ Unnamed Build
 
 > **출처 영상**: [How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide](https://www.youtube.com/watch?v=wlzf6QO0g_Q) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Any Race (Ganymede, Vesperian 추천)` / `Deepbound` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---

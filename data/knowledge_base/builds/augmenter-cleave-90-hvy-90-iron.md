@@ -1,7 +1,7 @@
 # ⚔️ Augmenter Cleave (90 HVY + 90 IRON)
 
 > **출처 영상**: [How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken](https://www.youtube.com/watch?v=51a92WguMp0) by `ZakoTB`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
 > **종족/출신**: `Felinor` / `Deepbound` | **Oath**: `Soulbreaker` | **Murmur/Bell**: `All` / `Crazy Slots`
 
 ---
@@ -91,11 +91,6 @@
 - **Flame Leap**
 - **Graceful Flame**
 - **Chain Pull**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Duke Eriasia, Squibbo`
-
-심해 몬스터나 보스를 상대할 때, 먼저 Oxidizing Rush를 사용해 적에게 금속 막대(Rods)를 심습니다. 5개 이상의 막대가 쌓이면 Augmenter 효과로 메탈 그레이트소드가 소환되어 강력한 치명타(Critical) 공격을 가할 수 있습니다. 체력이 낮아지면 Flame Leap과 Gale Dash로 거리를 벌린 뒤, 안전한 곳에서 Graceful Flame을 사용해 체력을 빠르게 회복합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 기본 콤보는 Gale Lunge 또는 Oxidizing Rush로 진입하여 적에게 Rod를 부여하는 것으로 시작합니다. 이후 Rising Wind로 적을 에어본 시킨 뒤 Meteor Impact와 연계하여 강력한 메테오 슬램을 꽂아 넣습니다. 적이 방어하거나 거리를 벌리려 할 때는 Metal Fakeout과 Chain Pull을 섞어 예측 불가능한 타이밍에 그레이트소드 치명타를 적중시킵니다.

@@ -1,7 +1,7 @@
 # ⚔️ Shadowcast Evanspear World Record PvE Build
 
 > **출처 영상**: [This NEW BEST PvE Build has 2 WORLD RECORDS... | Deepwoken Verse 3](https://www.youtube.com/watch?v=PpNQXuFssIk) by `P4rzy`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Khan` / `Lone Warrior` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---
@@ -24,6 +24,11 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - ⚠️ 버프 아이템(Glazed Fish, Gold Potion) 소모품 의존도가 높음
 - ⚠️ 보스의 공격 패턴에 맞춘 지속적인 밀착 및 패링 숙련도 요구
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -41,6 +46,16 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - **Shadowcast**: `20`
 - **Ironsing**: `20`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `35.0%` / 바람: `35.0%` | 그림자: `20.0%` / 번개: `25.0%` / 철: `25.0%` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -48,7 +63,7 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Evanspear Handaxe** () — 인챈트: `None`
+- **Evanspear Handaxe** (Light Weapon) — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Black Diver

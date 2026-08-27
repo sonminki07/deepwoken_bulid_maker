@@ -1,7 +1,7 @@
 # ⚔️ Saintsworn Nuke & AoE Burst Build
 
 > **출처 영상**: [The Saintsworn Nuke Build. | Deepwoken](https://www.youtube.com/watch?v=nagZrLSCftM) by `fatedw`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Wind Up`
 
 ---
@@ -41,9 +41,9 @@
 - **Thundercall**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **weapon** — 인챈트: `None`
+- **weapon_class** — 인챈트: `None`
+- **enchant** — 인챈트: `None`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

@@ -1,7 +1,7 @@
 # ⚔️ Astral Palace Tachi Bloodrend PvE Contractor
 
 > **출처 영상**: [The Best Bloodrend PvE Build!!](https://www.youtube.com/watch?v=_NXYUhOhZik) by `Lazy`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Contractor` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---
@@ -40,7 +40,7 @@
 - **Bloodrend**: `100`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Palace Tachi (Astral Enchant)** () — 인챈트: `None`
+- **Palace Tachi** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Black Diver

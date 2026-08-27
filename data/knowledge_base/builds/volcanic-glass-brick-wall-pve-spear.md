@@ -1,7 +1,7 @@
 # ⚔️ Volcanic Glass Brick Wall PvE Spear
 
 > **출처 영상**: [This BEGINNER PVE Build Can Do ANYTHING... | Deepwoken](https://www.youtube.com/watch?v=Pyy468RDJrQ) by `Valklist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
 > **종족/출신**: `Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `None` / `None`
 
 ---
@@ -37,7 +37,7 @@
 - **Frostdraw**: `40`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Iron Spear (Grim Enchant, Trident Spear Motif)** () — 인챈트: `None`
+- **Iron Spear** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Pathfinder Elite (+5% Monster DMG)
@@ -61,11 +61,6 @@
 - **Flame Sentinel**
 - **Empowered Eruption**
 - **Blizzard Gem**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Scion of Ethiron, Bounders`
-
-Chaser 전투 시, Chaser가 공중으로 솟구칠 때 'Flame Sentinel' mantras를 즉시 캐스팅하면 Chaser의 블러드 자(Blood Jars)를 한 번에 모두 파괴하여 패턴을 스킵할 수 있습니다. 일반 몹이나 보스전에서는 얼음 mantras로 크리스탈을 생성한 뒤 폭발시켜 용암 폭발 데미지를 연쇄적으로 입힙니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 전 Heretic's Sutra를 사용하여 광기(Insanity) 상태를 유도하고 'Lose Your Mind' 버프를 활성화합니다. Trident Spear의 다단히트 크리티컬 공격을 적중시켜 Grim 인챈트의 25% 피해 증가 버프를 즉시 획득합니다. 이후 체인 스택을 쌓은 상태에서 얼음 mantras와 화염 mantras를 번갈아 사용하여 Volcanic Glass 폭발 데미지를 극대화합니다.

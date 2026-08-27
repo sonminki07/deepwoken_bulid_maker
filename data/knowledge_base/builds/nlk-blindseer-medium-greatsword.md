@@ -1,7 +1,7 @@
 # ⚔️ NLK Blindseer Medium Greatsword
 
 > **출처 영상**: [How Is This Build Not Nerfed? | Deepwoken](https://www.youtube.com/watch?v=ITa2ipQ0bqE) by `Inu`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
 > **종족/출신**: `Ganymede` / `Castaway` | **Oath**: `Blindseer` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
@@ -32,7 +32,7 @@
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Grated Brass Sword (Enchantment: No Life King)** () — 인챈트: `None`
+- **Grated Brass Sword** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Prophet's Cloak
@@ -54,11 +54,6 @@
 - **Sacred Field**
 - **Exhaustion Strike**
 - **Rapid Punches**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Depths Gankers, Chaser, Scion of Ethiron`
-
-보스전이나 뎁스 몹 사냥 시, Sacred Field를 깔아 받는 피해를 최소화한 뒤 Grated Brass Sword의 넓은 공격 범위를 활용해 지속적으로 타격합니다. NLK의 피흡 덕분에 물약을 마시거나 도망칠 필요 없이 맞딜이 가능하며, 정신력이 위험할 때는 Blindseer의 유틸리티를 활용해 정신력을 관리합니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 기본적으로 상대방과의 맞딜 구도를 유도합니다. Sacred Field를 활성화하여 방어 버프를 두른 뒤, Exhaustion Strike와 Rapid Punches로 상대의 자세를 무너뜨립니다. 상대가 거리를 벌리려 하면 Sightless Beam으로 견제하고, NLK의 피흡을 믿고 적극적으로 패링과 평타 연계를 이어가며 좀비처럼 버티는 플레이가 핵심입니다.

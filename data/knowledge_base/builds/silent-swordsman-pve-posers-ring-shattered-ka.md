@@ -1,7 +1,7 @@
 # ⚔️ Silent Swordsman PvE (Poser's Ring + Shattered Katana)
 
 > **출처 영상**: [The BEST PvE Build Silent Swordsman  Showcase | Deepwoken Verse 3 |](https://www.youtube.com/watch?v=WP3ZZLRsFqs) by `Eggy`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
 > **종족/출신**: `Any (Vesperian or Khan recommended)` / `Castaway / Voidheart` | **Oath**: `Silentheart` | **Murmur/Bell**: `Murmur: Ardour` / `Payback / Dimensional Travel`
 
 ---
@@ -40,7 +40,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - **Ironsing**: `20`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Shattered Katana (Medium Weapon)** () — 인챈트: `None`
+- **Shattered Katana** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Prophet's Cloak / Black Diver
@@ -56,11 +56,6 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 
 ## 🔮 주문 목록 (Mantras)
 - **Metal Turrets**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Elder Primadon, Time Tinkerer Titus, Chaser, Ferryman, Maestro EV3`
-
-Elder Primadon 및 대형 보스전에서는 Metal Turrets를 즉발 설치하여 로드를 쌓은 뒤 Shattered Katana 평타와 Artisan Blades를 지속 누적시킵니다. 보스가 스태거(Stagger) 상태에 빠지거나 방어력이 낮아지는 타임에 맞추어 카타나를 납도(Sheath)함으로써 Poser's Ring의 쌓인 대미지를 트루 대미지로 한 번에 터뜨립니다. Chaser나 Titus 같은 인간형 보스 상대 시 패링 리듬을 유지하며 발도 트루 대미지 폭딜을 반복하면 단시간 내에 페이즈를 넘길 수 있습니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계: 전투 시작 시 Metal Turrets를 설치하여 weapons에 아이언싱 로드 누적.

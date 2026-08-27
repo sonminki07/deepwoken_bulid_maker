@@ -1,7 +1,7 @@
 # ⚔️ Bloodrend Vampire Starkindred
 
 > **출처 영상**: [Progressing The BLOODREND VAMPIRE Build (1-20) | Deepwoken](https://www.youtube.com/watch?v=3pRtMXlLFdU) by `ZakoTB`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
 > **종족/출신**: `Kiron` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Kamui`
 
 ---

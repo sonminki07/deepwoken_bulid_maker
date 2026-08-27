@@ -1,7 +1,7 @@
 # ⚔️ Volcanic Glass Mage
 
 > **출처 영상**: [The BEST MAGE GANK build in Deepwoken](https://www.youtube.com/watch?v=LTfbKU2qbxQ) by `spirit`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
 > **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `None`
 
 ---
@@ -48,7 +48,7 @@
 - Medium Weapon 75 달성 (마법사 근접 weapons)
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Hero Blade (Flame/Frost)** () — 인챈트: `None`
+- **Hero Blade** — 인챈트: `None`
 
 ## 🛡️ 주요 장비 (Equipment)
 - **[Outfit]** Prophet's Cloak
@@ -70,11 +70,6 @@
 - **Ash Slam**
 - **Fire Blade**
 - **Flaming Scourge**
-
-## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
-**추천 사냥 대상**: `Chaser, Maestro, Primadon`
-
-보스전에서는 슬라이드 캐스팅을 이용해 보스의 장판 패턴을 회피하는 것이 최우선입니다. 'Flame Repulsion'을 사용하여 보스의 근접 공격을 튕겨내고, 보스가 경직된 틈을 타 'Meteor Impact'로 퍼센트 대미지를 누적하세요. 보스의 체력이 낮아질 때는 'Ash Slam'을 활용해 에어본을 유도하고, 안정적인 딜 타임을 확보하는 것이 핵심입니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계(진입): 슬라이드 캐스팅을 사용하며 'Rising Frost'로 적의 이동을 제한합니다. 2단계(가드브레이크): 'Meteor Impact'를 즉시 연계하여 적의 가드를 파괴하거나 경직을 줍니다. 3단계(폭딜): 'Rising Flame'과 'Ash Slam'을 순차적으로 사용하여 적을 공중에 띄우고 추가 대미지를 입힙니다. 4단계(탈출/유지): 'Flame Repulsion'으로 거리를 벌리며 스태미나를 회복하고, 다시 슬라이드 캐스팅으로 다음 교전 기회를 노립니다.
