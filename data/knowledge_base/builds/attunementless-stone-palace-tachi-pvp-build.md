@@ -2,7 +2,7 @@
 
 > **출처 영상**: [This Palace Tachi Build is BROKEN | Deepwoken](https://www.youtube.com/watch?v=nbr0y8JRlZ4) by `JudahGames`
 > **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Vesperian / Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Murmur: Rhythm` / `Reaper / Any PvP Bell`
 
 ---
 
@@ -37,6 +37,25 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 | Medium Wep (중형무기) | `100` |
 | Light Wep (경화기) | `0` |
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Palace Tachi', 'category': 'Medium Weapon (Sword / Katana)', 'enchant': 'Stone'}** () — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': "Black Diver / Prophet's Cloak"}
+- **[Accessory]** Akira's Ring
+- **[Accessory]** Ishin's Ring
+- **[Accessory]** Ember Scorch Earrings
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Chaos Charm**
+- **Manipulator**
+- **Ardor Screamer**
+- **Berserk**
+- **Reinforce**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+
 ## 🔮 주문 목록 (Mantras)
 - **Rapid Punches**
 - **Ardor Slicer**
@@ -45,3 +64,16 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Rhythm Advance**
 - **Taunt**
 - **Strong Left**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Chaser, Duke of Erisia, Squibbo, Maestro Evengarde, Depth High-tier PvP Targets`
+
+1. 높은 물리 저항(53.8%)과 Reinforce 버프를 활용하여 보스의 강타를 직접 버티며 지속 근접 딜링을 유지합니다.
+2. Stone 인챈트가 부여된 Palace Tachi의 크리티컬 공격으로 Humanoid NPC나 보스의 포스처를 순식간에 깎아 가드 브레이크를 유발합니다.
+3. 가드가 터진 빈사 상태의 적에게 Taunt 및 Ardor Slicer를 연계하여 순간적으로 대미지 배율을 폭발시켜 마무리합니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+1. [진입 및 도발]: Rhythm Advance 또는 대시 M1으로 적에게 근접하며 Taunt를 사용해 상대의 포스처 및 대미지 감쇄율을 약화시킵니다.
+2. [근접 압박 및 패링]: M1 스윙 연타와 함께 상대의 반격을 패링하고, Palace Tachi 전용 크리티컬 특수타를 명중시켜 포스처를 크게 파괴합니다.
+3. [가드 브레이크 폭딜]: 상대 가드가 깨지는 순간 Ardor Slicer 또는 Rapid Punches / Strong Left를 연계하여 공중에 띄우거나 벽으로 밀어 넣습니다.
+4. [마무리 심리전]: Stone 인챈트로 인해 가드가 파쇄된 적에게 Manipulator 및 Chaos Charm 스택이 적용된 M1 평타 2~3타를 때려넣어 확정 치사량을 달성합니다.

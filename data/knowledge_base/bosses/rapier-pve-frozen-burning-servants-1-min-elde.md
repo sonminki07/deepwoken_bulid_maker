@@ -2,7 +2,7 @@
 
 > **출처 영상**: [1 MINUTE ELDER PRIMADON. | Deepwoken Verse 3](https://www.youtube.com/watch?v=mYEcMRBqbZ0) by `P4rzy`
 > **패치 버전**: `Unknown` | **타입**: `Boss Raid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Any` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Tacet` / `Kamui`
 
 ---
 

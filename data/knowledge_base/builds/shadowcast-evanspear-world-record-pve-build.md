@@ -2,7 +2,7 @@
 
 > **출처 영상**: [This NEW BEST PvE Build has 2 WORLD RECORDS... | Deepwoken Verse 3](https://www.youtube.com/watch?v=PpNQXuFssIk) by `P4rzy`
 > **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Khan` / `Lone Warrior` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---
 
@@ -27,18 +27,19 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
+| Strength (근력) | `25` |
 | Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
+| Agility (민첩) | `5` |
+| Intelligence (지능) | `100` |
 | Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Charisma (매력) | `60` |
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+| Light Wep (경화기) | `100` |
 
 ## ⚡ 속성 투자 (Attunements)
-- **Shadowcast**: `80`
+- **Shadowcast**: `20`
+- **Ironsing**: `20`
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -46,10 +47,35 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)
 - Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)
 
+## 🗡️ 추천 무기 (Weapons)
+- **Evanspear Handaxe** () — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessories]** Drowned Rings, Delver Gear
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Million Ton Piercer**
+- **Heretic's Sutra**
+- **Shared Misery**
+- **Unnecessary Dramatics**
+- **Taunt**
+- **Shade Devour**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+
 ## 🔮 주문 목록 (Mantras)
 - **Reinforce**
 - **Shadow Gun**
 - **Shade Devour**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Elder Primadon, Scion of Ethiron, Chaser, Duke Erisia`
+
+1. [Elder Primadon] 전투 시작 전 Glazed Fish와 Gold Potion을 복용하고 Ardour Murmur를 활성화합니다. 발밑에 밀착하여 평타(M1) 체인을 빌드업하고 Taunt 및 Shade Devour 디버프를 부여해 딜을 극대화합니다. 점프 파동 및 휘두르기 패턴을 패링하며 무한 크리티컬 스팸으로 1분 미만 클리어를 달성합니다.
+2. [Scion of Ethiron] 중앙 플랫폼에서 보스가 출현하자마자 버프 스택을 활성화한 후 발목 근처에서 M1 스팸을 유지합니다. 잡몹이 생환하더라도 Shared Misery 및 광역 패시브 딜로 자연스럽게 처리하며, 포스처 브레이크를 유도해 빠른 페이즈 전환을 이끌어냅니다.
+3. [일반 보스 공통] M1 대미지가 1,000 이상이므로 복잡한 만트라 연계보다는 가드/패링 후 크리티컬을 적극적으로 넣어 스턴 및 포스처 브레이크를 연속으로 일으키는 것이 최선입니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 **딜 사이클**:

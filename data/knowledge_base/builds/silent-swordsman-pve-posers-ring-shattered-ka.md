@@ -2,14 +2,14 @@
 
 > **출처 영상**: [The BEST PvE Build Silent Swordsman  Showcase | Deepwoken Verse 3 |](https://www.youtube.com/watch?v=WP3ZZLRsFqs) by `Eggy`
 > **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Any (Vesperian or Khan recommended)` / `Castaway / Voidheart` | **Oath**: `Silentheart` | **Murmur/Bell**: `Murmur: Ardour` / `Payback / Dimensional Travel`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 최근 Rapier 및 Knives Journey 너프 이후 현존하는 최고의 PvE 빌드로 평가받는 사일런트하트(Silentheart) 기반 검사 빌드입니다. Poser's Ring 및 발도(Sheath) 메커니즘을 극대화하여 보스에게 미친 수준의 트루 대미지(True Damage)를 누적시키는 방식을 채택했습니다.
 
-Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐스팅 시간 없이 즉시 아이언싱 로드(Ironsing Rod)를 획득하고, 이를 통해 Artisan Blades를 폭발적으로 연계합니다. Shattered Katana의 자체 방어구 관통력(30% Armor Pen)과 높은 대미지 효율이 시너지를 일으켜 게임 내 존재하는 모든 보스(Elder Primadon, Chaser, Ferryman, Titus 등)를 압도적인 속도로 파쇄합니다.
+Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐스팅 시간 없이 즉시 아이언싱 로드(Ironsing Rod)를 획득하고, 이를 통해 Artisan Blades를 폭발적으로 연계합니다. Shattered Katana의 자체 방어구 관통력(30% Armor Pen)과 높은 대미지 효율이 시너지를 일으켜 게임 내 존재하는 모든 보스(Elder Primadon, Chaser, Ferryman, Titus 등)를 압도적인 속도로 파쇄합니다.
 
 사일런트하트 특유의 강력한 기본 평타 패시브와 묵직한 카운터, 그리고 포저스 링의 기믹을 활용해 패링과 타격, 발도 동작만으로 보스의 패턴을 무력화하며 최고의 딜링 효율을 발휘하는 명품 PvE 빌드입니다.
 
@@ -20,7 +20,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 - ✅ Metal Turrets + Absolute Pitch 조합을 통한 즉발 로드 생성 및 Artisan Blades 연계
 - ✅ Elder Primadon, Chaser, Ferryman 등 인게임 모든 보스 사냥 가능
 **단점**:
-- ⚠️ Silentheart Oath 특성상 일반 만트라 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
+- ⚠️ Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
 - ⚠️ Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요
 
 ## 📊 스탯 분배 (Stats)
@@ -39,6 +39,13 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `20`
 
+## 🗡️ 추천 무기 (Weapons)
+- **Shattered Katana (Medium Weapon)** () — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak / Black Diver
+- **[Accessories]** Poser's Ring, Eye of Malice (Optional)
+
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
 - **Absolute Pitch**
@@ -49,3 +56,14 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 
 ## 🔮 주문 목록 (Mantras)
 - **Metal Turrets**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Elder Primadon, Time Tinkerer Titus, Chaser, Ferryman, Maestro EV3`
+
+Elder Primadon 및 대형 보스전에서는 Metal Turrets를 즉발 설치하여 로드를 쌓은 뒤 Shattered Katana 평타와 Artisan Blades를 지속 누적시킵니다. 보스가 스태거(Stagger) 상태에 빠지거나 방어력이 낮아지는 타임에 맞추어 카타나를 납도(Sheath)함으로써 Poser's Ring의 쌓인 대미지를 트루 대미지로 한 번에 터뜨립니다. Chaser나 Titus 같은 인간형 보스 상대 시 패링 리듬을 유지하며 발도 트루 대미지 폭딜을 반복하면 단시간 내에 페이즈를 넘길 수 있습니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계: 전투 시작 시 Metal Turrets를 설치하여 weapons에 아이언싱 로드 누적.
+2단계: Shattered Katana의 평타 콤보 및 M1 타격으로 보스에게 연속 대미지 누적.
+3단계: Artisan Blades 발동 및 로드 추가 타격 부여.
+4단계: weapons를 납도(Sheath)하여 Poser's Ring에 누적된 누적 대미지를 방어력 무시 트루 대미지로 폭발시킴.

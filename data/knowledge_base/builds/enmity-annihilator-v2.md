@@ -2,7 +2,7 @@
 
 > **출처 영상**: [The new BEST Enmity Build does over 2.6k Damage Per M1 (Enmity Annihilator V2) | Deepwoken PvE](https://www.youtube.com/watch?v=KsQ1cyyPdpg) by `dustttt`
 > **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundering Swiftness` / `Wind Up`
 
 ---
 
@@ -12,12 +12,12 @@
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 모든 PvE 콘텐츠를 통틀어 가장 강력한 M1 평타 대미지 (2,600+)
-- ✅ Shrine of Order를 거쳐 최적화된 높은 체력과 방어력 스탯 유지
+- ✅ Shrine of Order를 거쳐 최적화된 높은 체력과 방어력 stats 유지
 - ✅ Flame Sentinel과 Lightning Clones 등 다양한 소환물과 버프를 통한 지속적인 딜링 및 어그로 분산
 - ✅ 보스 페이즈를 압도적인 화력으로 스킵할 수 있는 높은 범용성과 안정성
 **단점**:
-- ⚠️ Thrill of Enmity 탤런트 특성상 체력이 낮을 때 리스크가 존재함
-- ⚠️ 복잡한 스탯 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 스탯이 꼬일 수 있음
+- ⚠️ Thrill of Enmity talents 특성상 체력이 낮을 때 리스크가 존재함
+- ⚠️ 복잡한 stats 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 stats이 꼬일 수 있음
 - ⚠️ PVP보다는 PVE 레이드에 특화되어 있어 PvP 상황에서는 대처가 까다로울 수 있음
 
 ## 📊 스탯 분배 (Stats)

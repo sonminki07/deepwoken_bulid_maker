@@ -2,16 +2,16 @@
 
 > **출처 영상**: [The Megumi Summoner Progression! (1-20) | Deepwoken |](https://www.youtube.com/watch?v=VuAHR4PUlT8) by `Wormcave`
 > **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Etrean` / `Voidwalker` | **Oath**: `Visionshaper` | **Murmur/Bell**: `None` / `Run It Back`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-인기 애니메이션 '주술회전'의 후시구로 메구미(Megumi Fushiguro)를 모티브로 한 십종영법술(Ten Shadows Technique) 컨셉의 환영 소환사 빌드입니다. 그림자와 환영 분신, 다중 속성(Shadow, Frost, Thunder) 만트라를 활용해 상대를 압박하고 교전의 주도권을 움켜쥐는 독특하고 유쾌한 아키타입입니다.
+인기 애니메이션 '주술회전'의 후시구로 메구미(Megumi Fushiguro)를 모티브로 한 십종영법술(Ten Shadows Technique) 컨셉의 환영 소환사 빌드입니다. 그림자와 환영 분신, 다중 속성(Shadow, Frost, Thunder) mantras를 활용해 상대를 압박하고 교전의 주도권을 움켜쥐는 독특하고 유쾌한 아키타입입니다.
 
-Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Frostdraw/Thundercall의 소환 유틸 만트라(토키사데/누에/만상/탈토 패러디)가 정교하게 맞물려 작동합니다. 분신과 소환수가 맵을 메우는 동안 상대의 패링 타이밍을 완전히 흩트려 놓으며 지속적인 폭딜을 꽂아 넣을 수 있습니다.
+Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Frostdraw/Thundercall의 소환 유틸 mantras(토키사데/누에/만상/탈토 패러디)가 정교하게 맞물려 작동합니다. 분신과 소환수가 맵을 메우는 동안 상대의 패링 타이밍을 완전히 흩트려 놓으며 지속적인 폭딜을 꽂아 넣을 수 있습니다.
 
-실전 교전에서는 상대에게 끊임없는 환영과 타격 판정을 중첩시켜 방어 패턴을 강제하고, 패링 미스가 발생하는 즉시 근접 가드브레이크와 만트라 연계로 가차 없는 폭딜을 퍼붓습니다. 위기 상황에서는 마호라가 소환 패러디처럼 대형 보스/몹의 어그로를 유도하거나 기동 유틸기로 탈출하는 심리전 우위도 뛰어납니다.
+실전 교전에서는 상대에게 끊임없는 환영과 타격 판정을 중첩시켜 방어 패턴을 강제하고, 패링 미스가 발생하는 즉시 근접 가드브레이크와 mantras 연계로 가차 없는 폭딜을 퍼붓습니다. 위기 상황에서는 마호라가 소환 패러디처럼 대형 보스/몹의 어그로를 유도하거나 기동 유틸기로 탈출하는 심리전 우위도 뛰어납니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -19,20 +19,20 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ✅ Shadow, Frost, Thunder 다중 속성 유틸 구성을 통한 다채로운 변수 창출 및 중/근거리 교전 주도권
 - ✅ 소환수와 분신이 어그로를 분산시켜 주므로 PvE 보스전 및 PvP 1vN 상황에서 뛰어난 생존력 확보
 **단점**:
-- ⚠️ 다중 속성 및 유틸 스탯 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 스탯 단축이 필요함
-- ⚠️ 분신 및 소환 만트라의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
+- ⚠️ 다중 속성 및 유틸 stats 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 stats 단축이 필요함
+- ⚠️ 분신 및 소환 mantras의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
 
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+| Strength (근력) | `20` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Willpower (의지) | `55` |
+| Charisma (매력) | `25` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `60` |
 | Light Wep (경화기) | `0` |
 
 ## ⚡ 속성 투자 (Attunements)
@@ -40,9 +40,41 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Thundercall**: `25`
 - **Shadowcast**: `25`
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Messer / Katana', 'category': 'Medium Weapon', 'enchantment': 'Curse of Rust / Solar'}** () — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Hive Drone (Custom Megumi Jujutsu High Uniform Hair ID Setup)
+- **[Accessory]** Megumi Hair ID (126764966956973)
+- **[Accessory]** Uniform Collar ID (115970793786230)
+- **[Accessory]** Buttons ID (773384445531)
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Illusory Servants**
+- **Shadow Clone**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+- Chilling Flourish
+- Dark Cod
+- Dragon's Song
+
 ## 🔮 주문 목록 (Mantras)
 - **Shadow Clone**
 - **Lightning Clones**
 - **Frozen Servants**
 - **Shadow Devour**
 - **Ice Flock**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Megalodaunt, Squibbo, Scion of Ethiron, Primadon`
+
+1. 일반 몬스터 (Megalodaunt, Squibbo): 진입 직후 분신(Shadow Clone / Visionshaper)을 먼저 생성하여 몬스터의 어그로를 분신 쪽으로 끌어줍니다. 몬스터가 분신을 공격하는 동안 측면이나 후방에서 안전하게 weapons 타격과 가드브레이크 mantras를 넣어 제압합니다.
+2. Layer 2 Floor 2 (Scion of Ethiron): 광역 레이저 및 뼈 기둥 패턴 시 기동 mantras와 회피를 이용해 기둥 뒤로 신속히 이동합니다. 코어 타격 페이즈에서는 얼음/번개 속성 mantras를 쿨타임마다 퍼부어 신속하게 퍼센트 대미지를 누적시킵니다.
+3. 필드 보스 (Primadon): 대형 보스를 상대할 때는 거리 유지가 필수적입니다. 어그로를 분신에 분산시킨 상태에서 중거리 얼음 찌르기 및 번개 분신을 활용해 보스의 패턴 후딜레이에 정확히 리치 긴 타격을 꽂아 넣습니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입 및 어그로 분산): 교전 개시 시 Shadow Clone 또는 Visionshaper 특유의 환영 분신을 시전하여 상대방의 시야와 어그로를 교란합니다.
+2단계 (견제 및 가드브레이크): 중거리에서 Lightning Clones(누에 컨셉) 또는 Frozen Servants(만상 컨셉)를 날려 상대의 가드를 흔들고 패링 타이밍을 앗아옵니다.
+3단계 (근접 폭딜 연계): 상대가 분신을 의식하여 방어 자세를 취하거나 패링 미스가 나는 즉시 인파이팅으로 파고들어 weapons 기본 타격 2~3타와 Curse/Solar 감염 스택을 꽂아 넣습니다.
+4단계 (탈출 및 이탈): 에테르가 소모되거나 상대의 가운터가 예상될 때는 Rabbit Escape(탈토 컨셉) 또는 Run It Back으로 거리를 벌리고 체력/에테르를 회복한 뒤 다시 환영을 전개합니다.

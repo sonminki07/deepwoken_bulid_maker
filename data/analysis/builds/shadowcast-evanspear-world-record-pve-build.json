@@ -24,32 +24,38 @@
   },
   "stats_and_attunements": {
     "stats": {
-      "strength": 80,
-      "fortitude": 50,
-      "agility": 25,
-      "intelligence": 0,
-      "willpower": 80,
-      "charisma": 55,
-      "heavy_wep": 100,
+      "strength": 25,
+      "fortitude": 0,
+      "agility": 5,
+      "intelligence": 100,
+      "willpower": 0,
+      "charisma": 60,
+      "heavy_wep": 0,
       "medium_wep": 0,
-      "light_wep": 0
+      "light_wep": 100
     },
     "attunements": {
       "flamecharm": 0,
       "frostdraw": 0,
       "thundercall": 0,
       "galebreathe": 0,
-      "shadowcast": 80,
-      "ironsing": 0,
+      "shadowcast": 20,
+      "ironsing": 20,
       "bloodrend": 0
     }
   },
   "character_setup": {
-    "oath": "Oathless",
-    "race": "Ganymede",
-    "origin": "Deepbound",
+    "oath": "Bladeharper",
+    "race": "Khan",
+    "origin": "Lone Warrior",
     "murmur": "Ardour",
-    "resonance_bell": "Sacred Field"
+    "resonance_bell": "Sacred Field",
+    "traits": {
+      "vitality": 0,
+      "erudition": 0,
+      "proficiency": 6,
+      "songchant": 6
+    }
   },
   "talents_and_mantras": {
     "talents": [

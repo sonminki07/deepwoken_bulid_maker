@@ -2,7 +2,7 @@
 
 > **출처 영상**: [RAPIER IS THE NEW PVE META?!?! | Deepwoken Verse 3](https://www.youtube.com/watch?v=9CrkABIhJrs) by `P4rzy`
 > **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **종족/출신**: `Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Tough Love` / `Payback`
 
 ---
 
@@ -35,7 +35,7 @@
 | Light Wep (경화기) | `100` |
 
 ## ⚡ 속성 투자 (Attunements)
-- **Ironsing**: `True`
+- **Ironsing**: `1`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -50,6 +50,14 @@
 - **Palm Strike**
 - **Prediction**
 - **Automaton Turret**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Elder Primadon, Primadon, Duke of Erisia, Chaser, Scion of Ethiron`
+
+1. 엘더 프리마돈 등 대형 보스 진입 전 포탑(Turrets)을 미리 설치하여 자동 사격으로 Artisan's Blade 스택과 포스처 타격을 누적시킵니다.
+2. 보스의 내려치기나 돌진 패턴을 정확히 패링(Parry)하여 레이피어 전용 '대미지 +50% & 크리티컬 대미지 +33%' 버프를 발동시킵니다.
+3. 버프가 활성화된 상태에서 M1 평타와 크리티컬 공격을 연속으로 적구하여 포스처를 순식간에 브레이크 시킵니다.
+4. 위험한 낙석이나 광역 공격 시에는 Prediction 또는 Payback을 사용하여 무적 판정과 반격 대미지를 동시에 챙깁니다.
 
 ## 🥊 콤보 & 전투 운용 가이드
 **딜 사이클**:
