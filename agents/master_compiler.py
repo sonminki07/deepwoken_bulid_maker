@@ -6,17 +6,18 @@ from typing import Optional
 logger = logging.getLogger(__name__)
 
 def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path:
-    """모든 검증된 빌드와 인게임 룰을 하나의 마스터 NotebookLM 소스 파일로 병합 및 재생성합니다."""
+    """모든 검증된 빌드, 웹 문서, 위키 데이터를 하나의 마스터 NotebookLM 소스 파일로 병합 및 재생성합니다."""
     if project_dir is None:
         project_dir = Path(__file__).resolve().parent.parent
 
     data_dir = project_dir / "data"
-    analysis_dir = data_dir / "analysis" / "builds"
-    kb_builds_dir = data_dir / "knowledge_base" / "builds"
+    kb_dir = data_dir / "knowledge_base"
+    kb_builds_dir = kb_dir / "builds"
+    kb_web_dir = kb_dir / "web_docs"
 
     lines = []
     lines.append("# 📚 Deepwoken Ultimate Master Knowledge Base (NotebookLM 통합 소스)")
-    lines.append("> 본 문서는 Roblox Deepwoken의 공식 인게임 룰, 질서의 성소(Shrine of Order) 공식, 그리고 유튜브에서 수집/분석된 모든 실전 캐릭터 빌드 데이터를 100% 통합한 단일 마스터 지식 소스입니다.\n")
+    lines.append("> 본 문서는 Roblox Deepwoken의 공식 인게임 룰, 질서의 성소(Shrine of Order) 공식, 그리고 유튜브 및 위키에서 수집/분석된 모든 실전 캐릭터 빌드와 몬스터 만트라/가이드 데이터를 100% 통합한 단일 마스터 지식 소스입니다.\n")
 
     # 1. 질서의 성소 & 종족 기본 룰
     lines.append("## 🏛️ 제1장: 종족 기본 스탯 및 질서의 성소 (Shrine of Order) 공식 룰")
@@ -56,6 +57,20 @@ def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path
             except Exception as e:
                 logger.warning(f"Error reading build md {md_file}: {e}")
 
+    # 3. 추가 분석된 웹 및 위키 문서 병합 (Monster Mantras 등)
+    web_count = 0
+    if kb_web_dir.exists():
+        lines.append("\n\n## 📖 제3장: 웹 & 위키 추가 분석 문서 및 시스템 가이드")
+        for doc_file in sorted(kb_web_dir.glob("*.*")):
+            try:
+                content = doc_file.read_text(encoding="utf-8", errors="ignore").strip()
+                if content:
+                    lines.append(f"\n---\n\n### 🌐 [웹/위키 문서 {web_count+1}] {doc_file.stem}\n")
+                    lines.append(content)
+                    web_count += 1
+            except Exception as e:
+                logger.warning(f"Error reading web doc {doc_file}: {e}")
+
     master_text = "\n".join(lines)
     
     out_md = data_dir / "Deepwoken_Master_NotebookLM_Source.md"
@@ -64,7 +79,7 @@ def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path
     out_md.write_text(master_text, encoding="utf-8")
     out_txt.write_text(master_text, encoding="utf-8")
     
-    logger.info(f"Master NotebookLM source re-compiled with {build_count} verified builds.")
+    logger.info(f"Master NotebookLM source re-compiled with {build_count} builds and {web_count} web docs.")
     return out_txt
 
 if __name__ == "__main__":
