@@ -144,6 +144,9 @@ def main():
     parser_queue.add_argument("--interval", type=int, default=5, help="분석 간 대기 초 (기본: 5초)")
     parser_queue.add_argument("--loop", action="store_true", help="무한 대기 모드 (새 링크가 들어올 때까지 상시 대기)")
 
+    # gdrive (구글 드라이브 동기화)
+    parser_gdrive = subparsers.add_parser("gdrive", help="Google Drive(G: 또는 로컬) 데스크톱 폴더로 최신 NotebookLM 지식 베이스 동기화")
+
     args = parser.parse_args()
 
     if not args.command:
@@ -171,6 +174,13 @@ def main():
         from agents.queue_manager import QueueManager
         qm = QueueManager()
         qm.run_worker(interval_seconds=args.interval, continuous=args.loop)
+    elif args.command == "gdrive":
+        from agents.gdrive_sync import sync_to_google_drive
+        ok, msg, files = sync_to_google_drive()
+        if ok:
+            console.print(f"[bold green]✅ {msg}[/bold green]")
+        else:
+            console.print(f"[bold red]❌ {msg}[/bold red]")
 
 if __name__ == "__main__":
     main()

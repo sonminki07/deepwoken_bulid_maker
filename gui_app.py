@@ -91,6 +91,13 @@ class DeepwokenAnalyzerGUI:
         )
         self.sync_btn.pack(side=tk.LEFT, padx=(0, 8))
 
+        self.gdrive_btn = tk.Button(
+            btn_grid, text="📂 구글 드라이브 동기화", command=self.sync_gdrive,
+            bg="#059669", fg="white", activebackground="#047857", activeforeground="white",
+            font=("Malgun Gothic", 10, "bold"), relief=tk.FLAT, padx=12, pady=7, cursor="hand2"
+        )
+        self.gdrive_btn.pack(side=tk.LEFT, padx=(0, 8))
+
         self.wiki_btn = tk.Button(
             btn_grid, text="📚 위키 DB 갱신", command=self.sync_wiki,
             bg="#475569", fg="white", activebackground="#334155", activeforeground="white",
@@ -268,6 +275,18 @@ class DeepwokenAnalyzerGUI:
                 self.root.after(0, self.log, "☁️ [GitHub 동기화 완료] 깃허브 저장소에 최신 빌드 데이터가 자동 백업되었습니다.")
         except Exception as e:
             self.root.after(0, self.log, f"⚠️ [GitHub 동기화 건너뜀] {e}")
+
+        # Google Drive (G:\내 드라이브\Deepwoken) 자동 동기화
+        try:
+            from agents.gdrive_sync import sync_to_google_drive
+            ok, gmsg, _ = sync_to_google_drive(PROJECT_DIR)
+            if ok:
+                self.root.after(0, self.log, f"📂 [Google Drive 동기화 완료] {gmsg}")
+            else:
+                self.root.after(0, self.log, f"⚠️ [Google Drive 동기화 안내] {gmsg}")
+        except Exception as ge:
+            self.root.after(0, self.log, f"⚠️ [Google Drive 동기화 실패] {ge}")
+
         # 최신 분석 파일 찾기 (하위 카테고리 폴더 재귀 탐색)
         analysis_dir = PROJECT_DIR / "data" / "analysis"
         json_files = sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True)
@@ -364,6 +383,23 @@ location.reload();
             self.root.after(0, self._on_analysis_success, "")
         except Exception as e:
             self.root.after(0, self.log, f"\n❌ 동기화 오류: {e}")
+
+    def sync_gdrive(self):
+        """Google Drive (G:\내 드라이브\Deepwoken) 1클릭 수동 동기화"""
+        self.log("\n📂 [Google Drive 동기화 시작] G:\\내 드라이브\\Deepwoken 으로 마스터 소스 복사 중...")
+        try:
+            from agents.gdrive_sync import sync_to_google_drive
+            ok, gmsg, files = sync_to_google_drive(PROJECT_DIR)
+            if ok:
+                self.log(f"✅ {gmsg}")
+                self.log("💡 NotebookLM에서 소스로 지정된 구글 드라이브 문서가 자동으로 최신화됩니다.")
+                messagebox.showinfo("구글 드라이브 동기화 완료", f"총 {len(files)}개 파일이 구글 드라이브에 성공적으로 동기화되었습니다!\n\n경로: G:\\내 드라이브\\Deepwoken")
+            else:
+                self.log(f"⚠️ {gmsg}")
+                messagebox.showwarning("동기화 실패", gmsg)
+        except Exception as e:
+            self.log(f"❌ [동기화 에러] {e}")
+            messagebox.showerror("동기화 오류", str(e))
 
     def sync_wiki(self):
         """위키 전수 수집 백그라운드 실행"""

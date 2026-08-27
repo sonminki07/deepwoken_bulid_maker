@@ -666,10 +666,18 @@ with col_builder:
                 except Exception as ex:
                     st.error(f"❌ JSON 파싱 실패: {ex}")
 
-        # 3. NotebookLM 1-Click 전수 감사 프롬프트 생성기
+        # 3. NotebookLM 1-Click 전수 감사 프롬프트 생성기 & Google Drive 동기화
         st.markdown("---")
-        st.markdown("##### 🤖 Google NotebookLM 1-Click `/build` 전수 감사 프롬프트")
+        st.markdown("##### 🤖 Google NotebookLM 1-Click `/build` 전수 감사 & 드라이브 동기화")
         st.caption("아래 코드를 복사해서 NotebookLM에 붙여넣으면, 소스에 기반해 현재 슬롯의 종족, 서약, 11대 장비, 330pt 스탯, EHP를 하나도 빠짐없이 1:1 전수 감사를 진행합니다.")
+
+        if st.button("📂 Google Drive로 즉시 동기화 (G:\\내 드라이브\\Deepwoken)", key="btn_sync_gdrive_web"):
+            from agents.gdrive_sync import sync_to_google_drive
+            ok, gmsg, gfiles = sync_to_google_drive()
+            if ok:
+                st.success(f"✅ {gmsg} (NotebookLM에서 최신 구글 드라이브 소스를 즉시 불러올 수 있습니다!)")
+            else:
+                st.warning(f"⚠️ {gmsg}")
         
         prof_data = st.session_state.profiles[selected_name]
         notebooklm_prompt = f"""[역할 부여]
