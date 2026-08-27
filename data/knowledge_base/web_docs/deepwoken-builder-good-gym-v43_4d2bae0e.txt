@@ -1,0 +1,1846 @@
+Title: Deepwoken Builder - Good Gym V4.3
+URL: https://deepwoken.co/builder?id=IorUfRcU
+Description: Heavy wep  ver
+
+==================================================
+
+Deepwoken Builder - Good Gym V4.3
+Anonymous
+Add tags
+0
+37
+0
+Comments
+Discussions
+Share
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+20
+Next Power:
+0 points
+"Bingo! Double feint greycast!"
+Strength
+STR
+1
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+30
+Charisma
+CHA
+1
+Heavy Wep.
+HVY
+1
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+1
+Ironsing
+MTL
+75
+Bloodrend
+BLD
+1
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 0
+Points Spent
+: 330
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+175
+104
+28
+4
+Filters
+Advanced
+▾
+Charm Caster
+Dazing Finisher
+↗
+Sage of Wisps
+Will o' Wisp
+↗
+Scrapsinger
+Reshape and Remold
+↗
+Septicemia
+Gruesome Harvest
+↗
+Rare
+▾
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Phantom Edge
+↗
+Aerial Dancer
+Wyvern's Claw
+↗
+Apex Predator
+Carnivore
+↗
+Bloodhound
+Smell of Blood
+↗
+Bloodrender
+Hemorrhaging Blow
+↗
+Rush Hour
+↗
+Bruiser
+Heavy Fatigue
+↗
+Rending Impact
+↗
+Champion
+Champion's Regalia
+↗
+Colossus
+Destructive Recovery
+↗
+Fish
+Fishman
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Gunslinger
+Armor Piercing
+↗
+Marauder
+Thresher Claws
+↗
+Quark Doctor
+Blood Transfusion
+↗
+Raging Bull
+Bulldozer
+↗
+Rending Needle
+Rending Needle: Conductor
+↗
+Rending Needle: Impaler
+↗
+Rending Needle: Jailer
+↗
+Scrapsinger
+Masterwork
+↗
+Septicemia
+Panacea
+↗
+Silvertongue
+Golden Tongue
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Tactician
+Punishing Blow
+↗
+Transitory Vitality
+Sow and Mend
+↗
+Vocalist
+Encore
+↗
+Warrior
+Chronostasis
+↗
+Common
+▾
+Acrobat
+Time To Go
+↗
+Adaptive Arsenal
+Exposed Durability
+↗
+Alley Cat
+Scaredy Cat
+↗
+Apex Predator
+Grand Feast
+↗
+Sunken Predator
+↗
+Bloodhound
+Bloodwarden's Sense
+↗
+Bloodrender
+Adept Bloodrender
+↗
+Bloodrender
+↗
+Crimson Fountain
+↗
+Expert Bloodrender
+↗
+First Blood
+↗
+Master Bloodrender
+↗
+Sanguine Siphon
+↗
+Boundless Potential
+Bloodrend Unbounded
+↗
+Heavy Weapons Unbounded
+↗
+Ironsing Unbounded
+↗
+Brawler
+Bruiser's Mixup
+↗
+Bruiser
+Brazen Blow
+↗
+Impairing Blow
+↗
+Champion
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Lasting Charisma
+↗
+Tough Love
+↗
+Colossus
+Heavy Hitter
+↗
+Darksiphon
+Dark God
+↗
+Overwhelming Drain
+↗
+Duelist
+Concussive Force
+↗
+Elemental Rebound
+Nullifying Clarity
+↗
+Empath
+Give and Take
+↗
+Escape Artist
+Robber Baron
+↗
+Gunslinger
+Bulletproof
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Laced Traps
+↗
+Master Ironsinger
+↗
+Thornmail
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Callout
+↗
+Spotter
+↗
+Limitbreaker
+Comeback Kid
+↗
+Marauder
+Old Habits Die Hard
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Conquer your Fears
+↗
+Disbelief
+↗
+Metallurgist
+Intuitive Repairs
+↗
+Metal Absorption
+↗
+Metal Eater
+↗
+Metal Thief
+↗
+Polished Armor
+↗
+Miscellaneous
+Dragon's Song
+↗
+Full Reset
+↗
+Gourmand
+↗
+Heavy Haul
+↗
+Martyr
+↗
+Polite Awakening
+↗
+Replenishing Knockout
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Armor Conserver
+↗
+Lightweight
+↗
+Padded Armor
+↗
+Steel Scales
+↗
+Public Figure
+Celebrity
+↗
+Under The Radar
+↗
+Quark Doctor
+Blood Bag
+↗
+Open Wound
+↗
+Rending Needle
+Conductor's Cable
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Sanguine Wager
+Enhanced Flow
+↗
+Scarlet Donor
+Blood Bank
+↗
+Donation Drive
+↗
+Sharing is Caring
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Refine and Reuse
+↗
+Songs Unforged
+↗
+Septicemia
+Hemolysis
+↗
+Hemolytic Transfusion
+↗
+Tainted Ground
+↗
+Shadowcaster
+Adept Shadowcaster
+↗
+Shadowcaster
+↗
+Silvertongue
+Snake Oil
+↗
+Survival Instinct
+Iron Gut
+↗
+Thief
+Pickpocket
+↗
+Toxic Personality
+Manipulator
+↗
+Narcissist
+↗
+Transitory Vitality
+Cyclical Exsanguination
+↗
+Embolism
+↗
+Hypovolemic Focus
+↗
+Vow of Mastery
+Vow of Mastery
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Weapon Master
+Brutal Momentum
+↗
+Matador
+↗
+Warrior's Swing
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+Bladeharper
+Float Like a Butterfly
+↗
+Lithe Step
+↗
+Oath: Bladeharper
+↗
+Reveal
+↗
+Soaring Storm
+↗
+Untouchable
+↗
+Equipment
+▾
+Equipment
+Blood Convergence
+↗
+Cosmic Connection
+↗
+Whistleguard
+↗
+Flame Warden
+Cauterized Wounds
+↗
+Ignition Union
+Force Your Way
+↗
+Liberator
+Stay of Execution
+↗
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Metamancer
+Chain of Perfection
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+Prospector
+Excavator
+↗
+Harvester
+↗
+Quest
+Beiruul's Vengeance
+↗
+Kj's Courage
+↗
+Nanji's Training
+↗
+Supernatural Sense
+↗
+Saboteur
+Family Recipe
+↗
+Murmur
+▾
+Murmur
+Murmur: Ardour
+↗
+Murmur: Rhythm
+↗
+Murmur: Tacet
+↗
+Origin
+▾
+No talents :(
+Innate
+▾
+Adret
+Maudet
+↗
+Obtained Talents
+66
+43
+22
+1
+Max of
+58
+Talents,
+50
+rollable (
+40
+guaranteed rare attempts) and
+8
+from Roll 2.
+Max of
+4
+Faction Talents (
+5
+if in Authority Ensign's Command Division).
+Filters
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Exposed Durability
+↗
+Phantom Edge
+↗
+Adret
+Maudet
+↗
+Aerial Dancer
+Wyvern's Claw
+↗
+Apex Predator
+Carnivore
+↗
+Sunken Predator
+↗
+Bladeharper
+Float Like a Butterfly
+↗
+Lithe Step
+↗
+Oath: Bladeharper
+↗
+Reveal
+↗
+Soaring Storm
+↗
+Untouchable
+↗
+Bloodhound
+Bloodwarden's Sense
+↗
+Smell of Blood
+↗
+Bloodrender
+Adept Bloodrender
+↗
+Bloodrender
+↗
+Crimson Fountain
+↗
+Expert Bloodrender
+↗
+First Blood
+↗
+Hemorrhaging Blow
+↗
+Master Bloodrender
+↗
+Rush Hour
+↗
+Sanguine Siphon
+↗
+Boundless Potential
+Bloodrend Unbounded
+↗
+Heavy Weapons Unbounded
+↗
+Ironsing Unbounded
+↗
+Bruiser
+Brazen Blow
+↗
+Heavy Fatigue
+↗
+Impairing Blow
+↗
+Rending Impact
+↗
+Champion
+Champion's Regalia
+↗
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Lasting Charisma
+↗
+Tough Love
+↗
+Colossus
+Destructive Recovery
+↗
+Heavy Hitter
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Duelist
+Concussive Force
+↗
+Elemental Rebound
+Nullifying Clarity
+↗
+Equipment
+Blood Convergence
+↗
+Cauterized Wounds
+↗
+Cosmic Connection
+↗
+Force Your Way
+↗
+Stay of Execution
+↗
+Whistleguard
+↗
+Fish
+Fishman
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Master Ironsinger
+↗
+Limitbreaker
+Comeback Kid
+↗
+Marauder
+Old Habits Die Hard
+↗
+Thresher Claws
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Metamancer
+Chain of Perfection
+↗
+Murmur
+Murmur: Ardour
+↗
+Natural Armor
+Armor Conserver
+↗
+Padded Armor
+↗
+Steel Scales
+↗
+Quark Doctor
+Blood Transfusion
+↗
+Open Wound
+↗
+Rending Needle
+Conductor's Cable
+↗
+Rending Needle: Conductor
+↗
+Sanguine Wager
+Enhanced Flow
+↗
+Scarlet Donor
+Blood Bank
+↗
+Donation Drive
+↗
+Sharing is Caring
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Masterwork
+↗
+Refine and Reuse
+↗
+Songs Unforged
+↗
+Septicemia
+Gruesome Harvest
+↗
+Hemolysis
+↗
+Hemolytic Transfusion
+↗
+Panacea
+↗
+Tainted Ground
+↗
+Shadowcaster
+Adept Shadowcaster
+↗
+Shadowcaster
+↗
+Silvertongue
+Golden Tongue
+↗
+Snake Oil
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Tactician
+Punishing Blow
+↗
+Toxic Personality
+Manipulator
+↗
+Transitory Vitality
+Cyclical Exsanguination
+↗
+Sow and Mend
+↗
+Weapon Master
+Brutal Momentum
+↗
+Matador
+↗
+Warrior's Swing
+↗
+Rollable Mantras
+71
+Combat
+Shadow Chains
+↗
+Shadow Eruption
+↗
+Shadow Seekers
+↗
+Clutching Shadow
+↗
+Dark Blade
+↗
+Shadow Gun
+↗
+Iron Hug
+↗
+Iron Slam
+↗
+Metal Armament
+↗
+Metal Gatling
+↗
+Rocket Lance
+↗
+Caltrops
+↗
+Firing Line
+↗
+Iron Quills
+↗
+Metal Fakeout
+↗
+Metal Rain
+↗
+Oxidizing Rush
+↗
+Metal Kick
+↗
+Metal Eruption
+↗
+Needle Barrage
+↗
+Bloodcurdle
+↗
+Bloodtide Ritual
+↗
+Crimson Rain
+↗
+Crimson Surge
+↗
+Razor Blitz
+↗
+Scarlet Cannon
+↗
+Scarlet Cyclone
+↗
+Soulflare Siphon
+↗
+Veinbreaker
+↗
+Blood Stakes
+↗
+Bloodedge
+↗
+Vicious Descent
+↗
+Blood Orb
+↗
+Crucifixion
+↗
+Onslaught
+↗
+Pressure Blast
+↗
+Punishment
+↗
+Rapid Punches
+↗
+Revenge
+↗
+Strong Left
+↗
+Tacet Drop Kick
+↗
+Abyssal Ridge
+↗
+Abyssal Tendrils
+↗
+Brachial Spear
+↗
+Coral Spear
+↗
+Dread Breath
+↗
+Mecha Gatling
+↗
+Whirling Blade
+↗
+Decimate
+↗
+Palm Strike
+↗
+Pumpkin Pitch
+↗
+Mobility
+Encircle
+↗
+Metal Ball
+↗
+Metal Rampart
+↗
+Vein Tendrils
+↗
+Sanguine Dive
+↗
+Beast Burrow
+↗
+Support
+Shade Devour
+↗
+Metal Turret
+↗
+Chain Pull
+↗
+Iron Skin
+↗
+Disguise
+↗
+Dread Whisper
+↗
+Gaze
+↗
+Glare
+↗
+Sing
+↗
+Taunt
+↗
+Enforcer Pull
+↗
+Wisp
+Metal Wisp
+↗
+Blood Wisp
+↗
+Bone Wisp
+↗
+Obtained Mantras
+Combat
+6/6
+Metal Armament
+↗
+Oxidizing Rush
+↗
+Blood Orb
+↗
+Scarlet Cyclone
+↗
+Bloodcurdle
+↗
+Palm Strike
+↗
+Mobility
+1/1
+Metal Ball
+↗
+Support
+1/1
+Shade Devour
+↗
+Wildcard
+2/2
+Taunt
+↗
+Blood Wisp
+↗
+Mantra Details
+10
+Metal Armament
+Oxidizing Rush
+Blood Orb
+Scarlet Cyclone
+Bloodcurdle
+Palm Strike
+Metal Ball
+Shade Devour
+Taunt
+Blood Wisp
+Gem
+None
+Aegis (damage reduction on hit)
+Blessed (reduces cooldown on hit)
+Bloodless (grants lifesteal, −20% mantra damage)
+Blue (reduces ether cost)
+Insignia (reduces windup of next cast)
+Kyrsan (stacking slow on hit)
+Might (increases posture damage)
+Nocturnal (extra hit after 1s delay)
+Warped Blue (reduced ether cost while swimming)
+Wayward (teleports to opponent after 1s)
+Wrath (crit damage scaling on combat tags)
+Wind (speed boost on hit)
+Spark
+None
+Blast
+Reversal
+Multiplying
+Magnet
+Spring
+Tornado
+Round
+Base
+L1
+20
+Damage at L1
+20
+Posture Damage
+4
+L1
+20 dmg
+4 pst
+L2
+20 dmg
+4 pst
+L3
+20 dmg
+4 pst
+L4
+20 dmg
+4 pst
+L5
+20 dmg
+4 pst
+Related Talents
+Forced Fulfilment
+Weapon:
+0
+1
+2
+3
+Stars
+-
+DMG%
+PEN%
+WGT%
+Pick a weapon...
+Compare
+Enchant:
+Motif:
+Pick a weapon above to see the damage breakdown.
+Weapon stats
+PvE
+DVM:
+%
+Max Damage against Monsters:
+0
+Hits needed against
+HP Monster:
+0
+Total Damage Multi.
+150%
+capped from 249% (mods > +25% halved)
+Total Penetration
+0%
+Rings
+Strength
+Agility
+Intelligence
+Willpower
+Charisma
+Isshin's Ring
+Ring of Casters
+Blindseer's Ring
+Damage Modifiers
+Shade Devour
++25% DMG
+Manipulator
++20% DMG
+Ardour Scream
++12.5% DMG
+Pressure Break
++25% DMG
+Speed Demon
++7.5% bleed
+Charged Return
++10% DMG
+Matador
++20% DMG
+Mark of the Lone Warrior
++5% DMG
+Ardour Weapon
++5% DMG
+Lose Your Mind
++15% DMG
+Taunt
++20% DMG
+Nullifying Clarity
++10% DMG
+Overflowing Dam
++10% DMG
+Tough Love
++10% DMG
+Flame Within
++10% DMG
+Last Resort
++5% DMG
+Exposed Durability
++10% DMG
+Spinning Swordsman
++15% DMG
+Wyvern's Claw
++10% DMG
+Reshape and Remold
++5% DMG
+Underdog
++4% DMG
+Rush Hour
++15% DMG
+Reinforce
++5% DMG
+Amped
++10% DMG
+Amplified Rage
++20% DMG
+Piercing Will
++15% PEN
+Cult of Personality
++15% PEN
+Thresher Claws
++10% PEN
+Cheap Shot
++10% PEN ×
+Million Ton Piercer
++5% PEN
+Ether Overdrive
++5% PEN
+After Cut
++10% DMG
+Ears
+Regenerative Earrings
+Head
+Bloodforged Crown
+Face
+Round Citadel Frames
+Arms
+Ironsinger Heavy Plate
+Torso
+Whistling Periapt
+Legs
+Celestial Boots
+Ignition Deepdelver
+Ring 1
+Transfusion Ring
+Ring 2
+Transfusion Ring
+Ring 3
+Transfusion Ring
+Ring 4
+Armorer's Ring
+Click an equipped slot to see its details.
+Optimizer assumes
+35% pen
+against physical and
+20% pen
+against mantra damage.
+Total
+Health
++199
+Posture
++2.5
+Physical Armor
++6%
+Ether
++53
+Sanity
++6
+Anchor pips
++1
+Ether Regen
++20
+Ironsing Armor
++5%
+Damage vs. Monsters
++5%
+Monster Armor
++5%
+Wind Armor
++8%
+Physical Resist
++30%
+Elemental Resist
++35%
+Ice Res
++15%
+Metal Res
++15%
+Knockback Resist
++10%
+EHP vs Physical
+631 EHP (415 HP @ 34.2% DR)
+Damage reduction factors
+Outfit · Ignition Deepdelver
+×(1 - 30%)
+Equipment (additive)
+×(1 - 6%)
+HP & per-slot armor
+Build base
++226 HP
+Head · Bloodforged Crown
++29 HP
+·
++4% armor
+Arms · Ironsinger Heavy Plate
++36 HP
+·
++2% armor
+Legs · Celestial Boots
++27 HP
+Torso · Whistling Periapt
++9 HP
+Face · Round Citadel Frames
++5 HP
+Ring 1 · Transfusion Ring
++25 HP
+Ring 2 · Transfusion Ring
++25 HP
+Ring 3 · Transfusion Ring
++28 HP
+Ring 4 · Armorer's Ring
++5 HP
+Pip totals
+Health
++99
+Posture
++3.5
+Physical Armor
++6%
+Elemental Armor
++0%
+Ether
++38
+Sanity
++6
+Anchor pips
++1
+Innate & bonuses
+Health
++100
+Ether
++15
+Posture
++-1
+Ether Regen
++20
+Ironsing Armor
++5%
+Damage vs. Monsters
++5%
+Monster Armor
++5%
+Wind Armor
++8%
+Physical Resist
++30%
+Elemental Resist
++35%
+Ice Res
++15%
+Metal Res
++15%
+Knockback Resist
++10%
+Innate talents
+Cauterized Wounds
+Stay of Execution
+Cosmic Connection
+Whistleguard
+Blood Convergence
+Force Your Way
+Notes
+Defensive
+Health
+595
+Base
++210
+Power
+Power 20 ×4
++80
+Fortitude
+2 ×0.5
++1
+Vitality
+6 ×10
++60
+Talent · Master Bloodrender
++5
+Talent · Master Ironsinger
++5
+Talent · Bloodiron Spirit
++5
+Talent · Bloodrend Unbounded
++10
+Talent · Ironsing Unbounded
++10
+Talent · Old Habits Die Hard
++5
+Talent · Breathing Exercise
++5
+Equipment
++199
+Posture
+23.5
+Base
++20
+Talent · Destructive Recovery
++1
+Equipment
++2.5
+Damage Reduction
+vs Physical
+36.2
+%
+650 EHP · 415 HP
+· avg over 2 physical types
+Outfit · Ignition Deepdelver
+×(1 − 30%)
+Equipment (additive)
+×(1 − 6%)
+Padded Armor (Blunt Armor) · vs Blunt only
+×(1 − 3%)
+Steel Scales (Slash Armor) · vs Slash only
+×(1 − 3%)
+Per physical type
+Blunt
+36.2%
+Slash
+36.2%
+vs Attunement
+38.9
+%
+684 EHP · 415 HP
+· avg over 7 attunements
+Outfit · Ignition Deepdelver
+×(1 − 35%)
+Torso · Whistling Periapt (Wind Armor) · vs Wind only
+×(1 − 8%)
+Arms · Ironsinger Heavy Plate (Ironsing Armor) · vs Metal only
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Deepwoken Builder]
+- URL: https://deepwoken.co/builder
+Deepwoken Builder
+Anonymous
+Add tags
+Export
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+0
+Next Power:
+0 points
+"What a nice reze, huh?"
+Strength
+STR
+0
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+0
+Charisma
+CHA
+0
+Heavy Wep.
+HVY
+0
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+0
+Ironsing
+MTL
+0
+Bloodrend
+BLD
+0
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 330
+Points Spent
+: 0
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+45
+17
+2
+0
+Filters
+Advanced
+▾
+No talents :(
+Rare
+▾
+Fish
+Fishman
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Common
+▾
+Brawler
+Bruiser's Mixup
+↗
+Escape Artist
+Robber Baron
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Spotter
+↗
+Miscellaneous
+Dragon's Song
+↗
+Polite Awakening
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Lightweight
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+No talents :(
+Equipment
+▾
+No talents :(
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+Prospector
+
+
+=== Tables ===
+
+[Table 1]
+L1 | 20 dmg | 4 pst
+L2 | 20 dmg | 4 pst
+L3 | 20 dmg | 4 pst
+L4 | 20 dmg | 4 pst
+L5 | 20 dmg | 4 pst
+
+=== Sub Pages Explored ===
+- builder
