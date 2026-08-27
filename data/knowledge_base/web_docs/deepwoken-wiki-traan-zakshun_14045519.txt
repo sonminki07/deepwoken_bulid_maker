@@ -1,0 +1,1526 @@
+Title: Deepwoken Wiki: Traan Zakshun
+URL: https://deepwoken.fandom.com/wiki/Traan_Zakshun
+Description: Official Fandom Wiki document for Traan Zakshun
+
+==================================================
+
+Traan Zakshun
+Naan Zakshun
+Pathfinder
+Exclusive
+You are currently viewing the version of this content that only applies to the
+Pathfinder
+gamemode.
+For its gameplay counterpart in
+Vow of Iron
+, use the above navigation.
+“ Here's the current lineup. Try not to drool. ”
+― Traan Zakshun
+Contents
+1
+Description
+2
+Location
+3
+Dialogue
+3.1
+Shop UI
+4
+Shop Rotation
+4.1
+Sold Items
+5
+Black Market
+5.1
+Shop UI
+6
+Black Market Shop Rotation
+6.1
+Sold Items
+7
+Gallery
+8
+Trivia
+9
+Reference     s
+Description
+[
+]
+Traan Zakshun is a
+Canor
+NPC
+. He is a merchant who sells various outfit schematics, equipment, and weapons labelled as "Traan's Salvaged Stock".
+He is a middle-aged carafe brown Canor with short, dark green hair that sweeps to the right. Both of his eyes are in a vibrant lime hue, accompanied with a small upwards crescent. On his face is a scar that forms from the bridge of his nose to the left side of his face, and markings that consist of a fading green eyeshadow on the top, with downward facing crescents that have three individual streaks on the bottom.  He wields an
+Iron Twinblade
+on his back and wears the default variant of the
+Carefree Garments
+outfit, complimented with an ivory
+Suncross Pendant
+. Traan also wears a hat made out of kelp on his head, fashioned with two kelp leaves attached by a crown
+which he claims is for later consumption.
+Traan got into the business by working alongside his grandmother,
+Naan Zakshun
+, during the
+Etrean Civil War
+. During this time, he learned to create kelp hats and gave one to her to wear. He also has a love of ongos that dates back to his youth.
+[
+1
+]
+Traan Zakshun's shop runs on an hourly rotation. Every hour, he sells two to eight items chosen at random from a list. He can sell the same item multiple times, on the same rotation, and across multiple rotations. Most of their shop consists of uncommon weapons and schematics that are geared towards mid-game.
+Once every 20 hours Traan Zakshun will appear hosting a
+Black Market Cache
+for rare items such as
+Relics
+and Legendary
+Weapons
+. These items are only sold for
+Crowns
+and only one item total can be purchased per black market visit.
+Location
+[
+]
+Traan Zakshun is located at
+Lower Erisia
+, inside of a cave near the Legion camp.
+Traan Zakshun's cave
+Dialogue
+[
+]
+First Encounter
+Subsequent Encounters
+Shop UI
+Black Market
+Begin Dialogue
+Look what the tide dragged in. You here for gear, or just lost?
+What?
+I sell my wares to those with some real fine tastes... and even finer notes. Ye' got that?
+What are you selling?
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+Begin Dialogue
+Back again? Here to actually buy something, or just stare?
+Yeah.
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+Begin Dialogue
+When accessing the Shop
+After purchasing something
+If you can't afford the item you attempted to buy
+If you attempt to buy something at max carry capacity
+Here's the current lineup. Try not to drool.
+Done deal! Come back in a lil' bit when I haul some new goodies up here, yeh?
+You're short now, pal. Come back when you're not drowned broke, yeah?
+Ugh you're carrying way too much. Come back when you're not a walking junk pile.
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+[End Dialogue]
+Begin Dialogue
+When accessing the Black market
+After purchasing something
+Speaking to him after purchasing something
+Keep your voice down... here's tonight's haul. Purchase limit of one item each, this stock's very limited.
+Thanks for the sale. Come back later for my usual wares. I'll always have things in stock.
+Y'already bought from me tonight. Don't get greedy, I've got other folks to barter with.
+[
+Opens
+Black Market UI
+]
+[End Dialogue]
+[End Dialogue]
+Shop UI
+[
+]
+Traan's Salvaged Stock
+[Item price]
+Notes
+[Item name]
+A rare find indeed.
+Depending on the rotation, he can sell 1 to 8 items at once. Typically, he sells 3 to 6 items each visit.
+Traan's item descriptions will change randomly each time he sells goods from his Salvaged Stock:
+A rare find indeed.
+An item most regal!
+Check out the drawing on the package - that's a handsome fella, surely that makes you want this on your shelf!
+Colour makes us hungry - everything's connected!
+C'mon, everybody and their grandma wants to buy something like this.
+DON'T drop it...
+Found this one in my nan's home during clearance - all pieces still intact!
+Hard sell, eh?.. What if it was purple?
+Hey now come on, it's not that expensive...
+Hey, you break it - you buy it.
+I dropped a boulder on the guy I stole this from.
+I threw the guy I stole this from into the Megalodaunt nest not too far from here. Easiest clean-up ever.
+I stole these from local bandits, by the way.
+I would keep this for my own, you know... Buy my shelves are getting rather full.
+Is it a True Seraph Spear or a True Seraph's Spear? Who even is the True Seraph? Where am I? Who are you?
+Isn't it weird how there's like, next to no fruit in Erisia? I had to plant my own tree near the shoreline... if you care.
+It's had a little wear and tear, but who cares! Hey, that rhymed a little...
+It's not overpriced, I swear!
+I'd keep this for myself, since it's so lovely... But I'd love it more if you were to buy it instead!
+I'm getting bored of describing these. Maybe you should just bag yourself this bargain!
+I've seen these for sale for three times the price, but I'm throwing you an aaabsolute curveball with this deal here...
+Look at all those shiny colours!
+Looks valuable, you should buy it!
+Lovely weather for buying something exactly like this, eh?
+No change - no problem! I'll keep the difference as a tip!
+Now see, I would buy this. From myself.
+Oh, haha, that's not dust, that's, uhm... an expensive finish, probably a fashion thing.
+Oof, man. Are you sure you can afford this heat?
+People keep asking for these to be purple? I don't get it.
+Really? That's the best outfit you could come up with?
+Regahl rega regi.. You pronounce it reg-ah-lee-ah right?
+Seems like a great deal, huh? But I'm NOT done yet!
+Seen this one before, you say? No no, in the business, we call that a 'remaster'!
+That's *gotta* be one of a kind, right? And it could be yours!
+That's in good condition for its age!
+The Legendary Boot?.. Pff, good joke pal, I don't sell trash.
+The price is too steep, you say? Nonsense! I'm just wearing my Sunday Shirt of Selling. It increases my mercantile skill.
+These are perrr~fectly reasonable prices, stop giving me a hard time.
+They don't make 'em like they used to anymore, you know?
+They say you should never look a gift horse in the mouth! ...Well, these aren't gift horses. Look all you want! Buy, even!
+This catch your eye?
+This could almost be an antique, I think?
+This is a real steal, probably.
+This one really stood out when I was looting the guy who had it.
+This one's so valuable it's been sitting around for years!
+This usually isn't the case, but I almost drowned getting this, haha.
+This will surely have you saying: 'shut up and take my money'!
+Traan Zakshun has wares if you have coin-- erm, I mean... notes. Yes.
+Truly a divine thingymabob.
+Used to know a guy who made these, you know... What happened to him? Oh, he's fine. He just doesn't make these anymore.
+Use my special offer! You can get TWO items, for the price of one-plus-one item! Isn't that a steal?
+What's that? Do I have a reegahl... reeg... regi... Reh-gah-lee~ yah? You're talkin' crazy, pal.
+Who's your buddy there behind you?
+Yes, this is my real name... legally.
+You got any Ongo slices? I could really go for a snack...
+You know, I'm told that Drallis Ehr guy *really* likes this one... If that makes you any more interested?
+Y'know, if you don't like this thing very much, it'll at least make for a lovely decoration!
+Shop Rotation
+[
+]
+Sold Items
+[
+]
+Outfit Schematics
+For 80
+:
+Starter
+:
+Hired Mercenary
+Adept
+:
+Authority Peacekeeper Armor
+,
+Carefree Garments
+,
+Diver Apprentice Robes
+,
+Flame Worshipper Armor
+,
+Ignition Union Uniform
+,
+Keeper
+Expert
+:
+Cloak of Winds
+,
+Diver Journeyman Robes
+,
+Hive Drone
+For 200
+:
+Starter
+:
+Eager Tradesman
+,
+Merchant Robes
+,
+Pathfinder Sorcerer
+,
+Scholar
+Adept
+:
+11th Legion Plate
+,
+Navaen Nomad Robes
+,
+Pathfinder Thaumaturge
+,
+Summer Company Uniform
+Expert
+:
+Authority Captain Uniform
+,
+Cerulean Gown
+,
+Hive Tactician Armor
+,
+Ignition Trailblazer
+,
+Seamstress's Attire
+,
+Varicosan Finery
+,
+Whaler Coat
+Master
+:
+Legion Centurion
+,
+Prophet's Cloak
+Miscellaneous
+For 100
+:
+Frigid Prism
+,
+Gale Stone
+,
+Heartstar
+For 1,000
+:
+Dye Packet
+For 2,500
+:
+Glumfig
+For 15,000
+:
+Goodie Bag
+(
+Hallowtide
+only)
+Weapons
+For 100
+:
+Bronze Aspis
+For 300
+:
+Light Weapons
+:
+Whaling Knife
+Medium Weapons
+:
+Katana
+,
+Vigil Longsword
+,
+Warden Ceremonial Sword
+Heavy Weapons
+:
+Adretian Axe
+For 500
+:
+Needle's Eye
+For 650
+:
+Medium Weapons
+:
+Alloyed Falchion
+,
+Alloyed Scalesplitter
+,
+Rifle Spear
+,
+Scoundrel's Saber
+,
+Serrated Warspear
+Heavy Weapons
+:
+Darkalloy Greatsword
+For 750
+:
+True Seraph Spear
+For 1,000
+:
+Krulian Knife
+For 1,250
+:
+Medium Weapons
+:
+Crescendo
+Heavy Weapons
+:
+Evanspear Greataxe
+For 4,500
+:
+Hero's Blade of Flame
+,
+Hero's Blade of Lightning
+,
+Hero's Blade of Shadow
+For 5,000
+:
+Night Axe
+Equipment
+For 35
+:
+Brow Stud
+,
+Dermal Stud
+,
+Moon Brow Rings
+,
+Moon Dermal Rings
+,
+Moon Lip Ring
+,
+Moon Septum Ring
+,
+Nose Stud
+,
+Snakebite Studs
+For 55
+:
+Wool Beret
+For 100
+:
+Sailor's Fleece
+Black Market
+[
+]
+Once every 20 hours, instead of a regular item rotation, Traan Zakshun will sell goods from their black market stock. For reference to calculate when the black market is available, every five days, the black market will be available at both 00:00 UTC and at 20:00 UTC on the same day. These items are a variety of
+Relics
+and Legendary
+Weapons
+, sold exclusively for
+Crowns
+. Only
+one item total
+can be purchased per visit. Like any normal shop rotation, the black market will only last one hour. Prices appear to fluctuate depending on the day. The
+Gilded Needle
+for example has been seen at both ten
+Crowns
+and five
+Crowns
+. Listed prices are what appears most frequently.
+Shop UI
+[
+]
+Traan's Black Market Cache
+[Item price]
+Crowns
+[Item name]
+I barely know what I'm looking at here.
+The black market can have up to 8 items at once with a minimum of 4.
+Traan's item descriptions will change randomly each time he sells goods from his Black Market Cache:
+A strange blue turnip salesman once told me that deep forests, like the ones in Upper Erisia, bring in good coin. Gotta say, he's right.
+All sales are final. I'm limited liability, yeah?
+Buy it you break it. Wait a sec...
+Careful. This one's got a history.. I think.
+Did you know if you give me the crowns, I'll actually GIVE you the item, it's a crazy deal right?
+DON'T drop it...
+Don't even ask, man.
+Got somethin' that might interest ya...
+Have I seen you before? Yeah, wait... you told people my stock sucked... Wait. Actually, that might've been someone else. I *will* find them.
+Ignore the scuff marks, there were barnacles on it when I found it.
+I barely know what I'm looking at here.
+I found this in my nan's *other* stash during clearance... That lady's got a chequered past, eh?
+I gave one of these away for free yesterday. You missed out.
+I need to use these crowns to buy some earplugs, for that eardrum-rupturing sea snake...
+I uhh, yeah I really shouldn't have these.
+If anyone asks - you didn't get this from me. Capiche?
+It cost me an arm and a limb to get ahold of these. Not mine, of course...
+I'd wipe this for fingerprints.
+I've actually found myself in a spot of trouble when I was out and about with these after I got them..
+It's Antique! Scratch that, Brand New!
+It's just good business.
+Just warning ya, you *might* be a wanted person in multiple places after buying this. Don't go wavin' that around.
+Man - it's been a like a whole hour, and my seafood boil isn't here yet! For all the talk The Meatlord gets, he's kind of a slowpoke.
+Market's been doing so well I can flaunt my money on my hat! I have more money than you!
+Maybe clean this when you get a minute.
+Maybe I should get into mystery boxes... You'd buy one right?
+Might need to steal me a sweater, gettin 'a little chilly up here.
+Next time, if you come wearing a full clown outfit, I might give you a discount... Pff!
+Never again will I make the mistake of using one of these.
+No questions, no returns.
+Not sure if I really want to let this one go... If that makes you want it more?
+Oh this one's verrry special - I can only let you buy one.
+Oh, this one might be cursed. Like, actually.
+Ohh yeah, this has gotta be one a kind, just look at the uhh... look at it!
+Okay, you really have to be careful with this.
+One of the items of all time.
+Some guy literally walked through a mirror and handed me these, it was the strangest thing...
+Thanks for looking, you know... you could actually buy it.
+That glowy Diver lady's bright, but not that bright. See this scar on my face? I convinced her a regular egg was an exotic Megalodaunt egg and walked away with a whole shipment of dye packets. Worth every bruise.
+The Legendary Boot?.. Pff, good joke pal, I don't sell trash.
+The Moonseye is real beautiful, huh. I never really gave it much thought before... Then again I haven't been here too long.
+This isn't overpriced, it's MY SHOP!
+This one's actually worth more than two times my price... I promise!
+Try not to draw attention when you walk out of here, alright?
+Ugh, I don't even like WANT to sell this... Unless.. I dunno~ you gave me the crowns for it?
+Until earlier I genuinely forgot I even had this, does that make you want it more?
+Wait. I think the sticker price is wrong... um.. whatever, crowns are crowns right?
+...What's an 'angel statue'? Look, I think you're confusing me for someone else here, buddy.
+What? No, it doesn't come in purple. What kind of question is that, man?
+Where'd I get this? Fell outta the back of a carriage, yeah?
+Whispers say this was lost to time... ooOOOooo !!
+Why are my eyes green? B'cus it's all I see.
+Y'know I sold Maestro Evengarde Rest a Moon Ring? He HATES it when I tell people that!
+You buy it - you break it. Wait a sec...
+You got cash for a crown? I'm running low on change here... If not, it's fine.
+You want it? It's yours, my friend! As long as you have enough crowns.
+You want my hat instead? I actually made it out of dried kelp, I'm saving it for later. *Not* for sale.
+You wouldn't believe how hard these were to find.
+Black Market Shop Rotation
+[
+]
+Sold Items
+[
+]
+Outfit Schematics
+For 20
+:
+Darkened Bastion
+For 45
+:
+Celtorian Tideknight
+Miscellaneous
+(Mostly
+Relics
+)
+For 1
+:
+Armorer's Needle
+,
+Egg
+,
+Hemobloom
+,
+Plumfruit Muffin
+,
+Rain Spire
+,
+Terrapod Shell
+,
+Umbral Candle
+,
+Void Spire
+For 2
+:
+Ardour Manifestation
+,
+Broken Gatling Gun
+,
+Forge Needle
+,
+Glumfig
+,
+Goodie Bag
+(
+Hallowtide
+only)
+For 3
+:
+Smith's Alloy
+For 4
+:
+Moonseye Tome
+For 5
+:
+Dread Serpent's Mane
+,
+Idol of Yun'Shul
+,
+Gilded Needle
+Enchant Stones
+&
+Enchant Grease
+:
+Allure
+,
+Bluster
+,
+Curse of Ysley's Ember
+,
+Drowned
+,
+Stench
+,
+Stone
+,
+Vampirism
+For 6
+:
+Sinner's Ash
+For 7
+:
+Dread Serpent's Tooth
+,
+Nautilodaunt Beak
+,
+Shiva's Codex
+,
+Trickster Dust
+For 8
+:
+Crimson Terrapod Shell
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Armorer's Needle]
+Armorer's Needle
+Forge Needle
+Gilded Needle
+Pathfinder
+Exclusive
+This page describes content that is exclusive to the
+Pathfinder
+gamemode.
+This content is not accessible outside of this gamemode.
+Contents
+1
+Description
+2
+Crafting
+3
+Farming
+4
+Usage
+5
+Notes
+6
+Gallery
+7
+Trivia
+Description
+[
+]
+Armorer's Needle
+is a
+Relic
+used for
+Equipment
+. It allows the user to reroll a single pip of their choice on a piece of equipment before being consumed. It appears to be a needle in the shape of a musical treble clef.
+Crafting
+[
+]
+One
+Armorer's Needle
+can be crafted by combining
+5
+Smith's Alloys
+by hand.
+If your slot has the
+Ignition Delver
+Origin, you can craft them at the
+Hollow Forge
+with only
+3
+Smith's Alloys
+or
+9
+Pluripotent Alloys
+. Armorer's Needles can also be crafted back into 3
+Smith's Alloys
+with the same method.
+It can also be crafted into a
+Gilded Needle
+with 3
+Armorer's Needles
+and 1 gold ore, or crafted into a
+Forge Needle
+with 1
+Armorer's Needles
+and 3
+Smith's Alloys
+.
+Farming
+[
+]
+Currently known to drop from a wide variety of sources. Refer to the obtainment section in the infobox.
+If you are in dire need of many
+Armorer's Needles
+, the best and safest way to farm them is by killing the
+The Ferryman
+, as he is a fairly weak boss that can be defeated in just a few minutes. Once beaten, you can leave the instanced server and can quickly fight him again.
+If you are more confident in your PvE skills, you may farm
+Titus Fulminus Destellus
+for multiple needles per run per relic chest. This will take around 20-25 minutes solo, due to having to clear out guards and position prisoners for emergency-healing; so it is advisable to have allies clear out enemies in one section, while you clear out another, to get to the boss-fight quicker, and increase relic-yield (how the relics are distributed amongst players is at the party's discretion).
+Another method to farm them quickly is by doing
+Diluvian Mechanism
+runs. After completing waves 25 and 50, many relic chests will spawn, which each have a chance to hold one or multiple
+Armorer's Needles
+. With the proper build and careful planning, you can easily solo Diluvian up to wave 25s in only a few minutes. Going to wave 50 will get you even more
+Armorer's Needles
+, but more preparation and time is needed.
+Usage
+[
+]
+Use text: "
+With a deft hand, you transmute the property of [lost property] into [gained property]."
+Upon usage, a window will appear showing the equipment your character is currently wearing. When selecting an equipment piece to modify, you will be given a list of the item's current pips.
+When changing a pip, they will turn into any of the relevant and available pips for that piece, following this table. It is important to remember that equipment with
+3
+or more pips
+CANNOT
+have all their pips be the same type.
+Pips Info
+Buffs
+Head
+Arms
+Legs
+Torso
+Face
+Ears
+Rings
+Health (HP)
+4
+4
+5
+3
+4
+4
+5
+4
+4
+5
+3
+4
+5
+N/A
+N/A
+2
+3
+4
+Ether (ETH)
+8
+10
+12
+8
+10
+12
+8
+10
+12
+8
+10
+12
+4
+6
+8
+4
+8
+4
+6
+8
+10
+Sanity (SAN) (also gran
+
+### 📖 [하위 연관 위키: Authority Peacekeeper Armor]
+Authority Peacekeeper Armour
+is an Adept
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Gallery
+3
+Trivia
+4
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit costs 30
+and requires five (5)
+Cloth
+, five (5)
+Fiber
+, and one (1)
+Iron
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+5 and have at least 5
+Fortitude
+to be crafted. This Outfit
+cannot
+be crafted unless you are an
+Authority Ensign
+.
+Alternatively, using the
+Authority Ensign
+Origin will grant it for free, ignoring all requirements.
+Armor Stats
+[
+]
+This Outfit has 1600 durability, grants +15% Physical resistance
+, +10% Slash resistance
+, +10% Elemental resistance
+, and +15% Fire resistance
+. Additionally, it provides the
+Lowstride
+Talent.
+Due to resistances being combined multiplicatively instead of additively, the total resistances are: 23.5% Slash
+, 15% Blunt
+, 23.5% Flamecharm
+, and 10% Elemental
+.
+The
+Lowstride
+Talent increases your
+Stealth
+and movement speed while crouching. Additionally, this removes the sound that sheathing and unsheathing your weapon makes.
+Gallery
+[
+]
+Concept art
+Trivia
+[
+]
+This is the standard uniform of The Authority.
+Notably, the
+Authority Captain Uniform
+is just this but with a red coat over it.
+One of the best Adept armors in game because of the low cost, excellent durability, and the material requirements.
+Navigation
+Outfits
+Starter
+Corsair Outlaw
+•
+Eager Tradesman
+•
+Hired Mercenary
+•
+Justicar Neophyte
+•
+Merchant Robes
+•
+Pathfinder Sorcerer
+•
+Scholar
+•
+Skeptic Pioneer
+•
+Stranded
+•
+Traveller's Jacket
+•
+Union Initiate
+•
+Whaler Initiate
+Adept
+11th Legion Plate
+•
+Authority Peacekeeper Armor
+•
+Blacksteel Attire
+•
+Bounty Hunter
+•
+Carefree Garments
+•
+Cutthroat Light Armor
+•
+Diver Apprentice Robes
+•
+Duelist's Attire
+•
+Experienced Adventurer
+•
+Flame Worshipper Armor
+•
+Ignition Union Uniform
+•
+Keeper
+•
+Navaen Nomad Robes
+•
+Pathfinder Cloak
+•
+Pathfinder Thaumaturge
+•
+Shadow Hunter
+•
+Steel Plate
+•
+Summer Company Uniform
+•
+Vigil Initiate
+Expert
+Authority Captain Uniform
+•
+Cerulean Gown
+•
+Cloak of Winds
+•
+Darksteel Plate
+•
+Diver Journeyman Robes
+•
+Etrean Guard
+•
+Grand Pathfinder Cloak
+•
+Hive Drone
+•
+Hive Tactician Armor
+•
+Ignition Trailblazer
+•
+Ignition Welder
+•
+Martial Artist
+•
+Pathfinder Arch-Sorcerer
+•
+Seamstress's Attire
+•
+Troublemaker's Overcoat
+•
+Varicosan Finery
+•
+Verdant Sniper
+•
+Veteran Adventurer
+•
+Whaler Coat
+Master
+Arachnid's Weave
+•
+Black Diver
+•
+Cala-Mariner
+•
+Celtorian Tideknight
+•
+Darkened Bastion
+•
+Ignition Deepdelver
+•
+Justicar's Armor
+•
+Legion Centurion
+•
+Navaen War Chief
+•
+Prophet's Cloak
+•
+Ringing Scholar's Garb
+•
+Royal Etrean Guard
+•
+Summer Dragoon
+•
+Titanslayer's Adornment
+•
+Titus's Raiment
+•
+Windrunner Robes
+Unique
+Authority Commander
+•
+Barbarian
+•
+Cindergarb
+•
+Familiar Assassin's Armor
+•
+Familiar Demon's Armor
+•
+Familiar Heretic's Armor
+•
+Familiar Knight's Armor
+•
+Familiar Occultist's Armor
+•
+Ferryman's Coat
+•
+Heretic's Memento
+•
+Hero's Regalia
+•
+Hidden Knife Armor
+•
+Icebringer's Vestme
+
+### 📖 [하위 연관 위키: Enchant Grease]
+Contents
+1
+Description
+2
+Obtainment
+2.1
+Non-Exclusive Enchants
+2.2
+Exclusive Enchants
+3
+Gallery
+4
+Trivia
+Description
+[
+]
+The
+Enchant Grease
+is a mythical-tier
+Relic
+that can be used to apply an
+Enchantment
+to your currently held Equipment. Each vial is imbued with a random enchant. When used, an option will appear to choose what Equipment item you wish to enchant, Once one is selected it will ask if this is the equipment you wish to enchant and soulbind. After usage, The enchant grease will disappear from the inventory. Your selected equipment will receive the enchantment provided by the enchant grease.
+Obtainment
+[
+]
+Non-Exclusive Enchants
+[
+]
+All but one of the game's Enchant Greases have non-exclusive obtainment locations, meaning there are several options available to you for their obtainment. There are three main ways to obtain an Enchant Grease.
+Exchanging 5
+to
+Klaris
+for a random enchant grease.
+Exchanging 5
+to
+Laplace
+for a random enchant grease.
+Chance to obtain from a chest in
+The Diluvian Mechanism
+,
+War Mode
+, and the
+Galewax
+Room in the
+Second Layer
+of the Depths.
+Exclusive Enchants
+[
+]
+These Enchant Greases can only be obtained through certain methods. Currently, the Rain enchantment is the only exclusive Enchant Grease.
+Sold by
+The Gaunt Man
+for 25
+Rain Spires
+and 10
+.
+Gallery
+[
+]
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+Trivia
+[
+]
+You can use Enchant Grease on already enchanted equipment, it'll just switch the enchant.
+Enchant Grease is undroppable, but sells for 200 notes if for some reason you want to sell it.
+You can pass down Enchant Grease through the
+Hippocampal Pool
+for 40
+Echoes
+.
+Enchant Grease was added in an update on 8/23/2024, Before this the only way to enchant equipment was to spend five
+Kyrsan Medallions
+at
+Klaris
+whilst holding an equipment item.
+Attempting to use Enchant Grease in the
+Second Layer
+will not work, displaying the message "The Gale interferes with the energy of the grease. Perhaps, on the surface..."
+
+### 📖 [하위 연관 위키: Enchant Stone]
+Contents
+1
+Description
+2
+Obtainment
+2.1
+Non-Exclusive Enchants
+2.2
+Exclusive Enchants
+2.3
+Vow of Iron Enchantments
+3
+Gallery
+4
+Trivia
+Description
+[
+]
+The
+Enchant Stone
+is a mythical-tier
+Relic
+that can be used to apply an
+Enchantment
+to your currently equipped weapon. Each stone is imbued with a random enchant or curse. When used, an option will appear to confirm if this is the weapon you wish to enchant and soulbind. After usage, an animation will play and the enchant stone will disappear from the inventory. Your current weapon will receive the enchantment provided by the enchant stone. This can also be used to re-roll enchants on already enchanted weapons
+Obtainment
+[
+]
+There are multiple ways to obtain an Enchant Stone, the usual and best source being from the
+Second Layer
+. The ways of obtainment are as follows:
+Non-Exclusive Enchants
+[
+]
+Most of the game's Enchant Stones have non-exclusive obtainment locations, meaning there are several options available to you for their obtainment.
+Exchanging 5
+to
+Klaris
+for a random non-exclusive Enchant Stone.
+Chance to obtain from a chest from several bosses including: the
+Heart of Enmity
+,
+Maestro Evengarde Rest
+, the
+Dread Serpent
+,
+Scion of Ethiron
+, and
+Chaser
+.
+Chance to obtain from a chest from several dungeons including:
+Second Layer
+,
+The Diluvian Mechanism
+, and
+Saramaed Hollow
+.
+Chance to obtain from
+War Mode
+and
+Hell Mode
+.
+Unlocking the
+Galewax
+Room from the
+Second Layer
+. This room always contains three tiny chests, that have a
+25%
+chance of providing a random non-exclusive Enchant Stone per chest. If not an Enchant Stone, it's a random
+Kyrsweapon
+.
+Certain enchants can additionally be sold during
+Traan Zakshun's
+black market for 5
+, but are otherwise non-exclusive enchants.
+Crafting
+them with any other Enchant Stone and two catalyst ingredients. The recipe depends on the Enchant Stone; see their individual pages or the main
+Enchantments
+page.
+Exclusive Enchants
+[
+]
+These Enchant Stones can only be obtained through certain methods. These are: Astral, Bluster, Curse of Ysley's Ember, Curse of The Authoritative, Curse of Void, Harrowing, Nightbringer, Parasol's Blight, and Windswept.
+Astral
+can only be obtained from the
+Weird Trader
+, in the chest at
+Moon's Eyrie
+, or as a drop from
+Star Knights
+and
+Moon Knights
+. Astral can also be sold for 10
+in
+Traan Zakshun's
+black market.
+Bluster
+can be obtained from
+Titus Fulminus Destellus
+or bought from
+Traan Zakshun
+in his black market for 5
+.
+Curse of Captain Greene
+can be exclusively bought from
+The Gaunt Man
+for 1
+Exotic Hide
+.
+Curse of the Authoritative
+can only be obtained from
+Titus Fulminus Destellus
+.
+Curse of Void
+can exclusively be bought from
+The Gaunt Man
+for 25
+Void Spires
+and 10
+.
+Curse of Ysley's Ember
+Enchant Stone can be obtained by defeating
+Hive Constructs
+or
+Rogue Constructs
+as a direct drop, turning in an
+Aratel Artifact
+to a Banker, rarely from
+Fishing
+chests,
+Primadon
+and
+Elder Primadon
+chests, or in any
+Starswept Valley
+chest (
+
+### 📖 [하위 연관 위키: Flame Worshipper Armor]
+Flame Worshipper Armor
+is an Adept
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Trivia
+3
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit costs 30
+and requires four (4)
+Cloth
+, four (4)
+Fiber
+, and two (2)
+Iron
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+5 to be crafted.
+Armor Stats
+[
+]
+This Outfit has 1000 durability, grants +10% Physical resistance
+, +5% Elemental resistance
+, and +25% Fire resistance
+. Additionally, it provides the
+Intrepid Flame
+and
+One With Flame
+Talents.
+Due to resistances being combined multiplicatively instead of additively, the total resistances are: 10% Physical
+, 28.75% Flamecharm
+, and 5% Elemental
+.
+The
+Intrepid Flame
+Talent halves the maximum duration of any
+Burn
+effect that is applied to the user.
+Flame Within
+'s duration is not reduced, granting damage reduction to your Flame Within instead.
+The
+One With Flame
+Talent grants several buffs to the player if they are currently
+burning
+and are using the
+Worshipper's Shield
+and
+Worshipper Longsword
+. While active, you gain 25% damage reduction, your Mantras apply
+burn
+on hit, your
+Medium Weapon Mantras
+become orange, and the
+Worshipper Longsword
+'s
+Belief
+Talent gains Flamecharm scaling.
+Trivia
+[
+]
+This Outfit is one of the requirements to fight
+Aska
+.
+Alternatively you can use the
+Pleeksty's Faith
+OR
+Pleeksty's Will
+Talents instead of this Outfit. If you have none of these equipped, Aska will wipe you instead of starting the fight.
+Navigation
+Outfits
+Starter
+Corsair Outlaw
+•
+Eager Tradesman
+•
+Hired Mercenary
+•
+Justicar Neophyte
+•
+Merchant Robes
+•
+Pathfinder Sorcerer
+•
+Scholar
+•
+Skeptic Pioneer
+•
+Stranded
+•
+Traveller's Jacket
+•
+Union Initiate
+•
+Whaler Initiate
+Adept
+11th Legion Plate
+•
+Authority Peacekeeper Armor
+•
+Blacksteel Attire
+•
+Bounty Hunter
+•
+Carefree Garments
+•
+Cutthroat Light Armor
+•
+Diver Apprentice Robes
+•
+Duelist's Attire
+•
+Experienced Adventurer
+•
+Flame Worshipper Armor
+•
+Ignition Union Uniform
+•
+Keeper
+•
+Navaen Nomad Robes
+•
+Pathfinder Cloak
+•
+Pathfinder Thaumaturge
+•
+Shadow Hunter
+•
+Steel Plate
+•
+Summer Company Uniform
+•
+Vigil Initiate
+Expert
+Authority Captain Uniform
+•
+Cerulean Gown
+•
+Cloak of Winds
+•
+Darksteel Plate
+•
+Diver Journeyman Robes
+•
+Etrean Guard
+•
+Grand Pathfinder Cloak
+•
+Hive Drone
+•
+Hive Tactician Armor
+•
+Ignition Trailblazer
+•
+Ignition Welder
+•
+Martial Artist
+•
+Pathfinder Arch-Sorcerer
+•
+Seamstress's Attire
+•
+Troublemaker's Overcoat
+•
+Varicosan Finery
+•
+Verdant Sniper
+•
+Veteran Adventurer
+•
+Whaler Coat
+Master
+Arachnid's Weave
+•
+Black Diver
+•
+Cala-Mariner
+•
+Celtorian Tideknight
+•
+Darkened Bastion
+•
+Ignition Deepdelver
+•
+Justicar's Armor
+•
+Legion Centurion
+•
+Navaen War Chief
+•
+Prophet's Cloak
+•
+Ringing Scholar's Garb
+•
+Royal Etrean Guard
+•
+Summer Dragoon
+•
+Titanslayer's Adornment
+•
+Titus's Raiment
+•
+Windrunner Robes
+Unique
+Authority Commander
+•
+Barbarian
+•
+Cindergarb
+•
+Familiar Assassin's Armor
+•
+Familiar Demon's Armor
+•
+Familiar Heretic's Armor
+•
+Familiar Knight's Armor
+
+### 📖 [하위 연관 위키: Hive Tactician Armor]
+Hive Tactician Armor
+or Tactician is an Expert
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Trivia
+3
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit has no cost and requires five (5)
+Cloth
+, two (2)
+Iron
+, two (2)
+Dark Feathers
+and three (3)
+Vibrant Gems
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+10 and have at least 25
+Agility
+to be crafted.
+Armor Stats
+[
+]
+This Outfit has 1200 durability and grants +30% Physical resistance
+, +20% Elemental resistance
+, +15% Ironsing resistance
+, and 10% Wind resistance
+. Additionally, it provides the
+Brunt
+Talent.
+Due to resista
+
+=== Tables ===
+
+[Table 1]
+Begin Dialogue
+Look what the tide dragged in. You here for gear, or just lost?
+What?
+I sell my wares to those with some real fine tastes... and even finer notes. Ye' got that?
+What are you selling?
+[OpensShop UI]
+[End Dialogue]
+
+[Table 2]
+Begin Dialogue
+Back again? Here to actually buy something, or just stare?
+Yeah.
+[OpensShop UI]
+[End Dialogue]
+
+[Table 3]
+Begin Dialogue
+When accessing the Shop | After purchasing something | If you can't afford the item you attempted to buy | If you attempt to buy something at max carry capacity
+Here's the current lineup. Try not to drool. | Done deal! Come back in a lil' bit when I haul some new goodies up here, yeh? | You're short now, pal. Come back when you're not drowned broke, yeah? | Ugh you're carrying way too much. Come back when you're not a walking junk pile.
+[OpensShop UI] | [End Dialogue]
+[End Dialogue]
+
+[Table 4]
+Begin Dialogue
+When accessing the Black market | After purchasing something | Speaking to him after purchasing something
+Keep your voice down... here's tonight's haul. Purchase limit of one item each, this stock's very limited. | Thanks for the sale. Come back later for my usual wares. I'll always have things in stock. | Y'already bought from me tonight. Don't get greedy, I've got other folks to barter with.
+[OpensBlack Market UI] | [End Dialogue]
+[End Dialogue]
+
+[Table 5]
+[Item price]Notes | [Item name]A rare find indeed.
+
+[Table 6]
+Outfit Schematics | For 80:Starter:Hired MercenaryAdept:Authority Peacekeeper Armor,Carefree Garments,Diver Apprentice Robes,Flame Worshipper Armor,Ignition Union Uniform,KeeperExpert:Cloak of Winds,Diver Journeyman Robes,Hive DroneFor 200:Starter:Eager Tradesman,Merchant Robes,Pathfinder Sorcerer,ScholarAdept:11th Legion Plate,Navaen Nomad Robes,Pathfinder Thaumaturge,Summer Company UniformExpert:Authority Captain Uniform,Cerulean Gown,Hive Tactician Armor,Ignition Trailblazer,Seamstress's Attire,Varicosan Finery,Whaler CoatMaster:Legion Centurion,Prophet's Cloak
+Miscellaneous | For 100:Frigid Prism,Gale Stone,HeartstarFor 1,000:Dye PacketFor 2,500:GlumfigFor 15,000:Goodie Bag(Hallowtideonly)
+Weapons | For 100:Bronze AspisFor 300:Light Weapons:Whaling KnifeMedium Weapons:Katana,Vigil Longsword,Warden Ceremonial SwordHeavy Weapons:Adretian AxeFor 500:Needle's EyeFor 650:Medium Weapons:Alloyed Falchion,Alloyed Scalesplitter,Rifle Spear,Scoundrel's Saber,Serrated WarspearHeavy Weapons:Darkalloy GreatswordFor 750:True Seraph SpearFor 1,000:Krulian KnifeFor 1,250:Medium Weapons:CrescendoHeavy Weapons:Evanspear GreataxeFor 4,500:Hero's Blade of Flame,Hero's Blade of Lightning,Hero's Blade of ShadowFor 5,000:Night Axe
+Equipment | For 35:Brow Stud,Dermal Stud,Moon Brow Rings,Moon Dermal Rings,Moon Lip Ring,Moon Septum Ring,Nose Stud,Snakebite StudsFor 55:Wool BeretFor 100:Sailor's Fleece
+
+[Table 7]
+[Item price]Crowns | [Item name]I barely know what I'm looking at here.
+
+[Table 8]
+Outfit Schematics | For 20:Darkened BastionFor 45:Celtorian Tideknight
+Miscellaneous(MostlyRelics) | For 1:Armorer's Needle,Egg,Hemobloom,Plumfruit Muffin,Rain Spire,Terrapod Shell,Umbral Candle,Void SpireFor 2:Ardour Manifestation,Broken Gatling Gun,Forge Needle,Glumfig,Goodie Bag(Hallowtideonly)For 3:Smith's AlloyFor 4:Moonseye TomeFor 5:Dread Serpent's Mane,Idol of Yun'Shul,Gilded NeedleEnchant Stones&Enchant Grease:Allure,Bluster,Curse of Ysley's Ember,Drowned,Stench,Stone,VampirismFor 6:Sinner's AshFor 7:Dread Serpent's Tooth,Nautilodaunt Beak,Shiva's Codex,Trickster DustFor 8:Crimson Terrapod ShellFor 10:AstralEnchant StoneFor 15:Parasol MembraneFor 20:Ethereal Osseous Plate,Frost Essence,Gale EssenceFor 30:Doom of Caeranthil's ScaleFor 38:Champion's Alloy,Charged Parasol Part
+Weapons | For 1:Kindred EdictFor 3:Light Weapons:WraithclawMedium Weapons:Hero's Blade of Flame,Hero's Blade of Frost,Hero's Blade of Lightning,Hero's Blade of Shadow,Hero's Blade of WindFor 4:Medium Weapons:Curved Blade of Winds,Imperator's Edge,Red Death,Soulthorn,StormseyeHeavy Weapons:Boltcrusher,Crypt BladeFor 8:First LightFor 35:Dormant Splinter
+Equipment | For 2:Aazel's Horns,Brilliant CapeFor 5:Lightkeeper's Medallion,Tiran Pendant,Warmaster's MedallionFor 20:Simmerbloom DiademFor 25:Dark PearlsFor 30:Jadeite MegalodauntFor 175:Whistling Periapt
+
+=== Sub Pages Explored ===
+- Armorer's Needle
+- Authority Peacekeeper Armor
+- Enchant Grease
+- Enchant Stone
+- Flame Worshipper Armor
+- Hive Tactician Armor
+- Outfits
