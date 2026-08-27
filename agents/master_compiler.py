@@ -1,4 +1,4 @@
-﻿import json
+import json
 import logging
 from pathlib import Path
 from typing import Optional
@@ -70,6 +70,18 @@ def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path
                     web_count += 1
             except Exception as e:
                 logger.warning(f"Error reading web doc {doc_file}: {e}")
+
+    # 4. 유저 뱅크 인벤토리 및 보유 인챈트 데이터 병합
+    kb_user_dir = kb_dir / "user_inventory"
+    if kb_user_dir.exists():
+        lines.append("\n\n## 🎒 제4장: 유저 실제 인게임 뱅크 인벤토리 및 보유 인챈트 명세서")
+        for u_file in sorted(kb_user_dir.glob("*.md")):
+            try:
+                content = u_file.read_text(encoding="utf-8", errors="ignore").strip()
+                if content:
+                    lines.append(f"\n---\n\n{content}\n")
+            except Exception as e:
+                logger.warning(f"Error reading user inv {u_file}: {e}")
 
     master_text = "\n".join(lines)
     
