@@ -4,6 +4,11 @@ import logging
 from pathlib import Path
 from typing import Optional, List, Tuple
 
+try:
+    from agents.master_compiler import compile_master_notebooklm_source
+except ImportError:
+    from master_compiler import compile_master_notebooklm_source
+
 logger = logging.getLogger(__name__)
 
 # 기본 감지할 구글 드라이브 후보 경로들
@@ -33,9 +38,15 @@ def find_gdrive_sync_dir() -> Optional[Path]:
     return None
 
 def sync_to_google_drive(project_dir: Optional[Path] = None) -> Tuple[bool, str, List[Path]]:
-    """프로젝트 내의 Master NotebookLM 소스 파일 및 최신 지식을 구글 드라이브로 자동 복사/동기화합니다."""
+    """마스터 소스 파일을 최신화하고 구글 드라이브로 자동 복사/동기화합니다."""
     if project_dir is None:
         project_dir = Path(__file__).resolve().parent.parent
+
+    # 1. 마스터 소스 파일 먼저 최신 빌드 데이터로 자동 재컴파일
+    try:
+        compile_master_notebooklm_source(project_dir)
+    except Exception as e:
+        logger.warning(f"Failed to auto-compile master NotebookLM source: {e}")
 
     gdrive_dir = find_gdrive_sync_dir()
     if not gdrive_dir:
@@ -81,4 +92,3 @@ if __name__ == "__main__":
     success, msg, files = sync_to_google_drive()
     print("Success:", success)
     print("Message:", msg)
-    print("Files:", [f.name for f in files])
