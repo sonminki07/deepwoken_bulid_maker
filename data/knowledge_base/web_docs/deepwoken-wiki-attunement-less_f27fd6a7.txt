@@ -1,0 +1,1277 @@
+Title: Deepwoken Wiki: Attunement-less
+URL: https://deepwoken.fandom.com/wiki/Attunement-less#Skyshatter_Kick
+Description: Official Fandom Wiki document for Attunement-less
+
+==================================================
+
+Attunement-less icon
+Attunement-less Mantras, or Physical Mantras, consist of Mantras that are chosen based on your attributes, similar to Talents, rather than your Attunements.
+NOTE: Attunement-less Mantras are rarer if you have an Attunement and depend on how much you have in said stat opposed to your Attunement.
+Contents
+1
+Description
+2
+Upgrading Mantras
+2.1
+Mantra Damage Calculation
+3
+Attribute Mantras
+3.1
+Strength Mantras
+4
+Strong Left (☆☆☆)
+5
+Rapid Punches (☆☆☆)
+6
+Table Flip (☆☆☆)
+7
+Skyshatter Kick (☆☆☆)
+8
+Strong Leap (☆☆☆)
+9
+Tacet Drop Kick (☆☆☆)
+10
+Throw (★★☆)
+10.1
+Fortitude Mantras
+11
+Shoulder Bash (☆☆☆)
+12
+Rally (☆☆☆)
+13
+Reinforce (☆☆☆)
+14
+Brace (☆☆☆)
+14.1
+Agility Mantras
+15
+Revenge (☆☆☆)
+16
+Twinstrikes (☆☆☆)
+17
+Agile Dash (☆☆☆)
+18
+Adrenaline Surge (☆☆☆)
+18.1
+Intelligence Mantras
+19
+Ether Barrage (☆☆☆)
+20
+Prediction (☆☆☆)
+21
+Neural Pathway (☆☆☆)
+22
+Summon Cauldron (☆☆☆)
+22.1
+Willpower Mantras
+23
+Exhaustion Strike (☆☆☆)
+24
+Glare (☆☆☆)
+25
+Gaze (☆☆☆)
+25.1
+Charisma Mantras
+26
+Taunt (☆☆☆)
+27
+Sing (☆☆☆)
+28
+Dread Whisper (☆☆☆)
+29
+Disguise (☆☆☆)
+30
+Weapon Mantras
+30.1
+Light Weapon Mantras
+31
+Rapid Slashes (☆☆☆)
+32
+Ceaseless Slashes (☆☆☆)
+33
+Karita Divebomb (☆☆☆)
+34
+Karita Leap (☆☆☆)
+34.1
+Medium Weapon Mantras
+35
+Master's Flourish (☆☆☆)
+36
+Prominence Draw (☆☆☆)
+37
+Twincleave (☆☆☆)
+38
+Slice 'n' Dice (☆☆☆)
+39
+Flashdraw Strike (☆☆☆)
+39.1
+Heavy Weapon Mantras
+40
+Pressure Blast (☆☆☆)
+41
+Onslaught (☆☆☆)
+42
+Punishment (☆☆☆)
+43
+Tips
+44
+Trivia
+45
+Navigation
+Description
+[
+]
+You don't have an Attunement, instead relying on your physical and mental abilities to give yourself an edge in battle.
+Most of your Mantras focus on your physical and mental capabilities instead of a specific element, allowing you to achieve incredible feats by utilizing your body alone, whether it's utilizing your raw strength combined with the Song to punch down trees and enemies alike, moving at a faster rate than usual,  or predicting attacks with your intelligence alone, just to name a few. Although Attunement-less sounds horrible on paper, it is, in reality, just as viable and completely usable as having an Attunement.
+In spite of its shortcomings, the potential of Attunement-less is nothing to scoff at, as stat points normally allocated to Attunements can instead be used to obtain Talents, as well making obtaining high investment Talents more worthwhile should a powerful combat Mantra scale off the same points.
+Upgrading Mantras
+[
+]
+The Attunement-less Mantra trainer
+Regek
+can be found at
+Greathive Aratel
+in the Archives area. To allow the user to upgrade their Mantras here, the player must complete a quest for the trainer by collecting sap from 3 Soulblooms. (You need to have washed your face at the
+Lightkeeper's Temple
+to activate the quest.)
+All of the Soulblooms can be found at the top of the tree, in Canopy Plaza.
+2 of them are located in the Blacksmith's area.
+1 is located outside of the Observatory.
+Once completed, the user can upgrade their Attunement-less Mantras by speaking to the trainer and paying an increasing sum of notes for each Mantra level. NOTE:
+Upgrading your Mantras at this trainer depends on the
+type of Mantra
+you wish to upgrade and
+the number of points
+you have in the
+respective attribute!
+For example:
+20+ points in Strength => Level 2 Strength Mantra.
+40+ points in Strength => Level 3 Strength Mantra.
+60+ points in Strength => Level 4 Strength Mantra.
+80+ points in Strength => Level 5 Strength Mantra.
+In short: Every 20 points in a specific attribute will unlock the next level for said Mantras in that attribute, maybe use this information to wisely diversify your stats more. Keep in mind that Mantras are capped at level 5 and increasing an attribute to 100 will grant you no benefit with its Mantras aside from a bit of damage scaling.
+Mantra Damage Calculation
+[
+]
+The formula to calculate Mantra damage is included on the
+Mantras
+page. Alternatively, use this
+Desmos calculator
+.
+Attribute Mantras
+[
+]
+These Mantras are based on your attributes, not your Attunements.
+Their damage/efficiency scales with the attribute's level.
+Although the Mantras have nothing to do with Attunements, having an Attunement can sometimes make certain Attunement-
+less
+Mantras have higher obtainment requirements (e.g; Glare). Source: Arch_Mage and tester(s)
+(Side Note: Do not confuse upgrading Mantras at trainers with using modifiers.)
+Strength Mantras
+[
+]
+Strength Mantras are mainly based on combat and slightly geared towards mobility & exploration. To increase the damage output and level cap, build muscle with dumbbells, chop trees with a Lumber Axe or hit enemies with your weapon.
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Strong Left
+(☆☆☆)
+Combat Mantra
+Show your foes your strength.
+Strong Left (☆☆☆)
+Combat Mantra
+Show your foes your strength.
+55 Ether
+Blunt
+20 Strength
+Effect:
+User unleashes a powerful left cross that knocks their opponent away, inflicting ragdoll and a good amount of knockback in the process.
+Has a base damage of 15/22.5/30/37.5/45 per level with 1.65 Strength scaling.
+Deals 22/24/26/28/30 posture damage per level.
+Has a wind-up of 0.55s, and an endlag of 0.25s (0.35s if whiffed).
+Deals increased damage to trees if you have the
+Treefelling Blow
+Talent.
+Can be upgraded with the
+Titus's Raiment
+Outfit Talent,
+Overwhelming Might
+, allowing it to guard break at level 5.
+Rapid Punches
+(☆☆☆)
+Combat Mantra
+Unleash a barrage of blows against your foes.
+Rapid Punches (☆☆☆)
+Combat Mantra
+Unleash a barrage of blows against your foes.
+65 Ether
+Blunt
+20 Strength
+Effect:
+User launches a flurry of punches that inflicts light damage on their opponent.
+Has a base damage of 8/8.25/8.5/8.75/9 per level, per hit (10), with 1.65 Strength scaling.
+Deals 1 posture damage per hit (10).
+Has an initial wind-up of 0.45s with a 0.125s wind-up in between each hit.
+The move is cancelled upon getting parried in the initial hit.
+The user may cancel the barrage at any point during it by pressing their feint key.
+Victims struck by the last punch are pushed away.
+360 degree blockable.
+Can be modified with lenses to increase the initial dash distance.
+Can be modified with vibrant gems to increase the destructiveness to the environment, unknown what else.
+Table Flip
+(☆☆☆)
+Combat Mantra
+Toss the ground infront of you.
+Table Flip (☆☆☆)
+Combat Mantra
+Toss the ground infront of you.
+55 Ether
+Blunt
+40 Strength
+Effect:
+User throws a piece of the ground that goes straight in the direction their character (not the camera) is looking at.
+Has a base damage of 20/30/40/50/60 per level with 1.65 Strength scaling
+69.9 damage at 100 Strength level 5
+Victims crushed by the rock will be dazed and will be thrown away.
+Skyshatter Kick
+(☆☆☆)
+Combat Mantra
+Unleash two devastating kicks with your brute strength.
+Skyshatter Kick (☆☆☆)
+Combat Mantra
+Unleash two devastating kicks with your brute strength.
+120 Ether
+Blunt
+80 Strength
+Effect:
+User performs a long wind-up before unleashing two devastating kicks.
+Has a base damage of 20/30/40/50/60 per level, per kick, with 1.65 Strength scaling.
+69.9 damage at 100 Strength level 5, per kick.
+Deals 17.6/19.2/20.8/22.4/24 posture damage per level on the
+Round Spark
+variant.
+Has 0.7s wind-up on the
+Round Spark
+variant.
+Has a range of 20 studs.
+Can be modified with a
+Round Spark
+to stomp directly into the ground. If a player is hit by this both the player and caster are flung into the air, however if more than 2 players are hit, one player will be flung up while the other two including the caster will remain on the ground (might be a bug)
+If Round Spark is used, the damage is always the same as landing only a single kick (e.g. 60 instead of 120)
+Round Spark
+Strong Leap
+(☆☆☆)
+Mobility Mantra
+Kick off of the ground with your strength, sending you into the air.
+Strong Leap (☆☆☆)
+Mobility Mantra
+Kick off of the ground with your strength, sending you into the air.
+70 Ether
+N/A
+50 Strength
+Effect:
+User jumps vertically into the air.
+Altitude travelled decreases significantly as the user loses health.
+Drops carried players/NPCs when used.
+Fall damage is taken if the user gets high enough.
+It doesn't seem to scale depending on level, not granting anymore height from a Level 1 Strong Leap to a Level 5 Strong Leap
+Shares a cooldown with
+Neural Pathway
+and
+Flame Leap
+.
+Tacet Drop Kick
+(☆☆☆)
+Combat Mantra
+Disguise yourself in tacet and drop kick your enemies.
+Tacet Drop Kick (☆☆☆)
+Combat Mantra
+Disguise yourself in tacet and drop kick your enemies.
+60 Ether
+Blunt
+5 Strength/20 Strength (With Attunement),
+Jus Karita
+,
+Murmur: Tacet
+Effect:
+User utilizes Tacet then teleports themselves above an opponent before hitting them with a kick.
+Has a base damage of 15/18/21/24/27 with 1.65 Strength scaling.
+Inflicts knockdown.
+Lands 15% faster while wielding
+Jus Karita
+.
+Requirements are increased if you have an Attunement.
+Can still be used after removing
+Tacet
+.
+22 second cooldown.
+Throw
+(★★☆)
+Combat Mantra
+Grab and throw your enemies.
+Throw (★★☆)
+Combat Mantra
+Grab and throw your enemies.
+100 Ether
+Blunt
+35 Strength, Defeated
+Titus
+(No damage required, only that
+Titus
+is defeated in your server)
+Effect:
+User grabs their opponent with a parryable attack, launching them towards their cursor. Thrown targets deal damage upon contacting other enemies in a wide AoE.
+The first hit has a base damage of 5 with 3 Strength scaling regardless of level.
+The second hit has a base damage of 15/17/19/21/23 per level with 3 Strength scaling.
+Has a windup of 0.55s for the grab and a delay of 0.75s before the target is thrown.
+Shares a cooldown with all other
+grab Mantras
+.
+Using this Mantra in the air allows you to aim freely but they will still be flung afterwards.
+Fortitude Mantras
+[
+]
+Fortitude Mantras are mainly based on support during battle, enhancing defense and/or absorbing damage for your guildmates. To increase the level cap, build endurance by taking a beating with a
+Training Vest
+, or feel the crushing weight of a
+Boulder
+.
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Shoulder Bash
+(☆☆☆)
+Combat Mantra
+Rush at your enemies with your full physical force.
+Shoulder Bash (☆☆☆)
+Combat Mantra
+Rush at your enemies with your full physical force.
+60 Ether
+Blunt
+35 Fortitude
+Effect:
+User quickly charges forward with their shoulder, stopping after the duration is over, after colliding with an object or entity, or when parried or dodged.
+Has a base damage of 9.9/13.05/16.20/19.35/22.5 per level with 1.65 Fortitude scaling.
+Deals 8 posture damage.
+Has a windup of 0.5 seconds and a cooldown of 15 seconds.
+Shoulder Bash duration scales with your Fortitude attribute.
+Can collide with and break parts of the map.
+Rush shards have no effect.
+Eternal
+/
+Aeon Logstones
+increase duration.
+Can be modified with a
+Blast Spark
+to make it apply knockback.
+Blast Spark
+Rally
+(☆☆☆)
+Support Mantra
+Absorb incoming posture damage for allies around you for a set duration. When you parry, you restore the posture of your allies. Restores some posture on cast.
+Rally (☆☆☆)
+Support Mantra
+Absorb incoming posture damage for allies around you for a set duration. When you parry, you restore the posture of your allies. Restores some posture on cast.
+70 Ether
+N/A
+10 Fortitude, Any
+Shield
+Equipped
+Effect:
+User drums their shield before lowering the posture of nearby allies and themselves. Applies Rally onto nearby allies which causes posture taken to be transferred to the Rally user.
+Restores 5/6/7/8/9 posture on cast, per level.
+Rally has a 15 second duration. This duration can be increased further with
+Logstones
+.
+Rally cannot be casted if you don't have a shield equipped or if your shield is on your back. Attempting to cast Rally like this will consume your Ether and do nothing.
+If a Rally buffed ally parries, it restores the Rally caster's posture.
+If a Rally buffed ally takes blocks an attack, 50% of the posture damage will be taken by the Rally caster.
+If the Rally caster is at very high posture and a Rally buffed ally takes enough posture damage to posture break the caster, the buffed ally will instantly be posture broken, resetting the caster's posture to 0%.
+Reinforce
+(☆☆☆)
+Support Mantra
+Buff those around you with extra defense and damage.
+Reinforce (☆☆☆)
+Support Mantra
+Buff those around you with extra defense and damage.
+70 Ether
+N/A
+50 Fortitude
+Effect:
+User buffs themselves and others in a small area around them, granting 10% damage resistance and a 5% damage buff to the user and all nearby allies. The damage buff will be halved to 2.5% if you didn't buff at least one other person with your Reinforce.
+Damage increase only applies to weapon attacks.
+The damage reduction can be reduced by PEN, but PEN has halved effectiveness on it.
+E.g. 100% PEN lowers Reinforce's defense buff to 5%.
+Reinforce's Duration and Cooldown scale on level.
+Reinforce lasts 20/21.5/23/24.5/26 seconds per level.
+Reinforce has a 55/50/45/40/35 second cooldown per level.
+When holding your block button during Reinforce's wind-up, it applies Reinforce to non-allied people, including mobs, turning your Reinforce green.
+Shares a cooldown with
+Iceberg
+.
+Can be upgraded with the
+Grand Support
+Talent, healing yourself and allies when you buff at least one ally with your Reinforce. This heals 3% of affected players' maximum HP.
+Can be upgraded with the
+Lord's Tithe
+Talent, stealing Ether from buffed targets or Health from PvE enemies.
+Brace
+(☆☆☆)
+Support Mantra
+Brace yourself against attacks and gain hyperarmour.
+Brace (☆☆☆)
+Support Mantra
+Brace yourself against attacks and gain hyperarmour.
+60 Ether
+N/A
+75 Fortitude
+Effect:
+User prepares themselves and turns red, gaining hyperarmor and negating hitstun for the duration of the effect.
+Brace lasts 5/5.75/6.5/7.25/8 seconds per level.
+Hyperarmor ends early if you cast a Mantra.
+Agility Mantras
+[
+]
+Agility Mantras are mainly based on making sure your enemy can't escape and keeping a "steady footing" during battle through sheer speed. To increase the attribute, bolster your agility and parkour abilities with
+Ankle Weights
+by sliding, climbing walls, vaulting over obstacles and rolling.
+Name
+Ether Cost
+Damage Type
+Requirements
+Ether Cost
+Damage Type
+Requirements
+Revenge
+(☆☆☆)
+Combat Mantra
+A vengeful rush. Deals additional damage the lower your health is below 50%.
+Revenge (☆☆☆)
+Combat Mantra
+A vengeful rush. Deals additional damage the lower your health is below 50%.
+60 Ether
+Slash
++
+Bleed
+5 Agility,20 Agility if you have an Attunement
+Effect:
+User quickly dashes forward and creates a red-line effect.
+The move teleports you forwards only upon hitting an opponent.
+Has a base damage of 12/13/14/15/16
+/17/18/19
+per level with innate
+bleed
+and 1.65 Agility scaling.
+Deals 5 posture damage.
+15 second cooldown.
+It has a wind-up of 0.55 seconds and an endlag of 0.15 seconds.
+This Mantra has innate
+Bleed
+, meaning that it will deal an additional 15% of its base damage that doesn't get affected by damage modifiers. Because Bleed bypas
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Attunement Potions]
+Contents
+1
+Description
+2
+Obtainment
+3
+Trivia
+4
+Navigation
+Description
+[
+]
+Attunement Potions are items that allow the player obtain and permanently unlock further
+Attunements
+in
+Character Creation
+. Upon consumption, the user will take a small amount of elemental damage that corresponds with the Attunement and be momentarily ragdolled. After getting back up, they will acquire one Attribute point in the respective Attunement, and will permanently unlock it in Character Creation. Attunement Potions cannot be dropped or thrown, neither stored in bank.
+Obtainment
+[
+]
+The only way to acquire an Attunement Potion is to complete a quest given by the relevant
+Attunement Trainer
+, usually involving obtaining 5 (2 if the Attunement was unlocked before) of a specific Elemental Ingredient corresponding with their Attunement; with
+Ironsing
+being the only deviation from this.
+Trivia
+[
+]
+Alloyed Elixir is the only Attunement Potion that does not follow the general naming convention.
+Navigation
+Attunements
+&
+Mantras
+Base Attunements
+Flamecharm
+•
+Frostdraw
+•
+Galebreathe
+•
+Thundercall
+Unlockable Attunements
+Bloodrend
+•
+Ironsing
+•
+Shadowcast
+Mantras
+Attunement-less
+•
+Hybrid Mantras
+•
+Monster Mantras
+•
+Pumpkin Pitch
+Mechanics
+Attunement Trainers
+•
+Attunement Potions
+•
+Deep Gems
+•
+Mantra Modifiers
+
+### 📖 [하위 연관 위키: Attunement Trainers]
+Contents
+1
+Description
+2
+List of Trainers
+3
+Trivia
+4
+Navigation
+Description
+[
+]
+Attunement Trainers are NPCs around the map that level up Mantras for money. Each Trainer will increase a mantra level by one depending on which Attunement they train (the
+Frostdraw
+Attunement Trainer will level up Frostdraw
+Mantras
+, etc). The cost for leveling up Mantras starts at 100
+and increases by 100
+depending on the Mantra level. A leveled-up Mantra's damage will increase, as well as the potential for additional effects.
+A Trainer needs intervals of 20 points in your Attunement to upgrade a Mantra of the same elemental type as the trainer to upgrade, maxing out at Level 5 and 80 Attunement points.
+Killing trainers is also the progression for the
+Silentheart Oath
+, excluding
+Beatra
+,
+Vyrelda
+and
+Regek
+, who cannot and do not need to be killed to progress the Oath. Each trainer also uses a weapon similar to their attunement, for instance Nell uses the
+Gran Sudaruska
+, a
+Frostdraw
+weapon.
+For example:
+20 in an Attunement = Level 2 Mantra, 100
+40 = Level 3 Mantra, 200
+(300
+total)
+60 = Level 4 Mantra, 300
+(600
+total)
+80 = Level 5 Mantra, 400
+(1,000
+total) (Requires Attunement Unbound)
+An Attunement Trainer will not train you if you do not have the element learned. However, you can learn different Attunements by giving a trainer five (two if previously obtained) Elemental Ingredients of the respected Attunement (See
+Attunement Potions
+).
+List of Trainers
+[
+]
+Representation
+Trainer of
+Location
+Description
+Friid, Master of Gale
+Galebreathe
+Area:
+Isle of Vigils
+She is found sitting next to a campfire at a tent in a small area close to the entrance to the temple.
+Friid is a
+Celtor
+who uses
+Galebreathe
+.
+When fought, she uses a
+Curved Blade of Winds
+.
+Nell, Master of Frost
+Frostdraw
+Area:
+Etris
+Follow the path at the right of the
+Guildhouse.
+Click on the image to see full size.
+Nell is a
+Adret
+who uses
+Frostdraw
+.
+When fought, she uses a
+Gran Sudaruska
+.
+Amashi, Master of Flame
+Flamecharm
+Area:
+Songseeker Wilds
+This trainer is inside the
+temple
+on top of the mountain.
+Click on the image to see full size.
+Amashi is a
+Vesperian
+who uses
+Flamecharm
+.
+When fought, he uses a
+Hero Blade of Flame
+.
+Funke, Master of Thunder
+Thundercall
+Area:
+Summer Isle
+He is located in the second floor of the castle.
+Funke is a
+Canor
+who uses
+Thundercall
+.
+When fought, he uses a
+Stormseye
+.
+Nostor, Master of Shadow
+Shadowcast
+Area:
+Varicosa District
+To find them you will have to enter the City of the Drowned. The district is a little more empty than the rest and has light-teal-colored rooftops, it is located on the north-western side of the city. From there you will also have to watch out for
+Watchers
+, as they can be a nuisance especially this far into the journey.
+Map location:
+Go there, look for the entrance to Nostor's cave.
+Nostor is a
+Ganymede
+who uses
+Shadowcast
+.
+When fought, they use a
+Crypt Blade
+.
+Beatra
+Shadowcast
+Area:
+Derelict Highchurch
+She can be found to the left of the Derelic
+
+### 📖 [하위 연관 위키: Attunements]
+Attunements
+are forms of magic that the player can choose on
+Character Creation
+or obtain in the game through
+Trainers
+.
+IMPORTANT NOTE:
+For those learning about
+Shrine of Order
+,
+Attunements do not average-out in the same way that other attributes do in Shrine of Order. Unlike other stats, they have no "bottom-limit" - where, for example, a 65 investment in Agility when influenced by Shrine of Order can lose a maximum of 25 points to become a 40 investment instead. They can lose an unlimited amount of points, reminiscent of the old behavior of Shrine of Order.
+Contents
+1
+Overview
+2
+Base Attunements
+3
+Obtainable Attunements
+4
+Attunement Paths
+4.1
+Alternative Paths
+4.2
+Hybrid Paths
+4.3
+Non-Path Talents
+4.4
+Hybrid Non-Path Talents
+5
+Trivia
+6
+Navigation
+Overview
+[
+]
+There are currently four
+base
+Attunements that anyone may select when first
+creating a character
+, with three more being unlockable throughout the world.(Note that Ironsing, Shadowcast and Bloodrend, the 3 attunements you have to attain, will remain permanently unlocked for all of your slots).  Within the character creation menu, you may choose up to two attunements to start off with- or
+none
+, preferences considered.
+The more attunements you wield, the more expensive it will become to manage them,  because you do not have an infinite number of points to spend on your character. Choose wisely.
+By choosing no attunement, you are provided 10 extra investment points to make up for the loss of attunement. Normally, these 10 points would be auto-invested if you chose an attunement.
+Post-creation, the character is able to learn more attunements throughout their adventures by visiting individual
+attunement trainers
+around the world. For the character to wield more attunements post-creation, they must collect the respective elemental ingredients- aside for Ironsing, which utilizes a more convoluted unlock method, and then find and ask the trainer for the attunement.
+Flamecharm
+= 2
+Dying Embers
+Frostdraw
+= 2
+Frigid Prisms
+Thundercall
+= 2
+Spark Glands
+Galebreathe
+= 2
+Gale Stones
+Shadowcast
+= 2
+Umbral Obsidian
+Ironsing
+= 1
+Pluripotent Alloy
+, 6
+Ores
+(Iron, Gold, Erisore, Irithine, Astruline, Umbrite)
+Bloodrend
+= 2
+Heartstars
+These ingredients are typically dropped by those who wield the attunement, such as Gale Songseekers dropping Galestones. Some monsters may drop elemental ingredients as well- with Megalodaunts dropping Umbral Obsidians and Gigameds dropping Spark Glands. Upon collecting the ingredients, you can hand them into the trainer to obtain a bottle that once consumed will provide the character with a singular point in that attunement.
+Alternatively, if you happen to spawn in with an attunement which you do not possess via the Random Attunement function in the character creation menu, it will become available to freely choose upon next-character-basis.
+By default, players are given
+3 Combat Mantra slots, 1 Mobility Mantra slot, 1 Support Mantra slot and 1 Wildcard (freebie) Mantra slot.
+
+
+### 📖 [하위 연관 위키: Bloodrend]
+“ Casting your mind back, you may recall a Black Diver of note was unveiled as the treacherous Crimson Scholar of Burning Blood, a student of the Second Prophet... But what of the Second Prophet's other students? Perhaps one of them might be more sympathetic; perhaps they might even be willing to share what they know of the mysteries of Blood? ”
+― Hallowtide 2024 Patch Notes
+Bloodrend Icon
+Contents
+1
+Description
+2
+PvE Mechanic(s)
+3
+Obtainment
+4
+Training
+4.1
+Mantra Damage Calculation
+5
+Cantrip(s)
+5.1
+Bloodless
+5.2
+Carnivorous
+6
+Mantras
+6.1
+Combat Mantras
+7
+Blood Orb (☆☆☆)
+8
+Crucifixion (☆☆☆)
+9
+Bloodedge (★☆☆)
+10
+Blood Stakes (★☆☆)
+11
+Vicious Descent (★☆☆)
+12
+Crimson Rain (★★☆)
+13
+Crimson Surge (★★☆)
+14
+Razor Blitz (★★☆)
+15
+Scarlet Cannon (★★☆)
+16
+Scarlet Cyclone (★★☆)
+17
+Soulflare Siphon (★★☆)
+18
+Veinbreaker (★★☆)
+19
+Bloodcurdle (★★★)
+20
+Bloodtide Ritual (★★★)
+20.1
+Mobility Mantras
+21
+Sanguine Dive (★☆☆)
+22
+Vein Tendrils (★★☆)
+22.1
+Support Mantras
+23
+Blood Wisp (★★☆)
+24
+Talents
+25
+Trivia
+26
+Navigation
+Description
+[
+]
+Bloodrend
+is an
+Attunement
+that grants the user the ability to control, manipulate, and conjure their own and other's
+blood
+.
+Bloodrenders excel in long fights, their power ramping up as the fight goes on due to the effects applied to enemies from Blood Poison and Blood Drain. They can counter their opponents' sustain while using sustain to benefit themselves. However, Bloodrend is difficult to make use of outside of single target combat, as blood poison decays, making it hard to achieve high percentages of it against multiple enemies.
+It's extremely effective at long to mid range. To counter this attunement, prioritize staying up close and applying constant pressure, as Bloodrend lacks close range low windup mantras. Keep in mind that any mistake is likely to lead to you getting severely punished by the Bloodrend user, even at close range from Mantras like
+Bloodcurdle
+.
+PvE Mechanic(s)
+[
+]
+Bloodrenders can leverage the
+Hemorrhaging
+mechanic, dealing a percentage, scaling on Bloodrend investment and player level, of a PvE enemy's current health in a singular damage instance, once a threshold of blood loss is met. At Power 20 with 100 Bloodrend, this deals 17.5% of the target's current health. This threshold can be built up by using any source of blood loss, not exclusively Bloodrend, and does not explicitly require the player to be a Bloodrender to use. When this procs, the enemy will lose a percentage of the
+Blood Poisoning
+you've applied to them.
+Obtainment
+[
+]
+The
+Attunement Trainer
+,
+Vyrelda
+, can be located in an igloo on the east side of Firfire Village, caring for an injured diver. She is only visible after having killed
+Chaser
+at least once. After killing Chaser, re-enter Layer 2 and go talk with Vyrelda - she will talk about her desertion from
+The Ministry
+, and how she evaded the Ministry for so long, who are searching for her. She mentions "Bloodrend" and how she only wished to be taught under the Second Prophet for purely 
+
+### 📖 [하위 연관 위키: Bosses]
+This page is for bosses. For Monster enemies, see
+Monsters
+. For non-monster enemies, see
+Enemies
+.
+Contents
+1
+Overview
+2
+Bosses
+2.1
+Pathfinder
+2.2
+Vow of Iron
+3
+World Bosses
+4
+Mini-Bosses
+4.1
+Pathfinder
+4.2
+Vow of Iron
+5
+Navigation
+Overview
+[
+]
+Bosses
+in
+Deepwoken
+are powerful
+Enemies
+and
+Monsters
+that possess heavy backstories and unique abilities. They award Resonance
+Progress
+,
+Knowledge
+, and unique
+weapons
+such as the
+Purple Cloud
+,
+Dissonant Chimecaller
+, and the
+Frostthorn
+.
+Bosses
+[
+]
+The concrete, in-game method of determining if an Enemy/Monster is a
+Boss
+is whether or not they can be used to obtain
+Chain of Perfection
+. However, every Boss has most, if not all of the secondary criteria below.
+Unique Summoning System or Guaranteed Spawn Locations
+Unique & End-Game Drops
+Grants
+Echoes
+upon defeat.
+Grants
+Resonance Progress
+upon defeat.
+Grants
+Knowledge
+upon defeat.
+Grants
+Pluripotent Alloy
+upon defeat.
+Grants
+Ardour Manifestation
+upon defeat.
+Being in a Boss' combat tag allows you to zoom your camera out farther than normal.
+Unique healthbar.
+Pathfinder
+[
+]
+Chaser, Scholar of the Crimson Contract
+Dread Serpent
+Duke Ishamon Erisia
+The Ferryman
+Knell, The Lunatic Resonator
+Kyrsgarde Champion
+Maestro Evengarde Rest
+Parliament
+Primadon, Titan of the East
+Titus Fulminus Destellus
+Vow of Iron
+[
+]
+Dravik, The Rat King
+General Titus Juventius
+Shogun of the Prophet's Guard (Temple of Mur)
+True Heart of Enmity
+Zi'eer, the Fourth Prophet
+World Bosses
+[
+]
+Exceptionally strong enemies that may require multiple people to take down. World Bosses usually have a set spawn, and reward players with 1 or 2
+Knowledge
+, Double
+Resonance
+progression, 1-2
+Crowns
+, and an insane amount of Experience on defeat.
+The Doom of Caeranthil
+Elder Primadon, The Titan Warlord
+Heart of Enmity
+Interluminary Parasol
+Scion of Ethiron
+Mini-Bosses
+[
+]
+Mini-Bosses are particularly strong Enemies/Monsters, but are not true Bosses due to lacking the Chain of Perfection criteria. However, they fulfill many of the secondary criteria, and are still unique challenges with unique purposes and rewards in their own right.
+Pathfinder
+[
+]
+Aska
+Blizzard Knight
+Bone Keeper
+Coldheart Fortinbras
+Deep Widow
+Enforcer
+Exotic Megalodaunt
+Finnegan The Lost
+The Fisherman
+Fury Nautilodaunt
+Grudge
+Lodestar
+Ministry Agent
+Mudskipper Broodlord
+Nautilodaunt
+Prime Megalodaunt
+Vow of Iron
+[
+]
+Bloodstarved Hunter
+Etrean Apostle
+Nautilodaunt Officiate
+Phantom Hunter
+Shogun of the Prophet's Guard
+Shogun Specialist
+Navigation
+Bosses
+Etrean Luminant
+Duke Ishamon Erisia
+Maestro Evengarde Rest
+Dravik, The Rat King
+Shogun of the Prophet's Guard
+Zi'eer, the Fourth Prophet
+Eastern Luminant
+The Ferryman
+Primadon, Titan of the East
+Elder Primadon, The Titan Warlord
+Titus Fulminus Destellus
+General Titus Juventius
+Shogun of the Prophet's Guard (Temple of Mur)
+Voidsea
+Dread Serpent
+Knell, The Lunatic Resonator
+Open Sea
+The Doom of Caeranthil
+Interluminary Parasol
+Scyphozia
+Heart of Enmity
+Parliament
+True Heart of Enmit
+
+### 📖 [하위 연관 위키: Flame Worshipper Armor]
+Flame Worshipper Armor
+is an Adept
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Trivia
+3
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit costs 30
+and requires four (4)
+Cloth
+, four (4)
+Fiber
+, and two (2)
+Iron
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+5 to be crafted.
+Armor Stats
+[
+]
+This Outfit has 1000 durability, grants +10% Physical resistance
+, +5% Elemental resistance
+, and +25% Fire resistance
+. Additionally, it provides the
+Intrepid Flame
+and
+One With Flame
+Talents.
+Due to resistances being combined multiplicatively instead of additively, the total resistances are: 10% Physical
+, 28.75% Flamecharm
+, and 5% Elemental
+.
+The
+Intrepid Flame
+Talent halves the maximum duration of any
+Burn
+effect that is applied to the user.
+Flame Within
+'s duration is not reduced, granting damage reduction to your Flame Within instead.
+The
+One With Flame
+Talent grants several buffs to the player if they are currently
+burning
+and are using the
+Worshipper's Shield
+and
+Worshipper Longsword
+. While active, you gain 25% damage reduction, your Mantras apply
+burn
+on hit, your
+Medium Weapon Mantras
+become orange, and the
+Worshipper Longsword
+'s
+Belief
+Talent gains Flamecharm scaling.
+Trivia
+[
+]
+This Outfit is one of the requirements to fight
+Aska
+.
+Alternatively you can use the
+Pleeksty's Faith
+OR
+Pleeksty's Will
+Talents instead of this Out
+
+=== Tables ===
+
+[Table 1]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Strong Left(☆☆☆)Combat MantraShow your foes your strength. | Strong Left (☆☆☆)Combat MantraShow your foes your strength.
+55 Ether | Blunt | 20 Strength
+Effect:User unleashes a powerful left cross that knocks their opponent away, inflicting ragdoll and a good amount of knockback in the process.Has a base damage of 15/22.5/30/37.5/45 per level with 1.65 Strength scaling.Deals 22/24/26/28/30 posture damage per level.Has a wind-up of 0.55s, and an endlag of 0.25s (0.35s if whiffed).Deals increased damage to trees if you have theTreefelling BlowTalent.Can be upgraded with theTitus's RaimentOutfit Talent,Overwhelming Might, allowing it to guard break at level 5.
+Rapid Punches(☆☆☆)Combat MantraUnleash a barrage of blows against your foes. | Rapid Punches (☆☆☆)Combat MantraUnleash a barrage of blows against your foes.
+65 Ether | Blunt | 20 Strength
+Effect:User launches a flurry of punches that inflicts light damage on their opponent.Has a base damage of 8/8.25/8.5/8.75/9 per level, per hit (10), with 1.65 Strength scaling.Deals 1 posture damage per hit (10).Has an initial wind-up of 0.45s with a 0.125s wind-up in between each hit.The move is cancelled upon getting parried in the initial hit.The user may cancel the barrage at any point during it by pressing their feint key.Victims struck by the last punch are pushed away.360 degree blockable.Can be modified with lenses to increase the initial dash distance.Can be modified with vibrant gems to increase the destructiveness to the environment, unknown what else.
+Table Flip(☆☆☆)Combat MantraToss the ground infront of you. | Table Flip (☆☆☆)Combat MantraToss the ground infront of you.
+55 Ether | Blunt | 40 Strength
+Effect:User throws a piece of the ground that goes straight in the direction their character (not the camera) is looking at.Has a base damage of 20/30/40/50/60 per level with 1.65 Strength scaling69.9 damage at 100 Strength level 5Victims crushed by the rock will be dazed and will be thrown away.
+Skyshatter Kick(☆☆☆)Combat MantraUnleash two devastating kicks with your brute strength. | Skyshatter Kick (☆☆☆)Combat MantraUnleash two devastating kicks with your brute strength.
+120 Ether | Blunt | 80 Strength
+Effect:User performs a long wind-up before unleashing two devastating kicks.Has a base damage of 20/30/40/50/60 per level, per kick, with 1.65 Strength scaling.69.9 damage at 100 Strength level 5, per kick.Deals 17.6/19.2/20.8/22.4/24 posture damage per level on theRound Sparkvariant.Has 0.7s wind-up on theRound Sparkvariant.Has a range of 20 studs.Can be modified with aRound Sparkto stomp directly into the ground. If a player is hit by this both the player and caster are flung into the air, however if more than 2 players are hit, one player will be flung up while the other two including the caster will remain on the ground (might be a bug)If Round Spark is used, the damage is always the same as landing only a single kick (e.g. 60 instead of 120)Round Spark
+Strong Leap(☆☆☆)Mobility MantraKick off of the ground with your strength, sending you into the air. | Strong Leap (☆☆☆)Mobility MantraKick off of the ground with your strength, sending you into the air.
+70 Ether | N/A | 50 Strength
+Effect:User jumps vertically into the air.Altitude travelled decreases significantly as the user loses health.Drops carried players/NPCs when used.Fall damage is taken if the user gets high enough.It doesn't seem to scale depending on level, not granting anymore height from a Level 1 Strong Leap to a Level 5 Strong LeapShares a cooldown withNeural PathwayandFlame Leap.
+Tacet Drop Kick(☆☆☆)Combat MantraDisguise yourself in tacet and drop kick your enemies. | Tacet Drop Kick (☆☆☆)Combat MantraDisguise yourself in tacet and drop kick your enemies.
+60 Ether | Blunt | 5 Strength/20 Strength (With Attunement),Jus Karita,Murmur: Tacet
+Effect:User utilizes Tacet then teleports themselves above an opponent before hitting them with a kick.Has a base damage of 15/18/21/24/27 with 1.65 Strength scaling.Inflicts knockdown.Lands 15% faster while wieldingJus Karita.Requirements are increased if you have an Attunement.Can still be used after removingTacet.22 second cooldown.
+Throw(★★☆)Combat MantraGrab and throw your enemies. | Throw (★★☆)Combat MantraGrab and throw your enemies.
+100 Ether | Blunt | 35 Strength, DefeatedTitus(No damage required, only thatTitusis defeated in your server)
+Effect:User grabs their opponent with a parryable attack, launching them towards their cursor. Thrown targets deal damage upon contacting other enemies in a wide AoE.The first hit has a base damage of 5 with 3 Strength scaling regardless of level.The second hit has a base damage of 15/17/19/21/23 per level with 3 Strength scaling.Has a windup of 0.55s for the grab and a delay of 0.75s before the target is thrown.Shares a cooldown with all othergrab Mantras.Using this Mantra in the air allows you to aim freely but they will still be flung afterwards.
+
+[Table 2]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Shoulder Bash(☆☆☆)Combat MantraRush at your enemies with your full physical force. | Shoulder Bash (☆☆☆)Combat MantraRush at your enemies with your full physical force.
+60 Ether | Blunt | 35 Fortitude
+Effect:User quickly charges forward with their shoulder, stopping after the duration is over, after colliding with an object or entity, or when parried or dodged.Has a base damage of 9.9/13.05/16.20/19.35/22.5 per level with 1.65 Fortitude scaling.Deals 8 posture damage.Has a windup of 0.5 seconds and a cooldown of 15 seconds.Shoulder Bash duration scales with your Fortitude attribute.Can collide with and break parts of the map.Rush shards have no effect.Eternal/Aeon Logstonesincrease duration.Can be modified with aBlast Sparkto make it apply knockback.Blast Spark
+Rally(☆☆☆)Support MantraAbsorb incoming posture damage for allies around you for a set duration. When you parry, you restore the posture of your allies. Restores some posture on cast. | Rally (☆☆☆)Support MantraAbsorb incoming posture damage for allies around you for a set duration. When you parry, you restore the posture of your allies. Restores some posture on cast.
+70 Ether | N/A | 10 Fortitude, AnyShieldEquipped
+Effect:User drums their shield before lowering the posture of nearby allies and themselves. Applies Rally onto nearby allies which causes posture taken to be transferred to the Rally user.Restores 5/6/7/8/9 posture on cast, per level.Rally has a 15 second duration. This duration can be increased further withLogstones.Rally cannot be casted if you don't have a shield equipped or if your shield is on your back. Attempting to cast Rally like this will consume your Ether and do nothing.If a Rally buffed ally parries, it restores the Rally caster's posture.If a Rally buffed ally takes blocks an attack, 50% of the posture damage will be taken by the Rally caster.If the Rally caster is at very high posture and a Rally buffed ally takes enough posture damage to posture break the caster, the buffed ally will instantly be posture broken, resetting the caster's posture to 0%.
+Reinforce(☆☆☆)Support MantraBuff those around you with extra defense and damage. | Reinforce (☆☆☆)Support MantraBuff those around you with extra defense and damage.
+70 Ether | N/A | 50 Fortitude
+Effect:User buffs themselves and others in a small area around them, granting 10% damage resistance and a 5% damage buff to the user and all nearby allies. The damage buff will be halved to 2.5% if you didn't buff at least one other person with your Reinforce.Damage increase only applies to weapon attacks.The damage reduction can be reduced by PEN, but PEN has halved effectiveness on it.E.g. 100% PEN lowers Reinforce's defense buff to 5%.Reinforce's Duration and Cooldown scale on level.Reinforce lasts 20/21.5/23/24.5/26 seconds per level.Reinforce has a 55/50/45/40/35 second cooldown per level.When holding your block button during Reinforce's wind-up, it applies Reinforce to non-allied people, including mobs, turning your Reinforce green.Shares a cooldown withIceberg.Can be upgraded with theGrand SupportTalent, healing yourself and allies when you buff at least one ally with your Reinforce. This heals 3% of affected players' maximum HP.Can be upgraded with theLord's TitheTalent, stealing Ether from buffed targets or Health from PvE enemies.
+Brace(☆☆☆)Support MantraBrace yourself against attacks and gain hyperarmour. | Brace (☆☆☆)Support MantraBrace yourself against attacks and gain hyperarmour.
+60 Ether | N/A | 75 Fortitude
+Effect:User prepares themselves and turns red, gaining hyperarmor and negating hitstun for the duration of the effect.Brace lasts 5/5.75/6.5/7.25/8 seconds per level.Hyperarmor ends early if you cast a Mantra.
+
+[Table 3]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Revenge(☆☆☆)Combat MantraA vengeful rush. Deals additional damage the lower your health is below 50%. | Revenge (☆☆☆)Combat MantraA vengeful rush. Deals additional damage the lower your health is below 50%.
+60 Ether | Slash+Bleed | 5 Agility,20 Agility if you have an Attunement
+Effect:User quickly dashes forward and creates a red-line effect.The move teleports you forwards only upon hitting an opponent.Has a base damage of 12/13/14/15/16/17/18/19per level with innatebleedand 1.65 Agility scaling.Deals 5 posture damage.15 second cooldown.It has a wind-up of 0.55 seconds and an endlag of 0.15 seconds.This Mantra has innateBleed, meaning that it will deal an additional 15% of its base damage that doesn't get affected by damage modifiers. Because Bleed bypassesarmorresistances, this is very useful.The damage of the move scales with how much HP the user has left BELOW 50%, dealing more damage with less HP. The Bleed's damage does not scale.This bonus damage scales up to 4 times damage at 5% health, but Revenge's health scaling will cap at Revenge dealing 50 damage regardless of level/Agility investment.Can be upgraded with thePursuitTalent, allowing it to be used twice in a row if the first use hits. 25 second cooldown.Pursuit procs even when the Mantra is parried, blocked, dodged, or even vented, but this may be a bug.Can be upgraded with theCrippling ComeuppanceTalent, which makes your Revenge put your opponent's mobility slot Mantras on a 15 second cooldown if you land your Revenge. This Talent has a 30 second cooldown.Wayward Gem doesNOTproc on RevengeCan be upgraded with Drift/Rush Shards to increase Revenge's range.
+Twinstrikes(☆☆☆)Combat MantraLaunch quick and devastating kicks. | Twinstrikes (☆☆☆)Combat MantraLaunch quick and devastating kicks.
+50 Ether | Blunt | 40 Agility, 60 Strength
+Effect:User performs an axe kick and then immediately unleashes a front kick that ragdolls enemies.The first hit has a base damage of 31.88/35.06/38.25/41.44/44.63/47.81/51/54.19per level with no investment scaling.The second hit has a base damage of 19.13/22.31/25.5/28.69/31.88/35.06/38.25/41.44per level with no investment scaling.Feinting after the first attack will instantly use the second.Upgraded with Agility and not Strength.
+Agile Dash(☆☆☆)Mobility MantraLaunch forwards into an agile dash. | Agile Dash (☆☆☆)Mobility MantraLaunch forwards into an agile dash.
+60 Ether | N/A | 40 Agility
+Effect:User sends themselves a considerable distance forwardRange significantly decreases as the user loses health.Canceled by attacking.Upgrading the level makes the dash longer.Can be modified with Crystal/Perfect Lenses to make it slightly longer.Can be modified with a Spring Spark to lower travel distance but increases amount of uses from 1 to 2.This Mantra was formerly named 'Dash'.Spring Spark
+Adrenaline Surge(☆☆☆)Support MantraAn adrenaline rush of mobility. | Adrenaline Surge (☆☆☆)Support MantraAn adrenaline rush of mobility.
+60 Ether | N/A | 20 Agility
+Effect:User activates an inner surge of energyGrants a speed boost for 10/12/14/16/18/20/22/24seconds per level.Has a cooldown of 60/55/50/45/40/35/30/25seconds per level.Counts as aSpeed Boost, meaning it can proc all speed boost reliant Talents.Can be upgraded with theAction SurgeTalent, increasing the swing speed of all weapons by 0.04 while Adrenaline Surge is active.
+
+[Table 4]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Ether Barrage(☆☆☆)Combat MantraConjure concentrated orbs of Ether to launch at your enemy. | Ether Barrage (☆☆☆)Combat MantraConjure concentrated orbs of Ether to launch at your enemy.
+60 Ether | Blunt | 30 Intelligence
+Effect:User rises up in the air, and launches 4 orbs of Ether toward their cursor that explode and ragdoll on impact.Has a base damage of 6/6.5/7/7.5/8 per level, per hit (6) with 1.65 Intelligence scaling.Deals 0 posture damage.0.65s wind-up.10s cooldown.When close enough to the enemy, the orbs will autotrack.Crystal/Perfect Lensesincrease how far you can be for it to autotrack.
+Prediction(☆☆☆)Combat MantraPredict an opponent's attack and reflect it. | Prediction (☆☆☆)Combat MantraPredict an opponent's attack and reflect it.
+100 Ether | Enemy's Attack | 50 Intelligence
+Effect:User creates a white pattern on the floor while deflecting attacks they take during the duration.Deflectsan attack back to the attacker.Prediction cannot proc anything that procs "on hit" such asDeep Gems.Upgrading this Mantra extends the 'prediction' frames (iframes).Can be upgraded with theAll KnowingTalent, removing the range limit Prediction normally has.Can be upgraded with theSuccessive PredictionTalent, which allows you to predict multihits, as it grants a brief window of auto prediction.Can be upgraded with theTwelve Steps AheadTalent, halving Prediction's cooldown on successful Prediction (minimum 2s) and doubling Prediction's cooldown if you whiff it (maximum 30s). Going 30s without using Prediction will reset this effect.The maximum Prediction cooldown from this Talent scales on your Intelligence investment.
+Neural Pathway(☆☆☆)Mobility MantraUsing your mind's eye, you force your imagined position into reality, appearing to teleport a short distance. You alone know that the world moved, not you. | Neural Pathway (☆☆☆)Mobility MantraUsing your mind's eye, you force your imagined position into reality, appearing to teleport a short distance. You alone know that the world moved, not you.
+70 Ether | N/A | 35 Intelligence
+Effect:Teleport a short distance towards the direction you're moving.Upgrading the Mantra decreases its cooldown by 2.5s per level.15/12.5/10/7.5/5 second cooldown per level.No endlag, great as a gap closer or as a back step to get into/out of close quarters combat.If not moving, you instead teleport towards the direction you're facing.The distance teleported will be reduced if you aren't moving when you cast the Mantra.For ~2.5s after teleporting, all fall damage is negated.Shares a cooldown withFlame LeapandStrong Leap.Can be modified with aMultiplying Sparkto chain multiple dashes in a row. The amount of dashes you gain per cast is dictated by the level of your Neural Pathway; e.g. 2 dashes at level 2, 3 at level 3 and so on.At level 3 onward, you can pressM2to end the Mantra early.This spark increases the Mantra's cooldown by 30 seconds.Multiplying Spark
+Summon Cauldron(☆☆☆)Support MantraMake a cauldron appear from your memories. | Summon Cauldron (☆☆☆)Support MantraMake a cauldron appear from your memories.
+20 Ether | N/A | 20 Intelligence
+Effect:User summons a cauldron that can be used to concoct potions. Ritual Casted.Despawns when the user moves away from the cauldron.Usable as a portable shelter for campfires.
+
+[Table 5]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Exhaustion Strike(☆☆☆)Combat MantraA melee strike that removes your posture's damage on hit. | Exhaustion Strike (☆☆☆)Combat MantraA melee strike that removes your posture's damage on hit.
+80 Ether | Slash | 40 Willpower
+Effect:User pulls their arm back and then transfers their posture damage to their opponent.Has a base damage of 20/22/24/26/28 damage per level with 1.65 Willpower scaling.Transfers 20%/30%/40%/50%/60% of your current posture per level.The posture transfer cannot guardbreak.Has 0.5s wind-up with 0.3s of endlag.
+Glare(☆☆☆)Support MantraOpponents facing you are briefly rendered immobile. | Glare (☆☆☆)Support MantraOpponents facing you are briefly rendered immobile.
+100 Ether | N/A | 5 Willpower/20 Willpower (With Attunement), 25 Charisma
+Effect:User summons an invisible AoE projectile upon activation, briefly stunning anyone hit by it.Deals 1 damage on proc with no posture damage.Has a wind-up of 0.72s.May still combat tag opponents who are not facing you.This move causes humanoid NPCs to block less.Parry window is at the end of the first flash.Shares a cooldown withSing.Cannot procDeep GemsCan be upgraded with thePeripheral VisionTalent, allowing Glare to hit enemies without them having to face you.
+Gaze(☆☆☆)Support MantraGaze into your opponent's souls. | Gaze (☆☆☆)Support MantraGaze into your opponent's souls.
+70 Ether | N/A | 30 Willpower
+Effect:User casts a penetrating gaze, frightening all opponents they make eye contact withInflicts shadow insanity on target, causing them to shiver a couple of times. You must be looking at your opponent.Shadow insanity doesn't actually reduce your sanity, but it can still cause the effect of tier 1 insanity (shivering)Upgrading this Mantra extends the duration.At level 5 it lasts 12 seconds.Deals 3 damage per tick with no posture damage.Cannot procDeep GemsCan be countered by holding block, wearing aBlindfold, or having a higher Willpower attribute than the caster.
+
+[Table 6]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Taunt(☆☆☆)Support MantraTaunt those around you, causing them to be unable to jump and to take 20% more damage. However, they deal +10% more damage. | Taunt (☆☆☆)Support MantraTaunt those around you, causing them to be unable to jump and to take 20% more damage. However, they deal +10% more damage.
+100 Ether | N/A | 25 Charisma
+Effect:User taunts their opponent, signified by red particles.Inflicts Taunt for 11/12/13/14/15 seconds per level.Affected entities receive 20% more damage, but deal 10% more damage to the caster.This is applied as a damage modifier to the person hitting the Taunted player. Meaning that Taunt is affected by the damage modifier caps.Affected entities become unable to jump.Taunt deals 0 Posture dmg and doesn't go through block, parry or dodge.Can be upgraded with theOff your GameTalent, allowing you to slow Taunted opponents when hitting them.Can be upgraded with theOh the IronyTalent, which doubles the amount ofmetal rodsapplied to Taunted enemies.Taunt's duration will be increased by 8 seconds if you have theThroatFood Buff.Using Taunt on any humanoidboss(excludingTitus) will instantly start the fight, skipping all dialogue.
+Sing(☆☆☆)Support MantraCharm those around you with your powerful voice. | Sing (☆☆☆)Support MantraCharm those around you with your powerful voice.
+100 Ether | N/A | 25 Charisma
+Effect:User creates a tune with their voice that charms nearby opponentsInflicts Charm on nearby entities for 10 seconds.Sing cannot be parried, but will not apply Charm if it is blocked or dodged. Sing deals 0 posture damage.Can be modified with cloud and stratus stones to increase range, but increase the cooldown. (1 Cloudstone = +2s CD, 1 Stratus stone = +3s CD)Shares a cooldown withGlare.Can be upgraded with theEncoreTalent, applyingtrue stunif you land Sing on a Charmed opponent.Can be upgraded with thePropagandistTalent, granting your alliesOvercharmfor 15 seconds.
+Dread Whisper(☆☆☆)Support MantraGrab your opponent and whisper a terrible truth in their ear. Further truths are unbearable. Deals increased damage to the insane. | Dread Whisper (☆☆☆)Support MantraGrab your opponent and whisper a terrible truth in their ear. Further truths are unbearable. Deals increased damage to the insane.
+50 Ether | Blunt | 50 Charisma
+Effect:User lunges at the opponent to grab them. On contact with a target, they hold them while whispering dark truths in their ear.Deals a base damage of 10/12/14/16/18 per level with 1.65 Charisma scaling.Dread Whisper's damage will slightly scale on how insane your opponent is.Landing Dread Whisper multiple times in succession will increase the damage by 50%. This damage buff doesnotstack with itself.Dread Whisper must be landed again within 15s of landing the previous one to gain/retain the damage buff.10 Second cooldown, shares a cooldown with all othergrab Mantras.Deals 6 posture damage.Has an wind-up of 0.4s, and an endlag of 1.95s (0.25s if whiffed).Inflicts Charm for 7.5s on hit.Because of this, it will instantly procNarcissist'sOvercharmif you have the Talent.Is unventable.Doesnotapply insanity.Incredibly fast and hard to react without predicting it, meaning it's rather easy to land on the least defensive type of players.Grants iframes to the user and the opponent hit for the duration of the stun.This allows for Twisted Flames' Puppets to home in closer and for teammates using Mantras such asEclipse Kickto try timing these to hit the opponent as soon as they're released.Can be modified with Crystal/Perfect Lenses to increase the distance travelled with the lunge.
+Disguise(☆☆☆)Support MantraTake on an unimaginable disguise. | Disguise (☆☆☆)Support MantraTake on an unimaginable disguise.
+100 Ether | N/A | 20 Charisma, CompleteMime's Quest
+Effect:User turns into their disguise with a puff of smoke effectObtained by finding an NPC namedMimeand killing Mineskippers.Despite what is showcased in the gifs, Disguise is not a ritual cast Mantra.Modifying the Mantra alters what you are disguised as.Barrel: No SparksStatue: 1 Reversal SparkCrate: 1 Tornado SparkLantern: 1 Blast SparkGobletto: 1 Reversal Spark, 1 Tornado SparkLit Campfire: 1 Blast Spark, 1 Tornado Spark.Skull: 1 Reversal Spark, 1 Blast SparkReversal SparkTornado SparkBlast SparkReversal + Tornado SparkBlast + Tornado SparkReversal + Blast Spark
+
+[Table 7]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Rapid Slashes(☆☆☆)Combat MantraRush down your opponent cutting them apart. | Rapid Slashes (☆☆☆)Combat MantraRush down your opponent cutting them apart.
+60 Ether | Typeless | 30 Light Weapon
+Effect:User teleports to the enemy their cursor is located on and performs numerous slashes.Deals 12+4/14+4.67/16+5.33/18+6/20+6.67 base damage per level with 1.65 Light Weapon scaling.Deals 10 posture damage.Has a windup of 0.67 seconds.Upgrading the Mantra increases teleportation range.Deals typeless damage, bypassing armor resistances.Teleports the user to the enemy the cursor is pointed at.The base damage isdoubledwhen wielded with theSilver Dagger.Gains +30% Chip damage when wielded with theNemit's Sickle.
+Ceaseless Slashes(☆☆☆)Combat MantraClick to reveal yourself and deliver a rapid flurry of slashes that can chain together. | Ceaseless Slashes (☆☆☆)Combat MantraClick to reveal yourself and deliver a rapid flurry of slashes that can chain together.
+50 Ether | Slash | 50 Light Weapon
+Effect:User turns invisible and then reveals themselves, performing a flurry of slashes.M1 during this Mantra to perform the slashes, targeting the closest enemy to you. Performing slashes consumes Ether.You can right click to cancel the Mantra.Damage ramps up on each hit.Deals 20 > 25 > 30 > 35 > 40 base damage on the initial hits with 1.65 Light Weapon scaling. This damage does not scale on Mantra level.After each hit, three damage ticks will follow. These scale on your Mantra's level.The secondary damage ticks deal 6.67/7.67/8.67/9.67/10.67 base damage per level, per hit (3) with 1.65 Light Weapon scaling.The hitbox of this attack is shaped like a wide cone in front of you. Although the secondary slashes only hit one person, anyone inside of the hitbox of your attack will take the base damage of the Mantra.Can perform a maximum of 5 slashes, ending after the 5th slash, or sometimes more if you regain enough Ether during the Mantra or time slashes in a specific manner.Constantly consumes Ether while invisible.If you go too long without landing slashes, run out of Ether, or move too far away from an opponent, Ceaseless Slashes will end early.Can be modified with Crystal/Perfect lenses to increase the time you have between slashes, allowing them to be chained together over a longer duration.Can be modified with Drift/Rush shards but has seemingly no effect.Gains +30% Chip damage when wielded with theNemit's Sickle.
+Karita Divebomb(☆☆☆)Combat MantraLaunch into the air and deliver a devastating divebomb kick. Chains from Karita Leap. | Karita Divebomb (☆☆☆)Combat MantraLaunch into the air and deliver a devastating divebomb kick. Chains from Karita Leap.
+60 Ether | Blunt | 30 Light Weapon,Jus KaritaTalent
+Effect:User jumps into the air and slams downDeals 20/22/24/26/28 base damage per level with 1.65 Light Weapon scaling.Wind-up isHEAVILYreduced upon being used directly after Karita Leap.Gains +30% Chip damage when wielded with theNemit's Sickle.
+Karita Leap(☆☆☆)Mobility MantraLaunch yourself into a flying kick, backflipping into the air if you hit a wall. | Karita Leap (☆☆☆)Mobility MantraLaunch yourself into a flying kick, backflipping into the air if you hit a wall.
+60 Ether | Blunt | 30 Light Weapon,Jus KaritaTalent
+Effect:User thrusts themself forward with a kick, ragdolling opponents and leaping back into the air if they hit a wall.Deals 30/33/36/39/42 base damage per level with 1.65 Light Weapon scaling.Hitting a wall causes you to backflip.Gains +30% Chip damage when wielded with theNemit's Sickle.
+
+[Table 8]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Master's Flourish(☆☆☆)Combat MantraA powerful slash that chips through block and slashes through armor. | Master's Flourish (☆☆☆)Combat MantraA powerful slash that chips through block and slashes through armor.
+60 Ether | Slash | 30 Medium Weapon
+Effect:User performs a spinning double slice with their sword.The first hit has a base damage of 3/6/9/12/15/18/21/24/27/30base damage per level with 1.65 Medium Weapon scaling.The second hit has a base damage of 5.4/10.8/16.2/21.6/27/32.4/37.8/43.2/48.6/54base damage per level with 1.65 Medium Weapon scaling.Deals 5 posture damage per hit (2).Initial hit has 0.525 wind-up with the follow-up having 0.4s wind-up.0.35s endlag.Has 37% chip damage.Knocks the opponent back in the direction the user is facing.Can be modified with a Glass/Magnifying stone to make it bigger.Wielding theVigil Longswordmakes your Master's Flourish bigger and allows it to proc "on flourish" effects.Changes color to orange ifOne With Flameis active.Gains additional true damage scaling on your Willpower investment if you are wielding theWorshipper Longsword. This true damage will additionally scale on your Flamecharm ifOne With Flameis active.
+Prominence Draw(☆☆☆)Combat MantraClose the distance and deliver a fast slash. | Prominence Draw (☆☆☆)Combat MantraClose the distance and deliver a fast slash.
+65 Ether | Slash | 50 Medium Weapon
+Effect:User locks onto all the closest targets that are in range, then dashes forward and performs a large AoE slice.Deals 9/17/25/33/41/49/57/65/73/81base damage per level with 1.65 Medium Weapon scaling.Deals50% less damageif used while your weapon is sheathed or if used on a non-medium weapon.Deals 5 posture damage.Has a wind-up of 0.5 seconds with an endlag of 0.2 seconds.Having theForgotten Gladiusequipped will heavily decrease its windup.Changes color to orange ifOne With Flameis active.Gains additional true damage scaling on your Willpower investment if you are wielding theWorshipper Longsword. This true damage will additionally scale on your Flamecharm ifOne With Flameis active.
+Twincleave(☆☆☆)Combat MantraDart around the battlefield with devastating cleaves delivered in quick succession. | Twincleave (☆☆☆)Combat MantraDart around the battlefield with devastating cleaves delivered in quick succession.
+60 Ether | Slash | 50 Medium Weapon
+Effect:User unleashes 2 slashes, the first moving them forward, the second launching them backwards.The first hit has 9/10.2/11.4/12.6/13.8/15/16.2/17.4/18.6/19.8base damage per level with 1.65 Medium Weapon scaling.The second hit has 18.75/21.25/23.75/26.25/28.75/31.25/33.75/36.25/38.75/41.25base damage per level with 1.65 Medium Weapon scaling.Deals 6.75 posture damage per hit (2).Initial hit has a wind-up of 0.5s, with the follow-up attack having a 0.4s wind-up.Twincleave has an endlag of 0.4s.Can change the direction you launch backwards by turning your camera.Changes color to orange ifOne With Flameis active.Gains additional true damage scaling on your Willpower investment if you are wielding theWorshipper Longsword. This true damage will additionally scale on your Flamecharm ifOne With Flameis active.
+Slice 'n' Dice(☆☆☆)Combat MantraStep forward and slice through your enemies. Ability can be activated again on a successful hit. | Slice 'n' Dice (☆☆☆)Combat MantraStep forward and slice through your enemies. Ability can be activated again on a successful hit.
+60 Ether | Slash | 60 Medium Weapon
+Effect:User dashes towards the camera and unleashes a wide slash. Can be performed again if the first slash lands.Deals 19.1/24.2/29.3/34.4/39.5/44.6/49.7/54.8/59.9/65base damage per hit with 1.3 Medium Weapon scaling.Deals 16 posture damage and is 360 blockable.Has a 25 second cooldown.Has a 0.55s wind-up.Landing the first slash refreshes the Mantra, allowing it to be used again at any time.If used again within 15 seconds, the Mantra will go on cooldown.Even if blocked, the cooldown of this Mantra will still reset. This is incredibly useful for block pressure.Due to it being aimed with the camera, it can be a very useful tool for aerial mobility.Does not register hits until the end of the move's animation, meaning you can phase through opponents without damaging them if used at close range.Because of this, it is recommended to use this Mantra after uppercuts or while looking at the floor to land it in CQC.Changes color to orange ifOne With Flameis active.Gains additional true damage scaling on your Willpower investment if you are wielding theWorshipper Longsword. This true damage will additionally scale on your Flamecharm ifOne With Flameis active.
+Flashdraw Strike(☆☆☆)Combat MantraSwitftly unsheathe your blade and deliver an upwards strike. | Flashdraw Strike (☆☆☆)Combat MantraSwitftly unsheathe your blade and deliver an upwards strike.
+55 Ether | Slash | 60 Medium Weapon, 25 Agility
+Effect:User readies their blade before performing a swift strike that uppercuts any targets within range and the user into the air.Deals 20/22/24/26/28/30/32/34/36/38base damage with 1.65 Medium Weapon scaling.Deals 12 posture damage.Uppercuts.Changes color to orange ifOne With Flameis active.Gains additional true damage scaling on your Willpower investment if you are wielding theWorshipper Longsword. This true damage will additionally scale on your Flamecharm ifOne With Flameis active.
+
+[Table 9]
+Name | Ether Cost | Damage Type | Requirements | Ether Cost | Damage Type | Requirements
+Pressure Blast(☆☆☆)Combat MantraUnleash a powerful pressure blast from the weight of your weapon. | Pressure Blast (☆☆☆)Combat MantraUnleash a powerful pressure blast from the weight of your weapon.
+35 Ether | Slash | 30 Heavy Weapon
+Effect:User performs a heavy downwards swing that cleaves through the air, sending out 3 large blasts of air that ragdoll and knockback.Deals 8/10.5/13/15.5/18/20.5/23/25.5/28/30.5base damage per level, per hit (3) with 1.65 Heavy Weapon scaling.Deals 12 posture damage per hit (3).Initial hit has a windup of 0.75s with each followup hit having a windup of 0.2s each.Dazes opponents on hit.Ragdolls and lightly flings opponents away.Has Autoparry frames.Wielding theSteel MaulorSaint Jay's Hammerwill increase the AoE of this Mantra greatly. Additionally, the final hit of Pressure Blast will deal 3x posture damage on these weapons, dealing 36 posture damage instead of the default 12. Additionally, while weilding these weapons, this Mantra will becomeunparryable.
+Onslaught(☆☆☆)Combat MantraReel back and swing your weapon, unleashing an onslaught of blows if it hits. | Onslaught (☆☆☆)Combat MantraReel back and swing your weapon, unleashing an onslaught of blows if it hits.
+65 Ether | Slash(1st Hit), Blunt(Kicks) | 50 Heavy Weapon
+Effect:User does an initial swing with a second long wind-up, then kicks the enemy into the air, followed by kicking them away.Initial hit deals 30/32/34/36/38/40/42/44/46/48base damage per level with 1.65 Heavy Weapon scaling.The kicks deal 15/16/17/18/19/20/21/22/23/24base damage per level, per hit (2) with 1.65 Heavy Weapon scaling.Deals 20/22/24/26/GB posture damage per level on the first hit. The second hit always deals 4 posture damage.Initial hit instantly guard breaks at level 5.The final hit appliesTrue Daze.Does good AOE damage as it can hit several enemies at once and bring them all up into the air.Ragdolls and flings opponent away.Equipping theIron Birchgives you theExpeditious ComboTalent, increasing the speed of this attack. Additionally on Iron Birch, your Onslaught cast speed is further buffed if cast within 15 seconds of landing a basic attack uppercut.
+Punishment(☆☆☆)Combat MantraAbsorb damage then return fury upon your foes. | Punishment (☆☆☆)Combat MantraAbsorb damage then return fury upon your foes.
+30 Ether(Counter)30 Ether(Slash) | Slash | 50 Heavy Weapon
+Effect:User creates a white circle on their torso, if hit during the circle's animation, it'll turn red then proceed to go on a short cooldown. If not activated in time the effect will fade away.After countering an attack, casting Punishment again will proceed to do a big AOE swing similar toMaster's Flourish.On follow-up, this Mantra deals 10/15/20/25/30 base damage per level, adding an additional 40%/55%/70%/85%/100% of the countered attack's damage per level to this attack. Punishment has 1.65Agilityscaling.Deals 10/15/25/30 posture damage per level, adding an additional 40%/55%/70%/85%/100% of the countered attack's damage per level to this attack.The counter has a wind-up of 0.2 seconds; being hit during this wind-up will cancel Punishment altogether. Additionally, this attack has a window of 0.55 seconds to counter any attack, and 0.7 seconds of endlag if whiffed.The follow-up attack has a staggeringly short 0.35 second windup, making it very hard to react to. That being said, this attack is still parryable.
+
+[Table 10]
+Attunements&Mantras
+Base Attunements | Flamecharm•Frostdraw•Galebreathe•Thundercall
+Unlockable Attunements | Bloodrend•Ironsing•Shadowcast
+Mantras | Attunement-less•Hybrid Mantras•Monster Mantras•Pumpkin Pitch
+Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifiers
+
+=== Sub Pages Explored ===
+- Attunement Potions
+- Attunement Trainers
+- Attunements
+- Bloodrend
+- Bosses
+- Flame Worshipper Armor
+- Flamecharm
