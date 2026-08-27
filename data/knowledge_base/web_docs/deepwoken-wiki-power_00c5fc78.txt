@@ -1,0 +1,1080 @@
+Title: Deepwoken Wiki: Power
+URL: https://deepwoken.fandom.com/wiki/Power
+Description: Official Fandom Wiki document for Power
+
+==================================================
+
+Power or Level is the leveling mechanic of Deepwoken that enables players to increase their stats as well as unlock new
+Talents
+,
+Mantras
+,
+Traits
+, and select an
+Oath
+.
+An example of a player's Power and stat allotment back in Verse One
+Each level of Power grants 15 investment points to a player, these investment points can be put into any of the skills present within the game which are redirected into their actual stats. Once all 15 points have been invested a player will increase their Power upon meeting EXP requirements. As players Power up further the EXP required to invest a point will also increase. The maximum
+Power
+is currently 20.
+Once powered up, players will be given a selection of cards to choose from which can be
+Talents
+,
+Mantras
+, or rarely a fifth card which is fold. Additionally, their health is restored, they gain 4 maximum health, and their health bar is unstained (if they were previously stained). Hunger and thirst are also brought back to full.
+Fold cards will postpone the player's reception of a Card until their next Power up. If you fold, you will receive an additional hand on your next Power Increase. This second hand will be randomized and differ from the previously folded one.
+To keep progressing, however, you will need regular EXP, obtained by killing things, visiting new places, turning in artifacts, and more:
+The white sparkling particles mean you are getting EXP, the density showing the amount obtained.
+The yellow/golden sparkling particles mean you have reached an EXP threshold, meaning that further progress is available.
+If you've reached the point where using
+Training Gear
+says "I've learned what I can from training right now, I should put it into practice...", those yellow particles usually indicate that you should be able to continue without this message, even if for just 1 point.
+If you've gotten all 15 investment points and it shows 0 without you powering up it means you require more EXP.
+Contents
+1
+Attributes
+1.1
+Base Attributes
+1.1.1
+Body (BDY)
+1.1.2
+Mind (MND)
+1.2
+Weapon Attributes
+1.3
+Attunement Attributes
+2
+Trivia
+Attributes
+[
+]
+Base Attributes
+[
+]
+Body (BDY)
+[
+]
+Strength
+(
+STR
+)
+Fortitude
+(
+FTD
+)
+Agility
+(
+AGL
+)
+Mind (MND)
+[
+]
+Intelligence
+(
+INT
+)
+Willpower
+(
+WLL
+)
+Charisma
+(
+CHA
+)
+Weapon Attributes
+[
+]
+Heavy Weapons
+(
+HVY
+)
+Light Weapons
+(
+LHT
+)
+Medium Weapons
+(
+MED
+)
+Attunement Attributes
+[
+]
+Bloodrend
+(
+BLD
+)
+Flamecharm
+(
+FLM
+)
+Frostdraw
+(
+ICE
+)
+Galebreathe
+(
+WND
+)
+Ironsing
+(
+MTL
+)
+Thundercall
+(
+LTN
+)
+Shadowcast
+(
+SDW
+)
+Trivia
+[
+]
+As your Power increases, so does your damage towards all non-player enemies.
+You gain 4 health per Power, starting at a base of 224 health at Power 1 and scaling up to 300 health at Power 20.
+Before the Verse 2 update, the required amount of investment points was 5. However, this was increased to 15 after Verse 2. This was changed with the Power 60 to Power 20 compression.
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Bloodrend]
+“ Casting your mind back, you may recall a Black Diver of note was unveiled as the treacherous Crimson Scholar of Burning Blood, a student of the Second Prophet... But what of the Second Prophet's other students? Perhaps one of them might be more sympathetic; perhaps they might even be willing to share what they know of the mysteries of Blood? ”
+― Hallowtide 2024 Patch Notes
+Bloodrend Icon
+Contents
+1
+Description
+2
+PvE Mechanic(s)
+3
+Obtainment
+4
+Training
+4.1
+Mantra Damage Calculation
+5
+Cantrip(s)
+5.1
+Bloodless
+5.2
+Carnivorous
+6
+Mantras
+6.1
+Combat Mantras
+7
+Blood Orb (☆☆☆)
+8
+Crucifixion (☆☆☆)
+9
+Bloodedge (★☆☆)
+10
+Blood Stakes (★☆☆)
+11
+Vicious Descent (★☆☆)
+12
+Crimson Rain (★★☆)
+13
+Crimson Surge (★★☆)
+14
+Razor Blitz (★★☆)
+15
+Scarlet Cannon (★★☆)
+16
+Scarlet Cyclone (★★☆)
+17
+Soulflare Siphon (★★☆)
+18
+Veinbreaker (★★☆)
+19
+Bloodcurdle (★★★)
+20
+Bloodtide Ritual (★★★)
+20.1
+Mobility Mantras
+21
+Sanguine Dive (★☆☆)
+22
+Vein Tendrils (★★☆)
+22.1
+Support Mantras
+23
+Blood Wisp (★★☆)
+24
+Talents
+25
+Trivia
+26
+Navigation
+Description
+[
+]
+Bloodrend
+is an
+Attunement
+that grants the user the ability to control, manipulate, and conjure their own and other's
+blood
+.
+Bloodrenders excel in long fights, their power ramping up as the fight goes on due to the effects applied to enemies from Blood Poison and Blood Drain. They can counter their opponents' sustain while using sustain to benefit themselves. However, Bloodrend is difficult to make use of outside of single target combat, as blood poison decays, making it hard to achieve high percentages of it against multiple enemies.
+It's extremely effective at long to mid range. To counter this attunement, prioritize staying up close and applying constant pressure, as Bloodrend lacks close range low windup mantras. Keep in mind that any mistake is likely to lead to you getting severely punished by the Bloodrend user, even at close range from Mantras like
+Bloodcurdle
+.
+PvE Mechanic(s)
+[
+]
+Bloodrenders can leverage the
+Hemorrhaging
+mechanic, dealing a percentage, scaling on Bloodrend investment and player level, of a PvE enemy's current health in a singular damage instance, once a threshold of blood loss is met. At Power 20 with 100 Bloodrend, this deals 17.5% of the target's current health. This threshold can be built up by using any source of blood loss, not exclusively Bloodrend, and does not explicitly require the player to be a Bloodrender to use. When this procs, the enemy will lose a percentage of the
+Blood Poisoning
+you've applied to them.
+Obtainment
+[
+]
+The
+Attunement Trainer
+,
+Vyrelda
+, can be located in an igloo on the east side of Firfire Village, caring for an injured diver. She is only visible after having killed
+Chaser
+at least once. After killing Chaser, re-enter Layer 2 and go talk with Vyrelda - she will talk about her desertion from
+The Ministry
+, and how she evaded the Ministry for so long, who are searching for her. She mentions "Bloodrend" and how she only wished to be taught under the Second Prophet for purely 
+
+### 📖 [하위 연관 위키: Flamecharm]
+“ The inferno burns ever brighter. Have you come to fuel it? ”
+― Amashi, Master of Flame
+Flamecharm Icon
+Contents
+1
+Description
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+4.1
+Produce Spark
+5
+Mantras
+5.1
+Combat Mantras
+6
+Burning Servants (☆☆☆)
+7
+Fire Blade (☆☆☆)
+8
+Fire Gun (☆☆☆)
+9
+Flame Grab (☆☆☆)
+10
+Flame Repulsion (☆☆☆)
+11
+Fire Eruption (★☆☆)
+12
+Fire Forge (★☆☆)
+13
+Fire Palm (★☆☆)
+14
+Searing Snare (★☆☆)
+15
+Flame Sentinel (★★☆)
+16
+Flare Volley (★★☆)
+17
+Relentless Flames (★★☆)
+18
+Rising Flame (★★☆)
+19
+Ash Slam (★★★)
+20
+Flame Ballista (★★★)
+21
+Flaming Scourge (★★★)
+21.1
+Mobility Mantras
+22
+Flame Assault (★★☆)
+23
+Flame Leap (★★☆)
+23.1
+Support Mantras
+24
+Flame Blind (☆☆☆)
+25
+Flame of Denial (☆☆☆)
+26
+Graceful Flame (★☆☆)
+27
+Flame Wisp (★★☆)
+28
+Talents
+29
+Trivia
+30
+References
+31
+Navigation
+Description
+[
+]
+Flamecharm
+is an
+Attunement
+that grants the user the ability to create flames using Ether.. These abilities are primarily focused on DOT and AoE effects, while still providing a notable amount of utility and mobility.
+This Attunement is ideal for new players, due to its innate ability to grip knocked humanoid NPCs with its DOT burn effect, alongside its superior utility in comparison with other Attunements, making progression and exploration much easier.
+As mentioned previously, Flamecharm focuses on DOT and AoE effects. This Attunement's mantras usually create a large hitbox either around the user or in front of them, making hitting your opponent incredibly easy at close range. To compensate, its mantras rarely propel the user horizontally, with most of its mantras either slowing the user down or preventing movement almost entirely. This makes builds with lots of movement options and range viable against this Attunement, as it limits the amount of mantras you have to worry about. Do note that it does have a couple of options in order to close the distance or deal damage at considerable range, namely Fire Palm, Flaming Scourge modified with Reversal Spark, and the Flame Dancer talents.
+Obtainment
+[
+]
+The
+Attunement Trainer
+,
+Amashi
+, can be located at the
+Songseeker Temple
+in
+Songseeker Wilds
+. Once you give Amashi two Dying Embers, he will hand you the
+Hearthblood Potion
+which you must drink in order to obtain the Attunement. Alternatively, you can simply pick the Attunement from Character Creation.
+Training
+[
+]
+Flamecharm can be trained by using the
+Hearthgem
+to increase the attribute after either landing Flamecharm Mantras or eating
+Dying Embers
+to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Flamecharm, players will receive the
+Flamecharmer
+Talent. This allows players to obtain 0-star Flamecharm Mantras.
+At 20 Flamecharm, players will receive the
+Adept Flamecharmer
+Talent. This allows players to obtain 1-star Flamecharm Mantras.
+At 30 Flamecharm, players will receive the
+Expert Flamecharmer
+Talent. This allows players to obtain 2-star Flamecharm Mantras.
+F
+
+### 📖 [하위 연관 위키: Frostdraw]
+“ Frost gathers at our fingertips, promising the coming winter. Have you come to let it envelop you? ”
+― Nell, Master of Frost
+Frostdraw icon
+Contents
+1
+Description
+1.1
+Abilities
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+5
+Mantras
+5.1
+Combat Mantras
+6
+Frozen Servants (☆☆☆)
+7
+Ice Beam (☆☆☆)
+8
+Ice Spikes (☆☆☆)
+9
+Warden's Blades (☆☆☆)
+10
+Ice Blade (★☆☆)
+11
+Ice Chain (★☆☆)
+12
+Ice Daggers (★☆☆)
+13
+Ice Eruption (★☆☆)
+14
+Ice Forge (★☆☆)
+15
+Ice Smash (★☆☆)
+16
+Ice Carve (★★☆)
+17
+Ice Flock (★★☆)
+18
+Ice Lance (★★☆)
+19
+Rising Frost (★★☆)
+20
+Frost Grab (★★☆)
+21
+Ice Cubes (★★★)
+22
+Ice Fissure (★★★)
+22.1
+Glass Path: Crystallization Mantras
+23
+Crystal Impale (★★☆)
+24
+Crystal Knee (★★☆)
+25
+Ice Lasers (★★☆)
+25.1
+Mobility Mantras
+26
+Glacial Arc (★☆☆)
+27
+Ice Skate (★★★)
+27.1
+Support Mantras
+28
+Frost Wisp (★★☆)
+29
+Iceberg (★★★)
+30
+Talents
+31
+Trivia
+32
+References
+33
+Navigation
+Description
+[
+]
+Frostdraw
+is an
+Attunement
+that grants the user the ability to bring forth frost and the freezing cold, giving them access to abilities which focus on area denial and debuffs. Frostdraw is slightly slower compared to other
+Attunements
+, but still offers offensive options that are relatively quick and cunning. This translates to the fact that the Attunement would fit well to people who have a defensive approach to combat.
+Abilities
+[
+]
+Landing Frostdraw
+Mantras
+applies
+Chill
+, which slows down enemies and is able to be improved upon with certain
+Talents
+. Adding
+Logstones
+to certain Mantras can increase the duration of Chill.
+Obtainment
+[
+]
+The Attunement can be unlocked by using a
+Glassblood Potion
+obtained by giving
+Nell
+, the Frostdraw trainer at
+Etris
+, two
+Frigid Prisms
+. Nell is located in a small house to the right of the Etris Guild Hall. Alternatively, you can simply pick Frostdraw as your starting Attunement in Character Creation.
+Training
+[
+]
+A Hemafrosted Capra casting a beam of ice.
+This is where the Attunement trainer is located.
+Frostdraw can be trained by using the
+Hemafrost
+to increase the attribute after either landing Frostdraw Mantras or eating
+Frigid Prisms
+to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Frostdraw, players will receive the
+Frostdrawer
+Talent. This allows players to obtain 0-star Frostdraw Mantras.
+At 20 Frostdraw, players will receive the
+Adept Frostdrawer
+Talent. This allows players to obtain 1-star Frostdraw Mantras.
+At 30 Frostdraw, players will receive the
+Expert Frostdrawer
+Talent. This allows players to obtain 2-star Frostdraw Mantras.
+Finally, at 50 Frostdraw, players will receive the
+Master Frostdrawer
+Talent. This allows players to obtain 3-star Frostdraw Mantras.
+You can speak to
+Nell
+at
+Etris
+or a
+Mantra Lectern
+to upgrade your Frostdraw Mantras for 100
+each. Each upgrade purchased will make the next upgrade for the same Mantra 100
+more expensive.
+To upgrade a Frostdraw Mantra from level 1 to level 2 costs 100
+and 20 Frostdraw investment.
+T
+
+### 📖 [하위 연관 위키: Galebreathe]
+“ The Wind finds a way through even the narrowest of passages. Have you come to let the wind guide you? ”
+― Friid, Master of Gale
+Galebreathe icon
+Contents
+1
+Description
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+4.1
+Batch Harvest
+5
+Mantras
+5.1
+Combat Mantras
+6
+Air Force (☆☆☆)
+7
+Tornado Kick (☆☆☆)
+8
+Wind Blade (☆☆☆)
+9
+Heavenly Wind (★☆☆)
+10
+Gale Lunge (★☆☆)
+11
+Gale Punch (★☆☆)
+12
+Galetrap (★☆☆)
+13
+Tornado (★☆☆)
+14
+Twister Kicks (★☆☆)
+15
+Updraft (★☆☆)
+16
+Wind Forge (★☆☆)
+17
+Champion's Whirlthrow (★★☆)
+18
+Rising Wind (★★☆)
+19
+Wind Carve (★★☆)
+20
+Wind Gun (★★☆)
+21
+Astral Wind (★★★)
+22
+Pillars of Erisia (★★★)
+22.1
+Mobility Mantras
+23
+Wind Passage (★★★)
+23.1
+Support Mantras
+24
+Gale Wisp (★★☆)
+25
+Talents
+26
+Gallery
+27
+Trivia
+28
+References
+29
+Navigation
+Description
+[
+]
+A gremor using Gale Lunge
+Galebreathe
+is an
+Attunement
+that grants the user the ability to manipulate, conjure and control winds, giving them access to abilities that focus on movement, projectiles, and large AoE. As well as possessing the ability to lower attack speed when hitting an opponent with a gale mantra.
+Galebreathe also has
+Talents
+attributed to it as well, allowing the user to fully expand their connection with the atmosphere.
+Obtainment
+[
+]
+The
+Attunement
+can be unlocked by using a
+Skyblood potion
+obtained by giving
+Friid
+, the Galebreathe trainer located at the
+Isle of Vigils
+, two
+Gale Stones
+. Alternatively, you can simply select Galebreathe as your Attunement in Character Creation.
+Training
+[
+]
+Galebreathe can be trained by using the
+Gale Kata
+to increase the attribute after either landing Galebreathe Mantras or eating
+Gale Stones
+(HEAVILY DISCOURAGED)
+to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Galebreathe, players will receive the
+Galebreatheer
+Talent. This allows players to obtain 0-star Galebreathe Mantras.
+At 20 Galebreathe, players will receive the
+Adept Galebreatheer
+Talent. This allows players to obtain 1-star Galebreathe Mantras.
+At 30 Galebreathe, players will receive the
+Expert Galebreatheer
+Talent. This allows players to obtain 2-star Galebreathe Mantras.
+Finally, at 50 Galebreathe, players will receive the
+Master Galebreatheer
+Talent. This allows players to obtain 3-star Galebreathe Mantras.
+You can speak to
+Friid
+at the
+Isle of Vigils
+or a
+Mantra Lectern
+to upgrade your Galebreathe Mantras for 100
+each. Each upgrade purchased will make the next upgrade for the same Mantra 100
+more expensive.
+To upgrade a Galebreathe Mantra from level 1 to level 2 costs 100
+and 20 Galebreathe investment.
+To upgrade a Galebreathe Mantra from level 2 to level 3 costs 200
+and 40 Galebreathe investment.
+To upgrade a Galebreathe Mantra from level 3 to level 4 costs 300
+and 60 Galebreathe investment.
+To upgrade a Galebreathe Mantra from level 4 to level 5 costs 400
+and 80 Galebreathe investment.
+Galebreathe Unbound
+can be obtained by defeating any humanoid
+boss
+(Duke, Chaser, Ferryman, e
+
+### 📖 [하위 연관 위키: Ironsing]
+“ I have some theories. It's said that the discovery of Pluripotent Alloy was what led to Ironsing's development, and that's the line of questioning I've chosen to follow. Interestingly, they say that the combination of a catalyst and the right frame of mind are what induce the attunement to an element of the Song. ”
+― Adar, Master of Metal
+Ironsing Icon
+Contents
+1
+Description
+2
+Obtainment
+3
+Training
+3.1
+Mantra Damage Calculation
+4
+Cantrip(s)
+4.1
+Ore Siphon
+4.2
+Stainless
+5
+Mantras
+5.1
+Combat Mantras
+6
+Metal Eruption (☆☆☆)
+7
+Needle Barrage (☆☆☆)
+8
+Metal Kick (★☆☆)
+9
+Caltrops (★★☆)
+10
+Firing Line (★★☆)
+11
+Iron Quills (★★☆)
+12
+Metal Fakeout (★★☆)
+13
+Metal Rain (★★☆)
+14
+Oxidizing Rush (★★☆)
+15
+Iron Hug (★★★)
+16
+Iron Slam (★★★)
+17
+Metal Armament (★★★)
+18
+Metal Gatling (★★★)
+19
+Rocket Lance (★★★)
+19.1
+Mobility Mantras
+20
+Metal Rampart (☆☆☆)
+21
+Metal Ball (★★☆)
+21.1
+Support Mantras
+22
+Chain Pull (★☆☆)
+23
+Iron Skin (★☆☆)
+24
+Metal Turret (★★☆)
+25
+Metal Wisp (★★☆)
+26
+Talents
+27
+Gallery
+28
+Trivia
+29
+References
+30
+Navigation
+Description
+[
+]
+Ironsing
+is an
+Attunement
+based around the ability to harness and manipulate metal, commonly used by Blacksmiths around the Luminants.
+Ironsingers make use of applying Metal Rods to enemies, allowing for a variety of interactions depending on the chosen Talents. Most primarily, accumulating enough Metal Rods on a target will allow the user to perform an
+Iron Pull
+, which will cause the target to be dragged towards the user by pressing
+X
+.
+Obtainment
+[
+]
+The
+Attunement Trainer
+,
+Adar
+, can be found inside a tower on the left side of the end of
+Saramaed Crossing
+at
+Miner's Landing
+, on the path to the
+Starfield Veldt
+. This bridge always spawns two
+Brainsuckers
+. To unlock Ironsing, you must first have a
+Pluripotent Alloy
+. Then, talk to the blacksmith at
+Miner's Landing
+. He will say that a friend of his is looking for a Pluripotent Alloy.
+If you have obtained Ironsing before, obtaining a
+Pluripotent Alloy
+and talking to the blacksmith is not required.
+Go to the trainer and he will tell you that he is looking for 6
+ores
+.
+The ores you need are:
+Iron
+Gold
+Erisore
+Irithine
+Astruline
+Umbrite
+After you give him these ores, he will give you an Alloyed Elixir. Drink the Elixir, and you will unlock Ironsing.
+DO NOT LEAVE THE TEXT BOX BEFORE RECEIVING THE ELIXIR.
+Doing so will cause the trainer to consume your ores without giving you the potion.
+The easiest way to obtain all of the required ores without visiting
+The Depths
+is to obtain them from chest and
+Mechalodaunt
+drops in
+Saramaed Hollow
+along with mining ores in
+Saramaed Summit
+. Alternatively, you may visit the cave in
+Songseeker Wilds
+and kill
+Mineskippers
+, which can drop all the ores necessary.
+Training
+[
+]
+Ironsing can be trained by using the
+Ferrofluid
+to increase the attribute after landing Ironsing Mantras to gain enough EXP.
+Along with all other elements, users can see their Mantras becoming stronger with practice:
+At 1 Ironsing, players will receive the
+Ironsinger
+
+
+### 📖 [하위 연관 위키: Mantras]
+Overview
+Gallery
+NOTE: You can search a Mantra's name using the search bar and it'll take you directly to that Mantra. Though, this currently doesn't work on mobile.
+Contents
+1
+Description
+2
+Classification of Mantras
+3
+Combat Usage
+3.1
+Mantra Cancelling
+3.2
+Ranged Mantras
+3.3
+Ritual Casting
+4
+Upgrading Mantras
+5
+Modifying Mantras
+6
+Mantra Damage Calculation
+6.1
+Oath Mantras
+7
+Types of Mantras
+7.1
+Flamecharm Mantras
+7.2
+Thundercall Mantras
+7.3
+Frostdraw Mantras
+7.4
+Galebreathe Mantras
+7.5
+Shadowcast Mantras
+7.6
+Ironsing Mantras
+7.7
+Bloodrend Mantras
+7.8
+Hybrid Mantras
+7.9
+Physical/Attunement-less Mantras
+7.10
+Monster Mantras
+7.11
+Oath Mantras
+8
+Trivia
+9
+Navigation
+Description
+[
+]
+Considered to be the root of Ether's usage -
+Mantras
+, sometimes referred to in lore as
+words of the Song
+, are the heart of
+Deepwoken's
+magic system. Simply put, these are the magic abilities that you use to fend off your adversaries or assist yourself in achieving specific goals.
+Mantras are obtained by receiving a
+Whisper Draw
+upon Powering up (
+Power 2, 4, 6, 8, 9, 10, 12, 14, 16, 18, 19, and 20.
+A total of 12 Mantras you will get by Powering up), an additional Whisper Draw can be earned by completing one of a few tasks, such as completing
+Kelsius' Quest
+or the
+Tutorial
+, defeating a
+World Boss
+, or escaping
+The Depths
+, with only one additional Whisper Draw being able to be obtained this way across all methods, bringing the total of
+Whisper Draws
+from Powering up to 13.
+If you are unsatisfied with the selection of Mantras you've been given, you can choose the
+Roll 2
+card in a Whisper Draw to grant you 2 Talents instead of a Mantra.
+If you are unsatisfied with a Mantra you have chosen, it can be rerolled via the
+Shrine of Temptation
+or split into two Talents with the
+Shrine of Division
+. Opposite to the
+Shrine of Division
+, the
+Shrine of Unification
+can combine two Talents to create a
+Whisper Draw
+.
+Amount of Talents available to gain through Roll 2's, compared to the amount of Mantras you have:
+Roll 2's used
+Total Mantras possessed
+Total Talents possessed
+0 Roll 2's
+13 Mantras
+50 Talents
+1 Roll 2's
+12 Mantras
+52 Talents
+2 Roll 2's
+11 Mantras
+54 Talents
+3 Roll 2's
+10 Mantras
+56 Talents
+4 Roll 2's
+9 Mantras
+58 Talents
+5 Roll 2's
+8 Mantras
+60 Talents
+6 Roll 2's
+7 Mantras
+62 Talents
+7 Roll 2's
+6 Mantras
+64 Talents
+8 Roll 2's
+5 Mantras
+66 Talents
+9 Roll 2's
+4 Mantras
+68 Talents
+10 Roll 2's
+3 Mantras
+70 Talents
+11 Roll 2's
+2 Mantras
+72 Talents
+12 Roll 2's
+1 Mantras
+74 Talents
+13 Roll 2's
+0 Mantras
+76 Talents
+A player's Mantras are tied to their character's stats - the higher a given stat, the more Mantras you can obtain from that stat. Much like weapons and armor, Mantras can also have 1-3 stars which correlate with their stat requirement and strength. Mantras with higher stars have higher stat requirements.
+Classification of Mantras
+[
+]
+Mantras are divided into various categories based on their general application. By default, you can have up to
+six
+Mantras equipped:
+Comb
+
+### 📖 [하위 연관 위키: Oaths]
+“ Swear an Oath. An indescribable power emanates from words spoken from the soul. You now wield it. ”
+― Oathsworn badge
+Contents
+1
+Description
+1.1
+Obtainable Oaths
+1.2
+Upcoming Oaths
+2
+Oath Skipping
+3
+Oathbreaker - Oath Removal
+4
+Lore Oaths
+5
+Trivia
+6
+References
+7
+Navigation
+Description
+[
+]
+"Oaths"
+are viewpoints and beliefs that a character vows to live by until the day they fall.
+They chiefly serve to further define the player character's potential, personality, and story- providing a progressable set of abilities alongside a set of rules or actions to swear under. Oaths, just like
+Murmurs
+and
+Resonances
+, are classified as unique
+Talent Cards
+that players obtain only through meeting certain requirements and do not take up talent slots.
+Due to the unique nature of swearing an Oath, only one can be wielded at once.
+It is possible to break an Oath with the
+Shrine of Yun'Shul
+, but "
+it's called an Oath for a reason.
+" Heed the consequences that come with becoming an Oathbreaker.
+Every character begins as a simple Pathfinder, meaning they are without an Oath, but not devoted to being Oathless. Being a Pathfinder offers no real advantages, but it
+may
+protect you from others who need Oath Kills for their progression, such as Linkstriders or Contractors, however, don't rely on it.
+Oath Damage
+is an entirely separate type of damage that is only resisted by Oathless or general defense modifiers, such as Reinforce or To the Finish.
+Obtainable Oaths
+[
+]
+Notes:
+"comb." means a combined total across multiple listed stats
+WEP = Any weapon stat (HVY, MED, LHT)
+Oathless
+No Stat Requirement
+Arc
+warder
+20 FIR + 20 LTN + 20 FTD
+Bladeharper
+(75 MED or comb. 90 WEP) + (25 STR or AGL)
+B
+l
+i
+g
+h
+t
+s
+u
+r
+g
+e
+r
+(comb. 80 STR, FTD, AGL) + (comb. 40 WND, LTN)
+Blindseer
+40 WLL
+Chainwarden
+comb. 40 STR, FTD, WLL
+Contractor
+No Stat Requirement
+Dawnwalker
+LVL 10
+Fadetrimmer
+LVL 12
+Jetstriker
+50 AGL
+Linkstrider
+No Stat Requirement
+Sa
+in
+ts
+wo
+rn
+15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW
+Saltchemist
+75 INT
+Silentheart
+(comb. 75 WEP) + (25 STR) + (25 AGL or CHA)
+Soulbreaker
+comb. 50 WLL, CHA
+Starkindred
+40 STR
+Visionshaper
+50 CHA
+Upcoming Oaths
+[
+]
+Warmaster
+Chef
+Voidhunter
+[
+1
+]
+Oath Skipping
+[
+]
+If you've fully progressed any Oath at least once on your account, you will become eligible for the progression skip for that Oath, allowing you to entirely skip the Oath's progression the next time you obtain it, at the cost of 10 Knowledge. This is an account wide unlock that can be accessed on any slot. To perform this, simply talk to the Oath giver NPC (for Blindseer and Linkstrider, the wall glyphs and linkstrider machine respectively) while having their Oath, and choose the 10 Knowledge dialogue option.
+Bladeharper's and Soulbreaker's progressions cannot be skipped
+currently
+(will likely be added in the future). Blightsurger's progression also cannot be skipped, but unlike the previously mentioned Oaths, this is entirely intentional.
+If you've fully progressed an Oath prior to
+
+=== Sub Pages Explored ===
+- Bloodrend
+- Flamecharm
+- Frostdraw
+- Galebreathe
+- Ironsing
+- Mantras
+- Oaths
