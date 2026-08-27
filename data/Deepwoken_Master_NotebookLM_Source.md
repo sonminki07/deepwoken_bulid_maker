@@ -8640,7 +8640,1430 @@ THE SCALES HAVE NOT YET TIPPED.
 
 ---
 
-### 🌐 [웹/위키 문서 7] deepwoken-wiki-hybrid-abilities_81ce250e
+### 🌐 [웹/위키 문서 7] deepwoken-wiki-enchantments_97729ee1
+
+Title: Deepwoken Wiki: Enchantments
+URL: https://deepwoken.fandom.com/wiki/Enchantments
+Description: Official Fandom Wiki document for Enchantments
+
+==================================================
+
+NOTE: If adding Enchantment-related information, remember to update both this page and the Enchantment's own page.
+Enchantments
+are powerful upgrades for your
+Weapons
+&
+Equipment
+.
+Contents
+1
+Acquirement Methods
+2
+Mechanics
+3
+Variants
+4
+List of Enchantments
+5
+Gallery
+5.1
+Old Enchants
+6
+Trivia
+7
+Changelogs
+8
+References
+9
+Navigation
+Acquirement Methods
+[
+]
+Enchantments have a set chance to be applied to a weapon during the following scenarios.
+Chiefly, any gear you find in chests, craft, or get dropped by enemies have a small chance to be enchanted. (even if the item is normally unenchantable, except Rings, Torso and Face slot gear, which cannot be enchanted unless they already had an enchantment before the verse 2 update).
+Talking to
+Laplace
+and trading three enchanted items for a new random enchant on your equipped
+weapon
+. Note that all Enchants added within the Layer 2 update and forwards are
+not
+rollable, such as Stormbreaker, Nemisis, Curse of Ysley's Ember, Etc.
+Laplace
+lets you turn in 5
+Knowledge
+for a random
+Enchant Grease
+Talking to
+Calamus
+and completing her quest can give you 1 enchant Item.
+Talking to
+Klaris Llfiend, Mother of Lights
+allows you to turn in 5
+Kyrsan Medallions
+for a random Enchant Grease or Enchant Stone.
+Using an
+Enchant Stone
+or
+Enchant Grease
+to apply an enchantment to a weapon or piece of equipment respectively.
+Non-exclusive
+Enchant Stones
+and
+Enchant Grease
+can be
+crafted
+by using two
+catalyst
+ingredients and any other Enchant Stone/Grease.
+Certain activities can provide heaps of Enchant Stones and more rarely Greases, these include but not limited to:
+Certain
+Bosses
+The Diluvian Mechanism
+Saramaed Hollow
+Crafting
+Mechanics
+[
+]
+Enchanted weapons/equipment have special mechanics compared to their regular counterparts.
+Enchanted items cannot be dropped on death.
+Equipping an enchanted item for the first time will Soulbound it to you. Soulbounded items cannot be dropped. However, they can still be unequipped, stored in your bank or sold to an antiquarian.
+Enchanted items can be passed down at the
+Hippocampal Pool
+at a cost of 40
+Echoes
+per item.
+Items cannot be "un-enchanted", however, another Enchant Stone or Grease can be used on it to replace the enchantment.
+You cannot 'stack' two of the same enchantment; If you obtain a helmet with Multiplicity while having boots with Multiplicity equipped, you can't equip the Multiplicity helmet. Alternatively, if you gain Multiplicity on your helmet through
+Klaris
+while having Multiplicity boots equipped, only one instance of Multiplicity will function.
+Variants
+[
+]
+There are two variants that enchantments come in:
+Blessing -
+They have an effect with little to no downsides.
+Curse -
+They have an effect along with a downside with the severity depending on the upside.
+For a showcase of all enchants in action, view
+this video.
+List of Enchantments
+[
+]
+Weapons
+Equipment
+Vow of Iron
+Unobtainable
+Blessings
+Curses
+Enchantment
+Info
+Astral
+View main page
+Grants +20% weapon damage in PvE. Call down stars alongside your critical attacks, and after parrying thrice.
+Effect
+Obtainment
+Gain a +20% damage buff to your M1s in PvE. This bypasses both the soft and hard damage modifier caps.
+Upon landing your critical attack or parrying 3 times in a row, a star will rain down and explode, dealing 4% health damage in PvP or 100 PvE damage in a small AoE.
+Astral is exclusively obtained from its
+Enchant Stone
+.
+Astral Enchant Stone can be obtained from:
+Direct drop from
+Star
+and
+Moon Knights
+.
+Moon's Eyrie
+chest.
+Sold in
+Traan Zakshun
+'s black market for 15
+or obtained through trading with the
+Weird Trader
+.
+Blazing
+View main page
+Once enough stacks have been applied, for 5s your weapon attacks will ignite your foes.
+Effect
+Obtainment
+After landing enough basic attacks (LHT: 3, MED: 2, HVY: 1), every hit for 5 seconds will apply
+Burn
+. 10 second cooldown. Burn damage scales on Flamecharm investment.
+Procs an Eruption instead if you have
+Eruption Path
+. Procs Puppet Burn instead, spawning Puppets if you have
+Twisted Puppets Path
+.
+Blazing can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Blazing enchanted weapon from a chest.
+Blazing
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Blessed Gem
+,
+Dying Embers
+Bluster
+View main page
+After landing a few stacks of Bluster, start a countdown to an explosion that scales off your m1 damage. Land attacks during this countdown to make it explode faster. This explosion scales with your weapon investment.
+Effect
+Obtainment
+After landing (LHT: 5, MED: 4, HVY: 3) hits, a 10 second countdown will start, ticking down to an explosion. Landing weapon attacks during the countdown will reduce the countdown's duration by 1 second.
+This explosion has a base damage of 27.5, gaining 0.25 damage per 1 weapon investment, up to 52.5 at 100 weapon. This deals typeless damage.
+This explosion is parriable and blockable, dealing 10 posture damage on block.
+Bluster is exclusively obtained from its
+Enchant Stone
+.
+Bluster Enchant Stone can be obtained from:
+Chest drop from
+Titus Fulminus Destellus
+.
+Sold in
+Traan Zakshun
+'s black market for 5
+.
+Chilling
+View main page
+Chill for foes. Applies Bottom Freeze once enough stacks have been applied.
+Effect
+Obtainment
+M1s apply a second instance of Frostdraw damage that deals 4% of the scaled damage of attack that procced it. Additionally, apply
+Crystals
+on M1 if you have the Crystallization path.
+After hitting a target (LHT: 5, MED: 4, HVY: 3) times, apply
+Bottom Freeze
+and
+Chill
+for 2 seconds. This also increases Chilling's secondary Frostdraw damage instance to 10% of your scaled damage, on that hit. 5 second cooldown.
+If the target is a PvE enemy, additionally apply
+Sluggish
+, reducing their damage to you for the duration of the slow.
+Chilling's damage does not benefit from damage modifiers. Chilling stacks can also be gained from critical attacks if they have the
+M1 tag
+.
+Chilling can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Chilling enchanted weapon in a chest.
+Chilling
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+and
+Frozen Membrane
+Any
+Enchant Stone
+,
+Blue Gem
+, and
+Frigid Prism
+Deferred
+View main page
+Weapon damage is increased by 7%, but becomes damage over time lasting for 2.5s.
+Effect
+Obtainment
+Removes the raw impact damage of your weapon by applying a 0x damage modifier; instead, your weapon inflicts
+Deferred
+on hit, dealing damage over time.
+Deferred deals your weapon's damage in 10% increments, over 2.5 seconds. Deferred's damage buff is treated as a damage modifier, and is additive to other damage modifiers.
+The Deferred status effect, and its damage over time, cannot be avoided once applied. Similarly to Viscostiy, Deferred's damage over time snapshots all of the relevant resistances and damage modifiers when the attack lands, meaning newly applied resistances/damage modifiers will not be considered and effects that run out will still have their bonuses applied.
+Deferred can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Deferred enchanted weapon from a chest.
+Deferred
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Aeon Logstone
+,
+Blessed Gem
+Any
+Enchant Stone
+,
+Blessed Gem
+,
+Irithine
+Detonation
+View main page
+Once enough stacks have been applied, an explosion is detonated.
+Effect
+Obtainment
+After hitting a target (LHT: 5, MED: 4, HVY: 3) times they explode, dealing an additional 10 typeless damage in an AoE. You cannot increase the damage of the explosions through damage modifiers.
+Does not deal knockback. Regardless of the hit count, all critical attacks only apply 1 stack of detonation total. You cannot gain stacks from hitting knocked players.
+Explosions can execute.
+Detonation can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Detonation enchanted weapon in a chest.
+Detonation
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Blast Spark
+,
+Wayward Gem
+Any
+Enchant Stone
+,
+Iron Bomb
+,
+Wayward Gem
+Elastic
+View main page
+Opponents are pulled towards you on hit.
+Effect
+Obtainment
+On M1, inflict
+Tethered
+, causing a pink string connecting the weapon and your target to appear, pulling the target towards you.
+Tethered PvE enemies will deal reduced damage to you, scaling on how far away from you they are.
+Also procs on criticals with the
+M1 tag
+.
+Elastic can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Elastic enchanted weapon from a chest.
+Elastic
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Sap
+,
+Wayward Gem
+Erebus
+View main page
+An enchant once lost to time, now given to the mighty. When landing a critical, make your opponent forget how to use a mantra for a minute.
+Effect
+Obtainment
+On critical attack, put one of your opponent's Mantras on a one minute cooldown.
+The Mantra that goes on cooldown is entirely random.
+Erebus is exclusively obtained from its
+Enchant Stone
+.
+Erebus Enchant Stone is obtained from:
+Winning 20
+Battle Royale
+matches on the same character.
+Gluttony
+View main page
+Steals Water and Stomach from those you hit.
+Effect
+Obtainment
+On hit, steal hunger and thirst from the target based on damage dealt.
+Gluttony's sustenance steal is not affected by
+Glutton
+Flaw or damage modifiers, but it is affected by your opponent's damage resistances.
+Gluttony can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Gluttony enchanted weapon from a chest.
+Gluttony
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Megurger
+,
+Wrath Gem
+Any
+Enchant Stone
+,
+Ambrosial Chum
+Grim
+View main page
+Once enough stacks have been applied, Grim is applied for 6s, increasing all incoming damage by 25% and incoming posture damage by 50%.
+Effect
+Obtainment
+After hitting the target up to (LHT: 5, MED: 5, HVY: 4) times,
+Grim
+will be applied for 6 seconds. This status effect applies a +25% damage and +50% posture damage modifier to all incoming attacks.
+Grim
+is
+affected by the damage modifier cap.
+Grim stacks can also be gained from critical attacks that have the
+M1 tag
+.
+Grim can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Grim enchanted weapon from a chest.
+Grim
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Bloodless Gem
+,
+Void Feather
+Harrowing
+View main page
+Obscures your opponent's health, posture, and armor bars. Also causes PvE to get
+Confusion
+on successful hits.
+Effect
+Obtainment
+Inflicts
+Harrowing
+on M1, which coats the enemy's posture, health, and armor bar in a nearly opaque purple and orange pattern, hiding how full or empty each bar is. While Harrowing is in effect, hovering over your bars will not display their percentages.
+In PvE, your M1s apply
+Confusion
+, making your opponent have a 5% chance to hit themselves instead whenever they attack you, applying a brief stun to the enemy and dealing their damage back to themselves in full.
+These effects last for 12 seconds and are refreshed upon landing another hit.
+Harrowing also procs on criticals with the
+M1 tag
+.
+Harrowing is exclusively obtained from its
+Enchant Stone
+Harrowing Enchant Stone can be purchased from two different vendors:
+Any
+Blacksmith
+for  if you have the
+Hallowtide '23 Medal
+.
+Glaive Spellhardt
+for 100 Joy during
+Hallowtide
+.
+Other sources:
+Goodie Bag
+Heroism
+View main page
+When above 75% HP, gain 4% damage for every 5% HP above 75%. When below 25% HP, gain 4% damage for every 5% HP below 25% HP. You can reflect negative status effects with light attacks or criticals to your opponent.
+Effect
+Obtainment
+When above 75% HP: gain +4% damage for every 5% HP above 75% HP. (20% more damage at 100% HP)
+When below 25% HP: gain +4% damage for every 5% HP below 25% HP. (20% more damage at 0% HP)
+In PVE the damage buff is 0.25x the damage buff in PVP (4% - > 1%, 20% - > 5%)
+Landing weapon attacks will reflect certain status effects that are affecting you back onto your attacker. These status effects include: elemental
+Status Effects
+(
+Burn
+,
+Chill
+,
+Suffocation
+,
+Winded
+,
+Shock
+, and
+Fear the Dark
+),
+Antiheal
+, and
+Taunt
+.
+Note: Despite not removing the visual of the status effects, it DOES remove the status effect. Additionally, the reflected status effects are applied as if they were your own (e.g. Burn scales on your Flamecharm investment, not your opponents).
+Heroism can be obtained from its
+Enchant Stone
+, trading with
+Laplace
+, or by obtaining a Heroism enchanted weapon from a chest.
+Heroism
+Enchant Stone
+:
+Exchanging 5
+to
+Klaris
+(grants a random non-exclusive Enchant Stone)
+War Mode
+Hell Mode
+Scion of Ethiron
+Maestro Evengarde Rest
+Dread Serpent
+Heart of Enmity
+Chaser, Scholar of the Crimson Contract
+Saramaed Hollow
+Second Layer
+Diluvian Mechanism
+Galewax
+Room in the
+Second Layer
+Crafting
+:
+Any
+Enchant Stone
+,
+Pure Gold
+,
+Smith's Alloy
+Kyrsan Chill
+View main page
+On critical hits, apply a slow that increases with each crit. At 5 stacks fully encase your opponent in ice.
+Effect
+Obtainment
+On critical hits, apply a slow that increases in potency with each subsequent critical landed. At 5 stacks, fully enc
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Suffocated (enchantment)]
+Contents
+1
+Description
+2
+Effect
+3
+Trivia
+4
+Navigation
+Description
+[
+]
+Suffocated is a
+craftable
+debuffing
+enchantment
+that applies
+Suffocation
+on proc.
+This enchantment is crafted at the
+Lost Forge
+with 1
+Windswept
+Enchant Stone and 2
+Gale Essence
+.
+Effect
+[
+]
+Landing an uppercut, flourish, critical, or
+offhand attack
+will apply
+Suffocation
+to your opponent.
+Trivia
+[
+]
+If you have not defeated the
+Kyrsgarde Champion
+on your character, this enchantment will not work and your weapon's damage will be voided.
+This enchantment was originally going to be a Developer Spec before it was made publicly accessible during the
+February 16th, 2026
+, as a part of Operation: Deep Healing.
+Navigation
+Enchantments
+Weapon Enchantments
+Blessings
+Astral
+Blazing
+Bluster
+Chilling
+Deferred
+Detonation
+Elastic
+Erebus
+Ether Surge
+Gluttony
+Grim
+Harrowing
+Heroism
+Kyrsan Chill
+Metal
+Nemesis
+Nightbringer
+Obfuscation
+Parasol's Blight
+Providence's Thorns
+Sear
+Solar
+Stone
+Storm
+Stormbreaker
+Suffocated
+Tears of the Edenkite
+Umbral Knight
+Vampirism
+Wild
+Windswept
+Curses
+Curse of Captain Greene
+Curse of Repulsion
+Curse of the Authoritative
+Curse of the Bloodthirsty
+Curse of the No Life King
+Curse of the Unbidden
+Curse of Void
+Curse of Ysley's Ember
+Curse of Yun'Shul
+Equipment Enchantments
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+Spec and Unobtainable Enchantments
+Spec
+Life Weave (enchantment)
+Tainted Sorrow
+Unstable
+Unobtainable
+Auto-Repair
+Curse of Zariffs Absorption
+JOE's
+
+### 📖 [하위 연관 위키: Rain (enchantment)]
+Contents
+1
+Description
+2
+Effect
+2.1
+Notes
+3
+Navigation
+Description
+[
+]
+Rain is a
+Gaunt Man
+-exclusive equipment
+enchantment
+that creates a moderate sized rain cloud on proc.
+Effect
+[
+]
+Upon taking damage, Rain has around a 12.5% chance to proc. On proc, a moderate-sized rain cloud is created above your head, lasting 27.5 seconds. This has a 45 second cooldown (effectively 17.5s with uptime efficiency).
+The rain this enchantment creates functions identically to normal rain, reducing
+Flamecharm
+damage by 10%, putting out burn and campfires, and increasing
+Thundercall
+damage by 5%.
+If you have the
+Chilling
+Enchantment on your weapon, if it's
+Winter
+, or if you're in a location with a low climate like
+Minityrsa
+, create snow instead, increasing the damage of your
+Frostdraw
+.
+If you have the
+Stench
+on another equipment piece, or if you are in
+Upper Erisia
+, create an acid rain cloud instead. This will damage yourself and all players in its AoE, however you will become immune to the damage it deals if you have the
+Survivalist
+Boon. Lasts 15 seconds instead of the standard 27.5 seconds.
+Notes
+[
+]
+If you have not completed
+The Gaunt Man
+'s trial on your character, this enchantment will not work.
+This enchantment is best used with
+Thundercall
+, the
+Storm
+or
+Stormbreaker
+weapon enchantments,
+Chilling
+enchantment +
+Frostdraw
+, or
+Survivalist
++
+Stench
+enchantment for various synergies.
+Navigation
+Enchantments
+Weapon Enchantments
+Blessings
+Astral
+Blazing
+Bluster
+Chilling
+Deferred
+Detonation
+Elastic
+Erebus
+Ether Surge
+Gluttony
+Grim
+Harrowing
+Heroism
+Kyrsan Chill
+Metal
+Nemesis
+Nightbringer
+Obfuscation
+Parasol's Blight
+Providence's Thorns
+Sear
+Solar
+Stone
+Storm
+Stormbreaker
+Suffocated
+Tears of the Edenkite
+Umbral Knight
+Vampirism
+Wild
+Windswept
+Curses
+Curse of Captain Greene
+Curse of Repulsion
+Curse of the Authoritative
+Curse of the Bloodthirsty
+Curse of the No Life King
+Curse of the Unbidden
+Curse of Void
+Curse of Ysley's Ember
+Curse of Yun'Shul
+Equipment Enchantments
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+Spec and Unobtainable Enchantments
+Spec
+Life Weave (enchantment)
+Tainted Sorrow
+Unstable
+Unobtainable
+Auto-Repair
+Curse of Zariffs Absorption
+JOE's
+
+### 📖 [하위 연관 위키: Life Weave (enchantment)]
+This page describes Exclusives/Specs
+This content is currently exclusive to Developers or other notable members, and as such, is not available to the general public.
+Contents
+1
+Description
+2
+Effect
+2.1
+Notes
+3
+Navigation
+Description
+[
+]
+Life Weave, not to be confused with the
+Attunement
+, is an
+unobtainable
+enchantment
+with unknown effects. This enchantment is exclusive to the developer yayafino.
+Effect
+[
+]
+Life Weave's effects are unknown, though yayafino's other specs can be found
+here
+.
+Notes
+[
+]
+Navigation
+Spec and Unobtainable Enchantments
+Spec
+Life Weave (enchantment)
+Tainted Sorrow
+Unstable
+Unobtainable
+Auto-Repair
+Curse of Zariffs Absorption
+JOE's
+Enchantments
+Weapon Enchantments
+Blessings
+Astral
+Blazing
+Bluster
+Chilling
+Deferred
+Detonation
+Elastic
+Erebus
+Ether Surge
+Gluttony
+Grim
+Harrowing
+Heroism
+Kyrsan Chill
+Metal
+Nemesis
+Nightbringer
+Obfuscation
+Parasol's Blight
+Providence's Thorns
+Sear
+Solar
+Stone
+Storm
+Stormbreaker
+Suffocated
+Tears of the Edenkite
+Umbral Knight
+Vampirism
+Wild
+Windswept
+Curses
+Curse of Captain Greene
+Curse of Repulsion
+Curse of the Authoritative
+Curse of the Bloodthirsty
+Curse of the No Life King
+Curse of the Unbidden
+Curse of Void
+Curse of Ysley's Ember
+Curse of Yun'Shul
+Equipment Enchantments
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+
+### 📖 [하위 연관 위키: Bosses]
+This page is for bosses. For Monster enemies, see
+Monsters
+. For non-monster enemies, see
+Enemies
+.
+Contents
+1
+Overview
+2
+Bosses
+2.1
+Pathfinder
+2.2
+Vow of Iron
+3
+World Bosses
+4
+Mini-Bosses
+4.1
+Pathfinder
+4.2
+Vow of Iron
+5
+Navigation
+Overview
+[
+]
+Bosses
+in
+Deepwoken
+are powerful
+Enemies
+and
+Monsters
+that possess heavy backstories and unique abilities. They award Resonance
+Progress
+,
+Knowledge
+, and unique
+weapons
+such as the
+Purple Cloud
+,
+Dissonant Chimecaller
+, and the
+Frostthorn
+.
+Bosses
+[
+]
+The concrete, in-game method of determining if an Enemy/Monster is a
+Boss
+is whether or not they can be used to obtain
+Chain of Perfection
+. However, every Boss has most, if not all of the secondary criteria below.
+Unique Summoning System or Guaranteed Spawn Locations
+Unique & End-Game Drops
+Grants
+Echoes
+upon defeat.
+Grants
+Resonance Progress
+upon defeat.
+Grants
+Knowledge
+upon defeat.
+Grants
+Pluripotent Alloy
+upon defeat.
+Grants
+Ardour Manifestation
+upon defeat.
+Being in a Boss' combat tag allows you to zoom your camera out farther than normal.
+Unique healthbar.
+Pathfinder
+[
+]
+Chaser, Scholar of the Crimson Contract
+Dread Serpent
+Duke Ishamon Erisia
+The Ferryman
+Knell, The Lunatic Resonator
+Kyrsgarde Champion
+Maestro Evengarde Rest
+Parliament
+Primadon, Titan of the East
+Titus Fulminus Destellus
+Vow of Iron
+[
+]
+Dravik, The Rat King
+General Titus Juventius
+Shogun of the Prophet's Guard (Temple of Mur)
+True Heart of Enmity
+Zi'eer, the Fourth Prophet
+World Bosses
+[
+]
+Exceptionally strong enemies that may require multiple people to take down. World Bosses usually have a set spawn, and reward players with 1 or 2
+Knowledge
+, Double
+Resonance
+progression, 1-2
+Crowns
+, and an insane amount of Experience on defeat.
+The Doom of Caeranthil
+Elder Primadon, The Titan Warlord
+Heart of Enmity
+Interluminary Parasol
+Scion of Ethiron
+Mini-Bosses
+[
+]
+Mini-Bosses are particularly strong Enemies/Monsters, but are not true Bosses due to lacking the Chain of Perfection criteria. However, they fulfill many of the secondary criteria, and are still unique challenges with unique purposes and rewards in their own right.
+Pathfinder
+[
+]
+Aska
+Blizzard Knight
+Bone Keeper
+Coldheart Fortinbras
+Deep Widow
+Enforcer
+Exotic Megalodaunt
+Finnegan The Lost
+The Fisherman
+Fury Nautilodaunt
+Grudge
+Lodestar
+Ministry Agent
+Mudskipper Broodlord
+Nautilodaunt
+Prime Megalodaunt
+Vow of Iron
+[
+]
+Bloodstarved Hunter
+Etrean Apostle
+Nautilodaunt Officiate
+Phantom Hunter
+Shogun of the Prophet's Guard
+Shogun Specialist
+Navigation
+Bosses
+Etrean Luminant
+Duke Ishamon Erisia
+Maestro Evengarde Rest
+Dravik, The Rat King
+Shogun of the Prophet's Guard
+Zi'eer, the Fourth Prophet
+Eastern Luminant
+The Ferryman
+Primadon, Titan of the East
+Elder Primadon, The Titan Warlord
+Titus Fulminus Destellus
+General Titus Juventius
+Shogun of the Prophet's Guard (Temple of Mur)
+Voidsea
+Dread Serpent
+Knell, The Lunatic Resonator
+Open Sea
+The Doom of Caeranthil
+Interluminary Parasol
+Scyphozia
+Heart of Enmity
+Parliament
+True Heart of Enmit
+
+### 📖 [하위 연관 위키: Chaser]
+Redirect to:
+Chaser, Scholar of the Crimson Contract
+
+### 📖 [하위 연관 위키: Chaser, Scholar of the Crimson Contract]
+Pathfinder
+Exclusive
+This page describes content that is exclusive to the
+Pathfinder
+gamemode.
+This content is not accessible outside of this gamemode.
+“ Hmm, yes. It's always such a shame when the greed of foolish men overcomes their survival instincts. I suppose they just weren't meant to reach the
+City.
+”
+― Chaser
+Contents
+1
+Description
+2
+Moveset
+3
+Finisher
+4
+Attack Pattern
+5
+Loot Table and Rewards
+5.1
+Exhaustive Loot Table
+6
+Dialogue
+7
+Gallery
+7.1
+Original appearance
+8
+Trivia
+9
+References
+10
+Navigation
+Description
+[
+]
+Chaser, Scholar of the Crimson Contract is a humanoid
+Boss
+that is fought in Floor 1 of the
+Second Layer
+. He is found within
+The Maw of Ethiron
+, specifically in the
+Cathedral of Ethiron
+. He is also a Black Diver, though in reality an operative serving
+The Ministry
+.
+He was once an aspiring Diver, graduating as one of the greatest of his generation, only surpassed by
+Klaris Llfiend, Mother of Lights
+and
+Akira
+.
+[
+1
+]
+Eventually, he betrayed the Divers, joining the Ministry instead. He served as an apprentice for and was gifted the ability of a
+Bloodrend
+-based Oath by the Ministry's Second Prophet, during which he developed the
+Flareblood Kamas
+.
+[
+2
+]
+Funnily enough, Chaser does not use the Flareblood Kamas at all during the fight.
+He allied himself with the mysterious Kyrsgarde and volunteered to lead an expedition into the
+Eternal Gale
+. However, by the time they reached the Second Layer, he tore the expedition apart, though Apprentice
+Diver
+Azel Corbet managed to record his fears and suspicions before being lost. Another expedition would then be sent, but that too was lost. A third expedition arrived to the Second Layer, but they soon ran out of food. Its members grew suspicious, Journeyman Diver Skeli recording that Chaser could no longer be trusted or allowed to reach the '
+Forbidden City
+' and some tried to flee to the
+Ignition Union's nearby holdout
+, though they would be killed by Chaser. Eventually that expedition too would be wiped out.
+[
+3
+]
+Appearance-wise, he is a young male greymarch
+Adret
+characterized by his unique eye color and facial markings. He also has a
+Resonance
+that allows him to extract power from the effigies of the dead,
+[
+4
+]
+with the multiple bells on his hips representing those effigies. However, he is incapable of using them. His eyes are blood red and have a swirl pattern, likely as a result of his own variant of the Oath.
+Moveset
+[
+]
+Despite being a humanoid boss and his status as a Black Diver, he doesn't perform any physical attacks, instead using long-range blood related
+Mantras
+which are channelled through the jars of blood located around the cathedral.
+For a visual guide, consider watching
+this video
+.
+Name/Danger
+Description
+Media
+Triple Blood Appendage
+(★☆☆)
+Chaser shoots three long appendages out, they latch onto a player/surface before returning.
+Blocking all three hits will cause a lot of posture damage, so attempt to parry it.
+𓆩✧𓆪 Parryable
+⛊ Blockable
+§ Dodgeable
+Powerful Blood App
+
+### 📖 [하위 연관 위키: Enchant Grease]
+Contents
+1
+Description
+2
+Obtainment
+2.1
+Non-Exclusive Enchants
+2.2
+Exclusive Enchants
+3
+Gallery
+4
+Trivia
+Description
+[
+]
+The
+Enchant Grease
+is a mythical-tier
+Relic
+that can be used to apply an
+Enchantment
+to your currently held Equipment. Each vial is imbued with a random enchant. When used, an option will appear to choose what Equipment item you wish to enchant, Once one is selected it will ask if this is the equipment you wish to enchant and soulbind. After usage, The enchant grease will disappear from the inventory. Your selected equipment will receive the enchantment provided by the enchant grease.
+Obtainment
+[
+]
+Non-Exclusive Enchants
+[
+]
+All but one of the game's Enchant Greases have non-exclusive obtainment locations, meaning there are several options available to you for their obtainment. There are three main ways to obtain an Enchant Grease.
+Exchanging 5
+to
+Klaris
+for a random enchant grease.
+Exchanging 5
+to
+Laplace
+for a random enchant grease.
+Chance to obtain from a chest in
+The Diluvian Mechanism
+,
+War Mode
+, and the
+Galewax
+Room in the
+Second Layer
+of the Depths.
+Exclusive Enchants
+[
+]
+These Enchant Greases can only be obtained through certain methods. Currently, the Rain enchantment is the only exclusive Enchant Grease.
+Sold by
+The Gaunt Man
+for 25
+Rain Spires
+and 10
+.
+Gallery
+[
+]
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+Trivia
+[
+]
+You can use Enchant Grease on already enchanted equipment, it'll just switch the enchant.
+Enchant Grease is undroppable, but sells for 200 notes if for some reason you want to sell it.
+You can pass down Enchant Grease through the
+Hippocampal Pool
+for 40
+Echoes
+.
+Enchant Grease was added in an update on 8/23/2024, Before this the only way to enchant equipment was to spend five
+Kyrsan Medallions
+at
+Klaris
+whilst holding an equipment item.
+Attempting to use Enchant Grease in the
+Second Layer
+will not work, displaying the message "The Gale interferes with the energy of the grease. Perhaps, on the surface..."
+
+=== Tables ===
+
+[Table 1]
+Enchantment | Info
+AstralView main pageGrants +20% weapon damage in PvE. Call down stars alongside your critical attacks, and after parrying thrice. | EffectObtainmentGain a +20% damage buff to your M1s in PvE. This bypasses both the soft and hard damage modifier caps.Upon landing your critical attack or parrying 3 times in a row, a star will rain down and explode, dealing 4% health damage in PvP or 100 PvE damage in a small AoE.Astral is exclusively obtained from itsEnchant Stone.Astral Enchant Stone can be obtained from:Direct drop fromStarandMoon Knights.Moon's Eyriechest.Sold inTraan Zakshun's black market for 15or obtained through trading with theWeird Trader.
+BlazingView main pageOnce enough stacks have been applied, for 5s your weapon attacks will ignite your foes. | EffectObtainmentAfter landing enough basic attacks (LHT: 3, MED: 2, HVY: 1), every hit for 5 seconds will applyBurn. 10 second cooldown. Burn damage scales on Flamecharm investment.Procs an Eruption instead if you haveEruption Path. Procs Puppet Burn instead, spawning Puppets if you haveTwisted Puppets Path.Blazing can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Blazing enchanted weapon from a chest.BlazingEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Blessed Gem,Dying Embers
+BlusterView main pageAfter landing a few stacks of Bluster, start a countdown to an explosion that scales off your m1 damage. Land attacks during this countdown to make it explode faster. This explosion scales with your weapon investment. | EffectObtainmentAfter landing (LHT: 5, MED: 4, HVY: 3) hits, a 10 second countdown will start, ticking down to an explosion. Landing weapon attacks during the countdown will reduce the countdown's duration by 1 second.This explosion has a base damage of 27.5, gaining 0.25 damage per 1 weapon investment, up to 52.5 at 100 weapon. This deals typeless damage.This explosion is parriable and blockable, dealing 10 posture damage on block.Bluster is exclusively obtained from itsEnchant Stone.Bluster Enchant Stone can be obtained from:Chest drop fromTitus Fulminus Destellus.Sold inTraan Zakshun's black market for 5.
+ChillingView main pageChill for foes. Applies Bottom Freeze once enough stacks have been applied. | EffectObtainmentM1s apply a second instance of Frostdraw damage that deals 4% of the scaled damage of attack that procced it. Additionally, applyCrystalson M1 if you have the Crystallization path.After hitting a target (LHT: 5, MED: 4, HVY: 3) times, applyBottom FreezeandChillfor 2 seconds. This also increases Chilling's secondary Frostdraw damage instance to 10% of your scaled damage, on that hit. 5 second cooldown.If the target is a PvE enemy, additionally applySluggish, reducing their damage to you for the duration of the slow.Chilling's damage does not benefit from damage modifiers. Chilling stacks can also be gained from critical attacks if they have theM1 tag.Chilling can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Chilling enchanted weapon in a chest.ChillingEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant StoneandFrozen MembraneAnyEnchant Stone,Blue Gem, andFrigid Prism
+DeferredView main pageWeapon damage is increased by 7%, but becomes damage over time lasting for 2.5s. | EffectObtainmentRemoves the raw impact damage of your weapon by applying a 0x damage modifier; instead, your weapon inflictsDeferredon hit, dealing damage over time.Deferred deals your weapon's damage in 10% increments, over 2.5 seconds. Deferred's damage buff is treated as a damage modifier, and is additive to other damage modifiers.The Deferred status effect, and its damage over time, cannot be avoided once applied. Similarly to Viscostiy, Deferred's damage over time snapshots all of the relevant resistances and damage modifiers when the attack lands, meaning newly applied resistances/damage modifiers will not be considered and effects that run out will still have their bonuses applied.Deferred can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Deferred enchanted weapon from a chest.DeferredEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Aeon Logstone,Blessed GemAnyEnchant Stone,Blessed Gem,Irithine
+DetonationView main pageOnce enough stacks have been applied, an explosion is detonated. | EffectObtainmentAfter hitting a target (LHT: 5, MED: 4, HVY: 3) times they explode, dealing an additional 10 typeless damage in an AoE. You cannot increase the damage of the explosions through damage modifiers.Does not deal knockback. Regardless of the hit count, all critical attacks only apply 1 stack of detonation total. You cannot gain stacks from hitting knocked players.Explosions can execute.Detonation can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Detonation enchanted weapon in a chest.DetonationEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Blast Spark,Wayward GemAnyEnchant Stone,Iron Bomb,Wayward Gem
+ElasticView main pageOpponents are pulled towards you on hit. | EffectObtainmentOn M1, inflictTethered, causing a pink string connecting the weapon and your target to appear, pulling the target towards you.Tethered PvE enemies will deal reduced damage to you, scaling on how far away from you they are.Also procs on criticals with theM1 tag.Elastic can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Elastic enchanted weapon from a chest.ElasticEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Sap,Wayward Gem
+ErebusView main pageAn enchant once lost to time, now given to the mighty. When landing a critical, make your opponent forget how to use a mantra for a minute. | EffectObtainmentOn critical attack, put one of your opponent's Mantras on a one minute cooldown.The Mantra that goes on cooldown is entirely random.Erebus is exclusively obtained from itsEnchant Stone.Erebus Enchant Stone is obtained from:Winning 20Battle Royalematches on the same character.
+GluttonyView main pageSteals Water and Stomach from those you hit. | EffectObtainmentOn hit, steal hunger and thirst from the target based on damage dealt.Gluttony's sustenance steal is not affected byGluttonFlaw or damage modifiers, but it is affected by your opponent's damage resistances.Gluttony can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Gluttony enchanted weapon from a chest.GluttonyEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Megurger,Wrath GemAnyEnchant Stone,Ambrosial Chum
+GrimView main pageOnce enough stacks have been applied, Grim is applied for 6s, increasing all incoming damage by 25% and incoming posture damage by 50%. | EffectObtainmentAfter hitting the target up to (LHT: 5, MED: 5, HVY: 4) times,Grimwill be applied for 6 seconds. This status effect applies a +25% damage and +50% posture damage modifier to all incoming attacks.Grimisaffected by the damage modifier cap.Grim stacks can also be gained from critical attacks that have theM1 tag.Grim can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Grim enchanted weapon from a chest.GrimEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Bloodless Gem,Void Feather
+HarrowingView main pageObscures your opponent's health, posture, and armor bars. Also causes PvE to getConfusionon successful hits. | EffectObtainmentInflictsHarrowingon M1, which coats the enemy's posture, health, and armor bar in a nearly opaque purple and orange pattern, hiding how full or empty each bar is. While Harrowing is in effect, hovering over your bars will not display their percentages.In PvE, your M1s applyConfusion, making your opponent have a 5% chance to hit themselves instead whenever they attack you, applying a brief stun to the enemy and dealing their damage back to themselves in full.These effects last for 12 seconds and are refreshed upon landing another hit.Harrowing also procs on criticals with theM1 tag.Harrowing is exclusively obtained from itsEnchant StoneHarrowing Enchant Stone can be purchased from two different vendors:AnyBlacksmithfor  if you have theHallowtide '23 Medal.Glaive Spellhardtfor 100 Joy duringHallowtide.Other sources:Goodie Bag
+HeroismView main pageWhen above 75% HP, gain 4% damage for every 5% HP above 75%. When below 25% HP, gain 4% damage for every 5% HP below 25% HP. You can reflect negative status effects with light attacks or criticals to your opponent. | EffectObtainmentWhen above 75% HP: gain +4% damage for every 5% HP above 75% HP. (20% more damage at 100% HP)When below 25% HP: gain +4% damage for every 5% HP below 25% HP. (20% more damage at 0% HP)In PVE the damage buff is 0.25x the damage buff in PVP (4% - > 1%, 20% - > 5%)Landing weapon attacks will reflect certain status effects that are affecting you back onto your attacker. These status effects include: elementalStatus Effects(Burn,Chill,Suffocation,Winded,Shock, andFear the Dark),Antiheal, andTaunt.Note: Despite not removing the visual of the status effects, it DOES remove the status effect. Additionally, the reflected status effects are applied as if they were your own (e.g. Burn scales on your Flamecharm investment, not your opponents).Heroism can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Heroism enchanted weapon from a chest.HeroismEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Pure Gold,Smith's Alloy
+Kyrsan ChillView main pageOn critical hits, apply a slow that increases with each crit. At 5 stacks fully encase your opponent in ice. | EffectObtainmentOn critical hits, apply a slow that increases in potency with each subsequent critical landed. At 5 stacks, fully encase your opponent in ice.Similar to theFrozenstatus effect, the ice can be escaped early by spammingF.Kyrsan Chill can be obtained from itsEnchant Stone, dropped from theKyrsgarde Champion.
+MetalView main pageSteal Armor durability on hit. | EffectObtainmentOn hit, drain the target's armor durability to restore your own. Metal can still restore your armor even if the target has no armor durability left.The armor drain and armor restoration effects are calculated separately. Metal's effects are calculated based on your weapon's scaled damage, and the maximum armor durability of the relevant party; your armor durability for the restoration, and your opponent's armor durability for the drain.Metal cannot drain more than 200 armor durability in one hit. Similarly, Metal cannot restore more than 150 armor in one hit.Metal can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Metal enchanted weapon from a chest.MetalEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Iron,Smith's Alloy
+NemesisView main pageYour critical attack is replaced with Nemesis. Basic attacks now mark your enemies allowing you to critical attack to teleport to them. | EffectObtainmentYour weapon critical changes to play the animation of theKatanacritical. This does not have hitregistry unless a Nemesis Mark has been applied.On basic attack, aNemesis Markis placed on the enemy for 15 seconds. Using your critical while the marker is present teleports you to the enemy, dealing 25 flat damage, or 18 posture damage if blocked. Nemesis' critical does not benefit from damage modifiers.If multiple enemies have the red eye marker, using your critical will teleport you to each sequentially, rapidly using the critical on each.The critical can still trigger critical Talents like Bear Trap and Manipulator, but it will not benefit from any damage modifiers these Talents may grant.The teleportation has a range cap of 65-70 studs.Nemesis is exclusively obtained from itsEnchant Stone.NemesisEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Ashes,Wayward Gem
+NightbringerView main page | EffectObtainmentOn weapon attack, steal Ether based on damage dealt. The damage dealt to Ether stolen conversion is affected by the opponent's resistances, but is not affected by damage modifiers.Additionally, your weapon attacks can proc certainShadowcastTalents, such as Twisted Puppets' shadow burn orSightless Still.This enchantment will do nothing if you have not completedThe Gaunt Man's trial on your character.Nightbringer is exclusively obtained from itsEnchant Stone.Nightbringer Enchant Stone is a direct drop fromParliamentandPrime Megalodaunt(Guaranteed from Parliament but a 5% drop from the Prime Megalodaunt).
+ObfuscationView main pageYou gain some chip damage on m1 and crit. | EffectObtainmentGain (LHT: 15%, MED: 20%, HVY: 25%) chip damage. This is additive to other sources of Chip damage.Wyrmtoothcounts as a medium weapon, only gaining 20% chip.Obfuscation can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining an Obfuscation enchanted weapon from a chest.ObfuscationEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Glass Stone,Wind Gem
+Parasol's BlightView main pageHitting a player infects their body with Parasol's Blight. If a player who is infected is killed, their corpse is turned into one of the Parasol's Minions. This also has a chance of proccing on PvE enemies you kill. | EffectObtainmentOn weapon attack, apply the Parasol Blight status effect. This effect has no visual indicator and lasts for 60 seconds. This status effect will have its duration refreshed when landing subsequent hits. If a player who is affected by Parasol's Blight dies, their corpse will explode and an allied monster will spawn.Monsters you kill have a small chance of proccing Parasol's Blight and summoning allied monsters.The monster can be aMudskipper Broodlord,Alpha Megalodaunt,Void Thresher,Nautilodaunt, or aPrime Megalodaunt. These monsters can beCorruptedif used inThe Depths.This enchantment will do nothing if you have not completedThe Gaunt Man'strial on your character.Parasol's Blight is exclusively obtained from itsEnchant Stone.Parasol's Blight Enchant Stone can be obtained by exchanging 1Parasol PartwithThe Gaunt Man. This can only be done after you've completed the Gaunt Man's experiments.
+Providence's ThornsView main pageParrying attacks damages your foes. | EffectObtainmentPVE: Parrying an attack deals damage to the attacker after a delay. This deals 35% of the attack's damage you parried * your Power level, capping at 500 damage per proc.PVP: Parrying 3 attacks within 7 seconds deals damage to the attacker after a delay. This deals 4% of their maximum hp as damage.Providence's Thorns is parryable, but it does not grant autoparry frames.Certain bosses areentirely immuneto Providence Thorns. These are:Maestro Evengarde Rest,Heart of Enmity,Parliament,Kyrsgarde ChampionandTitus Fulminus Destellus.Providence's Thorns can be obtained from itsEnchant Stone, crafting it, trading withLaplace, or obtaining a Providence's Thorns enchanted weapon from a chest.Providence's ThornsEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Blessed Gem,Pristine Lotus
+SearView main pageWeapon gains +5% PEN. Applies Cauterize on hit for 15s, as well as draining their Water. Cauterized foes take more PEN the more stacks are applied. | EffectObtainmentYour weapon gains 5% PEN.
+Landing hits with your weapon applies stacks ofCauterize, increasing the incoming PEN your opponent takes by (LHT: 5.45%, MED: 8%, HVY: 10%) per stack. Cauterized caps at +40% incoming PEN.Cauterize's PEN bonus is applied to all damage sources like Mantras. Seardoes notbypass the 50% PEN cap unless you have Ether Overdrive or Million Ton Piercer.Additionally, drain your opponent's thirst equal to 20% of your weapon's scaled damage.Sear stacks lasts 15 seconds each. Applying a new stack does not refresh this timer.Sear can be obtained from itsEnchant Stone, trading withLaplace, or obtaining a Sear enchanted weapon from a chest.SearEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Blue Gem,Dying Embers
+SolarView main pageApplies a Solar Mark on critical attack or flourish. Solar Marks last 8s and reduce Tempo gain and Ether regeneration. Your Vent drains the Tempo of those you've marked. | EffectObtainmentApplies aSolar Markon Critical, Uppercut, or Flourish.
+Solar Marks last 8 seconds and reduces the affected target's Tempo gain and Ether regeneration.If you hit a marked enemy with aVent, steal their Tempo to refund your Vent's Tempo cost, removing the Solar Mark. If your opponent does not have enough Tempo to afford your Vent cost, you will pay the difference with your own Tempo.When fighting PvE enemies, your Vent damage against them is massively increased.Solar is exclusively obtained from itsEnchant Stone.SolarEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Insignia Gem,Suncross PendantAnyEnchant Stone,Dying Embers,Insignia Gem
+StoneView main pageDo extra true damage whenever you guardbreak an opponent with a light attack or critical. | EffectObtainmentAdds 0.25 true damage to your weapon attacks that guardbreak for every 1 weapon investment you have.Wyrmtoothwill prioritize its heavy investment over its medium investment.Stone can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Stone enchanted weapon from a chest.StoneEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone, Golem ChunkAnyEnchant Stone,Blessed Gem,RockSold inTraan Zakshun'sblack market for 5.
+StormView main pageShock your foes on hit every 5s. Rain will upgrade this shock into a lightning bolt called down from above. | EffectObtainmentOn weapon hit, Storm deals 16.5% of your weapon damage as a separate instance of Thundercall damage. This is doubled to 33% in an AoE if it is raining. On proc, this also appliesShockor 1Surge Rod. This effect has a 5 second cooldown.The damage this deals is based off your weapon's damageafterresistances, and it cannot be enhanced with damage modifiers. Because Storm deals a percentage of your attack's damage after resistances, it can bedouble resisted.Storm can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Storm enchanted weapon from a chest.StormEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Spark Gland,Wind GemAnyEnchant Stone,Ferryman's Coat Cloth
+StormbreakerView main pageYour critical attack is replaced with Stormbreaker Hurl, allowing you to launch your weapon. Shock your foes on hit every 5s. Occasionally, a lightning bolt may be called down from above. | EffectObtainmentOn M1, Stormbreaker deals 16.5% of your weapon damage as a separate instance of Thundercall damage. This is doubled to 33% in an AoE if it is raining. On proc, this also appliesShockor 1Surge Rod. This effect has a 5 second cooldown.The damage this deals is based off your weapon's scaled damage, and it cannot be enhanced with damage modifiers.Stormbreaker replaces your weapon critical with a new one that throws your weapon towards your cursor, ragdolling and striking targets with thunder. Stormbreaker's critical damage is 40flattypeless damage on throw and then 30flattypeless damage on return. Stormbreaker can hit the same target twice on throw or recall and it deals less than 1 posture damage per hit. You are unable to attack until your weapon returns. Completely halts the user's movement while the weapon is being recalled.Stormbreaker is obtained from itsEnchant Stoneand crafting.StormbreakerEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:Reversal Spark,Storm Enchant Stone
+SuffocatedView main pageLanding a critical, uppercut, flourish, or offhand attack procs suffocation. | EffectObtainmentOn critical hit, uppercut, flourish, oroffhand shot, applySuffocationfor a short duration.Suffocated is exclusively obtained from itsEnchant Stone.Suffocated Enchant Stone can be crafted at theLost Forgewith 1Windswept Enchant Stoneand 2Gale Essence.
+Tears of the EdenkiteView main pageOn critical attacks and flourishes, produce homing bubble projectiles. 20s CD | EffectObtainmentOn Flourish or Critical, create 5 bubbles around you that home onto an enemy, dealing damage and applying hitstun. This effect has a 20 second cooldown.The bubbles' damage scales with your weapon investment, dealing 11 damage at 100 weapon. Additionally they have 7.55x PvE scaling. The bubbles deal typeless damage, bypassing armor resistances.The bubbles are parryable, blockable, and dodgeable.Tears of the Edenkite is exclusively obtained from itsEnchant Stone.Tears of the EdenkiteEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Dread Serpent's Mane
+Umbral KnightView main pageOn hit, the Umbral Knight will strike your foes for 20% of your weapon's damage after a 0.25s delay. 5s CD. | EffectObtainmentOn hit, a red slash will follow up after a 0.25s delay, dealing 20% of your weapon's scaled damage. This has a 5 second cooldown.Umbral Knight can be parried, blocked, and dodged.Umbral Knight can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining an Umbral Knight enchanted weapon from a chest.Umbral KnightEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Insignia Gem,Umbral ObsidianAnyEnchant Stone,Insignia Gem,Pure Umbrite
+VampirismView main pageYour weapon attacks drain health from your foes and replenish your blood. | EffectObtainmentGain 20% of your weapon's scaled damage asTemporary Healthon hit. Additionally restore blood when landing weapon attacks. Vampirism caps at 100 Temporary Health and cannot grant Temp HP past this threshold.This Enchantment is less effective againstChaserandPrimadon, and almost entirely nullified against theScion of Ethiron.Vampirism can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Vampirism enchanted weapon from a chest.VampirismEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Ashes,Bloodless GemSold inTraan Zakshun'sblack market for 5.
+WildView main pageOn hit, deal 85% of your weapon's damage in an AoE. This AoE cannot hit allies or the enemy originally hit. Reduces your damage against allies by 50%. | EffectObtainmentWhen landing weapon attacks, deal 85% of your scaled damage in an ~18.25 stud AoE as typeless damage. This does not hit the initial victim.You can only proc this effect once per weapon swing; hitting two targets will only create one AoE.Allies only take 50% of your scaled damage from the Wild procs instead of the full 85%.Wild can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Wild enchanted weapon from a chest.WildEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Cloudstone,Wind Gem
+WindsweptView main pageAfter landing enough stacks, proc winded on your opponent. The duration scales with your weapon investment. | EffectObtainmentAfter landing (LHT: 3, MED: 2, HVY: 1) M1s, applyWindedto your opponent, reducing their swingspeed by 10% while active. The duration of this Winded effect scales on your weapon stat investment.This Enchant has a 5 second cooldown regardless of weapon investment, making it very weak on low invest.Windswept has a minimum of 0.5s duration and a maximum of 8 seconds, gaining 0.08s duration per weapon stat investment.When between 0 and 6 weapon investment, the duration will always be 0.5s, as the Enchant has a starting value of 0s, but the minimum duration this Enchant actually can be active is always 0.5s.In the case ofWyrmtooth, your Medium investment will take priority over your Heavy investment.Windswept's stacks do not decay over time. Criticals with theM1 tagcan build up stacks for Windswept.Windswept is exclusively obtained from itsEnchant Stone.Windswept Enchant Stone can as a chest drop fromTitus Fulminus Destellus.
+
+[Table 2]
+Enchantment | Info
+Curse of Captain GreeneView main pageKnown throughout the Summer Company, many heard of the famous treasurer Captain Greene. You inherit his strange ability of gaining damage the more rich you are. However since you aren't Captrain [sic] Greene himself, you lose notes whenever you get hit. A strange curse indeed... | EffectObtainmentYour weapon's base damage is tied to your currentNotes.Your weapon's base damage is reduced by 7.5%. For every Noteyou have, your weapon's base damage will be increased by 0.001%, capping at +7.5% base damage with 15k Notes.Upon taking damage from a player, lose 100 Notes. Upon landing a weapon attack, your opponent will lose 50 Notes. Both of these effects are signified by a coin splash sound effect.This enchantment will do nothing if you have not completedThe Gaunt Man's trial on your character.Curse of Captain Greene is obtained exclusively from itsEnchant Stone.Curse of Captain Greene Enchant Stone can be obtained by trading 1Exotic HidetoThe Gaunt Man.
+Curse of RepulsionView main pageWhen you block attacks, you knock your attacker backwards. You receive +30% chip damage. | EffectObtainmentUpon blocking an attack, push the attacker backwards. Additionally, you take 30% chip damage from the attack that procced this enchant.Curse of Repulsion has a 2.5 second cooldown. There is no range limit for this effect.Curse of Repulsion is exclusively obtained from itsEnchant Stone.Curse of RepulsionEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Odd Tentacle,Wayward Gem
+Curse of the AuthoritativeView main pageOn critical, uppercut, or flourish, apply Authoritative on your opponent making them take 50% more posture damage. When you get guardbroken, take 50% more damage. | EffectObtainmentYou take 50% more damage when being guard broken.On Flourish, Critical, or Uppercut, apply theAuthoritativestatus effect to yourself, increasing all posture damage you deal by 50% for 30 seconds.Curse of the Authoritative is exclusively obtained from itsEnchant Stone.Curse of the Authoritative Enchant Stone can be obtained as a chest drop fromTitus Fulminus Destellus.
+Curse of the BloodthirstyView main pageDeal +10% weapon damage and drain the blood of your foes, but suffer blood loss if your weapon attacks miss. | EffectObtainmentGrants a +10% damage buff to your weapon.Your weapon gains a blood drain effect. This blood drain scales on your weapon's damage.If you whiff an M1, lose 2% of your maximum blood.Curse of the Bloodthirsty can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a/an Curse of the Bloodthirsty enchanted weapon from a chest.Curse of the BloodthirstyEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Bloodless Gem,Strange Claw
+Curse of the No Life KingView main pageGrants passive regen and damages the sanity of your foes, but succumb to the insanity much faster, lose twice as much blood, and never be more than a step away from death. The amount of healing scales with your weapon stat invested. | EffectObtainmentWhile held, gain increased passive health regen that scales on your weapon investment. This healing will lose effectiveness based on how much maximum health you have. Landing weapon attacks deals 2% of your opponent's maximumSanityas Sanity damage.Your health state will be changed toCursedwhile equipped, visually staining your health at and making any death send you tothe Depths. Getting hit will extend the duration of the health state by 60 seconds, remainingCursedfor a duration even if you swap weapons.While your weapon is unsheathed inthe Depths, lose 2Sanityper second. Additionally, reaching 0Sanitywhile having a Curse of the No Life King weapon equipped will result in your head rupturing (instant death).ViscosityandConditioned Runneris disabled, the effectiveness ofCauterized Wounds,Alloyblood, and healing potions is reduced, and you take 2x blood damage from all sources while you have this enchantment equipped.This enchantment does not work in theChime of Conflict.Curse of the No Life King can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Curse of the No Life King enchanted weapon from a chest.Curse of the No Life KingEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Bloodless Gem,Umbral ObsidianAnyEnchant Stone,Bloodless Gem,Urchin
+Curse of the UnbiddenView main pageYour critical attack is replaced with Unbidden Counter, restoring posture and stunning your attacker. Your attacks drain Ether on hit. | EffectObtainmentDrains the target'sEtheron hit, based on scaled damage dealt.Your critical attack is replaced with a counter that drains 25% of your Ether on use. Successful counters grants you i-frames and hyperarmor and briefly stuns your opponent, as well as restoring 30% of your Posture and refunding 15% of your maximum Ether.The counter has a cooldown of 6 seconds, however, failing to counter something raises the cooldown to 8 seconds.Curse of the Unbidden is exclusively obtained from itsEnchant Stone.Curse of the UnbiddenEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Blue Gem,Crystal Lens
+Curse of VoidView main pageEvery enemy you slay while equipping this weapon will always be Drowned. Enemies hit will also experience reduced healing. It also applies 10 seconds ofEther Sunderto PvE enemies. | EffectObtainmentOn weapon attack, apply theCurse of Voidstatus effect. This effect has no visual indicator and lasts 30 seconds.For the duration of the status effect, the target is under a 40% Anti-Heal effect. Additionally, if they die while affected by Void, they will drown and be sent toThe Depths.Your health state will be changed toCursedwhile equipped, visually staining your health at and making any death send you tothe Depths. Getting hit will extend the duration of the health state by 60 seconds, remainingCursedfor a duration even if you swap weapons.In PvE, your weapon attacks applyEther Sunderfor 10 seconds, granting 30% elemental damage reduction against their attacks.This enchantment will do nothing if you have not completedThe Gaunt Man'strial on your character.Curse of Void is exclusively obtained from itsEnchant Stone.Curse of Void Enchant Stone can be obtained by exchanging 25Void Spiresand 10withThe Gaunt Man. This can only be done after you've completed the Gaunt Man's experiments.
+Curse of Ysley's EmberView main pageOnce enough stacks have been applied, the Fire of Life geminates. The explosion deals a random amount of damage and grants temporary health to the affected targets. | EffectObtainmentAfter hitting a target (LHT: 5, MED: 4, HVY: 3) times they explode, applyingFlames of LifeandTemporary Healthto them and other nearby targets.The damage of explosion and amount of Temporary Health given are randomized.Damage:5.5-33 typeless damage. This cannot be buffed, and the explosions cannot execute.Temporary Health:0-50.The explosion has 7.56x PvE scaling, the green fire has 6.66x PvE scaling; multiply PvP damage dealt by this amount to get PvE damage. Temporary Health given does not scale in PvE.Curse of Ysley's Ember is exclusively obtained from itsEnchant Stone.Curse of Ysley's Ember Enchant Stone can be obtained from:Chests from the following bosses, events, and locations:Primadon,Elder Primadon,Starswept Valley,The Diluvian Mechanism, andFishing.Sold inTraan Zakshun'sblack market for 8.Directly dropped fromHiveandRogue Constructs.Turning in anArtifactto bankers in theEastern Luminant.
+Curse of Yun'ShulView main pageHas a chance to inflict a curse that deals percentage damage, but who it falls upon is often down to luck. | EffectObtainmentOn weapon attack, there is a chance that one of two things will happen:A percentage (LHT: 3%, MED: 4.5%, HVY: 6%) of your maximum health will be added to your attack's scaled damage.This is applied before damage modifiers.You lose 7% of your maximum health instead. This can autogrip you.Curse of Yun'Shul has a 12 second cooldown per victim.Curse of Yun'Shul can be obtained from itsEnchant Stone, trading withLaplace, or by obtaining a Curse of Yun'Shul enchanted weapon from a chest.Curse of Yun'ShulEnchant Stone:Exchanging 5toKlaris(grants a random non-exclusive Enchant Stone)War ModeHell ModeScion of EthironMaestro Evengarde RestDread SerpentHeart of EnmityChaser, Scholar of the Crimson ContractSaramaed HollowSecond LayerDiluvian MechanismGalewaxRoom in theSecond LayerCrafting:AnyEnchant Stone,Idol of Yun'Shul
+
+[Table 3]
+Enchantment | Info
+AdhesiveView main pagePulls your attacker towards you. | EffectObtainmentUpon taking damage, this has a 33% chance to proc. On proc, pull the attacker towards you.Adhesive can be obtained from itsEnchant Greaseor by obtaining an Adhesive enchanted equipment from a chest.AdhesiveEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Blue Gem,Sap
+AllureView main pageIncoming hits may Charm your attacker for 10s. | EffectObtainmentUpon taking damage from M1s, this has a 50% chance to proc. On proc, applyCharmto the opponent for 10 seconds.Charm-augmenting Talents can proc on Allure.Allure can be obtained from itsEnchant Greaseor by obtaining an Allure enchanted equipment from a chest.AllureEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Insignia Gem,Magnet SparkSold inTraan Zakshun's black market for 5
+BounceView main pageIncoming hits may bounce your attacker away. | EffectObtainmentUpon taking damage, this has a 20% chance to proc. On proc, push the attacker away, making it harder for them to chain attacks.Bounce can be obtained from itsEnchant Greaseor by obtaining a Bounce enchanted equipment from a chest.BounceEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Reversal Spark,Wind Gem
+DisplacementView main pageIncoming hits may proc Displacement, granting a speed boost and clearing all stuns present. | EffectObtainmentUpon taking damage from a humanoid opponent, this has a 30% chance to proc. On proc, gain a speed boost for 4 seconds and clear all stuns from your character.Displacement can be obtained from itsEnchant Greaseor by obtaining a Displacement enchanted equipment from a chest.DisplacementEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Blast Spark,Wayward Gem
+DrownedView main pageBolster the stats of your equipment, adding an additional +10 Health, +10 Ether, +5% Damage Vs. Monsters, and +5% Monster Armor. | EffectObtainmentGrants +10 Health, +10 Ether, +5% Damage Vs. Monsters, and +5% Monster Armor to the equipment's stats.Drowned can be obtained from itsEnchant Greaseor by obtaining a Drowned enchanted equipment from a chest.DrownedEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Insignia Gem,Umbral ObsidianSold inTraan Zakshun's Black Market for 10
+EntanglementView main pageIncoming hits may proc Entangled Defence, reducing your speed in exchange for 10% damage reduction | EffectObtainmentUpon taking damage from weapon attacks from a humanoid opponent, this has a 20% chance to proc. On proc, the user will be slowed by 22.5% and will gain 10% damage reduction to all attacks for5 seconds.Entanglement has no cooldown and can be procced while its active, refreshing its damage reduction duration, but stacking the slow.The damage reduction effect also applies to the attack that procced the Enchant.Entanglement can be obtained from itsEnchant Greaseor by obtaining an Entanglement enchanted equipment from a chest.EntanglementEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Magnet Spark,Wayward Gem
+FerocityView main pageIncoming hits may proc a speed boost and deal reduced damage. Both the speed boost and damage reduction scale with your currentTempo. | EffectObtainmentUpon taking damage from a humanoid target, this has a 25% chance to proc. On proc, gain the following bonuses:+8% speed boost for 5 seconds. This scales on your current Tempo, granting a +40% speed boost at full Tempo.+0% damage reduction to the hit that procced Ferocity. This scales on your current Tempo, applying 15% damage reduction at maximum Tempo.Ferocity can be obtained from itsEnchant Greaseor by obtaining a Ferocity enchanted equipment from a chest.FerocityEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Bloodless Gem,Strange ClawAnyEnchant Grease,Bloodless Gem,Megalodaunt Hide
+MultiplicityView main pageIncoming hits may grant you a random boon of Recovery, Healing, or Agility. 5s CD. | EffectObtainmentUpon taking damage from weapon attacks from a humanoid opponent, this has a 20% chance to proc. On proc, recover health, restore your sustenance meters, or gain an agility bonus, each of these effects have an equal chance to proc, meaning each individual effect has a 6.6% chance to be procced when you get hit. Multiplicity has a5 second cooldown.On health recovery: Restore 1.5% of your maximum health. This isappliedafter Anti-Heal on the same attack (meaning it could be nullified entirely), butbeforedamage is taken, possibly saving you from being knocked.On sustenance restoration: Restore 20% of your maximum blood and 11% of your maximum hunger & thirst.On agility bonus: Increase your climb height by 15% for 5 seconds.Multiplicity can be obtained from itsEnchant Greaseor by obtaining a Multiplicity enchanted equipment from a chest.MultiplicityEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Blessed Gem,Multiplying Spark
+RainView main pageIncoming hits may summon rain clouds above you. | EffectObtainmentUpon taking damage, this has a chance to proc. On proc, create a rain cloud above your head. 45 second cooldown.This rain cloud functions as normal rain, debuffingFlamecharmabilities by 10%, increasingThundercall(if you have theStratoshockTalent) and Storm Enchantment's damage, and increasing the damage of yourFrostdrawabilities if it's Winter.If you have theChillingEnchantment on your weapon, or if it'sWinter, create snow instead.If you haveStenchon another equipment piece, or if you are inUpper Erisia, create an acid rain cloud instead. This will damage yourself and all players in its AoE, however you will become immune to the damage it deals if you have theSurvivalistBoon.This enchantment will do nothing if you have not completedThe Gaunt Man'strial on your character.
+StenchView main pageIncoming hits may produce a Stench Cloud, gradually draining 3% of their maximum health (max. 30 damage) if not blocked. | EffectObtainmentUpon taking damage, this has a 20% chance to proc. On proc, release a cloud of blockable gas that deals damage to targets who stand in it.This deals 1% of your opponent's maximum health per tick, ticking 3 times for 3% total damage. Stench cannot deal more than 10 damage in a singular tick.This has a 40 second cooldown.Stench can be obtained from itsEnchant Greaseor by obtaining a Stench enchanted equipment from a chest.StenchEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:AnyEnchant Grease,Chum,Wind GemSold inTraan Zakshun'sblack market for 5
+ViscosityView main pageIncoming damage is converted into damage over time and applied for 2.5s. | EffectObtainmentIncoming damage is instead applied as a damage over time effect, over 2.5 seconds. User takes 10% of the initial incoming damage every 0.25s, 10 times.Similarly to Deferred, the damage over time from this Enchantment snapshots all of the relevant resistances and damage modifiers when the attack landed, meaning newly applied resistances/damage modifiers will not be considered and effects that run out will still have their bonuses applied.This enchantment will be disabled if you are usingCurse of the No Life Kingon your weapon orImmortal Helm.Viscosity can be obtained from itsEnchant Greaseor by obtaining a Viscosity enchanted equipment from a chest.ViscosityEnchant Grease:Exchanging 5toKlaris(grants a random non-exclusive Enchant Grease)Exchanging 5toLaplace(grants a random non-exclusive Enchant Grease)The Diluvian MechanismWar ModeGalewaxRoom in theSecond LayerCrafting:Aeon Logstone, AnyEnchant Grease,Blessed Gem
+
+[Table 4]
+Enchantment | Info
+Ether SurgeView main pageLanding enough light attacks gives you infinite ether for some time. | EffectObtainmentAfter landing 5 M1s, Ether Surge gives the user infinite ether for 10 seconds.Landing additional hits while this is active will extend the duration.Ether EruditeMemento
+
+[Table 5]
+Enchantment | Info
+JOE'sView main pageIt stands for Judicator's Original Enchantment. An enchant that was supposed to be only for the strongest of monster slayers. No one knows what happened to the original Judicator who made this enchant. | EffectObtainmentLanding M1s builds stacks for the critical attack. On critical attack, plunge your weapon into the ground and stop time in an AoE around you.The size of the AoE and the duration of the time stop scale on the amount of stacks you had. 1 hit = +1 second.Upon being guardbroken, negate the guardbreak stun.Unobtainable.When JOE's was obtainable, it was a potential reward from events hosted by Agamatsu.
+Life WeaveView main page | EffectObtainmentUnknownUnobtainable
+Tainted SorrowView main page | EffectObtainmentOn hit, the critical attack is replaced with the ability to pull/fling the victim towards the user with a corresponding small pillar effect. Flourishing makes all subsequent attacks fling the target upward.Unobtainable
+UnstableView main page | EffectObtainmentEvery hit has an individual 10% chance to proc any other enchantment in the game. Multiple enchantments can proc at once.If a hit count-based enchantment is procced, you will gain 1 stack for that enchantment.Unobtainable
+
+[Table 6]
+Enchantment | Info
+Auto-RepairView main page | EffectObtainmentAn enchantment that Arch_Mage forgot to remove in the initial week of Deepwoken's release, and has since become unobtainable. Arch has confirmed there was no data associated with this. As such, we don't know the true function of this enchant.Unobtainable
+Curse of Zariffs AbsorptionView main page | EffectObtainmentConfirmed by yayafino, this enchantment let the user temporarily steal their opponent's enchantment on hit.Unobtainable
+
+[Table 7]
+Enchantments
+Weapon Enchantments
+Blessings | AstralBlazingBlusterChillingDeferredDetonationElasticErebusEther SurgeGluttonyGrimHarrowingHeroismKyrsan ChillMetalNemesisNightbringerObfuscationParasol's BlightProvidence's ThornsSearSolarStoneStormStormbreakerSuffocatedTears of the EdenkiteUmbral KnightVampirismWildWindswept
+Curses | Curse of Captain GreeneCurse of RepulsionCurse of the AuthoritativeCurse of the BloodthirstyCurse of the No Life KingCurse of the UnbiddenCurse of VoidCurse of Ysley's EmberCurse of Yun'Shul
+Equipment Enchantments
+ | AdhesiveAllureBounceDisplacementDrownedEntanglementFerocityMultiplicityRainStenchViscosity
+
+=== Sub Pages Explored ===
+- Suffocated (enchantment)
+- Rain (enchantment)
+- Life Weave (enchantment)
+- Bosses
+- Chaser
+- Chaser, Scholar of the Crimson Contract
+- Enchant Grease
+
+---
+
+### 🌐 [웹/위키 문서 8] deepwoken-wiki-hybrid-abilities_81ce250e
 
 Title: Deepwoken Wiki: Hybrid Abilities
 URL: https://deepwoken.fandom.com/wiki/Hybrid_Abilities
@@ -10038,7 +11461,7 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 8] deepwoken-wiki-monster-mantras_3aac21b6
+### 🌐 [웹/위키 문서 9] deepwoken-wiki-monster-mantras_3aac21b6
 
 Title: Deepwoken Wiki: Monster Mantras
 URL: https://deepwoken.fandom.com/wiki/Monster_Mantras
@@ -11254,7 +12677,7 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 9] deepwoken-wiki-oath-silentheart_6342c201
+### 🌐 [웹/위키 문서 10] deepwoken-wiki-oath-silentheart_6342c201
 
 Title: Deepwoken Wiki: Oath: Silentheart
 URL: https://deepwoken.fandom.com/wiki/Oath:_Silentheart
@@ -12309,7 +13732,7 @@ OathlessArcwarderBladeharperBlightsurgerBlindseerChainwardenContractorDawnwalker
 
 ---
 
-### 🌐 [웹/위키 문서 10] deepwoken-wiki-power_00c5fc78
+### 🌐 [웹/위키 문서 11] deepwoken-wiki-power_00c5fc78
 
 Title: Deepwoken Wiki: Power
 URL: https://deepwoken.fandom.com/wiki/Power
@@ -13394,7 +14817,1538 @@ If you've fully progressed an Oath prior to
 
 ---
 
-### 🌐 [웹/위키 문서 11] deepwoken-wiki-weapons_5ff2d9d1
+### 🌐 [웹/위키 문서 12] deepwoken-wiki-traan-zakshun_14045519
+
+Title: Deepwoken Wiki: Traan Zakshun
+URL: https://deepwoken.fandom.com/wiki/Traan_Zakshun
+Description: Official Fandom Wiki document for Traan Zakshun
+
+==================================================
+
+Traan Zakshun
+Naan Zakshun
+Pathfinder
+Exclusive
+You are currently viewing the version of this content that only applies to the
+Pathfinder
+gamemode.
+For its gameplay counterpart in
+Vow of Iron
+, use the above navigation.
+“ Here's the current lineup. Try not to drool. ”
+― Traan Zakshun
+Contents
+1
+Description
+2
+Location
+3
+Dialogue
+3.1
+Shop UI
+4
+Shop Rotation
+4.1
+Sold Items
+5
+Black Market
+5.1
+Shop UI
+6
+Black Market Shop Rotation
+6.1
+Sold Items
+7
+Gallery
+8
+Trivia
+9
+Reference     s
+Description
+[
+]
+Traan Zakshun is a
+Canor
+NPC
+. He is a merchant who sells various outfit schematics, equipment, and weapons labelled as "Traan's Salvaged Stock".
+He is a middle-aged carafe brown Canor with short, dark green hair that sweeps to the right. Both of his eyes are in a vibrant lime hue, accompanied with a small upwards crescent. On his face is a scar that forms from the bridge of his nose to the left side of his face, and markings that consist of a fading green eyeshadow on the top, with downward facing crescents that have three individual streaks on the bottom.  He wields an
+Iron Twinblade
+on his back and wears the default variant of the
+Carefree Garments
+outfit, complimented with an ivory
+Suncross Pendant
+. Traan also wears a hat made out of kelp on his head, fashioned with two kelp leaves attached by a crown
+which he claims is for later consumption.
+Traan got into the business by working alongside his grandmother,
+Naan Zakshun
+, during the
+Etrean Civil War
+. During this time, he learned to create kelp hats and gave one to her to wear. He also has a love of ongos that dates back to his youth.
+[
+1
+]
+Traan Zakshun's shop runs on an hourly rotation. Every hour, he sells two to eight items chosen at random from a list. He can sell the same item multiple times, on the same rotation, and across multiple rotations. Most of their shop consists of uncommon weapons and schematics that are geared towards mid-game.
+Once every 20 hours Traan Zakshun will appear hosting a
+Black Market Cache
+for rare items such as
+Relics
+and Legendary
+Weapons
+. These items are only sold for
+Crowns
+and only one item total can be purchased per black market visit.
+Location
+[
+]
+Traan Zakshun is located at
+Lower Erisia
+, inside of a cave near the Legion camp.
+Traan Zakshun's cave
+Dialogue
+[
+]
+First Encounter
+Subsequent Encounters
+Shop UI
+Black Market
+Begin Dialogue
+Look what the tide dragged in. You here for gear, or just lost?
+What?
+I sell my wares to those with some real fine tastes... and even finer notes. Ye' got that?
+What are you selling?
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+Begin Dialogue
+Back again? Here to actually buy something, or just stare?
+Yeah.
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+Begin Dialogue
+When accessing the Shop
+After purchasing something
+If you can't afford the item you attempted to buy
+If you attempt to buy something at max carry capacity
+Here's the current lineup. Try not to drool.
+Done deal! Come back in a lil' bit when I haul some new goodies up here, yeh?
+You're short now, pal. Come back when you're not drowned broke, yeah?
+Ugh you're carrying way too much. Come back when you're not a walking junk pile.
+[
+Opens
+Shop UI
+]
+[End Dialogue]
+[End Dialogue]
+Begin Dialogue
+When accessing the Black market
+After purchasing something
+Speaking to him after purchasing something
+Keep your voice down... here's tonight's haul. Purchase limit of one item each, this stock's very limited.
+Thanks for the sale. Come back later for my usual wares. I'll always have things in stock.
+Y'already bought from me tonight. Don't get greedy, I've got other folks to barter with.
+[
+Opens
+Black Market UI
+]
+[End Dialogue]
+[End Dialogue]
+Shop UI
+[
+]
+Traan's Salvaged Stock
+[Item price]
+Notes
+[Item name]
+A rare find indeed.
+Depending on the rotation, he can sell 1 to 8 items at once. Typically, he sells 3 to 6 items each visit.
+Traan's item descriptions will change randomly each time he sells goods from his Salvaged Stock:
+A rare find indeed.
+An item most regal!
+Check out the drawing on the package - that's a handsome fella, surely that makes you want this on your shelf!
+Colour makes us hungry - everything's connected!
+C'mon, everybody and their grandma wants to buy something like this.
+DON'T drop it...
+Found this one in my nan's home during clearance - all pieces still intact!
+Hard sell, eh?.. What if it was purple?
+Hey now come on, it's not that expensive...
+Hey, you break it - you buy it.
+I dropped a boulder on the guy I stole this from.
+I threw the guy I stole this from into the Megalodaunt nest not too far from here. Easiest clean-up ever.
+I stole these from local bandits, by the way.
+I would keep this for my own, you know... Buy my shelves are getting rather full.
+Is it a True Seraph Spear or a True Seraph's Spear? Who even is the True Seraph? Where am I? Who are you?
+Isn't it weird how there's like, next to no fruit in Erisia? I had to plant my own tree near the shoreline... if you care.
+It's had a little wear and tear, but who cares! Hey, that rhymed a little...
+It's not overpriced, I swear!
+I'd keep this for myself, since it's so lovely... But I'd love it more if you were to buy it instead!
+I'm getting bored of describing these. Maybe you should just bag yourself this bargain!
+I've seen these for sale for three times the price, but I'm throwing you an aaabsolute curveball with this deal here...
+Look at all those shiny colours!
+Looks valuable, you should buy it!
+Lovely weather for buying something exactly like this, eh?
+No change - no problem! I'll keep the difference as a tip!
+Now see, I would buy this. From myself.
+Oh, haha, that's not dust, that's, uhm... an expensive finish, probably a fashion thing.
+Oof, man. Are you sure you can afford this heat?
+People keep asking for these to be purple? I don't get it.
+Really? That's the best outfit you could come up with?
+Regahl rega regi.. You pronounce it reg-ah-lee-ah right?
+Seems like a great deal, huh? But I'm NOT done yet!
+Seen this one before, you say? No no, in the business, we call that a 'remaster'!
+That's *gotta* be one of a kind, right? And it could be yours!
+That's in good condition for its age!
+The Legendary Boot?.. Pff, good joke pal, I don't sell trash.
+The price is too steep, you say? Nonsense! I'm just wearing my Sunday Shirt of Selling. It increases my mercantile skill.
+These are perrr~fectly reasonable prices, stop giving me a hard time.
+They don't make 'em like they used to anymore, you know?
+They say you should never look a gift horse in the mouth! ...Well, these aren't gift horses. Look all you want! Buy, even!
+This catch your eye?
+This could almost be an antique, I think?
+This is a real steal, probably.
+This one really stood out when I was looting the guy who had it.
+This one's so valuable it's been sitting around for years!
+This usually isn't the case, but I almost drowned getting this, haha.
+This will surely have you saying: 'shut up and take my money'!
+Traan Zakshun has wares if you have coin-- erm, I mean... notes. Yes.
+Truly a divine thingymabob.
+Used to know a guy who made these, you know... What happened to him? Oh, he's fine. He just doesn't make these anymore.
+Use my special offer! You can get TWO items, for the price of one-plus-one item! Isn't that a steal?
+What's that? Do I have a reegahl... reeg... regi... Reh-gah-lee~ yah? You're talkin' crazy, pal.
+Who's your buddy there behind you?
+Yes, this is my real name... legally.
+You got any Ongo slices? I could really go for a snack...
+You know, I'm told that Drallis Ehr guy *really* likes this one... If that makes you any more interested?
+Y'know, if you don't like this thing very much, it'll at least make for a lovely decoration!
+Shop Rotation
+[
+]
+Sold Items
+[
+]
+Outfit Schematics
+For 80
+:
+Starter
+:
+Hired Mercenary
+Adept
+:
+Authority Peacekeeper Armor
+,
+Carefree Garments
+,
+Diver Apprentice Robes
+,
+Flame Worshipper Armor
+,
+Ignition Union Uniform
+,
+Keeper
+Expert
+:
+Cloak of Winds
+,
+Diver Journeyman Robes
+,
+Hive Drone
+For 200
+:
+Starter
+:
+Eager Tradesman
+,
+Merchant Robes
+,
+Pathfinder Sorcerer
+,
+Scholar
+Adept
+:
+11th Legion Plate
+,
+Navaen Nomad Robes
+,
+Pathfinder Thaumaturge
+,
+Summer Company Uniform
+Expert
+:
+Authority Captain Uniform
+,
+Cerulean Gown
+,
+Hive Tactician Armor
+,
+Ignition Trailblazer
+,
+Seamstress's Attire
+,
+Varicosan Finery
+,
+Whaler Coat
+Master
+:
+Legion Centurion
+,
+Prophet's Cloak
+Miscellaneous
+For 100
+:
+Frigid Prism
+,
+Gale Stone
+,
+Heartstar
+For 1,000
+:
+Dye Packet
+For 2,500
+:
+Glumfig
+For 15,000
+:
+Goodie Bag
+(
+Hallowtide
+only)
+Weapons
+For 100
+:
+Bronze Aspis
+For 300
+:
+Light Weapons
+:
+Whaling Knife
+Medium Weapons
+:
+Katana
+,
+Vigil Longsword
+,
+Warden Ceremonial Sword
+Heavy Weapons
+:
+Adretian Axe
+For 500
+:
+Needle's Eye
+For 650
+:
+Medium Weapons
+:
+Alloyed Falchion
+,
+Alloyed Scalesplitter
+,
+Rifle Spear
+,
+Scoundrel's Saber
+,
+Serrated Warspear
+Heavy Weapons
+:
+Darkalloy Greatsword
+For 750
+:
+True Seraph Spear
+For 1,000
+:
+Krulian Knife
+For 1,250
+:
+Medium Weapons
+:
+Crescendo
+Heavy Weapons
+:
+Evanspear Greataxe
+For 4,500
+:
+Hero's Blade of Flame
+,
+Hero's Blade of Lightning
+,
+Hero's Blade of Shadow
+For 5,000
+:
+Night Axe
+Equipment
+For 35
+:
+Brow Stud
+,
+Dermal Stud
+,
+Moon Brow Rings
+,
+Moon Dermal Rings
+,
+Moon Lip Ring
+,
+Moon Septum Ring
+,
+Nose Stud
+,
+Snakebite Studs
+For 55
+:
+Wool Beret
+For 100
+:
+Sailor's Fleece
+Black Market
+[
+]
+Once every 20 hours, instead of a regular item rotation, Traan Zakshun will sell goods from their black market stock. For reference to calculate when the black market is available, every five days, the black market will be available at both 00:00 UTC and at 20:00 UTC on the same day. These items are a variety of
+Relics
+and Legendary
+Weapons
+, sold exclusively for
+Crowns
+. Only
+one item total
+can be purchased per visit. Like any normal shop rotation, the black market will only last one hour. Prices appear to fluctuate depending on the day. The
+Gilded Needle
+for example has been seen at both ten
+Crowns
+and five
+Crowns
+. Listed prices are what appears most frequently.
+Shop UI
+[
+]
+Traan's Black Market Cache
+[Item price]
+Crowns
+[Item name]
+I barely know what I'm looking at here.
+The black market can have up to 8 items at once with a minimum of 4.
+Traan's item descriptions will change randomly each time he sells goods from his Black Market Cache:
+A strange blue turnip salesman once told me that deep forests, like the ones in Upper Erisia, bring in good coin. Gotta say, he's right.
+All sales are final. I'm limited liability, yeah?
+Buy it you break it. Wait a sec...
+Careful. This one's got a history.. I think.
+Did you know if you give me the crowns, I'll actually GIVE you the item, it's a crazy deal right?
+DON'T drop it...
+Don't even ask, man.
+Got somethin' that might interest ya...
+Have I seen you before? Yeah, wait... you told people my stock sucked... Wait. Actually, that might've been someone else. I *will* find them.
+Ignore the scuff marks, there were barnacles on it when I found it.
+I barely know what I'm looking at here.
+I found this in my nan's *other* stash during clearance... That lady's got a chequered past, eh?
+I gave one of these away for free yesterday. You missed out.
+I need to use these crowns to buy some earplugs, for that eardrum-rupturing sea snake...
+I uhh, yeah I really shouldn't have these.
+If anyone asks - you didn't get this from me. Capiche?
+It cost me an arm and a limb to get ahold of these. Not mine, of course...
+I'd wipe this for fingerprints.
+I've actually found myself in a spot of trouble when I was out and about with these after I got them..
+It's Antique! Scratch that, Brand New!
+It's just good business.
+Just warning ya, you *might* be a wanted person in multiple places after buying this. Don't go wavin' that around.
+Man - it's been a like a whole hour, and my seafood boil isn't here yet! For all the talk The Meatlord gets, he's kind of a slowpoke.
+Market's been doing so well I can flaunt my money on my hat! I have more money than you!
+Maybe clean this when you get a minute.
+Maybe I should get into mystery boxes... You'd buy one right?
+Might need to steal me a sweater, gettin 'a little chilly up here.
+Next time, if you come wearing a full clown outfit, I might give you a discount... Pff!
+Never again will I make the mistake of using one of these.
+No questions, no returns.
+Not sure if I really want to let this one go... If that makes you want it more?
+Oh this one's verrry special - I can only let you buy one.
+Oh, this one might be cursed. Like, actually.
+Ohh yeah, this has gotta be one a kind, just look at the uhh... look at it!
+Okay, you really have to be careful with this.
+One of the items of all time.
+Some guy literally walked through a mirror and handed me these, it was the strangest thing...
+Thanks for looking, you know... you could actually buy it.
+That glowy Diver lady's bright, but not that bright. See this scar on my face? I convinced her a regular egg was an exotic Megalodaunt egg and walked away with a whole shipment of dye packets. Worth every bruise.
+The Legendary Boot?.. Pff, good joke pal, I don't sell trash.
+The Moonseye is real beautiful, huh. I never really gave it much thought before... Then again I haven't been here too long.
+This isn't overpriced, it's MY SHOP!
+This one's actually worth more than two times my price... I promise!
+Try not to draw attention when you walk out of here, alright?
+Ugh, I don't even like WANT to sell this... Unless.. I dunno~ you gave me the crowns for it?
+Until earlier I genuinely forgot I even had this, does that make you want it more?
+Wait. I think the sticker price is wrong... um.. whatever, crowns are crowns right?
+...What's an 'angel statue'? Look, I think you're confusing me for someone else here, buddy.
+What? No, it doesn't come in purple. What kind of question is that, man?
+Where'd I get this? Fell outta the back of a carriage, yeah?
+Whispers say this was lost to time... ooOOOooo !!
+Why are my eyes green? B'cus it's all I see.
+Y'know I sold Maestro Evengarde Rest a Moon Ring? He HATES it when I tell people that!
+You buy it - you break it. Wait a sec...
+You got cash for a crown? I'm running low on change here... If not, it's fine.
+You want it? It's yours, my friend! As long as you have enough crowns.
+You want my hat instead? I actually made it out of dried kelp, I'm saving it for later. *Not* for sale.
+You wouldn't believe how hard these were to find.
+Black Market Shop Rotation
+[
+]
+Sold Items
+[
+]
+Outfit Schematics
+For 20
+:
+Darkened Bastion
+For 45
+:
+Celtorian Tideknight
+Miscellaneous
+(Mostly
+Relics
+)
+For 1
+:
+Armorer's Needle
+,
+Egg
+,
+Hemobloom
+,
+Plumfruit Muffin
+,
+Rain Spire
+,
+Terrapod Shell
+,
+Umbral Candle
+,
+Void Spire
+For 2
+:
+Ardour Manifestation
+,
+Broken Gatling Gun
+,
+Forge Needle
+,
+Glumfig
+,
+Goodie Bag
+(
+Hallowtide
+only)
+For 3
+:
+Smith's Alloy
+For 4
+:
+Moonseye Tome
+For 5
+:
+Dread Serpent's Mane
+,
+Idol of Yun'Shul
+,
+Gilded Needle
+Enchant Stones
+&
+Enchant Grease
+:
+Allure
+,
+Bluster
+,
+Curse of Ysley's Ember
+,
+Drowned
+,
+Stench
+,
+Stone
+,
+Vampirism
+For 6
+:
+Sinner's Ash
+For 7
+:
+Dread Serpent's Tooth
+,
+Nautilodaunt Beak
+,
+Shiva's Codex
+,
+Trickster Dust
+For 8
+:
+Crimson Terrapod Shell
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 연관 위키: Armorer's Needle]
+Armorer's Needle
+Forge Needle
+Gilded Needle
+Pathfinder
+Exclusive
+This page describes content that is exclusive to the
+Pathfinder
+gamemode.
+This content is not accessible outside of this gamemode.
+Contents
+1
+Description
+2
+Crafting
+3
+Farming
+4
+Usage
+5
+Notes
+6
+Gallery
+7
+Trivia
+Description
+[
+]
+Armorer's Needle
+is a
+Relic
+used for
+Equipment
+. It allows the user to reroll a single pip of their choice on a piece of equipment before being consumed. It appears to be a needle in the shape of a musical treble clef.
+Crafting
+[
+]
+One
+Armorer's Needle
+can be crafted by combining
+5
+Smith's Alloys
+by hand.
+If your slot has the
+Ignition Delver
+Origin, you can craft them at the
+Hollow Forge
+with only
+3
+Smith's Alloys
+or
+9
+Pluripotent Alloys
+. Armorer's Needles can also be crafted back into 3
+Smith's Alloys
+with the same method.
+It can also be crafted into a
+Gilded Needle
+with 3
+Armorer's Needles
+and 1 gold ore, or crafted into a
+Forge Needle
+with 1
+Armorer's Needles
+and 3
+Smith's Alloys
+.
+Farming
+[
+]
+Currently known to drop from a wide variety of sources. Refer to the obtainment section in the infobox.
+If you are in dire need of many
+Armorer's Needles
+, the best and safest way to farm them is by killing the
+The Ferryman
+, as he is a fairly weak boss that can be defeated in just a few minutes. Once beaten, you can leave the instanced server and can quickly fight him again.
+If you are more confident in your PvE skills, you may farm
+Titus Fulminus Destellus
+for multiple needles per run per relic chest. This will take around 20-25 minutes solo, due to having to clear out guards and position prisoners for emergency-healing; so it is advisable to have allies clear out enemies in one section, while you clear out another, to get to the boss-fight quicker, and increase relic-yield (how the relics are distributed amongst players is at the party's discretion).
+Another method to farm them quickly is by doing
+Diluvian Mechanism
+runs. After completing waves 25 and 50, many relic chests will spawn, which each have a chance to hold one or multiple
+Armorer's Needles
+. With the proper build and careful planning, you can easily solo Diluvian up to wave 25s in only a few minutes. Going to wave 50 will get you even more
+Armorer's Needles
+, but more preparation and time is needed.
+Usage
+[
+]
+Use text: "
+With a deft hand, you transmute the property of [lost property] into [gained property]."
+Upon usage, a window will appear showing the equipment your character is currently wearing. When selecting an equipment piece to modify, you will be given a list of the item's current pips.
+When changing a pip, they will turn into any of the relevant and available pips for that piece, following this table. It is important to remember that equipment with
+3
+or more pips
+CANNOT
+have all their pips be the same type.
+Pips Info
+Buffs
+Head
+Arms
+Legs
+Torso
+Face
+Ears
+Rings
+Health (HP)
+4
+4
+5
+3
+4
+4
+5
+4
+4
+5
+3
+4
+5
+N/A
+N/A
+2
+3
+4
+Ether (ETH)
+8
+10
+12
+8
+10
+12
+8
+10
+12
+8
+10
+12
+4
+6
+8
+4
+8
+4
+6
+8
+10
+Sanity (SAN) (also gran
+
+### 📖 [하위 연관 위키: Authority Peacekeeper Armor]
+Authority Peacekeeper Armour
+is an Adept
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Gallery
+3
+Trivia
+4
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit costs 30
+and requires five (5)
+Cloth
+, five (5)
+Fiber
+, and one (1)
+Iron
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+5 and have at least 5
+Fortitude
+to be crafted. This Outfit
+cannot
+be crafted unless you are an
+Authority Ensign
+.
+Alternatively, using the
+Authority Ensign
+Origin will grant it for free, ignoring all requirements.
+Armor Stats
+[
+]
+This Outfit has 1600 durability, grants +15% Physical resistance
+, +10% Slash resistance
+, +10% Elemental resistance
+, and +15% Fire resistance
+. Additionally, it provides the
+Lowstride
+Talent.
+Due to resistances being combined multiplicatively instead of additively, the total resistances are: 23.5% Slash
+, 15% Blunt
+, 23.5% Flamecharm
+, and 10% Elemental
+.
+The
+Lowstride
+Talent increases your
+Stealth
+and movement speed while crouching. Additionally, this removes the sound that sheathing and unsheathing your weapon makes.
+Gallery
+[
+]
+Concept art
+Trivia
+[
+]
+This is the standard uniform of The Authority.
+Notably, the
+Authority Captain Uniform
+is just this but with a red coat over it.
+One of the best Adept armors in game because of the low cost, excellent durability, and the material requirements.
+Navigation
+Outfits
+Starter
+Corsair Outlaw
+•
+Eager Tradesman
+•
+Hired Mercenary
+•
+Justicar Neophyte
+•
+Merchant Robes
+•
+Pathfinder Sorcerer
+•
+Scholar
+•
+Skeptic Pioneer
+•
+Stranded
+•
+Traveller's Jacket
+•
+Union Initiate
+•
+Whaler Initiate
+Adept
+11th Legion Plate
+•
+Authority Peacekeeper Armor
+•
+Blacksteel Attire
+•
+Bounty Hunter
+•
+Carefree Garments
+•
+Cutthroat Light Armor
+•
+Diver Apprentice Robes
+•
+Duelist's Attire
+•
+Experienced Adventurer
+•
+Flame Worshipper Armor
+•
+Ignition Union Uniform
+•
+Keeper
+•
+Navaen Nomad Robes
+•
+Pathfinder Cloak
+•
+Pathfinder Thaumaturge
+•
+Shadow Hunter
+•
+Steel Plate
+•
+Summer Company Uniform
+•
+Vigil Initiate
+Expert
+Authority Captain Uniform
+•
+Cerulean Gown
+•
+Cloak of Winds
+•
+Darksteel Plate
+•
+Diver Journeyman Robes
+•
+Etrean Guard
+•
+Grand Pathfinder Cloak
+•
+Hive Drone
+•
+Hive Tactician Armor
+•
+Ignition Trailblazer
+•
+Ignition Welder
+•
+Martial Artist
+•
+Pathfinder Arch-Sorcerer
+•
+Seamstress's Attire
+•
+Troublemaker's Overcoat
+•
+Varicosan Finery
+•
+Verdant Sniper
+•
+Veteran Adventurer
+•
+Whaler Coat
+Master
+Arachnid's Weave
+•
+Black Diver
+•
+Cala-Mariner
+•
+Celtorian Tideknight
+•
+Darkened Bastion
+•
+Ignition Deepdelver
+•
+Justicar's Armor
+•
+Legion Centurion
+•
+Navaen War Chief
+•
+Prophet's Cloak
+•
+Ringing Scholar's Garb
+•
+Royal Etrean Guard
+•
+Summer Dragoon
+•
+Titanslayer's Adornment
+•
+Titus's Raiment
+•
+Windrunner Robes
+Unique
+Authority Commander
+•
+Barbarian
+•
+Cindergarb
+•
+Familiar Assassin's Armor
+•
+Familiar Demon's Armor
+•
+Familiar Heretic's Armor
+•
+Familiar Knight's Armor
+•
+Familiar Occultist's Armor
+•
+Ferryman's Coat
+•
+Heretic's Memento
+•
+Hero's Regalia
+•
+Hidden Knife Armor
+•
+Icebringer's Vestme
+
+### 📖 [하위 연관 위키: Enchant Grease]
+Contents
+1
+Description
+2
+Obtainment
+2.1
+Non-Exclusive Enchants
+2.2
+Exclusive Enchants
+3
+Gallery
+4
+Trivia
+Description
+[
+]
+The
+Enchant Grease
+is a mythical-tier
+Relic
+that can be used to apply an
+Enchantment
+to your currently held Equipment. Each vial is imbued with a random enchant. When used, an option will appear to choose what Equipment item you wish to enchant, Once one is selected it will ask if this is the equipment you wish to enchant and soulbind. After usage, The enchant grease will disappear from the inventory. Your selected equipment will receive the enchantment provided by the enchant grease.
+Obtainment
+[
+]
+Non-Exclusive Enchants
+[
+]
+All but one of the game's Enchant Greases have non-exclusive obtainment locations, meaning there are several options available to you for their obtainment. There are three main ways to obtain an Enchant Grease.
+Exchanging 5
+to
+Klaris
+for a random enchant grease.
+Exchanging 5
+to
+Laplace
+for a random enchant grease.
+Chance to obtain from a chest in
+The Diluvian Mechanism
+,
+War Mode
+, and the
+Galewax
+Room in the
+Second Layer
+of the Depths.
+Exclusive Enchants
+[
+]
+These Enchant Greases can only be obtained through certain methods. Currently, the Rain enchantment is the only exclusive Enchant Grease.
+Sold by
+The Gaunt Man
+for 25
+Rain Spires
+and 10
+.
+Gallery
+[
+]
+Adhesive
+Allure
+Bounce
+Displacement
+Drowned
+Entanglement
+Ferocity
+Multiplicity
+Rain
+Stench
+Viscosity
+Trivia
+[
+]
+You can use Enchant Grease on already enchanted equipment, it'll just switch the enchant.
+Enchant Grease is undroppable, but sells for 200 notes if for some reason you want to sell it.
+You can pass down Enchant Grease through the
+Hippocampal Pool
+for 40
+Echoes
+.
+Enchant Grease was added in an update on 8/23/2024, Before this the only way to enchant equipment was to spend five
+Kyrsan Medallions
+at
+Klaris
+whilst holding an equipment item.
+Attempting to use Enchant Grease in the
+Second Layer
+will not work, displaying the message "The Gale interferes with the energy of the grease. Perhaps, on the surface..."
+
+### 📖 [하위 연관 위키: Enchant Stone]
+Contents
+1
+Description
+2
+Obtainment
+2.1
+Non-Exclusive Enchants
+2.2
+Exclusive Enchants
+2.3
+Vow of Iron Enchantments
+3
+Gallery
+4
+Trivia
+Description
+[
+]
+The
+Enchant Stone
+is a mythical-tier
+Relic
+that can be used to apply an
+Enchantment
+to your currently equipped weapon. Each stone is imbued with a random enchant or curse. When used, an option will appear to confirm if this is the weapon you wish to enchant and soulbind. After usage, an animation will play and the enchant stone will disappear from the inventory. Your current weapon will receive the enchantment provided by the enchant stone. This can also be used to re-roll enchants on already enchanted weapons
+Obtainment
+[
+]
+There are multiple ways to obtain an Enchant Stone, the usual and best source being from the
+Second Layer
+. The ways of obtainment are as follows:
+Non-Exclusive Enchants
+[
+]
+Most of the game's Enchant Stones have non-exclusive obtainment locations, meaning there are several options available to you for their obtainment.
+Exchanging 5
+to
+Klaris
+for a random non-exclusive Enchant Stone.
+Chance to obtain from a chest from several bosses including: the
+Heart of Enmity
+,
+Maestro Evengarde Rest
+, the
+Dread Serpent
+,
+Scion of Ethiron
+, and
+Chaser
+.
+Chance to obtain from a chest from several dungeons including:
+Second Layer
+,
+The Diluvian Mechanism
+, and
+Saramaed Hollow
+.
+Chance to obtain from
+War Mode
+and
+Hell Mode
+.
+Unlocking the
+Galewax
+Room from the
+Second Layer
+. This room always contains three tiny chests, that have a
+25%
+chance of providing a random non-exclusive Enchant Stone per chest. If not an Enchant Stone, it's a random
+Kyrsweapon
+.
+Certain enchants can additionally be sold during
+Traan Zakshun's
+black market for 5
+, but are otherwise non-exclusive enchants.
+Crafting
+them with any other Enchant Stone and two catalyst ingredients. The recipe depends on the Enchant Stone; see their individual pages or the main
+Enchantments
+page.
+Exclusive Enchants
+[
+]
+These Enchant Stones can only be obtained through certain methods. These are: Astral, Bluster, Curse of Ysley's Ember, Curse of The Authoritative, Curse of Void, Harrowing, Nightbringer, Parasol's Blight, and Windswept.
+Astral
+can only be obtained from the
+Weird Trader
+, in the chest at
+Moon's Eyrie
+, or as a drop from
+Star Knights
+and
+Moon Knights
+. Astral can also be sold for 10
+in
+Traan Zakshun's
+black market.
+Bluster
+can be obtained from
+Titus Fulminus Destellus
+or bought from
+Traan Zakshun
+in his black market for 5
+.
+Curse of Captain Greene
+can be exclusively bought from
+The Gaunt Man
+for 1
+Exotic Hide
+.
+Curse of the Authoritative
+can only be obtained from
+Titus Fulminus Destellus
+.
+Curse of Void
+can exclusively be bought from
+The Gaunt Man
+for 25
+Void Spires
+and 10
+.
+Curse of Ysley's Ember
+Enchant Stone can be obtained by defeating
+Hive Constructs
+or
+Rogue Constructs
+as a direct drop, turning in an
+Aratel Artifact
+to a Banker, rarely from
+Fishing
+chests,
+Primadon
+and
+Elder Primadon
+chests, or in any
+Starswept Valley
+chest (
+
+### 📖 [하위 연관 위키: Flame Worshipper Armor]
+Flame Worshipper Armor
+is an Adept
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Trivia
+3
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit costs 30
+and requires four (4)
+Cloth
+, four (4)
+Fiber
+, and two (2)
+Iron
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+5 to be crafted.
+Armor Stats
+[
+]
+This Outfit has 1000 durability, grants +10% Physical resistance
+, +5% Elemental resistance
+, and +25% Fire resistance
+. Additionally, it provides the
+Intrepid Flame
+and
+One With Flame
+Talents.
+Due to resistances being combined multiplicatively instead of additively, the total resistances are: 10% Physical
+, 28.75% Flamecharm
+, and 5% Elemental
+.
+The
+Intrepid Flame
+Talent halves the maximum duration of any
+Burn
+effect that is applied to the user.
+Flame Within
+'s duration is not reduced, granting damage reduction to your Flame Within instead.
+The
+One With Flame
+Talent grants several buffs to the player if they are currently
+burning
+and are using the
+Worshipper's Shield
+and
+Worshipper Longsword
+. While active, you gain 25% damage reduction, your Mantras apply
+burn
+on hit, your
+Medium Weapon Mantras
+become orange, and the
+Worshipper Longsword
+'s
+Belief
+Talent gains Flamecharm scaling.
+Trivia
+[
+]
+This Outfit is one of the requirements to fight
+Aska
+.
+Alternatively you can use the
+Pleeksty's Faith
+OR
+Pleeksty's Will
+Talents instead of this Outfit. If you have none of these equipped, Aska will wipe you instead of starting the fight.
+Navigation
+Outfits
+Starter
+Corsair Outlaw
+•
+Eager Tradesman
+•
+Hired Mercenary
+•
+Justicar Neophyte
+•
+Merchant Robes
+•
+Pathfinder Sorcerer
+•
+Scholar
+•
+Skeptic Pioneer
+•
+Stranded
+•
+Traveller's Jacket
+•
+Union Initiate
+•
+Whaler Initiate
+Adept
+11th Legion Plate
+•
+Authority Peacekeeper Armor
+•
+Blacksteel Attire
+•
+Bounty Hunter
+•
+Carefree Garments
+•
+Cutthroat Light Armor
+•
+Diver Apprentice Robes
+•
+Duelist's Attire
+•
+Experienced Adventurer
+•
+Flame Worshipper Armor
+•
+Ignition Union Uniform
+•
+Keeper
+•
+Navaen Nomad Robes
+•
+Pathfinder Cloak
+•
+Pathfinder Thaumaturge
+•
+Shadow Hunter
+•
+Steel Plate
+•
+Summer Company Uniform
+•
+Vigil Initiate
+Expert
+Authority Captain Uniform
+•
+Cerulean Gown
+•
+Cloak of Winds
+•
+Darksteel Plate
+•
+Diver Journeyman Robes
+•
+Etrean Guard
+•
+Grand Pathfinder Cloak
+•
+Hive Drone
+•
+Hive Tactician Armor
+•
+Ignition Trailblazer
+•
+Ignition Welder
+•
+Martial Artist
+•
+Pathfinder Arch-Sorcerer
+•
+Seamstress's Attire
+•
+Troublemaker's Overcoat
+•
+Varicosan Finery
+•
+Verdant Sniper
+•
+Veteran Adventurer
+•
+Whaler Coat
+Master
+Arachnid's Weave
+•
+Black Diver
+•
+Cala-Mariner
+•
+Celtorian Tideknight
+•
+Darkened Bastion
+•
+Ignition Deepdelver
+•
+Justicar's Armor
+•
+Legion Centurion
+•
+Navaen War Chief
+•
+Prophet's Cloak
+•
+Ringing Scholar's Garb
+•
+Royal Etrean Guard
+•
+Summer Dragoon
+•
+Titanslayer's Adornment
+•
+Titus's Raiment
+•
+Windrunner Robes
+Unique
+Authority Commander
+•
+Barbarian
+•
+Cindergarb
+•
+Familiar Assassin's Armor
+•
+Familiar Demon's Armor
+•
+Familiar Heretic's Armor
+•
+Familiar Knight's Armor
+
+### 📖 [하위 연관 위키: Hive Tactician Armor]
+Hive Tactician Armor
+or Tactician is an Expert
+Outfit
+in
+Deepwoken
+.
+Contents
+1
+Statistics
+1.1
+Requirements
+1.2
+Armor Stats
+2
+Trivia
+3
+Navigation
+Statistics
+[
+]
+Requirements
+[
+]
+This Outfit has no cost and requires five (5)
+Cloth
+, two (2)
+Iron
+, two (2)
+Dark Feathers
+and three (3)
+Vibrant Gems
+to craft.
+This Outfit additionally requires the player to be at least
+Power
+10 and have at least 25
+Agility
+to be crafted.
+Armor Stats
+[
+]
+This Outfit has 1200 durability and grants +30% Physical resistance
+, +20% Elemental resistance
+, +15% Ironsing resistance
+, and 10% Wind resistance
+. Additionally, it provides the
+Brunt
+Talent.
+Due to resista
+
+=== Tables ===
+
+[Table 1]
+Begin Dialogue
+Look what the tide dragged in. You here for gear, or just lost?
+What?
+I sell my wares to those with some real fine tastes... and even finer notes. Ye' got that?
+What are you selling?
+[OpensShop UI]
+[End Dialogue]
+
+[Table 2]
+Begin Dialogue
+Back again? Here to actually buy something, or just stare?
+Yeah.
+[OpensShop UI]
+[End Dialogue]
+
+[Table 3]
+Begin Dialogue
+When accessing the Shop | After purchasing something | If you can't afford the item you attempted to buy | If you attempt to buy something at max carry capacity
+Here's the current lineup. Try not to drool. | Done deal! Come back in a lil' bit when I haul some new goodies up here, yeh? | You're short now, pal. Come back when you're not drowned broke, yeah? | Ugh you're carrying way too much. Come back when you're not a walking junk pile.
+[OpensShop UI] | [End Dialogue]
+[End Dialogue]
+
+[Table 4]
+Begin Dialogue
+When accessing the Black market | After purchasing something | Speaking to him after purchasing something
+Keep your voice down... here's tonight's haul. Purchase limit of one item each, this stock's very limited. | Thanks for the sale. Come back later for my usual wares. I'll always have things in stock. | Y'already bought from me tonight. Don't get greedy, I've got other folks to barter with.
+[OpensBlack Market UI] | [End Dialogue]
+[End Dialogue]
+
+[Table 5]
+[Item price]Notes | [Item name]A rare find indeed.
+
+[Table 6]
+Outfit Schematics | For 80:Starter:Hired MercenaryAdept:Authority Peacekeeper Armor,Carefree Garments,Diver Apprentice Robes,Flame Worshipper Armor,Ignition Union Uniform,KeeperExpert:Cloak of Winds,Diver Journeyman Robes,Hive DroneFor 200:Starter:Eager Tradesman,Merchant Robes,Pathfinder Sorcerer,ScholarAdept:11th Legion Plate,Navaen Nomad Robes,Pathfinder Thaumaturge,Summer Company UniformExpert:Authority Captain Uniform,Cerulean Gown,Hive Tactician Armor,Ignition Trailblazer,Seamstress's Attire,Varicosan Finery,Whaler CoatMaster:Legion Centurion,Prophet's Cloak
+Miscellaneous | For 100:Frigid Prism,Gale Stone,HeartstarFor 1,000:Dye PacketFor 2,500:GlumfigFor 15,000:Goodie Bag(Hallowtideonly)
+Weapons | For 100:Bronze AspisFor 300:Light Weapons:Whaling KnifeMedium Weapons:Katana,Vigil Longsword,Warden Ceremonial SwordHeavy Weapons:Adretian AxeFor 500:Needle's EyeFor 650:Medium Weapons:Alloyed Falchion,Alloyed Scalesplitter,Rifle Spear,Scoundrel's Saber,Serrated WarspearHeavy Weapons:Darkalloy GreatswordFor 750:True Seraph SpearFor 1,000:Krulian KnifeFor 1,250:Medium Weapons:CrescendoHeavy Weapons:Evanspear GreataxeFor 4,500:Hero's Blade of Flame,Hero's Blade of Lightning,Hero's Blade of ShadowFor 5,000:Night Axe
+Equipment | For 35:Brow Stud,Dermal Stud,Moon Brow Rings,Moon Dermal Rings,Moon Lip Ring,Moon Septum Ring,Nose Stud,Snakebite StudsFor 55:Wool BeretFor 100:Sailor's Fleece
+
+[Table 7]
+[Item price]Crowns | [Item name]I barely know what I'm looking at here.
+
+[Table 8]
+Outfit Schematics | For 20:Darkened BastionFor 45:Celtorian Tideknight
+Miscellaneous(MostlyRelics) | For 1:Armorer's Needle,Egg,Hemobloom,Plumfruit Muffin,Rain Spire,Terrapod Shell,Umbral Candle,Void SpireFor 2:Ardour Manifestation,Broken Gatling Gun,Forge Needle,Glumfig,Goodie Bag(Hallowtideonly)For 3:Smith's AlloyFor 4:Moonseye TomeFor 5:Dread Serpent's Mane,Idol of Yun'Shul,Gilded NeedleEnchant Stones&Enchant Grease:Allure,Bluster,Curse of Ysley's Ember,Drowned,Stench,Stone,VampirismFor 6:Sinner's AshFor 7:Dread Serpent's Tooth,Nautilodaunt Beak,Shiva's Codex,Trickster DustFor 8:Crimson Terrapod ShellFor 10:AstralEnchant StoneFor 15:Parasol MembraneFor 20:Ethereal Osseous Plate,Frost Essence,Gale EssenceFor 30:Doom of Caeranthil's ScaleFor 38:Champion's Alloy,Charged Parasol Part
+Weapons | For 1:Kindred EdictFor 3:Light Weapons:WraithclawMedium Weapons:Hero's Blade of Flame,Hero's Blade of Frost,Hero's Blade of Lightning,Hero's Blade of Shadow,Hero's Blade of WindFor 4:Medium Weapons:Curved Blade of Winds,Imperator's Edge,Red Death,Soulthorn,StormseyeHeavy Weapons:Boltcrusher,Crypt BladeFor 8:First LightFor 35:Dormant Splinter
+Equipment | For 2:Aazel's Horns,Brilliant CapeFor 5:Lightkeeper's Medallion,Tiran Pendant,Warmaster's MedallionFor 20:Simmerbloom DiademFor 25:Dark PearlsFor 30:Jadeite MegalodauntFor 175:Whistling Periapt
+
+=== Sub Pages Explored ===
+- Armorer's Needle
+- Authority Peacekeeper Armor
+- Enchant Grease
+- Enchant Stone
+- Flame Worshipper Armor
+- Hive Tactician Armor
+- Outfits
+
+---
+
+### 🌐 [웹/위키 문서 13] deepwoken-wiki-weapons_5ff2d9d1
 
 Title: Deepwoken Wiki: Weapons
 URL: https://deepwoken.fandom.com/wiki/Weapons#All
@@ -18644,7 +21598,7 @@ Tan: Starting Weapon/Character Creation,Blue: Alloyed Weapon,Dark Green: Enemy D
 
 ---
 
-### 🌐 [웹/위키 문서 12] enchantments-wiki-deepwoken-builder_a6e98369
+### 🌐 [웹/위키 문서 14] enchantments-wiki-deepwoken-builder_a6e98369
 
 Title: Enchantments — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enchantment
@@ -19731,7 +22685,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 13] enemies-wiki-deepwoken-builder_b6c21d18
+### 🌐 [웹/위키 문서 15] enemies-wiki-deepwoken-builder_b6c21d18
 
 Title: Enemies — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enemy
@@ -19917,7 +22871,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 14] equipment-wiki-deepwoken-builder_50c6b4fb
+### 🌐 [웹/위키 문서 16] equipment-wiki-deepwoken-builder_50c6b4fb
 
 Title: Equipment — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/equipment
@@ -21092,7 +24046,7 @@ The visage of a five-eyed hound enters your mind un
 
 ---
 
-### 🌐 [웹/위키 문서 15] flaws-wiki-deepwoken-builder_fb636760
+### 🌐 [웹/위키 문서 17] flaws-wiki-deepwoken-builder_fb636760
 
 Title: Flaws — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/flaw
@@ -22158,7 +25112,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 16] google-docs-introduction_fa2af664
+### 🌐 [웹/위키 문서 18] google-docs-introduction_fa2af664
 
 Title: Google Docs: Introduction
 URL: https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0
@@ -22990,7 +25944,7 @@ Blightsurger (★★★★☆): Blightsurger is focused on spamming its mantras 
 
 ---
 
-### 🌐 [웹/위키 문서 17] locations-wiki-deepwoken-builder_8ee227c3
+### 🌐 [웹/위키 문서 19] locations-wiki-deepwoken-builder_8ee227c3
 
 Title: Locations — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/location
@@ -24130,7 +27084,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 18] mantras-wiki-deepwoken-builder_0485bae6
+### 🌐 [웹/위키 문서 20] mantras-wiki-deepwoken-builder_0485bae6
 
 Title: Mantras — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/mantra
@@ -24425,7 +27379,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 19] oaths-wiki-deepwoken-builder_a3101592
+### 🌐 [웹/위키 문서 21] oaths-wiki-deepwoken-builder_a3101592
 
 Title: Oaths — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/oath
@@ -25484,7 +28438,7 @@ Wraith Path: Twisted Puppets
 
 ---
 
-### 🌐 [웹/위키 문서 20] outfits-wiki-deepwoken-builder_30958c9c
+### 🌐 [웹/위키 문서 22] outfits-wiki-deepwoken-builder_30958c9c
 
 Title: Outfits — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/outfit
@@ -25780,7 +28734,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 21] races-wiki-deepwoken-builder_e9527970
+### 🌐 [웹/위키 문서 23] races-wiki-deepwoken-builder_e9527970
 
 Title: Races — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/aspect
@@ -26839,7 +29793,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 22] talents-wiki-deepwoken-builder_2d86583d
+### 🌐 [웹/위키 문서 24] talents-wiki-deepwoken-builder_2d86583d
 
 Title: Talents — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/talent
@@ -27217,7 +30171,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 23] weapons-wiki-deepwoken-builder_e6f27c70
+### 🌐 [웹/위키 문서 25] weapons-wiki-deepwoken-builder_e6f27c70
 
 Title: Weapons — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/weapon
