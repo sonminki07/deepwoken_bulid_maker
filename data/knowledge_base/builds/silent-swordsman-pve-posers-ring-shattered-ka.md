@@ -23,6 +23,11 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - ⚠️ Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
 - ⚠️ Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -38,6 +43,18 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Shattered Katana** — 인챈트: `None`
@@ -62,3 +79,16 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 2단계: Shattered Katana의 평타 콤보 및 M1 타격으로 보스에게 연속 대미지 누적.
 3단계: Artisan Blades 발동 및 로드 추가 타격 부여.
 4단계: weapons를 납도(Sheath)하여 Poser's Ring에 누적된 누적 대미지를 방어력 무시 트루 대미지로 폭발시킴.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway / Voidheart` / Oath: `Silentheart` / Race/Aspect: `Any (Vesperian or Khan recommended)` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `{'ironsing': 20}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |

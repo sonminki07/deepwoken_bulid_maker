@@ -27,6 +27,11 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - ⚠️ 낮은 기동성(Agility): Agility stats이 매우 낮아 순수 기동력 싸움에서 밀릴 수 있으므로, 기동성 mantras(Rising Shadow 등)의 정확한 활용이 강제됩니다.
 - ⚠️ 높은 에테르 의존도: mantras의 크기를 키우기 위해 에테르 소모량이 많으므로, Bluestone Boots의 에테르 관리 효과를 상시 유지해야 합니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -42,6 +47,18 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Palace Tachi** (Medium Weapon) — 인챈트: `None`
@@ -73,3 +90,16 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 2단계: 가드브레이크 및 도발 연계 - 적이 방어 태세를 취하면 Palace Tachi의 크리티컬 공격을 적중시켜 가드를 깨뜨립니다. 가드가 깨짐과 동시에 Cornered Fool이 발동하여 적이 도발 상태가 되고 받는 피해가 대폭 증가합니다.
 3단계: 섀도우 mantras 폭딜 - 도발로 방어력이 약화된 적에게 거대화된 Shadowcast mantras(Shadow Roar 등)를 연계하여 폭발적인 대미지를 누적시킵니다.
 4단계: Contractor 처형 및 마무리 - 적의 체력이 낮아지면 Contractor 오스의 처형 판정이 붙은 크리티컬 공격이나 Judgement를 사용해 상대의 탈출 기회를 원천 차단하고 깔끔하게 마무리합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Contractor` / Race/Aspect: `Khan` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `1` / FTD: `40` / AGL: `1` / INT: `65` / WLL: `1` / CHA: `90` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |

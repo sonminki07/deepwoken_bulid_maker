@@ -9,15 +9,15 @@
     "build_name": "Vampiric Bastion (Drain Tank PvE)",
     "build_type": "PvE",
     "difficulty": "Intermediate",
-    "creator_opinion": "Vampiric Bastion \ube4c\ub4dc\ub294 \uc804\ud1b5\uc801\uc778 \ubc29\uc5b4\ub825/\uccb4\ub825 \uc911\uc2ec\uc758 \ud0f1\ucee4\uc640 \ub2ec\ub9ac, \ub04a\uc784\uc5c6\ub294 \ud53c\ud761(Vampirism)\uacfc \uc784\uc2dc \uccb4\ub825(Temporary HP) \uc218\uae09\uc744 \ud1b5\ud574 \uc2e4\uc2dc\uac04\uc73c\ub85c \ubc1b\uc740 \ud53c\ud574\ubcf4\ub2e4 \ub354 \ub9ce\uc740 \uccb4\ub825\uc744 \ud68c\ubcf5\ud558\ub294 '\ub4dc\ub808\uc778 \ud0f1\ucee4(Drain Tank)' \uac1c\ub150\uc758 PvE \ud2b9\ud654 \ube4c\ub4dc\uc785\ub2c8\ub2e4. \ub2e4\uc218\uc758 \ubaac\uc2a4\ud130\ub098 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c \uc2e4\uc9c8\uc801\uc73c\ub85c \ubb34\ud55c\uc5d0 \uac00\uae4c\uc6b4 \uccb4\ub825 \uc720\uc9c0\ub825\uc744 \ubc1c\ud718\ud569\ub2c8\ub2e4.\n\nPale Briar\uc758 \uac15\ub825\ud55c \uad11\uc5ed \uc5f0\ud0c0 \ud06c\ub9ac\ud2f0\uceec \ubaa8\uc158\uacfc Critical Engine talents, Bloodless Gem, Vampirism \uc778\ucc48\ud2b8\uac00 \ud575\uc2ec \uc2dc\ub108\uc9c0\ub97c \uc774\ub8f9\ub2c8\ub2e4. \uc5ec\uae30\uc5d0 Flamecharm\uc758 Phoenix Flames \ubc0f Immolation, Thundercall\uc758 Authority Interrogator \ud2b8\ub9ac\uac00 \uacb0\ud569\ub418\uc5b4 \uc801\uc5d0\uac8c \uac10\uc804(Electrify) \ub514\ubc84\ud504\ub97c \uac78\uace0 \ub098\uc5d0\uac8c \ub4e4\uc5b4\uc624\ub294 \ub300\ubbf8\uc9c0\ub97c \ucd5c\ub300 50% \uc774\uc0c1 \uac10\uc1c4\uc2dc\ud0b5\ub2c8\ub2e4.\n\nArc Suit \ubc84\ud504\ub97c \uc2dc\uc791\uc73c\ub85c \uc9c4\uc785\ud55c \ub4a4 Arc Wave(Aegis Gem)\uc640 Pale Briar \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc9c0\uc18d\uc801\uc73c\ub85c \ub3cc\ub824\uc8fc\uae30\ub9cc \ud558\uba74, \ud5ec \ubaa8\ub4dc(Hell Mode)\ub098 \ub514\ub8e8\ube44\uc548(Diluvian Mechanism) \uac19\uc740 \uace0\ub09c\ub3c4 \uc6e8\uc774\ube0c \ucf58\ud150\uce20\uc5d0\uc11c\ub3c4 \uccb4\ub825\uc774 \uc804\ud600 \uc904\uc5b4\ub4e4\uc9c0 \uc54a\ub294 \ucd5c\uc0c1\uc704\uae09 \uc548\uc815\uc131\uc744 \uccb4\uac10\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+    "creator_opinion": "Vampiric Bastion 빌드는 전통적인 방어력/체력 중심의 탱커와 달리, 끊임없는 피흡(Vampirism)과 임시 체력(Temporary HP) 수급을 통해 실시간으로 받은 피해보다 더 많은 체력을 회복하는 '드레인 탱커(Drain Tank)' 개념의 PvE 특화 빌드입니다. 다수의 몬스터나 보스를 상대할 때 실질적으로 무한에 가까운 체력 유지력을 발휘합니다.\n\nPale Briar의 강력한 광역 연타 크리티컬 모션과 Critical Engine talents, Bloodless Gem, Vampirism 인챈트가 핵심 시너지를 이룹니다. 여기에 Flamecharm의 Phoenix Flames 및 Immolation, Thundercall의 Authority Interrogator 트리가 결합되어 적에게 감전(Electrify) 디버프를 걸고 나에게 들어오는 대미지를 최대 50% 이상 감쇄시킵니다.\n\nArc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 크리티컬 공격을 지속적으로 돌려주기만 하면, 헬 모드(Hell Mode)나 디루비안(Diluvian Mechanism) 같은 고난도 웨이브 콘텐츠에서도 체력이 전혀 줄어들지 않는 최상위급 안정성을 체감할 수 있습니다.",
     "strengths": [
-      "\uc555\ub3c4\uc801\uc778 \ub2e4\uc218 \ub300\uc0c1 \ud53c\ud761 \ubc0f \uc784\uc2dc \uccb4\ub825 \uc218\uae09\ub825: Pale Briar\uc758 \ub2e4\ub2e8\ud788\ud2b8 \ud06c\ub9ac\ud2f0\uceec\uacfc Vampirism \uc778\ucc48\ud2b8, Bloodless Gem\uc774 \uacb0\ud569\ub418\uc5b4 \ubab9\uc774 \ub9ce\uc744\uc218\ub85d \uccb4\ub825\uc774 \ub354\uc6b1 \ud3ed\ubc1c\uc801\uc73c\ub85c \ud68c\ubcf5\ub429\ub2c8\ub2e4.",
-      "\uc911\ucca9 \ub300\ubbf8\uc9c0 \uac10\uc1c4 \uba54\ucee4\ub2c8\uc998: Arc Suit, Aegis Gem(Arc Wave), Authority Interrogator \ub514\ubc84\ud504(Resolve Crusher, Second Interrogator)\uac00 \ubcf5\ud569 \uc791\uc6a9\ud558\uc5ec \uc801\uc758 \ub300\ubbf8\uc9c0\ub97c 50% \uc774\uc0c1 \uac10\uc18c\uc2dc\ud0b5\ub2c8\ub2e4.",
-      "\uc548\uc815\uc801\uc778 \ubcf4\uc2a4\uc804 \uc9c0\uc18d\ub825: \ub2e8\uc77c \ubcf4\uc2a4\uc804\uc5d0\uc11c\ub3c4 Sacred Field Bell\uacfc Phoenix Flames\uc758 \ubd80\ud65c \ubc0f \uc790\uac00 \ud68c\ubcf5 \uae30\ubbf9\uc73c\ub85c \ub04a\uc784\uc5c6\ub294 \ud0f1\ud0b9\uc774 \uac00\ub2a5\ud569\ub2c8\ub2e4."
+      "압도적인 다수 대상 피흡 및 임시 체력 수급력: Pale Briar의 다단히트 크리티컬과 Vampirism 인챈트, Bloodless Gem이 결합되어 몹이 많을수록 체력이 더욱 폭발적으로 회복됩니다.",
+      "중첩 대미지 감쇄 메커니즘: Arc Suit, Aegis Gem(Arc Wave), Authority Interrogator 디버프(Resolve Crusher, Second Interrogator)가 복합 작용하여 적의 대미지를 50% 이상 감소시킵니다.",
+      "안정적인 보스전 지속력: 단일 보스전에서도 Sacred Field Bell과 Phoenix Flames의 부활 및 자가 회복 기믹으로 끊임없는 탱킹이 가능합니다."
     ],
     "weaknesses": [
-      "\ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9 \ube57\ub098\uac10 \uc2dc \uc21c\uac04 \ub9ac\uc2a4\ud06c: Blood Plague \ubc0f Critical Engine \uae30\ubc18\uc758 \ud53c\ud761 \uc758\uc874\ub3c4\uac00 \ub192\uc544 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc2e4\uc218\ub85c \ud5c8\uacf5\uc5d0 \ub0a0\ub9ac\uba74 \uc21c\uac04 \uc784\uc2dc \uccb4\ub825 \uc218\uae09\uc774 \ub04a\uae38 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
-      "\uace0\ub09c\ub3c4 \uc81c\uc791 \uc7ac\ub8cc \uc694\uad6c: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings \ub4f1 \uc5d4\ub4dc\uac8c\uc784 \uc138\ud2b8 \uc7a5\ube44 \uc81c\uc791\uc5d0 \ub9ce\uc740 \uc720\ub2c8\ud06c \uc7ac\ub8cc\uac00 \uc18c\ube44\ub429\ub2c8\ub2e4."
+      "크리티컬 공격 빗나감 시 순간 리스크: Blood Plague 및 Critical Engine 기반의 피흡 의존도가 높아 크리티컬 공격을 실수로 허공에 날리면 순간 임시 체력 수급이 끊길 수 있습니다.",
+      "고난도 제작 재료 요구: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings 등 엔드게임 세트 장비 제작에 많은 유니크 재료가 소비됩니다."
     ]
   },
   "stats": {
@@ -177,14 +177,14 @@
       "Duke d'Eris"
     ],
     "mob_strategy": [
-      "Arc Suit \ubc84\ud504 \uc120\uc2dc\uc804: \uc804\ud22c \uac1c\uc2dc \uc804 4x Eternal Logstones\uc640 4x Vibrant Gems\ub85c \ubaa8\ub529\ub41c Arc Suit\ub97c \ud65c\uc131\ud654\ud558\uc5ec \ucd5c\uc7a5 \uc2dc\uac04 \ub3d9\uc548 \ubc29\uc5b4\ub825 \uc99d\uac00 \ubc84\ud504\ub97c \uc0c1\uc2dc \uc720\uc9c0\ud569\ub2c8\ub2e4.",
-      "Pale Briar \ud06c\ub9ac\ud2f0\uceec \uc2a4\ud338: \ubaac\uc2a4\ud130 \ubb34\ub9ac \ud55c\uac00\uc6b4\ub370\uc11c Pale Briar\uc758 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc0ac\uc6a9\ud558\uc5ec Critical Engine + Blood Plague + Vampirism \uc2dc\ub108\uc9c0\ub85c \ud3ed\ubc1c\uc801\uc778 \ud53c\ud761\uacfc \uc784\uc2dc \uccb4\ub825\uc744 \uc9c0\uc18d \uc218\uae09\ud569\ub2c8\ub2e4.",
-      "Arc Wave & Aegis Gem \ubc84\ud504 \uac31\uc2e0: Aegis Gem\uc774 \uc7a5\ucc29\ub41c Arc Wave\ub97c \ucfe8\ud0c0\uc784\ub9c8\ub2e4 \ubc1c\uc0ac\ud558\uc5ec \uc790\uac00 \ub300\ubbf8\uc9c0 \uc800\ud56d \ubc84\ud504\ub97c \uac31\uc2e0\ud558\uace0, Electro Carve\ub85c \uc801\ub4e4\uc5d0\uac8c \uac10\uc804 \ub514\ubc84\ud504\ub97c \uac78\uc5b4 \uacf5\uaca9\ub825\uc744 \uc57d\ud654\uc2dc\ud0b5\ub2c8\ub2e4.",
-      "Relentless Flames \ub9c8\ubb34\ub9ac: HP\uac00 \ub192\uc740 \uc815\uc608 \ubaac\uc2a4\ud130\ub098 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c\ub294 Blessed Gem\uc774 \uc7a5\ucc29\ub41c Relentless Flames\ub85c \uc21c\uac04 \ud3ed\ubc1c\uc801\uc778 \ub300\ubbf8\uc9c0\ub97c \ub123\uc5b4 \ub2e8\uc228\uc5d0 \uc81c\uc555\ud569\ub2c8\ub2e4."
+      "Arc Suit 버프 선시전: 전투 개시 전 4x Eternal Logstones와 4x Vibrant Gems로 모딩된 Arc Suit를 활성화하여 최장 시간 동안 방어력 증가 버프를 상시 유지합니다.",
+      "Pale Briar 크리티컬 스팸: 몬스터 무리 한가운데서 Pale Briar의 크리티컬 공격을 사용하여 Critical Engine + Blood Plague + Vampirism 시너지로 폭발적인 피흡과 임시 체력을 지속 수급합니다.",
+      "Arc Wave & Aegis Gem 버프 갱신: Aegis Gem이 장착된 Arc Wave를 쿨타임마다 발사하여 자가 대미지 저항 버프를 갱신하고, Electro Carve로 적들에게 감전 디버프를 걸어 공격력을 약화시킵니다.",
+      "Relentless Flames 마무리: HP가 높은 정예 몬스터나 보스를 상대할 때는 Blessed Gem이 장착된 Relentless Flames로 순간 폭발적인 대미지를 넣어 단숨에 제압합니다."
     ]
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "1\ub2e8\uacc4 (\uc9c4\uc785 \uc804 \ubc84\ud504 \uc138\ud305): \uad50\uc804 \uc9c1\uc804 Arc Suit\uc640 Flame Wisp\ub97c \ucf1c\uc11c \uc790\uac00 \ubc29\uc5b4\ub825 \uc99d\uac00 \ubc84\ud504\uc640 \ub3c4\ud2b8 \ud790 \ud328\uc2dc\ube0c\ub97c \uc900\ube44\ud569\ub2c8\ub2e4.\n2\ub2e8\uacc4 (\uad11\uc5ed \ub514\ubc84\ud504 \ubc0f \ub300\ubbf8\uc9c0 \uac10\uc1c4): \ubab9 \ubb34\ub9ac\uc5d0 \uc9c4\uc785\ud558\uba70 Magnet Spark\uac00 \uc801\uc6a9\ub41c Electro Carve\uc640 Aegis Gem Arc Wave\ub97c \ubc1c\uc0ac\ud574 \uad11\uc5ed \uac10\uc804(Electrify) \ub514\ubc84\ud504\ub97c \ubd80\uc5ec\ud558\uace0 \ubb34\uc0c1 \ubc29\uc5b4 \uc800\ud56d\uc744 \ud655\ubcf4\ud569\ub2c8\ub2e4.\n3\ub2e8\uacc4 (\ud06c\ub9ac\ud2f0\uceec \uc8fc\ub825 \ud3ed\ub51c & \ubb34\ud55c \ud53c\ud761): Pale Briar \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc2dc\uc804\ud574 \ub2e4\ub2e8\ud788\ud2b8 \ud0c0\uaca9\uc73c\ub85c \uc784\uc2dc \uccb4\ub825\uacfc HP\ub97c \ub300\ub7c9 \uc218\uae09\ud569\ub2c8\ub2e4. \uc774\uc5b4\uc11c Emotion Wave\uc640 Relentless Flames\ub97c \uc5f0\uacc4\ud574 \ubab9 \uc9d1\ub2e8\uc744 \ub2e8\uc228\uc5d0 \uc4f8\uc5b4\ubc84\ub9bd\ub2c8\ub2e4.\n4\ub2e8\uacc4 (\uae34\uae09 \uc0c1\ud669 \ud0f1\ud0b9 \ubc0f \ubcf5\uad6c): \uc704\uae09 \uc0c1\ud669 \uc2dc Sacred Field Bell\uc744 \ud3bc\uccd0 \uc800\ud56d\ub825\uc744 \uadf9\ub300\ud654\ud558\uace0, Phoenix Flames \ubd80\ud65c \uae30\ubbf9 \ubc0f Regenerative \uc138\ud2b8(Critical Heal) \ud6a8\uacfc\ub85c \ub2e8\uc228\uc5d0 \ud480\ud53c\ub97c \ubcf5\uad6c\ud569\ub2c8\ub2e4."
+    "combo_guide": "1단계 (진입 전 버프 세팅): 교전 직전 Arc Suit와 Flame Wisp를 켜서 자가 방어력 증가 버프와 도트 힐 패시브를 준비합니다.\n2단계 (광역 디버프 및 대미지 감쇄): 몹 무리에 진입하며 Magnet Spark가 적용된 Electro Carve와 Aegis Gem Arc Wave를 발사해 광역 감전(Electrify) 디버프를 부여하고 무상 방어 저항을 확보합니다.\n3단계 (크리티컬 주력 폭딜 & 무한 피흡): Pale Briar 크리티컬 공격을 시전해 다단히트 타격으로 임시 체력과 HP를 대량 수급합니다. 이어서 Emotion Wave와 Relentless Flames를 연계해 몹 집단을 단숨에 쓸어버립니다.\n4단계 (긴급 상황 탱킹 및 복구): 위급 상황 시 Sacred Field Bell을 펼쳐 저항력을 극대화하고, Phoenix Flames 부활 기믹 및 Regenerative 세트(Critical Heal) 효과로 단숨에 풀피를 복구합니다."
   },
   "video_meta": {
     "title": "This Build is IMMORTAL in PvE. - Deepwoken",
@@ -192,5 +192,33 @@
     "url": "https://www.youtube.com/watch?v=BGrR39bf6U0",
     "upload_date": "20260704",
     "estimated_patch": "Unknown"
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
   }
 }

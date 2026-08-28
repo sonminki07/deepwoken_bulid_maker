@@ -44,14 +44,16 @@
 - **Bloodrend**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `542` | `26` | `318` | `155` | `259` | `-12.0%` | `+50.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `50.0%` / 타격: `50.0%` / 관통: `44.0%` | 화염: `30.0%` / 빙결: `30.0%` / 바람: `30.0%` | 그림자: `30.0%` / 번개: `5.0%` / 철: `0.0%` |
+| 🔨타격: `50.0%`<br>🗡️베기: `50.0%`<br>🩸관통/출혈: `44.0%` | 🔥화염: `30.0%`<br>❄️빙결: `30.0%`<br>⚡번개: `5.0%`<br>💨바람: `30.0%` | 🌌암흑: `30.0%`<br>⚙️철(Metal): `0.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Dagger** (Light Weapon) — 인챈트: `None` ⭐x3
@@ -84,3 +86,16 @@
 1. 스피디한 단검 M1 평타 연타로 적의 Posture 게이지를 누적합니다.
 2. 상대 가드가 무너지며 Posture Break가 발생했을 때 즉시 Bloodrend 만트라(Crucifixion 또는 Bloodedge)를 적중시킵니다.
 3. Hemorrhaging Blow 탤런트 디버프가 적용된 상태에서 Hair Spray (Revitalizing) 또는 자가/타인 힐링 스킬을 사용할 시 상대는 힐 대신 1.5줄 이상의 체력 피해를 입고 폭사합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidwalker` / Oath: `Fadetrimmer` / Race/Aspect: `Tiran` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `3` / Proficiency: `3` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `50` / AGL: `40` / INT: `30` / WLL: `40` / CHA: `0` |
+| **무기/속성 수치** | LHT: `65` / MED: `0` / HVY: `0` / Elements: `{'bloodrend': 80}` |
+| **실전 전투 수치** | ❤️HP: `542` / 🛡️Posture: `26` / 💧Ether: `318` / ⚡Tempo: `155` / 🧠Sanity: `259` / 👟Speed: `-12.0%` / 💀Monster Dmg: `+50.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `50.0%` / 🗡️베기(Slash): `50.0%` / 🩸관통·출혈(Bleed): `44.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `30.0%` / ❄️빙결: `30.0%` / ⚡번개: `5.0%` / 💨바람: `30.0%` / 🌌암흑: `30.0%` / ⚙️철: `0.0%` / 🩸혈액: `N/A` |

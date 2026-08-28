@@ -22,7 +22,7 @@
 ## 🧬 4대 고유 특성 (Traits)
 | Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
 | :---: | :---: | :---: | :---: |
-| `0` | `0` | `0` | `0` |
+| `6` | `1` | `0` | `5` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -123,7 +123,7 @@
 | 실측 분류 | 세부 실측 데이터 항목 |
 | :--- | :--- |
 | **캐릭터 기본 정보** | Power: `1` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `Canor` |
-| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `0` / Songchant: `0` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `1` / Proficiency: `0` / Songchant: `5` |
 | **6대 기본 스탯** | STR: `20` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `50` / CHA: `25` |
 | **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `{'bloodrend': 80}` |
 | **실전 전투 수치** | ❤️HP: `236.0` / 🛡️Posture: `21.0` / 💧Ether: `178.0` / ⚡Tempo: `120.0` / 🧠Sanity: `96.0` / 👟Speed: `0.0%` / 💀Monster Dmg: `0.0%` |

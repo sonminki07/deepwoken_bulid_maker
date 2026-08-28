@@ -9,15 +9,15 @@
     "build_name": "Megumi Ten Shadows Visionshaper Summoner Build",
     "build_type": "Hybrid",
     "difficulty": "Intermediate",
-    "creator_opinion": "\uc778\uae30 \uc560\ub2c8\uba54\uc774\uc158 '\uc8fc\uc220\ud68c\uc804'\uc758 \ud6c4\uc2dc\uad6c\ub85c \uba54\uad6c\ubbf8(Megumi Fushiguro)\ub97c \ubaa8\ud2f0\ube0c\ub85c \ud55c \uc2ed\uc885\uc601\ubc95\uc220(Ten Shadows Technique) \ucee8\uc149\uc758 \ud658\uc601 \uc18c\ud658\uc0ac \ube4c\ub4dc\uc785\ub2c8\ub2e4. \uadf8\ub9bc\uc790\uc640 \ud658\uc601 \ubd84\uc2e0, \ub2e4\uc911 \uc18d\uc131(Shadow, Frost, Thunder) mantras\ub97c \ud65c\uc6a9\ud574 \uc0c1\ub300\ub97c \uc555\ubc15\ud558\uace0 \uad50\uc804\uc758 \uc8fc\ub3c4\uad8c\uc744 \uc6c0\ucf1c\uc950\ub294 \ub3c5\ud2b9\ud558\uace0 \uc720\ucf8c\ud55c \uc544\ud0a4\ud0c0\uc785\uc785\ub2c8\ub2e4.\n\nVisionshaper Oath\uc758 \ud575\uc2ec \ud658\uc601 \uae30\uc220\uacfc Shadowcast\uc758 \uc100\ub3c4\uc6b0 \ud074\ub860, Frostdraw/Thundercall\uc758 \uc18c\ud658 \uc720\ud2f8 mantras(\ud1a0\ud0a4\uc0ac\ub370/\ub204\uc5d0/\ub9cc\uc0c1/\ud0c8\ud1a0 \ud328\ub7ec\ub514)\uac00 \uc815\uad50\ud558\uac8c \ub9de\ubb3c\ub824 \uc791\ub3d9\ud569\ub2c8\ub2e4. \ubd84\uc2e0\uacfc \uc18c\ud658\uc218\uac00 \ub9f5\uc744 \uba54\uc6b0\ub294 \ub3d9\uc548 \uc0c1\ub300\uc758 \ud328\ub9c1 \ud0c0\uc774\ubc0d\uc744 \uc644\uc804\ud788 \ud769\ud2b8\ub824 \ub193\uc73c\uba70 \uc9c0\uc18d\uc801\uc778 \ud3ed\ub51c\uc744 \uaf42\uc544 \ub123\uc744 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\n\n\uc2e4\uc804 \uad50\uc804\uc5d0\uc11c\ub294 \uc0c1\ub300\uc5d0\uac8c \ub04a\uc784\uc5c6\ub294 \ud658\uc601\uacfc \ud0c0\uaca9 \ud310\uc815\uc744 \uc911\ucca9\uc2dc\ucf1c \ubc29\uc5b4 \ud328\ud134\uc744 \uac15\uc81c\ud558\uace0, \ud328\ub9c1 \ubbf8\uc2a4\uac00 \ubc1c\uc0dd\ud558\ub294 \uc989\uc2dc \uadfc\uc811 \uac00\ub4dc\ube0c\ub808\uc774\ud06c\uc640 mantras \uc5f0\uacc4\ub85c \uac00\ucc28 \uc5c6\ub294 \ud3ed\ub51c\uc744 \ud37c\ubd93\uc2b5\ub2c8\ub2e4. \uc704\uae30 \uc0c1\ud669\uc5d0\uc11c\ub294 \ub9c8\ud638\ub77c\uac00 \uc18c\ud658 \ud328\ub7ec\ub514\ucc98\ub7fc \ub300\ud615 \ubcf4\uc2a4/\ubab9\uc758 \uc5b4\uadf8\ub85c\ub97c \uc720\ub3c4\ud558\uac70\ub098 \uae30\ub3d9 \uc720\ud2f8\uae30\ub85c \ud0c8\ucd9c\ud558\ub294 \uc2ec\ub9ac\uc804 \uc6b0\uc704\ub3c4 \ub6f0\uc5b4\ub0a9\ub2c8\ub2e4.",
+    "creator_opinion": "인기 애니메이션 '주술회전'의 후시구로 메구미(Megumi Fushiguro)를 모티브로 한 십종영법술(Ten Shadows Technique) 컨셉의 환영 소환사 빌드입니다. 그림자와 환영 분신, 다중 속성(Shadow, Frost, Thunder) mantras를 활용해 상대를 압박하고 교전의 주도권을 움켜쥐는 독특하고 유쾌한 아키타입입니다.\n\nVisionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Frostdraw/Thundercall의 소환 유틸 mantras(토키사데/누에/만상/탈토 패러디)가 정교하게 맞물려 작동합니다. 분신과 소환수가 맵을 메우는 동안 상대의 패링 타이밍을 완전히 흩트려 놓으며 지속적인 폭딜을 꽂아 넣을 수 있습니다.\n\n실전 교전에서는 상대에게 끊임없는 환영과 타격 판정을 중첩시켜 방어 패턴을 강제하고, 패링 미스가 발생하는 즉시 근접 가드브레이크와 mantras 연계로 가차 없는 폭딜을 퍼붓습니다. 위기 상황에서는 마호라가 소환 패러디처럼 대형 보스/몹의 어그로를 유도하거나 기동 유틸기로 탈출하는 심리전 우위도 뛰어납니다.",
     "strengths": [
-      "Visionshaper Oath \ubc0f Shadow Clone\uc744 \ud65c\uc6a9\ud55c \uc555\ub3c4\uc801\uc778 \ud658\uc601 \uc0dd\uc131\uacfc \uc0c1\ub300 \uc2dc\uc57c/\ud328\ub9c1 \ubc29\ud574 \ub2a5\ub825",
-      "Shadow, Frost, Thunder \ub2e4\uc911 \uc18d\uc131 \uc720\ud2f8 \uad6c\uc131\uc744 \ud1b5\ud55c \ub2e4\ucc44\ub85c\uc6b4 \ubcc0\uc218 \ucc3d\ucd9c \ubc0f \uc911/\uadfc\uac70\ub9ac \uad50\uc804 \uc8fc\ub3c4\uad8c",
-      "\uc18c\ud658\uc218\uc640 \ubd84\uc2e0\uc774 \uc5b4\uadf8\ub85c\ub97c \ubd84\uc0b0\uc2dc\ucf1c \uc8fc\ubbc0\ub85c PvE \ubcf4\uc2a4\uc804 \ubc0f PvP 1vN \uc0c1\ud669\uc5d0\uc11c \ub6f0\uc5b4\ub09c \uc0dd\uc874\ub825 \ud655\ubcf4"
+      "Visionshaper Oath 및 Shadow Clone을 활용한 압도적인 환영 생성과 상대 시야/패링 방해 능력",
+      "Shadow, Frost, Thunder 다중 속성 유틸 구성을 통한 다채로운 변수 창출 및 중/근거리 교전 주도권",
+      "소환수와 분신이 어그로를 분산시켜 주므로 PvE 보스전 및 PvP 1vN 상황에서 뛰어난 생존력 확보"
     ],
     "weaknesses": [
-      "\ub2e4\uc911 \uc18d\uc131 \ubc0f \uc720\ud2f8 stats \ud22c\uc790\ub85c \uc778\ud574 \uc21c\uc218 \ub2e8\uc77c \uc18d\uc131 \ud55c\ubc29 \ud3ed\ub51c \ube4c\ub4dc \ub300\ube44 \uc9c1\uad00\uc801\uc778 stats \ub2e8\ucd95\uc774 \ud544\uc694\ud568",
-      "\ubd84\uc2e0 \ubc0f \uc18c\ud658 mantras\uc758 \uc5d0\ud14c\ub974(Ether) \uc18c\ubaa8 \uad00\ub9ac\uac00 \ubbf8\uc219\ud560 \uacbd\uc6b0 \uc815\uba74 \ub9de\ub51c \uc0c1\ud669\uc5d0\uc11c \uc790\uc6d0 \ub09c\uc5d0 \ubd09\ucc29\ud560 \uc218 \uc788\uc74c"
+      "다중 속성 및 유틸 stats 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 stats 단축이 필요함",
+      "분신 및 소환 mantras의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음"
     ]
   },
   "stats_and_attunements": {
@@ -114,10 +114,10 @@
       "Scion of Ethiron",
       "Primadon"
     ],
-    "mob_strategy": "1. \uc77c\ubc18 \ubaac\uc2a4\ud130 (Megalodaunt, Squibbo): \uc9c4\uc785 \uc9c1\ud6c4 \ubd84\uc2e0(Shadow Clone / Visionshaper)\uc744 \uba3c\uc800 \uc0dd\uc131\ud558\uc5ec \ubaac\uc2a4\ud130\uc758 \uc5b4\uadf8\ub85c\ub97c \ubd84\uc2e0 \ucabd\uc73c\ub85c \ub04c\uc5b4\uc90d\ub2c8\ub2e4. \ubaac\uc2a4\ud130\uac00 \ubd84\uc2e0\uc744 \uacf5\uaca9\ud558\ub294 \ub3d9\uc548 \uce21\uba74\uc774\ub098 \ud6c4\ubc29\uc5d0\uc11c \uc548\uc804\ud558\uac8c weapons \ud0c0\uaca9\uacfc \uac00\ub4dc\ube0c\ub808\uc774\ud06c mantras\ub97c \ub123\uc5b4 \uc81c\uc555\ud569\ub2c8\ub2e4.\n2. Layer 2 Floor 2 (Scion of Ethiron): \uad11\uc5ed \ub808\uc774\uc800 \ubc0f \ubf08 \uae30\ub465 \ud328\ud134 \uc2dc \uae30\ub3d9 mantras\uc640 \ud68c\ud53c\ub97c \uc774\uc6a9\ud574 \uae30\ub465 \ub4a4\ub85c \uc2e0\uc18d\ud788 \uc774\ub3d9\ud569\ub2c8\ub2e4. \ucf54\uc5b4 \ud0c0\uaca9 \ud398\uc774\uc988\uc5d0\uc11c\ub294 \uc5bc\uc74c/\ubc88\uac1c \uc18d\uc131 mantras\ub97c \ucfe8\ud0c0\uc784\ub9c8\ub2e4 \ud37c\ubd80\uc5b4 \uc2e0\uc18d\ud558\uac8c \ud37c\uc13c\ud2b8 \ub300\ubbf8\uc9c0\ub97c \ub204\uc801\uc2dc\ud0b5\ub2c8\ub2e4.\n3. \ud544\ub4dc \ubcf4\uc2a4 (Primadon): \ub300\ud615 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c\ub294 \uac70\ub9ac \uc720\uc9c0\uac00 \ud544\uc218\uc801\uc785\ub2c8\ub2e4. \uc5b4\uadf8\ub85c\ub97c \ubd84\uc2e0\uc5d0 \ubd84\uc0b0\uc2dc\ud0a8 \uc0c1\ud0dc\uc5d0\uc11c \uc911\uac70\ub9ac \uc5bc\uc74c \ucc0c\ub974\uae30 \ubc0f \ubc88\uac1c \ubd84\uc2e0\uc744 \ud65c\uc6a9\ud574 \ubcf4\uc2a4\uc758 \ud328\ud134 \ud6c4\ub51c\ub808\uc774\uc5d0 \uc815\ud655\ud788 \ub9ac\uce58 \uae34 \ud0c0\uaca9\uc744 \uaf42\uc544 \ub123\uc2b5\ub2c8\ub2e4."
+    "mob_strategy": "1. 일반 몬스터 (Megalodaunt, Squibbo): 진입 직후 분신(Shadow Clone / Visionshaper)을 먼저 생성하여 몬스터의 어그로를 분신 쪽으로 끌어줍니다. 몬스터가 분신을 공격하는 동안 측면이나 후방에서 안전하게 weapons 타격과 가드브레이크 mantras를 넣어 제압합니다.\n2. Layer 2 Floor 2 (Scion of Ethiron): 광역 레이저 및 뼈 기둥 패턴 시 기동 mantras와 회피를 이용해 기둥 뒤로 신속히 이동합니다. 코어 타격 페이즈에서는 얼음/번개 속성 mantras를 쿨타임마다 퍼부어 신속하게 퍼센트 대미지를 누적시킵니다.\n3. 필드 보스 (Primadon): 대형 보스를 상대할 때는 거리 유지가 필수적입니다. 어그로를 분신에 분산시킨 상태에서 중거리 얼음 찌르기 및 번개 분신을 활용해 보스의 패턴 후딜레이에 정확히 리치 긴 타격을 꽂아 넣습니다."
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "1\ub2e8\uacc4 (\uc9c4\uc785 \ubc0f \uc5b4\uadf8\ub85c \ubd84\uc0b0): \uad50\uc804 \uac1c\uc2dc \uc2dc Shadow Clone \ub610\ub294 Visionshaper \ud2b9\uc720\uc758 \ud658\uc601 \ubd84\uc2e0\uc744 \uc2dc\uc804\ud558\uc5ec \uc0c1\ub300\ubc29\uc758 \uc2dc\uc57c\uc640 \uc5b4\uadf8\ub85c\ub97c \uad50\ub780\ud569\ub2c8\ub2e4.\n2\ub2e8\uacc4 (\uacac\uc81c \ubc0f \uac00\ub4dc\ube0c\ub808\uc774\ud06c): \uc911\uac70\ub9ac\uc5d0\uc11c Lightning Clones(\ub204\uc5d0 \ucee8\uc149) \ub610\ub294 Frozen Servants(\ub9cc\uc0c1 \ucee8\uc149)\ub97c \ub0a0\ub824 \uc0c1\ub300\uc758 \uac00\ub4dc\ub97c \ud754\ub4e4\uace0 \ud328\ub9c1 \ud0c0\uc774\ubc0d\uc744 \uc557\uc544\uc635\ub2c8\ub2e4.\n3\ub2e8\uacc4 (\uadfc\uc811 \ud3ed\ub51c \uc5f0\uacc4): \uc0c1\ub300\uac00 \ubd84\uc2e0\uc744 \uc758\uc2dd\ud558\uc5ec \ubc29\uc5b4 \uc790\uc138\ub97c \ucde8\ud558\uac70\ub098 \ud328\ub9c1 \ubbf8\uc2a4\uac00 \ub098\ub294 \uc989\uc2dc \uc778\ud30c\uc774\ud305\uc73c\ub85c \ud30c\uace0\ub4e4\uc5b4 weapons \uae30\ubcf8 \ud0c0\uaca9 2~3\ud0c0\uc640 Curse/Solar \uac10\uc5fc \uc2a4\ud0dd\uc744 \uaf42\uc544 \ub123\uc2b5\ub2c8\ub2e4.\n4\ub2e8\uacc4 (\ud0c8\ucd9c \ubc0f \uc774\ud0c8): \uc5d0\ud14c\ub974\uac00 \uc18c\ubaa8\ub418\uac70\ub098 \uc0c1\ub300\uc758 \uac00\uc6b4\ud130\uac00 \uc608\uc0c1\ub420 \ub54c\ub294 Rabbit Escape(\ud0c8\ud1a0 \ucee8\uc149) \ub610\ub294 Run It Back\uc73c\ub85c \uac70\ub9ac\ub97c \ubc8c\ub9ac\uace0 \uccb4\ub825/\uc5d0\ud14c\ub974\ub97c \ud68c\ubcf5\ud55c \ub4a4 \ub2e4\uc2dc \ud658\uc601\uc744 \uc804\uac1c\ud569\ub2c8\ub2e4."
+    "combo_guide": "1단계 (진입 및 어그로 분산): 교전 개시 시 Shadow Clone 또는 Visionshaper 특유의 환영 분신을 시전하여 상대방의 시야와 어그로를 교란합니다.\n2단계 (견제 및 가드브레이크): 중거리에서 Lightning Clones(누에 컨셉) 또는 Frozen Servants(만상 컨셉)를 날려 상대의 가드를 흔들고 패링 타이밍을 앗아옵니다.\n3단계 (근접 폭딜 연계): 상대가 분신을 의식하여 방어 자세를 취하거나 패링 미스가 나는 즉시 인파이팅으로 파고들어 weapons 기본 타격 2~3타와 Curse/Solar 감염 스택을 꽂아 넣습니다.\n4단계 (탈출 및 이탈): 에테르가 소모되거나 상대의 가운터가 예상될 때는 Rabbit Escape(탈토 컨셉) 또는 Run It Back으로 거리를 벌리고 체력/에테르를 회복한 뒤 다시 환영을 전개합니다."
   },
   "video_meta": {
     "title": "The Megumi Summoner Progression! (1-20) | Deepwoken |",
@@ -153,5 +153,33 @@
       "name": "Ice Flock"
     }
   ],
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

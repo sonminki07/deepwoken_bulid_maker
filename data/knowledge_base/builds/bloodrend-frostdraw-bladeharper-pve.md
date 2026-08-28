@@ -43,14 +43,16 @@
 - **Bloodrend**: `75`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `15.0%` / 빙결: `55.0%` / 바람: `10.0%` | 그림자: `25.0%` / 번개: `10.0%` / 철: `15.0%` |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `15.0%`<br>❄️빙결: `55.0%`<br>⚡번개: `10.0%`<br>💨바람: `10.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `15.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Prophet's Florentine** (Medium Weapon) — 인챈트: `None` ⭐x3
@@ -98,3 +100,16 @@
 2단계: Ice Flock과 Scarlet Cyclone으로 적의 이동 속도를 늦추고 경직을 유발합니다.
 3단계: Blood Wisp과 Warden's Blades를 사용하여 지속적인 데미지와 함께 체력을 회복합니다.
 4단계: 적이 그로기 상태가 되면 강력한 M1 연계와 Blood Cuttle로 폭딜을 넣고 처형(Execution)으로 전투를 마무리합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `3` / Erudition: `2` / Proficiency: `5` / Songchant: `4` |
+| **6대 기본 스탯** | STR: `25` / FTD: `40` / AGL: `25` / INT: `35` / WLL: `1` / CHA: `40` |
+| **무기/속성 수치** | LHT: `1` / MED: `90` / HVY: `1` / Elements: `{'frostdraw': 40, 'shadowcast': 1, 'ironsing': 1, 'bloodrend': 75}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `55.0%` / ⚡번개: `10.0%` / 💨바람: `10.0%` / 🌌암흑: `25.0%` / ⚙️철: `15.0%` / 🩸혈액: `N/A` |

@@ -30,10 +30,10 @@
     "resonance_bell": "Cloud of the Deep"
   },
   "traits": {
-    "vitality": 0,
-    "erudition": 0,
+    "vitality": 6,
+    "erudition": 1,
     "proficiency": 0,
-    "songchant": 0
+    "songchant": 5
   },
   "stats": {
     "strength": 20,

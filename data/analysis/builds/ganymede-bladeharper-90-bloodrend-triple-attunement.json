@@ -1,0 +1,153 @@
+{
+  "video_metadata": {
+    "title": "Ganymede Bladeharper 90 Bloodrend Triple-Attunement Hybrid PvE",
+    "channel": "Deepwoken PvE Specialist",
+    "url": "https://www.youtube.com",
+    "patch_version": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "build_summary": {
+    "build_name": "Ganymede Bladeharper 90 Bloodrend Triple-Attunement Hybrid PvE",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "Ganymede 종족의 뛰어난 Sanity(정신력) 기본 스탯과 6 Proficiency, 6 Songchant 세팅을 기반으로 설계된 90 Bloodrend + Triple Elemental(Flame/Thunder/Shadow 17) 하이브리드 블레이드하퍼 빌드입니다.\n\n88 Medium Weapon과 Shattered Katana의 강력한 M1 평타 딜링, 90 Bloodrend의 막강한 출혈(Hemorrhage) 지속딜 및 3속성(Flame/Thunder/Shadow) 만트라 유틸리티를 동시에 발동시켜 Diluvian 메커니즘과 엔드게임 보스 레이드에서 극강의 DPS를 뿜어냅니다.",
+    "strengths": [
+      "90 Bloodrend 기반의 가공할 만한 출혈 및 흡혈 폭딜",
+      "Flame(17) + Thunder(17) + Shadow(17) 3속성 만트라의 다채로운 군중제어 및 유틸리티",
+      "6 Proficiency + 6 Songchant 극대화로 빠른 만트라 시전 속도와 높은 M1 위력",
+      "Ganymede 고유의 높은 정신력(285 Sanity)으로 Depths 및 레이드 생존력 우수"
+    ],
+    "weaknesses": [
+      "Fortitude 0 투자로 인해 Max HP(451) 및 Posture(23)가 낮아 패리/회피 컨트롤 숙련 필수",
+      "3개 속성 만트라와 Bloodrend의 복합 스킬 쿨타임 관리가 까다로움"
+    ]
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 6
+  },
+  "stats": {
+    "strength": 15,
+    "fortitude": 0,
+    "agility": 25,
+    "intelligence": 17,
+    "willpower": 40,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 88,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 17,
+    "thundercall": 17,
+    "shadowcast": 17,
+    "bloodrend": 90,
+    "frostdraw": 0,
+    "galebreathe": 0,
+    "ironsing": 0
+  },
+  "combat_stats": {
+    "hp": 451,
+    "posture": 23,
+    "ether": 225,
+    "tempo": 140,
+    "sanity": 285,
+    "move_speed_pct": 5.0,
+    "pve_dmg_pct": 26.5,
+    "physical_armor_pct": 24.5
+  },
+  "resistances": {
+    "physical_blunt": "33.7%",
+    "physical_slash": "31.6%",
+    "fire": "17.5%",
+    "ice": "17.5%",
+    "lightning": "17.5%",
+    "wind": "17.5%",
+    "shadow": "17.5%",
+    "iron": "21.7%",
+    "acid": "17.5%",
+    "physical_pierce": "5.0%"
+  },
+  "character_setup": {
+    "origin": "Deepbound",
+    "oath": "Bladeharper",
+    "race": "Ganymede",
+    "aspect": "Ganymede",
+    "age": "18 (Born Summer, 1649 CE)"
+  },
+  "weapons": [
+    {
+      "name": "Shattered Katana",
+      "type": "Medium Weapon",
+      "enchant": "Drowned",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Dark Hood / Witch Hat (⭐x3)"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Deepbound Diver Attire (⭐x3)"
+    },
+    {
+      "slot": "Glasses",
+      "name": "Scholar Glasses (⭐x3)"
+    },
+    {
+      "slot": "Boots",
+      "name": "Leather Greaves (⭐x3)"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Poser's Ring (⭐x2)"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Maestro's Ring (⭐x2)"
+    }
+  ],
+  "talents": [
+    {
+      "name": "Hemorrhage Master",
+      "is_core": true
+    },
+    {
+      "name": "Bladeharper Stance",
+      "is_core": true
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": true
+    },
+    {
+      "name": "Old Habits Die Hard",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Bloodcurdle"
+    },
+    {
+      "name": "Scarlet Cyclone"
+    },
+    {
+      "name": "Flame Blind"
+    },
+    {
+      "name": "Lightning Jolt"
+    },
+    {
+      "name": "Shadow Seekers"
+    }
+  ],
+  "combo_guide": "1. Flame Blind 및 Lightning Jolt로 적의 시야와 기동성을 봉쇄합니다.\n2. Shattered Katana의 빠른 M1 콤보로 Posture를 깎아내며 Bladeharper 스탠스 버프를 누적합니다.\n3. 적의 방어가 무너졌을 때 Scarlet Cyclone과 Bloodcurdle을 연계하여 90 Bloodrend의 압도적인 출혈 폭딜을 터뜨립니다.\n4. Poser's Ring으로 적의 카운터를 흘리며 무한 딜사이클을 유지합니다."
+}

@@ -102,5 +102,33 @@
     "upload_date": "20260707",
     "estimated_patch": "Unknown"
   },
-  "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n"
+  "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n",
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

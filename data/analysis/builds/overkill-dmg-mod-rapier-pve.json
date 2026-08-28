@@ -1,0 +1,190 @@
+{
+  "video_metadata": {
+    "title": "A new PvE meta has entered Deepwoken... | Rapier PvE Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=0ccU42O_dfw",
+    "upload_date": "2026-07-12",
+    "version_era": "Verse 3"
+  },
+  "build_summary": {
+    "build_name": "Overkill DMG Mod Rapier PvE",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "오랫동안 레이피어는 단검류(Knife's Journey)에 밀려 PVE 메타에서 저평가받아 왔으나, 최근의 대대적인 버프 덕분에 단검을 능가하는 강력한 잠재력을 지니게 되었습니다. 특히 특수 버프 시너지와 높은 크리티컬 배율, 안정적인 패리 후 연계 데미지를 통해 엘더(Elder Primadon)와 같은 강력한 보스 레이드에서 세계 최고 수준의 타임어택 클리어 기록을 갱신할 수 있는 최정상급 PVE 빌드입니다.",
+    "strengths": [
+      "No Talent Requirements: 레이피어 무기 자체의 뛰어난 성능과 기본 스탯만으로도 높은 딜을 뿜어내며 까다로운 탤런트 요구 조건이 적음.",
+      "Insane Critical Damage Scaling: Cornered Fool, Narcissist, Manipulator, Hemolysis 등 다양한 크리티컬/참격 데미지 증폭 탤런트가 중첩되어 크리티컬 한 방당 5000+ 이상의 압도적인 데미지를 기록함.",
+      "High Consistent Clears: 단검류처럼 까다로운 RNG 프로크 조건에 의존하지 않고 패리 후 정직하고 확실한 딜 사이클을 통해 일관성 있는 보스 클리어가 가능함."
+    ],
+    "weaknesses": [
+      "Parry Dependency: 패리를 자주 해야 하는 보스(Elder, Chaser 등) 대상으로는 성능이 극대화되지만, 패리가 불가능하거나 패턴이 독특한 보스 대상으로는 효율이 크게 감소함.",
+      "Self-Damage Risk: Flame Within, Rush Hour 등 자신을 상해(Burn/Bleed) 입히거나 체력 바를 소모하는 탤런트를 적극 활용하므로 전투 중 체력 관리에 각별한 주의가 필요함."
+    ]
+  },
+  "traits": {
+    "vitality": 3,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 1
+  },
+  "stats": {
+    "strength": 50,
+    "fortitude": 40,
+    "agility": 0,
+    "intelligence": 100,
+    "willpower": 20,
+    "charisma": 85,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 20,
+    "ironsing": 0,
+    "bloodrend": 50
+  },
+  "combat_stats": {
+    "hp": 417,
+    "posture": 26,
+    "ether": 480,
+    "tempo": 120,
+    "sanity": 109,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "15.0%",
+    "ice": "10.0%",
+    "wind": "10.0%",
+    "shadow": "25.0%",
+    "lightning": "10.0%",
+    "iron": "20.0%",
+    "acid": "10.0%"
+  },
+  "weapons": [
+    {
+      "name": "Needle's Eye",
+      "type": "Light Weapon",
+      "enchant": "None",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Parasol Planter"
+    },
+    {
+      "slot": "Face",
+      "name": "Citadel Frames"
+    },
+    {
+      "slot": "Arms",
+      "name": "Ignition Gauntlets"
+    },
+    {
+      "slot": "Torso",
+      "name": "Warmaster's Medallion"
+    },
+    {
+      "slot": "Legs",
+      "name": "Celestial Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Akira's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Diver's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Isshin's Ring"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Prophet's Cloak"
+    },
+    {
+      "slot": "Bell",
+      "name": "Tiran Pendant"
+    }
+  ],
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Canor",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "Tiran Pendant"
+  },
+  "talents": [
+    {
+      "name": "Cornered Fool",
+      "is_core": true
+    },
+    {
+      "name": "Narcissist",
+      "is_core": true
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Shade Devour",
+      "is_core": false
+    },
+    {
+      "name": "Rush Hour",
+      "is_core": true
+    },
+    {
+      "name": "Hemolysis",
+      "is_core": true
+    },
+    {
+      "name": "Pressure Skewer",
+      "is_core": true
+    }
+  ],
+  "mantras": [],
+  "target_mobs": [
+    "Elder Primadon",
+    "Chaser",
+    "Ethiron",
+    "Duke Erisia"
+  ],
+  "mob_strategy": {
+    "elder_primadon": "패리 타이밍에 맞춰 완벽하게 카운터를 치고, 패리 직후 1초 이내에 폭발적인 M1 및 크리티컬 데미지를 집중시켜 순식간에 체력을 깎아냅니다. 아머 드레인 및 다양한 탤런트 버프(Cornered Fool, Narcissist 등)를 상시 유지하여 극딜을 넣습니다.",
+    "chaser_and_ethiron": "패리가 자주 요구되는 보스전에서 레이피어의 성능이 가장 극대화됩니다. 패턴을 정확히 파악하여 패리 성공 후 치명타(Crit)를 연속 적중시켜 트루 데미지(True Damage)와 고배율 크리티컬 데미지를 우겨넣어야 합니다."
+  },
+  "combo_guide": "{'step_1': '전투 시작 전 Flame Within 및 Rush Hour 등을 사용하여 자신에게 버프를 부여하고 데미지 배율을 극대화합니다.', 'step_2': '보스의 공격을 정확히 패리(Parry)하여 패리 직후 1초 버프 창을 엽니다.', 'step_3': '강화된 M1 평타 연계를 통해 Charmed 상태 및 추가 디버프를 유발하여 데미지를 증폭합니다.', 'step_4': '레이피어 크리티컬(Critical) 공격을 적중시켜 5000+ 이상의 압도적인 크리티컬 데미지와 Pressure Skewer의 추가 트루 데미지를 입힙니다.'}",
+  "video_meta": {
+    "title": "A new PvE meta has entered Deepwoken... | Rapier PvE Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=0ccU42O_dfw",
+    "upload_date": "20260712",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Bladeharper",
+  "race": "Canor",
+  "origin": "Castaway",
+  "murmur": "None",
+  "resonance": "Tiran Pendant"
+}

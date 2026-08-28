@@ -26,7 +26,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (63개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (65개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -52,6 +52,7 @@
 | **Enmity Slayer V2** | `PvE` | `Contractor / flamecharm, ` | [📄 문서 보기](builds/enmity-slayer-v2.md) |
 | **Flamecharm Rapier Dual Enchant Buil** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/flamecharm-rapier-dual-enchant-build.md) |
 | **FrostBurn V2** | `PvE` | `Oathless / flamecharm, fr` | [📄 문서 보기](builds/frostburn-v2.md) |
+| **Ganymede Bladeharper 90 Bloodrend T** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/ganymede-bladeharper-90-bloodrend-triple-attunement.md) |
 | **Heretic's Jetstriker Gale Grieves** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/heretics-jetstriker-gale-grieves.md) |
 | **Imperator's Fury Steam Vent Diluvia** | `PvE` | `Blindseer / flamecharm, s` | [📄 문서 보기](builds/imperators-fury-steam-vent-diluvian-speedrun.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
@@ -66,6 +67,7 @@
 | **Nanji's Posture Guard-Break Bruiser** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nanjis-posture-guard-break-bruiser.md) |
 | **Needles Eye Rapier Crit Stacking Pv** | `PvE` | `Bladeharper / flamecharm,` | [📄 문서 보기](builds/needles-eye-rapier-crit-stacking-pve-meta.md) |
 | **NLK Blindseer Medium Greatsword** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nlk-blindseer-medium-greatsword.md) |
+| **Overkill DMG Mod Rapier PvE** | `PvE` | `Bladeharper / flamecharm,` | [📄 문서 보기](builds/overkill-dmg-mod-rapier-pve.md) |
 | **Palace Tachi Bladeharper PvE God** | `PvE` | `Bladeharper / bloodrend` | [📄 문서 보기](builds/palace-tachi-bladeharper-pve-god.md) |
 | **Palace Tachi Shadowcast Contractor** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/palace-tachi-shadowcast-contractor.md) |
 | **Pale Briar Arcwarder Ironsing (Atla** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/pale-briar-arcwarder-ironsing-atlas-v1.md) |

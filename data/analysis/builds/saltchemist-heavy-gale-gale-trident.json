@@ -9,16 +9,16 @@
     "build_name": "Saltchemist Heavy Gale (Gale Trident)",
     "build_type": "PvP",
     "difficulty": "Advanced",
-    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 Gale Trident\uc640 Galebreathe mantras\uc758 \uac15\ub825\ud55c \uc720\ud2f8\ub9ac\ud2f0\uc5d0 Saltchemist\uc758 \ubc84\ud504/\ub514\ubc84\ud504 \ubb3c\uc57d \uc2dc\ub108\uc9c0\ub97c \uacb0\ud569\ud558\uc5ec \uadf9\ub300\ud654\ub41c \ud53c\ud574\ub97c \uc785\ud788\ub294 \ube4c\ub4dc\uc785\ub2c8\ub2e4. \uae30\ubcf8 mantras \uad00\ud1b5\ub825\uc774 58%\uc5d0 \ub2ec\ud558\uba70, Sear \uc2a4\ud0dd \uc5c6\uc774\ub3c4 \ud3ed\ubc1c\uc801\uc778 \ub370\ubbf8\uc9c0\ub97c \uc790\ub791\ud569\ub2c8\ub2e4. \uc0c1\ub300\ubc29\uc758 \ubc29\uc5b4\ub825\uc744 \ubb34\ub825\ud654\ud558\uace0 \ube60\ub978 \ud15c\ud3ec\ub85c \uc555\ubc15\ud558\ub294 \ub370 \ud2b9\ud654\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4.",
+    "creator_opinion": "이 빌드는 Gale Trident와 Galebreathe mantras의 강력한 유틸리티에 Saltchemist의 버프/디버프 물약 시너지를 결합하여 극대화된 피해를 입히는 빌드입니다. 기본 mantras 관통력이 58%에 달하며, Sear 스택 없이도 폭발적인 데미지를 자랑합니다. 상대방의 방어력을 무력화하고 빠른 템포로 압박하는 데 특화되어 있습니다.",
     "strengths": [
-      "Sear \uc2a4\ud0dd \uc5c6\uc774\ub3c4 \uae30\ubcf8 58%\uc5d0 \ub2ec\ud558\ub294 \uc555\ub3c4\uc801\uc778 mantras \uad00\ud1b5\ub825",
-      "Gale Trident\uc758 \uae34 \ub9ac\uce58\uc640 \uac15\ub825\ud55c \ud55c \ubc29 \ub370\ubbf8\uc9c0",
-      "Saltchemist \ubb3c\uc57d\uc744 \ud1b5\ud55c \uc720\uc5f0\ud55c \ubc84\ud504 \ubc0f \ub514\ubc84\ud504 \uc720\ud2f8\ub9ac\ud2f0",
-      "\ubc14\ub78c \uc18d\uc131 \ud2b9\uc720\uc758 \ub6f0\uc5b4\ub09c \uae30\ub3d9\uc131\uacfc \ucf64\ubcf4 \uc5f0\uacc4\ub825"
+      "Sear 스택 없이도 기본 58%에 달하는 압도적인 mantras 관통력",
+      "Gale Trident의 긴 리치와 강력한 한 방 데미지",
+      "Saltchemist 물약을 통한 유연한 버프 및 디버프 유틸리티",
+      "바람 속성 특유의 뛰어난 기동성과 콤보 연계력"
     ],
     "weaknesses": [
-      "\ubb3c\uc57d \uc81c\uc870 \ubc0f \uc0ac\uc6a9 \ud0c0\uc774\ubc0d\uc5d0 \ub300\ud55c \uc219\ub828\ub3c4 \uc694\uad6c",
-      "Gale Trident\uc758 \ub2e4\uc18c \ub290\ub9b0 \uacf5\uaca9 \uc18d\ub3c4\ub85c \uc778\ud55c \ud328\ub9c1 \ucde8\uc57d\uc131"
+      "물약 제조 및 사용 타이밍에 대한 숙련도 요구",
+      "Gale Trident의 다소 느린 공격 속도로 인한 패링 취약성"
     ]
   },
   "stats_and_attunements": {
@@ -104,10 +104,10 @@
       "Chaser",
       "Voidwalkers"
     ],
-    "mob_strategy": "Gale Trident\uc758 \uae34 \uc0ac\uac70\ub9ac\ub97c \ud65c\uc6a9\ud574 \uc548\uc804\uac70\ub9ac\ub97c \uc720\uc9c0\ud558\uba70, Saltchemist \ubb3c\uc57d\uc73c\ub85c \uacf5\uaca9\ub825 \ubc84\ud504\ub97c \ubd80\uc5ec\ud55c \ub4a4 Gale Lunge\uc640 Wind Carve\ub85c \uac00\ub4dc\ub97c \ud30c\uad34\ud558\uace0 \ud3ed\ubc1c\uc801\uc778 \ub370\ubbf8\uc9c0\ub97c \ub204\uc801\uc2dc\ud0b5\ub2c8\ub2e4."
+    "mob_strategy": "Gale Trident의 긴 사거리를 활용해 안전거리를 유지하며, Saltchemist 물약으로 공격력 버프를 부여한 뒤 Gale Lunge와 Wind Carve로 가드를 파괴하고 폭발적인 데미지를 누적시킵니다."
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "\uae30\ubcf8 \ud3c9\ud0c0(M1)\ub85c \ub9ac\uce58 \uc6b0\uc704\ub97c \uc810\ud55c \ub4a4, Gale Lunge\ub85c \uc9c4\uc785\ud558\uc5ec \uc0c1\ub300\uc758 \ud328\ub9c1 \ud0c0\uc774\ubc0d\uc744 \ud750\ud2b8\ub7ec\ub728\ub9bd\ub2c8\ub2e4. \uc774\ud6c4 Saltchemist \ubb3c\uc57d\uc744 \ud22c\ucc99\ud574 \ub514\ubc84\ud504\ub97c \ubb3b\ud788\uace0 Wind Carve\uc640 Heavenly Wind \uc5f0\uacc4\ub85c \uacf5\uc911 \ucf64\ubcf4 \ubc0f \ub109\ubc31\uc744 \uc720\ub3c4\ud558\uc5ec \uc804\uc7a5\uc744 \uc9c0\ubc30\ud569\ub2c8\ub2e4."
+    "combo_guide": "기본 평타(M1)로 리치 우위를 점한 뒤, Gale Lunge로 진입하여 상대의 패링 타이밍을 흐트러뜨립니다. 이후 Saltchemist 물약을 투척해 디버프를 묻히고 Wind Carve와 Heavenly Wind 연계로 공중 콤보 및 넉백을 유도하여 전장을 지배합니다."
   },
   "video_meta": {
     "title": "This Build Does TOO Much Damage | Deepwoken",
@@ -140,5 +140,33 @@
       "name": "Gale Breath"
     }
   ],
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 6
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

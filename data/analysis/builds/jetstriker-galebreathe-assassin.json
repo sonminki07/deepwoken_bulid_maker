@@ -10,15 +10,15 @@
     "build_name": "Jetstriker Galebreathe Assassin",
     "build_type": "PvP",
     "difficulty": "Advanced",
-    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 \uae30\uc874 \uc5b4\uc314\uc2e0 \ube4c\ub4dc\uc758 \uc57d\uc810\uc774\uc5c8\ub358 1\ub3001 \ub9de\ub2e4\uc774 \ub2a5\ub825\uc744 \uadf9\ubcf5\ud558\uba74\uc11c\ub3c4, \ub525\uc704\ud070 \ucd5c\uc0c1\uae09 \uae30\ub3d9\uc131\uc744 \uc9c0\ub2cc Jetstriker \uc624\uc2a4\uc640 Galebreathe \uc18d\uc131\uc744 \uacb0\ud569\ud558\uc5ec \uc554\uc0b4 \ubc0f \ud035 \ub4dc\ub86d \ud50c\ub808\uc774\uc5d0 \ud2b9\ud654\ub41c \ucd5c\uace0 tier\uc758 PvP \ube4c\ub4dc\uc785\ub2c8\ub2e4.\n\nSwift Strike\uc640 Spine Cutter, \uadf8\ub9ac\uace0 Assassin talents \uccb4\uc778\uc744 \ud65c\uc6a9\ud574 \ub4f1 \ub4a4 \uacf5\uaca9 \uc2dc \ub9c9\ub300\ud55c \ud3ed\ub51c\uc744 \uc6b0\uaca8\ub123\uc744 \uc218 \uc788\uc73c\uba70, Astral Wind\uc640 M1\uc744 \uc5f0\uacc4\ud558\ub294 \uc774\ub978\ubc14 '\uc544\uc2a4\ud2b8\ub784 stats' \ucf64\ubcf4\ub97c \ud1b5\ud574 \uc0c1\ub300\ubc29\uc744 \uacf5\uc911\uc73c\ub85c \ucd94\uc801\ud558\uc5ec \uac15\uc81c \uc5d0\uc5b4\ubcf8 \uc0c1\ud0dc\ub85c \uaca9\ucd94\uc2dc\ud0a4\ub294 \ubb34\uc790\ube44\ud55c \uc2ec\ub9ac\uc804 \uc555\ubc15\uc774 \uac00\ub2a5\ud569\ub2c8\ub2e4.\n\n\ub0ae\uc740 weapons stats \ud22c\uc790 \ub300\ube44 \ub192\uc740 \ud68c\ud53c \uae30\ub3d9\ub825\uacfc \uae30\uc2b5 \ub2a5\ub825\uc744 \uc790\ub791\ud558\ubbc0\ub85c, \uc0c1\ub300\uc758 \uc2dc\uc57c \ubc16\uc5d0\uc11c \uc811\uadfc\ud574 \uc740\uc2e0(Stealth) \uc0c1\ud0dc\uc758 \ubcf4\ub108\uc2a4 \ub300\ubbf8\uc9c0\ub97c \uadf9\ub300\ud654\ud558\uace0 \uc804\uc7a5\uc744 \uc9c0\ubc30\ud558\ub294 \ud50c\ub808\uc774\uc5b4\uc5d0\uac8c \ucd5c\uc801\uc758 \uc120\ud0dd\uc785\ub2c8\ub2e4.",
+    "creator_opinion": "이 빌드는 기존 어쌔신 빌드의 약점이었던 1대1 맞다이 능력을 극복하면서도, 딥위큰 최상급 기동성을 지닌 Jetstriker 오스와 Galebreathe 속성을 결합하여 암살 및 퀵 드롭 플레이에 특화된 최고 tier의 PvP 빌드입니다.\n\nSwift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등 뒤 공격 시 막대한 폭딜을 우겨넣을 수 있으며, Astral Wind와 M1을 연계하는 이른바 '아스트랄 stats' 콤보를 통해 상대방을 공중으로 추적하여 강제 에어본 상태로 격추시키는 무자비한 심리전 압박이 가능합니다.\n\n낮은 weapons stats 투자 대비 높은 회피 기동력과 기습 능력을 자랑하므로, 상대의 시야 밖에서 접근해 은신(Stealth) 상태의 보너스 대미지를 극대화하고 전장을 지배하는 플레이어에게 최적의 선택입니다.",
     "strengths": [
-      "\ucd08\uace0\uc18d \uae30\ub3d9\uc131\uacfc \ud035 \ub4dc\ub86d \ud0c8\ucd9c \ub2a5\ub825: Jetstriker\uc758 \ub6f0\uc5b4\ub09c \uc774\ub3d9\uae30\uc640 Galebreathe\uc758 \uc720\ud2f8\ub9ac\ud2f0\ub85c \ubd88\ub9ac\ud55c \uad50\uc804\uc5d0\uc11c \uc5b8\uc81c\ub4e0 \uc774\ud0c8 \uac00\ub2a5",
-      "\uc555\ub3c4\uc801\uc778 \ub4f1 \ub4a4 \ud0c0\uaca9 \ud3ed\ub51c: Spine Cutter\uc640 Swift Strike \uc870\ud569\uc73c\ub85c \uc801\uc758 \ud6c4\ubc29\uc744 \uc7a1\uc558\uc744 \ub54c \ub098\uc624\ub294 \ube44\uc815\uc0c1\uc801\uc778 \ud06c\ub9ac\ud2f0\uceec \ub300\ubbf8\uc9c0",
-      "\uc740\uc2e0 \uc2dc\ub108\uc9c0 \uadf9\ub300\ud654: \uc2a4\ud154\uc2a4 stats \uc5f0\uacc4 talents\ub97c \ud65c\uc6a9\ud574 \uc740\uc2e0 \uc0c1\ud0dc\uc5d0\uc11c\uc758 \uc554\uc0b4 \ub300\ubbf8\uc9c0\uac00 \ud0c0 \ube4c\ub4dc\uc5d0 \ube44\ud574 \uc6d4\ub4f1\ud788 \ub192\uc74c"
+      "초고속 기동성과 퀵 드롭 탈출 능력: Jetstriker의 뛰어난 이동기와 Galebreathe의 유틸리티로 불리한 교전에서 언제든 이탈 가능",
+      "압도적인 등 뒤 타격 폭딜: Spine Cutter와 Swift Strike 조합으로 적의 후방을 잡았을 때 나오는 비정상적인 크리티컬 대미지",
+      "은신 시너지 극대화: 스텔스 stats 연계 talents를 활용해 은신 상태에서의 암살 대미지가 타 빌드에 비해 월등히 높음"
     ],
     "weaknesses": [
-      "\ub0ae\uc740 \ubb3c\ub9ac \ubc0f \uc18d\uc131 \ubc29\uc5b4\ub825: \uacfc\uac10\ud55c \uc554\uc0b4 \ud50c\ub808\uc774\ub97c \uc704\ud574 \ubc29\uc5b4 stats \ud22c\uc790\uac00 \ubd84\uc0b0\ub418\uc5b4 \uc788\uc5b4 \ub9de\ub2e4\uc774 \uc2dc \uc9d1\uc911 \uacf5\uaca9\uc5d0 \ucde8\uc57d\ud568",
-      "\uc219\ub828\ub3c4\uac00 \uc694\uad6c\ub418\ub294 \ucf64\ubcf4 \ud0c0\uc774\ubc0d: Astral Wind\uc640 \ud06c\ub9ac\ud2f0\uceec \uacf5\uc911 \ucd94\uc801 \ucf64\ubcf4\uc758 \ud504\ub808\uc784 \ud0c0\uc774\ubc0d\uc744 \uc815\ud655\ud788 \ub9de\ucd94\uc9c0 \ubabb\ud558\uba74 \ub51c \uc190\uc2e4 \ubc1c\uc0dd"
+      "낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 stats 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함",
+      "숙련도가 요구되는 콤보 타이밍: Astral Wind와 크리티컬 공중 추적 콤보의 프레임 타이밍을 정확히 맞추지 못하면 딜 손실 발생"
     ]
   },
   "stats": {
@@ -160,15 +160,15 @@
     "Squibbo"
   ],
   "mob_strategy": [
-    "\uc740\uc2e0(Stealth) \uc0c1\ud0dc\ub97c \uc720\uc9c0\ud558\uba70 \uc801 \ubcf4\uc2a4\uc758 \ud6c4\ubc29\uc73c\ub85c \uc811\uadfc\ud574 \uc2a4\ud134 \ubc0f \uccab \ud0c0\uaca9 \ud06c\ub9ac\ud2f0\uceec \ubcf4\ub108\uc2a4\ub97c \uadf9\ub300\ud654\ud569\ub2c8\ub2e4.",
-    "Galebreathe\uc758 \uae30\ub3d9\uc131\uc744 \ud65c\uc6a9\ud574 \ubcf4\uc2a4\uc758 \uad11\uc5ed \uc7a5\ud310 \ud328\ud134\uc744 \ud68c\ud53c\ud558\uace0, \ucfe8\ud0c0\uc784\ub9c8\ub2e4 Astral Wind\ub85c \uacf5\uc911 \uc81c\uc5b4\uad8c\uc744 \uc7a1\uc2b5\ub2c8\ub2e4.",
-    "\uccb4\ub825\uc774 \ubd80\uc871\ud560 \ub54c\ub294 Jetstriker\uc758 \ube60\ub978 \uc774\ud0c8 \ub2a5\ub825\uc744 \ud65c\uc6a9\ud574 \uc548\uc804\ud55c \uac70\ub9ac\uc5d0\uc11c \uccb4\ub825\uc744 \ud68c\ubcf5\ud558\uace0 \uc7ac\uc9c4\uc785\ud569\ub2c8\ub2e4."
+    "은신(Stealth) 상태를 유지하며 적 보스의 후방으로 접근해 스턴 및 첫 타격 크리티컬 보너스를 극대화합니다.",
+    "Galebreathe의 기동성을 활용해 보스의 광역 장판 패턴을 회피하고, 쿨타임마다 Astral Wind로 공중 제어권을 잡습니다.",
+    "체력이 부족할 때는 Jetstriker의 빠른 이탈 능력을 활용해 안전한 거리에서 체력을 회복하고 재진입합니다."
   ],
   "combo_guide": [
-    "1\ub2e8\uacc4 (\uc9c4\uc785 \ubc0f \uae30\uc2b5): \uc740\uc2e0 \uc0c1\ud0dc\ub85c \uc801\uc5d0\uac8c \uc811\uadfc\ud558\uc5ec Swift Strike\ub97c \ubc1c\ub3d9, \ud6c4\ubc29 \ud3c9\ud0c0\ub85c \uc801\uc758 \ub4a4\ub97c \uc7a1\uace0 \uac15\ud654\ub41c \ud06c\ub9ac\ud2f0\uceec\ub85c \ud154\ub808\ud3ec\ud2b8 \uacf5\uaca9\uc744 \uba85\uc911\uc2dc\ud0b5\ub2c8\ub2e4.",
-    "2\ub2e8\uacc4 (\uad70\uc911 \uc81c\uc5b4 \ubc0f \uc5f0\uacc4): Astral Wind\ub97c \uce90\uc2a4\ud305\ud55c \uc9c1\ud6c4 \uc801\uc774 \uacf5\uc911\uc5d0 \ub5a0\uc624\ub974\ub294 \ud0c0\uc774\ubc0d\uc5d0 \ub9de\ucdb0 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc2a4\ud338\ud558\uc5ec \uacf5\uc911\uc73c\ub85c \uc624\ud1a0 \ucd94\uc801(\uc544\uc2a4\ud2b8\ub784 stats \ucf64\ubcf4)\ud569\ub2c8\ub2e4.",
-    "3\ub2e8\uacc4 (\ud3ed\ub51c \uc6b0\uaca8\ub123\uae30): Spine Cutter\uc640 Assassin talents \ud6a8\uacfc\uac00 \uc801\uc6a9\ub41c M1 \uc5f0\ud0c0 \ubc0f Gale Lunge\ub97c \uc0ac\uc6a9\ud558\uc5ec \ubc29\uc5b4\ub825\uc774 \uae4e\uc778 \uc801\uc5d0\uac8c \uce58\uba85\uc801\uc778 \ub300\ubbf8\uc9c0\ub97c \uc785\ud799\ub2c8\ub2e4.",
-    "4\ub2e8\uacc4 (\uc774\ud0c8 \ubc0f \uc0dd\uc874): \uad50\uc804\uc774 \ubd88\ub9ac\ud574\uc9c0\uac70\ub098 \uc801\uc758 \ubc18\uaca9\uc774 \uac70\uc140 \uacbd\uc6b0 Dash \ubc0f Jet Kick\uc744 \uc5f0\uacc4\ud558\uc5ec \uc989\uc2dc \uc804\uc7a5\uc744 \uc774\ud0c8\ud558\uace0 \uccb4\uc81c\ub97c \uc815\ube44\ud569\ub2c8\ub2e4."
+    "1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.",
+    "2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 stats 콤보)합니다.",
+    "3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin talents 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.",
+    "4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다."
   ],
   "video_meta": {
     "title": "The ULTIMATE Assassin Build | Deepwoken",
@@ -177,5 +177,33 @@
     "upload_date": "20260805",
     "estimated_patch": "Unknown"
   },
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

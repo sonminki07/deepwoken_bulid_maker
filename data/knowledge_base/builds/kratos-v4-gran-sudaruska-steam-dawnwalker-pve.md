@@ -62,14 +62,16 @@ KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브,
 - **Flamecharm**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `521` | `26` | `307` | `157` | `100` | `100.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `28.0%` / 관통: `25.0%` | 화염: `10.0%` / 빙결: `15.0%` / 바람: `0.0%` | 그림자: `25.0%` / 번개: `15.0%` / 철: `0.0%` |
+| 🔨타격: `28.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `25.0%` | 🔥화염: `10.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `0.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `0.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `Strength 40, Fortitude 90, Willpower 80, Flamecharm 80, Heavy_wep 80`
@@ -126,3 +128,16 @@ KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브,
    - `Warden's Blade` 설치 -> `Radiant Dawn` 돌진 후 폭발 -> `Blinding Dawn` 광역 맹목 및 제어 -> 스팀 구름 속에서 Gran Sudaruska 하이퍼아머 M1 연타.
 3. **위급 상황 생존 콤보**:
    - `Sacred Field` (벨) 즉시 발동 -> `Reinforce` 디버프 감소 및 체력 수급 -> 스팀 장판 내에서 비비면서 체력 회복 후 몹 일괄 정리.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Dawnwalker` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `2` / Proficiency: `0` / Songchant: `4` |
+| **6대 기본 스탯** | STR: `40` / FTD: `90` / AGL: `25` / INT: `0` / WLL: `80` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'flamecharm': 80}` |
+| **실전 전투 수치** | ❤️HP: `521` / 🛡️Posture: `26` / 💧Ether: `307` / ⚡Tempo: `157` / 🧠Sanity: `100` / 👟Speed: `100.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `28.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `25.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `10.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `0.0%` / 🌌암흑: `25.0%` / ⚙️철: `0.0%` / 🩸혈액: `N/A` |

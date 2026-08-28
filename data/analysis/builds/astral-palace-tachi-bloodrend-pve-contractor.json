@@ -185,5 +185,33 @@
       "Duke Erisia"
     ],
     "mob_strategy": "1. [프리마돈(Primadon) 패턴 파훼]: 프리마돈이 바위를 던지거나 발굴 스톰프 공격을 할 때 즉시 'Prediction' 만트라를 사용하여 무적 판정으로 공격을 무효화합니다.\n2. [M1 & 크리티컬 연계]: Palace Tachi의 크리티컬 공격은 Contractor 서약 시 Threadreaper 효과를 받아 적을 찢어발기는 추가 대미지를 줍니다. 일반 평타(M1)와 크리티컬을 번갈아 믹스업합니다.\n3. [혈류 폭발 스택 중첩]: Bloodrend 100 수치에서 발동하는 출혈 및 혈류 폭발 효과를 계속 누적시켜 보스의 체력바를 상시 녹여내립니다.\n4. [유지력 관리]: Carnivore 탤런트 덕분에 프리마돈이나 부하 몬스터 처치 시 즉시 허기 수치가 채워지므로 포션 소모 없이 장기전을 유도할 수 있습니다."
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
   }
 }

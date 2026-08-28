@@ -23,10 +23,10 @@
     ]
   },
   "traits": {
-    "vitality": 0,
+    "vitality": 6,
     "erudition": 0,
     "proficiency": 0,
-    "songchant": 0
+    "songchant": 6
   },
   "stats": {
     "strength": 1,

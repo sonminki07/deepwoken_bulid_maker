@@ -42,14 +42,16 @@
 - **Bloodrend**: `100`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `415` | `24` | `380` | `100` | `100` | `108.0%` | `+52.5%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `32.0%` / 타격: `22.5%` / 관통: `30.0%` | 화염: `15.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+| 🔨타격: `22.5%`<br>🗡️베기: `32.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `15.0%`<br>❄️빙결: `10.0%`<br>⚡번개: `10.0%`<br>💨바람: `10.0%` | 🌌암흑: `10.0%`<br>⚙️철(Metal): `10.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Shattered Katana** (Medium Weapon) — 인챈트: `Astral` ⭐x2
@@ -80,3 +82,16 @@
 2. 보스에게 근접하여 Shattered Katana 기본 평타 및 Bladeharper 스킬 연결
 3. Blood Orb 및 Scarlet Cyclone(Reversal + Multiplying Spark 적용)으로 보스 주변에 대량의 출혈 장판 형성
 4. Bloodcurdle로 피를 흡수하며 Hemorrhage 폭딜 유도 및 Poser's Ring으로 보스의 반격 회피
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `0` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `{'bloodrend': 100}` |
+| **실전 전투 수치** | ❤️HP: `415` / 🛡️Posture: `24` / 💧Ether: `380` / ⚡Tempo: `100` / 🧠Sanity: `100` / 👟Speed: `108.0%` / 💀Monster Dmg: `+52.5%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `22.5%` / 🗡️베기(Slash): `32.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `10.0%` / ⚡번개: `10.0%` / 💨바람: `10.0%` / 🌌암흑: `10.0%` / ⚙️철: `10.0%` / 🩸혈액: `N/A` |

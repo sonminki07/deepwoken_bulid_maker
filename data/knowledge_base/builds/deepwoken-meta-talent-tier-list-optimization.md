@@ -24,6 +24,11 @@
 - ⚠️ 특정 talents(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움
 - ⚠️ 메타 변화나 패치에 따라 talents 효율이 급변할 수 있어 지속적인 빌드 수정 필요
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -40,6 +45,18 @@
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Kyrsglaive', 'weapon_type': 'Heavy Weapon', 'enchant': 'Vampiric / Grim'}** — 인챈트: `None`
@@ -84,3 +101,16 @@
 2단계 (가드 브레이크 및 심리전): 강력한 헤비 weapons 평타와 Flame Eruption 등의 mantras를 섞어 상대의 포스쳐(Posture)를 무너뜨립니다.
 3단계 (폭딜 연계): Tough Love와 Overflowing Dam의 버프가 활성화된 상태에서 핵심 mantras(Shadow Gun 등)를 퍼부어 순식간에 체력을 갈아버립니다.
 4단계 (안정화 및 탈출): 위험할 때는 Exoskeleton과 To The Finish의 대미지 저감 효과를 믿고 거리를 벌린 뒤, 정비하고 재진입합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `90` / FTD: `90` / AGL: `90` / INT: `85` / WLL: `80` / CHA: `85` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'flamecharm': 80, 'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |

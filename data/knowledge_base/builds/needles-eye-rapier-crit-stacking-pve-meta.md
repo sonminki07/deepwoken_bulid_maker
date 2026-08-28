@@ -47,14 +47,16 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 - **Bloodrend**: `50`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `481` | `26` | `340` | `120` | `100` | `110.0%` | `+48.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `25.0%` / 관통: `35.0%` | 화염: `20.0%` / 빙결: `20.0%` / 바람: `20.0%` | 그림자: `20.0%` / 번개: `20.0%` / 철: `20.0%` |
+| 🔨타격: `25.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `35.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Rapier** (Light Weapon) — 인챈트: `None` ⭐x3
@@ -91,4 +93,20 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 - **Rush Hour**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'combo_guide': '1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.\n2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.\n3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.\n4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다.'}
+1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.
+2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.
+3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.
+4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Capra` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `20` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `85` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'flamecharm': 40, 'shadowcast': 20, 'bloodrend': 50}` |
+| **실전 전투 수치** | ❤️HP: `481` / 🛡️Posture: `26` / 💧Ether: `340` / ⚡Tempo: `120` / 🧠Sanity: `100` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `25.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `35.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |

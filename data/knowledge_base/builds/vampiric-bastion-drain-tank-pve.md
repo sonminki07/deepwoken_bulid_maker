@@ -22,6 +22,11 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 크리티컬 공격 빗나감 시 순간 리스크: Blood Plague 및 Critical Engine 기반의 피흡 의존도가 높아 크리티컬 공격을 실수로 허공에 날리면 순간 임시 체력 수급이 끊길 수 있습니다.
 - ⚠️ 고난도 제작 재료 요구: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings 등 엔드게임 세트 장비 제작에 많은 유니크 재료가 소비됩니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -38,6 +43,18 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Thundercall**: `65`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -86,3 +103,16 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 2단계 (광역 디버프 및 대미지 감쇄): 몹 무리에 진입하며 Magnet Spark가 적용된 Electro Carve와 Aegis Gem Arc Wave를 발사해 광역 감전(Electrify) 디버프를 부여하고 무상 방어 저항을 확보합니다.
 3단계 (크리티컬 주력 폭딜 & 무한 피흡): Pale Briar 크리티컬 공격을 시전해 다단히트 타격으로 임시 체력과 HP를 대량 수급합니다. 이어서 Emotion Wave와 Relentless Flames를 연계해 몹 집단을 단숨에 쓸어버립니다.
 4단계 (긴급 상황 탱킹 및 복구): 위급 상황 시 Sacred Field Bell을 펼쳐 저항력을 극대화하고, Phoenix Flames 부활 기믹 및 Regenerative 세트(Critical Heal) 효과로 단숨에 풀피를 복구합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Arcwarder` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `0` / FTD: `20` / AGL: `20` / INT: `50` / WLL: `0` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `{'flamecharm': 80, 'thundercall': 65}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |

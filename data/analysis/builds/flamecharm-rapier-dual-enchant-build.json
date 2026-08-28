@@ -9,17 +9,17 @@
     "build_name": "Flamecharm Rapier Dual Enchant Build",
     "build_type": "PvP",
     "difficulty": "Intermediate",
-    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 \uc18d\ub3c4\uac10 \uc788\ub294 \ub808\uc774\ud53c\uc5b4\uc758 \ub2e4\uc911 \ud0c0\uaca9 \ud310\uc815\uacfc \uac15\ub825\ud55c \ud654\uc5fc \uc18d\uc131(Flamecharm)\uc758 \uc720\ud2f8\ub9ac\ud2f0 \ubc0f \ud3ed\ub51c \uba54\ucee4\ub2c8\uc998\uc744 \uadf9\ub300\ud654\ud55c \uc778\ud30c\uc774\ud130\ud615 PvP \ud2b9\ud654 \ube4c\ub4dc\uc785\ub2c8\ub2e4. Curse of Yun'Shul\uacfc Tears of the Edenkite \uac19\uc740 \uac15\ub825\ud55c \uc778\ucc48\ud2b8 \uc870\ud569\uc744 \ud65c\uc6a9\ud558\uc5ec \uc801\uc758 \uac00\ub4dc\uc640 \ubc29\uc5b4\ub825\uc744 \uac15\uc81c\ub85c \ubb34\ub825\ud654\ud558\uba70, \uc21c\uac04\uc801\uc73c\ub85c \ub192\uc740 \ub51c\uc744 \uc6b0\uaca8\ub123\ub294 \ud15c\ud3ec\ub97c \uc9c0\ub2c8\uace0 \uc788\uc2b5\ub2c8\ub2e4.\n\n\ub808\uc774\ud53c\uc5b4\uc758 \ud2b9\uc131\uc0c1 \ube60\ub978 \uc5f0\ud0c0\uac00 \uac00\ub2a5\ud558\ubbc0\ub85c \ud654\uc5fc \uc18d\uc131 mantras \ubc0f \ud504\ub85c\ud06c(Proc) \ud655\ub960\uc774 \ube44\uc57d\uc801\uc73c\ub85c \uc0c1\uc2b9\ud558\uc5ec, \uc0c1\ub300\ubc29\uc774 \ub300\ucc98\ud560 \ud2c8\uc744 \uc8fc\uc9c0 \uc54a\uace0 \uc9c0\uc18d\uc801\uc778 \ud2b8\ub8e8 \ub370\ubbf8\uc9c0\uc640 \uc555\ubc15\uc744 \uac00\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \ud2b9\ud788 Flame Assault\ub97c \ube44\ub86f\ud55c \ub3cc\uc9c4 \ubc0f \uadfc\uc811 \ucf64\ubcf4\uac00 \ub9e4\ub044\ub7fd\uac8c \uc774\uc5b4\uc838 \uc0c1\ub300\ub97c \uc21c\uc2dd\uac04\uc5d0 \ub179\uc5ec\ubc84\ub9ac\ub294 \ud30c\uad34\ub825\uc744 \ubcf4\uc5ec\uc90d\ub2c8\ub2e4.\n\n\uae30\ub3d9\uc131\uc774 \ub6f0\uc5b4\ub09c Starkindred \uc624\uc2a4\uc640 \uc870\ud569\ub418\uc5b4 \uacf5\uc911\uc804\uacfc \uc9c0\uc0c1\uc804\uc744 \ub118\ub098\ub4dc\ub294 \uc2ec\ub9ac\uc804 \uc6b0\uc704\ub97c \uc810\ud560 \uc218 \uc788\uc73c\uba70, \uc0c1\ub300\uc758 \ud328\ub9ac\ub97c \ub6ab\uace0 \ub4e4\uc5b4\uac00\ub294 \uce69 \ub370\ubbf8\uc9c0\uc640 \uac00\ub4dc\ube0c\ub808\uc774\ud06c \uc9c0\uc18d \uc2dc\uac04 \uc99d\uac00(Amp Overdrive) talents\ub97c \ud1b5\ud574 \uad50\uc804 \uc8fc\ub3c4\uad8c\uc744 \uc644\ubcbd\ud558\uac8c \uc7a5\uc545\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+    "creator_opinion": "이 빌드는 속도감 있는 레이피어의 다중 타격 판정과 강력한 화염 속성(Flamecharm)의 유틸리티 및 폭딜 메커니즘을 극대화한 인파이터형 PvP 특화 빌드입니다. Curse of Yun'Shul과 Tears of the Edenkite 같은 강력한 인챈트 조합을 활용하여 적의 가드와 방어력을 강제로 무력화하며, 순간적으로 높은 딜을 우겨넣는 템포를 지니고 있습니다.\n\n레이피어의 특성상 빠른 연타가 가능하므로 화염 속성 mantras 및 프로크(Proc) 확률이 비약적으로 상승하여, 상대방이 대처할 틈을 주지 않고 지속적인 트루 데미지와 압박을 가할 수 있습니다. 특히 Flame Assault를 비롯한 돌진 및 근접 콤보가 매끄럽게 이어져 상대를 순식간에 녹여버리는 파괴력을 보여줍니다.\n\n기동성이 뛰어난 Starkindred 오스와 조합되어 공중전과 지상전을 넘나드는 심리전 우위를 점할 수 있으며, 상대의 패리를 뚫고 들어가는 칩 데미지와 가드브레이크 지속 시간 증가(Amp Overdrive) talents를 통해 교전 주도권을 완벽하게 장악할 수 있습니다.",
     "strengths": [
-      "\ub808\uc774\ud53c\uc5b4\uc758 \ube60\ub978 \ub2e4\uc911 \ud0c0\uaca9 \ud310\uc815\uc73c\ub85c \uc778\ud574 \uc778\ucc48\ud2b8 \ubc0f \uc0c1\ud0dc\uc774\uc0c1 \ud504\ub85c\ud06c \ud655\ub960\uc774 \ub9e4\uc6b0 \ub192\uc74c",
-      "Flame Assault \ub4f1 \ud654\uc5fc \uc18d\uc131 mantras\uc758 \uc21c\uac04 \ud3ed\ub51c \ub2a5\ub825\uc774 \uc6b0\uc218\ud568",
-      "Starkindred \uc624\uc2a4 \uae30\ub3d9\uc131\uc744 \ud65c\uc6a9\ud55c \ub6f0\uc5b4\ub09c \ub9f5 \uc7a5\uc545\ub825\uacfc \uacf5\uc911 \ud68c\ud53c \uc2ec\ub9ac\uc804",
-      "\uac00\ub4dc\ube0c\ub808\uc774\ud06c \uc9c0\uc18d \uc2dc\uac04 \uc99d\uac00 talents\ub85c \uc801\uc758 \ubc29\uc5b4 \ud0dc\uc138\ub97c \uc624\ub79c \uc2dc\uac04 \ubb34\ub825\ud654 \uac00\ub2a5"
+      "레이피어의 빠른 다중 타격 판정으로 인해 인챈트 및 상태이상 프로크 확률이 매우 높음",
+      "Flame Assault 등 화염 속성 mantras의 순간 폭딜 능력이 우수함",
+      "Starkindred 오스 기동성을 활용한 뛰어난 맵 장악력과 공중 회피 심리전",
+      "가드브레이크 지속 시간 증가 talents로 적의 방어 태세를 오랜 시간 무력화 가능"
     ],
     "weaknesses": [
-      "\uc2a4\ud0dc\ubbf8\ub098 \uad00\ub9ac\uac00 \ubbf8\uc219\ud560 \uacbd\uc6b0 \ube60\ub978 \uc5f0\ud0c0\uc640 \ud68c\ud53c \uae30\ub3d9\uc73c\ub85c \uc778\ud574 \uc27d\uac8c \uc2a4\ud14c\ubbf8\ub098 \uace0\uac08 \ubc1c\uc0dd",
-      "\ubb35\uc9c1\ud55c \ub300\ud615 weapons(Heavy Weapon) \uc720\uc800\uc758 \ud328\ub9ac \ubc0f \ub9ac\ud3ec\uc2a4\ud2b8 \ud0c0\uc774\ubc0d\uc5d0 \uc5ed\uacf5\ub2f9\ud560 \uc704\ud5d8 \uc874\uc7ac",
-      "\uc6d0\uac70\ub9ac \uacac\uc81c\ub825\uc774 \uc0c1\ub300\uc801\uc73c\ub85c \ubd80\uc871\ud558\uc5ec \uc811\uadfc\uc804 \uc2ec\ub9ac\uc804 \uc2e4\ud328 \uc2dc \uc8fc\ub3c4\uad8c\uc744 \ub0b4\uc5b4\uc904 \uc218 \uc788\uc74c"
+      "스태미나 관리가 미숙할 경우 빠른 연타와 회피 기동으로 인해 쉽게 스테미나 고갈 발생",
+      "묵직한 대형 weapons(Heavy Weapon) 유저의 패리 및 리포스트 타이밍에 역공당할 위험 존재",
+      "원거리 견제력이 상대적으로 부족하여 접근전 심리전 실패 시 주도권을 내어줄 수 있음"
     ]
   },
   "stats": {
@@ -89,16 +89,16 @@
     "PvP Players"
   ],
   "mob_strategy": [
-    "\ube60\ub978 \ub808\uc774\ud53c\uc5b4 \ud3c9\ud0c0 \uc5f0\uacc4\ub85c \ubaac\uc2a4\ud130\uc758 \uac00\ub4dc\ub97c \uc555\ubc15\ud558\uace0 \ud2c8\uc744 \ub9cc\ub4e4\uc5b4 \ud0c0\uaca9\uc744 \ub204\uc801\ud569\ub2c8\ub2e4.",
-    "Flame Assault\ub97c \ud65c\uc6a9\ud574 \uc801\uc758 \uacf5\uaca9 \ub51c\ub808\uc774 \ud0c0\uc774\ubc0d\uc5d0 \uc9c4\uc785\ud558\uc5ec \ud070 \ub300\ubbf8\uc9c0\ub97c \uc8fc\uace0 \ube60\uc838\ub098\uc635\ub2c8\ub2e4.",
-    "\ub2e4\uc911 \ud0c0\uaca9 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \ud1b5\ud574 \ud654\uc5fc \ubc0f \uc778\ucc48\ud2b8 \ud504\ub85c\ud06c\ub97c \ubc1c\ub3d9\uc2dc\ucf1c \ud2b8\ub8e8 \ub370\ubbf8\uc9c0\ub97c \uc548\uc815\uc801\uc73c\ub85c \uc6b0\uaca8\ub123\uc2b5\ub2c8\ub2e4.",
-    "\uc801\uc758 \uad11\uc5ed \ud328\ud134\uc774\ub098 \uc704\ud5d8\ud55c \uacf5\uaca9\uc740 Starkindred\uc758 \uacf5\uc911 \uae30\ub3d9\uc131\uc73c\ub85c \ud68c\ud53c\ud558\uba70 \uc548\uc804\ud55c \uac70\ub9ac\ub97c \uc720\uc9c0\ud569\ub2c8\ub2e4."
+    "빠른 레이피어 평타 연계로 몬스터의 가드를 압박하고 틈을 만들어 타격을 누적합니다.",
+    "Flame Assault를 활용해 적의 공격 딜레이 타이밍에 진입하여 큰 대미지를 주고 빠져나옵니다.",
+    "다중 타격 크리티컬 공격을 통해 화염 및 인챈트 프로크를 발동시켜 트루 데미지를 안정적으로 우겨넣습니다.",
+    "적의 광역 패턴이나 위험한 공격은 Starkindred의 공중 기동성으로 회피하며 안전한 거리를 유지합니다."
   ],
   "combo_guide": {
-    "step_1_engagement": "\ub2e4\uc774\ube0c \ubc0f \ub300\uc2dc \uae30\ub3d9\uc744 \ud1b5\ud574 \uc0c1\ub300\uc758 \uc0ac\uac01\uc9c0\ub300\ub85c \ube60\ub974\uac8c \ud30c\uace0\ub4e4\uc5b4 \uc120\uacf5\uad8c\uc744 \uc7a1\uc2b5\ub2c8\ub2e4.",
-    "step_2_guard_break": "\ub808\uc774\ud53c\uc5b4\uc758 \ube60\ub978 \ub2e4\uc911 \ud0c0\uaca9 \ud3c9\ud0c0\uc640 \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc73c\ub85c \uc0c1\ub300\uc758 \uac00\ub4dc\ub97c \ube60\ub974\uac8c \uae4e\uc544\ub0b4\uace0 \uac00\ub4dc\ube0c\ub808\uc774\ud06c \uc0c1\ud0dc\ub97c \uc720\ub3c4\ud569\ub2c8\ub2e4.",
-    "step_3_burst_damage": "\uac00\ub4dc\uac00 \uae68\uc9c4 \uc0c1\ub300\uc5d0\uac8c Flame Assault mantras\uc640 \uc778\ucc48\ud2b8 \ubc84\ud504\uac00 \uc2e4\ub9b0 \ud3ed\ub51c \ucf64\ubcf4\ub97c \uc5f0\uacc4\ud569\ub2c8\ub2e4.",
-    "step_4_disengage_recovery": "\uc2a4\ud0dc\ubbf8\ub098\uac00 \ubd80\uc871\ud574\uc9c0\uac70\ub098 \uc0c1\ub300\uac00 \ubc18\uaca9\ud560 \ud0c0\uc774\ubc0d\uc5d0\ub294 \uc989\uc2dc \ub4a4\ub85c \ube60\uc838 \uc2a4\ud0dc\ubbf8\ub098\ub97c \ud68c\ubcf5\ud558\uace0 \ub2e4\uc74c \uc9c4\uc785 \uac01\uc744 \uc7ac\ubd05\ub2c8\ub2e4."
+    "step_1_engagement": "다이브 및 대시 기동을 통해 상대의 사각지대로 빠르게 파고들어 선공권을 잡습니다.",
+    "step_2_guard_break": "레이피어의 빠른 다중 타격 평타와 크리티컬 공격으로 상대의 가드를 빠르게 깎아내고 가드브레이크 상태를 유도합니다.",
+    "step_3_burst_damage": "가드가 깨진 상대에게 Flame Assault mantras와 인챈트 버프가 실린 폭딜 콤보를 연계합니다.",
+    "step_4_disengage_recovery": "스태미나가 부족해지거나 상대가 반격할 타이밍에는 즉시 뒤로 빠져 스태미나를 회복하고 다음 진입 각을 재봅니다."
   },
   "video_meta": {
     "title": "This Flame Build Is INSANE | Deepwoken",
@@ -108,5 +108,33 @@
     "estimated_patch": "Unknown"
   },
   "attunements": {},
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

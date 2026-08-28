@@ -1,6 +1,6 @@
 {
   "video_metadata": {
-    "title": "This New PVE BUILD is META FOR EVERYTHING....\ud83d\ude32 \"Atlas V1\" | Deepwoken PvE Build Showcase",
+    "title": "This New PVE BUILD is META FOR EVERYTHING....😲 \"Atlas V1\" | Deepwoken PvE Build Showcase",
     "channel": "Laptist",
     "url": "https://www.youtube.com/watch?v=9XzSUkPjVqI",
     "upload_date": "20260809",
@@ -10,15 +10,15 @@
     "build_name": "Pale Briar Arcwarder Ironsing (Atlas V1)",
     "build_type": "PvE",
     "difficulty": "Intermediate",
-    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 Arcwarder \uc624\uc2a4\uc758 \ucca0\uac11 \uae30\ub3d9\uc131\uacfc Ironsing \uc18d\uc131\uc758 \ud328\uc2dc\ube0c \ud130\ub81b \ubc0f \uad11\uc5ed \uba54\ud0c8 \ub808\uc778(Metal Rain) \uacf5\uaca9\uc744 \uacb0\ud569\ud558\uc5ec, Pve \ud658\uacbd\uc5d0\uc11c \uc555\ub3c4\uc801\uc778 \ud0f1\ud0b9\ub825\uacfc \uc548\uc815\uc801\uc778 \uc720\uc9c0\ub825\uc744 \ubc1c\ud718\ud558\ub3c4\ub85d \uc124\uacc4\ub41c \ub9c8\uc2a4\ud130\ud53c\uc2a4 \ube4c\ub4dc\uc785\ub2c8\ub2e4. \ub525\uc704\ud070 \ucd5c\uace0\uc758 PvE weapons \uc911 \ud558\ub098\uc778 Pale Briar\uc758 \ub192\uc740 \ud3ec\uc2a4\ucc98 \ub300\ubbf8\uc9c0\uc640 \uc544\ud06c\uc6cc\ub354\uc758 \ubc29\uc5b4 \ubc84\ud504 \uc2dc\ub108\uc9c0\ub97c \ud1b5\ud574 \ub2e4\uc218\uc758 \uc801\uacfc \ub51c\ub8e8\ube44\uc548(Diluvian) \uc6e8\uc774\ube0c\uc5d0\uc11c \uc804\ucc28\ucc98\ub7fc \ubc00\uace0 \ub098\uac00\ub294 \ub3c5\ubcf4\uc801\uc778 \ud50c\ub808\uc774 \uc2a4\ud0c0\uc77c\uc744 \uc120\uc0ac\ud569\ub2c8\ub2e4. \uc2e4\uc804 \uad50\uc804\uc5d0\uc11c\ub294 \ub6f0\uc5b4\ub09c \uc774\ub3d9\uae30\uc640 \ubc29\uc5b4\ub825\uc744 \ud65c\uc6a9\ud574 \uc801\uc758 \uacf5\uaca9\uc744 \ubb34\uc2dc\ud558\uba70 \ud655\uc815 \ucf64\ubcf4\ub97c \uc6b0\uaca8\ub123\uace0, \uc8fc\uae30\uc801\uc778 \uace8\ub4dc \uc12d\ucde8\ub97c \ud1b5\ud55c \ub370\ubbf8\uc9c0 \ubc84\ud504\ub85c \ud074\ub9ac\uc5b4 \ud0c0\uc784\uc744 \uadf9\ub300\ud654\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.",
+    "creator_opinion": "이 빌드는 Arcwarder 오스의 철갑 기동성과 Ironsing 속성의 패시브 터렛 및 광역 메탈 레인(Metal Rain) 공격을 결합하여, Pve 환경에서 압도적인 탱킹력과 안정적인 유지력을 발휘하도록 설계된 마스터피스 빌드입니다. 딥위큰 최고의 PvE weapons 중 하나인 Pale Briar의 높은 포스처 대미지와 아크워더의 방어 버프 시너지를 통해 다수의 적과 딜루비안(Diluvian) 웨이브에서 전차처럼 밀고 나가는 독보적인 플레이 스타일을 선사합니다. 실전 교전에서는 뛰어난 이동기와 방어력을 활용해 적의 공격을 무시하며 확정 콤보를 우겨넣고, 주기적인 골드 섭취를 통한 데미지 버프로 클리어 타임을 극대화할 수 있습니다.",
     "strengths": [
-      "Arcwarder \uc624\uc2a4\uc640 Ironsing \uc18d\uc131\uc758 \uacb0\ud569\uc73c\ub85c \uc778\uac8c\uc784 \ucd5c\uc0c1\uc704\uad8c\uc758 \ubb3c\ub9ac \ubc0f \uc18d\uc131 \ubc29\uc5b4\ub825\uacfc \ud0f1\ud0b9\ub825\uc744 \ud655\ubcf4\ud568.",
-      "Metal Turret \ubc0f Metal Rain \ub4f1 \ud328\uc2dc\ube0c \ub300\ubbf8\uc9c0\ub97c \uc8fc\ub294 mantras \ub355\ubd84\uc5d0 \uc9c0\uc18d\uc801\uc778 \uad11\uc5ed \ub51c\ub9c1\uacfc \ubc29\uc5b4 \ud0dc\uc138 \uc720\uc9c0 \uac00\ub2a5.",
-      "Pale Briar weapons\uc758 \uac15\ub825\ud55c \ucc0c\ub974\uae30\uc640 \ub113\uc740 \ud310\uc815\uc73c\ub85c \uc6e8\uc774\ube0c \ud074\ub9ac\uc5b4 \ubc0f \ubab9 \ubab0\uc774\uc5d0 \ub9e4\uc6b0 \uc720\ub9ac\ud568."
+      "Arcwarder 오스와 Ironsing 속성의 결합으로 인게임 최상위권의 물리 및 속성 방어력과 탱킹력을 확보함.",
+      "Metal Turret 및 Metal Rain 등 패시브 대미지를 주는 mantras 덕분에 지속적인 광역 딜링과 방어 태세 유지 가능.",
+      "Pale Briar weapons의 강력한 찌르기와 넓은 판정으로 웨이브 클리어 및 몹 몰이에 매우 유리함."
     ],
     "weaknesses": [
-      "\ucd08\uace0\ub09c\ub3c4 \ubcf4\uc2a4 \ub808\uc774\ub4dc(\uc608: Ethiron, Chaser \ub4f1)\uc5d0\uc11c\ub294 \uacf5\uaca9 \ud0c0\uc774\ubc0d \ud655\ubcf4\uac00 \uae4c\ub2e4\ub85c\uc6cc \ud074\ub9ac\uc5b4 \uc18d\ub3c4\uac00 \ub2e4\uc18c \ub290\ub9b4 \uc218 \uc788\uc74c.",
-      "\uc624\uc2a4 \ubc0f \uc18d\uc131 \uc694\uad6c stats \ud22c\uc790\uac00 \ubd84\uc0b0\ub418\uc5b4 \uc788\uc5b4, \ube57\ub098\uac04 stats \ubd84\ubc30 \uc2dc \ud6c4\ubc18 \ube4c\ub4dc \uc644\uc131\uc5d0 \ucc28\uc9c8\uc774 \uc0dd\uae38 \uc218 \uc788\uc74c."
+      "초고난도 보스 레이드(예: Ethiron, Chaser 등)에서는 공격 타이밍 확보가 까다로워 클리어 속도가 다소 느릴 수 있음.",
+      "오스 및 속성 요구 stats 투자가 분산되어 있어, 빗나간 stats 분배 시 후반 빌드 완성에 차질이 생길 수 있음."
     ]
   },
   "stats": {
@@ -118,22 +118,50 @@
     "Corrupted Monsters"
   ],
   "mob_strategy": [
-    "Diluvian \uc6e8\uc774\ube0c \uc9c4\ud589 \uc2dc \uc0ac\uc804\uc5d0 Metal Turret\uc744 \uc801\uc808\ud55c \uc704\uce58\uc5d0 \uc124\uce58\ud558\uc5ec \ub2e4\uc218\uc758 \ubab9\uc5d0\uac8c \uc9c0\uc18d\uc801\uc778 \uacbd\uc9c1\uacfc \ud3ec\uc2a4\ucc98 \ub300\ubbf8\uc9c0\ub97c \ub204\uc801\uc2dc\ud0a4\uc138\uc694.",
-    "\uc801\uc758 \ub300\uaddc\ubaa8 \ud328\ud134(\uc608: \uac70\ub300 \ubab9\ub4e4\uc758 \uad11\uc5ed\uae30)\uc5d0\ub294 Arcwarder\uc758 \ucca0\uac11 \ubaa8\ub4dc\uc640 Reinforce\ub97c \uc5f0\uacc4\ud558\uc5ec \ub300\ubbf8\uc9c0\ub97c \ucd5c\uc18c\ud654\ud558\uace0 \ud3ec\uc2a4\ucc98\ub97c \uc720\uc9c0\ud558\uc138\uc694.",
-    "\uace8\ub4dc\ub97c \uc8fc\uae30\uc801\uc73c\ub85c \uc12d\ucde8\ud558\uc5ec \ubaa8\ub4e0 M1 \ubc0f \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\ub825\uc5d0 \uc801\uc6a9\ub418\ub294 \ub370\ubbf8\uc9c0 \ubc84\ud504(\uc57d 5~10%)\ub97c \uc0c1\uc2dc \uc720\uc9c0\ud558\ub294 \uac83\uc774 \ud575\uc2ec\uc785\ub2c8\ub2e4."
+    "Diluvian 웨이브 진행 시 사전에 Metal Turret을 적절한 위치에 설치하여 다수의 몹에게 지속적인 경직과 포스처 대미지를 누적시키세요.",
+    "적의 대규모 패턴(예: 거대 몹들의 광역기)에는 Arcwarder의 철갑 모드와 Reinforce를 연계하여 대미지를 최소화하고 포스처를 유지하세요.",
+    "골드를 주기적으로 섭취하여 모든 M1 및 크리티컬 공격력에 적용되는 데미지 버프(약 5~10%)를 상시 유지하는 것이 핵심입니다."
   ],
   "combo_guide": {
-    "step_1_engage": "Rush Slash\ub97c \uc0ac\uc6a9\ud558\uc5ec \uc6d0\uac70\ub9ac\uc5d0\uc11c \ube60\ub974\uac8c \uc801\uc5d0\uac8c \uc811\uadfc\ud558\uba70 \uc120\uc81c \ud0c0\uaca9\uc744 \uac00\ud569\ub2c8\ub2e4.",
-    "step_2_guard_break": "Pale Briar\uc758 \ube60\ub978 \ub9ac\uce58\uc640 M1 \ucf64\ubcf4, \uadf8\ub9ac\uace0 Strong Left\ub97c \uc11e\uc5b4 \uc801\uc758 \uac00\ub4dc\ub97c \ubb34\ub108\ub728\ub9ac\uace0 \ud3ec\uc2a4\ucc98\ub97c \uae4e\uc2b5\ub2c8\ub2e4.",
-    "step_3_burst_damage": "\uac00\ub4dc\uac00 \uae68\uc9c4 \uc801\uc5d0\uac8c Metal Rain\uacfc weapons \ud06c\ub9ac\ud2f0\uceec \uacf5\uaca9\uc744 \uc5f0\uacc4\ud558\uc5ec \ud3ed\ubc1c\uc801\uc778 \ub300\ubbf8\uc9c0\ub97c \ud37c\ubd93\uc2b5\ub2c8\ub2e4.",
-    "step_4_retreat_sustain": "\uc704\ud5d8 \uc0c1\ud669 \ubc1c\uc0dd \uc2dc Arcwarder\uc758 \uae30\ub3d9\uc131\uacfc \ud68c\ud53c\uae30\ub97c \ud65c\uc6a9\ud574 \uac70\ub9ac\ub97c \ubc8c\ub9ac\uace0 \ub810\ub9ad \ubc0f \ud68c\ubcf5 \uc544\uc774\ud15c\uc73c\ub85c \uccb4\ub825\uacfc \ud3ec\uc2a4\ucc98\ub97c \uc815\ube44\ud569\ub2c8\ub2e4."
+    "step_1_engage": "Rush Slash를 사용하여 원거리에서 빠르게 적에게 접근하며 선제 타격을 가합니다.",
+    "step_2_guard_break": "Pale Briar의 빠른 리치와 M1 콤보, 그리고 Strong Left를 섞어 적의 가드를 무너뜨리고 포스처를 깎습니다.",
+    "step_3_burst_damage": "가드가 깨진 적에게 Metal Rain과 weapons 크리티컬 공격을 연계하여 폭발적인 대미지를 퍼붓습니다.",
+    "step_4_retreat_sustain": "위험 상황 발생 시 Arcwarder의 기동성과 회피기를 활용해 거리를 벌리고 렐릭 및 회복 아이템으로 체력과 포스처를 정비합니다."
   },
   "video_meta": {
-    "title": "This New PVE BUILD is META FOR EVERYTHING....\ud83d\ude32 \"Atlas V1\" | Deepwoken PvE Build Showcase",
+    "title": "This New PVE BUILD is META FOR EVERYTHING....😲 \"Atlas V1\" | Deepwoken PvE Build Showcase",
     "channel": "Laptist",
     "url": "https://www.youtube.com/watch?v=9XzSUkPjVqI",
     "upload_date": "20260809",
     "estimated_patch": "Unknown"
   },
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

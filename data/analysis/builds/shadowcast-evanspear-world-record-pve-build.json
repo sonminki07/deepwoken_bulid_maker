@@ -92,32 +92,7 @@
       "stars": 0
     }
   ],
-  "equipment": [
-    {
-      "slot": "Helmet",
-      "name": "Mushroom Cap"
-    },
-    {
-      "slot": "Outfit",
-      "name": "Black Diver"
-    },
-    {
-      "slot": "Amulet",
-      "name": "Deepwoken Amulet"
-    },
-    {
-      "slot": "Boots",
-      "name": "Star Boots"
-    },
-    {
-      "slot": "Rings",
-      "name": "Drowned Rings (x4)"
-    },
-    {
-      "slot": "Bell",
-      "name": "Sacred Field"
-    }
-  ],
+  "equipment": [],
   "talents_and_mantras": {
     "talents": [
       {
@@ -219,7 +194,6 @@
       "name": "Shade Devour"
     }
   ],
-  "equipment": [],
   "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n- Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)\n- Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)",
   "combo_guide": "**딜 사이클**:\n\n\n**운용 팁**:\n"
 }

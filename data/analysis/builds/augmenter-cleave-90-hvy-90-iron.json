@@ -9,16 +9,16 @@
     "build_name": "Augmenter Cleave (90 HVY + 90 IRON)",
     "build_type": "Hybrid",
     "difficulty": "Advanced",
-    "creator_opinion": "\uc774 \ube4c\ub4dc\ub294 Ironsing\uc758 Augmenter \uacbd\ub85c \ubc84\ud504\ub97c \uadf9\ub300\ud654\ud558\uc5ec \uac15\ub825\ud55c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc(Metal Greatsword)\ub97c \uc18c\ud658\ud558\uace0 \ub300\ubbf8\uc9c0\ub97c \uac00\ud558\ub294 \ube4c\ub4dc\uc785\ub2c8\ub2e4. Shrine of Order\ub97c \ud65c\uc6a9\ud574 \ub192\uc740 stats \uc694\uad6c\uce58\ub97c \uac00\uc9c4 \ud575\uc2ec talents\ub4e4\uc744 \ubbf8\ub9ac \ud68d\ub4dd\ud55c \ub4a4 stats\uc744 \ucd5c\uc801\ud654\ud588\uc2b5\ub2c8\ub2e4. \ub6f0\uc5b4\ub09c \uae30\ub3d9\uc131\uacfc \uc0dd\uc874\ub825, \uadf8\ub9ac\uace0 \uac15\ub825\ud55c \ud55c \ubc29 \ub51c\uc744 \ub3d9\uc2dc\uc5d0 \ucc59\uae34 \ud558\uc774\ube0c\ub9ac\ub4dc \ube4c\ub4dc\uc785\ub2c8\ub2e4.",
+    "creator_opinion": "이 빌드는 Ironsing의 Augmenter 경로 버프를 극대화하여 강력한 메탈 그레이트소드(Metal Greatsword)를 소환하고 대미지를 가하는 빌드입니다. Shrine of Order를 활용해 높은 stats 요구치를 가진 핵심 talents들을 미리 획득한 뒤 stats을 최적화했습니다. 뛰어난 기동성과 생존력, 그리고 강력한 한 방 딜을 동시에 챙긴 하이브리드 빌드입니다.",
     "strengths": [
-      "Augmenter \ubc84\ud504\ub85c \uc778\ud55c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc\uc758 \uac15\ub825\ud55c \ud654\ub825",
-      "Galebreathe\uc640 Flamecharm\uc744 \ud65c\uc6a9\ud55c \uc555\ub3c4\uc801\uc778 \uae30\ub3d9\uc131 \ubc0f \uc720\ud2f8\ub9ac\ud2f0",
-      "Undying Flame\uacfc Graceful Flame\uc744 \ud1b5\ud55c \uc2ec\ud574(Depths)\uc5d0\uc11c\uc758 \ub6f0\uc5b4\ub09c \uc720\uc9c0\ub825 \ubc0f \uc790\uac00 \uce58\uc720",
-      "\ub192\uc740 \ubb3c\ub9ac \ubc29\uc5b4\ub825 \ubc0f \ud53c\ud574 \uac10\uc18c \uc2dc\ub108\uc9c0"
+      "Augmenter 버프로 인한 메탈 그레이트소드의 강력한 화력",
+      "Galebreathe와 Flamecharm을 활용한 압도적인 기동성 및 유틸리티",
+      "Undying Flame과 Graceful Flame을 통한 심해(Depths)에서의 뛰어난 유지력 및 자가 치유",
+      "높은 물리 방어력 및 피해 감소 시너지"
     ],
     "weaknesses": [
-      "Shrine of Order\ub97c \uc0ac\uc6a9\ud558\uae30 \uc704\ud55c \uc815\uad50\ud55c \ub808\ubca8\uc5c5 \ubc0f stats \ubd84\ubc30 \uc21c\uc11c \ud544\uc694",
-      "\ub2e4\uc591\ud55c \uc18d\uc131(Ironsing, Galebreathe, Flamecharm)\uc744 \ub2e4\ub8e8\uae30 \ub54c\ubb38\uc5d0 \uc870\uc791 difficulty\uac00 \ub192\uc74c"
+      "Shrine of Order를 사용하기 위한 정교한 레벨업 및 stats 분배 순서 필요",
+      "다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 difficulty가 높음"
     ]
   },
   "stats": {
@@ -198,10 +198,10 @@
       "Duke Eriasia",
       "Squibbo"
     ],
-    "mob_strategy": "\uc2ec\ud574 \ubaac\uc2a4\ud130\ub098 \ubcf4\uc2a4\ub97c \uc0c1\ub300\ud560 \ub54c, \uba3c\uc800 Oxidizing Rush\ub97c \uc0ac\uc6a9\ud574 \uc801\uc5d0\uac8c \uae08\uc18d \ub9c9\ub300(Rods)\ub97c \uc2ec\uc2b5\ub2c8\ub2e4. 5\uac1c \uc774\uc0c1\uc758 \ub9c9\ub300\uac00 \uc313\uc774\uba74 Augmenter \ud6a8\uacfc\ub85c \uba54\ud0c8 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc\uac00 \uc18c\ud658\ub418\uc5b4 \uac15\ub825\ud55c \uce58\uba85\ud0c0(Critical) \uacf5\uaca9\uc744 \uac00\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uccb4\ub825\uc774 \ub0ae\uc544\uc9c0\uba74 Flame Leap\uacfc Gale Dash\ub85c \uac70\ub9ac\ub97c \ubc8c\ub9b0 \ub4a4, \uc548\uc804\ud55c \uacf3\uc5d0\uc11c Graceful Flame\uc744 \uc0ac\uc6a9\ud574 \uccb4\ub825\uc744 \ube60\ub974\uac8c \ud68c\ubcf5\ud569\ub2c8\ub2e4."
+    "mob_strategy": "심해 몬스터나 보스를 상대할 때, 먼저 Oxidizing Rush를 사용해 적에게 금속 막대(Rods)를 심습니다. 5개 이상의 막대가 쌓이면 Augmenter 효과로 메탈 그레이트소드가 소환되어 강력한 치명타(Critical) 공격을 가할 수 있습니다. 체력이 낮아지면 Flame Leap과 Gale Dash로 거리를 벌린 뒤, 안전한 곳에서 Graceful Flame을 사용해 체력을 빠르게 회복합니다."
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "\uae30\ubcf8 \ucf64\ubcf4\ub294 Gale Lunge \ub610\ub294 Oxidizing Rush\ub85c \uc9c4\uc785\ud558\uc5ec \uc801\uc5d0\uac8c Rod\ub97c \ubd80\uc5ec\ud558\ub294 \uac83\uc73c\ub85c \uc2dc\uc791\ud569\ub2c8\ub2e4. \uc774\ud6c4 Rising Wind\ub85c \uc801\uc744 \uc5d0\uc5b4\ubcf8 \uc2dc\ud0a8 \ub4a4 Meteor Impact\uc640 \uc5f0\uacc4\ud558\uc5ec \uac15\ub825\ud55c \uba54\ud14c\uc624 \uc2ac\ub7a8\uc744 \uaf42\uc544 \ub123\uc2b5\ub2c8\ub2e4. \uc801\uc774 \ubc29\uc5b4\ud558\uac70\ub098 \uac70\ub9ac\ub97c \ubc8c\ub9ac\ub824 \ud560 \ub54c\ub294 Metal Fakeout\uacfc Chain Pull\uc744 \uc11e\uc5b4 \uc608\uce21 \ubd88\uac00\ub2a5\ud55c \ud0c0\uc774\ubc0d\uc5d0 \uadf8\ub808\uc774\ud2b8\uc18c\ub4dc \uce58\uba85\ud0c0\ub97c \uc801\uc911\uc2dc\ud0b5\ub2c8\ub2e4."
+    "combo_guide": "기본 콤보는 Gale Lunge 또는 Oxidizing Rush로 진입하여 적에게 Rod를 부여하는 것으로 시작합니다. 이후 Rising Wind로 적을 에어본 시킨 뒤 Meteor Impact와 연계하여 강력한 메테오 슬램을 꽂아 넣습니다. 적이 방어하거나 거리를 벌리려 할 때는 Metal Fakeout과 Chain Pull을 섞어 예측 불가능한 타이밍에 그레이트소드 치명타를 적중시킵니다."
   },
   "video_meta": {
     "title": "How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken",
@@ -210,5 +210,33 @@
     "upload_date": "20260505",
     "estimated_patch": "Unknown"
   },
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }

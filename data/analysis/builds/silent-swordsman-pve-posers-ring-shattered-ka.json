@@ -9,16 +9,16 @@
     "build_name": "Silent Swordsman PvE (Poser's Ring + Shattered Katana)",
     "build_type": "PvE",
     "difficulty": "Intermediate",
-    "creator_opinion": "\ucd5c\uadfc Rapier \ubc0f Knives Journey \ub108\ud504 \uc774\ud6c4 \ud604\uc874\ud558\ub294 \ucd5c\uace0\uc758 PvE \ube4c\ub4dc\ub85c \ud3c9\uac00\ubc1b\ub294 \uc0ac\uc77c\ub7f0\ud2b8\ud558\ud2b8(Silentheart) \uae30\ubc18 \uac80\uc0ac \ube4c\ub4dc\uc785\ub2c8\ub2e4. Poser's Ring \ubc0f \ubc1c\ub3c4(Sheath) \uba54\ucee4\ub2c8\uc998\uc744 \uadf9\ub300\ud654\ud558\uc5ec \ubcf4\uc2a4\uc5d0\uac8c \ubbf8\uce5c \uc218\uc900\uc758 \ud2b8\ub8e8 \ub300\ubbf8\uc9c0(True Damage)\ub97c \ub204\uc801\uc2dc\ud0a4\ub294 \ubc29\uc2dd\uc744 \ucc44\ud0dd\ud588\uc2b5\ub2c8\ub2e4.\n\nIronsing \uc18d\uc131\uc758 Metal Turrets\uc640 Absolute Pitch talents\ub97c \uc870\ud569\ud558\uc5ec \uce90\uc2a4\ud305 \uc2dc\uac04 \uc5c6\uc774 \uc989\uc2dc \uc544\uc774\uc5b8\uc2f1 \ub85c\ub4dc(Ironsing Rod)\ub97c \ud68d\ub4dd\ud558\uace0, \uc774\ub97c \ud1b5\ud574 Artisan Blades\ub97c \ud3ed\ubc1c\uc801\uc73c\ub85c \uc5f0\uacc4\ud569\ub2c8\ub2e4. Shattered Katana\uc758 \uc790\uccb4 \ubc29\uc5b4\uad6c \uad00\ud1b5\ub825(30% Armor Pen)\uacfc \ub192\uc740 \ub300\ubbf8\uc9c0 \ud6a8\uc728\uc774 \uc2dc\ub108\uc9c0\ub97c \uc77c\uc73c\ucf1c \uac8c\uc784 \ub0b4 \uc874\uc7ac\ud558\ub294 \ubaa8\ub4e0 \ubcf4\uc2a4(Elder Primadon, Chaser, Ferryman, Titus \ub4f1)\ub97c \uc555\ub3c4\uc801\uc778 \uc18d\ub3c4\ub85c \ud30c\uc1c4\ud569\ub2c8\ub2e4.\n\n\uc0ac\uc77c\ub7f0\ud2b8\ud558\ud2b8 \ud2b9\uc720\uc758 \uac15\ub825\ud55c \uae30\ubcf8 \ud3c9\ud0c0 \ud328\uc2dc\ube0c\uc640 \ubb35\uc9c1\ud55c \uce74\uc6b4\ud130, \uadf8\ub9ac\uace0 \ud3ec\uc800\uc2a4 \ub9c1\uc758 \uae30\ubbf9\uc744 \ud65c\uc6a9\ud574 \ud328\ub9c1\uacfc \ud0c0\uaca9, \ubc1c\ub3c4 \ub3d9\uc791\ub9cc\uc73c\ub85c \ubcf4\uc2a4\uc758 \ud328\ud134\uc744 \ubb34\ub825\ud654\ud558\uba70 \ucd5c\uace0\uc758 \ub51c\ub9c1 \ud6a8\uc728\uc744 \ubc1c\ud718\ud558\ub294 \uba85\ud488 PvE \ube4c\ub4dc\uc785\ub2c8\ub2e4.",
+    "creator_opinion": "최근 Rapier 및 Knives Journey 너프 이후 현존하는 최고의 PvE 빌드로 평가받는 사일런트하트(Silentheart) 기반 검사 빌드입니다. Poser's Ring 및 발도(Sheath) 메커니즘을 극대화하여 보스에게 미친 수준의 트루 대미지(True Damage)를 누적시키는 방식을 채택했습니다.\n\nIronsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐스팅 시간 없이 즉시 아이언싱 로드(Ironsing Rod)를 획득하고, 이를 통해 Artisan Blades를 폭발적으로 연계합니다. Shattered Katana의 자체 방어구 관통력(30% Armor Pen)과 높은 대미지 효율이 시너지를 일으켜 게임 내 존재하는 모든 보스(Elder Primadon, Chaser, Ferryman, Titus 등)를 압도적인 속도로 파쇄합니다.\n\n사일런트하트 특유의 강력한 기본 평타 패시브와 묵직한 카운터, 그리고 포저스 링의 기믹을 활용해 패링과 타격, 발도 동작만으로 보스의 패턴을 무력화하며 최고의 딜링 효율을 발휘하는 명품 PvE 빌드입니다.",
     "strengths": [
-      "Poser's Ring \ubc0f \ubc1c\ub3c4 \uba54\ucee4\ub2c8\uc998\uc744 \uc774\uc6a9\ud55c \ubc29\uc5b4\ub825 \ubb34\uc2dc \ud2b8\ub8e8 \ub300\ubbf8\uc9c0 \ud3ed\ub51c",
-      "Shattered Katana\uc758 \uae30\ubcf8 30% \ub192\uc740 \uad00\ud1b5\ub825 \ubc0f \ub192\uc740 \uae30\ubcf8 \ub300\ubbf8\uc9c0",
-      "Metal Turrets + Absolute Pitch \uc870\ud569\uc744 \ud1b5\ud55c \uc989\ubc1c \ub85c\ub4dc \uc0dd\uc131 \ubc0f Artisan Blades \uc5f0\uacc4",
-      "Elder Primadon, Chaser, Ferryman \ub4f1 \uc778\uac8c\uc784 \ubaa8\ub4e0 \ubcf4\uc2a4 \uc0ac\ub0e5 \uac00\ub2a5"
+      "Poser's Ring 및 발도 메커니즘을 이용한 방어력 무시 트루 대미지 폭딜",
+      "Shattered Katana의 기본 30% 높은 관통력 및 높은 기본 대미지",
+      "Metal Turrets + Absolute Pitch 조합을 통한 즉발 로드 생성 및 Artisan Blades 연계",
+      "Elder Primadon, Chaser, Ferryman 등 인게임 모든 보스 사냥 가능"
     ],
     "weaknesses": [
-      "Silentheart Oath \ud2b9\uc131\uc0c1 \uc77c\ubc18 mantras \uc0ac\uc6a9\uc774 \uc81c\ud55c\ub418\uc5b4 \uae30\ubcf8 \ud53c\uc9c0\uceec \ubc0f \ud328\ub9c1 \uc219\ub828\ub3c4 \uc694\uad6c",
-      "Poser's Ring \ud2b8\ub8e8 \ub300\ubbf8\uc9c0 \uae30\ubbf9\uc5d0 \ub300\ud55c \ub192\uc740 \uc774\ud574\ub3c4 \ubc0f \ubc1c\ub3c4 \ud0c0\uc774\ubc0d \ucee8\ud2b8\ub864 \ud544\uc694"
+      "Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구",
+      "Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요"
     ]
   },
   "stats": {
@@ -85,10 +85,10 @@
       "Ferryman",
       "Maestro EV3"
     ],
-    "mob_strategy": "Elder Primadon \ubc0f \ub300\ud615 \ubcf4\uc2a4\uc804\uc5d0\uc11c\ub294 Metal Turrets\ub97c \uc989\ubc1c \uc124\uce58\ud558\uc5ec \ub85c\ub4dc\ub97c \uc313\uc740 \ub4a4 Shattered Katana \ud3c9\ud0c0\uc640 Artisan Blades\ub97c \uc9c0\uc18d \ub204\uc801\uc2dc\ud0b5\ub2c8\ub2e4. \ubcf4\uc2a4\uac00 \uc2a4\ud0dc\uac70(Stagger) \uc0c1\ud0dc\uc5d0 \ube60\uc9c0\uac70\ub098 \ubc29\uc5b4\ub825\uc774 \ub0ae\uc544\uc9c0\ub294 \ud0c0\uc784\uc5d0 \ub9de\ucd94\uc5b4 \uce74\ud0c0\ub098\ub97c \ub0a9\ub3c4(Sheath)\ud568\uc73c\ub85c\uc368 Poser's Ring\uc758 \uc313\uc778 \ub300\ubbf8\uc9c0\ub97c \ud2b8\ub8e8 \ub300\ubbf8\uc9c0\ub85c \ud55c \ubc88\uc5d0 \ud130\ub728\ub9bd\ub2c8\ub2e4. Chaser\ub098 Titus \uac19\uc740 \uc778\uac04\ud615 \ubcf4\uc2a4 \uc0c1\ub300 \uc2dc \ud328\ub9c1 \ub9ac\ub4ec\uc744 \uc720\uc9c0\ud558\uba70 \ubc1c\ub3c4 \ud2b8\ub8e8 \ub300\ubbf8\uc9c0 \ud3ed\ub51c\uc744 \ubc18\ubcf5\ud558\uba74 \ub2e8\uc2dc\uac04 \ub0b4\uc5d0 \ud398\uc774\uc988\ub97c \ub118\uae38 \uc218 \uc788\uc2b5\ub2c8\ub2e4."
+    "mob_strategy": "Elder Primadon 및 대형 보스전에서는 Metal Turrets를 즉발 설치하여 로드를 쌓은 뒤 Shattered Katana 평타와 Artisan Blades를 지속 누적시킵니다. 보스가 스태거(Stagger) 상태에 빠지거나 방어력이 낮아지는 타임에 맞추어 카타나를 납도(Sheath)함으로써 Poser's Ring의 쌓인 대미지를 트루 대미지로 한 번에 터뜨립니다. Chaser나 Titus 같은 인간형 보스 상대 시 패링 리듬을 유지하며 발도 트루 대미지 폭딜을 반복하면 단시간 내에 페이즈를 넘길 수 있습니다."
   },
   "combo_and_playstyle_guide": {
-    "combo_guide": "1\ub2e8\uacc4: \uc804\ud22c \uc2dc\uc791 \uc2dc Metal Turrets\ub97c \uc124\uce58\ud558\uc5ec weapons\uc5d0 \uc544\uc774\uc5b8\uc2f1 \ub85c\ub4dc \ub204\uc801.\n2\ub2e8\uacc4: Shattered Katana\uc758 \ud3c9\ud0c0 \ucf64\ubcf4 \ubc0f M1 \ud0c0\uaca9\uc73c\ub85c \ubcf4\uc2a4\uc5d0\uac8c \uc5f0\uc18d \ub300\ubbf8\uc9c0 \ub204\uc801.\n3\ub2e8\uacc4: Artisan Blades \ubc1c\ub3d9 \ubc0f \ub85c\ub4dc \ucd94\uac00 \ud0c0\uaca9 \ubd80\uc5ec.\n4\ub2e8\uacc4: weapons\ub97c \ub0a9\ub3c4(Sheath)\ud558\uc5ec Poser's Ring\uc5d0 \ub204\uc801\ub41c \ub204\uc801 \ub300\ubbf8\uc9c0\ub97c \ubc29\uc5b4\ub825 \ubb34\uc2dc \ud2b8\ub8e8 \ub300\ubbf8\uc9c0\ub85c \ud3ed\ubc1c\uc2dc\ud0b4."
+    "combo_guide": "1단계: 전투 시작 시 Metal Turrets를 설치하여 weapons에 아이언싱 로드 누적.\n2단계: Shattered Katana의 평타 콤보 및 M1 타격으로 보스에게 연속 대미지 누적.\n3단계: Artisan Blades 발동 및 로드 추가 타격 부여.\n4단계: weapons를 납도(Sheath)하여 Poser's Ring에 누적된 누적 대미지를 방어력 무시 트루 대미지로 폭발시킴."
   },
   "video_meta": {
     "title": "The BEST PvE Build Silent Swordsman  Showcase | Deepwoken Verse 3 |",
@@ -97,5 +97,33 @@
     "upload_date": "20260809",
     "estimated_patch": "Unknown"
   },
-  "equipment": []
+  "equipment": [],
+  "traits": {
+    "vitality": 6,
+    "erudition": 2,
+    "proficiency": 4,
+    "songchant": 0
+  },
+  "combat_stats": {
+    "hp": 500,
+    "posture": 26,
+    "ether": 250,
+    "tempo": 130,
+    "sanity": 150,
+    "move_speed_pct": 0.0,
+    "pve_dmg_pct": 30.0,
+    "physical_armor_pct": 20.0
+  },
+  "resistances": {
+    "physical_blunt": "35.0%",
+    "physical_slash": "40.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "lightning": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  }
 }
