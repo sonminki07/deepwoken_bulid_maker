@@ -124,6 +124,8 @@ class VisionExtractor:
                     )
                     text = resp.text.strip()
                     parsed = json.loads(text)
+                    if isinstance(parsed, list) and len(parsed) > 0:
+                        parsed = parsed[0]
                     logger.info(f"✅ Vision extraction succeeded with model {m}!")
                     return parsed
                 except Exception as e:
