@@ -26,7 +26,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (62개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (63개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -66,6 +66,7 @@
 | **Nanji's Posture Guard-Break Bruiser** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nanjis-posture-guard-break-bruiser.md) |
 | **Needles Eye Rapier Crit Stacking Pv** | `PvE` | `Bladeharper / flamecharm,` | [📄 문서 보기](builds/needles-eye-rapier-crit-stacking-pve-meta.md) |
 | **NLK Blindseer Medium Greatsword** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/nlk-blindseer-medium-greatsword.md) |
+| **Palace Tachi Bladeharper PvE God** | `PvE` | `Bladeharper / bloodrend` | [📄 문서 보기](builds/palace-tachi-bladeharper-pve-god.md) |
 | **Palace Tachi Shadowcast Contractor** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/palace-tachi-shadowcast-contractor.md) |
 | **Pale Briar Arcwarder Ironsing (Atla** | `PvE` | ` / ironsing` | [📄 문서 보기](builds/pale-briar-arcwarder-ironsing-atlas-v1.md) |
 | **Posers Ring Blood-Iron-Shadow PVE O** | `PvE` | `Contractor / shadowcast, ` | [📄 문서 보기](builds/posers-ring-blood-iron-shadow-pve-one-shot.md) |

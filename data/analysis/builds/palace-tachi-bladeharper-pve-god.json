@@ -1,0 +1,312 @@
+{
+  "video_metadata": {
+    "title": "I Progressed The Most OVERPOWERED PvE Build (1-20) | Deepwoken",
+    "channel": "BlessJames",
+    "url": "https://www.youtube.com/watch?v=_DOIoy4mc3A",
+    "upload_date": "2026-06-24",
+    "game_version": "Verse 3 - Layer 2 Floor 2"
+  },
+  "build_summary": {
+    "build_name": "Palace Tachi Bladeharper PvE God",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken Layer 2 PvE 콘텐츠를 압도적인 속도로 파밍하기 위해 설계된 초사기급 극딜 지향형 빌드입니다. Bladeharper 오스와 Bloodrend/Flamecharm의 조합을 통해 적에게 지속적인 출혈 피해(Hemorrhage)를 입히며, 엄청난 흡혈량과 빠른 만트라 쿨타임 감소 효과로 보스의 패턴을 무시하고 난타전으로 제압할 수 있습니다. 특히 1레벨부터 20레벨까지 딥바운드(Deepbound) 루트를 완벽하게 최적화하여 퀘스트를 클리어하며, 후반부 엘더프리마(Ethiron) 및 스콧 오브 엘더프리마(Scion of Ethiron) 토벌까지 솔로로 완벽하게 소화해냅니다.",
+    "strengths": [
+      "막강한 PvE 딜링 증폭: 딥바운드 파밍 루트와 특수 탤런트(Bladeharper, Underdog, Piercing Brilliance 등)의 시너지로 보스전 딜 배율이 비정상적으로 높습니다.",
+      "압도적인 생존력 및 피흡: Bloodrend 유전 탤런트와 흡혈 템플릿(Sanguine Siphon, Rejuvenating Knockout 등)이 결합되어 맞딜을 하면서도 체력을 풀피로 유지할 수 있습니다.",
+      "초고속 만트라 회전율: Alchemist 및 Ether Absorption, Windup Battery 탤런트를 활용해 쿨타임과 마나 소모를 최소화하여 끊임없이 스킬을 난사할 수 있습니다."
+    ],
+    "weaknesses": [
+      "초반 마나(Ether) 및 샌디티 관리의 까다로움: 초반부 딥바운드 진행 시 샌디티와 에테르가 급격히 소모되므로 템플릿과 보석 세팅 전까지 방심하면 순식간에 익사할 위험이 있습니다.",
+      "PvP 실전성 부족: 순수하게 PvE 보스 레이드 및 몹 섬멸에 특화되어 있어 방어 저항 분배가 방어력 위주로 편중되어 있어 PvP 개입 시 상대의 가드 브레이크에 취약할 수 있습니다.",
+      "스탯 최적화 난이도: Shrine of Order 타이밍과 스탯 분배 순서가 꼬이면 특정 핵심 만트라(Blade series, Lightning Cloak)를 해금하지 못해 딜로스가 발생할 수 있습니다."
+    ]
+  },
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Canor",
+    "origin": "Deepbound",
+    "murmur": "Thundercall",
+    "resonance_bell": "Cloud of the Deep"
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 0,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 20,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 50,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 90,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 80
+  },
+  "combat_stats": {
+    "hp": 236.0,
+    "posture": 21.0,
+    "ether": 178.0,
+    "tempo": 120.0,
+    "sanity": 96.0,
+    "move_speed_pct": "0.0%",
+    "pve_monster_dmg_pct": "0.0%"
+  },
+  "resistances": {
+    "physical_blunt": "10.0%",
+    "physical_slash": "10.0%",
+    "fire": "15.0%",
+    "ice": "15.0%",
+    "lightning": "15.0%",
+    "wind": "15.0%",
+    "shadow": "15.0%",
+    "iron": "15.0%",
+    "blood": "15.0%",
+    "bleed": "15.0%"
+  },
+  "weapons": [
+    {
+      "name": "Palace Tachi",
+      "type": "Medium Weapon",
+      "enchant": "Vampirism",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Gladiator Helm"
+    },
+    {
+      "slot": "Face",
+      "name": "Mask"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Amethyst Pendant Earrings"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Diver Captain Attire"
+    },
+    {
+      "slot": "Boots",
+      "name": "Vanguard Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ring of Curses"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Ring of Resilience"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Silver Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Purifying Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Cloud of the Deep"
+    }
+  ],
+  "talents": [
+    {
+      "name": "Bladeharper Oath",
+      "is_core": true
+    },
+    {
+      "name": "Bloodrend Mastery",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": true
+    },
+    {
+      "name": "Heavy Haul",
+      "is_core": false
+    },
+    {
+      "name": "Exhaust Plate",
+      "is_core": false
+    },
+    {
+      "name": "Transfixion Art",
+      "is_core": true
+    },
+    {
+      "name": "Sanguine Siphon",
+      "is_core": true
+    },
+    {
+      "name": "Rejuvenating Knockout",
+      "is_core": true
+    },
+    {
+      "name": "Amplified Rage",
+      "is_core": true
+    },
+    {
+      "name": "Catalytic Strike",
+      "is_core": true
+    },
+    {
+      "name": "Static Link",
+      "is_core": false
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Dark Blade"
+    },
+    {
+      "name": "Fire Blade"
+    },
+    {
+      "name": "Lightning Blade"
+    },
+    {
+      "name": "Crimson Surge"
+    },
+    {
+      "name": "Electro Carve"
+    },
+    {
+      "name": "Lightning Cloak"
+    },
+    {
+      "name": "Scarlet Cannon"
+    },
+    {
+      "name": "Soulflare Siphon"
+    }
+  ],
+  "target_mobs": [
+    "Layer 2 First and Second Floor Mobs",
+    "Thresher Swarm",
+    "Chaser",
+    "Ethiron",
+    "Scion of Ethiron"
+  ],
+  "mob_strategy": {
+    "thresher": "Palace Tachi의 넓은 횡참 베기 범위와 Flame/Lightning Blade의 광역 경직을 활용해 돌진 패턴을 패링 후 딜레이를 캐치합니다.",
+    "chaser": "Crimson Surge와 Bloodrend 스택을 빠르게 쌓은 뒤, 보스가 환각 및 실을 소환하는 패턴 때 파이어 블레이드로 순간 폭딜을 넣어 경직을 유도합니다.",
+    "ethiron": "보스의 광역 브레스 및 뼈 손아귀 패턴을 점프와 슬라이딩으로 회피하면서, Lightning Cloak의 이속 및 뎀감 버프를 유지한 채 근접 맞딜로 체력을 흡수하며 딜을 누적시킵니다."
+  },
+  "combo_guide": "1단계: Lightning Cloak을 활성화하여 이동 속도와 데미지 감쇄 버프를 두릅니다. 2단계: Crimson Surge와 Bloodrend 만트라를 사용하여 적에게 출혈(Hemorrhage) 디버프를 부여하고 방어력을 깎습니다. 3단계: Dark Blade와 Fire Blade를 연계하여 가드를 파괴하고(Posture Break), 폭발적인 출혈 도트 데미지와 함께 Sanguine Siphon으로 체력을 대량 회복합니다. 4단계: 마무리로 Scarlet Cannon이나 기본 평타 콤보를 난사하여 보스를 순식간에 녹입니다.",
+  "video_meta": {
+    "title": "I Progressed The Most OVERPOWERED PvE Build (1-20) | Deepwoken",
+    "channel": "BlessJames",
+    "url": "https://www.youtube.com/watch?v=_DOIoy4mc3A",
+    "upload_date": "20260624",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "_raw_vision_data": {
+    "character_name": "Sage Jule",
+    "power": 1,
+    "race": "Ganymede",
+    "origin": "Deepbound",
+    "oath": null,
+    "traits": {
+      "vitality": 0,
+      "erudition": 0,
+      "proficiency": 0,
+      "songchant": 0
+    },
+    "stats": {
+      "strength": 0,
+      "fortitude": 0,
+      "agility": 0,
+      "intelligence": 29,
+      "willpower": 0,
+      "charisma": 0,
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 0
+    },
+    "attunements": {
+      "flamecharm": 1,
+      "frostdraw": 0,
+      "thundercall": 1,
+      "galebreathe": 0,
+      "shadowcast": 1,
+      "ironsing": 0,
+      "bloodrend": 1
+    },
+    "combat_stats": {
+      "hp": 236.0,
+      "posture": 21.0,
+      "ether": 178.0,
+      "tempo": 120.0,
+      "sanity": 96.0,
+      "move_speed_pct": "0.0%",
+      "pve_monster_dmg_pct": "0.0%"
+    },
+    "resistances": {
+      "physical_blunt": "10.0%",
+      "physical_slash": "10.0%",
+      "fire": "15.0%",
+      "ice": "15.0%",
+      "lightning": "15.0%",
+      "wind": "15.0%",
+      "shadow": "15.0%",
+      "iron": "15.0%",
+      "blood": "15.0%",
+      "bleed": "15.0%"
+    },
+    "equipped_items": [],
+    "inventory_items": [
+      "Dumbbell",
+      "Encyclopedia",
+      "Weapon Manual",
+      "Canteen",
+      "Chime of Conflict",
+      "Chime of Dwelling",
+      "Fishing Rod"
+    ],
+    "talents_visible": [],
+    "mantras_visible": []
+  },
+  "power": 1,
+  "origin": "Deepbound",
+  "race": "Canor",
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 90,
+      "agility": 25,
+      "intelligence": 0,
+      "willpower": 80,
+      "charisma": 25
+    },
+    "post_shrine_priority": [
+      "Bloodrend 80 마스터 (주요 만트라 및 고유 특성 개방)",
+      "Medium Weapon 90 달성 (Palace Tachi 무기 요구치 및 데미지 극대화)"
+    ]
+  },
+  "oath": "Bladeharper",
+  "murmur": "Thundercall",
+  "resonance": "Cloud of the Deep",
+  "shrine_of_order_path": "**Pre-Shrine**: `Strength 40, Fortitude 90, Agility 25, Intelligence 0, Willpower 80, Charisma 25`\n**Post-Shrine 우선순위**:\n- Bloodrend 80 마스터 (주요 만트라 및 고유 특성 개방)\n- Medium Weapon 90 달성 (Palace Tachi 무기 요구치 및 데미지 극대화)"
+}
