@@ -39,7 +39,6 @@
 | **Authority Outpost Expedition & Fish** | `Hybrid` | ` / thundercall, bloodrend` | [📄 문서 보기](builds/authority-outpost-expedition-fishing-hybrid-b.md) |
 | **Azure Flame & Steam Duster Knockdow** | `PvP` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/azure-flame-steam-duster-knockdown-combo-pvp.md) |
 | **Blind, Deaf & Mute Meme Heavy Hybri** | `Meme/Fun` | ` / thundercall` | [📄 문서 보기](builds/blind-deaf-mute-meme-heavy-hybrid-build.md) |
-| **Bloodrend Dustlunge Moppet PvE Slay** | `Boss Raid` | `Oathless / Attunementless` | [📄 문서 보기](builds/bloodrend-dustlunge-moppet-pve-slayer.md) |
 | **Bloodrend & Frostdraw Bladeharper P** | `PvE` | `Bladeharper / frostdraw, ` | [📄 문서 보기](builds/bloodrend-frostdraw-bladeharper-pve.md) |
 | **Bloodrend Hybrid PvP Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/bloodrend-hybrid-pvp-build.md) |
 | **Bloodrend Vampire Starkindred** | `Hybrid` | ` / bloodrend` | [📄 문서 보기](builds/bloodrend-vampire-starkindred.md) |
@@ -57,6 +56,7 @@
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
 | **Ironsing Steelscale Cestus & Jailer** | `PvP` | ` / ironsing` | [📄 문서 보기](builds/ironsing-steelscale-cestus-jailer-path.md) |
 | **Jetstriker Galebreathe Assassin** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/jetstriker-galebreathe-assassin.md) |
+| **Justiciar Warderer 50% Burst Heal S** | `PvP` | `Oathless / Attunementless` | [📄 문서 보기](builds/justiciar-warderer-50-burst-heal-support.md) |
 | **KRATOS V4 (Gran Sudaruska Steam Daw** | `PvE` | `Dawnwalker / flamecharm` | [📄 문서 보기](builds/kratos-v4-gran-sudaruska-steam-dawnwalker-pve.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
 | **Meta All-Rounder PvP & PvE Mastercl** | `Hybrid` | ` / ironsing` | [📄 문서 보기](builds/meta-all-rounder-pvp-pve-masterclass-build.md) |
