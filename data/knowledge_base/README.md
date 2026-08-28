@@ -26,7 +26,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (61개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (62개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -51,6 +51,7 @@
 | **Enmity Annihilator V2** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/enmity-annihilator-v2.md) |
 | **Enmity Slayer V2** | `PvE` | `Contractor / flamecharm, ` | [📄 문서 보기](builds/enmity-slayer-v2.md) |
 | **Flamecharm Rapier Dual Enchant Buil** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/flamecharm-rapier-dual-enchant-build.md) |
+| **FrostBurn V2** | `PvE` | `Oathless / flamecharm, fr` | [📄 문서 보기](builds/frostburn-v2.md) |
 | **Heretic's Jetstriker Gale Grieves** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/heretics-jetstriker-gale-grieves.md) |
 | **Imperator's Fury Steam Vent Diluvia** | `PvE` | `Blindseer / flamecharm, s` | [📄 문서 보기](builds/imperators-fury-steam-vent-diluvian-speedrun.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
