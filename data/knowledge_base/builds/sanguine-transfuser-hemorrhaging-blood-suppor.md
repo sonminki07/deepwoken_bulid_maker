@@ -2,7 +2,7 @@
 
 > **출처 영상**: [Progressing The Best COMBAT SUPPORT BUILD (1-20) | Deepwoken](https://www.youtube.com/watch?v=LUXBaJs5EuQ) by `ZakoTB`
 > **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `Tiran` / `Voidwalker` | **Oath**: `Oathless` | **Murmur/Bell**: `None` / `None`
+> **종족/출신**: `Tiran` / `Voidwalker` | **Oath**: `Fadetrimmer` | **Murmur/Bell**: `None` / `None`
 
 ---
 
@@ -25,7 +25,7 @@
 ## 🧬 4대 고유 특성 (Traits)
 | Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
 | :---: | :---: | :---: | :---: |
-| `6` | `2` | `4` | `0` |
+| `6` | `3` | `3` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
@@ -33,34 +33,34 @@
 | Strength (근력) | `25` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `40` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
+| Intelligence (지능) | `30` |
+| Willpower (의지) | `40` |
 | Charisma (매력) | `0` |
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `65` |
 
 ## ⚡ 속성 투자 (Attunements)
-- **Bloodrend**: `79`
+- **Bloodrend**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
 | Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `542` | `26` | `410` | `120` | `100` | `105.0%` | `+15.0%` |
+| `542` | `26` | `318` | `155` | `259` | `-12.0%` | `+50.0%` |
 
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
 | 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
 | :--- | :--- | :--- |
-| 참격: `50.0%` / 타격: `35.0%` / 관통: `44.0%` | 화염: `12.0%` / 빙결: `15.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+| 참격: `50.0%` / 타격: `50.0%` / 관통: `44.0%` | 화염: `30.0%` / 빙결: `30.0%` / 바람: `30.0%` | 그림자: `30.0%` / 번개: `5.0%` / 철: `0.0%` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **Sanguine Transfuser** (Light Weapon) — 인챈트: `None` ⭐x3
+- **Dagger** (Light Weapon) — 인챈트: `None` ⭐x3
 
 ## 🛡️ 주요 장비 (Equipment)
-- **[Helmet]** Deepscorn Casque
-- **[Outfit]** Vanguard Grace
-- **[Ring 1]** Ring of Wings
-- **[Ring 2]** Deepfire Ring
+- **[Helmet]** Deepwoken Hood
+- **[Outfit]** Black Diver / Ferryman's Coat
+- **[Amulet]** Old Blood Earrings
+- **[Rings]** Ishin's Ring, Maestro's Ring
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트

@@ -1,0 +1,242 @@
+{
+  "video_metadata": {
+    "title": "This PVE Build can do ANYTHING EASILY...😲 \"KRATOS V4\" | Deepwoken",
+    "channel": "Laptist",
+    "url": "https://www.youtube.com/watch?v=noOam5lVwCA",
+    "game_version": "Verse 3 (Layer 2 / Diluvian Meta Era)"
+  },
+  "build_summary": {
+    "build_name": "KRATOS V4 (Gran Sudaruska Steam Dawnwalker PvE)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브, 체이서 1사이클, 에테론 1사이클)를 극도로 안정적이고 압도적인 DPS로 파괴하기 위해 설계된 최고봉 엔드게임 만능 PvE 빌드입니다. Gran Sudaruska의 강력한 평타 딜량과 클리티컬 하이퍼아머, 스팀(Flashboil) 반응 패시브 딜, 그리고 Dawnwalker의 강력한 광역 제어력(Radiant Dawn/Blinding Dawn)이 완벽한 시너지를 이룹니다.\n\n기존 Bladeharper 빌드와 달리 Dawnwalker는 별도의 선행 스탯 요구사항이 없어 스탯 배분이 매우 자유로우며, Sacred Field(Physical/Wither) 벨과 높은 체력(521 HP), Orbital Ice/Underdog 등의 저항 패시브가 결합되어 최상위 난이도의 딜루비안 웨이브에서도 절대로 죽지 않는 금강불괴급 탱킹력과 지속 폭딜을 제공합니다.",
+    "strengths": [
+      "Gran Sudaruska 평타 및 클리티컬의 압도적인 DPS와 하이퍼아머로 안정적인 지속 딜링 가능",
+      "Flashboil(스팀) 메커니즘을 통해 평타 플로리시 및 Flame Within 크리티컬만으로 폭발적인 스팀 패시브 딜을 전방위에 지속 유포",
+      "Dawnwalker Oath의 Radiant Dawn 및 Blinding Dawn을 활용한 최상급 광역 몹 제어 및 라인 정리 능력",
+      "Sacred Field(Physical/Wither) 벨과 높은 HP(521 HP), 25% 이상의 물뎀 저항으로 딜루비안 40~50 웨이브 완벽 솔로 클리어 가능",
+      "체이서(Chaser) 및 에테론(Ethiron) 1사이클 킬이 가능한 최고 수준의 보스전 폭딜 성능"
+    ],
+    "weaknesses": [
+      "딜루비안 41, 46, 48웨이브 등 버그 수정된 Bounder/Squibbo/Humanoid 몹 집단 웨이브에서는 스팀 장판 유지 및 롤링/거리 조절 실패 시 순간 폭사 위험 존재",
+      "Shrine of Order 이후 Shadow 스탯 포인트를 3 빼서 Frost에 투자하는 정확한 스탯 리셋 재조정이 필수적임",
+      "Gran Sudaruska 및 Dawnwalker Oath 획득을 위한 중반 레이드/보스작 과정이 수반됨"
+    ]
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 2,
+    "proficiency": 0,
+    "songchant": 4
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 90,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 80,
+    "charisma": 0,
+    "heavy_wep": 80,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "combat_stats": {
+    "hp": 521,
+    "posture": 26,
+    "ether": 307,
+    "tempo": 157,
+    "sanity": 100,
+    "move_speed_pct": 100.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "35.0%",
+    "physical_blunt": "28.0%",
+    "physical_pierce": "25.0%",
+    "fire": "10.0%",
+    "ice": "15.0%",
+    "wind": "0.0%",
+    "shadow": "25.0%",
+    "lightning": "15.0%",
+    "iron": "0.0%",
+    "acid": "0.0%"
+  },
+  "weapons": [
+    {
+      "name": "Gran Sudaruska",
+      "type": "Heavy Weapon",
+      "enchant": "None",
+      "stars": 0
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Phalanx Helmet"
+    },
+    {
+      "slot": "Face",
+      "name": "None"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Thrall of Enmity"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Pathfinder Elite"
+    },
+    {
+      "slot": "Boots",
+      "name": "Star Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ishtar's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Deepfire Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Ring of Health"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Casters Ring"
+    },
+    {
+      "slot": "Earrings",
+      "name": "Moonlit Earrings"
+    },
+    {
+      "slot": "Bell",
+      "name": "Sacred Field"
+    }
+  ],
+  "character_setup": {
+    "oath": "Dawnwalker",
+    "race": "Canor",
+    "origin": "Deepbound",
+    "murmur": "Murmur: Ardour",
+    "resonance_bell": "Sacred Field (Corrupted / Physical Variant / Wither)"
+  },
+  "talents": [
+    {
+      "name": "Reinforce",
+      "is_core": true
+    },
+    {
+      "name": "Flashboil",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Orbital Ice",
+      "is_core": true
+    },
+    {
+      "name": "Underdog",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To The Finish",
+      "is_core": true
+    },
+    {
+      "name": "Last Resort",
+      "is_core": true
+    },
+    {
+      "name": "Dragon's Song",
+      "is_core": false
+    },
+    {
+      "name": "Unertial Dampener",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Blinding Dawn"
+    },
+    {
+      "name": "Burning Servants"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Warden's Blade"
+    },
+    {
+      "name": "Relentless Flames"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Shade Devour"
+    },
+    {
+      "name": "Flame Assault"
+    },
+    {
+      "name": "Radiant Dawn"
+    },
+    {
+      "name": "Flame Wisp"
+    }
+  ],
+  "target_mobs": [
+    "Diluvian Mechanism 1-50 Waves",
+    "Chaser (Layer 2 Floor 1)",
+    "Ethiron (Layer 2 Floor 2)",
+    "Deep Widow / Enforcer / Squibbo"
+  ],
+  "mob_strategy": "1. **딜루비안 50웨이브 솔로 전략**:\n   - 시작 전 `Flame Within` + `Shade Devour` + `Reinforce` 버프를 상시 유지합니다.\n   - 웨이브 진행 중 Gran Sudaruska의 Flourish 및 Flame Within 크리티컬을 적극 활용하여 구역 전체에 스팀(Flashboil) 구름을 생성합니다. 생성된 스팀 구름 안에서 대기하면 주변 몹들이 지속 패시브 피해를 입고 순식간에 녹아내립니다.\n   - **위험 웨이브 대처**:\n     * **Wave 31 / 41 / 46 / 48**: 몹 집단과 젤리피시/바운더가 대량 생성되는 최상위 난이도 구간입니다. 시작하자마자 Corrupted Sacred Field 벨을 켜고, Warden's Blade + Radiant Dawn을 순차적으로 발동해 몹들을 기절 및 묶어둡니다.\n     * **No-Mantra 웨이브 (Wave 42, 47 등)**: 만트라 사용이 불가능하므로 Flame Within 시전 후 Gran Sudaruska 크리티컬과 M1 평타만으로 스팀을 프록시켜 스팀 구름 안에서 안전하게 비벼서 사냥합니다.\n     * **젤리피시 힐팩 테크**: 젤리피시가 작은 가피(Guppies)를 사격할 때 적절한 타이밍에 Vent나 M1을 쳐서 가피들을 일괄 소멸시키면 순식간에 만피로 회복(Health Pack)할 수 있습니다.\n\n2. **체이서 & 에테론 1사이클 전략**:\n   - 체이서/에테론 그기 패턴 시 딜 타임이 열리면 Ardour Murmur + Shade Devour + Flame Within 버프를 켜고 Gran Sudaruska 평타 연타 및 Warden's Blade/Radiant Dawn 폭딜을 퍼부어 한 타임(1 Cycle) 만에 체력을 전부 깎아냅니다.",
+  "combo_guide": "1. **기본 딜 사이클 & 스팀 프록 메커니즘**:\n   - `Flame Within` 자해 화염 상태 유도 -> Gran Sudaruska M1 Flourish 또는 Critical(크리티컬) 타격 -> `Flashboil` 발동으로 스팀 장판 폭발적 생성 -> 장판 위에서 `Warden's Blade` + `Radiant Dawn`으로 몹 구속 및 지속 대미지 중첩.\n2. **광역 제어 & 안전 구속 콤보**:\n   - `Warden's Blade` 설치 -> `Radiant Dawn` 돌진 후 폭발 -> `Blinding Dawn` 광역 맹목 및 제어 -> 스팀 구름 속에서 Gran Sudaruska 하이퍼아머 M1 연타.\n3. **위급 상황 생존 콤보**:\n   - `Sacred Field` (벨) 즉시 발동 -> `Reinforce` 디버프 감소 및 체력 수급 -> 스팀 장판 내에서 비비면서 체력 회복 후 몹 일괄 정리.",
+  "video_meta": {
+    "title": "This PVE Build can do ANYTHING EASILY...😲 \"KRATOS V4\" | Deepwoken",
+    "channel": "Laptist",
+    "url": "https://www.youtube.com/watch?v=noOam5lVwCA",
+    "upload_date": "20260510",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "attunements": {
+    "flamecharm": 80,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "shrine_of_order_progression": {
+    "pre_shrine": {
+      "strength": 40,
+      "fortitude": 90,
+      "willpower": 80,
+      "flamecharm": 80,
+      "heavy_wep": 80
+    },
+    "post_shrine_priority": [
+      "Shrine of Order 사용 후 주요 PvE 탤런트(Exoskeleton, Last Resort 등) 확정",
+      "Steam(Flamecharm + Frostdraw 시너지지만 여기서는 Flamecharm 단독 및 Steam 무기 보정) 활용 극대화"
+    ]
+  },
+  "oath": "Dawnwalker",
+  "race": "Canor",
+  "origin": "Deepbound",
+  "murmur": "Murmur: Ardour",
+  "resonance": "Sacred Field (Corrupted / Physical Variant / Wither)",
+  "shrine_of_order_path": "**Pre-Shrine**: `Strength 40, Fortitude 90, Willpower 80, Flamecharm 80, Heavy_wep 80`\n**Post-Shrine 우선순위**:\n- Shrine of Order 사용 후 주요 PvE 탤런트(Exoskeleton, Last Resort 등) 확정\n- Steam(Flamecharm + Frostdraw 시너지지만 여기서는 Flamecharm 단독 및 Steam 무기 보정) 활용 극대화"
+}

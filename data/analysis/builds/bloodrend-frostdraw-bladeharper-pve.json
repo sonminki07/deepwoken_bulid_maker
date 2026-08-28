@@ -1,0 +1,229 @@
+{
+  "video_metadata": {
+    "title": "The NEW BEST IMMORTAL Beginner PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=hOPe91tv5BA",
+    "upload_date": "20260806",
+    "version": "Verse 3 Layer 2 Floor 2"
+  },
+  "build_summary": {
+    "build_name": "Bloodrend & Frostdraw Bladeharper PvE",
+    "build_type": "PvE",
+    "difficulty": "Beginner",
+    "creator_opinion": "이 빌드는 Deepwoken 초보자들이 보스 패턴을 쉽게 학습하고 안정적으로 솔로 클리어할 수 있도록 설계된 역대급 사기 메타 PvE 빌드입니다. 블러드렌드(Bloodrend)와 프로스트드로우(Frostdraw)의 강력한 흡혈 및 빙결 유틸리티를 결합하여, 전투 중 체인이 끊이지 않는 무한 생존력을 보여줍니다. 특히 Shrine of Order를 거쳐 스탯을 효율적으로 압축함으로써 초반부터 후반까지 압도적인 딜링과 방어력을 동시에 챙길 수 있습니다.",
+    "strengths": [
+      "무한한 피흡과 체력 재생: Bloodrend 만트라들과 블러드 루프(Blood Rune)의 시너지로 보스전에서 공격할 때마다 엄청난 양의 체력을 회복하여 죽지 않는 불사신 플레이가 가능합니다.",
+      "초보자 친화적인 난이도: 높은 템프 HP(Temp HP)와 뛰어난 방어력 덕분에 보스의 주력 패턴을 맞아도 즉사하지 않고 여유롭게 대처할 수 있습니다.",
+      "우수한 광역 및 단일 대상 딜링: Frostdraw와 Bloodrend의 조합으로 사냥 속도가 매우 빠르며, Hellmode 및 듀크, 체이서 등의 보스를 솔로로 쉽게 처치할 수 있습니다."
+    ],
+    "weaknesses": [
+      "초반 스탯 분배의 정밀함 요함: Shrine of Order를 사용하기 전까지 스탯 관리와 탤런트 습득 순서를 완벽하게 지키지 않으면 빌드가 꼬일 위험이 있습니다.",
+      "근접 전투 의존도: 원거리 견제보다는 근접전에서 M1과 만트라를 우겨넣어야 피흡이 극대화되므로 보스의 패리 타이밍을 어느 정도 숙지해야 합니다."
+    ]
+  },
+  "traits": {
+    "vitality": 3,
+    "erudition": 2,
+    "proficiency": 5,
+    "songchant": 4
+  },
+  "stats": {
+    "strength": 25,
+    "fortitude": 40,
+    "agility": 25,
+    "intelligence": 35,
+    "willpower": 1,
+    "charisma": 40,
+    "heavy_wep": 1,
+    "medium_wep": 90,
+    "light_wep": 1
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 40,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 1,
+    "ironsing": 1,
+    "bloodrend": 75
+  },
+  "combat_stats": {
+    "hp": 417,
+    "posture": 26,
+    "ether": 480,
+    "tempo": 120,
+    "sanity": 109,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "15.0%",
+    "ice": "55.0%",
+    "wind": "10.0%",
+    "shadow": "25.0%",
+    "lightning": "10.0%",
+    "iron": "15.0%",
+    "acid": "20.0%"
+  },
+  "weapons": [
+    {
+      "name": "Prophet's Florentine",
+      "type": "Medium Weapon",
+      "enchant": "None",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Santa Hat"
+    },
+    {
+      "slot": "Face",
+      "name": "Glasses"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Moonseye Pendant"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Vanguard's Raiment"
+    },
+    {
+      "slot": "Boots",
+      "name": "Leather Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Silver Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Gold Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Steel Pauldron/Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Old Blood Earrings"
+    },
+    {
+      "slot": "Bell",
+      "name": "Reaper"
+    }
+  ],
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Ganymede",
+    "origin": "Deepbound",
+    "murmur": "Thundercall",
+    "resonance_bell": "Reaper"
+  },
+  "talents": [
+    {
+      "name": "Undertow",
+      "is_core": true
+    },
+    {
+      "name": "Dazing",
+      "is_core": true
+    },
+    {
+      "name": "Last Resort",
+      "is_core": true
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Old Habit Die Hard",
+      "is_core": true
+    },
+    {
+      "name": "Breathing Exercise",
+      "is_core": false
+    },
+    {
+      "name": "Carnivore",
+      "is_core": false
+    },
+    {
+      "name": "Tainted Ground",
+      "is_core": false
+    },
+    {
+      "name": "Condensation Drop",
+      "is_core": false
+    },
+    {
+      "name": "Grand Feast",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Blood Wisp"
+    },
+    {
+      "name": "Ice Beam"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Crimson Rain"
+    },
+    {
+      "name": "Scarlet Cyclone"
+    },
+    {
+      "name": "Palm Strike"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Neural Pathway"
+    },
+    {
+      "name": "Blood Cuttle"
+    }
+  ],
+  "target_mobs": [
+    "Thresher",
+    "Enforcer",
+    "Duke Erisia",
+    "Chaser",
+    "Ethiron",
+    "Corrupted Mobs in Depths"
+  ],
+  "mob_strategy": {
+    "thresher": "러시 아워(Rush Hour)를 켠 상태로 회피를 활용하며 블러드 윕과 냉기 만트라로 압박합니다. 공격을 피하면서 흡혈로 체시를 유지하면 쉽게 잡을 수 있습니다.",
+    "duke_erisia": "듀크의 가드 패턴에 맞춰 크라우치(Crouch)를 활용하고, 피흡 만트라와 블러드 커들을 연계하여 듀크의 체력 회복보다 압도적인 딜링과 유지력을 보여줍니다.",
+    "chaser": "체이서의 기믹 수행 중 화이트 오브(White Orbs)에 갇히지 않도록 주의하며, 블러드 커들과 아이스 플락을 조합해 신속하게 클론들을 정리합니다.",
+    "ethiron": "에시론전에서는 슬램 패턴마다 블러드 무브와 만트라를 난사하여 템프 HP를 극대화하고, 안정적인 패리와 회피로 딜로스를 최소화합니다."
+  },
+  "combo_guide": "1단계: 전투 진입 전 Rush Hour 및 각종 버프 만트라를 활성화합니다.\n2단계: Ice Flock과 Scarlet Cyclone으로 적의 이동 속도를 늦추고 경직을 유발합니다.\n3단계: Blood Wisp과 Warden's Blades를 사용하여 지속적인 데미지와 함께 체력을 회복합니다.\n4단계: 적이 그로기 상태가 되면 강력한 M1 연계와 Blood Cuttle로 폭딜을 넣고 처형(Execution)으로 전투를 마무리합니다.",
+  "video_meta": {
+    "title": "The NEW BEST IMMORTAL Beginner PvE Build... (BROKEN) | Deepwoken PvE Progression",
+    "channel": "African Luminant",
+    "url": "https://www.youtube.com/watch?v=hOPe91tv5BA",
+    "upload_date": "20260806",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Bladeharper",
+  "race": "Ganymede",
+  "origin": "Deepbound",
+  "murmur": "Thundercall",
+  "resonance": "Reaper"
+}

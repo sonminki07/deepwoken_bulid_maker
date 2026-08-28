@@ -1,0 +1,164 @@
+{
+  "video_metadata": {
+    "title": "NEW BEST SHATTERED KATANA ENMITY BLOOD PVE (70k+ DMG) | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=MDmveFqTQrA",
+    "patch_version": "Verse 3 (Modern PvE Patch)"
+  },
+  "build_summary": {
+    "build_name": "Shattered Katana 100 Bloodrend Bladeharper PvE",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "기존 패치로 인해 Sightless Beam 및 Metal Turrets의 PvE 데미지가 하향 조정됨에 따라, 터렛 기반 PvE 빌드를 대체하기 위해 연구된 최신 보스 레이드 전용 100 Bloodrend Bladeharper 빌드입니다. 100 Bloodrend의 압도적인 출혈 및 흡혈 메커니즘과 Poser's Ring의 회피 능력을 극대화하여 Elder Primadon 및 Enmity와 같은 강력한 보스를 상대로 폭발적인 지속 딜링(70k+ DMG)과 생존력을 동시에 챙길 수 있습니다.",
+    "strengths": [
+      "100 Bloodrend와 3x Vibrant Gems가 적용된 블러드 만트라들을 이용한 가공할 만한 출혈(Hemorrhage) 폭딜",
+      "Poser's Ring의 패시브 회피 메커니즘을 통한 보스의 강력한 공격 무력화",
+      "Bladeharper 특유의 빠른 모션과 단검/중검 이상의 안정적인 리치 확보",
+      "Astral 인챈트 및 DVM(Damage vs Monsters) 장비 세팅으로 극대화된 보스전 화력"
+    ],
+    "weaknesses": [
+      "자해 기반 버프 및 만트라 과다 사용 시 자가 체력 관리가 순간적으로 위험해질 수 있음",
+      "Astral 인챈트가 없을 경우 Curse of Bloodthirsty로 대체할 수 있으나 Enmity 보스전에서는 효율이 떨어짐",
+      "Poser's Ring 발동 타이밍 및 적절한 프레임 회피 컨트롤 숙련 필요"
+    ]
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 0,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 100,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 100
+  },
+  "combat_stats": {
+    "hp": 415,
+    "posture": 24,
+    "ether": 380,
+    "tempo": 100,
+    "sanity": 100,
+    "move_speed_pct": 108.0,
+    "pve_dmg_pct": 52.5
+  },
+  "resistances": {
+    "physical_slash": "32.0%",
+    "physical_blunt": "22.5%",
+    "physical_pierce": "30.0%",
+    "fire": "15.0%",
+    "ice": "10.0%",
+    "wind": "10.0%",
+    "shadow": "10.0%",
+    "lightning": "10.0%",
+    "iron": "10.0%",
+    "acid": "5.0%"
+  },
+  "weapons": [
+    {
+      "name": "Shattered Katana",
+      "type": "Medium Weapon",
+      "enchant": "Astral",
+      "stars": 2
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Outfit",
+      "name": "Royal Etrean Guard"
+    },
+    {
+      "slot": "Boots",
+      "name": "Celestial Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Poser's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Bloodband Ring"
+    },
+    {
+      "slot": "Arm",
+      "name": "Pathfinder Elite"
+    }
+  ],
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Canor",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Hemorrhage",
+      "is_core": true
+    },
+    {
+      "name": "Bladeharper Stance",
+      "is_core": true
+    },
+    {
+      "name": "Monster Hunter",
+      "is_core": true
+    },
+    {
+      "name": "DVM Stacking Talents",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Bloodcurdle"
+    },
+    {
+      "name": "Scarlet Cyclone"
+    },
+    {
+      "name": "Blood Orb"
+    },
+    {
+      "name": "Graceful Flame"
+    },
+    {
+      "name": "Flame Wisp"
+    }
+  ],
+  "target_mobs": [
+    "Elder Primadon",
+    "Enmity",
+    "Chaser",
+    "Scéran"
+  ],
+  "mob_strategy": "1. Elder Primadon 및 대형 보스 상대 시, 전투 시작과 동시에 Bloodcurdle 및 Blood Orb를 사용하여 대상의 피를 최대한 흡수(Drain)합니다.\n2. 보스의 강력한 광역 패턴이나 패링 불가능한 공격이 들어올 때 Poser's Ring 특유의 회피 판정을 활용하여 안전하게 모션을 넘깁니다.\n3. 출혈 스택이 쌓여 Hemorrhage가 발동되면 보스에게 폭발적인 수만 단위(최대 70k+)의 누적 데미지가 들어가므로 만트라 쿨타임마다 끊임없이 스팸합니다.",
+  "combo_guide": "1. Graceful Flame 및 Wisps 버프 활성화\n2. 보스에게 근접하여 Shattered Katana 기본 평타 및 Bladeharper 스킬 연결\n3. Blood Orb 및 Scarlet Cyclone(Reversal + Multiplying Spark 적용)으로 보스 주변에 대량의 출혈 장판 형성\n4. Bloodcurdle로 피를 흡수하며 Hemorrhage 폭딜 유도 및 Poser's Ring으로 보스의 반격 회피",
+  "video_meta": {
+    "title": "NEW BEST SHATTERED KATANA ENMITY BLOOD PVE (70k+ DMG) | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=MDmveFqTQrA",
+    "upload_date": "20260225",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Bladeharper",
+  "race": "Canor",
+  "origin": "Castaway",
+  "murmur": "Ardour",
+  "resonance": "Sacred Field"
+}

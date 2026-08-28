@@ -24,16 +24,16 @@
   },
   "traits": {
     "vitality": 6,
-    "erudition": 2,
-    "proficiency": 4,
+    "erudition": 3,
+    "proficiency": 3,
     "songchant": 0
   },
   "stats": {
     "strength": 25,
     "fortitude": 50,
     "agility": 40,
-    "intelligence": 0,
-    "willpower": 0,
+    "intelligence": 30,
+    "willpower": 40,
     "charisma": 0,
     "heavy_wep": 0,
     "medium_wep": 0,
@@ -46,32 +46,32 @@
     "galebreathe": 0,
     "shadowcast": 0,
     "ironsing": 0,
-    "bloodrend": 79
+    "bloodrend": 80
   },
   "combat_stats": {
     "hp": 542,
     "posture": 26,
-    "ether": 410,
-    "tempo": 120,
-    "sanity": 100,
-    "move_speed_pct": 105.0,
-    "pve_dmg_pct": 15.0
+    "ether": 318,
+    "tempo": 155,
+    "sanity": 259,
+    "move_speed_pct": -12.0,
+    "pve_dmg_pct": 50.0
   },
   "resistances": {
     "physical_slash": "50.0%",
-    "physical_blunt": "35.0%",
+    "physical_blunt": "50.0%",
     "physical_pierce": "44.0%",
-    "fire": "12.0%",
-    "ice": "15.0%",
-    "wind": "10.0%",
-    "shadow": "10.0%",
-    "lightning": "10.0%",
-    "iron": "10.0%",
-    "acid": "15.0%"
+    "fire": "30.0%",
+    "ice": "30.0%",
+    "wind": "30.0%",
+    "shadow": "30.0%",
+    "lightning": "5.0%",
+    "iron": "0.0%",
+    "acid": "0.0%"
   },
   "weapons": [
     {
-      "name": "Sanguine Transfuser",
+      "name": "Dagger (Blood Dagger / Sanguine Transfuser)",
       "type": "Light Weapon",
       "enchant": "None",
       "stars": 3
@@ -80,23 +80,23 @@
   "equipment": [
     {
       "slot": "Helmet",
-      "name": "Deepscorn Casque"
+      "name": "Deepwoken Hood"
     },
     {
       "slot": "Outfit",
-      "name": "Vanguard Grace"
+      "name": "Black Diver / Ferryman's Coat"
     },
     {
-      "slot": "Ring 1",
-      "name": "Ring of Wings"
+      "slot": "Amulet",
+      "name": "Old Blood Earrings"
     },
     {
-      "slot": "Ring 2",
-      "name": "Deepfire Ring"
+      "slot": "Rings",
+      "name": "Ishin's Ring, Maestro's Ring"
     }
   ],
   "character_setup": {
-    "oath": "Oathless",
+    "oath": "Fadetrimmer",
     "race": "Tiran",
     "origin": "Voidwalker",
     "murmur": "None",

@@ -1,0 +1,193 @@
+{
+  "video_metadata": {
+    "title": "The NEW Best PvE Build for Everything V2 | Deepwoken Verse 3",
+    "channel": "NotFearLessKiller",
+    "url": "https://www.youtube.com/watch?v=TJN94GOXvzY",
+    "upload_date": "20260127",
+    "patch_version": "Verse 3 / Layer 2 Floor 2"
+  },
+  "build_summary": {
+    "build_name": "Enmity Slayer V2",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "기존 Sightless Beam 너프 이후 새롭게 제작된 극딜형 PvE 최정점 빌드입니다. 섀도우캐스트(Shadowcast)의 Enmity 만이트라와 플레임참의 Graceful Flames, Flame Within 버프를 극대화하여 보스레이드 및 Enmity 레이드를 1분 이내에 클리어할 수 있는 경이로운 딜링 능력을 보여줍니다.\n\n링스트라이더(Linkstrider) 및 소울브레이커(Soulbreaker) 조합과 연계하여 몬스터의 아머 브레이크(Armor Break) 속도를 V1 대비 2배 이상 빠르게 단축시킬 수 있으며, 파티 플레이 및 솔로 플레이 모두에서 압도적인 효율을 자랑합니다.",
+    "strengths": [
+      "Enmity 보스를 1분 이내로 순삭하는 엄청난 단일 대상 폭딜 능력",
+      "Graceful Flames과 Flame Within을 통한 독자적인 공격력 및 화염 데미지 증폭",
+      "강화된 아머 브레이크 속도로 고방어력 보스 대상 극대화된 효율",
+      "파티 서포트와 백 대저(Back Damage) 연계를 모두 소화하는 뛰어난 유연성"
+    ],
+    "weaknesses": [
+      "방어력과 생존 스탯보다는 공격 성능에 집중되어 있어 고난도 패턴 회피 능력이 요구됨",
+      "만트라 중심의 딜 사이클이므로 이터(Ether) 관리와 쿨타임 조율이 필수적임"
+    ]
+  },
+  "traits": {
+    "vitality": 3,
+    "erudition": 3,
+    "proficiency": 3,
+    "songchant": 3
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 10,
+    "willpower": 80,
+    "charisma": 20,
+    "heavy_wep": 90,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 75,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 80,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 417,
+    "posture": 26,
+    "ether": 480,
+    "tempo": 120,
+    "sanity": 109,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "30.0%",
+    "ice": "25.0%",
+    "wind": "25.0%",
+    "shadow": "35.0%",
+    "lightning": "25.0%",
+    "iron": "30.0%",
+    "acid": "25.0%"
+  },
+  "weapons": [
+    {
+      "name": "Crypt Blade",
+      "type": "Heavy Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Kyrsan Hat"
+    },
+    {
+      "slot": "Face",
+      "name": "None"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Aegis of Enmity"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Black Diver"
+    },
+    {
+      "slot": "Boots",
+      "name": "Kyrsan Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Thrill of Enmity"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Barriers of Enmity"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Chants of Agonies"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Deepwoken Ring of Health"
+    },
+    {
+      "slot": "Bell",
+      "name": "Enmity Voice"
+    }
+  ],
+  "character_setup": {
+    "oath": "Contractor",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Thundering Sparks",
+    "resonance_bell": "Enmity"
+  },
+  "talents": [
+    {
+      "name": "Graceful Flames",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Soulbreaker",
+      "is_core": true
+    },
+    {
+      "name": "Linkstrider",
+      "is_core": true
+    },
+    {
+      "name": "Flame Sentinel",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Enmity"
+    },
+    {
+      "name": "Flame Sentinel"
+    },
+    {
+      "name": "Graceful Flames"
+    },
+    {
+      "name": "Rising Spark"
+    },
+    {
+      "name": "Blizzard Grenade"
+    }
+  ],
+  "target_mobs": [
+    "Enmity",
+    "Chaser",
+    "Ethiron",
+    "Ferryman",
+    "Primadon"
+  ],
+  "mob_strategy": {
+    "Enmity": "16인 플레이어 공대 기준 480K HP를 1분 이내에 녹여내기 위해 Enmity 만트라를 메인 데미지로 활용하며, 파티원들과 함께 백 데미지와 서포트 역할을 분담하여 아머를 빠르게 브레이크합니다.",
+    "Chaser": "Flame Sentinel을 활용해 붉은 방의 항아리(Jars)들을 즉시 파괴하고 2Cycle 만에 보스를 격파합니다.",
+    "Ethiron": "Layer 2 보스 에티론을 1Cycle 안에 압도적인 섀도우캐스트 및 화염 콤보로 제압합니다."
+  },
+  "combo_guide": "{'opening': 'Flame Sentinel과 Graceful Flames, Flame Within을 선시전하여 공격력 버프와 화염 도트 버프를 극대화합니다.', 'mid_combat': 'Enmity 만트라와 Crypt Blade의 강력한 헤비 웨폰 평타를 연계하여 몬스터의 방어구를 순식간에 파괴합니다.', 'finisher': 'Soulbreaker 및 Linkstrider 효과와 연계된 파티원들의 백 데미지 서포트를 받아 딜 사이클을 반복하여 보스를 순식간에 처치합니다.'}",
+  "video_meta": {
+    "title": "The NEW Best PvE Build for Everything V2 | Deepwoken Verse 3",
+    "channel": "NotFearLessKiller",
+    "url": "https://www.youtube.com/watch?v=TJN94GOXvzY",
+    "upload_date": "20260127",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Contractor",
+  "race": "Vesperian",
+  "origin": "Deepbound",
+  "murmur": "Thundering Sparks",
+  "resonance": "Enmity"
+}

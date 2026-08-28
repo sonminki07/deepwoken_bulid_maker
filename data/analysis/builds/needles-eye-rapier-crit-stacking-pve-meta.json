@@ -1,0 +1,207 @@
+{
+  "video_metadata": {
+    "title": "A new PvE meta has entered Deepwoken... | Rapier PvE Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=0ccU42O_dfw",
+    "upload_date": "2026-07-12",
+    "patch_version": "Verse 2 / PvE Meta Update"
+  },
+  "build_summary": {
+    "build_name": "Needles Eye Rapier Crit Stacking PvE Meta",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "단검(Dagger)과 Knife's Journey가 오랫동안 PvE 메타를 독점해왔으나, 최근 레이피어(Rapier) 버프 패치 이후 레이피어가 단검을 뛰어넘는 새로운 PvE 최강 메타 무기로 부상했습니다.\n\n레이피어는 패링 직후 1초 동안 M1 데미지 +50%, 크리티컬 데미지 +33% 버프를 받는 전용 메커니즘을 가지고 있습니다. 이를 활용해 Charisma의 Manipulator, Bloodrend의 Hemolysis, Flamecharm의 Flame Within 등 크리티컬 및 데미지 증폭 탤런트를 극한으로 중첩시키면 패링 후 크리티컬 한 방으로 5,000 이상의 폭딜을 퍼부을 수 있습니다.\n\nRNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 평균 딜량을 뽑아낼 수 있어, 엘더 프라이모던(Elder Primadon)처럼 패링 패턴이 명확한 보스 레이드에서 세계 기록급 성능을 자랑합니다.",
+    "strengths": [
+      "패링 직후 1초간 M1 데미지 +50%, 크리티컬 데미지 +33%라는 압도적인 무기 전용 버프 보유",
+      "RNG(확률) 요소 없이 조건 충족 시 100% 일관된 초고화력 크리티컬 폭딜 가능",
+      "Needles Eye 모티프 적용 시 폭발적인 크리티컬 다단히트 및 Pressure Skewer 트루 데미지 적용",
+      "단검 빌드에 비해 까다로운 선행 탤런트 조건이 적어 빌드 작성이 비교적 수월함"
+    ],
+    "weaknesses": [
+      "체이서(Chaser)나 에시온(Ethiron)처럼 패링 기회가 없거나 적은 보스전에서는 딜 효율이 크게 하락함",
+      "패링 후 1초라는 짧은 버프 시간 내에 크리티컬을 정확히 적중시켜야 하므로 타이밍 숙련도 필요"
+    ]
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 25,
+    "fortitude": 20,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 85,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 20,
+    "ironsing": 0,
+    "bloodrend": 50
+  },
+  "combat_stats": {
+    "hp": 481,
+    "posture": 26,
+    "ether": 340,
+    "tempo": 120,
+    "sanity": 100,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.0
+  },
+  "resistances": {
+    "physical_slash": "35.0%",
+    "physical_blunt": "25.0%",
+    "physical_pierce": "35.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "lightning": "20.0%",
+    "iron": "20.0%",
+    "acid": "20.0%"
+  },
+  "weapons": [
+    {
+      "name": "Rapier",
+      "type": "Light Weapon",
+      "enchant": "None",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Parasol Planter"
+    },
+    {
+      "slot": "Face",
+      "name": "Citadel Frames"
+    },
+    {
+      "slot": "Ears",
+      "name": "Old Blood Earrings"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Tyran Pendant"
+    },
+    {
+      "slot": "Torso",
+      "name": "Warmaster's Medallion"
+    },
+    {
+      "slot": "Arms",
+      "name": "Ignition Gauntlets"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Prophet's Cloak"
+    },
+    {
+      "slot": "Legs",
+      "name": "Celestial Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Akira's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Diver's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Isshin's Ring"
+    }
+  ],
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Capra",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Cornered Fool",
+      "is_core": true
+    },
+    {
+      "name": "Narcissist",
+      "is_core": true
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Immolator",
+      "is_core": false
+    },
+    {
+      "name": "Rush Hour",
+      "is_core": true
+    },
+    {
+      "name": "Hemolysis",
+      "is_core": true
+    },
+    {
+      "name": "Pressure Skewer",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Shade Devour"
+    },
+    {
+      "name": "Flame Within"
+    },
+    {
+      "name": "Rush Hour"
+    }
+  ],
+  "target_mobs": [
+    "Elder Primadon",
+    "Primadon",
+    "Duke Erisia",
+    "Dread Serpent (Kaido)",
+    "Ferryman"
+  ],
+  "mob_strategy": {
+    "mob_strategy": "엘더 프라이모던처럼 패링이 가능한 콤보 공격을 하는 보스전에서 최상의 성능을 발휘합니다. 보스의 공격을 패링하자마자 1초 이내에 크리티컬 공격을 사용하여 레이피어 패링 버프, Pressure Skewer 트루 데미지, Manipulator, Hemolysis 버프를 한꺼번에 폭발시키세요. 패링 패턴이 없는 보스(체이서 등)에서는 딜 효율이 떨어지므로 단검이나 주먹 무기로 스왑하는 것이 좋습니다."
+  },
+  "combo_guide": {
+    "combo_guide": "1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.\n2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.\n3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.\n4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다."
+  },
+  "video_meta": {
+    "title": "A new PvE meta has entered Deepwoken... | Rapier PvE Guide",
+    "channel": "Col",
+    "url": "https://www.youtube.com/watch?v=0ccU42O_dfw",
+    "upload_date": "20260712",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Bladeharper",
+  "race": "Capra",
+  "origin": "Castaway",
+  "murmur": "None",
+  "resonance": "None"
+}

@@ -1,0 +1,187 @@
+{
+  "video_metadata": {
+    "title": "This PVE Build SHREDS Titus | Deepwoken: Verse 3",
+    "channel": "Tokjyo",
+    "url": "https://www.youtube.com/watch?v=y7MxtFfLFXQ",
+    "patch_version": "2026 Verse 3 (Loss of Iron Sing Meta / Bloodrend PvE Buff Patch)"
+  },
+  "build_summary": {
+    "build_name": "Bloodrend Dustlunge Moppet PvE Slayer",
+    "build_type": "Boss Raid",
+    "difficulty": "Intermediate",
+    "creator_opinion": "아이언싱(Ironsing)의 PvE 지속 너프 이후, 보스전 및 고난도 던전 콘텐츠에서 강력한 입지를 다진 블러드렌드(Bloodrend) 기반의 최상급 보스 레이드 전용 빌드입니다. 단검의 빠른 공격 속도와 블러드렌드의 뛰어난 체력 수급 능력을 결합하여 파라솔(Parasol)과 타이투스(Titus) 같은 가혹한 장기 보스전에서도 압도적인 안정성과 지속 딜링을 제공합니다.\n\n특히 워든 블레이드(Warden's Blades)를 이용해 쇄인(Chain) 스택을 빠르게 쌓아 올려 보스의 포스처(Posture)를 단숨에 붕괴시키며, 더스트런지(Dustlunge) 및 아도르 슬라이서(Ardour Slicer)의 위장 기믹을 활용해 던전 내 잡몹 구간을 통째로 패스하는 뛰어난 스피드런 및 파밍 편의성을 갖추고 있습니다.",
+    "strengths": [
+      "블러드렌드의 강력한 피흡 및 혈마법 효과로 보스전 지속 생존력 최상급",
+      "Moppet(Hallowtide Daggers)과 Astral 인챈트를 조합한 무시무시한 단일 타겟 DPS 및 타격수",
+      "Warden's Blades를 활용한 순식간의 체인 스택 쌓기 및 포스처 파괴 능력",
+      "Dustlunge 및 Ardour Slicer 펜스 통과 버그/테크닉을 활용한 인스턴스 던전 완벽 스킵 가능"
+    ],
+    "weaknesses": [
+      "체인 스택을 유지하지 못하고 보스의 대형 패턴에 맞을 경우 피흡 리듬이 깨질 위험 존재",
+      "타이투스전 등 일부 전장에서는 그래픽 옵션을 1단계로 낮추지 않으면 붉은 시각 효과로 인해 보스 전조 동작(Telegraph) 판별이 어려움"
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 80,
+    "fortitude": 84,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 100
+  },
+  "combat_stats": {
+    "hp": 484,
+    "posture": 27.8,
+    "ether": 342,
+    "tempo": 140,
+    "sanity": 100,
+    "move_speed_pct": 100.0,
+    "pve_dmg_pct": 38.7
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "18.0%",
+    "ice": "10.0%",
+    "wind": "10.0%",
+    "shadow": "10.0%",
+    "lightning": "10.0%",
+    "iron": "10.0%",
+    "acid": "5.0%"
+  },
+  "weapons": [
+    {
+      "name": "Moppet",
+      "type": "Light Weapon",
+      "enchant": "Curse of the Bloodthirsty",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Browline Citadel Frames"
+    },
+    {
+      "slot": "Face",
+      "name": "Master Thief Earrings"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Gentle Pearl Chain"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Black Diver"
+    },
+    {
+      "slot": "Boots",
+      "name": "Star Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ishak's King Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Mantra's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Ring of Casters"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Ring of Casters"
+    },
+    {
+      "slot": "Arms",
+      "name": "Ignition Gauntlets"
+    },
+    {
+      "slot": "Bell",
+      "name": "Sacred Field"
+    }
+  ],
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Vesperian",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Dustlunge",
+      "is_core": true
+    },
+    {
+      "name": "Warden's Blades",
+      "is_core": true
+    },
+    {
+      "name": "Bloodrend Master",
+      "is_core": true
+    },
+    {
+      "name": "Master Craftsman",
+      "is_core": false
+    },
+    {
+      "name": "Overflowing Dam",
+      "is_core": true
+    },
+    {
+      "name": "Everchanging Aegis",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Bloodcurdle"
+    },
+    {
+      "name": "Blood Foundation"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Ardour Slicer"
+    }
+  ],
+  "target_mobs": [
+    "Titus Fulminant Demetrius",
+    "Insomnifang Parasol",
+    "Primadon",
+    "Chaser"
+  ],
+  "mob_strategy": {
+    "Titus Fulminant Demetrius": "1. 그래픽 설정을 1단계로 낮춰 보스의 이펙트에 가려지는 모션을 명확히 관찰합니다.\n2. 전투 시작 직후 Warden's Blades와 단검 연타로 빠르게 쇄인 스택을 쌓습니다.\n3. 타이투스가 Sovereign Drive 패턴을 사용할 때는 너무 일찍 구르지 말고 살짝 늦게 롤(Roll) 판정을 이용해 회피합니다.\n4. 체력이 깎이거나 포스처 위기 시 Bloodcurdle과 단검 피흡으로 즉시 정비합니다.",
+    "Insomnifang Parasol": "1. 공중에 떠 있는 파라솔의 뿌리/줄기 부분에 밀착하여 Warden's Blades와 Astral 단검 연타를 지속합니다.\n2. 장판 공격이 깔릴 때는 페리 및 패시브 방어막을 활용하며 지속적으로 피흡 딜링을 유지합니다."
+  },
+  "combo_guide": "던전 이동 시: Ardour Slicer를 바리케이드나 문 앞에서 가볍게 페인트(Feint) 취소하여 벽을 페이징(Phase through) 통과합니다.\n보스전 기본 딜 사이클: Warden's Blades 발동 -> 단검 일반 공격 평타 4~5회 (체인 스택 급증) -> Bloodcurdle / Blood Foundation 사용으로 폭딜 및 피흡 극대화.",
+  "video_meta": {
+    "title": "This PVE Build SHREDS Titus | Deepwoken: Verse 3",
+    "channel": "Tokjyo",
+    "url": "https://www.youtube.com/watch?v=y7MxtFfLFXQ",
+    "upload_date": "20260605",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "attunements": {},
+  "oath": "Oathless",
+  "race": "Vesperian",
+  "origin": "Castaway",
+  "murmur": "Ardour",
+  "resonance": "Sacred Field"
+}

@@ -1,0 +1,181 @@
+{
+  "video_metadata": {
+    "title": "NEW BEST [ONE SHOT] POSERS PVE | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=PkOsjVnTVS0",
+    "upload_date": "20260429"
+  },
+  "build_summary": {
+    "build_name": "Posers Ring Blood-Iron-Shadow PVE One Shot",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken Verse 3 메타에서 보스 레이드 및 엔티티(Enmity) 토벌을 위해 극한의 순간 폭딜(One-Shot)을 쏟아붓도록 설계된 PVE 최상위권 빌드입니다. Posers Ring의 효과와 출혈(Hemorrhage) 메커니즘을 극대화하여 평타 한 방에 1k 이상의 대 데미지를 기록하며, 출혈 폭발 시 50k를 상회하는 괴랄한 수치를 뽑아냅니다.\n\n다만, Shade Devour 등의 자체 체력 소모 및 하이리스크 디메리트를 안고 있기 때문에 Sow & Mend와 같은 회복 만트라를 적절히 섞어주어야 안정적인 유지가 가능합니다. 숙련된 패링 타이밍과 Ironing을 통한 아머 재생 메커니즘을 완벽하게 이해해야 제 성능을 온전히 발휘할 수 있습니다.",
+    "strengths": [
+      "M1 한 방당 1,000 이상의 압도적인 데미지 딜링 능력",
+      "Hemorrhage(출혈) 프로크 발동 시 50,000+ 이상의 압살적인 누적 폭딜",
+      "Ironing과 Sow & Mend를 조합하여 극심한 자체 디메리트(Shade Devour 등)를 상쇄하는 우수한 유지력",
+      "Enmity 보스 솔플 및 파티 버스(Boss carry) 운용에 최적화된 고효율 DPS"
+    ],
+    "weaknesses": [
+      "자체 딜 디메리트(Shade Devour)로 인해 체력 관리에 실패하면 급사 위험이 큼",
+      "Posers Ring의 특성상 피격 대미지 조절 및 체력 보존이 강제되어 난이도가 높음",
+      "완벽한 패링 타이밍과 Ironing 아머 회복 빌드업을 모르면 딜 사이클이 끊김"
+    ]
+  },
+  "traits": {
+    "vitality": 4,
+    "erudition": 3,
+    "proficiency": 5,
+    "songchant": 2
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 80,
+    "agility": 25,
+    "intelligence": 15,
+    "willpower": 50,
+    "charisma": 0,
+    "heavy_wep": 90,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 40,
+    "ironsing": 80,
+    "bloodrend": 50
+  },
+  "combat_stats": {
+    "hp": 417,
+    "posture": 26,
+    "ether": 480,
+    "tempo": 120,
+    "sanity": 109,
+    "move_speed_pct": 110.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "41.7%",
+    "physical_blunt": "20.2%",
+    "physical_pierce": "40.0%",
+    "fire": "15.0%",
+    "ice": "15.0%",
+    "wind": "15.0%",
+    "shadow": "25.0%",
+    "lightning": "15.0%",
+    "iron": "20.0%",
+    "acid": "10.0%"
+  },
+  "weapons": [
+    {
+      "name": "Palace Tachi",
+      "type": "Medium Weapon",
+      "enchant": "None",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Aegis of Enmity"
+    },
+    {
+      "slot": "Face",
+      "name": "Citadel Frames"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Crescent Earrings"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Royal Etrean Guard"
+    },
+    {
+      "slot": "Boots",
+      "name": "Celestial Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Posers Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Isshin's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Diver's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Moon Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Enmity Resonance"
+    }
+  ],
+  "character_setup": {
+    "oath": "Contractor",
+    "race": "Khan",
+    "origin": "Lone Warrior",
+    "murmur": "Ardour",
+    "resonance_bell": "Enmity"
+  },
+  "talents": [
+    {
+      "name": "Hemorrhage",
+      "is_core": true
+    },
+    {
+      "name": "Ironing",
+      "is_core": true
+    },
+    {
+      "name": "Shade Devour",
+      "is_core": true
+    },
+    {
+      "name": "Sow & Mend",
+      "is_core": true
+    },
+    {
+      "name": "Poser's Advantage",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Scarlet Cyclone"
+    },
+    {
+      "name": "Bloodcurdle"
+    },
+    {
+      "name": "Blood Orb"
+    }
+  ],
+  "target_mobs": [
+    "Enmity Boss",
+    "Layer 2 Bosses",
+    "High-Tier World Bosses"
+  ],
+  "mob_strategy": "보스의 주요 패턴을 패링하여 Ironing 효과를 발동시키고, 아머 재생 및 가드브레이크 포텐셜을 확보합니다. 전투 중 포저스 링(Posers Ring)의 디메리트를 관리하기 위해 불필요한 피격을 최소화하고, 출혈 스택을 안정적으로 쌓은 뒤 크리티컬과 블러드 만트라를 연계하여 폭딜을 우겨넣습니다. 체력이 낮아지면 Sow & Mend와 Shade Devour 콤보로 즉각적인 체력 및 아머를 수급하세요.",
+  "combo_guide": "1단계: 적의 공격을 타이밍 맞춰 패링하여 Ironing 스택 및 아머를 재생합니다.\n2단계: Scarlet Cyclone, Bloodcurdle 등 버프/디버프 만트라를 시전하여 출혈(Hemorrhage) 상태를 유도합니다.\n3단계: 스토어드 M1과 크리티컬 데미지를 연계하여 출혈 프로크를 연속 발동시킵니다.\n4단계: 출혈 폭발(Kaboom) 메커니즘을 통해 50k 이상의 누적 데미지로 적을 원샷원킬합니다.",
+  "video_meta": {
+    "title": "NEW BEST [ONE SHOT] POSERS PVE | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=PkOsjVnTVS0",
+    "upload_date": "20260429",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Contractor",
+  "race": "Khan",
+  "origin": "Lone Warrior",
+  "murmur": "Ardour",
+  "resonance": "Enmity"
+}

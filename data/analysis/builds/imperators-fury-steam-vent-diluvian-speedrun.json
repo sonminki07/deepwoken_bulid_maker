@@ -1,0 +1,198 @@
+{
+  "video_metadata": {
+    "title": "BEST DILUVIAN BUILDS OF ALL TIME | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=rb_SMHZftug",
+    "patch_version": "Verse 3 / Diluvian Mechanism Meta"
+  },
+  "build_summary": {
+    "build_name": "Imperator's Fury Steam Vent Diluvian Speedrun",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "현재 Deepwoken의 딜루비안 메커니즘(Diluvian Mechanism) 25웨이브 클리어 최고 존엄 메타로 평가받는 'Imperator's Fury' 가슴 방어구 기반의 PvE 전용 빌드입니다. 핵심 메커니즘은 타이투스(Titus) 보스 드롭 아이템인 Imperator's Fury를 착용하여 벤트(Vent) 스킬을 강력한 지면 강타 딜링기로 개조한 뒤, 스팀(Steam) 상태 이상과 각종 자버프를 폭발적으로 연계해 3~4분대의 쾌속 클리어를 가능케 합니다.\n\n단순히 벤트와 버프 스팸만으로도 방 거대 몬스터 그룹을 순식간에 녹여버릴 수 있으며, 25웨이브의 거대 몬스터 스폰 위치 패닝 및 타겟 우선순위 정리만 숙지한다면 누구나 손쉽게 딜루비안 파밍을 종결할 수 있는 극강의 효율성을 자랑합니다.",
+    "strengths": [
+      "Imperator's Fury 벤트 개조 효과로 범주형 지면 강타 극딜을 지속적으로 투사 가능",
+      "Steam 프록(Proc)과의 시너지로 몬스터 무리를 광역 연쇄 타격 가능",
+      "Shade Devour, Flame Within 등 풍부한 공증 자버프 보유",
+      "Corrupt Payback (빔 변형)으로 25웨이브 등의 고난도 타겟을 순식간에 원거리 살상 가능",
+      "평균 3~4분대 빠른 딜루비안 25웨이브 파밍 속도 보장"
+    ],
+    "weaknesses": [
+      "핵심 장비인 'Imperator's Fury'가 타이투스(Titus) 희귀 드롭이므로 입수 난이도가 높은 편",
+      "웨이브 진행 중 템포(Tempo) 관리가 꼬이면 벤트 스팸 딜사이클이 일시적으로 정지될 수 있음",
+      "25웨이브 스폰 직후 초기 위치 잡기와 버프 팝핑 타이밍을 놓치면 스킬 피해에 노출되기 쉬움"
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 6,
+    "proficiency": 0,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 40,
+    "fortitude": 50,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 40,
+    "charisma": 25,
+    "heavy_wep": 0,
+    "medium_wep": 100,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 1,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 1,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 465,
+    "posture": 30,
+    "ether": 500,
+    "tempo": 120,
+    "sanity": 100,
+    "move_speed_pct": 105.0,
+    "pve_dmg_pct": 55.0
+  },
+  "resistances": {
+    "physical_slash": "35.0%",
+    "physical_blunt": "25.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "15.0%",
+    "wind": "15.0%",
+    "shadow": "20.0%",
+    "lightning": "15.0%",
+    "iron": "15.0%",
+    "acid": "10.0%"
+  },
+  "weapons": [
+    {
+      "name": "Kyoryu",
+      "type": "Medium Weapon",
+      "enchant": "Vampirism",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Aegis of Enmity"
+    },
+    {
+      "slot": "Face",
+      "name": "Thrall of Enmity"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Old Blood Earrings"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Prophet's Cloak"
+    },
+    {
+      "slot": "Torso",
+      "name": "Imperator's Fury"
+    },
+    {
+      "slot": "Arms",
+      "name": "Pathfinder Elite"
+    },
+    {
+      "slot": "Boots",
+      "name": "Imperial Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Starved Knight Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Caster's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Ring of Health"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Ember Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Corrupt Payback"
+    }
+  ],
+  "character_setup": {
+    "oath": "Blindseer",
+    "race": "Vesperian",
+    "origin": "Deepbound",
+    "murmur": "Ardour",
+    "resonance_bell": "Corrupt Payback (Beam Variant)"
+  },
+  "talents": [
+    {
+      "name": "Steam Engine",
+      "is_core": true
+    },
+    {
+      "name": "Pyromaniac",
+      "is_core": true
+    },
+    {
+      "name": "Exhaustion Strike",
+      "is_core": false
+    },
+    {
+      "name": "Conditioned Runner",
+      "is_core": false
+    },
+    {
+      "name": "Shared Pain",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Flame Within"
+    },
+    {
+      "name": "Shade Devour"
+    },
+    {
+      "name": "Fire Forge"
+    },
+    {
+      "name": "Shadow Erupt"
+    }
+  ],
+  "target_mobs": [
+    "Diluvian Mechanism Waves (1-25)",
+    "Deep Widow",
+    "Squibbo",
+    "King Thresher",
+    "Bonekeeper"
+  ],
+  "mob_strategy": {
+    "Diluvian_Wave_21": "웨이브 시작 즉시 중앙에 등장하는 Deep Widow에게 가장 먼저 접근하여 딜을 집중해 처치합니다.",
+    "Diluvian_Wave_25": "맵 밖 가장자리 벽으로 이동하여 보물상자들이 자신을 바라보는 구도를 만든 후 모든 버프(Flame Within, Shade Devour)와 Corrupt Payback을 켜고 만트라 및 벤트를 연속으로 스팸합니다."
+  },
+  "combo_guide": "1. 웨이브 시작 전 Flame Within 및 Shade Devour 자버프를 활성화합니다.\n2. 적 무리 한가운데로 진입하며 딜루비안 중심부에 모인 몹들에게 스팀(Steam) 속성 효과를 프록시킵니다.\n3. Imperator's Fury의 개조 벤트(Vent)를 지면에 스팸 투사하여 넓은 광역 피해를 주며 템포 및 에테르를 회복합니다.\n4. 웨이브 25 등의 거대 보스 몹 타겟팅 시 Corrupt Payback 빔 레이저를 발사하여 순간 폭딜로 빠르게 마무리합니다.",
+  "video_meta": {
+    "title": "BEST DILUVIAN BUILDS OF ALL TIME | Deepwoken Verse 3",
+    "channel": "P4rzy",
+    "url": "https://www.youtube.com/watch?v=rb_SMHZftug",
+    "upload_date": "20260609",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Blindseer",
+  "race": "Vesperian",
+  "origin": "Deepbound",
+  "murmur": "Ardour",
+  "resonance": "Corrupt Payback (Beam Variant)"
+}

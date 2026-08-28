@@ -1,0 +1,212 @@
+{
+  "metadata": {
+    "title": "Every Best Diluvian PvE Build V4 'Abyss Delver V1' | Deepwoken PvE Build Showcase",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=ZVnQZYNNh_s",
+    "patch_version": "Verse 2 (Diluvian Mechanism Era)",
+    "upload_date": "2024-11-23"
+  },
+  "build_summary": {
+    "build_name": "Abyss Delver V1 & Diluvian Meta PvE Builds V4 Showcase",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이번 가이드는 Roblox Deepwoken의 종말급 PvE 던전인 '디루비안 메커니즘(Diluvian Mechanism)'을 솔로로 파밍하고 정복하기 위한 완전 가이드입니다. 유물(Relic) 파밍 시 웨이브 25와 50의 시간 대비 효율성을 비교 분석하고, 단일 속성 메이지부터 Pre-shrine Pale Briar 하이브리드, 삼중 속성 메이지, Seraph Soul v3 M1 빌드, Silentheart에 이르기까지 현존하는 메타 빌드 전수를 공개합니다.\n\n또한 디루비안 전용 오스(Oath) 및 속성(Attunement) 티어리스트를 제공하며, 중앙 장치 하단 대피, 공중 상격(Uppercut) 스팸 딜링, 웨이브 31 기가메드(Gigamed) 포효 벤트(Vent) 파쇄 등 디루비안 파밍 시간을 극적으로 단축시키는 실전 치즈 전략과 테크닉을 상세히 다룹니다.",
+    "strengths": [
+      "시간당 최대 75개의 상자를 수급할 수 있는 Wave 25 최적화 솔로 유물 파밍 효율",
+      "Brickwall, Sightless Beam, Perfect Flash/Rush Hour 조합으로 완성되는 압도적인 방어력과 지속 폭딜",
+      "다양한 플레이 스타일(만트라 위주 Mage, Heavy M1 위주, Pre-shrine Pale Briar)에 맞춘 풍부한 선택지",
+      "공중 딜링 및 디바이스 하단 버그성 고정 위치 등 위험 요소(Wipe)를 완벽히 통제하는 치즈 전략 보유"
+    ],
+    "weaknesses": [
+      "Pre-shrine Pale Briar 스탯 세팅 및 무기 마스터리 다운 작업 등 빌드 제작 과정의 높은 진입장벽",
+      "Iron Sing의 패치 동향 및 Bleed 버그 여파에 따른 지속적인 빌드 재조정 필요성",
+      "Wave 30 이후의 대형 몹 스턴 연계 및 Dawnwalker NPC의 blinding 공격에 노출될 경우 위기 상황 발생 가능"
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 6,
+    "proficiency": 0,
+    "songchant": 6
+  },
+  "stats": {
+    "strength": 50,
+    "fortitude": 100,
+    "agility": 0,
+    "intelligence": 60,
+    "willpower": 100,
+    "charisma": 0,
+    "heavy_wep": 82,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "combat_stats": {
+    "hp": 520,
+    "posture": 30,
+    "ether": 450,
+    "tempo": 100,
+    "sanity": 100,
+    "move_speed_pct": 105.0,
+    "pve_dmg_pct": 48.2
+  },
+  "resistances": {
+    "physical_slash": "35.0%",
+    "physical_blunt": "25.0%",
+    "physical_pierce": "30.0%",
+    "fire": "20.0%",
+    "ice": "20.0%",
+    "wind": "20.0%",
+    "shadow": "20.0%",
+    "lightning": "20.0%",
+    "iron": "20.0%",
+    "acid": "15.0%"
+  },
+  "weapons": [
+    {
+      "name": "Pale Briar",
+      "type": "Heavy Weapon",
+      "enchant": "Wild",
+      "stars": 3
+    },
+    {
+      "name": "Enforcer's Axe",
+      "type": "Heavy Weapon",
+      "enchant": "Sear",
+      "stars": 3
+    },
+    {
+      "name": "Iron Spear",
+      "type": "Heavy Weapon",
+      "enchant": "Providence Thorns",
+      "stars": 2
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Outfit",
+      "name": "Prophet's Cloak / Ignition Deep Delver / Tide Knight"
+    },
+    {
+      "slot": "Helmet",
+      "name": "Deepscorn Cask / Parasol Planter / Silver Knight's Helm"
+    },
+    {
+      "slot": "Chestpiece",
+      "name": "Enforcer's Plate / Pathfinder Elite"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ring of Casters"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Diver's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Isshin's Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Sacred Field / Payback / Crazy Slots"
+    }
+  ],
+  "character_setup": {
+    "oath": "Blindseer",
+    "race": "Khan",
+    "origin": "Deepbound",
+    "murmur": "Ardour",
+    "resonance_bell": "Corrupted Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Brickwall",
+      "is_core": true
+    },
+    {
+      "name": "Perfect Flash",
+      "is_core": true
+    },
+    {
+      "name": "Rush Hour",
+      "is_core": true
+    },
+    {
+      "name": "Blood Transfusion",
+      "is_core": true
+    },
+    {
+      "name": "Carnivore",
+      "is_core": true
+    },
+    {
+      "name": "Shade Devour",
+      "is_core": false
+    },
+    {
+      "name": "Dark Hours",
+      "is_core": false
+    },
+    {
+      "name": "Second Interrogation",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Sightless Beam"
+    },
+    {
+      "name": "Tranquil Circle"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Relentless Flames"
+    },
+    {
+      "name": "Flame Wisp"
+    },
+    {
+      "name": "Wind Passage"
+    },
+    {
+      "name": "Iron Slam"
+    }
+  ],
+  "target_mobs_and_strategy": [
+    {
+      "mob_name": "Gigamed & Wave 31 Horde",
+      "strategy_tip": "Wave 31 기가메드의 포효 순간에 맞추어 Vent를 사용하면 스턴을 무력화함과 동시에 주변 쫄몹들을 처치하여 헬스팩을 쉽게 수급하고 체력을 풀피로 리젠시킬 수 있습니다."
+    },
+    {
+      "mob_name": "Thresher & Stone Knight",
+      "strategy_tip": "디루비안 중앙 메커니즘 구조물 바로 밑에 바짝 붙어 서 있으면 Thresher나 Stone Knight의 공중 띄우기(Launch) 판정을 차단할 수 있으며, 몬스터들이 중앙으로 밀집되어 광역 만트라의 효율이 극대화됩니다."
+    },
+    {
+      "mob_name": "Bounder & Large Monsters",
+      "strategy_tip": "공중 올려치기(Uppercut) 후 공중에 떠 있는 상태에서 Warden's Blades, Relentless Flames, Sightless Beam 등을 연계하면 지상 공격을 피하며 안전한 프리딜이 가능합니다."
+    }
+  ],
+  "combo_and_playstyle_guide": {
+    "summary": "디루비안 효율극대화 파밍 딜사이클 및 가이드",
+    "details": "1. 파밍 효율 극대화: 유물(Relics) 파밍이 목적이라면 Wave 50까지 진행하기보다, 평균 4분 내외로 빠르게 클리어 가능한 Wave 25 반복 파밍(시간당 약 75상자)을 진행하는 것이 시간 대비 훨씬 이득입니다.\n2. 실전 콤보 딜사이클: 전투 시작 시 Flame Wisp 및 Iron Skin 버프 활성화 -> 중앙으로 몹 유인 -> 공중 올려치기(Uppercut) -> 공중에서 Warden's Blades / Sightless Beam 등 광역 만트라 난사 -> Ground Slam 및 Heavy Weapon M1 마무리.\n3. 만트라 봉인 웨이브 대처: No Mantra 상태가 되는 웨이브에서는 사전에 범주 만트라를 선캐스팅(Precast)하거나, Detonation 인챈트가 부여된 Avenger 무기로 교체하여 압도적인 범위 Posture Break와 평타 딜을 넣으세요."
+  },
+  "video_meta": {
+    "title": "Every Best Diluvian PvE Build V4 'Abyss Delver V1' | Deepwoken PvE Build Showcase",
+    "channel": "Skipper Gripper",
+    "url": "https://www.youtube.com/watch?v=ZVnQZYNNh_s",
+    "upload_date": "20251123",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "attunements": {},
+  "oath": "Blindseer",
+  "race": "Khan",
+  "origin": "Deepbound",
+  "murmur": "Ardour",
+  "resonance": "Corrupted Sacred Field"
+}

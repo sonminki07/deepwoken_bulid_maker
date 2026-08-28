@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "title": "This NEW Talent Changes the PVE META FOREVER...😱 | Deepwoken",
+    "channel": "Laptist",
+    "url": "https://www.youtube.com/watch?v=ag5zLWf139k",
+    "patch_version": "Verse 3"
+  },
+  "build_summary": {
+    "build_name": "Rengoku V1 (Flame Worshipper Steam PvE)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "새로운 방어구 탤런트 'One With Flame'을 활용한 PvE 빌드입니다. Flame Within으로 자가 화염 상태를 유지하면 모든 만트라에 화염 속성이 부여되어, 얼음 만트라(Warden's Blades 등)를 사용할 때마다 쿨다운 대기 없이 지속적으로 스팀(Steam) 폭발을 일으킵니다.\n\n딜러와 탱커 역할을 동시에 수행하며 딜루비안(Diluvian Mechanism) 50웨이브 및 Layer 2 보스(Chaser, Ethiron)를 1사이클만에 녹여버리는 강력한 화력을 자랑합니다.",
+    "strengths": [
+      "One With Flame 탤런트를 통한 상시 스팀(Steam) 발동 및 극딜",
+      "자가 화염 시 25% 피해 감소로 뛰어난 안정성 확보",
+      "보스전 및 딜루비안 웨이브 클리어 속도 극대화"
+    ],
+    "weaknesses": [
+      "Flame Worshipper Armor의 내구도가 낮아 수리 키트(Repair Kit) 및 Megurger 상시 구비 필수",
+      "Worshipper Longsword 및 Shield 장착 조건 강제"
+    ]
+  },
+  "character_setup": {
+    "oath": "Dawnwalker",
+    "race": "Ganymede",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 6,
+    "proficiency": 0,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 5,
+    "fortitude": 100,
+    "agility": 5,
+    "intelligence": 50,
+    "willpower": 100,
+    "charisma": 0,
+    "heavy_wep": 0,
+    "medium_wep": 27,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 40,
+    "frostdraw": 60,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 20,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "shrine_of_order": {
+    "pre_shrine": {
+      "strength": 0,
+      "fortitude": 100,
+      "agility": 0,
+      "intelligence": 50,
+      "willpower": 100,
+      "charisma": 0,
+      "heavy_wep": 0,
+      "medium_wep": 1,
+      "light_wep": 0,
+      "flamecharm": 1,
+      "frostdraw": 1,
+      "shadowcast": 1
+    },
+    "post_shrine": {
+      "strength": 5,
+      "fortitude": 25,
+      "agility": 5,
+      "intelligence": 25,
+      "willpower": 25,
+      "charisma": 0,
+      "heavy_wep": 0,
+      "medium_wep": 30,
+      "light_wep": 0,
+      "flamecharm": 40,
+      "frostdraw": 60,
+      "shadowcast": 20
+    }
+  },
+  "combat_stats": {
+    "hp": 524,
+    "posture": 30,
+    "ether": 214,
+    "tempo": 100,
+    "sanity": 107,
+    "move_speed_pct": 100.0,
+    "pve_dmg_pct": 40.0
+  },
+  "resistances": {
+    "physical_slash": "39.5%",
+    "physical_blunt": "18.1%",
+    "physical_pierce": "39.5%",
+    "fire": "23.6%",
+    "ice": "20.2%",
+    "wind": "0.0%",
+    "shadow": "20.2%",
+    "lightning": "10.0%",
+    "iron": "0.0%",
+    "acid": "0.0%"
+  },
+  "weapons": [
+    {
+      "name": "Worshipper Longsword",
+      "type": "Medium Weapon",
+      "enchant": "None",
+      "stars": 0
+    },
+    {
+      "name": "Worshipper Shield",
+      "type": "Offhand",
+      "enchant": "None",
+      "stars": 0
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Pathfinder Elite"
+    },
+    {
+      "slot": "Face",
+      "name": "Thief of Amity"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Flame Worshipper Armor"
+    },
+    {
+      "slot": "Boots",
+      "name": "Star Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Deepfire Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Ring of Casters"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Diver's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Alira's Ring"
+    }
+  ],
+  "talents": [
+    {
+      "name": "One With Flame",
+      "is_core": true
+    },
+    {
+      "name": "Reinforce",
+      "is_core": true
+    },
+    {
+      "name": "Flame Within",
+      "is_core": true
+    },
+    {
+      "name": "Heretic's Sutra",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Flame Within"
+    },
+    {
+      "name": "Warden's Blades"
+    },
+    {
+      "name": "Frozen Servants"
+    },
+    {
+      "name": "Ice Flock"
+    },
+    {
+      "name": "Flame Assault"
+    },
+    {
+      "name": "Blinding Dawn"
+    },
+    {
+      "name": "Reinforce"
+    },
+    {
+      "name": "Shade Sieve"
+    }
+  ],
+  "target_mobs": [
+    "Chaser",
+    "Scion of Ethiron",
+    "Diluvian Wave Monsters"
+  ],
+  "mob_strategy": "Flame Within을 켜서 자가 연소 상태를 유지한 뒤 Warden's Blades 및 Frostdraw 만트라를 사용하여 상시 Steam 폭발을 유도합니다. 딜루비안 및 보스전에서 스팀 광역 딜을 쏟아부어 순식간에 녹입니다.",
+  "combo_guide": "1. Heretic's Sutra 및 Flame Within 시전 (Lose Your Mind 버프 활성화 및 자가 화염 적용)\n2. Reinforce로 방어력 강화\n3. Warden's Blades 및 Frostdraw 만트라(Frozen Servants, Ice Flock) 시전으로 상시 스팀 폭발 유도\n4. Blinding Dawn 및 Flame Assault로 광역 마무리",
+  "video_meta": {
+    "title": "This NEW Talent Changes the PVE META FOREVER...😱 | Deepwoken",
+    "channel": "Laptist",
+    "url": "https://www.youtube.com/watch?v=ag5zLWf139k",
+    "upload_date": "20260614",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Dawnwalker",
+  "race": "Ganymede",
+  "origin": "Castaway",
+  "murmur": "Ardour",
+  "resonance": "Sacred Field"
+}
