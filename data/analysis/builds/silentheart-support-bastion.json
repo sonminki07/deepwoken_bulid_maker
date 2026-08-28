@@ -1,0 +1,284 @@
+{
+  "video_metadata": {
+    "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+    "channel": "ffeii",
+    "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+    "patch_version": "Verse 3"
+  },
+  "build_summary": {
+    "build_name": "Silentheart Support Bastion",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "본 빌드는 Silentheart 오스을 기반으로 하면서도 압도적인 서포트형 버프 및 생존력을 극대화한 독창적인 빌드입니다. 85 Charisma와 65 Willpower, 54 Fortitude를 바탕으로 Command, Taunt, Sing, Cornered Fool 같은 유틸성 탤런트를 난사하며 파티원의 생존을 보조함과 동시에, Shrine of Order 이후 80 Strength와 80 Medium Weapon을 확보하여 엄청난 한 방 딜링을 뿜어냅니다. 초보자가 다루기에는 스탯 라우팅과 Shrine 타이밍이 까다롭지만, 메커니즘을 숙지하면 PVE 보스 1분 컷은 물론 PVP에서도 다대일 상황을 역전시키는 미친 고성능을 자랑합니다.",
+    "strengths": [
+      "Corned Fool 및 Lasting Charisma 조합을 통한 압도적인 디버프 및 딜 증가 프로크",
+      "Payback과 Exoskeleton을 활용한 극한의 생존력 및 샌디에이고 수급",
+      "Shrine of Order 빌드업을 통해 80 Strength, 80 Medium Weapon, 85 Charisma를 모두 챙기는 완벽한 스탯 효율",
+      "Ardour 및 Command 계열 탤런트를 활용한 최상급의 서포트 능력 및 광역 군중 제어"
+    ],
+    "weaknesses": [
+      "Shrine of Order 과정에서 스탯 배분을 조금만 실수해도 빌드가 완전히 망가지는 극도의 까다로움",
+      "Silentheart 특성상 만트라가 없어 순수 근접 패리 및 닷지 실력이 승패를 크게 좌우함",
+      "초반 뎁스(The Depths) 진입과 파밍 구간에서의 철저한 동선 관리가 필수적임"
+    ]
+  },
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 0,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 1,
+    "fortitude": 50,
+    "agility": 1,
+    "intelligence": 0,
+    "willpower": 65,
+    "charisma": 85,
+    "heavy_wep": 0,
+    "medium_wep": 1,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 224.0,
+    "posture": 20.0,
+    "ether": 165.0,
+    "tempo": 120.0,
+    "sanity": 80.0,
+    "move_speed_pct": "-20.0%",
+    "pve_monster_dmg_pct": "0.0%"
+  },
+  "resistances": {
+    "physical_blunt": "10.0%",
+    "physical_slash": "10.0%",
+    "fire": "15.0%",
+    "ice": "15.0%",
+    "lightning": "15.0%",
+    "wind": "15.0%",
+    "shadow": "15.0%",
+    "iron": "15.0%",
+    "blood": "15.0%",
+    "bleed": "15.0%"
+  },
+  "weapons": [
+    {
+      "name": "Astral Shattered Katana",
+      "type": "Medium Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Apprentice Robes Hood"
+    },
+    {
+      "slot": "Face",
+      "name": "None"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Warlock's Mantle"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Apprentice Robes"
+    },
+    {
+      "slot": "Boots",
+      "name": "Apprentice Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Corrupted Payback"
+    }
+  ],
+  "character_setup": {
+    "oath": "Silentheart",
+    "race": "Adret",
+    "origin": "Voidwalker",
+    "murmur": "Ardour",
+    "resonance_bell": "Payback"
+  },
+  "talents": [
+    {
+      "name": "Cornered Fool",
+      "is_core": true
+    },
+    {
+      "name": "Lasting Charisma",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To the Finish",
+      "is_core": true
+    },
+    {
+      "name": "Unfazed",
+      "is_core": true
+    },
+    {
+      "name": "Against All Odds",
+      "is_core": true
+    },
+    {
+      "name": "Command, Summons",
+      "is_core": false
+    },
+    {
+      "name": "Polite Awakening",
+      "is_core": false
+    },
+    {
+      "name": "Manipulator",
+      "is_core": true
+    },
+    {
+      "name": "Celebrity",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Taunt"
+    },
+    {
+      "name": "Sing"
+    }
+  ],
+  "target_mobs": [
+    "Ferryman",
+    "Primadon",
+    "Kaido",
+    "Thresher",
+    "Enforcer",
+    "Sharko"
+  ],
+  "mob_strategy": [
+    "페리맨(Ferryman): 선박 대포를 활용하여 원거리에서 안전하게 체력을 깎고 Ardour 스크림을 빠르게 확보한 뒤 근접전에서 M1과 크리티컬로 순식간에 제압.",
+    "프리마돈(Primadon): Voidwalk 및 높은 참격/타격 저항을 이용해 근접 공격을 피하며 무난하게 솔로 격파.",
+    "엔포터(Enforcer) 및 다대일 Ganker: 피습 상황 시 Corrupted Payback 벨을 즉시 활성화하여 샌디에이고 수급 및 체력 회복, 언대저블(Undodgeable) 공격 타이밍에 맞춰 반격."
+  ],
+  "combo_guide": "1단계 (초반 스탯): Charisma 85를 우선 달성하여 Cornered Fool 및 Lasting Charisma 탤런트를 확보.\n2단계 (Shrine of Order): 54 Fortitude와 65 Willpower를 맞춘 뒤 Shrine of Order를 거쳐 Strength, Agility, Medium Weapon을 각 25로 밸런싱.\n3단계 (후반 빌드업): Strength를 80까지 극대화하고 잔여 포인트를 무기 및 방어구에 투자하여 M1 및 Mayhem, Ankle Cutter, Rising Star 콤보 데미지를 극대화.\n4단계 (실전 딜사이클): Taunt와 Sing으로 적의 방어력을 낮추고 치명타(Mayhem, Ankle Cutter)를 연계하여 3,500~4,500 이상의 폭딜을 순간적으로 우겨넣기.",
+  "video_meta": {
+    "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+    "channel": "ffeiitan",
+    "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+    "upload_date": "20260703",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "_raw_vision_data": {
+    "character_name": null,
+    "power": 1,
+    "race": "Adret",
+    "origin": "Deepbound",
+    "oath": null,
+    "traits": {
+      "vitality": 0,
+      "erudition": 0,
+      "proficiency": 0,
+      "songchant": 0
+    },
+    "stats": {
+      "strength": 0,
+      "fortitude": 0,
+      "agility": 0,
+      "intelligence": 0,
+      "willpower": 0,
+      "charisma": 30,
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 0
+    },
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "thundercall": 0,
+      "galebreathe": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
+    "combat_stats": {
+      "hp": 224.0,
+      "posture": 20.0,
+      "ether": 165.0,
+      "tempo": 120.0,
+      "sanity": 80.0,
+      "move_speed_pct": "-20.0%",
+      "pve_monster_dmg_pct": "0.0%"
+    },
+    "resistances": {
+      "physical_blunt": "10.0%",
+      "physical_slash": "10.0%",
+      "fire": "15.0%",
+      "ice": "15.0%",
+      "lightning": "15.0%",
+      "wind": "15.0%",
+      "shadow": "15.0%",
+      "iron": "15.0%",
+      "blood": "15.0%",
+      "bleed": "15.0%"
+    },
+    "equipped_items": [
+      "Sword",
+      "Padded Armor"
+    ],
+    "inventory_items": [
+      "Canteen",
+      "Chime of Conflict",
+      "Chime of Dwelling",
+      "Fishing Rod",
+      "Flint",
+      "Glider",
+      "Lumber Axe",
+      "Pickaxe",
+      "Encyclopedia",
+      "How to Make Friends",
+      "Weapon Manual",
+      "Sword"
+    ],
+    "talents_visible": [
+      "Padded Armor",
+      "Under The Radar",
+      "Cook's Kit"
+    ],
+    "mantras_visible": []
+  },
+  "power": 1,
+  "origin": "Voidwalker",
+  "race": "Adret",
+  "oath": "Silentheart",
+  "murmur": "Ardour",
+  "resonance": "Payback"
+}
