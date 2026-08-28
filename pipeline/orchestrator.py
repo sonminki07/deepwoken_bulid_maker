@@ -87,12 +87,8 @@ class PipelineOrchestrator:
         except Exception:
             return {}
 
-    def process_url(self, url: str, progress_callback = None) -> Dict[str, Any]:
-        """단일 유튜브 URL 전체 분석 및 지식 베이스 인덱싱 파이프라인 실행 (중복 소스 자동 캐시 로드)"""
-        start_time = time.time()
-        logger.info(f"=== Starting pipeline for: {url} ===")
-
-        # Step 0: 중복 검사 (이미 분석된 영상인지 확인하여 API 토큰 및 시간 절약)
+    def _find_cached_analysis(self, url: str):
+        """기존 분석 캐시 파일 및 비디오 ID 검색"""
         import re
         vid_match = re.search(r'(?:v=|\/|youtu\.be\/)([0-9A-Za-z_-]{11})', url)
         if vid_match:

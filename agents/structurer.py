@@ -220,8 +220,12 @@ class BuildStructurer:
                     sanitized["video_meta"]["estimated_patch"] = "Verse 3 (Latest / Diluvian Era)"
                 elif year >= 2024:
                     sanitized["video_meta"]["estimated_patch"] = "Verse 2 (Layer 2 Floor 2 Era)"
-                else:
-                    sanitized["video_meta"]["estimated_patch"] = "Verse 2"
+        # 13. combo_guide 문자열 정규화
+        cg = sanitized.get("combo_guide")
+        if isinstance(cg, list):
+            sanitized["combo_guide"] = "\n".join(f"- {step}" for step in cg)
+        elif isinstance(cg, dict):
+            sanitized["combo_guide"] = "\n".join(f"- **{k}**: {v}" for k, v in cg.items())
 
         return sanitized
 

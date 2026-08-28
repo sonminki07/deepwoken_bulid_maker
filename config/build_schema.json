@@ -209,7 +209,7 @@
       }
     },
     "combo_guide": {
-      "type": "string",
+      "type": ["string", "array", "object"],
       "description": "유튜버가 설명한 콤보, 딜사이클, 교전 팁"
     }
   }
