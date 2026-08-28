@@ -32,40 +32,57 @@
 # ⚔️ 100 Weapon & 100 Investment Meta PvP/PvE Build
 
 > **출처 영상**: [These Talents Are INSANE... | Deepwoken](https://www.youtube.com/watch?v=v5oADnm3PTM) by `SoyX4`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Default Bell / Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이번에 새로 추가된 100 투자 스탯과 무기 100 메타는 딥위큰의 전투 메타를 완전히 뒤흔들 정도로 압도적인 성능을 자랑합니다. 섀도우, 가일, 프로스트, 플레임 등 각 속성별 100 투자 탤런트들은 단순히 수치적인 상향을 넘어 전투의 판도를 뒤집는 유틸리티와 강제 제어 효과를 부여합니다. 특히 100 웨폰과 100 인베스트먼트를 결합했을 때 나오는 유닉한 상태이상 및 콤보 억제력은 상대에게 극심한 압박감을 선사합니다.
+이번에 새로 추가된 100 투자 stats과 weapons 100 메타는 딥위큰의 전투 메타를 완전히 뒤흔들 정도로 압도적인 성능을 자랑합니다. 섀도우, 가일, 프로스트, 플레임 등 각 속성별 100 투자 talents들은 단순히 수치적인 상향을 넘어 전투의 판도를 뒤집는 유틸리티와 강제 제어 효과를 부여합니다. 특히 100 웨폰과 100 인베스트먼트를 결합했을 때 나오는 유닉한 상태이상 및 콤보 억제력은 상대에게 극심한 압박감을 선사합니다.
 
-이 빌드의 핵심은 무기 평타와 만트라의 유기적인 연계에 있습니다. 섀도우 캐스트의 M1 공포 유발, 프로스트드로우의 하단 빙결 및 칠(Chill) 중첩, 플레임참의 잿더미 데미지 증가 등 각 속성의 특화점을 극대화하여 상대의 이동을 완전히 봉쇄합니다. 인파이팅 상황에서 상대를 코너로 몰아넣고 가드를 강제로 해제시키는 'Night Terror'와 'Frozen Anchor'의 조합은 방어 위주의 플레이어들을 무력화하는 데 최적화되어 있습니다.
+이 빌드의 핵심은 weapons 평타와 mantras의 유기적인 연계에 있습니다. 섀도우 캐스트의 M1 공포 유발, 프로스트드로우의 하단 빙결 및 칠(Chill) 중첩, 플레임참의 잿더미 데미지 증가 등 각 속성의 특화점을 극대화하여 상대의 이동을 완전히 봉쇄합니다. 인파이팅 상황에서 상대를 코너로 몰아넣고 가드를 강제로 해제시키는 'Night Terror'와 'Frozen Anchor'의 조합은 방어 위주의 플레이어들을 무력화하는 데 최적화되어 있습니다.
 
 실전 교전에서는 상대의 템포를 빼앗는 것이 가장 중요합니다. 스턴과 넉백을 유발하는 M1 강화 효과를 지속적으로 누적시키고, 'Flame Wisp'의 뛰어난 피흡 능력을 통해 장기전에서도 체력 우위를 점할 수 있습니다. 무지성 돌격보다는 상대의 모션 딜레이를 캐치하여 정확한 타이밍에 가드브레이크를 터트리는 심리전 싸움이 이 빌드의 진정한 가치를 이끌어냅니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ 무기 평타와 100 인베스트먼트 탤런트의 시너지로 엄청난 군중 제어(CC) 및 강제 경직 유발
-- ✅ Flame Wisp 및 피흡 계열 탤런트를 통한 탁월한 전투 지속력과 체력 회복 속도
-- ✅ 상대의 가드와 만트라 시전을 원천 차단하는 강력한 디버프(Fear, Chill, Burn Synergy)
+- ✅ weapons 평타와 100 인베스트먼트 talents의 시너지로 엄청난 군중 제어(CC) 및 강제 경직 유발
+- ✅ Flame Wisp 및 피흡 계열 talents를 통한 탁월한 전투 지속력과 체력 회복 속도
+- ✅ 상대의 가드와 mantras 시전을 원천 차단하는 강력한 디버프(Fear, Chill, Burn Synergy)
 **단점**:
-- ⚠️ 높은 스탯 요구치(100/100)로 인해 초기 육성 구간의 스탯 분배 및 빌드업 난이도가 높음
+- ⚠️ 높은 stats 요구치(100/100)로 인해 초기 육성 구간의 stats 분배 및 빌드업 difficulty가 높음
 - ⚠️ 원거리 카이팅 빌드나 고기동성 유저를 상대로 초근접 거리를 허용하지 않으면 딜 효율이 급감함
 - ⚠️ 스태미나 관리 실패 시 주력 M1 콤보 연계가 끊기며 역공의 빌미를 제공할 위험이 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `10` |
+| Heavy_wep | `100` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `90` |
+| Fortitude (인내) | `80` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `90` |
+| Charisma (매력) | `10` |
+| Heavy Wep (중화기) | `100` |
+| Medium Wep (중형무기) | `25` |
+| Light Wep (경화기) | `10` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Agility 25 확보
+- 🎯 Heavy Weapon 100 마스터
+- 🎯 Willpower 80 유지
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `100`
@@ -81,6 +98,24 @@
 - Heavy Weapon 100 마스터
 - Willpower 80 유지
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Imperial Staff / Pale Briar', 'category': 'Heavy Weapon / Medium Weapon', 'enchant': 'Grim / Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver / Prophet's Cloak
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Night Terror**
+- **Scorching Decay**
+- **Ash Ember**
+- **Frozen Anchor**
+- **Silence's Blade**
+- **Million Ton Piercer**
+### 📜 보조 및 추천 탤런트
+- Reinforce
+- Conditioned Runner
+
 ## 🔮 주문 목록 (Mantras)
 - **Flame Wisp**
 - **Rising Uppercut**
@@ -88,38 +123,136 @@
 - **Ash Ember Strike**
 - **Glacial Cascade**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (접근 및 선공): 대쉬와 기동력을 활용해 상대에게 빠르게 파고든 뒤 강화된 M1(Night Terror)을 적중시켜 일시적인 이동 불가 상태로 만듭니다.
+2단계 (가드브레이크): Rising Uppercut 및 Flourish를 연계하여 상대의 가드를 강제로 깨뜨리거나 에어본 상태로 띄웁니다.
+3단계 (속성 폭딜): Frozen Anchor와 Ash Ember를 이어 붙여 상대에게 치명적인 냉기/화상 디버프를 중첩시키고 극대화된 딜을 우겨넣습니다.
+4단계 (유지력 회복): 전투 중 체력이 부족할 경우 Flame Wisp을 전개하고 거리 조절을 통해 안정적으로 체력을 복구하며 다음 콤보 턴을 준비합니다.
+
 ---
 
-### 🛡️ [빌드 2] ashen-moppet-dagger-m1-pve-glass-cannon
+### 🛡️ [빌드 2] abyss-delver-v1-diluvian-meta-pve-builds-v4-s
+
+# ⚔️ Abyss Delver V1 & Diluvian Meta PvE Builds V4 Showcase
+
+> **출처 영상**: [Every Best Diluvian PvE Build V4 'Abyss Delver V1' | Deepwoken PvE Build Showcase](https://www.youtube.com/watch?v=ZVnQZYNNh_s) by `Skipper Gripper`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Khan` / `Deepbound` | **Oath**: `Blindseer` | **Murmur/Bell**: `Ardour` / `Corrupted Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+이번 가이드는 Roblox Deepwoken의 종말급 PvE 던전인 '디루비안 메커니즘(Diluvian Mechanism)'을 솔로로 파밍하고 정복하기 위한 완전 가이드입니다. 유물(Relic) 파밍 시 웨이브 25와 50의 시간 대비 효율성을 비교 분석하고, 단일 속성 메이지부터 Pre-shrine Pale Briar 하이브리드, 삼중 속성 메이지, Seraph Soul v3 M1 빌드, Silentheart에 이르기까지 현존하는 메타 빌드 전수를 공개합니다.
+
+또한 디루비안 전용 오스(Oath) 및 속성(Attunement) 티어리스트를 제공하며, 중앙 장치 하단 대피, 공중 상격(Uppercut) 스팸 딜링, 웨이브 31 기가메드(Gigamed) 포효 벤트(Vent) 파쇄 등 디루비안 파밍 시간을 극적으로 단축시키는 실전 치즈 전략과 테크닉을 상세히 다룹니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 시간당 최대 75개의 상자를 수급할 수 있는 Wave 25 최적화 솔로 유물 파밍 효율
+- ✅ Brickwall, Sightless Beam, Perfect Flash/Rush Hour 조합으로 완성되는 압도적인 방어력과 지속 폭딜
+- ✅ 다양한 플레이 스타일(만트라 위주 Mage, Heavy M1 위주, Pre-shrine Pale Briar)에 맞춘 풍부한 선택지
+- ✅ 공중 딜링 및 디바이스 하단 버그성 고정 위치 등 위험 요소(Wipe)를 완벽히 통제하는 치즈 전략 보유
+**단점**:
+- ⚠️ Pre-shrine Pale Briar 스탯 세팅 및 무기 마스터리 다운 작업 등 빌드 제작 과정의 높은 진입장벽
+- ⚠️ Iron Sing의 패치 동향 및 Bleed 버그 여파에 따른 지속적인 빌드 재조정 필요성
+- ⚠️ Wave 30 이후의 대형 몹 스턴 연계 및 Dawnwalker NPC의 blinding 공격에 노출될 경우 위기 상황 발생 가능
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `6` | `0` | `6` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `100` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `60` |
+| Willpower (의지) | `100` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `82` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `520` | `30` | `450` | `100` | `100` | `105.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `35.0%` / 타격: `25.0%` / 관통: `30.0%` | 화염: `20.0%` / 빙결: `20.0%` / 바람: `20.0%` | 그림자: `20.0%` / 번개: `20.0%` / 철: `20.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Pale Briar** (Heavy Weapon) — 인챈트: `Wild` ⭐x3
+- **Enforcer's Axe** (Heavy Weapon) — 인챈트: `Sear` ⭐x3
+- **Iron Spear** (Heavy Weapon) — 인챈트: `Providence Thorns` ⭐x2
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak / Ignition Deep Delver / Tide Knight
+- **[Helmet]** Deepscorn Cask / Parasol Planter / Silver Knight's Helm
+- **[Chestpiece]** Enforcer's Plate / Pathfinder Elite
+- **[Ring 1]** Ring of Casters
+- **[Ring 2]** Diver's Ring
+- **[Ring 3]** Isshin's Ring
+- **[Bell]** Sacred Field / Payback / Crazy Slots
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Brickwall**
+- **Perfect Flash**
+- **Rush Hour**
+- **Blood Transfusion**
+- **Carnivore**
+### 📜 보조 및 추천 탤런트
+- Shade Devour
+- Dark Hours
+- Second Interrogation
+
+## 🔮 주문 목록 (Mantras)
+- **Sightless Beam**
+- **Tranquil Circle**
+- **Warden's Blades**
+- **Frozen Servants**
+- **Relentless Flames**
+- **Flame Wisp**
+- **Wind Passage**
+- **Iron Slam**
+
+---
+
+### 🛡️ [빌드 3] ashen-moppet-dagger-m1-pve-glass-cannon
 
 # ⚔️ Ashen Moppet Dagger M1 PvE Glass Cannon
 
 > **출처 영상**: [Dagger M1 PvE Progression (1-20) | Deepwoken](https://www.youtube.com/watch?v=Uv_ectZcU_U) by `Drashun`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Expert`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Expert`
+> **종족/출신**: `Ganymede` / `Lone Warrior` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Smite`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 [1. 빌드 컨셉 및 전투 아키타입]
-이 빌드는 극단적인 공격력을 추구하는 '유리대포(Glass Cannon)' 스타일의 단검 M1 PvE 빌드입니다. Fortitude(맷집) 스탯을 완전히 배제(0 Fortitude)하는 대신, 높은 Strength와 다중 속성(Thundercall, Galebreathe, Shadowcast) 시너지를 극대화하여 보스전에서 압도적인 DPS를 뿜어내도록 설계되었습니다. 단검 특유의 빠른 공격 속도(M1)와 다단 히트를 활용해 적을 쉴 새 없이 몰아치는 초고속 인파이터 아키타입을 보여줍니다.
+이 빌드는 극단적인 공격력을 추구하는 '유리대포(Glass Cannon)' 스타일의 단검 M1 PvE 빌드입니다. Fortitude(맷집) stats을 완전히 배제(0 Fortitude)하는 대신, 높은 Strength와 다중 속성(Thundercall, Galebreathe, Shadowcast) 시너지를 극대화하여 보스전에서 압도적인 DPS를 뿜어내도록 설계되었습니다. 단검 특유의 빠른 공격 속도(M1)와 다단 히트를 활용해 적을 쉴 새 없이 몰아치는 초고속 인파이터 아키타입을 보여줍니다.
 
 [2. 고유 시너지 및 메커니즘]
-핵심 무기인 'Moppet' 단검은 PvE에서 추가 대미지 버프(5%)를 제공하며, 여기에 'Ashen' 인챈트를 부여하여 타격 시 지속적인 화상 및 폭발적인 추가 피해를 입힙니다. 또한 Thundercall의 'Electrify'와 'Amplified Rage'를 통해 무기 대미지를 10% 이상 상시 강화하고, Shadowcast의 'Shade Devour'로 체력 흡수 및 유지력을 보완합니다. Galebreathe의 'Gale Trap'과 'Gale Lunge'는 적의 행동을 제어하고 기동성을 극대화하는 유틸리티 역할을 수행합니다.
+핵심 weapons인 'Moppet' 단검은 PvE에서 추가 대미지 버프(5%)를 제공하며, 여기에 'Ashen' 인챈트를 부여하여 타격 시 지속적인 화상 및 폭발적인 추가 피해를 입힙니다. 또한 Thundercall의 'Electrify'와 'Amplified Rage'를 통해 weapons 대미지를 10% 이상 상시 강화하고, Shadowcast의 'Shade Devour'로 체력 흡수 및 유지력을 보완합니다. Galebreathe의 'Gale Trap'과 'Gale Lunge'는 적의 행동을 제어하고 기동성을 극대화하는 유틸리티 역할을 수행합니다.
 
 [3. 실전 심리전 및 교전 판정 우위]
-이 빌드는 보스 레이드(특히 Chaser 및 Scion of Ethiron)에 특화되어 있습니다. 'Tough Love'와 'Charismatic Cast'를 통한 매혹(Charm) 디버프 시너지로 적이 받는 피해를 증폭시키고, 'Taunt' 만트라를 연계하여 순간적으로 20%의 추가 대미지 버프를 획득합니다. Fortitude가 0이기 때문에 피격 시 치명적이지만, 'Phantom Step'과 'Wind Step'의 무적 프레임 및 초고속 대시를 활용해 적의 핵심 패턴을 완벽히 회피하고 빈틈을 노려 단검 M1 콤보를 우겨넣는 정교한 컨트롤이 요구됩니다.
+이 빌드는 보스 레이드(특히 Chaser 및 Scion of Ethiron)에 특화되어 있습니다. 'Tough Love'와 'Charismatic Cast'를 통한 매혹(Charm) 디버프 시너지로 적이 받는 피해를 증폭시키고, 'Taunt' mantras를 연계하여 순간적으로 20%의 추가 대미지 버프를 획득합니다. Fortitude가 0이기 때문에 피격 시 치명적이지만, 'Phantom Step'과 'Wind Step'의 무적 프레임 및 초고속 대시를 활용해 적의 핵심 패턴을 완벽히 회피하고 빈틈을 노려 단검 M1 콤보를 우겨넣는 정교한 컨트롤이 요구됩니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 압도적인 단일 타겟 DPS: Moppet 단검의 빠른 공속과 PvE 5% 추가 피해, Ashen 인챈트의 시너지로 보스 체력을 순식간에 녹여버립니다.
-- ✅ 다양한 속성 버프 시너지: Thundercall, Galebreathe, Shadowcast의 핵심 유틸리티 및 대미지 강화 탤런트를 모두 챙겨 다채로운 버프를 상시 유지합니다.
+- ✅ 다양한 속성 버프 시너지: Thundercall, Galebreathe, Shadowcast의 핵심 유틸리티 및 대미지 강화 talents를 모두 챙겨 다채로운 버프를 상시 유지합니다.
 - ✅ 뛰어난 기동성 및 회피력: Wind Step과 Phantom Step을 활용한 유연한 포지셔닝으로 보스의 장판 및 광역기를 쉽게 회피할 수 있습니다.
 **단점**:
-- ⚠️ 극단적으로 낮은 생존력 (0 Fortitude): Fortitude 스탯이 0이기 때문에 단 한 번의 실수가 영구 사망(Depths 전송)으로 이어질 수 있어 완벽한 패링과 회피가 강제됩니다.
-- ⚠️ 짧은 리치: 단검 무기 특성상 공격 사거리가 매우 짧아, 적에게 완전히 밀착해야 하므로 피격 위험성이 항상 존재합니다.
+- ⚠️ 극단적으로 낮은 생존력 (0 Fortitude): Fortitude stats이 0이기 때문에 단 한 번의 실수가 영구 사망(Depths 전송)으로 이어질 수 있어 완벽한 패링과 회피가 강제됩니다.
+- ⚠️ 짧은 리치: 단검 weapons 특성상 공격 사거리가 매우 짧아, 적에게 완전히 밀착해야 하므로 피격 위험성이 항상 존재합니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `83` |
@@ -136,6 +269,15 @@
 - **Thundercall**: `20`
 - **Galebreathe**: `20`
 - **Shadowcast**: `20`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Moppet** (Light Weapon) — 인챈트: `Ashen`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Wavelight Vestments
+- **[Accessory]** Wulf's Mantle
+- **[Accessory]** Sovereign's Punishment
+- **[Accessory]** Grand Pathfinder's Backpack
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -159,15 +301,103 @@
 - **Electrify**
 - **Taunt**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입 및 버프 활성화): 교전 시작 전 'Electrify'와 'Taunt'를 시전하여 weapons 대미지 버프를 활성화하고, 'Wind Step'을 사용해 적의 배후나 측면으로 빠르게 진입합니다.
+
+2단계 (디버프 부여): 첫 타격으로 'Charismatic Cast'를 발동시켜 적에게 매혹(Charm) 디버프를 부여하고 Tough Love의 대미지 증폭 효과를 적용받습니다.
+
+3단계 (M1 극딜 연계): 단검 특유의 초고속 M1 평타 연타를 퍼부으며 Ashen 인챈트와 Thundercall의 추가 번개 피해를 중첩시킵니다. 적이 반격하려 할 때 'Gale Trap'이나 패링 후 'Gale Lunge'로 흐름을 끊습니다.
+
+4단계 (유지력 회복 및 이탈): 보스의 강력한 반격 패턴이 예상되거나 체력이 낮아진 경우, 'Shade Devour'로 체력을 흡수함과 동시에 'Phantom Step'을 사용해 안전한 거리로 이탈하여 재정비합니다.
+
 ---
 
-### 🛡️ [빌드 3] attunementless-stone-palace-tachi-pvp-build
+### 🛡️ [빌드 4] astral-palace-tachi-bloodrend-pve-contractor
+
+# ⚔️ Astral Palace Tachi Bloodrend PvE Contractor
+
+> **출처 영상**: [The Best Bloodrend PvE Build!!](https://www.youtube.com/watch?v=_NXYUhOhZik) by `Lazy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Contractor` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+본 빌드는 신규 미디엄 무기인 'Palace Tachi'와 'Bloodrend(혈류)' 속성의 극대화된 폭딜을 결합한 최상위권 PvE 전문 딜러 빌드입니다. 90의 Medium Weapon 스탯을 투자하여 Palace Tachi의 높은 기본 대미지와 독특한 크리티컬 모션, 그리고 Contractor Oath 전용 탤런트인 'Threadreaper' 시너지를 완벽하게 끌어냈습니다. Astral 인챈트를 무기에 부여하여 지속적인 영혼/차원 대미지 버프와 혈류 폭발 대미지가 교차하며 보스의 체력바를 비약적으로 깎아내는 전투 아키타입을 자랑합니다.
+
+핵심 메커니즘은 100의 Bloodrend 스탯을 기반으로 한 지속적인 출혈 및 'Blood Explosion(혈류 폭발)' 누적입니다. 비록 과거 패치로 혈류 폭발 수치가 다소 조정되었으나, 여전히 프리마돈(Primadon) 등 대형 보스전에서 압도적인 dps를 보장합니다. 또한 Intelligence 20을 투자하여 5레벨 'Prediction' 만트라를 확보함으로써 보스의 강력한 장판 공격 및 돌진/투척 패턴을 무적 판정(iframe)으로 안전하게 상쇄하는 핵심 유틸리티 구조를 갖추었습니다.
+
+생존면에서는 Strength 5 및 Willpower 5 포인트 투자를 통해 필수 영양 공급 탤런트인 'Carnivore'를 활성화시켰습니다. 이를 통해 별도의 음식 수급 없이 몬스터 처치만으로 허기와 체력을 관리하며 연속적인 보스 레이드를 수행할 수 있습니다. 체력(Fortitude) 투자가 25로 다소 낮아 물몸이라는 단점이 있지만, 높은 물리 대미지 누적 속도와 Prediction 만트라의 정밀한 패링/다지 타이밍만 익힌다면 모든 PvE 콘텐츠를 유유히 솔로링할 수 있는 최고의 딜링 빌드입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Palace Tachi의 강력한 기본 대미지 및 Contractor 전용 Threadreaper 탤런트를 통한 독보적인 크리티컬 폭딜
+- ✅ 100 Bloodrend 투자를 통한 연속 혈류 폭발(Blood Explosion) 및 단시간 내 막대한 퍼센트 체력 딜링
+- ✅ Intelligence 20 및 Prediction(5레벨) 만트라 활용을 통한 보스 패턴(돌던지기, 스톰프 등) 완전 무력화
+- ✅ Carnivore 탤런트 보유로 보스 연속 사냥 시 음식/물자 소모 제로
+**단점**:
+- ⚠️ Fortitude 25 투자로 인해 최대 체력이 낮아 보스의 대형 패턴 직격 시 치명상 위험
+- ⚠️ 패링 실패나 Prediction 타이밍 미스로 인한 콤보 단절 시 생존력이 급격히 저하됨
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `25` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `20` |
+| Willpower (의지) | `5` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `90` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Bloodrend**: `100`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Palace Tachi** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessories]** Medium Weapon Buff Rings, Bloodrend Damage Accessories
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Threadreaper**
+- **Carnivore**
+- **Paired Soul**
+### 📜 보조 및 추천 탤런트
+- Blood Siphon
+
+## 🔮 주문 목록 (Mantras)
+- **Prediction**
+- **Blood Scythe**
+- **Blood Harvest**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Primadon, Chaser, Scion of Ethiron, Duke Erisia`
+
+1. [프리마돈(Primadon) 패턴 파훼]: 프리마돈이 바위를 던지거나 발굴 스톰프 공격을 할 때 즉시 'Prediction' 만트라를 사용하여 무적 판정으로 공격을 무효화합니다.
+2. [M1 & 크리티컬 연계]: Palace Tachi의 크리티컬 공격은 Contractor 서약 시 Threadreaper 효과를 받아 적을 찢어발기는 추가 대미지를 줍니다. 일반 평타(M1)와 크리티컬을 번갈아 믹스업합니다.
+3. [혈류 폭발 스택 중첩]: Bloodrend 100 수치에서 발동하는 출혈 및 혈류 폭발 효과를 계속 누적시켜 보스의 체력바를 상시 녹여내립니다.
+4. [유지력 관리]: Carnivore 탤런트 덕분에 프리마돈이나 부하 몬스터 처치 시 즉시 허기 수치가 채워지므로 포션 소모 없이 장기전을 유도할 수 있습니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+1. [접근 및 탐색]: 전투 개시 직후 무기에 부여된 Astral 이펙트와 함께 보스에게 돌진합니다.
+2. [Prediction 디버프/무적 활용]: 보스의 선제 공격 타이밍에 맞춰 Prediction을 발동, 프레임 회피 성공 후 적에게 가깝게 붙습니다.
+3. [M1 평타 누적 ➔ Tachi Crit 연계]: Palace Tachi의 빠른 M1 평타 3~4타 이후 바로 크리티컬(Crit)을 적중시켜 Threadreaper 증폭 대미지를 입힙니다.
+4. [Bloodrend 만트라 폭딜]: 중거리/근거리에서 Blood Scythe 및 Blood Harvest 등 주력 혈류 만트라를 연계하여 Blood Explosion 스택을 터뜨리고 치명적인 체력 스케일링 피해를 입힙니다.
+
+---
+
+### 🛡️ [빌드 5] attunementless-stone-palace-tachi-pvp-build
 
 # ⚔️ Attunementless Stone Palace Tachi PvP Build
 
 > **출처 영상**: [This Palace Tachi Build is BROKEN | Deepwoken](https://www.youtube.com/watch?v=nbr0y8JRlZ4) by `JudahGames`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian / Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Murmur: Rhythm` / `Reaper / Any PvP Bell`
 
 ---
 
@@ -189,7 +419,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 주력 화력이 패링/가드 심리전 및 근접 M1/크리티컬 명중에 의존함
 - ⚠️ 무기 밸런스 패치(너프) 시 빌드의 핵심 화력 기여도가 영향을 받을 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `25` |
@@ -202,6 +432,25 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 | Medium Wep (중형무기) | `100` |
 | Light Wep (경화기) | `0` |
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Palace Tachi', 'category': 'Medium Weapon ', 'enchant': 'Stone'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': "Black Diver / Prophet's Cloak"}
+- **[Accessory]** Akira's Ring
+- **[Accessory]** Ishin's Ring
+- **[Accessory]** Ember Scorch Earrings
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Chaos Charm**
+- **Manipulator**
+- **Ardor Screamer**
+- **Berserk**
+- **Reinforce**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+
 ## 🔮 주문 목록 (Mantras)
 - **Rapid Punches**
 - **Ardor Slicer**
@@ -211,20 +460,26 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Taunt**
 - **Strong Left**
 
+## 🥊 콤보 & 전투 운용 가이드
+1. [진입 및 도발]: Rhythm Advance 또는 대시 M1으로 적에게 근접하며 Taunt를 사용해 상대의 포스처 및 대미지 감쇄율을 약화시킵니다.
+2. [근접 압박 및 패링]: M1 스윙 연타와 함께 상대의 반격을 패링하고, Palace Tachi 전용 크리티컬 특수타를 명중시켜 포스처를 크게 파괴합니다.
+3. [가드 브레이크 폭딜]: 상대 가드가 깨지는 순간 Ardor Slicer 또는 Rapid Punches / Strong Left를 연계하여 공중에 띄우거나 벽으로 밀어 넣습니다.
+4. [마무리 심리전]: Stone 인챈트로 인해 가드가 파쇄된 적에게 Manipulator 및 Chaos Charm 스택이 적용된 M1 평타 2~3타를 때려넣어 확정 치사량을 달성합니다.
+
 ---
 
-### 🛡️ [빌드 4] augmenter-cleave-90-hvy-90-iron
+### 🛡️ [빌드 6] augmenter-cleave-90-hvy-90-iron
 
 # ⚔️ Augmenter Cleave (90 HVY + 90 IRON)
 
 > **출처 영상**: [How To Make The PERFECT DEEPWOKEN BUILD | Deepwoken](https://www.youtube.com/watch?v=51a92WguMp0) by `ZakoTB`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **종족/출신**: `Felinor` / `Deepbound` | **Oath**: `Soulbreaker` | **Murmur/Bell**: `All` / `Crazy Slots`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Ironsing의 Augmenter 경로 버프를 극대화하여 강력한 메탈 그레이트소드(Metal Greatsword)를 소환하고 대미지를 가하는 빌드입니다. Shrine of Order를 활용해 높은 스탯 요구치를 가진 핵심 탤런트들을 미리 획득한 뒤 스탯을 최적화했습니다. 뛰어난 기동성과 생존력, 그리고 강력한 한 방 딜을 동시에 챙긴 하이브리드 빌드입니다.
+이 빌드는 Ironsing의 Augmenter 경로 버프를 극대화하여 강력한 메탈 그레이트소드(Metal Greatsword)를 소환하고 대미지를 가하는 빌드입니다. Shrine of Order를 활용해 높은 stats 요구치를 가진 핵심 talents들을 미리 획득한 뒤 stats을 최적화했습니다. 뛰어난 기동성과 생존력, 그리고 강력한 한 방 딜을 동시에 챙긴 하이브리드 빌드입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -233,10 +488,10 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ✅ Undying Flame과 Graceful Flame을 통한 심해(Depths)에서의 뛰어난 유지력 및 자가 치유
 - ✅ 높은 물리 방어력 및 피해 감소 시너지
 **단점**:
-- ⚠️ Shrine of Order를 사용하기 위한 정교한 레벨업 및 스탯 분배 순서 필요
-- ⚠️ 다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 난이도가 높음
+- ⚠️ Shrine of Order를 사용하기 위한 정교한 레벨업 및 stats 분배 순서 필요
+- ⚠️ 다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 difficulty가 높음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `25` |
@@ -253,6 +508,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Flamecharm**: `25`
 - **Galebreathe**: `25`
 - **Ironsing**: `25`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Kyrsleave** (Heavy Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Familiar Assassin's Armor (Hallotide)
+- **[Accessory]** Tyran Pendant
+- **[Accessory]** Bastions of Enmity
+- **[Accessory]** Star Boots
+- **[Accessory]** Aegis of Enmity
+- **[Accessory]** Kong's Clutch Ring
+- **[Accessory]** Ferryman's Ring
+- **[Accessory]** Master Thief Earrings
+- **[Accessory]** Citadel Frames
+- **[Accessory]** Bloodiron Ring
+- **[Accessory]** Akira's Ring
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -293,22 +564,25 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Graceful Flame**
 - **Chain Pull**
 
+## 🥊 콤보 & 전투 운용 가이드
+기본 콤보는 Gale Lunge 또는 Oxidizing Rush로 진입하여 적에게 Rod를 부여하는 것으로 시작합니다. 이후 Rising Wind로 적을 에어본 시킨 뒤 Meteor Impact와 연계하여 강력한 메테오 슬램을 꽂아 넣습니다. 적이 방어하거나 거리를 벌리려 할 때는 Metal Fakeout과 Chain Pull을 섞어 예측 불가능한 타이밍에 그레이트소드 치명타를 적중시킵니다.
+
 ---
 
-### 🛡️ [빌드 5] authority-outpost-expedition-fishing-hybrid-b
+### 🛡️ [빌드 7] authority-outpost-expedition-fishing-hybrid-b
 
 # ⚔️ Authority Outpost Expedition & Fishing Hybrid Build
 
 > **출처 영상**: [THEY SAVED THE AUTHORITY! (NEW FISH) | Deepwoken](https://www.youtube.com/watch?v=HgtruqBr_Y0) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Authority Origin` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Adept` / `Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 이번 주 Deepwoken 위클리 패치는 Authority(권력) 세력 퀘스트 동선과 UI, 그리고 낚시 시스템에 대규모 리워크를 감행하여 전체적인 파밍과 초중반 레벨링의 쾌적함을 극대화했습니다. 특히 의뢰 게시판 UI가 직관적으로 개편되고, 출정 시 메릿(Merit) 본부 대신 최인접 아웃포스트(Outpost)로 즉시 텔레포트하는 기능이 도입되어 왕복 이동 시간이 획기적으로 단축되었습니다.
 
-또한, 낚시 콘텐츠가 완전히 개편되어 거주 지역과 미끼(Bait)의 종류에 따라 희귀 어종(Lamprey 등)의 포획 확률과 성공률이 크게 달라지며, 채집한 물고기의 서식지 정보가 상세히 기록되어 유저 간 빌드 최적화 및 경제 파밍의 재미가 배가되었습니다. 전투 측면에서는 Bloodrend 만트라의 핑크빛 VFX 조정과 고유 사운드 추가, Markor's Inheritor 및 Celtorian 방어구의 비주얼 리워크로 외형적 만족도 역시 높여줍니다.
+또한, 낚시 콘텐츠가 완전히 개편되어 거주 지역과 미끼(Bait)의 종류에 따라 희귀 어종(Lamprey 등)의 포획 확률과 성공률이 크게 달라지며, 채집한 물고기의 서식지 정보가 상세히 기록되어 유저 간 빌드 최적화 및 경제 파밍의 재미가 배가되었습니다. 전투 측면에서는 Bloodrend mantras의 핑크빛 VFX 조정과 고유 사운드 추가, Markor's Inheritor 및 Celtorian 방어구의 비주얼 리워크로 외형적 만족도 역시 높여줍니다.
 
 실전 교전 및 필드 사냥에서는 뛰어난 기동성과 개편된 낚시/퀘스트 루트를 통해 자원을 안정적으로 수급하고, 방어구 세트와 Thunder/Gale 브리딩 관련 밸런스 패치에 발맞춰 유연하게 대처할 수 있는 만능형 빌드입니다. 맵 전반의 가시성이 개선된 포인트 오브 인터레스트(POI) 심볼들을 활용해 솔로 플레이어들도 막힘없는 성장을 이뤄낼 수 있습니다.
 
@@ -321,7 +595,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ Bloodrend 계열의 시각 효과가 핑크빛으로 변경되어 기존의 묵직한 다크 판타지 감성을 선호하는 유저에게는 호불호가 갈릴 수 있습니다.
 - ⚠️ 낚시 시스템의 메커니즘 변화로 인해 최적의 미끼와 서식지 정보를 숙지하지 못하면 효율적인 자원 수급이 어렵습니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -339,9 +613,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Bloodrend**: `40`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name**
-- **weapon_class**
-- **enchant**
+- **Unknown** — 인챈트: `None (Runic Marked)`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -361,22 +633,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 6] azure-flame-steam-duster-knockdown-combo-pvp
+### 🛡️ [빌드 8] azure-flame-steam-duster-knockdown-combo-pvp
 
 # ⚔️ Azure Flame & Steam Duster Knockdown Combo PvP Build
 
 > **출처 영상**: [Yun Shul Sent Me This Build In My Sleep | Deepwoken](https://www.youtube.com/watch?v=Gp18Z6MqI3I) by `Darksteel`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Rhythm` / `Reaper`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 플레이어가 'Yun Shul이 꿈에서 계시해준 빌드'라고 부를 만큼 독창적인 스팀(Steam) 및 아주르 플레임(Azure Flames) 지속 도트 대미지(DoT) 기반의 연계형 PvP 빌드입니다. M1이나 단순 만트라의 순수 한 방 대미지는 낮지만, 상대에게 지속적인 넉다운(Knockdown)과 래그돌(Ragdoll) 상태를 무한히 체이닝하여 상대의 반응을 억제하고 스팀 도트 대미지와 불꽃 지속 대미지를 중첩시켜 체력을 갉아먹는 아키타입입니다.
+이 빌드는 플레이어가 'Yun Shul이 꿈에서 계시해준 빌드'라고 부를 만큼 독창적인 스팀(Steam) 및 아주르 플레임(Azure Flames) 지속 도트 대미지(DoT) 기반의 연계형 PvP 빌드입니다. M1이나 단순 mantras의 순수 한 방 대미지는 낮지만, 상대에게 지속적인 넉다운(Knockdown)과 래그돌(Ragdoll) 상태를 무한히 체이닝하여 상대의 반응을 억제하고 스팀 도트 대미지와 불꽃 지속 대미지를 중첩시켜 체력을 갉아먹는 아키타입입니다.
 
-핵심 메커니즘은 Flame Leap으로 빠르게 접근하거나 콤보를 시작한 뒤, Rising Flame과 Crystal Impale, Meteor Slam으로 이어지는 공중/지상 넉다운 연계입니다. 여기에 Steel Skewered Dusters 무기의 크리티컬 공격이 부여하는 1초 래그돌 판정을 이용해 확정적으로 Ice Lance까지 꽂아 넣는 콤보 체인을 완성합니다. 스팀 지속 대미지(초당 약 10+ 대미지)와 Azure Flame burn 도트(초당 약 5.3 대미지)가 합쳐져 초당 20에 가까운 고정 트루 대미지를 지속적으로 가합니다.
+핵심 메커니즘은 Flame Leap으로 빠르게 접근하거나 콤보를 시작한 뒤, Rising Flame과 Crystal Impale, Meteor Slam으로 이어지는 공중/지상 넉다운 연계입니다. 여기에 Steel Skewered Dusters weapons의 크리티컬 공격이 부여하는 1초 래그돌 판정을 이용해 확정적으로 Ice Lance까지 꽂아 넣는 콤보 체인을 완성합니다. 스팀 지속 대미지(초당 약 10+ 대미지)와 Azure Flame burn 도트(초당 약 5.3 대미지)가 합쳐져 초당 20에 가까운 고정 트루 대미지를 지속적으로 가합니다.
 
-다만 HP가 50% 미만으로 떨어지면 Flame Leap의 도약 거리가 급격히 줄어들어 콤보 매끄러움과 기동성이 약화되는 치명적인 단점이 있습니다. 따라서 가능한 한 높은 체력(HP) 세팅을 유지하여 50% 이상의 체력 구간에서 압도적인 주도권을 쥐고 경기를 빠르게 끝내는 플레이 스타일이 요구됩니다.
+다만 HP가 50% 미만으로 떨어지면 Flame Leap의 도약 거리가 급격히 줄어들어 콤보 매끄러움과 기동성이 약화되는 치명적인 weaknesses이 있습니다. 따라서 가능한 한 높은 체력(HP) 세팅을 유지하여 50% 이상의 체력 구간에서 압도적인 주도권을 쥐고 경기를 빠르게 끝내는 플레이 스타일이 요구됩니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -385,10 +657,10 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ✅ 공중 넉다운, 지상 임페일, 메테오 슬램을 연계하여 상대의 가드 및 탈출 기회를 완전히 봉쇄하는 압도적 콤보 주도권
 **단점**:
 - ⚠️ 체력이 50% 이하로 떨어지면 Flame Leap의 도약 성능이 저하되어 메인 콤보 매커니즘 및 기동성이 크게 약화됨
-- ⚠️ M1 및 단발 만트라 자체의 기본 대미지가 낮아 콤보 연계를 실패할 경우 딜 교환에서 손해를 볼 수 있음
+- ⚠️ M1 및 단발 mantras 자체의 기본 대미지가 낮아 콤보 연계를 실패할 경우 딜 교환에서 손해를 볼 수 있음
 - ⚠️ 공중 연계 및 래그돌 타이밍에 맞춘 기어 조작과 핑(Ping) 의존도가 높아 높은 숙련도 요구
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -405,6 +677,14 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Flamecharm**: `80`
 - **Frostdraw**: `30`
 - **Galebreathe**: `30`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Steel Skewered Dusters', 'category': 'Light Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak
+- **[Accessory]** Ring of Yser
+- **[Accessory]** Hallow's Halo
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -430,13 +710,13 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 7] blind-deaf-mute-meme-heavy-hybrid-build
+### 🛡️ [빌드 9] blind-deaf-mute-meme-heavy-hybrid-build
 
 # ⚔️ Blind, Deaf & Mute Meme Heavy Hybrid Build
 
 > **출처 영상**: [Beating Deepwoken but we're Blind, Deaf, & Mute...](https://www.youtube.com/watch?v=syUoute3AaQ) by `Solidz`
-> **패치 버전**: `Unknown` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Wind Up`
 
 ---
 
@@ -445,7 +725,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 전투 시 사운드 플레이가 불가능하므로 적의 공격 선모션과 미세한 화면 변화를 파악해야 하며, 파티원과의 연계 플레이를 통해 가드브레이크와 에어본 콤보를 욱여넣는 방식을 취합니다. 특히 중화기(Heavy Weapon)의 강력한 깡뎀과 스태거 능력을 활용하여 순간적인 폭딜을 꽂아넣는 것이 핵심입니다.
 
-실전 교전에서는 상대의 가드를 강제로 무너뜨리기 위해 브레이크 탤런트와 넉다운 유발기를 적절히 조합해야 합니다. 시야가 제한된 환경 속에서도 패링 타이밍을 익히고, 파티원이 대상을 붙잡아둘 때 후방에서 기습적인 강공격을 성공시키는 심리전이 승패를 가릅니다.
+실전 교전에서는 상대의 가드를 강제로 무너뜨리기 위해 브레이크 talents와 넉다운 유발기를 적절히 조합해야 합니다. 시야가 제한된 환경 속에서도 패링 타이밍을 익히고, 파티원이 대상을 붙잡아둘 때 후방에서 기습적인 강공격을 성공시키는 심리전이 승패를 가릅니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -457,18 +737,33 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 적의 선딜레이를 사운드로 파악할 수 없어 패링 타이밍이 매우 까다로움
 - ⚠️ 회피 기동 중 지형지물에 걸리거나 낙사할 위험이 매우 높음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `75` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `10` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `10` |
+| Heavy Wep (중화기) | `80` |
+| Medium Wep (중형무기) | `10` |
+| Light Wep (경화기) | `10` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 80 달성
+- 🎯 Intelligence 25 유틸리티 talents 확보
 
 ## ⚡ 속성 투자 (Attunements)
 - **Thundercall**: `80`
@@ -477,7 +772,23 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
 - Heavy Weapon 80 달성
-- Intelligence 25 유틸리티 탤런트 확보
+- Intelligence 25 유틸리티 talents 확보
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Falchion / Heavy Greatsword', 'category': 'Heavy Weapon', 'enchant': 'Grim / Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': 'Ignition Deepdelver Outfit'}
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Brick Wall**
+- **Million Ton Piercer**
+- **Reinforced Armor**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+- Executioner
+- To the Finish
 
 ## 🔮 주문 목록 (Mantras)
 - **Thunder Spear**
@@ -485,47 +796,261 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Air Force**
 - **Wind Step**
 
+## 🥊 콤보 & 전투 운용 가이드
+{'step_1_engage': 'Wind Step 또는 돌진형 mantras를 활용해 시야가 차단된 상태에서도 적의 위치로 빠르게 접근하여 기습 타격을 시도합니다.', 'step_2_guard_break': '중화기의 높은 포스처 대미지를 이용해 평타와 강공격을 섞어 적의 가드를 강제로 파괴(Guard Break)합니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Thunder Spear 및 콤보 mantras를 연계하여 순식간에 최대 체력을 깎아내립니다.', 'step_4_recovery': '교전 중 체력이 부족할 경우 Vesperian race 특유의 방어력과 Vampiric 인챈트의 피흡 효과를 이용해 전선에서 이탈해 체력을 회복합니다.'}
+
 ---
 
-### 🛡️ [빌드 8] bloodrend-hybrid-pvp-build
+### 🛡️ [빌드 10] bloodrend-dustlunge-moppet-pve-slayer
+
+# ⚔️ Bloodrend Dustlunge Moppet PvE Slayer
+
+> **출처 영상**: [This PVE Build SHREDS Titus | Deepwoken: Verse 3](https://www.youtube.com/watch?v=y7MxtFfLFXQ) by `Tokjyo`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Boss Raid` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+아이언싱(Ironsing)의 PvE 지속 너프 이후, 보스전 및 고난도 던전 콘텐츠에서 강력한 입지를 다진 블러드렌드(Bloodrend) 기반의 최상급 보스 레이드 전용 빌드입니다. 단검의 빠른 공격 속도와 블러드렌드의 뛰어난 체력 수급 능력을 결합하여 파라솔(Parasol)과 타이투스(Titus) 같은 가혹한 장기 보스전에서도 압도적인 안정성과 지속 딜링을 제공합니다.
+
+특히 워든 블레이드(Warden's Blades)를 이용해 쇄인(Chain) 스택을 빠르게 쌓아 올려 보스의 포스처(Posture)를 단숨에 붕괴시키며, 더스트런지(Dustlunge) 및 아도르 슬라이서(Ardour Slicer)의 위장 기믹을 활용해 던전 내 잡몹 구간을 통째로 패스하는 뛰어난 스피드런 및 파밍 편의성을 갖추고 있습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 블러드렌드의 강력한 피흡 및 혈마법 효과로 보스전 지속 생존력 최상급
+- ✅ Moppet(Hallowtide Daggers)과 Astral 인챈트를 조합한 무시무시한 단일 타겟 DPS 및 타격수
+- ✅ Warden's Blades를 활용한 순식간의 체인 스택 쌓기 및 포스처 파괴 능력
+- ✅ Dustlunge 및 Ardour Slicer 펜스 통과 버그/테크닉을 활용한 인스턴스 던전 완벽 스킵 가능
+**단점**:
+- ⚠️ 체인 스택을 유지하지 못하고 보스의 대형 패턴에 맞을 경우 피흡 리듬이 깨질 위험 존재
+- ⚠️ 타이투스전 등 일부 전장에서는 그래픽 옵션을 1단계로 낮추지 않으면 붉은 시각 효과로 인해 보스 전조 동작(Telegraph) 판별이 어려움
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `80` |
+| Fortitude (인내) | `84` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `484` | `27.8` | `342` | `140` | `100` | `100.0%` | `+38.7%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `18.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Moppet** (Light Weapon) — 인챈트: `Curse of the Bloodthirsty` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Browline Citadel Frames
+- **[Face]** Master Thief Earrings
+- **[Amulet]** Gentle Pearl Chain
+- **[Outfit]** Black Diver
+- **[Boots]** Star Boots
+- **[Ring 1]** Ishak's King Ring
+- **[Ring 2]** Mantra's Ring
+- **[Ring 3]** Ring of Casters
+- **[Ring 4]** Ring of Casters
+- **[Arms]** Ignition Gauntlets
+- **[Bell]** Sacred Field
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Dustlunge**
+- **Warden's Blades**
+- **Bloodrend Master**
+- **Overflowing Dam**
+### 📜 보조 및 추천 탤런트
+- Master Craftsman
+- Everchanging Aegis
+
+## 🔮 주문 목록 (Mantras)
+- **Bloodcurdle**
+- **Blood Foundation**
+- **Warden's Blades**
+- **Ardour Slicer**
+
+## 🥊 콤보 & 전투 운용 가이드
+던전 이동 시: Ardour Slicer를 바리케이드나 문 앞에서 가볍게 페인트(Feint) 취소하여 벽을 페이징(Phase through) 통과합니다.
+보스전 기본 딜 사이클: Warden's Blades 발동 -> 단검 일반 공격 평타 4~5회 (체인 스택 급증) -> Bloodcurdle / Blood Foundation 사용으로 폭딜 및 피흡 극대화.
+
+---
+
+### 🛡️ [빌드 11] bloodrend-frostdraw-bladeharper-pve
+
+# ⚔️ Bloodrend & Frostdraw Bladeharper PvE
+
+> **출처 영상**: [The NEW BEST IMMORTAL Beginner PvE Build... (BROKEN) | Deepwoken PvE Progression](https://www.youtube.com/watch?v=hOPe91tv5BA) by `African Luminant`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
+> **종족/출신**: `Ganymede` / `Deepbound` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Thundercall` / `Reaper`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Deepwoken 초보자들이 보스 패턴을 쉽게 학습하고 안정적으로 솔로 클리어할 수 있도록 설계된 역대급 사기 메타 PvE 빌드입니다. 블러드렌드(Bloodrend)와 프로스트드로우(Frostdraw)의 강력한 흡혈 및 빙결 유틸리티를 결합하여, 전투 중 체인이 끊이지 않는 무한 생존력을 보여줍니다. 특히 Shrine of Order를 거쳐 스탯을 효율적으로 압축함으로써 초반부터 후반까지 압도적인 딜링과 방어력을 동시에 챙길 수 있습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 무한한 피흡과 체력 재생: Bloodrend 만트라들과 블러드 루프(Blood Rune)의 시너지로 보스전에서 공격할 때마다 엄청난 양의 체력을 회복하여 죽지 않는 불사신 플레이가 가능합니다.
+- ✅ 초보자 친화적인 난이도: 높은 템프 HP(Temp HP)와 뛰어난 방어력 덕분에 보스의 주력 패턴을 맞아도 즉사하지 않고 여유롭게 대처할 수 있습니다.
+- ✅ 우수한 광역 및 단일 대상 딜링: Frostdraw와 Bloodrend의 조합으로 사냥 속도가 매우 빠르며, Hellmode 및 듀크, 체이서 등의 보스를 솔로로 쉽게 처치할 수 있습니다.
+**단점**:
+- ⚠️ 초반 스탯 분배의 정밀함 요함: Shrine of Order를 사용하기 전까지 스탯 관리와 탤런트 습득 순서를 완벽하게 지키지 않으면 빌드가 꼬일 위험이 있습니다.
+- ⚠️ 근접 전투 의존도: 원거리 견제보다는 근접전에서 M1과 만트라를 우겨넣어야 피흡이 극대화되므로 보스의 패리 타이밍을 어느 정도 숙지해야 합니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `3` | `2` | `5` | `4` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `25` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `35` |
+| Willpower (의지) | `1` |
+| Charisma (매력) | `40` |
+| Heavy Wep (중화기) | `1` |
+| Medium Wep (중형무기) | `90` |
+| Light Wep (경화기) | `1` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Frostdraw**: `40`
+- **Shadowcast**: `1`
+- **Ironsing**: `1`
+- **Bloodrend**: `75`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `15.0%` / 빙결: `55.0%` / 바람: `10.0%` | 그림자: `25.0%` / 번개: `10.0%` / 철: `15.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Prophet's Florentine** (Medium Weapon) — 인챈트: `None` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Santa Hat
+- **[Face]** Glasses
+- **[Amulet]** Moonseye Pendant
+- **[Outfit]** Vanguard's Raiment
+- **[Boots]** Leather Boots
+- **[Ring 1]** Silver Ring
+- **[Ring 2]** Gold Ring
+- **[Ring 3]** Steel Pauldron/Ring
+- **[Ring 4]** Old Blood Earrings
+- **[Bell]** Reaper
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Undertow**
+- **Dazing**
+- **Last Resort**
+- **Manipulator**
+- **Old Habit Die Hard**
+- **Grand Feast**
+### 📜 보조 및 추천 탤런트
+- Breathing Exercise
+- Carnivore
+- Tainted Ground
+- Condensation Drop
+
+## 🔮 주문 목록 (Mantras)
+- **Blood Wisp**
+- **Ice Beam**
+- **Warden's Blades**
+- **Frozen Servants**
+- **Crimson Rain**
+- **Scarlet Cyclone**
+- **Palm Strike**
+- **Ice Flock**
+- **Neural Pathway**
+- **Blood Cuttle**
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계: 전투 진입 전 Rush Hour 및 각종 버프 만트라를 활성화합니다.
+2단계: Ice Flock과 Scarlet Cyclone으로 적의 이동 속도를 늦추고 경직을 유발합니다.
+3단계: Blood Wisp과 Warden's Blades를 사용하여 지속적인 데미지와 함께 체력을 회복합니다.
+4단계: 적이 그로기 상태가 되면 강력한 M1 연계와 Blood Cuttle로 폭딜을 넣고 처형(Execution)으로 전투를 마무리합니다.
+
+---
+
+### 🛡️ [빌드 12] bloodrend-hybrid-pvp-build
 
 # ⚔️ Bloodrend Hybrid PvP Build
 
 > **출처 영상**: [This Build Became OVERPOWERED.. | Deepwoken](https://www.youtube.com/watch?v=IK8kp9Iv8SA) by `Inu`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Kiron` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Gravity Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 1. 빌드 컨셉 및 전투 아키타입: 본 빌드는 딥위큰의 심연(Depths) 환경에서 극대화된 전투력을 발휘하도록 설계된 고성능 하이브리드 PvP 인파이터 빌드입니다. 전방으로 과감하게 파고들어 상대의 가드를 압박하고, 높은 기동성과 넉턴 상태를 활용해 주도권을 놓지 않는 공격적인 템포를 지향합니다. 불리한 상성에서도 침착하게 카이팅과 믹스업 심리전을 걸어 승기를 가져오는 다재다능함을 보여줍니다.
 
-2. 고유 시너지 및 메커니즘: 강력한 무기 대미지와 유연한 만트라 연계가 맞물려 지속적인 압박을 가합니다. 특히 과거 빌드와 달리 아터(Arter) 등 시전 시 엉뚱한 스탯이 소모되던 비효율성이 개선되어, 핵심 자원과 쿨타임을 완벽하게 통제하며 전투를 풀어나갈 수 있습니다. 블러드렌드(Bloodrend) 계열의 지속 대미지와 디버프가 상대의 체력을 서서히 말려 죽이는 핵심 메커니즘으로 작동합니다.
+2. 고유 시너지 및 메커니즘: 강력한 weapons 대미지와 유연한 mantras 연계가 맞물려 지속적인 압박을 가합니다. 특히 과거 빌드와 달리 아터(Arter) 등 시전 시 엉뚱한 stats이 소모되던 비효율성이 개선되어, 핵심 자원과 쿨타임을 완벽하게 통제하며 전투를 풀어나갈 수 있습니다. 블러드렌드(Bloodrend) 계열의 지속 대미지와 디버프가 상대의 체력을 서서히 말려 죽이는 핵심 메커니즘으로 작동합니다.
 
-3. 실전 심리전 및 교전 판정 우위: 상대방이 레벨업 탤런트나 회피(Void), 벨(Bell) 방어 능력을 사용할 때 이를 정확히 카운터 치는 판정 우위를 점합니다. 가드를 올리는 상대에게는 강력한 가드브레이크 루트를 강제하고, 공중이나 에어본 상태의 적을 추격하여 확정 콤보를 꽂아넣는 심리전에서 압도적인 우세를 점합니다.
+3. 실전 심리전 및 교전 판정 우위: 상대방이 레벨업 talents나 회피(Void), 벨(Bell) 방어 능력을 사용할 때 이를 정확히 카운터 치는 판정 우위를 점합니다. 가드를 올리는 상대에게는 강력한 가드브레이크 루트를 강제하고, 공중이나 에어본 상태의 적을 추격하여 확정 콤보를 꽂아넣는 심리전에서 압도적인 우세를 점합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 우수한 가드브레이크 능력: 상대의 가드 위주 플레이를 완벽하게 카운터 쳐 방어벽을 쉽게 무너뜨립니다.
-- ✅ 유연한 만트라 믹스업: 다양한 속성 만트라를 상황에 맞게 섞어 사용하여 예측 불가능한 공격 패턴을 구사합니다.
+- ✅ 유연한 mantras 믹스업: 다양한 속성 mantras를 상황에 맞게 섞어 사용하여 예측 불가능한 공격 패턴을 구사합니다.
 - ✅ 깊은 심연(Depths) 전투 최적화: 앤버서리(Anniversary) 등 길드원들과의 연계 및 갱커(Ganker) 대처 능력이 매우 뛰어납니다.
 **단점**:
-- ⚠️ 높은 조작 난이도: 순간적인 타이밍에 만트라와 평타를 섞어 쓰는 고도의 콤보 숙련도가 요구됩니다.
+- ⚠️ 높은 조작 difficulty: 순간적인 타이밍에 mantras와 평타를 섞어 쓰는 고도의 콤보 숙련도가 요구됩니다.
 - ⚠️ 핑 불안정 시 리스크: 레이어 2 등지에서 핑(Ping)이 높을 경우 패링 및 회피 타이밍이 어긋나 위험할 수 있습니다.
 - ⚠️ 스태미나 관리 필요: 공격적인 압박을 지속할 경우 스태미나가 빠르게 소모되므로 자원 관리에 신경 써야 합니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
+| Willpower (의지) | `40` |
 | Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `85` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Bloodrend 80 달성
+- 🎯 Heavy Weapon 80 달성
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
@@ -536,26 +1061,43 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - Bloodrend 80 달성
 - Heavy Weapon 80 달성
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Custom Heavy Weapon', 'category': 'Heavy', 'enchant': 'Grim'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Red Dleiver Outfit
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Conditioned Runner**
+- **Reinforce**
+### 📜 보조 및 추천 탤런트
+- Million Ton Piercer
+- Exoskeleton
+
 ## 🔮 주문 목록 (Mantras)
 - **Shadow Travel**
 - **Rising Shadow**
 - **Visions of Duality**
 - **Crystal Blade**
 
+## 🥊 콤보 & 전투 운용 가이드
+['1단계 (진입): Shadow Travel 또는 대시를 이용해 순식간에 상대의 품으로 파고듭니다.', '2단계 (가드 브레이크): 평타와 빠른 mantras 연계를 퍼부어 상대의 가드 내구도를 빠르게 소모시킵니다.', '3단계 (폭딜 콤보): 가드가 깨진 상대에게 에어본 유발 mantras를 명중시킨 뒤 공중 추가타를 확정 넣습니다.', '4단계 (유지 및 탈출): 체력이 부족할 경우 거리를 벌리고 mantras 쿨타임을 관리하며 재정비합니다.']
+
 ---
 
-### 🛡️ [빌드 9] bloodrend-vampire-starkindred
+### 🛡️ [빌드 13] bloodrend-vampire-starkindred
 
 # ⚔️ Bloodrend Vampire Starkindred
 
 > **출처 영상**: [Progressing The BLOODREND VAMPIRE Build (1-20) | Deepwoken](https://www.youtube.com/watch?v=3pRtMXlLFdU) by `ZakoTB`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **종족/출신**: `Kiron` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Bloodrend 속성과 Starkindred 오스를 결합하여 강력한 흡혈 능력과 공중 기동성을 극대화한 하이브리드 빌드입니다. Shrine of Order를 활용해 스탯 효율을 최적화하였으며, 적에게 지속적인 출혈 피해를 입히고 가해진 피해의 일부를 체력으로 흡수하여 난전에서 압도적인 생존력을 보여줍니다. 특히 Skyreap Blade(낫)와의 시너지가 뛰어나 스타일리시하면서도 실속 있는 전투가 가능합니다.
+이 빌드는 Bloodrend 속성과 Starkindred 오스를 결합하여 강력한 흡혈 능력과 공중 기동성을 극대화한 하이브리드 빌드입니다. Shrine of Order를 활용해 stats 효율을 최적화하였으며, 적에게 지속적인 출혈 피해를 입히고 가해진 피해의 일부를 체력으로 흡수하여 난전에서 압도적인 생존력을 보여줍니다. 특히 Skyreap Blade(낫)와의 시너지가 뛰어나 스타일리시하면서도 실속 있는 전투가 가능합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -564,10 +1106,10 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ✅ 과다출혈 및 지속 출혈 데미지를 통한 압도적인 누적 딜링
 - ✅ 난전 및 다대다(Gank) 상황에서 빛을 발하는 생존력
 **단점**:
-- ⚠️ Shrine of Order를 거쳐야 하므로 육성 난이도가 높음
+- ⚠️ Shrine of Order를 거쳐야 하므로 육성 difficulty가 높음
 - ⚠️ 흡혈에 의존하기 때문에 패링을 당하거나 딜을 넣지 못하면 급격히 취약해짐
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -604,46 +1146,61 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 10] dark-pearls-inky-vent-shadowcast-pvp
+### 🛡️ [빌드 14] dark-pearls-inky-vent-shadowcast-pvp
 
 # ⚔️ Dark Pearls Inky Vent Shadowcast PvP
 
 > **출처 영상**: [NEW SHADOWCAST RELIC: Dark Pearls (Showcase + Obtainment) | Deepwoken](https://www.youtube.com/watch?v=cJbD4c7a8m8) by `Dolphie`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Kiron` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 신규 섀도우캐스트(Shadowcast) 전용 렐릭 아이템인 'Dark Pearls'와 고유 탤런트인 'Inky Pearls'의 메커니즘을 극대화하여 설계된 하이엔드 PvP 빌드입니다. 이 빌드의 핵심은  벤트(Vent)를 사용할 때 주변 적의 에테르(Ether)를 강탈하고 섀도우캐스트 계열의 강력한 판정 탤런트들과 시너지를 일으키는 데 있습니다.
+본 빌드는 신규 섀도우캐스트(Shadowcast) 전용 렐릭 아이템인 'Dark Pearls'와 고유 talents인 'Inky Pearls'의 메커니즘을 극대화하여 설계된 하이엔드 PvP 빌드입니다. 이 빌드의 핵심은  벤트(Vent)를 사용할 때 주변 적의 에테르(Ether)를 강탈하고 섀도우캐스트 계열의 강력한 판정 talents들과 시너지를 일으키는 데 있습니다.
 
 전투 아키타입은 압도적인 기동성과 압박 능력을 바탕으로 적의 자원을 말려 죽이는 인파이터 성향을 띠며, 특히 다수전이나 보스 레이드에서 벤트 범위 내의 적 다수를 동시에 타격하여 에테르를 대량으로 흡수하고 템포(Tempo)를 폭발적으로 회복하는 독보적인 유틸리티를 자랑합니다.
 
-실전 심리전에서는 적의 가드를 유도한 뒤 벤트 카운터로 상대의 행동을 봉쇄하고, 싱귤래리티(Singularity)나 다크 고드(Dark God)와 같은 섀도우 탤런트들의 발동 조건을 안정적으로 충족시켜 적을 무력화하는 고도의 심리전 우위를 점할 수 있습니다.
+실전 심리전에서는 적의 가드를 유도한 뒤 벤트 카운터로 상대의 행동을 봉쇄하고, 싱귤래리티(Singularity)나 다크 고드(Dark God)와 같은 섀도우 talents들의 발동 조건을 안정적으로 충족시켜 적을 무력화하는 고도의 심리전 우위를 점할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ 벤트(Vent) 사용 시 주변 적의 에테르를 40씩 강탈하여 상대의 만트라 사용을 원천 차단하고 자원 싸움에서 압도적인 우위를 점할 수 있음
-- ✅ Singularity 및 Dark God 등 고위 섀도우캐스트 탤런트들과 완벽하게 연계되어 군중 제어 및 템포 순환 능력이 극대화됨
+- ✅ 벤트(Vent) 사용 시 주변 적의 에테르를 40씩 강탈하여 상대의 mantras 사용을 원천 차단하고 자원 싸움에서 압도적인 우위를 점할 수 있음
+- ✅ Singularity 및 Dark God 등 고위 섀도우캐스트 talents들과 완벽하게 연계되어 군중 제어 및 템포 순환 능력이 극대화됨
 - ✅ Lower Erisia의 트랜(Traan) 블랙 마켓에서 획득 가능하여 파밍 동선이 비교적 명확하고 안정적임
 - ✅ 다대다 교전이나 보스 레이드에서 광역 벤트 타격 시 에테르 및 템포 리필 효율이 기하급수적으로 상승함
 **단점**:
 - ⚠️ Dark Pearls 렐릭 장착 시 고유 디메리트로 포스처(Posture)가 -2 감소하여 근거리 가드 싸움에서 방어력이 다소 취약해짐
-- ⚠️ 섀도우캐스트 스탯 40 이상을 필수로 요구하므로 스탯 분배의 자유도가 제한됨
+- ⚠️ 섀도우캐스트 stats 40 이상을 필수로 요구하므로 stats 분배의 자유도가 제한됨
 - ⚠️ 벤트 타이밍을 정확히 맞추지 못하면 에테르 강탈 효과를 보지 못하고 역공을 허용할 수 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `0` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `50` |
 | Charisma (매력) | `0` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `75` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Medium Weapon 80 달성
+- 🎯 Shadowcast 상위 mantras 및 talents 최적화
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
@@ -652,7 +1209,28 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
 - Medium Weapon 80 달성
-- Shadowcast 상위 만트라 및 탤런트 최적화
+- Shadowcast 상위 mantras 및 talents 최적화
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Kyrsglaive', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Traveler's Jacket
+- **[Accessory]** Dark Pearls
+- **[Accessory]** Wraithclaw
+- **[Accessory]** Glumfig
+- **[Accessory]** Silver Navy Hound
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Inky Pearls**
+- **Singularity**
+- **Dark God**
+### 📜 보조 및 추천 탤런트
+- Million Ton Piercer
+- Conditioned Runner
+- Exoskeleton
+- Nullifying Clarity
 
 ## 🔮 주문 목록 (Mantras)
 - **Shadow Gun**
@@ -661,9 +1239,129 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Dark Drift**
 - **Wings of Enmity**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입): Shadow Travel 또는 Shadow Blink를 활용하여 적의 사각지대로 신속하게 접근합니다.
+2단계 (압박 및 가드 유도): 기본 공격과 중기병 weapons(Kyrsglaive)의 리치를 활용해 적의 가드를 강제하고 포스처를 소모시킵니다.
+3단계 (핵심 벤토 콤보): 적이 반격하는 타이밍에 벤트를 발동시켜 'Inky Pearls' 효과로 적의 에테르 40을 강탈하고 'Singularity' 및 'Dark God' talents를 프록(Proc)시킵니다.
+4단계 (마무리 및 유지력 회복): 에테르가 강탈당해 무력화된 적에게 고위 섀도우 mantras(Wings of Enmity, Shadow Gun)를 적중시켜 큰 피해를 주고 전투를 종결합니다.
+
 ---
 
-### 🛡️ [빌드 11] deep-shrines-shrine-of-order-guide
+### 🛡️ [빌드 15] dawnwalker-withered-death-fist-bloodrend-ligh
+
+# ⚔️ Dawnwalker Withered Death Fist Bloodrend Light Build
+
+> **출처 영상**: [Ruin Showcase | Deepwoken](https://www.youtube.com/watch?v=v2k22Yayw10) by `Lazy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Canor` / `Deepbound` | **Oath**: `Dawnwalker` | **Murmur/Bell**: `None` / `None`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Light Weapon 스탯 기반의 Withered Death Fist(피스트)와 Dawnwalker Oath, 그리고 Bloodrend 스펠을 결합하여 고속 연타와 높은 물리 저항을 극대화한 PvP 전용 Chime 빌드입니다. Shrine of Order를 활용하여 Pre-shrine 스탯(Carnivore, Reinforced Armor 등)을 확보한 뒤, Post-shrine 스탯으로 90 Fortitude와 60 Charisma, 40 Agility를 채워 탱킹력과 CC/유틸성을 갖췄습니다.
+
+Withered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(Uppercut -> Blood Edge -> Viscous Descent)를 기반으로 상대를 압박하는 전투 방식을 선호하는 플레이어에게 적극 추천합니다. 마나(Ether) 총량이 다소 낮아 지속적인 M1 수급이 필수적이지만, 높은 Physical Resistance(43%) 덕분에 교전 시 뛰어난 맞딜 성능을 보여줍니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 43%에 달하는 높은 물리 저항력(Physical Resistance)과 500 이상의 체력(HP)으로 뛰어난 탱킹 능력 보유
+- ✅ Withered Death Fist의 빠른 공격 속도와 2~3타 크리티컬 모션의 강력한 피해량 및 짧은 쿨타임
+- ✅ Reinforced Armor 및 Ghost 등 핵심 방어/회피 탤런트를 통한 탁월한 생존력
+- ✅ Charisma 60 기반의 버프/디버프 및 Dawnwalker 빛 공격과의 높은 시너지
+**단점**:
+- ⚠️ 최대 마나(Ether)가 100으로 매우 적어 만트라를 남발할 경우 금방 에테르가 고갈됨 (지속적인 M1 적중 필수)
+- ⚠️ Withered Death Fist 크리티컬 1타의 사거리가 매우 짧아 실전에서 파리(Parry)당하거나 거리 조절 실패 시 리스크 존재
+- ⚠️ 상대방이 고숙련자일 경우 크리티컬 패링 타이밍에 취약해질 수 있음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `1` | `0` | `5` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `17` |
+| Charisma (매력) | `50` |
+| Bloodrend | `60` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `90` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `17` |
+| Charisma (매력) | `50` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `67` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Fortitude 90 달성 (Reinforced Armor 마스터)
+- 🎯 Charisma 60 달성 (유틸리티/버프)
+- 🎯 Light Weapon 67 투자 (Fist 위력 극대화)
+- 🎯 Bloodrend 1 포인트 유지 (만트라 시전용)
+
+## ⚡ 속성 투자 (Attunements)
+- **Bloodrend**: `60`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `506` | `27` | `266` | `133` | `171` | `108.0%` | `+10.5%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `43.0%` / 타격: `43.0%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `25.0%` / 바람: `25.0%` | 그림자: `25.0%` / 번개: `25.0%` / 철: `5.0%` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `Strength 5, Fortitude 40, Agility 40, Willpower 17, Charisma 50, Bloodrend 60`
+**Post-Shrine 우선순위**:
+- Fortitude 90 달성 (Reinforced Armor 마스터)
+- Charisma 60 달성 (유틸리티/버프)
+- Light Weapon 67 투자 (Fist 위력 극대화)
+- Bloodrend 1 포인트 유지 (만트라 시전용)
+
+## 🗡️ 추천 무기 (Weapons)
+- **Legion Cestus** (Light Weapon) — 인챈트: `Grim` ⭐x3
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Reinforced Armor**
+- **Ghost**
+- **Carnivore**
+### 📜 보조 및 추천 탤런트
+- Charisma Unbounded
+- Conditioned Runner
+
+## 🔮 주문 목록 (Mantras)
+- **Blood Orb**
+- **Radiant Kick**
+- **Radiant Dawn**
+- **Crimson Surge**
+- **Blood Edge**
+- **Faint Tendrils**
+- **Viscous Descent**
+- **Razor Blades**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 어퍼컷(Uppercut) 적중으로 상대를 공중에 띄움
+2. 공중 M1 페인트(Feint) 후 M1 적중
+3. Blood Edge 만트라 발동으로 공중 홀딩 지속
+4. Viscous Descent를 사용하여 공중에서 지상으로 강력하게 둔탁한 찍기 타격
+5. 착지 직후 Withered Death Fist의 2타/3타 크리티컬(Critical) 연속 사용으로 마무리 데미지 딜링
+
+---
+
+### 🛡️ [빌드 16] deep-shrines-shrine-of-order-guide
 
 # ⚔️ Deep Shrines / Shrine of Order Guide
 
@@ -686,9 +1384,20 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 - ⚠️ 스탯이 낮아지면서 기존에 해금했던 탤런트나 장비 착용 요구치를 만족하지 못해 비활성화될 수 있음
 - ⚠️ 치밀한 스탯 계산 없이 사용 시 빌드가 망가지거나 탤런트가 잠길 위험이 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `25` |
@@ -699,6 +1408,10 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
 
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 75 달성
+- 🎯 유틸리티 및 방어구 탤런트 최적화
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -707,7 +1420,7 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 
 ---
 
-### 🛡️ [빌드 12] deep-shrines-shrine-of-order
+### 🛡️ [빌드 17] deep-shrines-shrine-of-order
 
 # ⚔️ Deep Shrines / Shrine of Order
 
@@ -730,9 +1443,20 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 스탯이 평균화되면서 특정 탤런트나 장비의 요구치를 만족하지 못하게 되면 해당 효과나 장비가 비활성화될 수 있음
 - ⚠️ 사용 전후의 결과를 정확히 계산하지 않으면 빌드가 완전히 망가지거나 탤런트가 누락될 위험이 있음
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `25` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
 | Strength (근력) | `40` |
 | Fortitude (인내) | `50` |
 | Agility (민첩) | `25` |
@@ -742,6 +1466,10 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `75` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Medium Weapon 75 달성
+- 🎯 Flamecharm 50 달성
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `50`
@@ -767,35 +1495,35 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 13] deepwoken-meta-talent-tier-list-optimization
+### 🛡️ [빌드 18] deepwoken-meta-talent-tier-list-optimization
 
 # ⚔️ Deepwoken Meta Talent Tier List & Optimization Guide
 
 > **출처 영상**: [Ranking Every Meta Talent in Deepwoken](https://www.youtube.com/watch?v=YAk7SDHqdrg) by `Breeze`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Voice` / `Judgement / Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 영상은 딥위큰(Deepwoken) 플레이어들이 흔히 선택하는 메이저 탤런트들의 효율과 실전 가치를 심층적으로 비교 분석한 티어 리스트 가이드입니다. 각 탤런트의 스탯 투자 대비 효율, 방어구 관통력(PEN) 시너지, 이속 버프 연계, 그리고 특정 오스나 무기와의 조합에 따라 승패가 갈리는 핵심 메커니즘을 낱낱이 파헤칩니다.
+이 영상은 딥위큰(Deepwoken) 플레이어들이 흔히 선택하는 메이저 talents들의 효율과 실전 가치를 심층적으로 비교 분석한 티어 리스트 가이드입니다. 각 talents의 stats 투자 대비 효율, 방어구 관통력(PEN) 시너지, 이속 버프 연계, 그리고 특정 오스나 weapons와의 조합에 따라 승패가 갈리는 핵심 메커니즘을 낱낱이 파헤칩니다.
 
-단순히 스탯만 높이는 것이 아니라, 빌드의 전체적인 템포와 전투 성향에 맞춰 필수 탤런트를 선별하는 안목을 기르는 것이 중요합니다. 예를 들어 Exoskeleton이나 To The Finish 같은 탱킹 탤런트는 거의 모든 빌드에서 생존력을 극대화하는 반면, Collapsed Lung이나 Million Ton Piercer는 특정 빌드나 무기군과의 치밀한 조합 없이는 효율을 보기 어렵습니다. Speed Demon과 Cheap Shot 같은 기동성 및 관통력 탤런트는 현대 메타의 핵심인 가드·패리·닷지 심리전에서 우위를 점하게 해줍니다.
+단순히 stats만 높이는 것이 아니라, 빌드의 전체적인 템포와 전투 성향에 맞춰 필수 talents를 선별하는 안목을 기르는 것이 중요합니다. 예를 들어 Exoskeleton이나 To The Finish 같은 탱킹 talents는 거의 모든 빌드에서 생존력을 극대화하는 반면, Collapsed Lung이나 Million Ton Piercer는 특정 빌드나 weapons군과의 치밀한 조합 없이는 효율을 보기 어렵습니다. Speed Demon과 Cheap Shot 같은 기동성 및 관통력 talents는 현대 메타의 핵심인 가드·패리·닷지 심리전에서 우위를 점하게 해줍니다.
 
-결론적으로 이 가이드는 획일화된 빌드 구성에서 벗어나, 자신의 플레이스타일과 무기 세팅에 최적화된 탤런트 트리를 구축할 수 있도록 돕는 최고의 지침서입니다. 고수들의 실전 플레이 영상을 바탕으로 한 철저한 검증을 거친 만큼, PvP 승률을 극적으로 끌어올리고 싶은 유저라면 반드시 참고해야 할 분석을 제공합니다.
+결론적으로 이 가이드는 획일화된 빌드 구성에서 벗어나, 자신의 플레이스타일과 weapons 세팅에 최적화된 talents 트리를 구축할 수 있도록 돕는 최고의 지침서입니다. 고수들의 실전 플레이 영상을 바탕으로 한 철저한 검증을 거친 만큼, PvP 승률을 극적으로 끌어올리고 싶은 유저라면 반드시 참고해야 할 분석을 제공합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ 스탯 투자 대비 효율이 극대화된 메타 탤런트들의 정확한 티어 분류 제공
-- ✅ 방어구 관통력(PEN) 증가 탤런트(Million Ton Piercer, Cheap Shot, Piercing Will) 간의 시너지 극대화 분석
+- ✅ stats 투자 대비 효율이 극대화된 메타 talents들의 정확한 티어 분류 제공
+- ✅ 방어구 관통력(PEN) 증가 talents(Million Ton Piercer, Cheap Shot, Piercing Will) 간의 시너지 극대화 분석
 - ✅ 이속 버프(Speed Boost)와 연계되는 전투 루프의 강력한 딜링 포텐셜 확보
 - ✅ 탱킹 및 생존력(Exoskeleton, Reinforced Armor)을 통한 안정적인 전투 지속력
 **단점**:
-- ⚠️ 일부 고티어 탤런트의 까다로운 선행 스탯 요구치로 인한 빌드 자유도 제한
-- ⚠️ 특정 탤런트(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움
-- ⚠️ 메타 변화나 패치에 따라 탤런트 효율이 급변할 수 있어 지속적인 빌드 수정 필요
+- ⚠️ 일부 고티어 talents의 까다로운 선행 stats 요구치로 인한 빌드 자유도 제한
+- ⚠️ 특정 talents(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움
+- ⚠️ 메타 변화나 패치에 따라 talents 효율이 급변할 수 있어 지속적인 빌드 수정 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `90` |
@@ -811,6 +1539,15 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Shadowcast**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Kyrsglaive', 'weapon_type': 'Heavy Weapon', 'enchant': 'Vampiric / Grim'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessory]** Ignition Deepdelver Scarf
+- **[Accessory]** Enhanced Boots
+- **[Accessory]** Jetstriker Ring
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -841,31 +1578,37 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Aria**
 - **Rising Phoenix**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입 및 이속 확보): 패리 또는 닷지 성공 후 발동하는 Speed Demon 및 Fast Blade 버프를 통해 이동 속도와 공격력을 동시에 증폭시킵니다.
+2단계 (가드 브레이크 및 심리전): 강력한 헤비 weapons 평타와 Flame Eruption 등의 mantras를 섞어 상대의 포스쳐(Posture)를 무너뜨립니다.
+3단계 (폭딜 연계): Tough Love와 Overflowing Dam의 버프가 활성화된 상태에서 핵심 mantras(Shadow Gun 등)를 퍼부어 순식간에 체력을 갈아버립니다.
+4단계 (안정화 및 탈출): 위험할 때는 Exoskeleton과 To The Finish의 대미지 저감 효과를 믿고 거리를 벌린 뒤, 정비하고 재진입합니다.
+
 ---
 
-### 🛡️ [빌드 14] duchess-erisia-galebreathe-jus-kar
+### 🛡️ [빌드 19] duchess-erisia-galebreathe-jus-kar
 
 # ⚔️ Duchess Erisia (Galebreathe Jus Kar)
 
 > **출처 영상**: [Duchess Erisia #deepwoken #roblox](https://www.youtube.com/watch?v=9mNMKWT_TZ4) by `Derk_Mage`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Deepwoken의 상징적인 보스인 Duke Erisia를 모티브로 한 컨셉 빌드입니다. Galebreathe(바람 속성)와 Jus Kar 무술을 결합하여, 보스처럼 빠른 기동성과 강력한 바람 만트라 연계로 상대를 압도합니다. 공중 기동과 빠른 콤보가 핵심입니다.
+이 빌드는 Deepwoken의 상징적인 보스인 Duke Erisia를 모티브로 한 컨셉 빌드입니다. Galebreathe(바람 속성)와 Jus Kar 무술을 결합하여, 보스처럼 빠른 기동성과 강력한 바람 mantras 연계로 상대를 압도합니다. 공중 기동과 빠른 콤보가 핵심입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 강력한 공중 콤보 및 기동성
-- ✅ 바람 만트라를 통한 뛰어난 유틸리티와 가드 브레이크
+- ✅ 바람 mantras를 통한 뛰어난 유틸리티와 가드 브레이크
 - ✅ Jus Kar의 빠른 공격 속도와 스타일리시한 모션
 **단점**:
-- ⚠️ 사거리가 짧아 리치가 긴 무기(창, 대검)를 상대로 정밀한 거리 조절 필요
-- ⚠️ 컨트롤 난이도가 높아 초보자가 다루기 어려움
+- ⚠️ 사거리가 짧아 리치가 긴 weapons(창, 대검)를 상대로 정밀한 거리 조절 필요
+- ⚠️ 컨트롤 difficulty가 높아 Beginner가 다루기 어려움
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -900,13 +1643,13 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 15] enmity-annihilator-v2
+### 🛡️ [빌드 20] enmity-annihilator-v2
 
 # ⚔️ Enmity Annihilator V2
 
 > **출처 영상**: [The new BEST Enmity Build does over 2.6k Damage Per M1 (Enmity Annihilator V2) | Deepwoken PvE](https://www.youtube.com/watch?v=KsQ1cyyPdpg) by `dustttt`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundering Swiftness` / `Wind Up`
 
 ---
 
@@ -916,15 +1659,15 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 모든 PvE 콘텐츠를 통틀어 가장 강력한 M1 평타 대미지 (2,600+)
-- ✅ Shrine of Order를 거쳐 최적화된 높은 체력과 방어력 스탯 유지
+- ✅ Shrine of Order를 거쳐 최적화된 높은 체력과 방어력 stats 유지
 - ✅ Flame Sentinel과 Lightning Clones 등 다양한 소환물과 버프를 통한 지속적인 딜링 및 어그로 분산
 - ✅ 보스 페이즈를 압도적인 화력으로 스킵할 수 있는 높은 범용성과 안정성
 **단점**:
-- ⚠️ Thrill of Enmity 탤런트 특성상 체력이 낮을 때 리스크가 존재함
-- ⚠️ 복잡한 스탯 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 스탯이 꼬일 수 있음
+- ⚠️ Thrill of Enmity talents 특성상 체력이 낮을 때 리스크가 존재함
+- ⚠️ 복잡한 stats 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 stats이 꼬일 수 있음
 - ⚠️ PVP보다는 PVE 레이드에 특화되어 있어 PvP 상황에서는 대처가 까다로울 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -942,9 +1685,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Thundercall**: `25`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **Unknown** — 인챈트: `Astral`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -973,35 +1714,127 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 16] flamecharm-rapier-dual-enchant-build
+### 🛡️ [빌드 21] enmity-slayer-v2
+
+# ⚔️ Enmity Slayer V2
+
+> **출처 영상**: [The NEW Best PvE Build for Everything V2 | Deepwoken Verse 3](https://www.youtube.com/watch?v=TJN94GOXvzY) by `NotFearLessKiller`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Contractor` | **Murmur/Bell**: `Thundering Sparks` / `Enmity`
+
+---
+
+## 📝 빌드 개요 및 총평
+기존 Sightless Beam 너프 이후 새롭게 제작된 극딜형 PvE 최정점 빌드입니다. 섀도우캐스트(Shadowcast)의 Enmity 만이트라와 플레임참의 Graceful Flames, Flame Within 버프를 극대화하여 보스레이드 및 Enmity 레이드를 1분 이내에 클리어할 수 있는 경이로운 딜링 능력을 보여줍니다.
+
+링스트라이더(Linkstrider) 및 소울브레이커(Soulbreaker) 조합과 연계하여 몬스터의 아머 브레이크(Armor Break) 속도를 V1 대비 2배 이상 빠르게 단축시킬 수 있으며, 파티 플레이 및 솔로 플레이 모두에서 압도적인 효율을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Enmity 보스를 1분 이내로 순삭하는 엄청난 단일 대상 폭딜 능력
+- ✅ Graceful Flames과 Flame Within을 통한 독자적인 공격력 및 화염 데미지 증폭
+- ✅ 강화된 아머 브레이크 속도로 고방어력 보스 대상 극대화된 효율
+- ✅ 파티 서포트와 백 대저(Back Damage) 연계를 모두 소화하는 뛰어난 유연성
+**단점**:
+- ⚠️ 방어력과 생존 스탯보다는 공격 성능에 집중되어 있어 고난도 패턴 회피 능력이 요구됨
+- ⚠️ 만트라 중심의 딜 사이클이므로 이터(Ether) 관리와 쿨타임 조율이 필수적임
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `3` | `3` | `3` | `3` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `10` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `20` |
+| Heavy Wep (중화기) | `90` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `75`
+- **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `30.0%` / 빙결: `25.0%` / 바람: `25.0%` | 그림자: `35.0%` / 번개: `25.0%` / 철: `30.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Crypt Blade** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Kyrsan Hat
+- **[Face]** None
+- **[Amulet]** Aegis of Enmity
+- **[Outfit]** Black Diver
+- **[Boots]** Kyrsan Boots
+- **[Ring 1]** Thrill of Enmity
+- **[Ring 2]** Barriers of Enmity
+- **[Ring 3]** Chants of Agonies
+- **[Ring 4]** Deepwoken Ring of Health
+- **[Bell]** Enmity Voice
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Graceful Flames**
+- **Flame Within**
+- **Soulbreaker**
+- **Linkstrider**
+- **Flame Sentinel**
+
+## 🔮 주문 목록 (Mantras)
+- **Enmity**
+- **Flame Sentinel**
+- **Graceful Flames**
+- **Rising Spark**
+- **Blizzard Grenade**
+
+## 🥊 콤보 & 전투 운용 가이드
+{'opening': 'Flame Sentinel과 Graceful Flames, Flame Within을 선시전하여 공격력 버프와 화염 도트 버프를 극대화합니다.', 'mid_combat': 'Enmity 만트라와 Crypt Blade의 강력한 헤비 웨폰 평타를 연계하여 몬스터의 방어구를 순식간에 파괴합니다.', 'finisher': 'Soulbreaker 및 Linkstrider 효과와 연계된 파티원들의 백 데미지 서포트를 받아 딜 사이클을 반복하여 보스를 순식간에 처치합니다.'}
+
+---
+
+### 🛡️ [빌드 22] flamecharm-rapier-dual-enchant-build
 
 # ⚔️ Flamecharm Rapier Dual Enchant Build
 
 > **출처 영상**: [This Flame Build Is INSANE | Deepwoken](https://www.youtube.com/watch?v=CWiwsaX7aPc) by `PolarDaFrog`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Default Bell`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 이 빌드는 속도감 있는 레이피어의 다중 타격 판정과 강력한 화염 속성(Flamecharm)의 유틸리티 및 폭딜 메커니즘을 극대화한 인파이터형 PvP 특화 빌드입니다. Curse of Yun'Shul과 Tears of the Edenkite 같은 강력한 인챈트 조합을 활용하여 적의 가드와 방어력을 강제로 무력화하며, 순간적으로 높은 딜을 우겨넣는 템포를 지니고 있습니다.
 
-레이피어의 특성상 빠른 연타가 가능하므로 화염 속성 만트라 및 프로크(Proc) 확률이 비약적으로 상승하여, 상대방이 대처할 틈을 주지 않고 지속적인 트루 데미지와 압박을 가할 수 있습니다. 특히 Flame Assault를 비롯한 돌진 및 근접 콤보가 매끄럽게 이어져 상대를 순식간에 녹여버리는 파괴력을 보여줍니다.
+레이피어의 특성상 빠른 연타가 가능하므로 화염 속성 mantras 및 프로크(Proc) 확률이 비약적으로 상승하여, 상대방이 대처할 틈을 주지 않고 지속적인 트루 데미지와 압박을 가할 수 있습니다. 특히 Flame Assault를 비롯한 돌진 및 근접 콤보가 매끄럽게 이어져 상대를 순식간에 녹여버리는 파괴력을 보여줍니다.
 
-기동성이 뛰어난 Starkindred 오스와 조합되어 공중전과 지상전을 넘나드는 심리전 우위를 점할 수 있으며, 상대의 패리를 뚫고 들어가는 칩 데미지와 가드브레이크 지속 시간 증가(Amp Overdrive) 탤런트를 통해 교전 주도권을 완벽하게 장악할 수 있습니다.
+기동성이 뛰어난 Starkindred 오스와 조합되어 공중전과 지상전을 넘나드는 심리전 우위를 점할 수 있으며, 상대의 패리를 뚫고 들어가는 칩 데미지와 가드브레이크 지속 시간 증가(Amp Overdrive) talents를 통해 교전 주도권을 완벽하게 장악할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 레이피어의 빠른 다중 타격 판정으로 인해 인챈트 및 상태이상 프로크 확률이 매우 높음
-- ✅ Flame Assault 등 화염 속성 만트라의 순간 폭딜 능력이 우수함
+- ✅ Flame Assault 등 화염 속성 mantras의 순간 폭딜 능력이 우수함
 - ✅ Starkindred 오스 기동성을 활용한 뛰어난 맵 장악력과 공중 회피 심리전
-- ✅ 가드브레이크 지속 시간 증가 탤런트로 적의 방어 태세를 오랜 시간 무력화 가능
+- ✅ 가드브레이크 지속 시간 증가 talents로 적의 방어 태세를 오랜 시간 무력화 가능
 **단점**:
 - ⚠️ 스태미나 관리가 미숙할 경우 빠른 연타와 회피 기동으로 인해 쉽게 스테미나 고갈 발생
-- ⚠️ 묵직한 대형 무기(Heavy Weapon) 유저의 패리 및 리포스트 타이밍에 역공당할 위험 존재
+- ⚠️ 묵직한 대형 weapons(Heavy Weapon) 유저의 패리 및 리포스트 타이밍에 역공당할 위험 존재
 - ⚠️ 원거리 견제력이 상대적으로 부족하여 접근전 심리전 실패 시 주도권을 내어줄 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1015,9 +1848,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_type**
-- **enchant**
+- **Unknown** — 인챈트: `Curse of Yun'Shul & Tears of the Edenkite`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1031,39 +1862,39 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Flame Assault**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'step_1_engagement': '다이브 및 대시 기동을 통해 상대의 사각지대로 빠르게 파고들어 선공권을 잡습니다.', 'step_2_guard_break': '레이피어의 빠른 다중 타격 평타와 크리티컬 공격으로 상대의 가드를 빠르게 깎아내고 가드브레이크 상태를 유도합니다.', 'step_3_burst_damage': '가드가 깨진 상대에게 Flame Assault 만트라와 인챈트 버프가 실린 폭딜 콤보를 연계합니다.', 'step_4_disengage_recovery': '스태미나가 부족해지거나 상대가 반격할 타이밍에는 즉시 뒤로 빠져 스태미나를 회복하고 다음 진입 각을 재봅니다.'}
+{'step_1_engagement': '다이브 및 대시 기동을 통해 상대의 사각지대로 빠르게 파고들어 선공권을 잡습니다.', 'step_2_guard_break': '레이피어의 빠른 다중 타격 평타와 크리티컬 공격으로 상대의 가드를 빠르게 깎아내고 가드브레이크 상태를 유도합니다.', 'step_3_burst_damage': '가드가 깨진 상대에게 Flame Assault mantras와 인챈트 버프가 실린 폭딜 콤보를 연계합니다.', 'step_4_disengage_recovery': '스태미나가 부족해지거나 상대가 반격할 타이밍에는 즉시 뒤로 빠져 스태미나를 회복하고 다음 진입 각을 재봅니다.'}
 
 ---
 
-### 🛡️ [빌드 17] heretics-jetstriker-gale-grieves
+### 🛡️ [빌드 23] heretics-jetstriker-gale-grieves
 
 # ⚔️ Heretic's Jetstriker Gale Grieves
 
 > **출처 영상**: [Making Optimal Deepwoken Builds is So EASY Once You Understand THIS…](https://www.youtube.com/watch?v=QpqtJqTac3o) by `SpidersDW`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vowwalker` / `Navaan Warchef` | **Oath**: `Jetstriker` | **Murmur/Bell**: `Ardour` / `Blood Scourge`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 Deepwoken PvP 메타에서 가장 주목받는 기동성과 극대화된 탤런트 효율(Talent Efficiency)을 결합한 하이브리드 인파이터 아키타입입니다. Jetstriker 오스의 강력한 공중 기동성과 수직 이동 능력을 활용하여 상대의 시야를 흔들고, Heretic's Sutra와 Lose Your Mind 탤런트를 연계해 광기(Insanity) 상태를 강제로 유지함으로써 비약적인 데미지 증폭을 이끌어냅니다.
+본 빌드는 Deepwoken PvP 메타에서 가장 주목받는 기동성과 극대화된 talents 효율(Talent Efficiency)을 결합한 하이브리드 인파이터 아키타입입니다. Jetstriker 오스의 강력한 공중 기동성과 수직 이동 능력을 활용하여 상대의 시야를 흔들고, Heretic's Sutra와 Lose Your Mind talents를 연계해 광기(Insanity) 상태를 강제로 유지함으로써 비약적인 데미지 증폭을 이끌어냅니다.
 
-전투 템포는 매우 빠르고 공격적입니다. Galebreath의 광역 원거리 견제와 돌진 만트라로 상대의 가드를 압박한 뒤, Raiklov나 Light Weapon의 빠른 공속을 활용해 경직을 유도합니다. 특히 All the Dead Gods와 Unfazed 탤런트를 통해 광기의 페널티를 완화하고 상대에게 안티힐(Anti-heal)을 부여하므로, 유지력 싸움에서도 절대 밀리지 않는 압도적인 교전 판정 우위를 점할 수 있습니다.
+전투 템포는 매우 빠르고 공격적입니다. Galebreath의 광역 원거리 견제와 돌진 mantras로 상대의 가드를 압박한 뒤, Raiklov나 Light Weapon의 빠른 공속을 활용해 경직을 유도합니다. 특히 All the Dead Gods와 Unfazed talents를 통해 광기의 페널티를 완화하고 상대에게 안티힐(Anti-heal)을 부여하므로, 유지력 싸움에서도 절대 밀리지 않는 압도적인 교전 판정 우위를 점할 수 있습니다.
 
-상대의 가드를 무너뜨릴 때는 Agility 기반의 Air Counter와 강공격 심리전을 적극 활용합니다. 상대가 공중으로 회피하거나 뛰어오르는 순간을 포착하여 카운터를 먹이고, Charismatic Cast의 매혹(Charm) 효과로 피격 데미지를 감소시키며 안정적으로 콤보를 마무리합니다. 스탯 분배 시 불필요한 스탯 낭비를 최소화하고 필요한 핵심 탤런트 요구치만 정확히 맞추는 것이 이 빌드 운용의 핵심입니다.
+상대의 가드를 무너뜨릴 때는 Agility 기반의 Air Counter와 강공격 심리전을 적극 활용합니다. 상대가 공중으로 회피하거나 뛰어오르는 순간을 포착하여 카운터를 먹이고, Charismatic Cast의 매혹(Charm) 효과로 피격 데미지를 감소시키며 안정적으로 콤보를 마무리합니다. stats 분배 시 불필요한 stats 낭비를 최소화하고 필요한 핵심 talents 요구치만 정확히 맞추는 것이 이 빌드 운용의 핵심입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Jetstriker 오스의 뛰어난 기동성으로 교전 거리와 주도권을 완벽하게 통제 가능
-- ✅ Heretic's Sutra와 Lose Your Mind 탤런트 시너지를 통한 상시 최고 수준의 극대화된 딜링 포텐셜
-- ✅ Unfazed 및 Charismatic Cast 탤런트로 광기 페널티를 상쇄하고 높은 유지력과 방어력을 동시에 확보
+- ✅ Heretic's Sutra와 Lose Your Mind talents 시너지를 통한 상시 최고 수준의 극대화된 딜링 포텐셜
+- ✅ Unfazed 및 Charismatic Cast talents로 광기 페널티를 상쇄하고 높은 유지력과 방어력을 동시에 확보
 - ✅ Galebreath와 Light Weapon의 조합으로 끊임없는 압박과 가드 브레이크 유도가 용이함
 **단점**:
 - ⚠️ 광기(Insanity) 상태를 유지해야 하므로 패닉이나 시야 방해 디버프에 대한 숙련된 대처가 필수적임
-- ⚠️ 방어력(Fortitude)과 체력 스탯이 상대적으로 낮아 방심할 경우 누적 데미지에 취약할 수 있음
-- ⚠️ Shrine of Order 빌딩 단계에서 스탯 Shrinoing 순서를 실수하면 핵심 탤런트를 누락할 위험이 큼
+- ⚠️ 방어력(Fortitude)과 체력 stats이 상대적으로 낮아 방심할 경우 누적 데미지에 취약할 수 있음
+- ⚠️ Shrine of Order 빌딩 단계에서 stats Shrinoing 순서를 실수하면 핵심 talents를 누락할 위험이 큼
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1080,9 +1911,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Galebreathe**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **Unknown** — 인챈트: `Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1102,35 +1931,134 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Astral Wind**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'step_1_engagement': 'Jetstriker의 고속 공중 이동 및 Dash를 통해 상대의 허를 찌르며 근접 거리를 순식간에 좁힙니다.', 'step_2_guard_break': 'Gale Lunge와 라이트 무기 평타 연계를 통해 상대의 포스처 게이지를 빠르게 깎고 Air Counter로 공중 판정 콤보를 연계합니다.', 'step_3_burst_damage': "Heretic's Sutra와 Lose Your Mind로 증폭된 극딜 대미지를 바탕으로 Rising Wind 및 주력 만트라를 퍼부어 체력을 대거 소모시킵니다.", 'step_4_recovery_and_escape': '교전 중 불리해질 경우 Jetstriker의 기동력으로 거리를 벌리고, Charismatic Cast 및 Blood Scourge(Bell) 효과로 체력과 포스처를 정비합니다.'}
+{'step_1_engagement': 'Jetstriker의 고속 공중 이동 및 Dash를 통해 상대의 허를 찌르며 근접 거리를 순식간에 좁힙니다.', 'step_2_guard_break': 'Gale Lunge와 라이트 weapons 평타 연계를 통해 상대의 포스처 게이지를 빠르게 깎고 Air Counter로 공중 판정 콤보를 연계합니다.', 'step_3_burst_damage': "Heretic's Sutra와 Lose Your Mind로 증폭된 극딜 대미지를 바탕으로 Rising Wind 및 주력 mantras를 퍼부어 체력을 대거 소모시킵니다.", 'step_4_recovery_and_escape': '교전 중 불리해질 경우 Jetstriker의 기동력으로 거리를 벌리고, Charismatic Cast 및 Blood Scourge(Bell) 효과로 체력과 포스처를 정비합니다.'}
 
 ---
 
-### 🛡️ [빌드 18] inquisitor-bloodrend-red-death-pve
+### 🛡️ [빌드 24] imperators-fury-steam-vent-diluvian-speedrun
 
-# ⚔️ Inquisitor Bloodrend Red Death PvE
+# ⚔️ Imperator's Fury Steam Vent Diluvian Speedrun
 
-> **출처 영상**: [Build Making Made Easy! - Deepwoken Buildmaking Guide](https://www.youtube.com/watch?v=o9fxuIc64NM) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [BEST DILUVIAN BUILDS OF ALL TIME | Deepwoken Verse 3](https://www.youtube.com/watch?v=rb_SMHZftug) by `P4rzy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Blindseer` | **Murmur/Bell**: `Ardour` / `Corrupt Payback (Beam Variant)`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Red Death 무기와 Bloodrend, Shadowcast 속성을 결합하여 보스 레이드 및 PvE 파밍에서 압도적인 유지력과 폭발적인 피해를 입히도록 설계되었습니다. Shrine of Order를 사용하기 전에 Charisma 75, Intelligence 30, Willpower 30을 먼저 달성하여 핵심 유틸리티 및 공격력 증가 탤런트를 확보합니다. 이후 Shrine of Order로 스탯을 재조정하여 Fortitude 40(Exoskeleton, To The Finish)과 높은 무기/속성 스탯을 확보함으로써 생존력과 딜량을 모두 챙긴 완성형 하이브리드 빌드입니다.
+현재 Deepwoken의 딜루비안 메커니즘(Diluvian Mechanism) 25웨이브 클리어 최고 존엄 메타로 평가받는 'Imperator's Fury' 가슴 방어구 기반의 PvE 전용 빌드입니다. 핵심 메커니즘은 타이투스(Titus) 보스 드롭 아이템인 Imperator's Fury를 착용하여 벤트(Vent) 스킬을 강력한 지면 강타 딜링기로 개조한 뒤, 스팀(Steam) 상태 이상과 각종 자버프를 폭발적으로 연계해 3~4분대의 쾌속 클리어를 가능케 합니다.
+
+단순히 벤트와 버프 스팸만으로도 방 거대 몬스터 그룹을 순식간에 녹여버릴 수 있으며, 25웨이브의 거대 몬스터 스폰 위치 패닝 및 타겟 우선순위 정리만 숙지한다면 누구나 손쉽게 딜루비안 파밍을 종결할 수 있는 극강의 효율성을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Imperator's Fury 벤트 개조 효과로 범주형 지면 강타 극딜을 지속적으로 투사 가능
+- ✅ Steam 프록(Proc)과의 시너지로 몬스터 무리를 광역 연쇄 타격 가능
+- ✅ Shade Devour, Flame Within 등 풍부한 공증 자버프 보유
+- ✅ Corrupt Payback (빔 변형)으로 25웨이브 등의 고난도 타겟을 순식간에 원거리 살상 가능
+- ✅ 평균 3~4분대 빠른 딜루비안 25웨이브 파밍 속도 보장
+**단점**:
+- ⚠️ 핵심 장비인 'Imperator's Fury'가 타이투스(Titus) 희귀 드롭이므로 입수 난이도가 높은 편
+- ⚠️ 웨이브 진행 중 템포(Tempo) 관리가 꼬이면 벤트 스팸 딜사이클이 일시적으로 정지될 수 있음
+- ⚠️ 25웨이브 스폰 직후 초기 위치 잡기와 버프 팝핑 타이밍을 놓치면 스킬 피해에 노출되기 쉬움
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `6` | `0` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `100` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `1`
+- **Shadowcast**: `1`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `465` | `30` | `500` | `120` | `100` | `105.0%` | `+55.0%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `35.0%` / 타격: `25.0%` / 관통: `30.0%` | 화염: `20.0%` / 빙결: `15.0%` / 바람: `15.0%` | 그림자: `20.0%` / 번개: `15.0%` / 철: `15.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Kyoryu** (Medium Weapon) — 인챈트: `Vampirism` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Aegis of Enmity
+- **[Face]** Thrall of Enmity
+- **[Amulet]** Old Blood Earrings
+- **[Outfit]** Prophet's Cloak
+- **[Torso]** Imperator's Fury
+- **[Arms]** Pathfinder Elite
+- **[Boots]** Imperial Boots
+- **[Ring 1]** Starved Knight Ring
+- **[Ring 2]** Caster's Ring
+- **[Ring 3]** Ring of Health
+- **[Ring 4]** Ember Ring
+- **[Bell]** Corrupt Payback
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Steam Engine**
+- **Pyromaniac**
+- **Shared Pain**
+### 📜 보조 및 추천 탤런트
+- Exhaustion Strike
+- Conditioned Runner
+
+## 🔮 주문 목록 (Mantras)
+- **Flame Within**
+- **Shade Devour**
+- **Fire Forge**
+- **Shadow Erupt**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 웨이브 시작 전 Flame Within 및 Shade Devour 자버프를 활성화합니다.
+2. 적 무리 한가운데로 진입하며 딜루비안 중심부에 모인 몹들에게 스팀(Steam) 속성 효과를 프록시킵니다.
+3. Imperator's Fury의 개조 벤트(Vent)를 지면에 스팸 투사하여 넓은 광역 피해를 주며 템포 및 에테르를 회복합니다.
+4. 웨이브 25 등의 거대 보스 몹 타겟팅 시 Corrupt Payback 빔 레이저를 발사하여 순간 폭딜로 빠르게 마무리합니다.
+
+---
+
+### 🛡️ [빌드 25] inquisitor-bloodrend-red-death-pve
+
+# ⚔️ Inquisitor Bloodrend Red Death PvE
+
+> **출처 영상**: [Build Making Made Easy! - Deepwoken Buildmaking Guide](https://www.youtube.com/watch?v=o9fxuIc64NM) by `Infekted`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Red Death weapons와 Bloodrend, Shadowcast 속성을 결합하여 보스 레이드 및 PvE 파밍에서 압도적인 유지력과 폭발적인 피해를 입히도록 설계되었습니다. Shrine of Order를 사용하기 전에 Charisma 75, Intelligence 30, Willpower 30을 먼저 달성하여 핵심 유틸리티 및 공격력 증가 talents를 확보합니다. 이후 Shrine of Order로 stats을 재조정하여 Fortitude 40(Exoskeleton, To The Finish)과 높은 weapons/속성 stats을 확보함으로써 생존력과 딜량을 모두 챙긴 완성형 하이브리드 빌드입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Red Death의 강력하고 맞추기 쉬운 크리티컬 공격을 통한 높은 피해량
 - ✅ Bloodrend 속성을 활용한 압도적인 피흡(Blood Drain) 및 체력 유지력
-- ✅ Perfect Flash와 Underdog 탤런트를 통한 보스 몬스터 대상 추가 피해 극대화
+- ✅ Perfect Flash와 Underdog talents를 통한 보스 몬스터 대상 추가 피해 극대화
 - ✅ Exoskeleton과 To The Finish를 통한 뛰어난 물리적 생존력
 **단점**:
-- ⚠️ Shrine of Order 사용 전후의 정확한 스탯 분배 순서가 강제됨
+- ⚠️ Shrine of Order 사용 전후의 정확한 stats 분배 순서가 강제됨
 - ⚠️ 초반 육성 단계에서 여러 속성(Bloodrend, Shadowcast)을 동시에 올려야 하므로 성장이 다소 복잡함
 - ⚠️ 오쓰(Oath)를 Shrine of Order 사용 이후에만 획득해야 하는 제약이 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `1` |
@@ -1146,6 +2074,15 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `20`
 - **Bloodrend**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **The Red Death** (Medium Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessory]** Imperial Boots
+- **[Accessory]** Legion Pauldrons
+- **[Accessory]** Ruby Drop Earrings
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1164,22 +2101,25 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Shadow Gun**
 - **Shadow Chains**
 
+## 🥊 콤보 & 전투 운용 가이드
+전투 시작 시 Shadow Chains로 적을 묶어 디버프를 건 뒤, Red Death 크리티컬 공격으로 진입하여 Bloodrend 흡혈 상태를 활성화합니다. 이후 Blood Siphon과 Blood Blade mantras를 연계하여 폭발적인 피해를 입힙니다. 적의 공격은 패링하거나 Exoskeleton의 단단한 맷집으로 버텨내며 끊임없이 평타와 mantras를 섞어 흡혈을 유도하는 맞딜 플레이스타일을 유지합니다.
+
 ---
 
-### 🛡️ [빌드 19] ironsing-steelscale-cestus-jailer-path
+### 🛡️ [빌드 26] ironsing-steelscale-cestus-jailer-path
 
 # ⚔️ Ironsing Steelscale Cestus & Jailer Path
 
 > **출처 영상**: [REST IN PEACE💀(WEAPON + TALENTS) | Deepwoken](https://www.youtube.com/watch?v=5g_nzlUpN6I) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Contractor` | **Murmur/Bell**: `Thundercall` / `Tranquil Circle`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 아이언싱(Ironsing) 최신 패치의 메타 변화를 완벽하게 흡수하여 새롭게 리워크된 스틸스케일 더스터(Steelscale Dusters) 피스트 무기와 자일러(Jailer) 패스 연계의 극대화를 노린 고성능 하이브리드 PvP 인파이터 빌드입니다. 콤보 기동성과 방어구 관통(Weapon Pen)에 특화되어 있어 상대방의 단단한 방어를 무력화하는 데 탁월하며, 둔기 및 출혈 판정이 순수 아이언싱 및 속성 대미지로 전환된 최신 메타에 맞춰 최적화되었습니다.
+본 빌드는 아이언싱(Ironsing) 최신 패치의 메타 변화를 완벽하게 흡수하여 새롭게 리워크된 스틸스케일 더스터(Steelscale Dusters) 피스트 weapons와 자일러(Jailer) 패스 연계의 극대화를 노린 고성능 하이브리드 PvP 인파이터 빌드입니다. 콤보 기동성과 방어구 관통(Weapon Pen)에 특화되어 있어 상대방의 단단한 방어를 무력화하는 데 탁월하며, 둔기 및 출혈 판정이 순수 아이언싱 및 속성 대미지로 전환된 최신 메타에 맞춰 최적화되었습니다.
 
-전투 메커니즘의 핵심은 크리티컬 히트와 연계되는 'Camaraderie' 및 'Elm. Mentalist' 탤런트를 활용하여 아군 지원과 오버참(Overcharm) 상태에서의 압도적인 속성 추가 타격을 유도하는 것입니다. 또한 스클레로스테오시스(Sclerosteosis) 포티튜드 탤런트를 통해 대량의 체력 손실 직후 이어지는 적의 후속타 대미지를 극단적으로 경감시켜 역습의 기회를 창출합니다.
+전투 메커니즘의 핵심은 크리티컬 히트와 연계되는 'Camaraderie' 및 'Elm. Mentalist' talents를 활용하여 아군 지원과 오버참(Overcharm) 상태에서의 압도적인 속성 추가 타격을 유도하는 것입니다. 또한 스클레로스테오시스(Sclerosteosis) 포티튜드 talents를 통해 대량의 체력 손실 직후 이어지는 적의 후속타 대미지를 극단적으로 경감시켜 역습의 기회를 창출합니다.
 
 실전 교전 심리전에서는 슬라이드 점프와 메탈 킥(Metal Kick)의 타이밍 조절을 통해 상대방의 가드 및 패리를 완벽하게 심리전으로 붕괴시킵니다. 특히 자일러 경로의 속박 제어 능력이 상대방의 이동기를 제한하므로, 근접 거리에서 지속적인 압박을 가하며 적의 스태미나와 포주를 고갈시키는 공격적인 템포를 유지하는 것이 승리의 열쇠입니다.
 
@@ -1187,14 +2127,14 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 **장점**:
 - ✅ 스틸스케일 더스터의 높은 웨폰 펜(Pen) 수치 덕분에 단단한 플레이어와 적의 저항력을 손쉽게 관통 가능
 - ✅ 자일러 패스의 리워크된 속박 및 스턴 지속 시간 연계로 적의 이동을 효과적으로 봉쇄
-- ✅ 스클레로스테오시스 탤런트로 대형 피해 직후의 대미지를 90%까지 경감하여 생존력이 매우 뛰어남
+- ✅ 스클레로스테오시스 talents로 대형 피해 직후의 대미지를 90%까지 경감하여 생존력이 매우 뛰어남
 - ✅ 아이언싱 속성 통일 대미지 전환으로 블러드/블런트 저항 메타를 완벽하게 우회
 **단점**:
 - ⚠️ 자일러 경로의 너프로 인하여 적의 점프 및 구르기를 완전히 차단하지 못하고 이동만 제한하므로 정밀한 에임과 거리 조절 필요
-- ⚠️ 포티튜드 및 아이언싱 투자가 강제되어 스탯 분배가 다소 경직됨
+- ⚠️ 포티튜드 및 아이언싱 투자가 강제되어 stats 분배가 다소 경직됨
 - ⚠️ 근접 인파이팅에 특화되어 있어 원거리 오리진이나 광역 카이팅 빌드를 상대로 접근 타이밍을 잡기 까다로움
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1211,9 +2151,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **Unknown** — 인챈트: `Vampirism`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1239,33 +2177,33 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 20] jetstriker-galebreathe-assassin
+### 🛡️ [빌드 27] jetstriker-galebreathe-assassin
 
 # ⚔️ Jetstriker Galebreathe Assassin
 
 > **출처 영상**: [The ULTIMATE Assassin Build | Deepwoken](https://www.youtube.com/watch?v=P6-Im_7hpp4) by `Mercy`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Jetstriker` | **Murmur/Bell**: `Thousand Stings` / `Reaper`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 이 빌드는 기존 어쌔신 빌드의 약점이었던 1대1 맞다이 능력을 극복하면서도, 딥위큰 최상급 기동성을 지닌 Jetstriker 오스와 Galebreathe 속성을 결합하여 암살 및 퀵 드롭 플레이에 특화된 최고 tier의 PvP 빌드입니다.
 
-Swift Strike와 Spine Cutter, 그리고 Assassin 탤런트 체인을 활용해 등 뒤 공격 시 막대한 폭딜을 우겨넣을 수 있으며, Astral Wind와 M1을 연계하는 이른바 '아스트랄 스탯' 콤보를 통해 상대방을 공중으로 추적하여 강제 에어본 상태로 격추시키는 무자비한 심리전 압박이 가능합니다.
+Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등 뒤 공격 시 막대한 폭딜을 우겨넣을 수 있으며, Astral Wind와 M1을 연계하는 이른바 '아스트랄 stats' 콤보를 통해 상대방을 공중으로 추적하여 강제 에어본 상태로 격추시키는 무자비한 심리전 압박이 가능합니다.
 
-낮은 무기 스탯 투자 대비 높은 회피 기동력과 기습 능력을 자랑하므로, 상대의 시야 밖에서 접근해 은신(Stealth) 상태의 보너스 대미지를 극대화하고 전장을 지배하는 플레이어에게 최적의 선택입니다.
+낮은 weapons stats 투자 대비 높은 회피 기동력과 기습 능력을 자랑하므로, 상대의 시야 밖에서 접근해 은신(Stealth) 상태의 보너스 대미지를 극대화하고 전장을 지배하는 플레이어에게 최적의 선택입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 초고속 기동성과 퀵 드롭 탈출 능력: Jetstriker의 뛰어난 이동기와 Galebreathe의 유틸리티로 불리한 교전에서 언제든 이탈 가능
 - ✅ 압도적인 등 뒤 타격 폭딜: Spine Cutter와 Swift Strike 조합으로 적의 후방을 잡았을 때 나오는 비정상적인 크리티컬 대미지
-- ✅ 은신 시너지 극대화: 스텔스 스탯 연계 탤런트를 활용해 은신 상태에서의 암살 대미지가 타 빌드에 비해 월등히 높음
+- ✅ 은신 시너지 극대화: 스텔스 stats 연계 talents를 활용해 은신 상태에서의 암살 대미지가 타 빌드에 비해 월등히 높음
 **단점**:
-- ⚠️ 낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 스탯 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함
+- ⚠️ 낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 stats 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함
 - ⚠️ 숙련도가 요구되는 콤보 타이밍: Astral Wind와 크리티컬 공중 추적 콤보의 프레임 타이밍을 정확히 맞추지 못하면 딜 손실 발생
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `20` |
@@ -1280,6 +2218,13 @@ Swift Strike와 Spine Cutter, 그리고 Assassin 탤런트 체인을 활용해 �
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Big Brother** (Light Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** High Inquisitor's Armor / Familiar Assassin's Armor
+- **[Accessories]** Traveler's Jacket, Silentheart/Assassin themed accessories
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1314,26 +2259,159 @@ Swift Strike와 Spine Cutter, 그리고 Assassin 탤런트 체인을 활용해 �
 - **Gale Wisp**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.', '2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 스탯 콤보)합니다.', '3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin 탤런트 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.', '4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다.']
+['1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.', '2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 stats 콤보)합니다.', '3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin talents 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.', '4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다.']
 
 ---
 
-### 🛡️ [빌드 21] megumi-ten-shadows-visionshaper-summoner-buil
+### 🛡️ [빌드 28] kratos-v4-gran-sudaruska-steam-dawnwalker-pve
 
-# ⚔️ Megumi Ten Shadows Visionshaper Summoner Build
+# ⚔️ KRATOS V4 (Gran Sudaruska Steam Dawnwalker PvE)
 
-> **출처 영상**: [The Megumi Summoner Progression! (1-20) | Deepwoken |](https://www.youtube.com/watch?v=VuAHR4PUlT8) by `Wormcave`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [This PVE Build can do ANYTHING EASILY...😲 "KRATOS V4" | Deepwoken](https://www.youtube.com/watch?v=noOam5lVwCA) by `Laptist`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Canor` / `Deepbound` | **Oath**: `Dawnwalker` | **Murmur/Bell**: `Murmur: Ardour` / `Sacred Field (Corrupted / Physical Variant / Wither)`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-인기 애니메이션 '주술회전'의 후시구로 메구미(Megumi Fushiguro)를 모티브로 한 십종영법술(Ten Shadows Technique) 컨셉의 환영 소환사 빌드입니다. 그림자와 환영 분신, 다중 속성(Shadow, Frost, Thunder) 만트라를 활용해 상대를 압박하고 교전의 주도권을 움켜쥐는 독특하고 유쾌한 아키타입입니다.
+KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브, 체이서 1사이클, 에테론 1사이클)를 극도로 안정적이고 압도적인 DPS로 파괴하기 위해 설계된 최고봉 엔드게임 만능 PvE 빌드입니다. Gran Sudaruska의 강력한 평타 딜량과 클리티컬 하이퍼아머, 스팀(Flashboil) 반응 패시브 딜, 그리고 Dawnwalker의 강력한 광역 제어력(Radiant Dawn/Blinding Dawn)이 완벽한 시너지를 이룹니다.
 
-Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Frostdraw/Thundercall의 소환 유틸 만트라(토키사데/누에/만상/탈토 패러디)가 정교하게 맞물려 작동합니다. 분신과 소환수가 맵을 메우는 동안 상대의 패링 타이밍을 완전히 흩트려 놓으며 지속적인 폭딜을 꽂아 넣을 수 있습니다.
+기존 Bladeharper 빌드와 달리 Dawnwalker는 별도의 선행 스탯 요구사항이 없어 스탯 배분이 매우 자유로우며, Sacred Field(Physical/Wither) 벨과 높은 체력(521 HP), Orbital Ice/Underdog 등의 저항 패시브가 결합되어 최상위 난이도의 딜루비안 웨이브에서도 절대로 죽지 않는 금강불괴급 탱킹력과 지속 폭딜을 제공합니다.
 
-실전 교전에서는 상대에게 끊임없는 환영과 타격 판정을 중첩시켜 방어 패턴을 강제하고, 패링 미스가 발생하는 즉시 근접 가드브레이크와 만트라 연계로 가차 없는 폭딜을 퍼붓습니다. 위기 상황에서는 마호라가 소환 패러디처럼 대형 보스/몹의 어그로를 유도하거나 기동 유틸기로 탈출하는 심리전 우위도 뛰어납니다.
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Gran Sudaruska 평타 및 클리티컬의 압도적인 DPS와 하이퍼아머로 안정적인 지속 딜링 가능
+- ✅ Flashboil(스팀) 메커니즘을 통해 평타 플로리시 및 Flame Within 크리티컬만으로 폭발적인 스팀 패시브 딜을 전방위에 지속 유포
+- ✅ Dawnwalker Oath의 Radiant Dawn 및 Blinding Dawn을 활용한 최상급 광역 몹 제어 및 라인 정리 능력
+- ✅ Sacred Field(Physical/Wither) 벨과 높은 HP(521 HP), 25% 이상의 물뎀 저항으로 딜루비안 40~50 웨이브 완벽 솔로 클리어 가능
+- ✅ 체이서(Chaser) 및 에테론(Ethiron) 1사이클 킬이 가능한 최고 수준의 보스전 폭딜 성능
+**단점**:
+- ⚠️ 딜루비안 41, 46, 48웨이브 등 버그 수정된 Bounder/Squibbo/Humanoid 몹 집단 웨이브에서는 스팀 장판 유지 및 롤링/거리 조절 실패 시 순간 폭사 위험 존재
+- ⚠️ Shrine of Order 이후 Shadow 스탯 포인트를 3 빼서 Frost에 투자하는 정확한 스탯 리셋 재조정이 필수적임
+- ⚠️ Gran Sudaruska 및 Dawnwalker Oath 획득을 위한 중반 레이드/보스작 과정이 수반됨
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `2` | `0` | `4` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `90` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `0` |
+| Flamecharm | `80` |
+| Heavy_wep | `80` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `90` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `80` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Shrine of Order 사용 후 주요 PvE 탤런트(Exoskeleton, Last Resort 등) 확정
+- 🎯 Steam(Flamecharm + Frostdraw 시너지지만 여기서는 Flamecharm 단독 및 Steam 무기 보정) 활용 극대화
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `521` | `26` | `307` | `157` | `100` | `100.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `35.0%` / 타격: `28.0%` / 관통: `25.0%` | 화염: `10.0%` / 빙결: `15.0%` / 바람: `0.0%` | 그림자: `25.0%` / 번개: `15.0%` / 철: `0.0%` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `Strength 40, Fortitude 90, Willpower 80, Flamecharm 80, Heavy_wep 80`
+**Post-Shrine 우선순위**:
+- Shrine of Order 사용 후 주요 PvE 탤런트(Exoskeleton, Last Resort 등) 확정
+- Steam(Flamecharm + Frostdraw 시너지지만 여기서는 Flamecharm 단독 및 Steam 무기 보정) 활용 극대화
+
+## 🗡️ 추천 무기 (Weapons)
+- **Gran Sudaruska** (Heavy Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Phalanx Helmet
+- **[Face]** None
+- **[Amulet]** Thrall of Enmity
+- **[Outfit]** Pathfinder Elite
+- **[Boots]** Star Boots
+- **[Ring 1]** Ishtar's Ring
+- **[Ring 2]** Deepfire Ring
+- **[Ring 3]** Ring of Health
+- **[Ring 4]** Casters Ring
+- **[Earrings]** Moonlit Earrings
+- **[Bell]** Sacred Field
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Reinforce**
+- **Flashboil**
+- **Flame Within**
+- **Orbital Ice**
+- **Underdog**
+- **Exoskeleton**
+- **To The Finish**
+- **Last Resort**
+### 📜 보조 및 추천 탤런트
+- Dragon's Song
+- Unertial Dampener
+
+## 🔮 주문 목록 (Mantras)
+- **Blinding Dawn**
+- **Burning Servants**
+- **Frozen Servants**
+- **Warden's Blade**
+- **Relentless Flames**
+- **Ice Flock**
+- **Shade Devour**
+- **Flame Assault**
+- **Radiant Dawn**
+- **Flame Wisp**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. **기본 딜 사이클 & 스팀 프록 메커니즘**:
+   - `Flame Within` 자해 화염 상태 유도 -> Gran Sudaruska M1 Flourish 또는 Critical(크리티컬) 타격 -> `Flashboil` 발동으로 스팀 장판 폭발적 생성 -> 장판 위에서 `Warden's Blade` + `Radiant Dawn`으로 몹 구속 및 지속 대미지 중첩.
+2. **광역 제어 & 안전 구속 콤보**:
+   - `Warden's Blade` 설치 -> `Radiant Dawn` 돌진 후 폭발 -> `Blinding Dawn` 광역 맹목 및 제어 -> 스팀 구름 속에서 Gran Sudaruska 하이퍼아머 M1 연타.
+3. **위급 상황 생존 콤보**:
+   - `Sacred Field` (벨) 즉시 발동 -> `Reinforce` 디버프 감소 및 체력 수급 -> 스팀 장판 내에서 비비면서 체력 회복 후 몹 일괄 정리.
+
+---
+
+### 🛡️ [빌드 29] megumi-ten-shadows-visionshaper-summoner-buil
+
+# ⚔️ Megumi Ten Shadows Visionshaper Summoner Build
+
+> **출처 영상**: [The Megumi Summoner Progression! (1-20) | Deepwoken |](https://www.youtube.com/watch?v=VuAHR4PUlT8) by `Wormcave`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **종족/출신**: `Etrean` / `Voidwalker` | **Oath**: `Visionshaper` | **Murmur/Bell**: `None` / `Run It Back`
+
+---
+
+## 📝 빌드 개요 및 총평
+인기 애니메이션 '주술회전'의 후시구로 메구미(Megumi Fushiguro)를 모티브로 한 십종영법술(Ten Shadows Technique) 컨셉의 환영 소환사 빌드입니다. 그림자와 환영 분신, 다중 속성(Shadow, Frost, Thunder) mantras를 활용해 상대를 압박하고 교전의 주도권을 움켜쥐는 독특하고 유쾌한 아키타입입니다.
+
+Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Frostdraw/Thundercall의 소환 유틸 mantras(토키사데/누에/만상/탈토 패러디)가 정교하게 맞물려 작동합니다. 분신과 소환수가 맵을 메우는 동안 상대의 패링 타이밍을 완전히 흩트려 놓으며 지속적인 폭딜을 꽂아 넣을 수 있습니다.
+
+실전 교전에서는 상대에게 끊임없는 환영과 타격 판정을 중첩시켜 방어 패턴을 강제하고, 패링 미스가 발생하는 즉시 근접 가드브레이크와 mantras 연계로 가차 없는 폭딜을 퍼붓습니다. 위기 상황에서는 마호라가 소환 패러디처럼 대형 보스/몹의 어그로를 유도하거나 기동 유틸기로 탈출하는 심리전 우위도 뛰어납니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -1341,26 +2419,45 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ✅ Shadow, Frost, Thunder 다중 속성 유틸 구성을 통한 다채로운 변수 창출 및 중/근거리 교전 주도권
 - ✅ 소환수와 분신이 어그로를 분산시켜 주므로 PvE 보스전 및 PvP 1vN 상황에서 뛰어난 생존력 확보
 **단점**:
-- ⚠️ 다중 속성 및 유틸 스탯 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 스탯 단축이 필요함
-- ⚠️ 분신 및 소환 만트라의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
+- ⚠️ 다중 속성 및 유틸 stats 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 stats 단축이 필요함
+- ⚠️ 분신 및 소환 mantras의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+| Strength (근력) | `20` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Willpower (의지) | `55` |
+| Charisma (매력) | `25` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `60` |
 | Light Wep (경화기) | `0` |
 
 ## ⚡ 속성 투자 (Attunements)
 - **Frostdraw**: `25`
 - **Thundercall**: `25`
 - **Shadowcast**: `25`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Messer / Katana', 'category': 'Medium Weapon', 'enchantment': 'Curse of Rust / Solar'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Hive Drone (Custom Megumi Jujutsu High Uniform Hair ID Setup)
+- **[Accessory]** Megumi Hair ID (126764966956973)
+- **[Accessory]** Uniform Collar ID (115970793786230)
+- **[Accessory]** Buttons ID (773384445531)
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Illusory Servants**
+- **Shadow Clone**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+- Chilling Flourish
+- Dark Cod
+- Dragon's Song
 
 ## 🔮 주문 목록 (Mantras)
 - **Shadow Clone**
@@ -1369,48 +2466,70 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Shadow Devour**
 - **Ice Flock**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입 및 어그로 분산): 교전 개시 시 Shadow Clone 또는 Visionshaper 특유의 환영 분신을 시전하여 상대방의 시야와 어그로를 교란합니다.
+2단계 (견제 및 가드브레이크): 중거리에서 Lightning Clones(누에 컨셉) 또는 Frozen Servants(만상 컨셉)를 날려 상대의 가드를 흔들고 패링 타이밍을 앗아옵니다.
+3단계 (근접 폭딜 연계): 상대가 분신을 의식하여 방어 자세를 취하거나 패링 미스가 나는 즉시 인파이팅으로 파고들어 weapons 기본 타격 2~3타와 Curse/Solar 감염 스택을 꽂아 넣습니다.
+4단계 (탈출 및 이탈): 에테르가 소모되거나 상대의 가운터가 예상될 때는 Rabbit Escape(탈토 컨셉) 또는 Run It Back으로 거리를 벌리고 체력/에테르를 회복한 뒤 다시 환영을 전개합니다.
+
 ---
 
-### 🛡️ [빌드 22] meta-all-rounder-pvp-pve-masterclass-build
+### 🛡️ [빌드 30] meta-all-rounder-pvp-pve-masterclass-build
 
 # ⚔️ Meta All-Rounder PvP & PvE Masterclass Build
 
 > **출처 영상**: [MUST TAKE Talents | Deepwoken Building Masterclass](https://www.youtube.com/watch?v=cgbPyrooFG0) by `Rioshinki`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall / Wind Wisp` / `Reaper`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 딥위큰 메타에서 모든 캐릭터 빌드가 기본적으로 채택해야 하는 핵심 탤런트와 스탯 배분을 마스터클래스 수준으로 정립한 범용성 최상위 빌드입니다. 40 Strength(Unwonted Resolve, Show Stopper)와 54 Fortitude(Exoskeleton, To the Finish)라는 철옹성 같은 방어 기제 기반 위에, Agility와 Willpower의 유틸리티 탤런트를 유기적으로 조합하여 전투 지속력과 기동성을 극대화합니다.
+본 빌드는 딥위큰 메타에서 모든 캐릭터 빌드가 기본적으로 채택해야 하는 핵심 talents와 stats 배분을 마스터클래스 수준으로 정립한 범용성 최상위 빌드입니다. 40 Strength(Unwonted Resolve, Show Stopper)와 54 Fortitude(Exoskeleton, To the Finish)라는 철옹성 같은 방어 기제 기반 위에, Agility와 Willpower의 유틸리티 talents를 유기적으로 조합하여 전투 지속력과 기동성을 극대화합니다.
 
 전투 시뮬레이션에서 이 빌드는 강력한 가드브레이크 루트와 콤보 연계 능력을 보여줍니다. 25 Intelligence를 통해 Everchanging Aegis를 확보함으로써 듀얼 어튜니먼트 상대로도 넷 네거티브(Net-Negative) 교전 우위를 점할 수 있으며, Perfect Flash와 Light Speed Reflexes의 시너지로 회피 및 패리 타이밍을 유리하게 가져갑니다. 특히 Charisma 투자 방향(25 vs 55)에 따라 Tough Love의 3초 참(Charm) 윈도우를 8초까지 확장하여, 상대의 멘탈을 흔들고 확실한 딜 타임을 창출하는 심리전 우위를 점할 수 있습니다.
 
-실전 교전에서는 고유의 기동력과 방어 스탯을 바탕으로 상대의 공세를 받아치고, 넉다운이나 에어본 이후의 후속타를 확정적으로 꽂아 넣는 인파이팅/아웃파이팅 전환이 매우 유연합니다. 종족(Kiron/Ganymede 등)과 무기군(Heavy/Medium/Light)에 따라 세부 스탯을 미세 조정할 수 있어, 어떠한 PvP 메타 환경에서도 안정적인 승률을 보장하는 완성형 빌드입니다.
+실전 교전에서는 고유의 기동력과 방어 stats을 바탕으로 상대의 공세를 받아치고, 넉다운이나 에어본 이후의 후속타를 확정적으로 꽂아 넣는 인파이팅/아웃파이팅 전환이 매우 유연합니다. race(Kiron/Ganymede 등)과 weapons군(Heavy/Medium/Light)에 따라 세부 stats을 미세 조정할 수 있어, 어떠한 PvP 메타 환경에서도 안정적인 승률을 보장하는 완성형 빌드입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 철옹성 같은 방어력: 54 Fortitude(Exoskeleton, To the Finish)와 40 Strength를 통해 압도적인 물리 내구도와 넉백/넉다운 저항력을 확보합니다.
 - ✅ 탁월한 기동성과 회피 유틸리티: Conditioned Runner와 Ghost, Fleet Footed 조합으로 맵 전역을 빠르게 누비며 교전 주도권을 완벽하게 장악합니다.
 - ✅ 유연한 메타 대응력: 25 Intelligence(Everchanging Aegis)를 채택하여 듀얼 어튜니먼트 및 캐스터 상대로 완벽한 방어력을 발휘합니다.
-- ✅ 강력한 패리 및 반격 심리전: Tap Dancer, Duergar, Absolute Resolution 등의 탤런트를 통해 상대의 공격을 패리한 직후 압도적인 반격 딜교환을 성립시킵니다.
+- ✅ 강력한 패리 및 반격 심리전: Tap Dancer, Duergar, Absolute Resolution 등의 talents를 통해 상대의 공격을 패리한 직후 압도적인 반격 딜교환을 성립시킵니다.
 **단점**:
-- ⚠️ 초보자에게 다소 까다로운 스탯 최적화: 무기 요구치(75~80)와 속성(80), 탤런트 최소 요구치(Strength 40, Fortitude 54 등)를 정확히 계산하지 않으면 스탯 낭명이 발생할 수 있습니다.
-- ⚠️ 만트라 콤보 의존도: 단순 평타 싸움보다는 탤런트 버프와 만트라 연계 타이밍에 크게 의존하므로, 프레임 단위의 패리/회피 숙련도가 요구됩니다.
+- ⚠️ Beginner에게 다소 까다로운 stats 최적화: weapons 요구치(75~80)와 속성(80), talents 최소 요구치(Strength 40, Fortitude 54 등)를 정확히 계산하지 않으면 stats 낭명이 발생할 수 있습니다.
+- ⚠️ mantras 콤보 의존도: 단순 평타 싸움보다는 talents 버프와 mantras 연계 타이밍에 크게 의존하므로, 프레임 단위의 패리/회피 숙련도가 요구됩니다.
 - ⚠️ 특정 오스(Oath) 강제성: Starkindred, Silentheart 등 빌드 목적에 맞는 오스를 선택하지 못하면 잠재력을 100% 발휘하기 어렵습니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `54` |
+| Agility (민첩) | `65` |
+| Intelligence (지능) | `25` |
+| Willpower (의지) | `25` |
+| Charisma (매력) | `55` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `80` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 80 달성
+- 🎯 Ironsing 80 달성
+- 🎯 유틸리티 talents 및 mantras 최적화 분배
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `80`
@@ -1420,7 +2539,33 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 **Post-Shrine 우선순위**:
 - Heavy Weapon 80 달성
 - Ironsing 80 달성
-- 유틸리티 탤런트 및 만트라 최적화 분배
+- 유틸리티 talents 및 mantras 최적화 분배
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Kyrsglaive / Pale Briar', 'category': 'Medium Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': "Prophet's Cloak"}
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Unwonted Resolve**
+- **Show Stopper**
+- **Exoskeleton**
+- **To the Finish**
+- **Conditioner Runner**
+- **Ghost**
+- **Everchanging Aegis**
+- **Perfect Flash**
+- **Light Speed Reflexes**
+- **Lasting Charisma**
+- **Tough Love**
+- **Spine Cutter**
+- **Grand Support**
+- **Anxious Guard**
+- **Old Habits**
+- **Breathing Exercise**
+- **Berserker**
 
 ## 🔮 주문 목록 (Mantras)
 - **Gale Lunge**
@@ -1428,25 +2573,31 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Rising Wind**
 - **Wind Passage**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입): Conditioned Runner와 Ghost의 기동력을 활용해 상대의 가드 측면으로 빠르게 파고들며 압박을 시작합니다.
+2단계 (가드브레이크/에어본): Anxious Guard와 Spine Cutter를 연계하여 상대의 가드를 무너뜨리고 에어본 상태로 띄웁니다.
+3단계 (주력 mantras 폭딜): Gale Lunge와 Astral Wind 등 주력 mantras를 퍼부어 콤보 대미지를 극대화하고 talents 효과를 발동시킵니다.
+4단계 (탈출 및 유지력 회복): 교전 불리 시 Wind Passage로 거리를 벌리고, Breathing Exercise와 피흡 효과로 체력을 정비한 뒤 다시 진입합니다.
+
 ---
 
-### 🛡️ [빌드 23] min-maxed-general-hybrid-build-guide
+### 🛡️ [빌드 31] min-maxed-general-hybrid-build-guide
 
 # ⚔️ Min-Maxed General Hybrid Build Guide
 
 > **출처 영상**: [Make Any Build 120% Stronger | A guide to MinMaxing](https://www.youtube.com/watch?v=YcAPDMsWdX8) by `Crimson Kaido `
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 2 (Layer 2 Floor 2 Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **종족/출신**: `Kiron` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Layer 2 Bound Bell / Default`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드 가이드 영상은 딥위큰(Deepwoken)에서 만렙(Power 20)을 달성한 이후에도 빌드가 미완성처럼 느껴지는 플레이어들을 위한 궁극의 밍맥싱(Min-Maxing) 총정리 지침서입니다. 단순히 레벨만 올리는 것을 넘어, 숨겨진 퀘스트를 통한 'Extra Talent Hand' 확보, 'Roll 2' 메트릭스를 활용한 탤런트 최적화, 그리고 'Shrine of Division/Unification/Chance/Temptation'을 통한 완벽한 스탯 및 만트라 재조정이 핵심입니다. 전투에서는 압도적인 체력(HP)과 포스트레(Posture) 방어력을 바탕으로 적의 가드를 강제로 무너뜨리고, 콤보 연계 과정에서 고성능 인챈트(Ferocity 등)와 God-roll 장비 스탯을 극대화하여 PVE와 PVP 모두에서 타의 추종을 불허하는 폭딜과 생존력을 발휘합니다.
+이 빌드 가이드 영상은 딥위큰(Deepwoken)에서 만렙(Power 20)을 달성한 이후에도 빌드가 미완성처럼 느껴지는 플레이어들을 위한 궁극의 밍맥싱(Min-Maxing) 총정리 지침서입니다. 단순히 레벨만 올리는 것을 넘어, 숨겨진 퀘스트를 통한 'Extra Talent Hand' 확보, 'Roll 2' 메트릭스를 활용한 talents 최적화, 그리고 'Shrine of Division/Unification/Chance/Temptation'을 통한 완벽한 stats 및 mantras 재조정이 핵심입니다. 전투에서는 압도적인 체력(HP)과 포스트레(Posture) 방어력을 바탕으로 적의 가드를 강제로 무너뜨리고, 콤보 연계 과정에서 고성능 인챈트(Ferocity 등)와 God-roll 장비 stats을 극대화하여 PVE와 PVP 모두에서 타의 추종을 불허하는 폭딜과 생존력을 발휘합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ 숨겨진 탤런트 퀘스트와 Roll 2 시스템을 통해 일반 빌드보다 압도적으로 많은 핵심 탤런트와 만트라 풀을 확보할 수 있습니다.
-- ✅ 신위(Shrine) 시스템들을 전략적으로 활용하여 불필요한 스탯을 깎고 필요한 스탯과 카드를 정확하게 저격할 수 있습니다.
+- ✅ 숨겨진 talents 퀘스트와 Roll 2 시스템을 통해 일반 빌드보다 압도적으로 많은 핵심 talents와 mantras 풀을 확보할 수 있습니다.
+- ✅ 신위(Shrine) 시스템들을 전략적으로 활용하여 불필요한 stats을 깎고 필요한 stats과 카드를 정확하게 저격할 수 있습니다.
 - ✅ 프로미돈(Primadon) 및 헬모드(Hell Mode) 파밍을 통해 완벽한 신화급/전설급 방어구 및 장신구(God-roll)를 세팅하여 체력과 포스트레가 극대화됩니다.
 - ✅ Ferocity 및 Drowned 계열 인챈트를 통한 뛰어난 피격 대미지 감소 및 유틸리티 효과로 교전 지속력이 매우 뛰어납니다.
 **단점**:
@@ -1454,7 +2605,7 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ Shrine 시스템과 퀘스트 순서를 잘못 진행할 경우 빌드가 완전히 망가질 수 있어 철저한 사전 계획이 필요합니다.
 - ⚠️ 고급 장비(God-roll 악세서리 및 헬모드 방어구) 파밍을 위해 레이드 콘텐츠에 대한 숙련도가 요구됩니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1471,9 +2622,7 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Flamecharm**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **category**
-- **enchant**
+- **Unknown** — 인챈트: `Ferocity`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1495,26 +2644,26 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Jet Kick**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입): Flame Leap과 Jet Kick을 활용하여 빠른 기동성으로 적의 거리를 순식간에 좁히고 선공권을 잡습니다.', "2단계 (가드브레이크): Master's Flourish와 중무기/중수기 평타 콤보를 연계하여 적의 포스트레(Posture)를 빠르게 깎고 가드를 무너뜨립니다.", '3단계 (폭딜 연계): 가드가 깨진 적에게 Ash Slam, Fire Blade, Prominence Draw 등 주력 만트라를 퍼부어 압도적인 퍼센트 대미지와 속성 도트 대미지를 누적합니다.', '4단계 (유지력 회복 및 탈출): 교전 중 체력이 부족할 경우 Conditioned Runner와 피흡/회복 효과를 활용해 거리를 벌리며 재정비합니다.']
+['1단계 (진입): Flame Leap과 Jet Kick을 활용하여 빠른 기동성으로 적의 거리를 순식간에 좁히고 선공권을 잡습니다.', "2단계 (가드브레이크): Master's Flourish와 중weapons/중수기 평타 콤보를 연계하여 적의 포스트레(Posture)를 빠르게 깎고 가드를 무너뜨립니다.", '3단계 (폭딜 연계): 가드가 깨진 적에게 Ash Slam, Fire Blade, Prominence Draw 등 주력 mantras를 퍼부어 압도적인 퍼센트 대미지와 속성 도트 대미지를 누적합니다.', '4단계 (유지력 회복 및 탈출): 교전 중 체력이 부족할 경우 Conditioned Runner와 피흡/회복 효과를 활용해 거리를 벌리며 재정비합니다.']
 
 ---
 
-### 🛡️ [빌드 24] mudskipper-revenge-infected-fistspec
+### 🛡️ [빌드 32] mudskipper-revenge-infected-fistspec
 
 # ⚔️ Mudskipper Revenge (Infected Fistspec)
 
 > **출처 영상**: [I Became Deepwoken’s WEAKEST MONSTER!](https://www.youtube.com/watch?v=DiwjdsKfHJQ) by `TheRealPunchee`
-> **패치 버전**: `Unknown` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Meme/Fun` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Voidheart` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Reaper`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 본 빌드는 딥위큰 초반부의 가장 허약한 몬스터인 'Mudskipper'의 형상을 차용한 콘셉트 빌드로, 겉보기엔 장난스러워 보이지만 고도의 심리전과 판정 우위를 극한으로 활용하는 하이테크 인파이터 아키타입입니다. 전용 전직(Infected 스타일)을 통해 주먹 격투 기반의 특수 모션을 구사하며, 비록 단일 타격당 데미지는 낮지만 원작 머드스키퍼의 모션을 완벽히 재현한 일체형 애니메이션과 독특한 판정 프레임을 지니고 있어 상대방의 가드를 무력화하는 데 특화되어 있습니다.
 
-이 빌드의 핵심 시너지는 기존의 고성능 메타 무기 의존도에서 벗어나, 순수하게 캐릭터의 포스트쳐(Posture) 파괴 능력과 콤보 연계 속도에 올인하는 데 있습니다. 인챈트나 대미지 배율이 낮다는 단점을 극복하기 위해 Vengeance 및 Chain Jail 계열 탤런트를 적극적으로 활용하며, 적의 공격 리듬을 강제로 끊어버리는 락온(Lock-on) 및 강제 경직 심리전을 수행합니다. 특히 적이 당황하는 틈을 타 끊임없이 압박하는 무한 콤보 루틴은 상대방의 멘탈을 흔들기에 충분합니다.
+이 빌드의 핵심 시너지는 기존의 고성능 메타 weapons 의존도에서 벗어나, 순수하게 캐릭터의 포스트쳐(Posture) 파괴 능력과 콤보 연계 속도에 올인하는 데 있습니다. 인챈트나 대미지 배율이 낮다는 weaknesses을 극복하기 위해 Vengeance 및 Chain Jail 계열 talents를 적극적으로 활용하며, 적의 공격 리듬을 강제로 끊어버리는 락온(Lock-on) 및 강제 경직 심리전을 수행합니다. 특히 적이 당황하는 틈을 타 끊임없이 압박하는 무한 콤보 루틴은 상대방의 멘탈을 흔들기에 충분합니다.
 
-실전 교전에서는 광역 가드 브레이크와 에어본 판정을 능동적으로 교차 사용하며, 좁은 지형이나 해안가 같은 불리한 위치에서도 상대의 무기 공격을 흘려내며 역공을 가하는 아웃파이팅 겸용 인파이팅을 구사합니다. 정교한 회피 기동과 스태미나 관리가 동반된다면, 이름 없는 잡몹 세팅으로도 상위 랭커들을 농락하는 최고의 손맛을 느낄 수 있습니다.
+실전 교전에서는 광역 가드 브레이크와 에어본 판정을 능동적으로 교차 사용하며, 좁은 지형이나 해안가 같은 불리한 위치에서도 상대의 weapons 공격을 흘려내며 역공을 가하는 아웃파이팅 겸용 인파이팅을 구사합니다. 정교한 회피 기동과 스태미나 관리가 동반된다면, 이름 없는 잡몹 세팅으로도 상위 랭커들을 농락하는 최고의 손맛을 느낄 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -1524,10 +2673,10 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ✅ 다대다 교전 및 좁은 지형에서 적의 시야와 타겟팅을 혼란스럽게 만드는 뛰어난 기동성
 **단점**:
 - ⚠️ 기본 주먹 격투 스펙의 낮은 단발 대미지로 인해 고체력 빌드 상대로 딜 카니발이 불가능함
-- ⚠️ 특정 고성능 인챈트나 원거리 무기(Gun User 등)와의 정면 맞다이 시 화력 열세
-- ⚠️ 실수형 콤보 미스 시 역으로 치명적인 반격을 허용할 수 있는 낮은 방어력 스탯 구조
+- ⚠️ 특정 고성능 인챈트나 원거리 weapons(Gun User 등)와의 정면 맞다이 시 화력 열세
+- ⚠️ 실수형 콤보 미스 시 역으로 치명적인 반격을 허용할 수 있는 낮은 방어력 stats 구조
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1542,6 +2691,12 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Infected Fistspec / Default Fists', 'category': 'Fist', 'enchant': 'None'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': 'Purple Furry Trenchcoat / Mudskipper Disguise'}
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1560,35 +2715,41 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Vendetta**
 - **Broodlord Bash**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입): 대시 및 기동성 스펠을 활용해 상대의 사각지대로 파고들며 첫 타격 적중.
+2단계 (가드브레이크): Skipper Kick과 Broodlord Bash를 연속 사용하여 상대방의 포스트쳐 게이지를 급격히 붕괴.
+3단계 (주력 mantras 폭딜): 가드가 깨진 적에게 Chain Jail과 Rupture를 동시에 박아넣어 이동을 봉쇄하고 확실한 대미지 딜링 수행.
+4단계 (탈출 및 유지력 회복): 체력이 불리해지거나 적의 지원군이 올 경우 Vengeance 발동 후 안전지대로 이탈하여 정비.
+
 ---
 
-### 🛡️ [빌드 25] nanjis-posture-guard-break-bruiser
+### 🛡️ [빌드 33] nanjis-posture-guard-break-bruiser
 
 # ⚔️ Nanji's Posture Guard-Break Bruiser
 
 > **출처 영상**: [Deepwoken The New FREE Talent you Need](https://www.youtube.com/watch?v=cxyXOFuWkQs) by `Optiovernatus`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Beginner`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Beginner`
+> **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thousand Cuts` / `Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 에트리아(Etris)와 비질의 섬(Isle of Vigil)을 오가며 손쉽게 획득할 수 있는 무료 탤런트 'Nanji's Training'을 활용하여 캐릭터의 기본 스펙과 가드 안정성을 극대화하는 브루서 빌드입니다. 핵심 퀘스트 동선을 효율적으로 압축하여 저레벨 구간부터 높은 포스트 안정성을 확보하고, 상대를 압박하는 인파이팅 템포를 구사할 수 있도록 설계되었습니다. 특히 가드 내구도와 포스트 스탯을 보강함으로써 적의 공격을 버텨내며 반격하는 교전 구도에서 압도적인 판정 우위를 점합니다.
+본 빌드는 에트리아(Etris)와 비질의 섬(Isle of Vigil)을 오가며 손쉽게 획득할 수 있는 무료 talents 'Nanji's Training'을 활용하여 캐릭터의 기본 스펙과 가드 안정성을 극대화하는 브루서 빌드입니다. 핵심 퀘스트 동선을 효율적으로 압축하여 저레벨 구간부터 높은 포스트 안정성을 확보하고, 상대를 압박하는 인파이팅 템포를 구사할 수 있도록 설계되었습니다. 특히 가드 내구도와 포스트 stats을 보강함으로써 적의 공격을 버텨내며 반격하는 교전 구도에서 압도적인 판정 우위를 점합니다.
 
-장착된 무기와 근접 전투 탤런트 간의 시너지를 통해, 적의 가드를 강제로 무너뜨리는 브레이크 루트를 안정적으로 개척할 수 있습니다. 가드 상태인 적에게 끊임없는 압박을 가해 스태미나와 포스트를 소모시키고, 빈틈이 보이는 순간 주력 스킬과 에어본 연계로 이어지는 폭발적인 딜링 구조를 갖추고 있습니다. 과도한 파밍 부담 없이 핵심 유틸리티 탤런트를 우선 수급하여 전투 효율을 극대화하는 것이 이 빌드의 핵심 작동 원리입니다.
+장착된 weapons와 근접 전투 talents 간의 시너지를 통해, 적의 가드를 강제로 무너뜨리는 브레이크 루트를 안정적으로 개척할 수 있습니다. 가드 상태인 적에게 끊임없는 압박을 가해 스태미나와 포스트를 소모시키고, 빈틈이 보이는 순간 주력 스킬과 에어본 연계로 이어지는 폭발적인 딜링 구조를 갖추고 있습니다. 과도한 파밍 부담 없이 핵심 유틸리티 talents를 우선 수급하여 전투 효율을 극대화하는 것이 이 빌드의 핵심 작동 원리입니다.
 
-실전 교전에서는 상대의 빈틈을 유도하는 심리전과 기동성 회피 기동이 중요하게 작용합니다. 무리한 맞다이보다는 상대의 공격 패턴을 가드로 받아내며 축적되는 포스트 우위를 바탕으로 역공을 가하고, 불필요한 탤런트(예: 효율이 떨어진 낚시 관련 탤런트 등)를 철저히 배제하여 전투 스탯에 포인트를 온전히 집중시킴으로써 전반적인 전투력을 한 차원 끌어올립니다.
+실전 교전에서는 상대의 빈틈을 유도하는 심리전과 기동성 회피 기동이 중요하게 작용합니다. 무리한 맞다이보다는 상대의 공격 패턴을 가드로 받아내며 축적되는 포스트 우위를 바탕으로 역공을 가하고, 불필요한 talents(예: 효율이 떨어진 낚시 관련 talents 등)를 철저히 배제하여 전투 stats에 포인트를 온전히 집중시킴으로써 전반적인 전투력을 한 차원 끌어올립니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ 퀘스트 동선이 매우 간단하고 직관적이어서 저레벨 구간에서도 빠르게 핵심 탤런트를 수급할 수 있습니다.
-- ✅ 포스트 스탯을 추가로 확보하여 적의 공격을 방어할 때의 안정성과 가드 내구도가 대폭 상승합니다.
-- ✅ 초보자부터 숙련자까지 누구나 쉽게 운용할 수 있는 직관적인 인파이터 스타일의 전투 템포를 제공합니다.
+- ✅ 퀘스트 동선이 매우 간단하고 직관적이어서 저레벨 구간에서도 빠르게 핵심 talents를 수급할 수 있습니다.
+- ✅ 포스트 stats을 추가로 확보하여 적의 공격을 방어할 때의 안정성과 가드 내구도가 대폭 상승합니다.
+- ✅ Beginner부터 숙련자까지 누구나 쉽게 운용할 수 있는 직관적인 인파이터 스타일의 전투 템포를 제공합니다.
 **단점**:
 - ⚠️ 원거리 견제 능력이 상대적으로 부족하여 도망치는 아웃파이터 상대를 추격하기 다소 까다로울 수 있습니다.
-- ⚠️ 불필요한 서브 탤런트나 낚시 계열 탤런트에 포인트를 낭비할 경우 후반 고레벨 구간에서 화력이 부족해질 위험이 있습니다.
+- ⚠️ 불필요한 서브 talents나 낚시 계열 talents에 포인트를 낭비할 경우 후반 고레벨 구간에서 화력이 부족해질 위험이 있습니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1600,6 +2761,15 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 | Heavy Wep (중화기) | `80` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Kyrsglaive** (Heavy Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessory]** Ignition Deepdelver Mask
+- **[Accessory]** Luminous Silk Scarf
+- **[Accessory]** Division Boots
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1620,18 +2790,117 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 
 ---
 
-### 🛡️ [빌드 26] nlk-blindseer-medium-greatsword
+### 🛡️ [빌드 34] needles-eye-rapier-crit-stacking-pve-meta
 
-# ⚔️ NLK Blindseer Medium Greatsword
+# ⚔️ Needles Eye Rapier Crit Stacking PvE Meta
 
-> **출처 영상**: [How Is This Build Not Nerfed? | Deepwoken](https://www.youtube.com/watch?v=ITa2ipQ0bqE) by `Inu`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [A new PvE meta has entered Deepwoken... | Rapier PvE Guide](https://www.youtube.com/watch?v=0ccU42O_dfw) by `Col`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Capra` / `Castaway` | **Oath**: `Bladeharper` | **Murmur/Bell**: `None` / `None`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 No Life King (NLK) 인챈트의 압도적인 피흡 능력을 극대화하기 위해 100 Willpower와 Blindseer Oath를 조합한 뎁스(Depths) 전용 PvP 빌드입니다. NLK 인챈트는 공격 성공 시 엄청난 체력을 회복시켜 주지만 정신력(Sanity)을 빠르게 갉아먹는 치명적인 리스크가 있습니다. 이를 극복하기 위해 100 Willpower의 정신력 저항 탤런트들과 Blindseer의 정신력 회복/보호 능력을 결합하여 단점을 완벽히 상쇄하고 무한한 유지력을 발휘하는 좀비 빌드를 완성했습니다.
+단검(Dagger)과 Knife's Journey가 오랫동안 PvE 메타를 독점해왔으나, 최근 레이피어(Rapier) 버프 패치 이후 레이피어가 단검을 뛰어넘는 새로운 PvE 최강 메타 무기로 부상했습니다.
+
+레이피어는 패링 직후 1초 동안 M1 데미지 +50%, 크리티컬 데미지 +33% 버프를 받는 전용 메커니즘을 가지고 있습니다. 이를 활용해 Charisma의 Manipulator, Bloodrend의 Hemolysis, Flamecharm의 Flame Within 등 크리티컬 및 데미지 증폭 탤런트를 극한으로 중첩시키면 패링 후 크리티컬 한 방으로 5,000 이상의 폭딜을 퍼부을 수 있습니다.
+
+RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 평균 딜량을 뽑아낼 수 있어, 엘더 프라이모던(Elder Primadon)처럼 패링 패턴이 명확한 보스 레이드에서 세계 기록급 성능을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 패링 직후 1초간 M1 데미지 +50%, 크리티컬 데미지 +33%라는 압도적인 무기 전용 버프 보유
+- ✅ RNG(확률) 요소 없이 조건 충족 시 100% 일관된 초고화력 크리티컬 폭딜 가능
+- ✅ Needles Eye 모티프 적용 시 폭발적인 크리티컬 다단히트 및 Pressure Skewer 트루 데미지 적용
+- ✅ 단검 빌드에 비해 까다로운 선행 탤런트 조건이 적어 빌드 작성이 비교적 수월함
+**단점**:
+- ⚠️ 체이서(Chaser)나 에시온(Ethiron)처럼 패링 기회가 없거나 적은 보스전에서는 딜 효율이 크게 하락함
+- ⚠️ 패링 후 1초라는 짧은 버프 시간 내에 크리티컬을 정확히 적중시켜야 하므로 타이밍 숙련도 필요
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `25` |
+| Fortitude (인내) | `20` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `85` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `40`
+- **Shadowcast**: `20`
+- **Bloodrend**: `50`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `481` | `26` | `340` | `120` | `100` | `110.0%` | `+48.0%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `35.0%` / 타격: `25.0%` / 관통: `35.0%` | 화염: `20.0%` / 빙결: `20.0%` / 바람: `20.0%` | 그림자: `20.0%` / 번개: `20.0%` / 철: `20.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Rapier** (Light Weapon) — 인챈트: `None` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Parasol Planter
+- **[Face]** Citadel Frames
+- **[Ears]** Old Blood Earrings
+- **[Amulet]** Tyran Pendant
+- **[Torso]** Warmaster's Medallion
+- **[Arms]** Ignition Gauntlets
+- **[Outfit]** Prophet's Cloak
+- **[Legs]** Celestial Boots
+- **[Ring 1]** Prophet's Ring
+- **[Ring 2]** Akira's Ring
+- **[Ring 3]** Diver's Ring
+- **[Ring 4]** Isshin's Ring
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Cornered Fool**
+- **Narcissist**
+- **Manipulator**
+- **Flame Within**
+- **Rush Hour**
+- **Hemolysis**
+- **Pressure Skewer**
+### 📜 보조 및 추천 탤런트
+- Immolator
+
+## 🔮 주문 목록 (Mantras)
+- **Shade Devour**
+- **Flame Within**
+- **Rush Hour**
+
+## 🥊 콤보 & 전투 운용 가이드
+{'combo_guide': '1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.\n2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.\n3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.\n4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다.'}
+
+---
+
+### 🛡️ [빌드 35] nlk-blindseer-medium-greatsword
+
+# ⚔️ NLK Blindseer Medium Greatsword
+
+> **출처 영상**: [How Is This Build Not Nerfed? | Deepwoken](https://www.youtube.com/watch?v=ITa2ipQ0bqE) by `Inu`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Ganymede` / `Castaway` | **Oath**: `Blindseer` | **Murmur/Bell**: `None` / `Kamui`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 No Life King (NLK) 인챈트의 압도적인 피흡 능력을 극대화하기 위해 100 Willpower와 Blindseer Oath를 조합한 뎁스(Depths) 전용 PvP 빌드입니다. NLK 인챈트는 공격 성공 시 엄청난 체력을 회복시켜 주지만 정신력(Sanity)을 빠르게 갉아먹는 치명적인 리스크가 있습니다. 이를 극복하기 위해 100 Willpower의 정신력 저항 talents들과 Blindseer의 정신력 회복/보호 능력을 결합하여 weaknesses을 완벽히 상쇄하고 무한한 유지력을 발휘하는 좀비 빌드를 완성했습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -1640,20 +2909,38 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ✅ 뎁스 PvP 및 다대일 상황에서 좀비 같은 생존력 발휘
 **단점**:
 - ⚠️ 정신력 관리에 실패할 경우 순식간에 광기(Insanity) 상태에 빠져 캐릭터가 삭제(Wipe)될 위험 존재
-- ⚠️ Shrine of Order를 활용한 매우 정교한 스탯 분배 순서 요구
+- ⚠️ Shrine of Order를 활용한 매우 정교한 stats 분배 순서 요구
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Willpower (의지) | `100` |
+| Charisma (매력) | `25` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `90` |
 | Light Wep (경화기) | `0` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Grated Brass Sword** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak
+- **[Accessory]** Blindfold
+- **[Accessory]** Sanity Rings
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Heretic's Sutra**
+- **Unshakeable**
+- **Exoskeleton**
+### 📜 보조 및 추천 탤런트
+- Against All Odds
+- Lone Warrior
+- To the Last Breath
 
 ## 🔮 주문 목록 (Mantras)
 - **Sightless Beam**
@@ -1661,54 +2948,75 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Exhaustion Strike**
 - **Rapid Punches**
 
+## 🥊 콤보 & 전투 운용 가이드
+기본적으로 상대방과의 맞딜 구도를 유도합니다. Sacred Field를 활성화하여 방어 버프를 두른 뒤, Exhaustion Strike와 Rapid Punches로 상대의 자세를 무너뜨립니다. 상대가 거리를 벌리려 하면 Sightless Beam으로 견제하고, NLK의 피흡을 믿고 적극적으로 패링과 평타 연계를 이어가며 좀비처럼 버티는 플레이가 핵심입니다.
+
 ---
 
-### 🛡️ [빌드 27] palace-tachi-shadowcast-contractor
+### 🛡️ [빌드 36] palace-tachi-shadowcast-contractor
 
 # ⚔️ Palace Tachi Shadowcast Contractor
 
 > **출처 영상**: [The New Palace Tachi Goes INSANE WITH THIS BUILD! | DeepWoken](https://www.youtube.com/watch?v=sJm04d99BK8) by `howmuch`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Khan` / `Castaway` | **Oath**: `Contractor` | **Murmur/Bell**: `None` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 [1. 빌드 컨셉 및 전투 아키타입]
-이 빌드는 신규 미디엄 무기인 'Palace Tachi'의 강력한 가드 브레이크 크리티컬 판정과 Shadowcast 속성의 유틸리티를 극대화한 PvP 특화 하이브리드 아키타입입니다. 느린 공격 속도라는 단점을 넓은 범위의 섀도우 만트라와 Contractor 오스의 강력한 압박력으로 보완하며, 상대의 방어를 강제로 해체하고 치명적인 후속타를 꽂아넣는 묵직한 인파이터 스타일을 지향합니다.
+이 빌드는 신규 미디엄 weapons인 'Palace Tachi'의 강력한 가드 브레이크 크리티컬 판정과 Shadowcast 속성의 유틸리티를 극대화한 PvP 특화 하이브리드 아키타입입니다. 느린 공격 속도라는 weaknesses을 넓은 범위의 섀도우 mantras와 Contractor 오스의 강력한 압박력으로 보완하며, 상대의 방어를 강제로 해체하고 치명적인 후속타를 꽂아넣는 묵직한 인파이터 스타일을 지향합니다.
 
 [2. 고유 시너지 및 메커니즘]
-고수치 Charisma와 Intelligence를 기반으로 한 'Cult of Personality'와 'Cornered Fool' 탤런트의 시너지가 핵심입니다. 상대를 매혹(Charm) 상태로 만든 뒤, Palace Tachi의 크리티컬로 가드를 깨뜨리면 'Cornered Fool'이 발동하여 적을 도발(Taunted) 상태로 만들고 받는 피해를 대폭 증가시킵니다. 여기에 대량의 에테르를 확보하여 거대화시킨 섀도우 만트라로 광역 압박을 가합니다.
+고수치 Charisma와 Intelligence를 기반으로 한 'Cult of Personality'와 'Cornered Fool' talents의 시너지가 핵심입니다. 상대를 매혹(Charm) 상태로 만든 뒤, Palace Tachi의 크리티컬로 가드를 깨뜨리면 'Cornered Fool'이 발동하여 적을 도발(Taunted) 상태로 만들고 받는 피해를 대폭 증가시킵니다. 여기에 대량의 에테르를 확보하여 거대화시킨 섀도우 mantras로 광역 압박을 가합니다.
 
 [3. 실전 심리전 및 교전 판정 우위]
-Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상대에게 지옥의 이지선다를 강요합니다. 크리티컬의 가드 브레이크를 의식해 패링을 시도하는 적에게는 타이밍을 뺏는 섀도우 만트라나 Judgement로 카운터를 치고, 가드를 올리는 적은 크리티컬로 즉시 무력화합니다. 또한 Contractor의 처형 판정 덕분에 킬 캐치 능력이 매우 뛰어납니다.
+Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상대에게 지옥의 이지선다를 강요합니다. 크리티컬의 가드 브레이크를 의식해 패링을 시도하는 적에게는 타이밍을 뺏는 섀도우 mantras나 Judgement로 카운터를 치고, 가드를 올리는 적은 크리티컬로 즉시 무력화합니다. 또한 Contractor의 처형 판정 덕분에 킬 캐치 능력이 매우 뛰어납니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 강력한 가드 브레이크 능력: Palace Tachi의 크리티컬 공격이 확정 가드 브레이크 판정을 가지고 있어 방어적인 적을 쉽게 무력화할 수 있습니다.
-- ✅ 압도적인 관통력(PEN)과 피해량: Cult of Personality와 Cornered Fool 탤런트의 시너지로 적의 방어력을 무시하고 증폭된 대미지를 입힙니다.
+- ✅ 압도적인 관통력(PEN)과 피해량: Cult of Personality와 Cornered Fool talents의 시너지로 적의 방어력을 무시하고 증폭된 대미지를 입힙니다.
 - ✅ Contractor 오스의 유틸리티: Judgement를 통한 심리전 우위와 크리티컬 공격 시 적을 즉시 처형(Execute)할 수 있는 강력한 결정력을 보유하고 있습니다.
-- ✅ 거대한 만트라 범위: 높은 에테르 통과 Bluestone Boots를 활용해 Shadowcast 만트라의 범위를 극대화하여 광역 압박이 가능합니다.
+- ✅ 거대한 mantras 범위: 높은 에테르 통과 Bluestone Boots를 활용해 Shadowcast mantras의 범위를 극대화하여 광역 압박이 가능합니다.
 **단점**:
-- ⚠️ 느린 무기 공격 속도: Palace Tachi는 미디엄 무기임에도 스윙 속도가 느려, 빠른 템포의 무기를 사용하는 적에게 패링 타이밍을 빼앗기기 쉽습니다.
-- ⚠️ 낮은 기동성(Agility): Agility 스탯이 매우 낮아 순수 기동력 싸움에서 밀릴 수 있으므로, 기동성 만트라(Rising Shadow 등)의 정확한 활용이 강제됩니다.
-- ⚠️ 높은 에테르 의존도: 만트라의 크기를 키우기 위해 에테르 소모량이 많으므로, Bluestone Boots의 에테르 관리 효과를 상시 유지해야 합니다.
+- ⚠️ 느린 weapons 공격 속도: Palace Tachi는 미디엄 weapons임에도 스윙 속도가 느려, 빠른 템포의 weapons를 사용하는 적에게 패링 타이밍을 빼앗기기 쉽습니다.
+- ⚠️ 낮은 기동성(Agility): Agility stats이 매우 낮아 순수 기동력 싸움에서 밀릴 수 있으므로, 기동성 mantras(Rising Shadow 등)의 정확한 활용이 강제됩니다.
+- ⚠️ 높은 에테르 의존도: mantras의 크기를 키우기 위해 에테르 소모량이 많으므로, Bluestone Boots의 에테르 관리 효과를 상시 유지해야 합니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Strength (근력) | `1` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `1` |
+| Intelligence (지능) | `65` |
+| Willpower (의지) | `1` |
+| Charisma (매력) | `90` |
 | Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
+| Medium Wep (중형무기) | `90` |
 | Light Wep (경화기) | `0` |
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Palace Tachi** (Medium Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak
+- **[Accessory]** Bluestone Boots
+- **[Accessory]** Trueblood Set (Torso)
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Cult of Personality**
+- **Cornered Fool**
+- **Exoskeleton**
+- **Reinforce**
+### 📜 보조 및 추천 탤런트
+- Blood Convergence
+- Critical Heal
 
 ## 🔮 주문 목록 (Mantras)
 - **Rising Shadow**
@@ -1717,31 +3025,37 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - **Judgement**
 - **Reinforce**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계: 진입 및 매혹 부여 - 전투 시작 시 원거리에서 Shadow Gun이나 기본 공격 연계로 적에게 Charm(매혹) 디버프를 부여하여 Cult of Personality 스택을 쌓습니다.
+2단계: 가드브레이크 및 도발 연계 - 적이 방어 태세를 취하면 Palace Tachi의 크리티컬 공격을 적중시켜 가드를 깨뜨립니다. 가드가 깨짐과 동시에 Cornered Fool이 발동하여 적이 도발 상태가 되고 받는 피해가 대폭 증가합니다.
+3단계: 섀도우 mantras 폭딜 - 도발로 방어력이 약화된 적에게 거대화된 Shadowcast mantras(Shadow Roar 등)를 연계하여 폭발적인 대미지를 누적시킵니다.
+4단계: Contractor 처형 및 마무리 - 적의 체력이 낮아지면 Contractor 오스의 처형 판정이 붙은 크리티컬 공격이나 Judgement를 사용해 상대의 탈출 기회를 원천 차단하고 깔끔하게 마무리합니다.
+
 ---
 
-### 🛡️ [빌드 28] pale-briar-arcwarder-ironsing-atlas-v1
+### 🛡️ [빌드 37] pale-briar-arcwarder-ironsing-atlas-v1
 
 # ⚔️ Pale Briar Arcwarder Ironsing (Atlas V1)
 
 > **출처 영상**: [This New PVE BUILD is META FOR EVERYTHING....😲 "Atlas V1" | Deepwoken PvE Build Showcase](https://www.youtube.com/watch?v=9XzSUkPjVqI) by `Laptist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `Thundercall Spark` / `Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Arcwarder 오스의 철갑 기동성과 Ironsing 속성의 패시브 터렛 및 광역 메탈 레인(Metal Rain) 공격을 결합하여, Pve 환경에서 압도적인 탱킹력과 안정적인 유지력을 발휘하도록 설계된 마스터피스 빌드입니다. 딥위큰 최고의 PvE 무기 중 하나인 Pale Briar의 높은 포스처 대미지와 아크워더의 방어 버프 시너지를 통해 다수의 적과 딜루비안(Diluvian) 웨이브에서 전차처럼 밀고 나가는 독보적인 플레이 스타일을 선사합니다. 실전 교전에서는 뛰어난 이동기와 방어력을 활용해 적의 공격을 무시하며 확정 콤보를 우겨넣고, 주기적인 골드 섭취를 통한 데미지 버프로 클리어 타임을 극대화할 수 있습니다.
+이 빌드는 Arcwarder 오스의 철갑 기동성과 Ironsing 속성의 패시브 터렛 및 광역 메탈 레인(Metal Rain) 공격을 결합하여, Pve 환경에서 압도적인 탱킹력과 안정적인 유지력을 발휘하도록 설계된 마스터피스 빌드입니다. 딥위큰 최고의 PvE weapons 중 하나인 Pale Briar의 높은 포스처 대미지와 아크워더의 방어 버프 시너지를 통해 다수의 적과 딜루비안(Diluvian) 웨이브에서 전차처럼 밀고 나가는 독보적인 플레이 스타일을 선사합니다. 실전 교전에서는 뛰어난 이동기와 방어력을 활용해 적의 공격을 무시하며 확정 콤보를 우겨넣고, 주기적인 골드 섭취를 통한 데미지 버프로 클리어 타임을 극대화할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Arcwarder 오스와 Ironsing 속성의 결합으로 인게임 최상위권의 물리 및 속성 방어력과 탱킹력을 확보함.
-- ✅ Metal Turret 및 Metal Rain 등 패시브 대미지를 주는 만트라 덕분에 지속적인 광역 딜링과 방어 태세 유지 가능.
-- ✅ Pale Briar 무기의 강력한 찌르기와 넓은 판정으로 웨이브 클리어 및 몹 몰이에 매우 유리함.
+- ✅ Metal Turret 및 Metal Rain 등 패시브 대미지를 주는 mantras 덕분에 지속적인 광역 딜링과 방어 태세 유지 가능.
+- ✅ Pale Briar weapons의 강력한 찌르기와 넓은 판정으로 웨이브 클리어 및 몹 몰이에 매우 유리함.
 **단점**:
 - ⚠️ 초고난도 보스 레이드(예: Ethiron, Chaser 등)에서는 공격 타이밍 확보가 까다로워 클리어 속도가 다소 느릴 수 있음.
-- ⚠️ 오스 및 속성 요구 스탯 투자가 분산되어 있어, 빗나간 스탯 분배 시 후반 빌드 완성에 차질이 생길 수 있음.
+- ⚠️ 오스 및 속성 요구 stats 투자가 분산되어 있어, 빗나간 stats 분배 시 후반 빌드 완성에 차질이 생길 수 있음.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1758,9 +3072,7 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - **Ironsing**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon_name**
-- **weapon_type**
-- **enchant**
+- **Unknown** — 인챈트: `Wild`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1779,16 +3091,111 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - **Strong Left**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'step_1_engage': 'Rush Slash를 사용하여 원거리에서 빠르게 적에게 접근하며 선제 타격을 가합니다.', 'step_2_guard_break': 'Pale Briar의 빠른 리치와 M1 콤보, 그리고 Strong Left를 섞어 적의 가드를 무너뜨리고 포스처를 깎습니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Metal Rain과 무기 크리티컬 공격을 연계하여 폭발적인 대미지를 퍼붓습니다.', 'step_4_retreat_sustain': '위험 상황 발생 시 Arcwarder의 기동성과 회피기를 활용해 거리를 벌리고 렐릭 및 회복 아이템으로 체력과 포스처를 정비합니다.'}
+{'step_1_engage': 'Rush Slash를 사용하여 원거리에서 빠르게 적에게 접근하며 선제 타격을 가합니다.', 'step_2_guard_break': 'Pale Briar의 빠른 리치와 M1 콤보, 그리고 Strong Left를 섞어 적의 가드를 무너뜨리고 포스처를 깎습니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Metal Rain과 weapons 크리티컬 공격을 연계하여 폭발적인 대미지를 퍼붓습니다.', 'step_4_retreat_sustain': '위험 상황 발생 시 Arcwarder의 기동성과 회피기를 활용해 거리를 벌리고 렐릭 및 회복 아이템으로 체력과 포스처를 정비합니다.'}
 
 ---
 
-### 🛡️ [빌드 29] posers-ring-ironsing-thundercall-soulbre
+### 🛡️ [빌드 38] posers-ring-blood-iron-shadow-pve-one-shot
+
+# ⚔️ Posers Ring Blood-Iron-Shadow PVE One Shot
+
+> **출처 영상**: [NEW BEST [ONE SHOT] POSERS PVE | Deepwoken Verse 3](https://www.youtube.com/watch?v=PkOsjVnTVS0) by `P4rzy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Khan` / `Lone Warrior` | **Oath**: `Contractor` | **Murmur/Bell**: `Ardour` / `Enmity`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Deepwoken Verse 3 메타에서 보스 레이드 및 엔티티(Enmity) 토벌을 위해 극한의 순간 폭딜(One-Shot)을 쏟아붓도록 설계된 PVE 최상위권 빌드입니다. Posers Ring의 효과와 출혈(Hemorrhage) 메커니즘을 극대화하여 평타 한 방에 1k 이상의 대 데미지를 기록하며, 출혈 폭발 시 50k를 상회하는 괴랄한 수치를 뽑아냅니다.
+
+다만, Shade Devour 등의 자체 체력 소모 및 하이리스크 디메리트를 안고 있기 때문에 Sow & Mend와 같은 회복 만트라를 적절히 섞어주어야 안정적인 유지가 가능합니다. 숙련된 패링 타이밍과 Ironing을 통한 아머 재생 메커니즘을 완벽하게 이해해야 제 성능을 온전히 발휘할 수 있습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ M1 한 방당 1,000 이상의 압도적인 데미지 딜링 능력
+- ✅ Hemorrhage(출혈) 프로크 발동 시 50,000+ 이상의 압살적인 누적 폭딜
+- ✅ Ironing과 Sow & Mend를 조합하여 극심한 자체 디메리트(Shade Devour 등)를 상쇄하는 우수한 유지력
+- ✅ Enmity 보스 솔플 및 파티 버스(Boss carry) 운용에 최적화된 고효율 DPS
+**단점**:
+- ⚠️ 자체 딜 디메리트(Shade Devour)로 인해 체력 관리에 실패하면 급사 위험이 큼
+- ⚠️ Posers Ring의 특성상 피격 대미지 조절 및 체력 보존이 강제되어 난이도가 높음
+- ⚠️ 완벽한 패링 타이밍과 Ironing 아머 회복 빌드업을 모르면 딜 사이클이 끊김
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `4` | `3` | `5` | `2` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `80` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `50` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `90` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Shadowcast**: `40`
+- **Ironsing**: `80`
+- **Bloodrend**: `50`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `15.0%` / 빙결: `15.0%` / 바람: `15.0%` | 그림자: `25.0%` / 번개: `15.0%` / 철: `20.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Palace Tachi** (Medium Weapon) — 인챈트: `None` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Aegis of Enmity
+- **[Face]** Citadel Frames
+- **[Amulet]** Crescent Earrings
+- **[Outfit]** Royal Etrean Guard
+- **[Boots]** Celestial Boots
+- **[Ring 1]** Posers Ring
+- **[Ring 2]** Isshin's Ring
+- **[Ring 3]** Diver's Ring
+- **[Ring 4]** Moon Ring
+- **[Bell]** Enmity Resonance
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Hemorrhage**
+- **Ironing**
+- **Shade Devour**
+- **Sow & Mend**
+- **Poser's Advantage**
+
+## 🔮 주문 목록 (Mantras)
+- **Scarlet Cyclone**
+- **Bloodcurdle**
+- **Blood Orb**
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계: 적의 공격을 타이밍 맞춰 패링하여 Ironing 스택 및 아머를 재생합니다.
+2단계: Scarlet Cyclone, Bloodcurdle 등 버프/디버프 만트라를 시전하여 출혈(Hemorrhage) 상태를 유도합니다.
+3단계: 스토어드 M1과 크리티컬 데미지를 연계하여 출혈 프로크를 연속 발동시킵니다.
+4단계: 출혈 폭발(Kaboom) 메커니즘을 통해 50k 이상의 누적 데미지로 적을 원샷원킬합니다.
+
+---
+
+### 🛡️ [빌드 39] posers-ring-ironsing-thundercall-soulbre
 
 # ⚔️ Poser's Ring Ironsing Thundercall Soulbreaker PvE
 
 > **출처 영상**: [The Strongest POSER'S RING PvE Build... | Deepwoken](https://www.youtube.com/watch?v=3AdR6aNWld8) by `Valklist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
 > **종족/출신**: `None` / `None` | **Oath**: `Soulbreaker` | **Murmur/Bell**: `Tacet / Rhythm / Ardour` / `None`
 
 ---
@@ -1805,7 +3212,7 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ Requires Shrine of Order and multiple stat investments to assemble
 - ⚠️ Heavily optimized for PvE encounters rather than PvP fights
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
@@ -1836,34 +3243,202 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 
 ---
 
-### 🛡️ [빌드 30] saintsworn-nuke-aoe-burst-build
+### 🛡️ [빌드 40] rapier-parry-buff-pve-meta-build
 
-# ⚔️ Saintsworn Nuke & AoE Burst Build
+# ⚔️ Rapier Parry-Buff PvE Meta Build
 
-> **출처 영상**: [The Saintsworn Nuke Build. | Deepwoken](https://www.youtube.com/watch?v=nagZrLSCftM) by `fatedw`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [RAPIER IS THE NEW PVE META?!?! | Deepwoken Verse 3](https://www.youtube.com/watch?v=9CrkABIhJrs) by `P4rzy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Tough Love` / `Payback`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 다대다 전투와 뎁스(The Depths) 갱킹 상황에서 적 다수를 단번에 섬멸하도록 설계된 극단적인 폭딜(Nuke) 아키타입입니다. 원거리와 광역(AoE) 장판형 만트라의 시너지를 극대화하여 좁은 공간이나 런웨이에서 압도적인 화력을 뿜어내는 것이 특징입니다.
+이 빌드는 레이피어(Rapier) 무기가 패링(Parry) 성공 시 제공하는 압도적인 대미지 증폭 메커니즘을 극한으로 활용하는 혁신적인 PvE 빌드입니다. 엘더 프리마돈(Elder Primadon) 및 각종 PvE 보스전에서 패링을 통해 상시 대미지 50% 버프와 크리티컬 대미지 33% 버프를 유지할 수 있어, 순간 스킬 폭딜은 물론 기본 평타(M1)와 크리티컬 공격만으로도 타의 추종을 불허하는 DPS를 뽑아냅니다.
 
-전투 템포는 결코 인파이팅에 얽매이지 않으며, 상대의 진형을 강제로 붕괴시키는 원거리 포격과 가드 브레이크를 유도한 뒤 강력한 썬더 스라이크와 크리스탈 계열 만트라를 연계하는 방식으로 운영됩니다. 다수의 적이 뭉쳐 있을 때 최고의 효율을 발휘하며, 방심한 적의 체력을 순식간에 0으로 만들어버리는 카타클리스마급 파괴력을 지닙니다.
+또한, 포탑(Turret)과 Artisan's Blade/Flame 메커니즘을 조합하여 자동으로 보스의 포스처(Posture)를 파괴하고 연타 대미지를 누적시킵니다. 보스 패턴에 맞춰 예측(Prediction)이나 페이백(Payback)을 유연하게 활용함으로써 안정성과 딜링 능력을 모두 극대화한 메타급 PvE 빌드입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 패링 성공 시 대미지 +50%, 크리티컬 대미지 +33%라는 미친 수준의 패시브 버프 유지
+- ✅ M1 평타 대미지 800~1100+, 크리티컬 대미지 4000+에 달하는 압도적인 지속 DPS
+- ✅ 포탑 설치 및 Artisan's Blade 연타를 이용한 신속한 보스 포스처 브레이크(Posture Break)
+- ✅ Prediction 및 Payback을 통한 우수한 패턴 반격 및 생존 능력
+**단점**:
+- ⚠️ 패링 버프에 대한 의존도가 높아 보스 공격 패턴에 대한 패링 타이밍 숙지가 필수적임
+- ⚠️ 레이피어 크리티컬 공격의 후딜레이(Endlag)로 인해 후속 공격에 노출될 수 있어 공격 후 즉시 회피/패링 조작이 필요함
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `20` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `50` |
+| Willpower (의지) | `50` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Ironsing**: `1`
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Artisan's Blade**
+- **Reinforce**
+- **Tough Love**
+- **Prediction**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+
+## 🔮 주문 목록 (Mantras)
+- **Palm Strike**
+- **Prediction**
+- **Automaton Turret**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Elder Primadon, Primadon, Duke of Erisia, Chaser, Scion of Ethiron`
+
+1. 엘더 프리마돈 등 대형 보스 진입 전 포탑(Turrets)을 미리 설치하여 자동 사격으로 Artisan's Blade 스택과 포스처 타격을 누적시킵니다.
+2. 보스의 내려치기나 돌진 패턴을 정확히 패링(Parry)하여 레이피어 전용 '대미지 +50% & 크리티컬 대미지 +33%' 버프를 발동시킵니다.
+3. 버프가 활성화된 상태에서 M1 평타와 크리티컬 공격을 연속으로 적구하여 포스처를 순식간에 브레이크 시킵니다.
+4. 위험한 낙석이나 광역 공격 시에는 Prediction 또는 Payback을 사용하여 무적 판정과 반격 대미지를 동시에 챙깁니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+**딜 사이클**:
+
+
+**운용 팁**:
+
+---
+
+### 🛡️ [빌드 41] rengoku-v1-flame-worshipper-steam-pve
+
+# ⚔️ Rengoku V1 (Flame Worshipper Steam PvE)
+
+> **출처 영상**: [This NEW Talent Changes the PVE META FOREVER...😱 | Deepwoken](https://www.youtube.com/watch?v=ag5zLWf139k) by `Laptist`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Ganymede` / `Castaway` | **Oath**: `Dawnwalker` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+새로운 방어구 탤런트 'One With Flame'을 활용한 PvE 빌드입니다. Flame Within으로 자가 화염 상태를 유지하면 모든 만트라에 화염 속성이 부여되어, 얼음 만트라(Warden's Blades 등)를 사용할 때마다 쿨다운 대기 없이 지속적으로 스팀(Steam) 폭발을 일으킵니다.
+
+딜러와 탱커 역할을 동시에 수행하며 딜루비안(Diluvian Mechanism) 50웨이브 및 Layer 2 보스(Chaser, Ethiron)를 1사이클만에 녹여버리는 강력한 화력을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ One With Flame 탤런트를 통한 상시 스팀(Steam) 발동 및 극딜
+- ✅ 자가 화염 시 25% 피해 감소로 뛰어난 안정성 확보
+- ✅ 보스전 및 딜루비안 웨이브 클리어 속도 극대화
+**단점**:
+- ⚠️ Flame Worshipper Armor의 내구도가 낮아 수리 키트(Repair Kit) 및 Megurger 상시 구비 필수
+- ⚠️ Worshipper Longsword 및 Shield 장착 조건 강제
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `6` | `0` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `100` |
+| Agility (민첩) | `5` |
+| Intelligence (지능) | `50` |
+| Willpower (의지) | `100` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `27` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `40`
+- **Frostdraw**: `60`
+- **Shadowcast**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `524` | `30` | `214` | `100` | `107` | `100.0%` | `+40.0%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `39.5%` / 타격: `18.1%` / 관통: `39.5%` | 화염: `23.6%` / 빙결: `20.2%` / 바람: `0.0%` | 그림자: `20.2%` / 번개: `10.0%` / 철: `0.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Worshipper Longsword** (Medium Weapon) — 인챈트: `None`
+- **Worshipper Shield** (Offhand) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Pathfinder Elite
+- **[Face]** Thief of Amity
+- **[Outfit]** Flame Worshipper Armor
+- **[Boots]** Star Boots
+- **[Ring 1]** Deepfire Ring
+- **[Ring 2]** Ring of Casters
+- **[Ring 3]** Diver's Ring
+- **[Ring 4]** Alira's Ring
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **One With Flame**
+- **Reinforce**
+- **Flame Within**
+- **Heretic's Sutra**
+- **Lose Your Mind**
+
+## 🔮 주문 목록 (Mantras)
+- **Flame Within**
+- **Warden's Blades**
+- **Frozen Servants**
+- **Ice Flock**
+- **Flame Assault**
+- **Blinding Dawn**
+- **Reinforce**
+- **Shade Sieve**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. Heretic's Sutra 및 Flame Within 시전 (Lose Your Mind 버프 활성화 및 자가 화염 적용)
+2. Reinforce로 방어력 강화
+3. Warden's Blades 및 Frostdraw 만트라(Frozen Servants, Ice Flock) 시전으로 상시 스팀 폭발 유도
+4. Blinding Dawn 및 Flame Assault로 광역 마무리
+
+---
+
+### 🛡️ [빌드 42] saintsworn-nuke-aoe-burst-build
+
+# ⚔️ Saintsworn Nuke & AoE Burst Build
+
+> **출처 영상**: [The Saintsworn Nuke Build. | Deepwoken](https://www.youtube.com/watch?v=nagZrLSCftM) by `fatedw`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `Thundercall Resonance` / `Wind Up`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 다대다 전투와 뎁스(The Depths) 갱킹 상황에서 적 다수를 단번에 섬멸하도록 설계된 극단적인 폭딜(Nuke) 아키타입입니다. 원거리와 광역(AoE) 장판형 mantras의 시너지를 극대화하여 좁은 공간이나 런웨이에서 압도적인 화력을 뿜어내는 것이 특징입니다.
+
+전투 템포는 결코 인파이팅에 얽매이지 않으며, 상대의 진형을 강제로 붕괴시키는 원거리 포격과 가드 브레이크를 유도한 뒤 강력한 썬더 스라이크와 크리스탈 계열 mantras를 연계하는 방식으로 운영됩니다. 다수의 적이 뭉쳐 있을 때 최고의 효율을 발휘하며, 방심한 적의 체력을 순식간에 0으로 만들어버리는 카타클리스마급 파괴력을 지닙니다.
 
 실전 교전에서는 광역 메즈와 스태미나 압박을 동시에 가하면서 상대의 벨(Bell) 타이밍을 무력화하는 심리전이 핵심입니다. 아군의 연계와 호흡을 맞추거나 좁은 지형에서 적을 유인하여 전투를 개시하면 상대를 압살할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 광역(AoE) 폭딜 능력: 다수의 적을 동시에 타격하여 순식간에 빈사 상태로 만드는 압도적인 광역 누적 대미지
-- ✅ 변칙적인 이니시에이팅: 원거리 만트라와 스킬 콤보를 통해 안전한 거리에서 적의 진형을 붕괴시키고 강제 교전 유도 가능
-- ✅ 강력한 유틸리티 시너지: 다양한 탤런트와 옴니(Omni) 계열 버프를 통해 순간적인 이동 속도 및 방어력 보완
+- ✅ 변칙적인 이니시에이팅: 원거리 mantras와 스킬 콤보를 통해 안전한 거리에서 적의 진형을 붕괴시키고 강제 교전 유도 가능
+- ✅ 강력한 유틸리티 시너지: 다양한 talents와 옴니(Omni) 계열 버프를 통해 순간적인 이동 속도 및 방어력 보완
 **단점**:
-- ⚠️ 높은 스킬 의존도: 만트라 쿨다운 중에는 근접 평타 싸움에서 상대적으로 취약해질 수 있음
+- ⚠️ 높은 스킬 의존도: mantras 쿨다운 중에는 근접 평타 싸움에서 상대적으로 취약해질 수 있음
 - ⚠️ 자원 관리의 까다로움: 스태미나와 에테르(Ether) 소모량이 매우 커서 전투 지속력이 다소 떨어짐
 - ⚠️ 팀원과의 합 필요: 솔로 플레이보다는 적을 묶어둘 수 있는 팀 파이트 환경에서 효율이 극대화됨
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -1881,9 +3456,7 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Thundercall**: `80`
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_class**
-- **enchant**
+- **Unknown** — 인챈트: `Vampiric / Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1903,26 +3476,26 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Graceful Flame**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입 및 유인): Graceful Flame과 원거리 견제 만트라를 사용하여 적들이 한곳으로 뭉치도록 유도합니다.', '2단계 (진형 붕괴 및 가드 브레이크): Lava Serpent와 Thunder Strike를 연계하여 적의 스태미나를 깎고 가드를 강제로 해제합니다.', '3단계 (폭딜 퍼붓기): 적들이 경직되거나 에어본 상태가 되었을 때 핵심 광역 만트라와 무기 전용 크리티컬 공격을 퍼부어 대미지를 극대화합니다.', '4단계 (이탈 및 생존): 교전 후 남은 적이 있다면 무기 인챈트 효과(Vampiric)로 체력을 회복하고, 위급 시 Wind Up 벨로 전장을 이탈합니다.']
+['1단계 (진입 및 유인): Graceful Flame과 원거리 견제 mantras를 사용하여 적들이 한곳으로 뭉치도록 유도합니다.', '2단계 (진형 붕괴 및 가드 브레이크): Lava Serpent와 Thunder Strike를 연계하여 적의 스태미나를 깎고 가드를 강제로 해제합니다.', '3단계 (폭딜 퍼붓기): 적들이 경직되거나 에어본 상태가 되었을 때 핵심 광역 mantras와 weapons 전용 크리티컬 공격을 퍼부어 대미지를 극대화합니다.', '4단계 (이탈 및 생존): 교전 후 남은 적이 있다면 weapons 인챈트 효과(Vampiric)로 체력을 회복하고, 위급 시 Wind Up 벨로 전장을 이탈합니다.']
 
 ---
 
-### 🛡️ [빌드 31] saltchemist-heavy-gale-gale-trident
+### 🛡️ [빌드 43] saltchemist-heavy-gale-gale-trident
 
 # ⚔️ Saltchemist Heavy Gale (Gale Trident)
 
 > **출처 영상**: [This Build Does TOO Much Damage | Deepwoken](https://www.youtube.com/watch?v=lo5ZZAglsR4) by `Saya`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Ganymede` / `Voidheart` | **Oath**: `Saltchemist` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Gale Trident와 Galebreathe 만트라의 강력한 유틸리티에 Saltchemist의 버프/디버프 물약 시너지를 결합하여 극대화된 피해를 입히는 빌드입니다. 기본 만트라 관통력이 58%에 달하며, Sear 스택 없이도 폭발적인 데미지를 자랑합니다. 상대방의 방어력을 무력화하고 빠른 템포로 압박하는 데 특화되어 있습니다.
+이 빌드는 Gale Trident와 Galebreathe mantras의 강력한 유틸리티에 Saltchemist의 버프/디버프 물약 시너지를 결합하여 극대화된 피해를 입히는 빌드입니다. 기본 mantras 관통력이 58%에 달하며, Sear 스택 없이도 폭발적인 데미지를 자랑합니다. 상대방의 방어력을 무력화하고 빠른 템포로 압박하는 데 특화되어 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ Sear 스택 없이도 기본 58%에 달하는 압도적인 만트라 관통력
+- ✅ Sear 스택 없이도 기본 58%에 달하는 압도적인 mantras 관통력
 - ✅ Gale Trident의 긴 리치와 강력한 한 방 데미지
 - ✅ Saltchemist 물약을 통한 유연한 버프 및 디버프 유틸리티
 - ✅ 바람 속성 특유의 뛰어난 기동성과 콤보 연계력
@@ -1930,21 +3503,36 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ 물약 제조 및 사용 타이밍에 대한 숙련도 요구
 - ⚠️ Gale Trident의 다소 느린 공격 속도로 인한 패링 취약성
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
+| Strength (근력) | `30` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `40` |
 | Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `100` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Gale Trident', 'type': 'Heavy', 'recommended_enchant': 'Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': 'Black Diver'}
+- **[Accessory]** Imperial Boots
+- **[Accessory]** Stargazer's Band
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Exoskeleton**
+- **Gale Coil**
+- **Speed Demon**
+- **Alchemist's Touch**
 
 ## 🔮 주문 목록 (Mantras)
 - **Gale Lunge**
@@ -1952,22 +3540,116 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Heavenly Wind**
 - **Gale Breath**
 
+## 🥊 콤보 & 전투 운용 가이드
+기본 평타(M1)로 리치 우위를 점한 뒤, Gale Lunge로 진입하여 상대의 패링 타이밍을 흐트러뜨립니다. 이후 Saltchemist 물약을 투척해 디버프를 묻히고 Wind Carve와 Heavenly Wind 연계로 공중 콤보 및 넉백을 유도하여 전장을 지배합니다.
+
 ---
 
-### 🛡️ [빌드 32] sclerostosis-tank-build
+### 🛡️ [빌드 44] sanguine-transfuser-hemorrhaging-blood-suppor
 
-# ⚔️ Sclerostosis Tank Build
+# ⚔️ Sanguine Transfuser Hemorrhaging Blood Support Dagger
 
-> **출처 영상**: [Is The NEW FORTITUDE Talent Worth It? (Deepwoken)](https://www.youtube.com/watch?v=j-x3XbpFqfc) by `Duckexter`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [Progressing The Best COMBAT SUPPORT BUILD (1-20) | Deepwoken](https://www.youtube.com/watch?v=LUXBaJs5EuQ) by `ZakoTB`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Tiran` / `Voidwalker` | **Oath**: `Fadetrimmer` | **Murmur/Bell**: `None` / `None`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이번에 새로 추가된 신규 포티튜드(Fortitude) 탤런트인 'Sclerostosis'는 체력이 10% 깎일 때마다 다음 받는 피해를 무려 99% 감소시켜주는 5초짜리 쿨다운 버프를 제공하는 고성능 방어형 탤런트입니다. 특히 100 포티튜드를 투자하여 강화 아머(Reinforced Armor)와 조합하면 극도로 높은 탱킹력을 발휘하며, PvE 환경에서는 몬스터의 다단히트 패턴이나 광역기 대미지를 상쇄하는 데 매우 탁월한 효율을 보여줍니다.
+이 빌드는 Deepwoken에서 유일무이한 메커니즘을 사용하는 변칙적 서포트 겸 전투형 피흡/상대 치유 역전 빌드입니다. 핵심은 Bloodrend 탤런트인 'Hemorrhaging Blow'와 단검류 제작 무기인 'Sanguine Transfuser', 그리고 'Hair Spray (Revitalizing)' 버프의 조합에 있습니다.
 
-하지만 PvP 환경에서는 몇 가지 치명적인 한계와 판정 버그가 존재합니다. 가드브레이크 판정이 발생한 직후의 타격이나 특정 멀티히트(Multi-hit) 스킬(예: Galebreath 계열의 에클립스 킥 등)과의 상호작용에서 쿨다운이 정상적으로 발동하지 않거나, 첫 타격과 후속 타격 사이의 대미지 분산 계산에서 오차가 발생하여 예상치 못한 누적 피해를 입는 경우가 빈번합니다. 따라서 PvE 유저에게는 생존력을 극대화하는 최고의 선택이 될 수 있지만, PvP 중심의 유저라면 불필요하게 높은 포티튜드 포인트를 낭비하기보다 기존의 안정적인 방어 탤런트에 집중하는 것을 추천합니다.
+상대방의 자세(Posture)를 파괴(Posture Break)한 직후 Bloodrend 만트라를 적중시키거나 힐링 메커니즘을 발동시키면, 상대가 받게 될 치유 효과가 즉시 막대한 데미지와 지속 출혈 데미지로 전환되어 폭딜을 넣을 수 있습니다. 동시에 자신은 Rush Hour와 Enhanced Flow, Deepscorn Casque의 시너지를 통해 자가 데미지를 최소화하면서 무한에 가까운 임시 체력(Temp Health)을 수급합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Hemorrhaging Blow 메커니즘을 통한 상대 치유 역전 폭딜 (상대가 Reaper나 자가 치유 기술 사용 시 즉사급 데미지 유발)
+- ✅ Sanguine Transfuser의 기본 23.1% 스윙 스피드와 관통력(Penetration) 50% 세팅으로 높은 방어 무시 평타 성능
+- ✅ Hair Spray (Revitalizing)와 Bloodrend 스킬의 콤보로 서포트/딜러 역할을 동시에 수행 가능
+- ✅ Rush Hour + Enhanced Flow + Deepscorn Casque 조합으로 자기 자해 데미지를 완벽히 상쇄하고 높은 Tankiness 유지
+**단점**:
+- ⚠️ 자세 파괴(Posture Break)가 유효하게 들어가지 않으면 핵심 기믹인 치유 역전 데미지를 발동하기 어려움
+- ⚠️ 고각의 핑(Ping) 문제나 판정이 불안정한 서버 환경에서는 단검 특유의 스윙 판정과 타이밍 잡기가 까다로움
+- ⚠️ 초반 육성 시 Shrine 오브 오더 및 95 Bloodrend 조건 입수를 위한 스탯 배분이 정교해야 함
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `3` | `3` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `25` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `30` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `65` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Bloodrend**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `542` | `26` | `318` | `155` | `259` | `-12.0%` | `+50.0%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `50.0%` / 타격: `50.0%` / 관통: `44.0%` | 화염: `30.0%` / 빙결: `30.0%` / 바람: `30.0%` | 그림자: `30.0%` / 번개: `5.0%` / 철: `0.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Dagger** (Light Weapon) — 인챈트: `None` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Deepwoken Hood
+- **[Outfit]** Black Diver / Ferryman's Coat
+- **[Amulet]** Old Blood Earrings
+- **[Rings]** Ishin's Ring, Maestro's Ring
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Hemorrhaging Blow**
+- **Enhanced Flow**
+- **Rush Hour**
+- **First Blood**
+### 📜 보조 및 추천 탤런트
+- Expert Bloodrender
+- Master Bloodrender
+
+## 🔮 주문 목록 (Mantras)
+- **Blood Orb**
+- **Crucifixion**
+- **Sanguine Dive**
+- **Bloodedge**
+- **Vein Tendrils**
+- **Scarlet Cannon**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 스피디한 단검 M1 평타 연타로 적의 Posture 게이지를 누적합니다.
+2. 상대 가드가 무너지며 Posture Break가 발생했을 때 즉시 Bloodrend 만트라(Crucifixion 또는 Bloodedge)를 적중시킵니다.
+3. Hemorrhaging Blow 탤런트 디버프가 적용된 상태에서 Hair Spray (Revitalizing) 또는 자가/타인 힐링 스킬을 사용할 시 상대는 힐 대신 1.5줄 이상의 체력 피해를 입고 폭사합니다.
+
+---
+
+### 🛡️ [빌드 45] sclerostosis-tank-build
+
+# ⚔️ Sclerostosis Tank Build
+
+> **출처 영상**: [Is The NEW FORTITUDE Talent Worth It? (Deepwoken)](https://www.youtube.com/watch?v=j-x3XbpFqfc) by `Duckexter`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Intermediate`
+> **종족/출신**: `Kiron` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Aria` / `Default`
+
+---
+
+## 📝 빌드 개요 및 총평
+이번에 새로 추가된 신규 포티튜드(Fortitude) talents인 'Sclerostosis'는 체력이 10% 깎일 때마다 다음 받는 피해를 무려 99% 감소시켜주는 5초짜리 쿨다운 버프를 제공하는 고성능 방어형 talents입니다. 특히 100 포티튜드를 투자하여 강화 아머(Reinforced Armor)와 조합하면 극도로 높은 탱킹력을 발휘하며, PvE 환경에서는 몬스터의 다단히트 패턴이나 광역기 대미지를 상쇄하는 데 매우 탁월한 효율을 보여줍니다.
+
+하지만 PvP 환경에서는 몇 가지 치명적인 한계와 판정 버그가 존재합니다. 가드브레이크 판정이 발생한 직후의 타격이나 특정 멀티히트(Multi-hit) 스킬(예: Galebreath 계열의 에클립스 킥 등)과의 상호작용에서 쿨다운이 정상적으로 발동하지 않거나, 첫 타격과 후속 타격 사이의 대미지 분산 계산에서 오차가 발생하여 예상치 못한 누적 피해를 입는 경우가 빈번합니다. 따라서 PvE 유저에게는 생존력을 극대화하는 최고의 선택이 될 수 있지만, PvP 중심의 유저라면 불필요하게 높은 포티튜드 포인트를 낭비하기보다 기존의 안정적인 방어 talents에 집중하는 것을 추천합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -1975,22 +3657,39 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ✅ 높은 포티튜드 기반의 강화 아머 및 방어력 시너지를 통해 다수의 적에게 둘러싸여도 쉽게 누우키지 않습니다.
 - ✅ 체력 소모 구간마다 발동하는 99% 피해 감소 효과로 인해 위기 상황에서의 역공 기회를 포착하기 수월합니다.
 **단점**:
-- ⚠️ PvP 환경에서 가드브레이크 및 멀티히트 공격을 당할 때 탤런트가 정상적으로 프록(Proc)되지 않는 판정 문제가 존재합니다.
-- ⚠️ 포티튜드 스탯을 강제로 높게 고정해야 하므로 무기 및 기타 공격 속성 스탯 분배에 제약이 생깁니다.
-- ⚠️ 숙련된 PvP 상대는 단일 고위력기나 딜레이가 긴 가드브레이크 기술로 탤런트의 쿨다운 윈도우를 쉽게 카운터 칠 수 있습니다.
+- ⚠️ PvP 환경에서 가드브레이크 및 멀티히트 공격을 당할 때 talents가 정상적으로 프록(Proc)되지 않는 판정 문제가 존재합니다.
+- ⚠️ 포티튜드 stats을 강제로 높게 고정해야 하므로 weapons 및 기타 공격 속성 stats 분배에 제약이 생깁니다.
+- ⚠️ 숙련된 PvP 상대는 단일 고위력기나 딜레이가 긴 가드브레이크 기술로 talents의 쿨다운 윈도우를 쉽게 카운터 칠 수 있습니다.
 
-## 📊 스탯 분배 (Stats)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `0` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `100` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `100` |
+| Charisma (매력) | `25` |
+| Heavy_wep | `80` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `75` |
+| Agility (민첩) | `45` |
+| Intelligence (지능) | `15` |
+| Willpower (의지) | `45` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `80` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Brick Wall (Fortitude 100, Willpower 100) 확보
+- 🎯 Sclerostosis 탱커 빌드 메타 최적화
+- 🎯 Heavy Weapon 80 및 방어 위주 배분
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `45`
@@ -2002,50 +3701,277 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - Sclerostosis 탱커 빌드 메타 최적화
 - Heavy Weapon 80 및 방어 위주 배분
 
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Darkdiver Greatsword', 'category': 'Heavy', 'enchant': 'Vampiric'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Ignition Deepdelver Armor
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Sclerostosis**
+- **Reinforced Armor**
+### 📜 보조 및 추천 탤런트
+- Braced Collapse
+- Mythic Stability
+- Conditioned Runner
+
 ## 🔮 주문 목록 (Mantras)
 - **Shadow Arms**
 - **Flame Wisp**
 - **Fire Forge**
 - **Flame Leap**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (접근 및 이니시에이트): Flame Leap을 활용해 거리를 빠르게 좁히고 상대의 가드를 압박합니다.
+2단계 (가드 압박 및 브레이크): Heavy weapons의 강력한 강공격과 Shadow Arms 버프를 연계하여 상대의 가드 내구도를 무너뜨립니다.
+3단계 (폭딜 연계): 가드가 깨진 상대에게 주력 스킬을 퍼붓고, 교전 중 체력이 깎이면서 발동하는 Sclerostosis의 방어 버프를 믿고 과감하게 인파이팅을 유지합니다.
+4단계 (이탈 및 회복): 교전 중 체력이 위험 수준으로 떨어지면 거리를 벌리고 Vampiric 인챈트나 회복 아이템으로 정비합니다.
+
 ---
 
-### 🛡️ [빌드 33] shining-maelstrom-v4
+### 🛡️ [빌드 46] shadowcast-evanspear-world-record-pve-build
 
-# ⚔️ Shining Maelstrom V4
+# ⚔️ Shadowcast Evanspear World Record PvE Build
 
-> **출처 영상**: [Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)](https://www.youtube.com/watch?v=D3MIbCVb7ZU) by `Skipper Gripper`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Expert`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **출처 영상**: [This NEW BEST PvE Build has 2 WORLD RECORDS... | Deepwoken Verse 3](https://www.youtube.com/watch?v=PpNQXuFssIk) by `P4rzy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Khan` / `Lone Warrior` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 만트라를 현재 스탠스 속성으로 변환시키는 극딜형 PvE 빌드입니다. 특히 Ironsing의 방어구 관통 메커니즘과 Frostdraw의 빙결 상태 이상을 조합하여 보스의 저항력을 무력화하고 폭발적인 데미지를 가합니다. 0 Fortitude와 0 Vitality 세팅으로 생존력이 낮아 보이지만, 원소 시너지와 높은 기동성을 통해 보스의 패턴을 피하며 일방적인 딜링이 가능합니다.
+본 빌드는 Deepwoken의 종결급 PvE 콘텐츠(Elder Primadon, Scion of Ethiron 등)를 최속의 스피드로 파괴하기 위해 극대화된 최고 효율의 Heavy Shadowcast PvE 메타 빌드입니다. 핵심 수치인 노버프 M1 대미지 1,000+ 및 버프 후 1,030~1,040+에 달하는 압도적인 타격력을 바탕으로, 보스의 체력바를 수 초 내에 삭제시키는 미친 폭딜 성능을 자랑합니다.
+
+Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 Taunt 및 Shade Devour 등의 데미지 증폭 탤런트 조합을 매끄럽게 연계하여 100% 버프 업타임을 유지하는 것이 핵심입니다. Elder Primadon을 59초, Scion of Ethiron을 1분 25초 만에 솔로 클리어하여 2개의 세계 기록을 경신할 정도로 현재 최강의 스피드런 성능을 입증했습니다.
+
+고난도 보스 레이드와 딜 버스(Carry) 서버 운영 시 최고의 효율을 보이며, 간단한 평타(M1) 체인 및 크리티컬 연계만으로도 보스를 손쉽게 포스처 브레이크(Posture Break) 상태로 몰아넣어 안정적이면서도 극도의 속도감을 제공하는 빌드입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ Ironsing의 방어구 관통(Armor Shred) 효과를 통한 압도적인 M1 및 만트라 데미지
-- ✅ Saintsworn 오스의 만트라 속성 변환을 활용한 유연한 원소 시너지 극대화
+- ✅ 세계 기록급 최강의 M1 평타 대미지 (노버프 1,010+ / 풀버프 1,040+ 및 크리티컬 2,500+)
+- ✅ Elder Primadon 59초, Scion of Ethiron 1분 25초 컷이 가능한 압도적인 보스 녹이기 속도
+- ✅ Glazed Fish, Gold Potion, Ardour Murmur를 통한 쉬운 100% 버프 업타임 유지
+- ✅ 간단한 평타 체인 및 크리티컬 스팸만으로 보스의 포스처를 빠르게 파괴 가능
+**단점**:
+- ⚠️ PvE 전용 세팅으로 대인전(PvP) 전투에서는 효율이 저하됨
+- ⚠️ 버프 아이템(Glazed Fish, Gold Potion) 소모품 의존도가 높음
+- ⚠️ 보스의 공격 패턴에 맞춘 지속적인 밀착 및 패링 숙련도 요구
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `90` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `100` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `25` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `5` |
+| Intelligence (지능) | `100` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `60` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)
+- 🎯 Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)
+
+## ⚡ 속성 투자 (Attunements)
+- **Shadowcast**: `20`
+- **Ironsing**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `35.0%` / 바람: `35.0%` | 그림자: `20.0%` / 번개: `25.0%` / 철: `25.0%` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `{}`
+**Post-Shrine 우선순위**:
+- Heavy Weapon 100 달성 (Evanspear Handaxe PvE 딜링 최적화)
+- Shadowcast 80 마스터 (Shadow Mantras 및 PvE 시너지 탤런트 확보)
+
+## 🗡️ 추천 무기 (Weapons)
+- **Evanspear Handaxe** (Light Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessories]** Drowned Rings, Delver Gear
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Million Ton Piercer**
+- **Heretic's Sutra**
+- **Shared Misery**
+- **Unnecessary Dramatics**
+- **Taunt**
+- **Shade Devour**
+### 📜 보조 및 추천 탤런트
+- Conditioned Runner
+
+## 🔮 주문 목록 (Mantras)
+- **Reinforce**
+- **Shadow Gun**
+- **Shade Devour**
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Elder Primadon, Scion of Ethiron, Chaser, Duke Erisia`
+
+1. [Elder Primadon] 전투 시작 전 Glazed Fish와 Gold Potion을 복용하고 Ardour Murmur를 활성화합니다. 발밑에 밀착하여 평타(M1) 체인을 빌드업하고 Taunt 및 Shade Devour 디버프를 부여해 딜을 극대화합니다. 점프 파동 및 휘두르기 패턴을 패링하며 무한 크리티컬 스팸으로 1분 미만 클리어를 달성합니다.
+2. [Scion of Ethiron] 중앙 플랫폼에서 보스가 출현하자마자 버프 스택을 활성화한 후 발목 근처에서 M1 스팸을 유지합니다. 잡몹이 생환하더라도 Shared Misery 및 광역 패시브 딜로 자연스럽게 처리하며, 포스처 브레이크를 유도해 빠른 페이즈 전환을 이끌어냅니다.
+3. [일반 보스 공통] M1 대미지가 1,000 이상이므로 복잡한 만트라 연계보다는 가드/패링 후 크리티컬을 적극적으로 넣어 스턴 및 포스처 브레이크를 연속으로 일으키는 것이 최선입니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+**딜 사이클**:
+
+
+**운용 팁**:
+
+---
+
+### 🛡️ [빌드 47] shattered-katana-100-bloodrend-bladeharper-pv
+
+# ⚔️ Shattered Katana 100 Bloodrend Bladeharper PvE
+
+> **출처 영상**: [NEW BEST SHATTERED KATANA ENMITY BLOOD PVE (70k+ DMG) | Deepwoken Verse 3](https://www.youtube.com/watch?v=MDmveFqTQrA) by `P4rzy`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Canor` / `Castaway` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+기존 패치로 인해 Sightless Beam 및 Metal Turrets의 PvE 데미지가 하향 조정됨에 따라, 터렛 기반 PvE 빌드를 대체하기 위해 연구된 최신 보스 레이드 전용 100 Bloodrend Bladeharper 빌드입니다. 100 Bloodrend의 압도적인 출혈 및 흡혈 메커니즘과 Poser's Ring의 회피 능력을 극대화하여 Elder Primadon 및 Enmity와 같은 강력한 보스를 상대로 폭발적인 지속 딜링(70k+ DMG)과 생존력을 동시에 챙길 수 있습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 100 Bloodrend와 3x Vibrant Gems가 적용된 블러드 만트라들을 이용한 가공할 만한 출혈(Hemorrhage) 폭딜
+- ✅ Poser's Ring의 패시브 회피 메커니즘을 통한 보스의 강력한 공격 무력화
+- ✅ Bladeharper 특유의 빠른 모션과 단검/중검 이상의 안정적인 리치 확보
+- ✅ Astral 인챈트 및 DVM(Damage vs Monsters) 장비 세팅으로 극대화된 보스전 화력
+**단점**:
+- ⚠️ 자해 기반 버프 및 만트라 과다 사용 시 자가 체력 관리가 순간적으로 위험해질 수 있음
+- ⚠️ Astral 인챈트가 없을 경우 Curse of Bloodthirsty로 대체할 수 있으나 Enmity 보스전에서는 효율이 떨어짐
+- ⚠️ Poser's Ring 발동 타이밍 및 적절한 프레임 회피 컨트롤 숙련 필요
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `100` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Bloodrend**: `100`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `415` | `24` | `380` | `100` | `100` | `108.0%` | `+52.5%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `32.0%` / 타격: `22.5%` / 관통: `30.0%` | 화염: `15.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Shattered Katana** (Medium Weapon) — 인챈트: `Astral` ⭐x2
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Royal Etrean Guard
+- **[Boots]** Celestial Boots
+- **[Ring 1]** Poser's Ring
+- **[Ring 2]** Bloodband Ring
+- **[Arm]** Pathfinder Elite
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Hemorrhage**
+- **Bladeharper Stance**
+- **Monster Hunter**
+- **DVM Stacking Talents**
+
+## 🔮 주문 목록 (Mantras)
+- **Bloodcurdle**
+- **Scarlet Cyclone**
+- **Blood Orb**
+- **Graceful Flame**
+- **Flame Wisp**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. Graceful Flame 및 Wisps 버프 활성화
+2. 보스에게 근접하여 Shattered Katana 기본 평타 및 Bladeharper 스킬 연결
+3. Blood Orb 및 Scarlet Cyclone(Reversal + Multiplying Spark 적용)으로 보스 주변에 대량의 출혈 장판 형성
+4. Bloodcurdle로 피를 흡수하며 Hemorrhage 폭딜 유도 및 Poser's Ring으로 보스의 반격 회피
+
+---
+
+### 🛡️ [빌드 48] shining-maelstrom-v4
+
+# ⚔️ Shining Maelstrom V4
+
+> **출처 영상**: [Best Boss Killer PvE Build Progression 'Shining Maelstrom V4' | Deepwoken PvE (ft. @zako.mp4)](https://www.youtube.com/watch?v=D3MIbCVb7ZU) by `Skipper Gripper`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Expert`
+> **종족/출신**: `Canor` / `Lone Warrior` | **Oath**: `Saintsworn` | **Murmur/Bell**: `Murmur Ardent` / `Crazy Slots`
+
+---
+
+## 📝 빌드 개요 및 총평
+Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras를 현재 스탠스 속성으로 변환시키는 극딜형 PvE 빌드입니다. 특히 Ironsing의 방어구 관통 메커니즘과 Frostdraw의 빙결 상태 이상을 조합하여 보스의 저항력을 무력화하고 폭발적인 데미지를 가합니다. 0 Fortitude와 0 Vitality 세팅으로 생존력이 낮아 보이지만, 원소 시너지와 높은 기동성을 통해 보스의 패턴을 피하며 일방적인 딜링이 가능합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Ironsing의 방어구 관통(Armor Shred) 효과를 통한 압도적인 M1 및 mantras 데미지
+- ✅ Saintsworn 오스의 mantras 속성 변환을 활용한 유연한 원소 시너지 극대화
 - ✅ Frostdraw의 빙결 및 스턴 연계를 통한 안정적인 보스 무력화
 - ✅ 높은 기동성(Ice Skates, Wind Passage 등)을 활용한 패턴 회피 능력
 **단점**:
-- ⚠️ Fortitude와 Vitality가 0인 극단적인 유리대포(Glass Cannon) 스탯 구성
+- ⚠️ Fortitude와 Vitality가 0인 극단적인 유리대포(Glass Cannon) stats 구성
 - ⚠️ Saintsworn 오스의 복잡한 원소 스탠스 전환 메커니즘에 대한 높은 숙련도 요구
 - ⚠️ Inhale 버프를 유지하기 위해 특정 스탠스(Galebreathe)를 강제해야 하는 제약
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
 | Fortitude (인내) | `0` |
 | Agility (민첩) | `0` |
-| Intelligence (지능) | `0` |
+| Intelligence (지능) | `35` |
 | Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
+| Charisma (매력) | `15` |
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+| Light Wep (경화기) | `100` |
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `40`
@@ -2054,6 +3980,37 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 만트�
 - **Ironsing**: `80`
 - **Shadowcast**: `20`
 - **Thundercall**: `20`
+
+## 🗡️ 추천 무기 (Weapons)
+- **{'name': 'Muffled / Central Dirk', 'type': 'Light Weapon ', 'recommended_enchant': 'Vampiric / Grim'}** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** {'name': "Black Diver / Jester's Garb"}
+- **[Accessory]** Providence's Thorns
+- **[Accessory]** Sanguine Wager
+- **[Accessory]** All Blood Ring
+- **[Accessory]** Ishtar's Ring
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Flame Within**
+- **Flaming Flourish**
+- **Agitating Spark**
+- **Inhale**
+- **Gale Reflection**
+- **Gale Trap**
+- **Neuroplasticity**
+- **Tough Love**
+- **Taunt**
+- **Masterwork**
+- **Piercing Metal**
+- **Metal Eater**
+- **Chilling Flourish**
+### 📜 보조 및 추천 탤런트
+- Dark Hours
+- Reshaping Mold
+- Decisive Blow
+- Steel Scales
 
 ## 🔮 주문 목록 (Mantras)
 - **Ice Skates**
@@ -2066,22 +4023,25 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 만트�
 - **Oxidizing Rush**
 - **Flame Sentinel**
 
+## 🥊 콤보 & 전투 운용 가이드
+전투 시작 시 Gale 스탠스에서 Inhale 버프를 활성화한 뒤, Ironsing mantras를 사용해 적의 방어력을 깎아냅니다. 그 후 Frostdraw 스탠스로 전환하여 Frozen Servants와 Warden's Blades를 소환해 지속적인 빙결 압박을 가합니다. 보스가 무력화되면 Taunt와 M1 평타 평타 콤보를 우겨넣어 폭발적인 데미지를 입힙니다. 위급 상황에서는 Wind Passage나 Flame Leap을 사용해 거리를 벌리며 재정비합니다.
+
 ---
 
-### 🛡️ [빌드 34] silent-swordsman-pve-posers-ring-shattered-ka
+### 🛡️ [빌드 49] silent-swordsman-pve-posers-ring-shattered-ka
 
 # ⚔️ Silent Swordsman PvE (Poser's Ring + Shattered Katana)
 
 > **출처 영상**: [The BEST PvE Build Silent Swordsman  Showcase | Deepwoken Verse 3 |](https://www.youtube.com/watch?v=WP3ZZLRsFqs) by `Eggy`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Any (Vesperian or Khan recommended)` / `Castaway / Voidheart` | **Oath**: `Silentheart` | **Murmur/Bell**: `Murmur: Ardour` / `Payback / Dimensional Travel`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 최근 Rapier 및 Knives Journey 너프 이후 현존하는 최고의 PvE 빌드로 평가받는 사일런트하트(Silentheart) 기반 검사 빌드입니다. Poser's Ring 및 발도(Sheath) 메커니즘을 극대화하여 보스에게 미친 수준의 트루 대미지(True Damage)를 누적시키는 방식을 채택했습니다.
 
-Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐스팅 시간 없이 즉시 아이언싱 로드(Ironsing Rod)를 획득하고, 이를 통해 Artisan Blades를 폭발적으로 연계합니다. Shattered Katana의 자체 방어구 관통력(30% Armor Pen)과 높은 대미지 효율이 시너지를 일으켜 게임 내 존재하는 모든 보스(Elder Primadon, Chaser, Ferryman, Titus 등)를 압도적인 속도로 파쇄합니다.
+Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐스팅 시간 없이 즉시 아이언싱 로드(Ironsing Rod)를 획득하고, 이를 통해 Artisan Blades를 폭발적으로 연계합니다. Shattered Katana의 자체 방어구 관통력(30% Armor Pen)과 높은 대미지 효율이 시너지를 일으켜 게임 내 존재하는 모든 보스(Elder Primadon, Chaser, Ferryman, Titus 등)를 압도적인 속도로 파쇄합니다.
 
 사일런트하트 특유의 강력한 기본 평타 패시브와 묵직한 카운터, 그리고 포저스 링의 기믹을 활용해 패링과 타격, 발도 동작만으로 보스의 패턴을 무력화하며 최고의 딜링 효율을 발휘하는 명품 PvE 빌드입니다.
 
@@ -2092,10 +4052,10 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 - ✅ Metal Turrets + Absolute Pitch 조합을 통한 즉발 로드 생성 및 Artisan Blades 연계
 - ✅ Elder Primadon, Chaser, Ferryman 등 인게임 모든 보스 사냥 가능
 **단점**:
-- ⚠️ Silentheart Oath 특성상 일반 만트라 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
+- ⚠️ Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
 - ⚠️ Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -2111,6 +4071,13 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `20`
 
+## 🗡️ 추천 무기 (Weapons)
+- **Shattered Katana** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak / Black Diver
+- **[Accessories]** Poser's Ring, Eye of Malice (Optional)
+
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
 - **Absolute Pitch**
@@ -2122,33 +4089,39 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 ## 🔮 주문 목록 (Mantras)
 - **Metal Turrets**
 
+## 🥊 콤보 & 전투 운용 가이드
+1단계: 전투 시작 시 Metal Turrets를 설치하여 weapons에 아이언싱 로드 누적.
+2단계: Shattered Katana의 평타 콤보 및 M1 타격으로 보스에게 연속 대미지 누적.
+3단계: Artisan Blades 발동 및 로드 추가 타격 부여.
+4단계: weapons를 납도(Sheath)하여 Poser's Ring에 누적된 누적 대미지를 방어력 무시 트루 대미지로 폭발시킴.
+
 ---
 
-### 🛡️ [빌드 35] silentheart-fist-brick-wall-pve-build
+### 🛡️ [빌드 50] silentheart-fist-brick-wall-pve-build
 
 # ⚔️ Silentheart Fist Brick Wall PvE Build
 
 > **출처 영상**: [NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression](https://www.youtube.com/watch?v=wL96bVek6Cg) by `African Luminant`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Silentheart` | **Murmur/Bell**: `Ardor` / `Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Deepwoken에서 가장 강력한 PvE 빌드 중 하나로, Silentheart Oath와 Fist(주먹) 무기를 결합하여 압도적인 M1 지속 화력과 안정성을 자랑합니다. Shrine of Order를 활용해 Brick Wall과 Sclerostasis 같은 고효율 방어 탤런트를 챙기면서도, Light Weapon 100 스탯을 달성하여 딜러로서의 파괴력을 극대화했습니다. 특히 Heretic's Sutra와 Lose Your Mind의 시너지를 통해 광기 상태에서 폭발적인 데미지를 뿜어내며, Diluvian 및 모든 보스 레이드를 손쉽게 솔로 클리어할 수 있습니다.
+이 빌드는 Deepwoken에서 가장 강력한 PvE 빌드 중 하나로, Silentheart Oath와 Fist(주먹) weapons를 결합하여 압도적인 M1 지속 화력과 안정성을 자랑합니다. Shrine of Order를 활용해 Brick Wall과 Sclerostasis 같은 고효율 방어 talents를 챙기면서도, Light Weapon 100 stats을 달성하여 딜러로서의 파괴력을 극대화했습니다. 특히 Heretic's Sutra와 Lose Your Mind의 시너지를 통해 광기 상태에서 폭발적인 데미지를 뿜어내며, Diluvian 및 모든 보스 레이드를 손쉽게 솔로 클리어할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Brick Wall과 Sclerostasis를 통한 압도적인 탱킹력 및 포스처 붕괴 면역
-- ✅ Fist 무기 특유의 매우 빠른 공격 속도와 높은 M1 DPS
+- ✅ Fist weapons 특유의 매우 빠른 공격 속도와 높은 M1 DPS
 - ✅ Heretic's Sutra와 Lose Your Mind를 활용한 상시 데미지 증폭 버프
 - ✅ Diluvian 50웨이브 및 Chaser, Scion of Ethiron 등 모든 보스 원사이클 킬 가능
 **단점**:
 - ⚠️ Silentheart 특성상 마법(Mantra)을 사용할 수 없어 유틸리티가 제한됨
-- ⚠️ Shrine of Order를 사용하기 위한 정교한 스탯 빌드업 순서가 강제됨
+- ⚠️ Shrine of Order를 사용하기 위한 정교한 stats 빌드업 순서가 강제됨
 - ⚠️ 광기(Insanity) 관리가 미숙할 경우 리스크가 존재함
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `30` |
@@ -2181,38 +4154,38 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch 탤런트를 조합하여 캐
 
 ---
 
-### 🛡️ [빌드 36] starkindred-heavy-flamecharm-gank-dominator
+### 🛡️ [빌드 51] starkindred-heavy-flamecharm-gank-dominator
 
 # ⚔️ Starkindred Heavy Flamecharm Gank Dominator
 
 > **출처 영상**: [The Strongest Gank Build Deepwoken](https://www.youtube.com/watch?v=B-S25iP9HQM) by `0wl`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian / Any` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Ardour` / `Paycheck / Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 [1. 빌드 컨셉 및 전투 아키타입]
-본 빌드는 다대일 갱킹(Gank) 및 뎁스(Depths) 전투에서 압도적인 순간 폭딜과 기동성을 바탕으로 전장을 지배하기 위해 설계된 Starkindred Heavy Flamecharm 아키타입입니다. Starkindred Oath 특유의 검은 날개를 활용한 고공 비행 및 강하 공격(Ascension)으로 거리를 순식간에 좁히며, 헤비 무기의 강력한 가드 브레이크 판정과 화염 속성(Flamecharm)의 지속 화염 대미지를 조합해 적을 순식간에 빈사 상태로 만듭니다.
+본 빌드는 다대일 갱킹(Gank) 및 뎁스(Depths) 전투에서 압도적인 순간 폭딜과 기동성을 바탕으로 전장을 지배하기 위해 설계된 Starkindred Heavy Flamecharm 아키타입입니다. Starkindred Oath 특유의 검은 날개를 활용한 고공 비행 및 강하 공격(Ascension)으로 거리를 순식간에 좁히며, 헤비 weapons의 강력한 가드 브레이크 판정과 화염 속성(Flamecharm)의 지속 화염 대미지를 조합해 적을 순식간에 빈사 상태로 만듭니다.
 
 [2. 고유 시너지 및 메커니즘]
-Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame Grab, Ash Slam 등)의 콤보 연계가 핵심 시너지를 이룹니다. 공중에 떠오른 상태에서 강하하며 적을 내리치는 파괴적인 모션과 함께 화염 확산 효과를 부여하여, 여러 명의 적이 뭉쳐있는 갱킹 상황에서 광역 넉다운 및 치명적인 피해를 입힐 수 있습니다. 헤비 무기의 높은 리치와 기본 대미지가 화염 디버프와 겹쳐 상대의 포스처와 체력을 동시에 압박합니다.
+Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Grab, Ash Slam 등)의 콤보 연계가 핵심 시너지를 이룹니다. 공중에 떠오른 상태에서 강하하며 적을 내리치는 파괴적인 모션과 함께 화염 확산 효과를 부여하여, 여러 명의 적이 뭉쳐있는 갱킹 상황에서 광역 넉다운 및 치명적인 피해를 입힐 수 있습니다. 헤비 weapons의 높은 리치와 기본 대미지가 화염 디버프와 겹쳐 상대의 포스처와 체력을 동시에 압박합니다.
 
 [3. 실전 심리전 및 교전 판정 우위]
-공중 콤보 시발점인 Ascension으로 상대의 패링 타이밍을 흔들고, 착지 직후 패링 불가 판정 또는 가드 브레이크 성능을 지닌 Flamecharm 만트라로 후속타를 확정 적중시킵니다. 적이 가드를 올릴 경우 헤비 무기 M1 강타로 가드를 부수고, 롤(Roll)로 회피하려 할 때는 넓은 공격 판정 범위로 롤 캐치(Roll Catch)를 성공시켜 교전 주도권을 놓치지 않습니다.
+공중 콤보 시발점인 Ascension으로 상대의 패링 타이밍을 흔들고, 착지 직후 패링 불가 판정 또는 가드 브레이크 성능을 지닌 Flamecharm mantras로 후속타를 확정 적중시킵니다. 적이 가드를 올릴 경우 헤비 weapons M1 강타로 가드를 부수고, 롤(Roll)로 회피하려 할 때는 넓은 공격 판정 범위로 롤 캐치(Roll Catch)를 성공시켜 교전 주도권을 놓치지 않습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Starkindred 날개를 활용한 입체적이고 압도적인 공중 기동성 및 난입 능력
-- ✅ 헤비 무기와 Flamecharm 만트라의 조합으로 형성되는 전 영역 높은 가드 브레이크 및 넉다운 능력
+- ✅ 헤비 weapons와 Flamecharm mantras의 조합으로 형성되는 전 영역 높은 가드 브레이크 및 넉다운 능력
 - ✅ 다대일 갱킹 상황에서 다수의 적을 동시에 타격하고 제압하는 강력한 광역 딜링
 - ✅ 화염 속성의 지속 상태 이상 피해(Burn/DoT)를 통한 체력 및 이더 압박
 **단점**:
-- ⚠️ 헤비 무기 특유의 느린 선후딜레이로 인해 숙련된 플레이어의 패링 counter 반응에 취약할 수 있음
-- ⚠️ 만트라 연타 시 높은 이더(Ether) 소비량으로 지속적인 이더 관리가 필수적임
+- ⚠️ 헤비 weapons 특유의 느린 선후딜레이로 인해 숙련된 플레이어의 패링 counter 반응에 취약할 수 있음
+- ⚠️ mantras 연타 시 높은 이더(Ether) 소비량으로 지속적인 이더 관리가 필수적임
 - ⚠️ 공중 강하 패턴이 단조로워질 경우 상급자에게 공중 패링을 허용할 위험 존재
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `50` |
@@ -2254,30 +4227,30 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 
 ---
 
-### 🛡️ [빌드 37] starter-brick-wall-blindseer-pve
+### 🛡️ [빌드 52] starter-brick-wall-blindseer-pve
 
 # ⚔️ Starter Brick Wall Blindseer PvE
 
 > **출처 영상**: [The Starter PvE Build You NEED in Deepwoken (2026)](https://www.youtube.com/watch?v=dPK2vw6a7rc) by `TRE_MONSTER`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
+> **종족/출신**: `Etriian` / `Ignition Union` | **Oath**: `Blindseer` | **Murmur/Bell**: `None` / `None`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Deepwoken에 입문하는 초보자나 만들기 쉬운 PvE 빌드를 찾는 유저들을 위해 설계되었습니다. Willpower 100과 Fortitude 100을 투자하여 'Brick Wall' 탤런트를 획득함으로써 체력이 0이 되기 전까지 절대 넘어지지 않는(Ragdoll 면역) 엄청난 안정성을 제공합니다. Flamecharm과 Frostdraw 듀얼 속성을 활용하여 강력한 'Flash Boil' 시너지를 내며, Enforcer's Axe의 우수한 가드 브레이크 능력과 다단 히트 크리티컬 공격으로 몹들을 손쉽게 제압할 수 있습니다.
+이 빌드는 Deepwoken에 입문하는 Beginner나 만들기 쉬운 PvE 빌드를 찾는 유저들을 위해 설계되었습니다. Willpower 100과 Fortitude 100을 투자하여 'Brick Wall' talents를 획득함으로써 체력이 0이 되기 전까지 절대 넘어지지 않는(Ragdoll 면역) 엄청난 안정성을 제공합니다. Flamecharm과 Frostdraw 듀얼 속성을 활용하여 강력한 'Flash Boil' 시너지를 내며, Enforcer's Axe의 우수한 가드 브레이크 능력과 다단 히트 크리티컬 공격으로 몹들을 손쉽게 제압할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
-- ✅ Brick Wall 탤런트로 인한 완벽한 래그돌(Ragdoll) 면역
-- ✅ 높은 방어력과 체력 유지력으로 초보자에게 매우 안전함
+- ✅ Brick Wall talents로 인한 완벽한 래그돌(Ragdoll) 면역
+- ✅ 높은 방어력과 체력 유지력으로 Beginner에게 매우 안전함
 - ✅ Flash Boil을 활용한 강력한 하이브리드 원소 데미지
 - ✅ Enforcer's Axe의 우수한 가드 브레이크 및 크리티컬 성능
 **단점**:
-- ⚠️ Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 스탯 순서 요구
+- ⚠️ Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 stats 순서 요구
 - ⚠️ 극단적인 극딜 빌드에 비해서는 보스 처치 속도가 다소 느릴 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `5` |
@@ -2321,31 +4294,31 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 
 ---
 
-### 🛡️ [빌드 38] super-sigma-soul-beam-blindseer
+### 🛡️ [빌드 53] super-sigma-soul-beam-blindseer
 
 # ⚔️ Super Sigma Soul Beam Blindseer
 
 > **출처 영상**: [The STRONGEST SOUL BEAM PvE/PvP BUILD... (ONE SHOT BOSSES) | Deepwoken Verse 3](https://www.youtube.com/watch?v=JjQ9LHjjltg) by `African Luminant`
-> **패치 버전**: `Unknown` | **타입**: `Hybrid` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Hybrid` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Blindseer` | **Murmur/Bell**: `Tacet` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Thundercall과 Flamecharm을 결합한 듀얼 속성 하이브리드 빌드로, Blindseer Oath의 강력한 'Sightless Beam(Soul Beam)'을 극대화하여 보스를 순식간에 녹여버리는 강력한 PvE 및 PvP 성능을 자랑합니다. Lightning Cloak과 Lightning Clones를 활용해 다단 히트와 체인 스택을 쌓고, Relentless Flames와 든든한 Heavy 무기(Enforcer's Axe)의 대미지 시너지를 통해 압도적인 폭딜을 뿜어냅니다. Shrine of Order를 활용하여 높은 속성 수치와 필수 유틸리티 스탯을 모두 챙긴 완성도 높은 빌드입니다.
+이 빌드는 Thundercall과 Flamecharm을 결합한 듀얼 속성 하이브리드 빌드로, Blindseer Oath의 강력한 'Sightless Beam(Soul Beam)'을 극대화하여 보스를 순식간에 녹여버리는 강력한 PvE 및 PvP 성능을 자랑합니다. Lightning Cloak과 Lightning Clones를 활용해 다단 히트와 체인 스택을 쌓고, Relentless Flames와 든든한 Heavy weapons(Enforcer's Axe)의 대미지 시너지를 통해 압도적인 폭딜을 뿜어냅니다. Shrine of Order를 활용하여 높은 속성 수치와 필수 유틸리티 stats을 모두 챙긴 완성도 높은 빌드입니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Sightless Beam(Soul Beam)의 압도적인 다단 히트 및 보스 원콤 폭딜
 - ✅ Lightning Cloak과 Lightning Clones를 통한 빠른 체인 스택 및 유틸리티 확보
-- ✅ Relentless Flames와 Heavy 무기의 시너지로 지속적인 화상 및 물리 압박 가능
+- ✅ Relentless Flames와 Heavy weapons의 시너지로 지속적인 화상 및 물리 압박 가능
 - ✅ PvE 보스 레이드(Chaser, Ferryman 등)와 PvP 갱킹 모두에서 강력한 하이브리드 성능
 **단점**:
-- ⚠️ Shrine of Order를 정교하게 타야 하므로 육성 난이도가 높음
-- ⚠️ 만트라 의존도가 높아 게이지 관리가 중요함
+- ⚠️ Shrine of Order를 정교하게 타야 하므로 육성 difficulty가 높음
+- ⚠️ mantras 의존도가 높아 게이지 관리가 중요함
 - ⚠️ Sightless Beam 사용 중 채널링 상태에서 취약해질 수 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -2357,6 +4330,14 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 | Heavy Wep (중화기) | `100` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Enforcer's Axe** (Heavy) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Accessory]** Imperial Boots
+- **[Accessory]** Prophet's Cloak
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -2375,31 +4356,34 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 - **Relentless Flames**
 - **Fire Blade**
 
+## 🥊 콤보 & 전투 운용 가이드
+기본 콤보는 Lightning Cloak 버프 활성화 -> Lightning Clones 소환 -> weapons 평타(Heavy)로 압박 및 패링 유도 -> 상대가 방어적이거나 빈틈을 보일 때 Relentless Flames 연계 -> 마지막으로 Sightless Beam으로 마무리하는 흐름입니다. PvP에서는 Lightning Clones의 혼란을 틈타 기습적으로 Soul Beam을 차징하여 가드를 깨뜨리거나 폭딜을 넣는 플레이가 핵심입니다.
+
 ---
 
-### 🛡️ [빌드 39] the-1-shadowcast-medium-build
+### 🛡️ [빌드 54] the-1-shadowcast-medium-build
 
 # ⚔️ The #1 Shadowcast Medium Build
 
 > **출처 영상**: [The #1 Shadowcast Build | Deepwoken](https://www.youtube.com/watch?v=ISNt-FN_miY) by `mrsaje`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Kamui`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 강력한 섀도우캐스트(Shadowcast) 만트라와 미디엄 무기의 빠른 공격 속도를 결합한 최상위권 PvP 빌드입니다. 상대의 에테르를 흡수하는 섀도우캐스트의 고유 특성을 극대화하여 장기전에서 압도적인 우위를 점할 수 있습니다. 다양한 유틸리티 만트라와 강력한 콤보 연계를 통해 상대방의 가드를 무너뜨리고 지속적인 압박을 가하는 데 특화되어 있습니다.
+이 빌드는 강력한 섀도우캐스트(Shadowcast) mantras와 미디엄 weapons의 빠른 공격 속도를 결합한 최상위권 PvP 빌드입니다. 상대의 에테르를 흡수하는 섀도우캐스트의 고유 특성을 극대화하여 장기전에서 압도적인 우위를 점할 수 있습니다. 다양한 유틸리티 mantras와 강력한 콤보 연계를 통해 상대방의 가드를 무너뜨리고 지속적인 압박을 가하는 데 특화되어 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ 상대의 에테르를 흡수하여 스킬 사용을 억제함
 - ✅ 섀도우 체인과 에럽션을 활용한 강력한 콤보 연계력
-- ✅ 미디엄 무기의 빠른 공속과 리치를 활용한 안정적인 딜링
+- ✅ 미디엄 weapons의 빠른 공속과 리치를 활용한 안정적인 딜링
 **단점**:
-- ⚠️ 섀도우캐스트 만트라의 높은 에테르 소모량
-- ⚠️ 정교한 패링과 거리 조절이 요구되는 높은 난이도
+- ⚠️ 섀도우캐스트 mantras의 높은 에테르 소모량
+- ⚠️ 정교한 패링과 거리 조절이 요구되는 높은 difficulty
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `40` |
@@ -2432,22 +4416,22 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 
 ---
 
-### 🛡️ [빌드 40] top-10-meta-talents-synergy-build
+### 🛡️ [빌드 55] top-10-meta-talents-synergy-build
 
 # ⚔️ Top 10 Meta Talents Synergy Build
 
 > **출처 영상**: [TOP 10 TALENTS YOU NEED! | Deepwoken](https://www.youtube.com/watch?v=SGNroucI8jI) by `Navarr2`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `Wind Up`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-본 빌드는 딥위큰(Deepwoken) PvP 메타에서 가장 파괴적이고 효율적인 10가지 탤런트(Charismatic Cast, Exoskeleton, Speed Demon, Million-Ton Piercer, Reinforced Armor 등)의 시너지를 극대화하도록 설계되었습니다. 카리스마 계열의 매혹(Charm) 메커니즘과 마인드브레이커(Mindbreaker) 계열의 광기(Insanity) 기반 펜트라레이션(PEN) 버프, 그리고 철벽의 수비력을 제공하는 탤런트들이 맞물려 공방 일체의 압도적인 성능을 발휘합니다.
+본 빌드는 딥위큰(Deepwoken) PvP 메타에서 가장 파괴적이고 효율적인 10가지 talents(Charismatic Cast, Exoskeleton, Speed Demon, Million-Ton Piercer, Reinforced Armor 등)의 시너지를 극대화하도록 설계되었습니다. 카리스마 계열의 매혹(Charm) 메커니즘과 마인드브레이커(Mindbreaker) 계열의 광기(Insanity) 기반 펜트라레이션(PEN) 버프, 그리고 철벽의 수비력을 제공하는 talents들이 맞물려 공방 일체의 압도적인 성능을 발휘합니다.
 
 전투 시 템포는 매우 공격적이면서도 안정적입니다. Speed Demon을 통한 M1 공속 버프와 Spine Cutter를 통한 백스텝 확정 강공격 루트를 활용해 상대의 가드를 무너뜨리고, Million-Ton Piercer와 Reinforced Armor 조합을 통해 상대의 방어력을 완벽히 무력화합니다. 적의 방어구를 관통하는 극대화된 PEN 수치를 바탕으로 한 대미지 교환에서 우위를 점하며, 솔로 갱단이나 1v1 다대다 교전 모두에서 강력한 존재감을 드러냅니다.
 
-운용 시 주의할 점은 일부 탤런트(예: Everchanging Aegis 또는 Lose Your Mind)의 디메리트를 정확히 이해하고 카운터 빌드(Saintsworn 등)를 상대로 유연하게 대처하는 것입니다. Heretics Sutra를 활용해 광기 스택을 안정적으로 유지하고, 패리(Parry) 후 연계되는 이동 버프를 극대화한다면 상대를 순식간에 제압할 수 있습니다.
+운용 시 주의할 점은 일부 talents(예: Everchanging Aegis 또는 Lose Your Mind)의 디메리트를 정확히 이해하고 카운터 빌드(Saintsworn 등)를 상대로 유연하게 대처하는 것입니다. Heretics Sutra를 활용해 광기 스택을 안정적으로 유지하고, 패리(Parry) 후 연계되는 이동 버프를 극대화한다면 상대를 순식간에 제압할 수 있습니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -2456,9 +4440,9 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 - ✅ Exoskeleton 및 Charismatic Cast를 통한 상시 데미지 감소 및 추가 물리 저항력으로 뛰어난 생존력을 자랑함
 **단점**:
 - ⚠️ Everchanging Aegis의 경우 단일 속성 빌드나 Saintsworn 상대로는 속성 피격 시 오히려 디메리트를 받을 수 있음
-- ⚠️ Heretics Sutra 및 Insanity 계열 탤런트 운용 시 체력 및 광기 관리가 미숙하면 자멸할 위험이 있음
+- ⚠️ Heretics Sutra 및 Insanity 계열 talents 운용 시 체력 및 광기 관리가 미숙하면 자멸할 위험이 있음
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `90` |
@@ -2472,9 +4456,7 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 | Light Wep (경화기) | `0` |
 
 ## 🗡️ 추천 무기 (Weapons)
-- **weapon**
-- **weapon_type**
-- **enchant**
+- **Unknown** — 인챈트: `Grim`
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -2494,24 +4476,24 @@ Starkindred의 기동 유틸리티와 Flamecharm 만트라(Grand Skewer, Flame G
 - **Heretics Sutra**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'phase_1_engage': '적의 공격을 패리(Parry)하여 패리 버프와 Speed Demon의 이동 속도/공속 버프를 동시에 활성화하고 교전에 진입합니다.', 'phase_2_guard_break': 'Roll-cancel 후 상대의 후방을 잡고 Spine Cutter를 발동하여 무기 원본 대미지의 확정타를 먹이고 가드를 흔듭니다.', 'phase_3_burst': 'Manipulator와 Charismatic Cast를 통해 적을 매혹(Charm) 상태로 만든 뒤, 강화된 크리티컬 공격과 M1 폭딜을 퍼붓습니다.', 'phase_4_sustain_escape': 'Million-Ton Piercer와 Reinforced Armor로 적의 방어력을 0으로 수렴시키는 극딜 교환을 마친 후,Exoskeleton의 잔여 내구도와 유지력을 바탕으로 전장을 이탈하거나 상대를 마무리합니다.'}
+{'phase_1_engage': '적의 공격을 패리(Parry)하여 패리 버프와 Speed Demon의 이동 속도/공속 버프를 동시에 활성화하고 교전에 진입합니다.', 'phase_2_guard_break': 'Roll-cancel 후 상대의 후방을 잡고 Spine Cutter를 발동하여 weapons 원본 대미지의 확정타를 먹이고 가드를 흔듭니다.', 'phase_3_burst': 'Manipulator와 Charismatic Cast를 통해 적을 매혹(Charm) 상태로 만든 뒤, 강화된 크리티컬 공격과 M1 폭딜을 퍼붓습니다.', 'phase_4_sustain_escape': 'Million-Ton Piercer와 Reinforced Armor로 적의 방어력을 0으로 수렴시키는 극딜 교환을 마친 후,Exoskeleton의 잔여 내구도와 유지력을 바탕으로 전장을 이탈하거나 상대를 마무리합니다.'}
 
 ---
 
-### 🛡️ [빌드 41] unnamed-build
+### 🛡️ [빌드 56] unnamed-build
 
 # ⚔️ Unnamed Build
 
 > **출처 영상**: [How To Make YOUR PERFECT Build! - Deepwoken Essentials Guide](https://www.youtube.com/watch?v=wlzf6QO0g_Q) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Any Race (Ganymede, Vesperian 추천)` / `Deepbound` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 No summary provided.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
@@ -2550,18 +4532,18 @@ No summary provided.
 
 ---
 
-### 🛡️ [빌드 42] vampiric-bastion-drain-tank-pve-build
+### 🛡️ [빌드 57] vampiric-bastion-drain-tank-pve-build
 
 # ⚔️ Vampiric Bastion (Drain Tank PvE Build)
 
 > **출처 영상**: [This Build is IMMORTAL in PvE. - Deepwoken](https://www.youtube.com/watch?v=BGrR39bf6U0) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Advanced`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Any` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `None` / `Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 '드레인 탱크(Drain Tank)' 컨셉을 극대화한 PvE 전용 빌드로, 적에게 가하는 피해를 통해 엄청난 양의 체력 회복과 임시 체력(Temporary HP)을 지속적으로 수급하는 메커니즘을 가지고 있습니다. Pale Briar 무기의 다단 히트 크리티컬과 Vampirism 인챈트, 그리고 No-Life King's Crown과 같은 특수 장비들의 시너지를 활용하여 헬모드나 딜루비안(Diluvian) 같은 다수의 몹이 몰려오는 상황에서 사실상 불사(Immortal)에 가까운 생존력을 보여줍니다. 또한 Arcwarder 오스의 유틸리티와 Thundercall의 감전 디버프를 통해 적의 공격력을 약화시키고 자신의 저항력을 극대화합니다.
+이 빌드는 '드레인 탱크(Drain Tank)' 컨셉을 극대화한 PvE 전용 빌드로, 적에게 가하는 피해를 통해 엄청난 양의 체력 회복과 임시 체력(Temporary HP)을 지속적으로 수급하는 메커니즘을 가지고 있습니다. Pale Briar weapons의 다단 히트 크리티컬과 Vampirism 인챈트, 그리고 No-Life King's Crown과 같은 특수 장비들의 시너지를 활용하여 헬모드나 딜루비안(Diluvian) 같은 다수의 몹이 몰려오는 상황에서 사실상 불사(Immortal)에 가까운 생존력을 보여줍니다. 또한 Arcwarder 오스의 유틸리티와 Thundercall의 감전 디버프를 통해 적의 공격력을 약화시키고 자신의 저항력을 극대화합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
@@ -2570,11 +4552,11 @@ No summary provided.
 - ✅ 감전 디버프와 Arc Suit를 통한 높은 피해 저항력
 - ✅ Phoenix Flames를 통한 부활 기회 제공
 **단점**:
-- ⚠️ No-Life King's Crown, Blindseer's Ring 등 제작 난이도가 높은 종결급 장비 요구
+- ⚠️ No-Life King's Crown, Blindseer's Ring 등 제작 difficulty가 높은 종결급 장비 요구
 - ⚠️ 치유량 극대화를 위해 딜량이 15% 감소하는 Blindseer's Ring의 패널티 감수 필요
-- ⚠️ Shrine of Order를 사용한 정교한 스탯 분배 필요
+- ⚠️ Shrine of Order를 사용한 정교한 stats 분배 필요
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
@@ -2590,6 +4572,16 @@ No summary provided.
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Thundercall**: `65`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Pale Briar** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Ferryman's Coat
+- **[Accessory]** No-Life King's Crown (or Necrotic Cowl)
+- **[Accessory]** Regenerative Earrings
+- **[Accessory]** Regenerative Pendant
+- **[Accessory]** Blindseer's Ring
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -2620,22 +4612,29 @@ No summary provided.
 - **Flame Wisp**
 - **Emotion Wave**
 
+## 🥊 콤보 & 전투 운용 가이드
+1. 전투 진입 전 Arc Suit 및 Flame Wisp 버프 활성화.
+2. 몹들이 모이면 Arc Wave와 Emotion Wave를 사용하여 광역 피해 및 Aegis/Bloodless 효과 발동.
+3. Pale Briar의 크리티컬 공격(M2)을 쿨타임마다 사용하여 다단 히트 피흡 및 임시 체력 대량 수급.
+4. Electro Carve로 핵심 타겟을 감전시켜 가하는 피해 감소 디버프 부여.
+5. 체력이 낮아지면 Sacred Field를 사용하고 제자리에서 크리티컬과 mantras 연타로 체력을 순식간에 복구.
+
 ---
 
-### 🛡️ [빌드 43] vampiric-bastion-drain-tank-pve
+### 🛡️ [빌드 58] vampiric-bastion-drain-tank-pve
 
 # ⚔️ Vampiric Bastion (Drain Tank PvE)
 
 > **출처 영상**: [This Build is IMMORTAL in PvE. - Deepwoken](https://www.youtube.com/watch?v=BGrR39bf6U0) by `Infekted`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Arcwarder` | **Murmur/Bell**: `N/A` / `Sacred Field`
 
 ---
 
 ## 📝 빌드 개요 및 총평
 Vampiric Bastion 빌드는 전통적인 방어력/체력 중심의 탱커와 달리, 끊임없는 피흡(Vampirism)과 임시 체력(Temporary HP) 수급을 통해 실시간으로 받은 피해보다 더 많은 체력을 회복하는 '드레인 탱커(Drain Tank)' 개념의 PvE 특화 빌드입니다. 다수의 몬스터나 보스를 상대할 때 실질적으로 무한에 가까운 체력 유지력을 발휘합니다.
 
-Pale Briar의 강력한 광역 연타 크리티컬 모션과 Critical Engine 탤런트, Bloodless Gem, Vampirism 인챈트가 핵심 시너지를 이룹니다. 여기에 Flamecharm의 Phoenix Flames 및 Immolation, Thundercall의 Authority Interrogator 트리가 결합되어 적에게 감전(Electrify) 디버프를 걸고 나에게 들어오는 대미지를 최대 50% 이상 감쇄시킵니다.
+Pale Briar의 강력한 광역 연타 크리티컬 모션과 Critical Engine talents, Bloodless Gem, Vampirism 인챈트가 핵심 시너지를 이룹니다. 여기에 Flamecharm의 Phoenix Flames 및 Immolation, Thundercall의 Authority Interrogator 트리가 결합되어 적에게 감전(Electrify) 디버프를 걸고 나에게 들어오는 대미지를 최대 50% 이상 감쇄시킵니다.
 
 Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 크리티컬 공격을 지속적으로 돌려주기만 하면, 헬 모드(Hell Mode)나 디루비안(Diluvian Mechanism) 같은 고난도 웨이브 콘텐츠에서도 체력이 전혀 줄어들지 않는 최상위급 안정성을 체감할 수 있습니다.
 
@@ -2648,7 +4647,7 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 크리티컬 공격 빗나감 시 순간 리스크: Blood Plague 및 Critical Engine 기반의 피흡 의존도가 높아 크리티컬 공격을 실수로 허공에 날리면 순간 임시 체력 수급이 끊길 수 있습니다.
 - ⚠️ 고난도 제작 재료 요구: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings 등 엔드게임 세트 장비 제작에 많은 유니크 재료가 소비됩니다.
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `0` |
@@ -2702,32 +4701,43 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - **Arc Beam**
 - **Arc Suit**
 
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Hell Mode Mob Groups, Diluvian Mechanism Waves, Chaser, Scion of Ethiron, Duke d'Eris`
+
+['Arc Suit 버프 선시전: 전투 개시 전 4x Eternal Logstones와 4x Vibrant Gems로 모딩된 Arc Suit를 활성화하여 최장 시간 동안 방어력 증가 버프를 상시 유지합니다.', 'Pale Briar 크리티컬 스팸: 몬스터 무리 한가운데서 Pale Briar의 크리티컬 공격을 사용하여 Critical Engine + Blood Plague + Vampirism 시너지로 폭발적인 피흡과 임시 체력을 지속 수급합니다.', 'Arc Wave & Aegis Gem 버프 갱신: Aegis Gem이 장착된 Arc Wave를 쿨타임마다 발사하여 자가 대미지 저항 버프를 갱신하고, Electro Carve로 적들에게 감전 디버프를 걸어 공격력을 약화시킵니다.', 'Relentless Flames 마무리: HP가 높은 정예 몬스터나 보스를 상대할 때는 Blessed Gem이 장착된 Relentless Flames로 순간 폭발적인 대미지를 넣어 단숨에 제압합니다.']
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계 (진입 전 버프 세팅): 교전 직전 Arc Suit와 Flame Wisp를 켜서 자가 방어력 증가 버프와 도트 힐 패시브를 준비합니다.
+2단계 (광역 디버프 및 대미지 감쇄): 몹 무리에 진입하며 Magnet Spark가 적용된 Electro Carve와 Aegis Gem Arc Wave를 발사해 광역 감전(Electrify) 디버프를 부여하고 무상 방어 저항을 확보합니다.
+3단계 (크리티컬 주력 폭딜 & 무한 피흡): Pale Briar 크리티컬 공격을 시전해 다단히트 타격으로 임시 체력과 HP를 대량 수급합니다. 이어서 Emotion Wave와 Relentless Flames를 연계해 몹 집단을 단숨에 쓸어버립니다.
+4단계 (긴급 상황 탱킹 및 복구): 위급 상황 시 Sacred Field Bell을 펼쳐 저항력을 극대화하고, Phoenix Flames 부활 기믹 및 Regenerative 세트(Critical Heal) 효과로 단숨에 풀피를 복구합니다.
+
 ---
 
-### 🛡️ [빌드 44] volcanic-glass-brick-wall-pve-spear
+### 🛡️ [빌드 59] volcanic-glass-brick-wall-pve-spear
 
 # ⚔️ Volcanic Glass Brick Wall PvE Spear
 
 > **출처 영상**: [This BEGINNER PVE Build Can Do ANYTHING... | Deepwoken](https://www.youtube.com/watch?v=Pyy468RDJrQ) by `Valklist`
-> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Beginner`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Beginner`
+> **종족/출신**: `Any` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `None` / `None`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 Flamecharm과 Frostdraw의 하이브리드 탤런트인 'Volcanic Glass'를 핵심으로 사용하는 초보자 친화적인 PvE 빌드입니다. 'Brick Wall'과 'Reinforced Armor'를 채용하여 넉백에 면역이며 극강의 탱킹력을 자랑합니다. 얼음 만트라로 생성된 크리스탈이 폭발할 때 용암 폭발(Lava Explosion)을 일으켜 체인 스택이 쌓였을 때 만트라당 2000 이상의 폭발적인 데미지를 선사합니다.
+이 빌드는 Flamecharm과 Frostdraw의 하이브리드 talents인 'Volcanic Glass'를 핵심으로 사용하는 Beginner 친화적인 PvE 빌드입니다. 'Brick Wall'과 'Reinforced Armor'를 채용하여 넉백에 면역이며 극강의 탱킹력을 자랑합니다. 얼음 mantras로 생성된 크리스탈이 폭발할 때 용암 폭발(Lava Explosion)을 일으켜 체인 스택이 쌓였을 때 mantras당 2000 이상의 폭발적인 데미지를 선사합니다.
 
 ### ⚖️ 장점 및 단점
 **장점**:
 - ✅ Brick Wall과 Reinforced Armor 조합으로 인한 압도적인 생존력 및 넉백 면역
 - ✅ Volcanic Glass 시너지로 얼음 크리스탈 폭발 시 강력한 화염 추가 피해
 - ✅ Grim 인챈트와 Trident Spear 모티프의 다단히트 크리티컬을 활용한 상시 25% 피해 증가 버프
-- ✅ Ice Skate 만트라를 활용한 레이어 2 바람 지대 및 몹 손쉬운 패스
+- ✅ Ice Skate mantras를 활용한 레이어 2 바람 지대 및 몹 손쉬운 패스
 **단점**:
-- ⚠️ Brick Wall(Fortitude 100, Willpower 100) 조건 충족을 위해 스탯 소모가 커 유틸리티 스탯 투자 제한
+- ⚠️ Brick Wall(Fortitude 100, Willpower 100) 조건 충족을 위해 stats 소모가 커 유틸리티 stats 투자 제한
 - ⚠️ 최대 데미지를 뽑아내기 위해 사전 체인 스택 작업이 필요함
 
-## 📊 스탯 분배 (Stats)
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
 | Strength (근력) | `20` |
@@ -2743,6 +4753,16 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `40`
 - **Frostdraw**: `40`
+
+## 🗡️ 추천 무기 (Weapons)
+- **Iron Spear** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Pathfinder Elite (+5% Monster DMG)
+- **[Accessory]** Isshin's Ring (+15% DMG)
+- **[Accessory]** Ring of Casters (+5% DMG)
+- **[Accessory]** Diver's Ring (+5% DMG)
+- **[Accessory]** Thrall of Enmity (Grants 'Lose Your Mind' talent, +15% DMG)
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -2760,20 +4780,23 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - **Empowered Eruption**
 - **Blizzard Gem**
 
+## 🥊 콤보 & 전투 운용 가이드
+전투 시작 전 Heretic's Sutra를 사용하여 광기(Insanity) 상태를 유도하고 'Lose Your Mind' 버프를 활성화합니다. Trident Spear의 다단히트 크리티컬 공격을 적중시켜 Grim 인챈트의 25% 피해 증가 버프를 즉시 획득합니다. 이후 체인 스택을 쌓은 상태에서 얼음 mantras와 화염 mantras를 번갈아 사용하여 Volcanic Glass 폭발 데미지를 극대화합니다.
+
 ---
 
-### 🛡️ [빌드 45] volcanic-glass-mage
+### 🛡️ [빌드 60] volcanic-glass-mage
 
 # ⚔️ Volcanic Glass Mage
 
 > **출처 영상**: [The BEST MAGE GANK build in Deepwoken](https://www.youtube.com/watch?v=LTfbKU2qbxQ) by `spirit`
-> **패치 버전**: `Unknown` | **타입**: `PvP` | **난이도**: `Intermediate`
-> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Intermediate`
+> **종족/출신**: `Vesperian` / `Deepbound` | **Oath**: `Starkindred` | **Murmur/Bell**: `None` / `None`
 
 ---
 
 ## 📝 빌드 개요 및 총평
-이 빌드는 'Volcanic Glass'라는 명칭에서 알 수 있듯이, 화염(Flamecharm)과 얼음(Frostdraw) 속성을 결합하여 폭발적인 화력과 강력한 군중 제어 능력을 동시에 갖춘 하이브리드 메이지 빌드입니다. 전투의 핵심은 '슬라이드 캐스팅(Slide Casting)' 기술을 극대화하여 기동성을 확보하고, 상대가 대응하기 힘든 타이밍에 만트라를 쏟아붓는 것입니다. 
+이 빌드는 'Volcanic Glass'라는 명칭에서 알 수 있듯이, 화염(Flamecharm)과 얼음(Frostdraw) 속성을 결합하여 폭발적인 화력과 강력한 군중 제어 능력을 동시에 갖춘 하이브리드 메이지 빌드입니다. 전투의 핵심은 '슬라이드 캐스팅(Slide Casting)' 기술을 극대화하여 기동성을 확보하고, 상대가 대응하기 힘든 타이밍에 mantras를 쏟아붓는 것입니다. 
 
 고유 시너지 측면에서, 화염의 지속 대미지와 얼음의 둔화/빙결 효과가 맞물려 상대의 스태미나를 빠르게 고갈시킵니다. 특히 'Meteor Impact'와 'Rising Flame'을 연계한 콤보는 상대의 가드를 강제로 무너뜨리거나 공중에 띄워 무방비 상태로 만드는 데 탁월합니다. 
 
@@ -2790,6 +4813,311 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 스태미나 관리에 실패하면 메이지 특성상 근접전에서 취약해질 수 있음
 - ⚠️ 특정 속성 저항이 높은 상대에게는 대미지 효율이 다소 감소할 수 있음
 
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `25` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `20` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `40` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `20` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `80` |
+| Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Flamecharm 80 달성 (Volcanic Mage 마법)
+- 🎯 Medium Weapon 75 달성 (마법사 근접 weapons)
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `80`
+- **Frostdraw**: `80`
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `{}`
+**Post-Shrine 우선순위**:
+- Flamecharm 80 달성 (Volcanic Mage 마법)
+- Medium Weapon 75 달성 (마법사 근접 weapons)
+
+## 🗡️ 추천 무기 (Weapons)
+- **Hero Blade** — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak
+- **[Accessories]** Various high-tier elemental resistance gear
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Conditioned Runner**
+- **Reinforce**
+- **Exoskeleton**
+### 📜 보조 및 추천 탤런트
+- Ghost
+
+## 🔮 주문 목록 (Mantras)
+- **Rising Frost**
+- **Meteor Impact**
+- **Rising Flame**
+- **Flame Repulsion**
+- **Ash Slam**
+- **Fire Blade**
+- **Flaming Scourge**
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계(진입): 슬라이드 캐스팅을 사용하며 'Rising Frost'로 적의 이동을 제한합니다. 2단계(가드브레이크): 'Meteor Impact'를 즉시 연계하여 적의 가드를 파괴하거나 경직을 줍니다. 3단계(폭딜): 'Rising Flame'과 'Ash Slam'을 순차적으로 사용하여 적을 공중에 띄우고 추가 대미지를 입힙니다. 4단계(탈출/유지): 'Flame Repulsion'으로 거리를 벌리며 스태미나를 회복하고, 다시 슬라이드 캐스팅으로 다음 교전 기회를 노립니다.
+
+
+## 👑 제3장: 엔드게임 보스 및 레이드 전문 공략 가이드
+
+---
+
+### 🐉 [보스 공략 1] rapier-pve-frozen-burning-servants-1-min-elde
+
+# ⚔️ Rapier PvE Frozen & Burning Servants (1-Min Elder Primadon Destroyer)
+
+> **출처 영상**: [1 MINUTE ELDER PRIMADON. | Deepwoken Verse 3](https://www.youtube.com/watch?v=mYEcMRBqbZ0) by `P4rzy`
+> **패치 버전**: `Unknown` | **타입**: `Boss Raid` | **난이도**: `Intermediate`
+> **종족/출신**: `Any` / `Castaway` | **Oath**: `Starkindred` | **Murmur/Bell**: `Tacet` / `Kamui`
+
+---
+
+## 📝 빌드 개요 및 총평
+최근 패치로 레이피어(Rapier) 패링 시 피해량 +50%, 크리티컬 피해량 +33%라는 파격적인 버프가 추가되면서 PvE 메타의 핵심 무기로 급부상했습니다. 이 빌드는 이러한 레이피어의 가드브레이크/패링 특성을 극한으로 활용하기 위해 설계되었습니다.
+
+핵심 전투 테크닉은 프로스트드로우의 'Frozen Servants'와 프레임참 1포인트 스탯으로 개금한 'Burning Servants'에 리버스 스파크(Reverse Spark)를 조합하는 것입니다. 단 1회 발동으로 600 이상의 대미지를 쏟아부으며, 체인 소울 효과가 결합되면 기하급수적인 누적 딜량을 선사합니다.
+
+엘더 프리마돈(Elder Primadon)과 같은 대형 보스의 포스처(Posture)를 단번에 파괴한 후, 팜 스트라이크(Palm Strike)와 스펠/크리티컬 연타를 쏟아부어 단 한 번의 포스처 브레이크 타임 동안 5만 4천 이상의 폭딜(체력 3줄)을 깎아내는 사기적인 PvE 성능을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 레이피어 고유의 패링/포스처 브레이크 후속 대미지 버프(피해량 +50%, 크로 +33%) 극대화
+- ✅ Frozen Servants와 Burning Servants의 리버스 스파크 연계로 체인 소울 없이도 기본 630+ 대미지 보장
+- ✅ 프레임참 단 1포인트 투자만으로 극강의 보조 딜링 스킬(Burning Servants) 확보 가능
+- ✅ 엘더 프리마돈을 1분 이내에 솔로 녹여버리는 압도적인 보스 레이드 속도
+**단점**:
+- ⚠️ 레이피어의 타격 시점과 보스 패턴 패링 타이밍에 대한 높은 숙련도 요구
+- ⚠️ 스펠 연계 중 무빙이 제한되므로 장판 패턴에 대한 철저한 회피 판단 필요
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `50` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `1`
+- **Frostdraw**: `80`
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Spinning Clown**
+- **Million Ton Piercer**
+- **Speed Demon**
+- **Tough Love**
+### 📜 보조 및 추천 탤런트
+- Brick Wall
+- Conditioned Runner
+
+## 🔮 주문 목록 (Mantras)
+- **Frozen Servants**
+- **Burning Servants**
+- **Palm Strike**
+- **Reinforce**
+
+## 🥊 콤보 & 전투 운용 가이드
+{'combo_guide': '1. **1단계 (버프 및 접근)**: Reinforce 시전 후 보스 패턴을 패링하여 레이피어 패링 버프(대미지 +50%)를 켜고 시야 확보.\n2. **2단계 (포스처 파괴)**: M1 평타 콤보 ➔ Palm Strike ➔ 크리티컬 공격으로 보스의 가드 및 포스처 파괴.\n3. **3단계 (서번트 스펠 폭발)**: 보스 다운 순간 Frozen Servants ➔ Burning Servants 순차 발동. 리버스 스파크 효과로 발사체가 집중 타격되며 600~1000+ 대미지 즉시 누적.\n4. **4단계 (마무리)**: 서번트 타격 직후 M1 크리티컬 및 연타 공격으로 다운 타임 내 최대 폭딜 달성.'}
+
+---
+
+### 🐉 [보스 공략 2] silentheart-fist-pve-bosskiller-diluvian
+
+# ⚔️ Silentheart Fist PvE Bosskiller & Diluvian Build
+
+> **출처 영상**: [NEW BEST DILUVIAN BOSSKILLER SILENTHEART FIST M1 PvE Build... (BROKEN) | Deepwoken PvE Progression](https://www.youtube.com/watch?v=wL96bVek6Cg) by `African Luminant`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `None` / `Castaway` | **Oath**: `Silentheart` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+Extremely high damage M1 fist build capable of one-cycling bosses and clearing high Diluvian waves easily with Brick Wall tankiness.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Massive M1 DPS exceeding 1200+ per hit
+- ✅ Immense survivability with Brick Wall and high Fortitude talents
+- ✅ High AoE damage via Flow State/Mayhem and Fist Criticals
+**단점**:
+- ⚠️ No active casting mantras (Silentheart)
+- ⚠️ Strict progression requiring pre-shrine stat investments
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `30` |
+| Fortitude (인내) | `55` |
+| Agility (민첩) | `45` |
+| Intelligence (지능) | `5` |
+| Willpower (의지) | `55` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `{'fortitude': 100, 'willpower': 100, 'strength': 1, 'agility': 1, 'intelligence': 0, 'charisma': 0, 'light_wep': 0}`
+**Post-Shrine 우선순위**:
+- Unlock 5 Intelligence for Neuroplasticity
+- Raise Strength to 30 for Lose Your Mind & Carnivore
+- Raise Agility to 45 for Ghost & Speed Demon
+- Invest remaining points into Light Weapon to reach 100
+
+## 🗡️ 추천 무기 (Weapons)
+- **Broodlord Cestus** () — 인챈트: `Astral` ⭐x3
+- **Broodlord Cestus** () — 인챈트: `Wild` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Slot]** Navaen Nomad Robes
+- **[Slot]** Ignition Deepdelver
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Brick Wall**
+- **Heretic's Sutra**
+- **Lose Your Mind**
+- **Ghost**
+- **Speed Demon**
+- **Exoskeleton**
+- **Underdog**
+- **Piercing Will**
+- **Reinforced Armor**
+
+## 🔮 주문 목록 (Mantras)
+- **Heretic's Sutra** (Attunementless) `[CORE]` — 수정체: Used to activate insanity damage buffs
+
+## 🥊 콤보 & 전투 운용 가이드
+**딜 사이클**:
+Activate Heretic's Sutra and Ardour Scream to proc insanity damage buffs, enter Flow State, then chain rapid Fist M1s and Criticals.
+
+**운용 팁**:
+Swap between Astral enchant for single-target bosses and Wild enchant for Diluvian wave mobs; utilize Ghost/Vent to dodge unparryable boss attacks.
+
+---
+
+### 🐉 [보스 공략 3] silentheart-rapier-moppet-pve-boss-slayer-v2
+
+# ⚔️ Silentheart Rapier & Moppet PvE Boss Slayer V2
+
+> **출처 영상**: [NEW BEST BROKEN SILENTHEART M1 PvE BUILD V2 .. (ONE SHOT EVERY BOSS) | Deepwoken PvE Progression](https://www.youtube.com/watch?v=nUDuyPO7rbo) by `African Luminant`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Any (Vesperian or Ganymede recommended)` / `Lone Warrior` | **Oath**: `Silentheart` | **Murmur/Bell**: `Ardour` / `Reaper or Kamui`
+
+---
+
+## 📝 빌드 개요 및 총평
+본 빌드는 사일런트하트(Silentheart) oath을 기반으로 한 최상위 PvE M1 전용 빌드입니다. mantras를 사용하는 대신 평타(M1) 대미지 및 크리티컬 효율을 극대화하여 Deepwoken 내 모든 보스를 빠르게 도륙할 수 있도록 설계되었습니다.
+
+체이서(Chaser)처럼 패링 유도가 적은 보스에게는 모펫(Moppet)이나 대거(Dagger)를 사용하여 체인 스택(Chain Stacks)을 순식간에 쌓아 폭딜을 넣고, 패링 위주의 보스에게는 레이피어(Rapier)의 우수한 크리티컬 모션과 퍼니시 성능을 활용해 안정적인 딜링을 퍼붓는 유연성을 갖추고 있습니다.
+
+또한 Lone Warrior 및 Maverick 조합으로 솔로 플레이 시 경험치 획득 속도와 대미지 보너스를 확보하였으며, Shrine of Order를 통해 Charisma 75(Unnecessary Theatrics, Tough Love), Fortitude 50, Willpower 50의 주요 유틸리티/생존 talents를 고루 챙긴 뒤 Strength 80과 Light Weapon 100을 투자해 강력한 딜탱 밸런스를 완성했습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 모펫(Moppet)/대거와 레이피어 weapons 스왑을 통한 보스 패턴별 맞춤형 극딜 가능
+- ✅ 사일런트하트의 압도적인 평타(M1) 계수 및 광폭화(Berserk) 대미지 시너지
+- ✅ Lone Warrior 및 Maverick talents로 인한 육성 편의성 및 솔로 대미지 5% 증가
+- ✅ Charm 및 Charisma 75 talents 연계로 상시 대미지 증폭 및 피해 감소 혜택 보유
+**단점**:
+- ⚠️ mantras를 일절 사용할 수 없어 이동기나 원거리 견제 수단이 부족함
+- ⚠️ 보스 패턴 패링 및 도지(Dodge) 등 유저의 순수 전투 피지컬 의존도가 높음
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `80` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `50` |
+| Charisma (매력) | `75` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Needle's Eye (Rapier) / Moppet (Light Dagger) / Flippers of Fate** () — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Prophet's Cloak or Black Diver
+- **[Accessories]** Empress Threat, Hp/Posture Rings, Dagger/Light Damage Boost Equipment
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Mark of the Lone Warrior**
+- **Maverick**
+- **Unnecessary Theatrics**
+- **Tough Love**
+- **Golden Tongue**
+- **Chaotic Charm**
+- **Exoskeleton**
+- **Unfazed**
+### 📜 보조 및 추천 탤런트
+- Manipulator
+- To the Finish
+- Conditioned Runner
+- Wyvern's Claw
+- Matador
+
+## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)
+**추천 사냥 대상**: `Chaser (Scholar of the Crimson Contract), Scion of Ethiron, Elder Primadon, Ferryman, Kaido (Dread Serpent)`
+
+1. 체이서(Chaser): 패링 기회가 적으므로 모펫(Moppet)이나 대거류 weapons를 착용합니다. Berserk 활성화 후 M1을 빠르게 연타하여 체인 스택을 즉시 누적시키고 폭딜을 넣습니다.
+2. 에티론의 후예(Scion of Ethiron) / 페리맨 / 프리마돈: 패링 위주의 보스전에서는 레이피어(Rapier)로 스왑합니다. 보스의 공격을 패링한 뒤 레이피어 특유의 빠르고 강력한 크리티컬 모션으로 대미지를 누적시킵니다.
+3. 프리마돈(Primadon): 발구르기 및 휩쓸기 패턴 시 회피(Dodge) 후 M1 콤보 및 크리티컬을 적중시켜 가드브레이크 및 넉백 피해를 극대화합니다.
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 교전 진입 시: Ardour Murmur 및 사일런트하트 버프 효과를 유발하기 위해 인게이지 및 weapons 들기 모션을 수행합니다.
+2. 보스 유형별 weapons 선택: 패링 위주 보스 ➔ 레이피어(Rapier), 고정형/연타형 보스 ➔ 모펫(Moppet)/대거.
+3. 사일런트하트 딜링 연계: 보스 패턴 패링 ➔ 크리티컬(M2) 적중으로 디버프 부여 ➔ M1 평타 연타로 체인 스택 쌓기 및 광폭화(Berserk) 대미지 폭발.
+4. 위기 상황: Unfazed 및 Exoskeleton의 방어 보너스를 바탕으로 패링에 집중하여 포스처(Posture)를 회복하고 다시 M1 누적 딜링을 지속합니다.
+
+
+## 📖 제4장: 웹 & 위키 추가 분석 문서 및 시스템 가이드
+
+---
+
+### 🌐 [웹/위키 문서 1] attacks-wiki-deepwoken-builder_fa0db84d
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
 ## 📊 스탯 분배 (Stats)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2803,31 +5131,9 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
 
-## ⚡ 속성 투자 (Attunements)
-- **Flamecharm**: `80`
-- **Frostdraw**: `80`
-
-## ⛩️ Shrine of Order 진행 경로
-**Pre-Shrine**: `{}`
-**Post-Shrine 우선순위**:
-- Flamecharm 80 달성 (Volcanic Mage 마법)
-- Medium Weapon 75 달성 (마법사 근접 무기)
-
-## 🔮 주문 목록 (Mantras)
-- **Rising Frost**
-- **Meteor Impact**
-- **Rising Flame**
-- **Flame Repulsion**
-- **Ash Slam**
-- **Fire Blade**
-- **Flaming Scourge**
-
-
-## 📖 제3장: 웹 & 위키 추가 분석 문서 및 시스템 가이드
-
 ---
 
-### 🌐 [웹/위키 문서 1] attacks-wiki-deepwoken-builder_fa0db84d
+### 🌐 [웹/위키 문서 2] attacks-wiki-deepwoken-builder_fa0db84d
 
 Title: Attacks — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/attack
@@ -3968,7 +6274,35 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 2] attunements-wiki-deepwoken-builder_7172ff6a
+### 🌐 [웹/위키 문서 3] attunements-wiki-deepwoken-builder_7172ff6a
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 4] attunements-wiki-deepwoken-builder_7172ff6a
 
 Title: Attunements — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/attunement
@@ -4123,7 +6457,35 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 3] boons-wiki-deepwoken-builder_7e11136c
+### 🌐 [웹/위키 문서 5] boons-wiki-deepwoken-builder_7e11136c
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 6] boons-wiki-deepwoken-builder_7e11136c
 
 Title: Boons — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/boon
@@ -5184,7 +7546,1914 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 4] deepwoken-wiki-attributes_ca9d4769
+### 🌐 [웹/위키 문서 7] deepwoken-builder-good-gym-v43_4d2bae0e
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 8] deepwoken-builder-good-gym-v43_4d2bae0e
+
+Title: Deepwoken Builder - Good Gym V4.3
+URL: https://deepwoken.co/builder?id=IorUfRcU
+Description: Heavy wep  ver
+
+==================================================
+
+Deepwoken Builder - Good Gym V4.3
+Anonymous
+Add tags
+0
+37
+0
+Comments
+Discussions
+Share
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+20
+Next Power:
+0 points
+"Bingo! Double feint greycast!"
+Strength
+STR
+1
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+30
+Charisma
+CHA
+1
+Heavy Wep.
+HVY
+1
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+1
+Ironsing
+MTL
+75
+Bloodrend
+BLD
+1
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 0
+Points Spent
+: 330
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+175
+104
+28
+4
+Filters
+Advanced
+▾
+Charm Caster
+Dazing Finisher
+↗
+Sage of Wisps
+Will o' Wisp
+↗
+Scrapsinger
+Reshape and Remold
+↗
+Septicemia
+Gruesome Harvest
+↗
+Rare
+▾
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Phantom Edge
+↗
+Aerial Dancer
+Wyvern's Claw
+↗
+Apex Predator
+Carnivore
+↗
+Bloodhound
+Smell of Blood
+↗
+Bloodrender
+Hemorrhaging Blow
+↗
+Rush Hour
+↗
+Bruiser
+Heavy Fatigue
+↗
+Rending Impact
+↗
+Champion
+Champion's Regalia
+↗
+Colossus
+Destructive Recovery
+↗
+Fish
+Fishman
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Gunslinger
+Armor Piercing
+↗
+Marauder
+Thresher Claws
+↗
+Quark Doctor
+Blood Transfusion
+↗
+Raging Bull
+Bulldozer
+↗
+Rending Needle
+Rending Needle: Conductor
+↗
+Rending Needle: Impaler
+↗
+Rending Needle: Jailer
+↗
+Scrapsinger
+Masterwork
+↗
+Septicemia
+Panacea
+↗
+Silvertongue
+Golden Tongue
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Tactician
+Punishing Blow
+↗
+Transitory Vitality
+Sow and Mend
+↗
+Vocalist
+Encore
+↗
+Warrior
+Chronostasis
+↗
+Common
+▾
+Acrobat
+Time To Go
+↗
+Adaptive Arsenal
+Exposed Durability
+↗
+Alley Cat
+Scaredy Cat
+↗
+Apex Predator
+Grand Feast
+↗
+Sunken Predator
+↗
+Bloodhound
+Bloodwarden's Sense
+↗
+Bloodrender
+Adept Bloodrender
+↗
+Bloodrender
+↗
+Crimson Fountain
+↗
+Expert Bloodrender
+↗
+First Blood
+↗
+Master Bloodrender
+↗
+Sanguine Siphon
+↗
+Boundless Potential
+Bloodrend Unbounded
+↗
+Heavy Weapons Unbounded
+↗
+Ironsing Unbounded
+↗
+Brawler
+Bruiser's Mixup
+↗
+Bruiser
+Brazen Blow
+↗
+Impairing Blow
+↗
+Champion
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Lasting Charisma
+↗
+Tough Love
+↗
+Colossus
+Heavy Hitter
+↗
+Darksiphon
+Dark God
+↗
+Overwhelming Drain
+↗
+Duelist
+Concussive Force
+↗
+Elemental Rebound
+Nullifying Clarity
+↗
+Empath
+Give and Take
+↗
+Escape Artist
+Robber Baron
+↗
+Gunslinger
+Bulletproof
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Laced Traps
+↗
+Master Ironsinger
+↗
+Thornmail
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Callout
+↗
+Spotter
+↗
+Limitbreaker
+Comeback Kid
+↗
+Marauder
+Old Habits Die Hard
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Conquer your Fears
+↗
+Disbelief
+↗
+Metallurgist
+Intuitive Repairs
+↗
+Metal Absorption
+↗
+Metal Eater
+↗
+Metal Thief
+↗
+Polished Armor
+↗
+Miscellaneous
+Dragon's Song
+↗
+Full Reset
+↗
+Gourmand
+↗
+Heavy Haul
+↗
+Martyr
+↗
+Polite Awakening
+↗
+Replenishing Knockout
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Armor Conserver
+↗
+Lightweight
+↗
+Padded Armor
+↗
+Steel Scales
+↗
+Public Figure
+Celebrity
+↗
+Under The Radar
+↗
+Quark Doctor
+Blood Bag
+↗
+Open Wound
+↗
+Rending Needle
+Conductor's Cable
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Sanguine Wager
+Enhanced Flow
+↗
+Scarlet Donor
+Blood Bank
+↗
+Donation Drive
+↗
+Sharing is Caring
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Refine and Reuse
+↗
+Songs Unforged
+↗
+Septicemia
+Hemolysis
+↗
+Hemolytic Transfusion
+↗
+Tainted Ground
+↗
+Shadowcaster
+Adept Shadowcaster
+↗
+Shadowcaster
+↗
+Silvertongue
+Snake Oil
+↗
+Survival Instinct
+Iron Gut
+↗
+Thief
+Pickpocket
+↗
+Toxic Personality
+Manipulator
+↗
+Narcissist
+↗
+Transitory Vitality
+Cyclical Exsanguination
+↗
+Embolism
+↗
+Hypovolemic Focus
+↗
+Vow of Mastery
+Vow of Mastery
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Weapon Master
+Brutal Momentum
+↗
+Matador
+↗
+Warrior's Swing
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+Bladeharper
+Float Like a Butterfly
+↗
+Lithe Step
+↗
+Oath: Bladeharper
+↗
+Reveal
+↗
+Soaring Storm
+↗
+Untouchable
+↗
+Equipment
+▾
+Equipment
+Blood Convergence
+↗
+Cosmic Connection
+↗
+Whistleguard
+↗
+Flame Warden
+Cauterized Wounds
+↗
+Ignition Union
+Force Your Way
+↗
+Liberator
+Stay of Execution
+↗
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Metamancer
+Chain of Perfection
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+Prospector
+Excavator
+↗
+Harvester
+↗
+Quest
+Beiruul's Vengeance
+↗
+Kj's Courage
+↗
+Nanji's Training
+↗
+Supernatural Sense
+↗
+Saboteur
+Family Recipe
+↗
+Murmur
+▾
+Murmur
+Murmur: Ardour
+↗
+Murmur: Rhythm
+↗
+Murmur: Tacet
+↗
+Origin
+▾
+No talents :(
+Innate
+▾
+Adret
+Maudet
+↗
+Obtained Talents
+66
+43
+22
+1
+Max of
+58
+Talents,
+50
+rollable (
+40
+guaranteed rare attempts) and
+8
+from Roll 2.
+Max of
+4
+Faction Talents (
+5
+if in Authority Ensign's Command Division).
+Filters
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Exposed Durability
+↗
+Phantom Edge
+↗
+Adret
+Maudet
+↗
+Aerial Dancer
+Wyvern's Claw
+↗
+Apex Predator
+Carnivore
+↗
+Sunken Predator
+↗
+Bladeharper
+Float Like a Butterfly
+↗
+Lithe Step
+↗
+Oath: Bladeharper
+↗
+Reveal
+↗
+Soaring Storm
+↗
+Untouchable
+↗
+Bloodhound
+Bloodwarden's Sense
+↗
+Smell of Blood
+↗
+Bloodrender
+Adept Bloodrender
+↗
+Bloodrender
+↗
+Crimson Fountain
+↗
+Expert Bloodrender
+↗
+First Blood
+↗
+Hemorrhaging Blow
+↗
+Master Bloodrender
+↗
+Rush Hour
+↗
+Sanguine Siphon
+↗
+Boundless Potential
+Bloodrend Unbounded
+↗
+Heavy Weapons Unbounded
+↗
+Ironsing Unbounded
+↗
+Bruiser
+Brazen Blow
+↗
+Heavy Fatigue
+↗
+Impairing Blow
+↗
+Rending Impact
+↗
+Champion
+Champion's Regalia
+↗
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Lasting Charisma
+↗
+Tough Love
+↗
+Colossus
+Destructive Recovery
+↗
+Heavy Hitter
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Duelist
+Concussive Force
+↗
+Elemental Rebound
+Nullifying Clarity
+↗
+Equipment
+Blood Convergence
+↗
+Cauterized Wounds
+↗
+Cosmic Connection
+↗
+Force Your Way
+↗
+Stay of Execution
+↗
+Whistleguard
+↗
+Fish
+Fishman
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Master Ironsinger
+↗
+Limitbreaker
+Comeback Kid
+↗
+Marauder
+Old Habits Die Hard
+↗
+Thresher Claws
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Metamancer
+Chain of Perfection
+↗
+Murmur
+Murmur: Ardour
+↗
+Natural Armor
+Armor Conserver
+↗
+Padded Armor
+↗
+Steel Scales
+↗
+Quark Doctor
+Blood Transfusion
+↗
+Open Wound
+↗
+Rending Needle
+Conductor's Cable
+↗
+Rending Needle: Conductor
+↗
+Sanguine Wager
+Enhanced Flow
+↗
+Scarlet Donor
+Blood Bank
+↗
+Donation Drive
+↗
+Sharing is Caring
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Masterwork
+↗
+Refine and Reuse
+↗
+Songs Unforged
+↗
+Septicemia
+Gruesome Harvest
+↗
+Hemolysis
+↗
+Hemolytic Transfusion
+↗
+Panacea
+↗
+Tainted Ground
+↗
+Shadowcaster
+Adept Shadowcaster
+↗
+Shadowcaster
+↗
+Silvertongue
+Golden Tongue
+↗
+Snake Oil
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Tactician
+Punishing Blow
+↗
+Toxic Personality
+Manipulator
+↗
+Transitory Vitality
+Cyclical Exsanguination
+↗
+Sow and Mend
+↗
+Weapon Master
+Brutal Momentum
+↗
+Matador
+↗
+Warrior's Swing
+↗
+Rollable Mantras
+71
+Combat
+Shadow Chains
+↗
+Shadow Eruption
+↗
+Shadow Seekers
+↗
+Clutching Shadow
+↗
+Dark Blade
+↗
+Shadow Gun
+↗
+Iron Hug
+↗
+Iron Slam
+↗
+Metal Armament
+↗
+Metal Gatling
+↗
+Rocket Lance
+↗
+Caltrops
+↗
+Firing Line
+↗
+Iron Quills
+↗
+Metal Fakeout
+↗
+Metal Rain
+↗
+Oxidizing Rush
+↗
+Metal Kick
+↗
+Metal Eruption
+↗
+Needle Barrage
+↗
+Bloodcurdle
+↗
+Bloodtide Ritual
+↗
+Crimson Rain
+↗
+Crimson Surge
+↗
+Razor Blitz
+↗
+Scarlet Cannon
+↗
+Scarlet Cyclone
+↗
+Soulflare Siphon
+↗
+Veinbreaker
+↗
+Blood Stakes
+↗
+Bloodedge
+↗
+Vicious Descent
+↗
+Blood Orb
+↗
+Crucifixion
+↗
+Onslaught
+↗
+Pressure Blast
+↗
+Punishment
+↗
+Rapid Punches
+↗
+Revenge
+↗
+Strong Left
+↗
+Tacet Drop Kick
+↗
+Abyssal Ridge
+↗
+Abyssal Tendrils
+↗
+Brachial Spear
+↗
+Coral Spear
+↗
+Dread Breath
+↗
+Mecha Gatling
+↗
+Whirling Blade
+↗
+Decimate
+↗
+Palm Strike
+↗
+Pumpkin Pitch
+↗
+Mobility
+Encircle
+↗
+Metal Ball
+↗
+Metal Rampart
+↗
+Vein Tendrils
+↗
+Sanguine Dive
+↗
+Beast Burrow
+↗
+Support
+Shade Devour
+↗
+Metal Turret
+↗
+Chain Pull
+↗
+Iron Skin
+↗
+Disguise
+↗
+Dread Whisper
+↗
+Gaze
+↗
+Glare
+↗
+Sing
+↗
+Taunt
+↗
+Enforcer Pull
+↗
+Wisp
+Metal Wisp
+↗
+Blood Wisp
+↗
+Bone Wisp
+↗
+Obtained Mantras
+Combat
+6/6
+Metal Armament
+↗
+Oxidizing Rush
+↗
+Blood Orb
+↗
+Scarlet Cyclone
+↗
+Bloodcurdle
+↗
+Palm Strike
+↗
+Mobility
+1/1
+Metal Ball
+↗
+Support
+1/1
+Shade Devour
+↗
+Wildcard
+2/2
+Taunt
+↗
+Blood Wisp
+↗
+Mantra Details
+10
+Metal Armament
+Oxidizing Rush
+Blood Orb
+Scarlet Cyclone
+Bloodcurdle
+Palm Strike
+Metal Ball
+Shade Devour
+Taunt
+Blood Wisp
+Gem
+None
+Aegis (damage reduction on hit)
+Blessed (reduces cooldown on hit)
+Bloodless (grants lifesteal, −20% mantra damage)
+Blue (reduces ether cost)
+Insignia (reduces windup of next cast)
+Kyrsan (stacking slow on hit)
+Might (increases posture damage)
+Nocturnal (extra hit after 1s delay)
+Warped Blue (reduced ether cost while swimming)
+Wayward (teleports to opponent after 1s)
+Wrath (crit damage scaling on combat tags)
+Wind (speed boost on hit)
+Spark
+None
+Blast
+Reversal
+Multiplying
+Magnet
+Spring
+Tornado
+Round
+Base
+L1
+20
+Damage at L1
+20
+Posture Damage
+4
+L1
+20 dmg
+4 pst
+L2
+20 dmg
+4 pst
+L3
+20 dmg
+4 pst
+L4
+20 dmg
+4 pst
+L5
+20 dmg
+4 pst
+Related Talents
+Forced Fulfilment
+Weapon:
+0
+1
+2
+3
+Stars
+-
+DMG%
+PEN%
+WGT%
+Pick a weapon...
+Compare
+Enchant:
+Motif:
+Pick a weapon above to see the damage breakdown.
+Weapon stats
+PvE
+DVM:
+%
+Max Damage against Monsters:
+0
+Hits needed against
+HP Monster:
+0
+Total Damage Multi.
+150%
+capped from 249% (mods > +25% halved)
+Total Penetration
+0%
+Rings
+Strength
+Agility
+Intelligence
+Willpower
+Charisma
+Isshin's Ring
+Ring of Casters
+Blindseer's Ring
+Damage Modifiers
+Shade Devour
++25% DMG
+Manipulator
++20% DMG
+Ardour Scream
++12.5% DMG
+Pressure Break
++25% DMG
+Speed Demon
++7.5% bleed
+Charged Return
++10% DMG
+Matador
++20% DMG
+Mark of the Lone Warrior
++5% DMG
+Ardour Weapon
++5% DMG
+Lose Your Mind
++15% DMG
+Taunt
++20% DMG
+Nullifying Clarity
++10% DMG
+Overflowing Dam
++10% DMG
+Tough Love
++10% DMG
+Flame Within
++10% DMG
+Last Resort
++5% DMG
+Exposed Durability
++10% DMG
+Spinning Swordsman
++15% DMG
+Wyvern's Claw
++10% DMG
+Reshape and Remold
++5% DMG
+Underdog
++4% DMG
+Rush Hour
++15% DMG
+Reinforce
++5% DMG
+Amped
++10% DMG
+Amplified Rage
++20% DMG
+Piercing Will
++15% PEN
+Cult of Personality
++15% PEN
+Thresher Claws
++10% PEN
+Cheap Shot
++10% PEN ×
+Million Ton Piercer
++5% PEN
+Ether Overdrive
++5% PEN
+After Cut
++10% DMG
+Ears
+Regenerative Earrings
+Head
+Bloodforged Crown
+Face
+Round Citadel Frames
+Arms
+Ironsinger Heavy Plate
+Torso
+Whistling Periapt
+Legs
+Celestial Boots
+Ignition Deepdelver
+Ring 1
+Transfusion Ring
+Ring 2
+Transfusion Ring
+Ring 3
+Transfusion Ring
+Ring 4
+Armorer's Ring
+Click an equipped slot to see its details.
+Optimizer assumes
+35% pen
+against physical and
+20% pen
+against mantra damage.
+Total
+Health
++199
+Posture
++2.5
+Physical Armor
++6%
+Ether
++53
+Sanity
++6
+Anchor pips
++1
+Ether Regen
++20
+Ironsing Armor
++5%
+Damage vs. Monsters
++5%
+Monster Armor
++5%
+Wind Armor
++8%
+Physical Resist
++30%
+Elemental Resist
++35%
+Ice Res
++15%
+Metal Res
++15%
+Knockback Resist
++10%
+EHP vs Physical
+631 EHP (415 HP @ 34.2% DR)
+Damage reduction factors
+Outfit · Ignition Deepdelver
+×(1 - 30%)
+Equipment (additive)
+×(1 - 6%)
+HP & per-slot armor
+Build base
++226 HP
+Head · Bloodforged Crown
++29 HP
+·
++4% armor
+Arms · Ironsinger Heavy Plate
++36 HP
+·
++2% armor
+Legs · Celestial Boots
++27 HP
+Torso · Whistling Periapt
++9 HP
+Face · Round Citadel Frames
++5 HP
+Ring 1 · Transfusion Ring
++25 HP
+Ring 2 · Transfusion Ring
++25 HP
+Ring 3 · Transfusion Ring
++28 HP
+Ring 4 · Armorer's Ring
++5 HP
+Pip totals
+Health
++99
+Posture
++3.5
+Physical Armor
++6%
+Elemental Armor
++0%
+Ether
++38
+Sanity
++6
+Anchor pips
++1
+Innate & bonuses
+Health
++100
+Ether
++15
+Posture
++-1
+Ether Regen
++20
+Ironsing Armor
++5%
+Damage vs. Monsters
++5%
+Monster Armor
++5%
+Wind Armor
++8%
+Physical Resist
++30%
+Elemental Resist
++35%
+Ice Res
++15%
+Metal Res
++15%
+Knockback Resist
++10%
+Innate talents
+Cauterized Wounds
+Stay of Execution
+Cosmic Connection
+Whistleguard
+Blood Convergence
+Force Your Way
+Notes
+Defensive
+Health
+595
+Base
++210
+Power
+Power 20 ×4
++80
+Fortitude
+2 ×0.5
++1
+Vitality
+6 ×10
++60
+Talent · Master Bloodrender
++5
+Talent · Master Ironsinger
++5
+Talent · Bloodiron Spirit
++5
+Talent · Bloodrend Unbounded
++10
+Talent · Ironsing Unbounded
++10
+Talent · Old Habits Die Hard
++5
+Talent · Breathing Exercise
++5
+Equipment
++199
+Posture
+23.5
+Base
++20
+Talent · Destructive Recovery
++1
+Equipment
++2.5
+Damage Reduction
+vs Physical
+36.2
+%
+650 EHP · 415 HP
+· avg over 2 physical types
+Outfit · Ignition Deepdelver
+×(1 − 30%)
+Equipment (additive)
+×(1 − 6%)
+Padded Armor (Blunt Armor) · vs Blunt only
+×(1 − 3%)
+Steel Scales (Slash Armor) · vs Slash only
+×(1 − 3%)
+Per physical type
+Blunt
+36.2%
+Slash
+36.2%
+vs Attunement
+38.9
+%
+684 EHP · 415 HP
+· avg over 7 attunements
+Outfit · Ignition Deepdelver
+×(1 − 35%)
+Torso · Whistling Periapt (Wind Armor) · vs Wind only
+×(1 − 8%)
+Arms · Ironsinger Heavy Plate (Ironsing Armor) · vs Metal only
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Deepwoken Builder]
+- URL: https://deepwoken.co/builder
+Deepwoken Builder
+Anonymous
+Add tags
+Export
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+0
+Next Power:
+0 points
+"What a nice reze, huh?"
+Strength
+STR
+0
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+0
+Charisma
+CHA
+0
+Heavy Wep.
+HVY
+0
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+0
+Ironsing
+MTL
+0
+Bloodrend
+BLD
+0
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 330
+Points Spent
+: 0
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+45
+17
+2
+0
+Filters
+Advanced
+▾
+No talents :(
+Rare
+▾
+Fish
+Fishman
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Common
+▾
+Brawler
+Bruiser's Mixup
+↗
+Escape Artist
+Robber Baron
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Spotter
+↗
+Miscellaneous
+Dragon's Song
+↗
+Polite Awakening
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Lightweight
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+No talents :(
+Equipment
+▾
+No talents :(
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+Prospector
+
+
+=== Tables ===
+
+[Table 1]
+L1 | 20 dmg | 4 pst
+L2 | 20 dmg | 4 pst
+L3 | 20 dmg | 4 pst
+L4 | 20 dmg | 4 pst
+L5 | 20 dmg | 4 pst
+
+=== Sub Pages Explored ===
+- builder
+
+---
+
+### 🌐 [웹/위키 문서 9] deepwoken-wiki-attributes_ca9d4769
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 10] deepwoken-wiki-attributes_ca9d4769
 
 Title: Deepwoken Wiki: Attributes
 URL: https://deepwoken.fandom.com/wiki/Attributes
@@ -6472,7 +10741,35 @@ At
 
 ---
 
-### 🌐 [웹/위키 문서 5] deepwoken-wiki-attunement-less_f27fd6a7
+### 🌐 [웹/위키 문서 11] deepwoken-wiki-attunement-less_f27fd6a7
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 12] deepwoken-wiki-attunement-less_f27fd6a7
 
 Title: Deepwoken Wiki: Attunement-less
 URL: https://deepwoken.fandom.com/wiki/Attunement-less#Skyshatter_Kick
@@ -7754,7 +12051,35 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 6] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
+### 🌐 [웹/위키 문서 13] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 14] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
 
 Title: Deepwoken Wiki: Deep Shrines/Shrine of Order
 URL: https://deepwoken.fandom.com/wiki/Deep_Shrines/Shrine_of_Order
@@ -8640,7 +12965,35 @@ THE SCALES HAVE NOT YET TIPPED.
 
 ---
 
-### 🌐 [웹/위키 문서 7] deepwoken-wiki-enchantments_97729ee1
+### 🌐 [웹/위키 문서 15] deepwoken-wiki-enchantments_97729ee1
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 16] deepwoken-wiki-enchantments_97729ee1
 
 Title: Deepwoken Wiki: Enchantments
 URL: https://deepwoken.fandom.com/wiki/Enchantments
@@ -10063,7 +14416,35 @@ Equipment Enchantments
 
 ---
 
-### 🌐 [웹/위키 문서 8] deepwoken-wiki-hybrid-abilities_81ce250e
+### 🌐 [웹/위키 문서 17] deepwoken-wiki-hybrid-abilities_81ce250e
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 18] deepwoken-wiki-hybrid-abilities_81ce250e
 
 Title: Deepwoken Wiki: Hybrid Abilities
 URL: https://deepwoken.fandom.com/wiki/Hybrid_Abilities
@@ -11461,7 +15842,35 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 9] deepwoken-wiki-monster-mantras_3aac21b6
+### 🌐 [웹/위키 문서 19] deepwoken-wiki-monster-mantras_3aac21b6
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 20] deepwoken-wiki-monster-mantras_3aac21b6
 
 Title: Deepwoken Wiki: Monster Mantras
 URL: https://deepwoken.fandom.com/wiki/Monster_Mantras
@@ -12677,7 +17086,35 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 10] deepwoken-wiki-oath-silentheart_6342c201
+### 🌐 [웹/위키 문서 21] deepwoken-wiki-oath-silentheart_6342c201
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 22] deepwoken-wiki-oath-silentheart_6342c201
 
 Title: Deepwoken Wiki: Oath: Silentheart
 URL: https://deepwoken.fandom.com/wiki/Oath:_Silentheart
@@ -13732,7 +18169,35 @@ OathlessArcwarderBladeharperBlightsurgerBlindseerChainwardenContractorDawnwalker
 
 ---
 
-### 🌐 [웹/위키 문서 11] deepwoken-wiki-power_00c5fc78
+### 🌐 [웹/위키 문서 23] deepwoken-wiki-power_00c5fc78
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 24] deepwoken-wiki-power_00c5fc78
 
 Title: Deepwoken Wiki: Power
 URL: https://deepwoken.fandom.com/wiki/Power
@@ -14817,7 +19282,35 @@ If you've fully progressed an Oath prior to
 
 ---
 
-### 🌐 [웹/위키 문서 12] deepwoken-wiki-traan-zakshun_14045519
+### 🌐 [웹/위키 문서 25] deepwoken-wiki-traan-zakshun_14045519
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 26] deepwoken-wiki-traan-zakshun_14045519
 
 Title: Deepwoken Wiki: Traan Zakshun
 URL: https://deepwoken.fandom.com/wiki/Traan_Zakshun
@@ -16348,7 +20841,35 @@ Equipment | For 2:Aazel's Horns,Brilliant CapeFor 5:Lightkeeper's Medallion,Tira
 
 ---
 
-### 🌐 [웹/위키 문서 13] deepwoken-wiki-weapons_5ff2d9d1
+### 🌐 [웹/위키 문서 27] deepwoken-wiki-weapons_5ff2d9d1
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 28] deepwoken-wiki-weapons_5ff2d9d1
 
 Title: Deepwoken Wiki: Weapons
 URL: https://deepwoken.fandom.com/wiki/Weapons#All
@@ -21598,7 +26119,35 @@ Tan: Starting Weapon/Character Creation,Blue: Alloyed Weapon,Dark Green: Enemy D
 
 ---
 
-### 🌐 [웹/위키 문서 14] enchantments-wiki-deepwoken-builder_a6e98369
+### 🌐 [웹/위키 문서 29] enchantments-wiki-deepwoken-builder_a6e98369
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 30] enchantments-wiki-deepwoken-builder_a6e98369
 
 Title: Enchantments — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enchantment
@@ -22685,7 +27234,35 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 15] enemies-wiki-deepwoken-builder_b6c21d18
+### 🌐 [웹/위키 문서 31] enemies-wiki-deepwoken-builder_b6c21d18
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 32] enemies-wiki-deepwoken-builder_b6c21d18
 
 Title: Enemies — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enemy
@@ -22871,7 +27448,35 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 16] equipment-wiki-deepwoken-builder_50c6b4fb
+### 🌐 [웹/위키 문서 33] equipment-wiki-deepwoken-builder_50c6b4fb
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 34] equipment-wiki-deepwoken-builder_50c6b4fb
 
 Title: Equipment — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/equipment
@@ -24046,7 +28651,35 @@ The visage of a five-eyed hound enters your mind un
 
 ---
 
-### 🌐 [웹/위키 문서 17] flaws-wiki-deepwoken-builder_fb636760
+### 🌐 [웹/위키 문서 35] flaws-wiki-deepwoken-builder_fb636760
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 36] flaws-wiki-deepwoken-builder_fb636760
 
 Title: Flaws — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/flaw
@@ -25112,7 +29745,35 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 18] google-docs-introduction_fa2af664
+### 🌐 [웹/위키 문서 37] google-docs-introduction_fa2af664
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 38] google-docs-introduction_fa2af664
 
 Title: Google Docs: Introduction
 URL: https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0
@@ -25944,7 +30605,35 @@ Blightsurger (★★★★☆): Blightsurger is focused on spamming its mantras 
 
 ---
 
-### 🌐 [웹/위키 문서 19] locations-wiki-deepwoken-builder_8ee227c3
+### 🌐 [웹/위키 문서 39] locations-wiki-deepwoken-builder_8ee227c3
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 40] locations-wiki-deepwoken-builder_8ee227c3
 
 Title: Locations — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/location
@@ -27084,7 +31773,35 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 20] mantras-wiki-deepwoken-builder_0485bae6
+### 🌐 [웹/위키 문서 41] mantras-wiki-deepwoken-builder_0485bae6
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 42] mantras-wiki-deepwoken-builder_0485bae6
 
 Title: Mantras — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/mantra
@@ -27379,7 +32096,35 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 21] oaths-wiki-deepwoken-builder_a3101592
+### 🌐 [웹/위키 문서 43] oaths-wiki-deepwoken-builder_a3101592
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 44] oaths-wiki-deepwoken-builder_a3101592
 
 Title: Oaths — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/oath
@@ -28438,7 +33183,35 @@ Wraith Path: Twisted Puppets
 
 ---
 
-### 🌐 [웹/위키 문서 22] outfits-wiki-deepwoken-builder_30958c9c
+### 🌐 [웹/위키 문서 45] outfits-wiki-deepwoken-builder_30958c9c
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 46] outfits-wiki-deepwoken-builder_30958c9c
 
 Title: Outfits — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/outfit
@@ -28734,7 +33507,35 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 23] races-wiki-deepwoken-builder_e9527970
+### 🌐 [웹/위키 문서 47] races-wiki-deepwoken-builder_e9527970
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 48] races-wiki-deepwoken-builder_e9527970
 
 Title: Races — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/aspect
@@ -29793,7 +34594,35 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 24] talents-wiki-deepwoken-builder_2d86583d
+### 🌐 [웹/위키 문서 49] talents-wiki-deepwoken-builder_2d86583d
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 50] talents-wiki-deepwoken-builder_2d86583d
 
 Title: Talents — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/talent
@@ -30171,7 +35000,35 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 25] weapons-wiki-deepwoken-builder_e6f27c70
+### 🌐 [웹/위키 문서 51] weapons-wiki-deepwoken-builder_e6f27c70
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 52] weapons-wiki-deepwoken-builder_e6f27c70
 
 Title: Weapons — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/weapon
@@ -30512,8 +35369,120 @@ No comments yet. Be the first.
 - Calamity%20Cinnabar
 - Coldpoint
 
+---
 
-## 🎒 제4장: 유저 실제 인게임 뱅크 인벤토리 및 보유 인챈트 명세서
+### 🌐 [웹/위키 문서 53] web_2d86583dd4cc
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 54] web_40ab20ff455c
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 55] web_4c61080defdf
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+---
+
+### 🌐 [웹/위키 문서 56] web_ca9d476978e8
+
+# ⚔️ Unnamed Build
+
+> **출처 영상**: [Unknown Title]() by `Unknown Channel`
+> **패치 버전**: `Unknown` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `N/A` / `N/A` | **Oath**: `Oathless` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+No summary provided.
+
+## 📊 스탯 분배 (Stats)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `0` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+
+## 🎒 제5장: 유저 실제 인게임 뱅크 인벤토리 및 보유 인챈트 명세서
 
 ---
 

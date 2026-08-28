@@ -1,9 +1,14 @@
 import os
 import time
 import logging
+import warnings
 from typing import List, Optional
 from google import genai
 from dotenv import load_dotenv
+
+warnings.filterwarnings("ignore")
+logging.getLogger("google.genai").setLevel(logging.ERROR)
+logging.getLogger("google_genai").setLevel(logging.ERROR)
 
 load_dotenv()
 logger = logging.getLogger(__name__)

@@ -87,11 +87,12 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략 (사용자 요청: 선명한 720p 고화질 우선 적용)
+        # 다운로드 포맷 전략 (1080p/720p 고화질 강제 우선)
         format_strategies = [
+            "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best[ext=mp4]/best",
             "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best[ext=mp4]/best",
-            "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best",
-            "best[filesize<?2G]",
+            "best[height>=720]",
+            "best"
         ]
 
         # 2시간(7200초)이 넘어가는 영상 필터링
@@ -117,7 +118,7 @@ class VideoCollector:
                 ydl_opts["ffmpeg_location"] = ffmpeg_location
 
             try:
-                logger.info(f"Downloading {url} with format: {fmt}")
+                logger.info(f"Downloading {url} with high-res format: {fmt}")
                 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
                     info = ydl.extract_info(url, download=True)
                     downloaded_file = Path(ydl.prepare_filename(info))
@@ -127,7 +128,7 @@ class VideoCollector:
 
                     # 파일 크기 검증
                     if downloaded_file.exists() and downloaded_file.stat().st_size > self.max_filesize_bytes:
-                        logger.warning(f"File size {downloaded_file.stat().st_size} exceeds max limit. Trying lower resolution...")
+                        logger.warning(f"File size {downloaded_file.stat().st_size} exceeds max limit.")
                         if downloaded_file.exists():
                             downloaded_file.unlink()
                         continue
@@ -142,9 +143,9 @@ class VideoCollector:
             except Exception as e:
                 logger.warning(f"Download attempt {attempt + 1} failed: {e}")
                 last_err = e
-                time.sleep(2)
+                time.sleep(1)
 
-        raise RuntimeError(f"Failed to download video {url} after multiple resolution attempts: {last_err}")
+        raise RuntimeError(f"Failed to download video {url} after {len(format_strategies)} attempts: {last_err}")
 
     def extract_playlist_urls(self, playlist_url: str) -> List[str]:
         """재생목록 URL에서 모든 영상 URL 목록 추출"""
@@ -168,6 +169,19 @@ class VideoCollector:
         return urls
 
     def _build_metadata(self, info: Dict[str, Any], original_url: str) -> VideoMetadata:
+        desc = info.get("description") or ""
+        import re
+        builder_urls = re.findall(r'(https?://(?:www\.)?deepwoken\.co/builder\S*)', desc)
+        other_links = re.findall(r'(https?://(?:pastebin\.com|docs\.google\.com|discord\.gg)\S*)', desc)
+
+        extra = {
+            "builder_url": builder_urls[0] if builder_urls else None,
+            "all_builder_urls": builder_urls,
+            "external_links": other_links,
+            "tags": info.get("tags", []),
+            "categories": info.get("categories", []),
+        }
+
         return VideoMetadata(
             video_id=info.get("id", "unknown"),
             title=info.get("title", "Untitled Video"),
@@ -175,10 +189,7 @@ class VideoCollector:
             url=info.get("webpage_url", original_url),
             upload_date=info.get("upload_date"),
             duration=info.get("duration"),
-            description=info.get("description"),
+            description=desc,
             view_count=info.get("view_count"),
-            extra={
-                "tags": info.get("tags", []),
-                "categories": info.get("categories", []),
-            }
+            extra=extra
         )

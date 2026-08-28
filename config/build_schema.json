@@ -50,6 +50,42 @@
     },
     "resonance": { "type": "string" },
     "murmur": { "type": "string" },
+    "traits": {
+      "type": "object",
+      "properties": {
+        "vitality": { "type": "integer" },
+        "erudition": { "type": "integer" },
+        "proficiency": { "type": "integer" },
+        "songchant": { "type": "integer" }
+      }
+    },
+    "combat_stats": {
+      "type": "object",
+      "properties": {
+        "hp": { "type": "integer" },
+        "posture": { "type": "integer" },
+        "ether": { "type": "integer" },
+        "tempo": { "type": "integer" },
+        "sanity": { "type": "integer" },
+        "move_speed_pct": { "type": "number" },
+        "pve_dmg_pct": { "type": "number" }
+      }
+    },
+    "resistances": {
+      "type": "object",
+      "properties": {
+        "physical_slash": { "type": "string" },
+        "physical_blunt": { "type": "string" },
+        "physical_pierce": { "type": "string" },
+        "fire": { "type": "string" },
+        "ice": { "type": "string" },
+        "wind": { "type": "string" },
+        "shadow": { "type": "string" },
+        "lightning": { "type": "string" },
+        "iron": { "type": "string" },
+        "acid": { "type": "string" }
+      }
+    },
     "stats": {
       "type": "object",
       "properties": {
@@ -121,9 +157,40 @@
         "required": ["name"]
       }
     },
+    "shrine_progression": {
+      "type": "object",
+      "description": "질서의 성소(Shrine of Order) 전/후 상세 스탯 및 선행 탤런트 명세",
+      "properties": {
+        "pre_shrine": {
+          "type": "object",
+          "properties": {
+            "strength": { "type": "integer" },
+            "fortitude": { "type": "integer" },
+            "agility": { "type": "integer" },
+            "intelligence": { "type": "integer" },
+            "willpower": { "type": "integer" },
+            "charisma": { "type": "integer" },
+            "heavy_wep": { "type": "integer" },
+            "medium_wep": { "type": "integer" },
+            "light_wep": { "type": "integer" },
+            "attunements": { "type": "object" }
+          }
+        },
+        "pre_shrine_talents": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "성소 사용 전 반드시 선행 확보해야 하는 핵심 탤런트 목록"
+        },
+        "post_shrine_priorities": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "성소 사용 후 우선 마스터해야 하는 스탯 및 순서"
+        }
+      }
+    },
     "shrine_of_order_path": {
       "type": "string",
-      "description": "Shrine of Order 사전/사후 스탯 분배 및 순서"
+      "description": "Shrine of Order 사전/사후 스탯 분배 및 순서 요약"
     },
     "equipment": {
       "type": "array",

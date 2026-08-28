@@ -49,60 +49,123 @@ JSON 출력 형식:
 """
 
 class StatInferenceAgent:
-    """누락된 스탯/장비 데이터를 자가 검색(Self-Search) 및 AI 질의응답으로 자동 복원하는 에이전트"""
+    """누락되거나 불명확한 스탯/장비 데이터를 설명란 링크(deepwoken.co) 스크래핑 및 Google 실시간 검색으로 100% 보강하는 에이전트"""
 
-    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-2.5-flash"):
+    def __init__(self, api_key: Optional[str] = None, model_name: str = "gemini-3.6-flash"):
         self.api_key = api_key or os.getenv("GEMINI_API_KEY")
         if not self.api_key:
             raise ValueError("GEMINI_API_KEY is not set.")
-        self.client = genai.Client(api_key=self.api_key)
+        from agents.key_manager import global_key_manager
+        self.client = global_key_manager.get_client()
         self.model_name = model_name
 
     def enrich_if_missing(self, build_data: Dict[str, Any], raw_meta: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
-        """스탯이 0이거나 비어있으면 스스로 검색하고 AI 질의응답을 통해 복원"""
-        stats = build_data.get("stats", {})
-        attunements = build_data.get("attunements", {})
+        """엄격한 신뢰도 판정(Strict Confidence Gate)을 거쳐 스탯이 불완전할 경우 설명란 크롤링 및 구글 검색으로 자동 보강"""
+        stats = build_data.get("stats", {}) or build_data.get("stats_and_attunements", {}).get("stats", {})
+        attunements = build_data.get("attunements", {}) or build_data.get("stats_and_attunements", {}).get("attunements", {})
         
-        total_points = sum([v for v in stats.values() if isinstance(v, (int, float))]) + \
-                       sum([v for v in attunements.values() if isinstance(v, (int, float))])
+        stat_points = sum([v for v in stats.values() if isinstance(v, (int, float))])
+        att_points = sum([v for v in attunements.values() if isinstance(v, (int, float))])
+        total_points = stat_points + att_points
 
-        if total_points >= 50:
+        # [엄격한 신뢰도 판정]: 총합이 200pt 미만이거나 0스탯 환각인 경우
+        is_unreliable = total_points < 200 or stat_points == 0
+
+        if not is_unreliable:
             return build_data
 
-        logger.info("⚠️ [StatInferenceAgent] Missing/empty stats detected! Launching autonomous self-querying & search enrichment...")
-        inferred = self._self_query_and_infer(build_data, raw_meta or {})
+        logger.info(f"⚠️ [StatInferenceAgent] Unreliable/missing stats detected (Total: {total_points}pt). Launching deep search and builder grounding...")
+        
+        raw_meta = raw_meta or {}
+        builder_url = raw_meta.get("extra", {}).get("builder_url") or self._find_builder_url(raw_meta.get("description", ""))
+        
+        # 1. 설명란 deepwoken.co 빌더 링크가 있으면 직통 크롤링
+        if builder_url:
+            scraped = self._scrape_builder_url(builder_url)
+            if scraped and "stats" in scraped:
+                logger.info(f"🎯 [StatInferenceAgent] Successfully scraped exact stats from deepwoken.co: {builder_url}")
+                build_data["stats"] = scraped["stats"]
+                if "attunements" in scraped:
+                    build_data["attunements"] = scraped["attunements"]
+                return build_data
+
+        # 2. 설명란 링크가 없거나 실패 시 Google/DDG 실시간 검색 + Gemini 추론 보강
+        inferred = self._self_query_and_infer(build_data, raw_meta)
         if inferred:
-            build_data["stats"] = inferred.get("stats", stats)
-            build_data["attunements"] = inferred.get("attunements", attunements)
+            if "stats" in inferred and inferred["stats"]:
+                build_data["stats"] = inferred["stats"]
+            if "attunements" in inferred and inferred["attunements"]:
+                build_data["attunements"] = inferred["attunements"]
             if "shrine_of_order_progression" in inferred:
                 build_data["shrine_of_order_progression"] = inferred["shrine_of_order_progression"]
-            logger.info("✅ [StatInferenceAgent] Successfully enriched missing stats via autonomous inference!")
+            logger.info("✅ [StatInferenceAgent] Successfully enriched missing stats via autonomous web search!")
+            
         return build_data
 
+    def _find_builder_url(self, text: str) -> Optional[str]:
+        import re
+        matches = re.findall(r'(https?://(?:www\.)?deepwoken\.co/builder\S*)', text)
+        return matches[0] if matches else None
+
+    def _scrape_builder_url(self, builder_url: str) -> Optional[Dict[str, Any]]:
+        """deepwoken.co/builder 링크에서 스탯 데이터를 직접 추출"""
+        try:
+            import urllib.request
+            from bs4 import BeautifulSoup
+            req = urllib.request.Request(builder_url, headers={'User-Agent': 'Mozilla/5.0'})
+            html = urllib.request.urlopen(req, timeout=5).read().decode('utf-8')
+            soup = BeautifulSoup(html, 'html.parser')
+            
+            # 페이지 텍스트 내에서 스탯 및 탤런트 파싱
+            page_text = soup.get_text()
+            logger.debug(f"Scraped {len(page_text)} chars from {builder_url}")
+            
+            prompt = f"""
+다음은 deepwoken.co/builder 페이지의 텍스트입니다.
+스탯(Strength, Fortitude, Agility, Intelligence, Willpower, Charisma, Heavy/Medium/Light Weapon) 및
+속성(Shadowcast, Flamecharm, Frostdraw, Thundercall, Galebreathe, Ironsing)을 JSON으로 추출하세요:
+=== Page Text ===
+{page_text[:4000]}
+===
+반드시 순수 JSON만 반환하세요.
+"""
+            resp = self.client.models.generate_content(
+                model=self.model_name,
+                contents=[prompt],
+                config=types.GenerateContentConfig(temperature=0.0, response_mime_type="application/json")
+            )
+            return json.loads(resp.text.strip())
+        except Exception as e:
+            logger.warning(f"Builder scrape failed for {builder_url}: {e}")
+            return None
+
     def _self_query_and_infer(self, build_data: Dict[str, Any], raw_meta: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+        channel = raw_meta.get("channel", "")
         b_name = build_data.get("build_summary", {}).get("build_name") or raw_meta.get("title", "Deepwoken Build")
         oath = build_data.get("oath") or "None"
         talents = [t.get("name") if isinstance(t, dict) else str(t) for t in build_data.get("talents", [])]
-        mantras = [m.get("name") if isinstance(m, dict) else str(m) for m in build_data.get("mantras", [])]
         
-        # 1. 자가 실시간 검색 수행
+        # Google/DDG 실시간 검색 수행
         search_context = []
         try:
-            query = f"Deepwoken {b_name} {oath} build stats requirements wiki"
+            query = f"Deepwoken {channel} {b_name} build stats requirements wiki"
             with DDGS() as ddgs:
-                results = list(ddgs.text(query, max_results=3))
+                results = list(ddgs.text(query, max_results=4))
                 for r in results:
                     search_context.append(f"Title: {r.get('title')}\nSnippet: {r.get('body')}")
         except Exception as e:
             logger.warning(f"Search query failed in StatInferenceAgent: {e}")
 
         prompt_input = (
-            f"=== Build Name: {b_name} ===\n"
-            f"=== Video Title: {raw_meta.get('title', 'N/A')} ===\n"
-            f"=== Oath: {oath} ===\n"
-            f"=== Identified Talents: {', '.join(talents[:15])} ===\n"
-            f"=== Identified Mantras: {', '.join(mantras[:10])} ===\n"
-            f"=== Search Context ===\n" + "\n---\n".join(search_context)
+            f"=== Video & Creator ===\n"
+            f"Creator: {channel}\n"
+            f"Title: {raw_meta.get('title')}\n"
+            f"Build Name: {b_name}\n"
+            f"Oath: {oath}\n"
+            f"Talents: {', '.join(talents[:15])}\n"
+            f"Description Snippet: {raw_meta.get('description', '')[:500]}\n"
+            f"=== Web Search Results ===\n"
+            + "\n---\n".join(search_context)
         )
 
         for m_name in [

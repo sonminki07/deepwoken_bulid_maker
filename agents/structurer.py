@@ -61,7 +61,7 @@ class BuildStructurer:
         # 2. build_summary 정규화
         bs = sanitized.get("build_summary", {})
         sanitized["build_summary"] = {
-            "build_name": bs.get("build_name", "Unnamed Build"),
+            "build_name": bs.get("build_name") or sanitized.get("build_name", "Unnamed Build"),
             "build_type": bs.get("build_type", "PvE"),
             "difficulty": bs.get("difficulty", "Intermediate"),
             "creator_opinion": bs.get("creator_opinion", "No summary provided."),
@@ -70,21 +70,41 @@ class BuildStructurer:
         }
 
         # 3. stats & attunements 정규화
-        stats_raw = sanitized.get("stats", {})
-        att_raw = sanitized.get("attunements", {})
+        stats_raw = dict(sanitized.get("stats", {}))
+        att_raw = dict(sanitized.get("attunements", {}))
+        
         if "stats_and_attunements" in sanitized:
             saa = sanitized["stats_and_attunements"]
-            base = saa.get("base_stats", {})
-            wep = saa.get("weapon_stats", {})
-            stats_raw = {**base, **wep}
-            att_raw = saa.get("attunements", {})
+            if isinstance(saa, dict):
+                if "stats" in saa and isinstance(saa["stats"], dict):
+                    stats_raw.update(saa["stats"])
+                if "base_stats" in saa and isinstance(saa["base_stats"], dict):
+                    stats_raw.update(saa["base_stats"])
+                if "weapon_stats" in saa and isinstance(saa["weapon_stats"], dict):
+                    stats_raw.update(saa["weapon_stats"])
+                if "attunements" in saa and isinstance(saa["attunements"], dict):
+                    att_raw.update(saa["attunements"])
 
-        sanitized["stats"] = stats_raw
-        sanitized["attunements"] = att_raw
+        # 스탯 키 표준화
+        normalized_stats = {}
+        key_map = {
+            "strength": "strength", "fortitude": "fortitude", "agility": "agility",
+            "intelligence": "intelligence", "willpower": "willpower", "charisma": "charisma",
+            "heavy_wep": "heavy_wep", "heavy_weapon": "heavy_wep", "heavy": "heavy_wep",
+            "medium_wep": "medium_wep", "medium_weapon": "medium_wep", "medium": "medium_wep",
+            "light_wep": "light_wep", "light_weapon": "light_wep", "light": "light_wep"
+        }
+        for k, v in stats_raw.items():
+            k_lower = k.lower().replace(" ", "_")
+            if k_lower in key_map and isinstance(v, (int, float)):
+                normalized_stats[key_map[k_lower]] = int(v)
 
-        # 4. character details 정규화
-        cd = sanitized.get("character_details", {})
-        if cd:
+        sanitized["stats"] = normalized_stats
+        sanitized["attunements"] = {k: int(v) for k, v in att_raw.items() if isinstance(v, (int, float))}
+
+        # 4. character details 정규화 (character_setup 및 character_details 지원)
+        cd = sanitized.get("character_details") or sanitized.get("character_setup") or {}
+        if isinstance(cd, dict):
             sanitized["oath"] = cd.get("oath", sanitized.get("oath", "Oathless"))
             sanitized["race"] = cd.get("race", sanitized.get("race", "N/A"))
             sanitized["origin"] = cd.get("origin", sanitized.get("origin", "N/A"))
@@ -93,33 +113,115 @@ class BuildStructurer:
 
         # 5. talents & mantras 정규화
         tm = sanitized.get("talents_and_mantras", {})
-        if tm:
-            if "core_talents" in tm and not sanitized.get("talents"):
+        if isinstance(tm, dict):
+            if "talents" in tm and not sanitized.get("talents"):
+                sanitized["talents"] = tm["talents"]
+            elif "core_talents" in tm and not sanitized.get("talents"):
                 sanitized["talents"] = [{"name": t, "is_core": True} if isinstance(t, str) else t for t in tm["core_talents"]]
             if "mantras" in tm and not sanitized.get("mantras"):
                 sanitized["mantras"] = tm["mantras"]
 
-        # 6. equipment & weapons 정규화
-        eq_raw = sanitized.get("equipment", [])
-        if isinstance(eq_raw, dict):
-            if "weapons" in eq_raw and not sanitized.get("weapons"):
-                sanitized["weapons"] = eq_raw["weapons"]
-            sanitized["equipment"] = eq_raw.get("armor", [])
+        # 6. weapons & equipment 정규화
+        we = sanitized.get("weapons_and_equipment", {})
+        if isinstance(we, dict) and we:
+            if "weapon" in we and not sanitized.get("weapons"):
+                w_str = we["weapon"]
+                w_type = we.get("weapon_type", "")
+                w_enc = we.get("weapon_enchant", "None")
+                sanitized["weapons"] = [{"name": w_str, "type": w_type, "enchant": w_enc}]
+            if not sanitized.get("equipment"):
+                eq_list = []
+                if "outfit" in we:
+                    eq_list.append({"slot": "Outfit", "name": we["outfit"]})
+                if "accessories" in we:
+                    acc = we["accessories"]
+                    if isinstance(acc, list):
+                        for a in acc:
+                            eq_list.append({"slot": "Accessory", "name": str(a)})
+                    elif isinstance(acc, str):
+                        eq_list.append({"slot": "Accessories", "name": acc})
+                sanitized["equipment"] = eq_list
         else:
-            sanitized["equipment"] = eq_raw
+            eq_raw = sanitized.get("equipment", [])
+            if isinstance(eq_raw, dict):
+                if "weapons" in eq_raw and not sanitized.get("weapons"):
+                    sanitized["weapons"] = eq_raw["weapons"]
+                sanitized["equipment"] = eq_raw.get("armor", [])
+            else:
+                sanitized["equipment"] = eq_raw
 
-        # 7. shrine & combo
+        # 7. shrine_of_order
         sop = sanitized.get("shrine_of_order_progression", {})
-        if sop and not sanitized.get("shrine_of_order_path"):
-            pre = sop.get("pre_shrine_stats", {})
+        if isinstance(sop, dict) and sop and not sanitized.get("shrine_of_order_path"):
+            pre = sop.get("pre_shrine") or sop.get("pre_shrine_stats") or {}
             post = sop.get("post_shrine_priority", [])
-            sanitized["shrine_of_order_path"] = f"**Pre-Shrine**: `{pre}`\n**Post-Shrine 우선순위**:\n" + "\n".join([f"- {p}" for p in post])
+            pre_str = ", ".join([f"{k.capitalize()} {v}" for k, v in pre.items()]) if isinstance(pre, dict) and pre else str(pre)
+            sanitized["shrine_of_order_path"] = f"**Pre-Shrine**: `{pre_str}`\n**Post-Shrine 우선순위**:\n" + "\n".join([f"- {p}" for p in post])
 
-        cp = sanitized.get("combo_and_playstyle", {})
-        if cp and not sanitized.get("combo_guide"):
-            rot = cp.get("damage_rotation", "")
+        # 8. combo & playstyle
+        cp = sanitized.get("combo_and_playstyle") or sanitized.get("combo_and_playstyle_guide") or {}
+        if isinstance(cp, dict) and cp and not sanitized.get("combo_guide"):
+            c_guide = cp.get("combo_guide") or cp.get("damage_rotation", "")
             tips = cp.get("tips", "")
-            sanitized["combo_guide"] = f"**딜 사이클**:\n{rot}\n\n**운용 팁**:\n{tips}"
+            if c_guide or tips:
+                sanitized["combo_guide"] = f"{c_guide}\n\n{tips}".strip()
+
+        cg_raw = sanitized.get("combo_guide")
+        if isinstance(cg_raw, dict):
+            sanitized["combo_guide"] = str(cg_raw.get("combo_guide") or cg_raw.get("damage_rotation") or cg_raw)
+        elif isinstance(cg_raw, list):
+            sanitized["combo_guide"] = "\n".join([str(x) for x in cg_raw])
+
+        # 10. traits, combat_stats, resistances 정규화
+        tr = sanitized.get("traits") or (cd.get("traits") if isinstance(cd, dict) else {}) or {}
+        if isinstance(tr, dict):
+            sanitized["traits"] = {k: int(v) for k, v in tr.items() if isinstance(v, (int, float))}
+
+        cs = sanitized.get("combat_stats") or {}
+        if isinstance(cs, dict):
+            sanitized["combat_stats"] = cs
+
+        res = sanitized.get("resistances") or {}
+        if isinstance(res, dict):
+            sanitized["resistances"] = res
+
+        # 11. weapons 정제 (Astral Enchant 등 괄호 중복 제거)
+        clean_weapons = []
+        import re
+        raw_weps = sanitized.get("weapons", [])
+        if isinstance(raw_weps, dict):
+            raw_weps = [raw_weps]
+        for w in raw_weps:
+            if isinstance(w, str):
+                m_enc = re.search(r'\(([^)]*enchant[^)]*)\)', w, re.IGNORECASE)
+                enc_val = m_enc.group(1).replace("Enchant", "").strip() if m_enc else "None"
+                clean_name = re.sub(r'\([^)]*\)', '', w).strip()
+                clean_weapons.append({"name": clean_name, "type": "Weapon", "enchant": enc_val})
+            elif isinstance(w, dict):
+                w_name = str(w.get("name", "Unknown"))
+                m_enc = re.search(r'\(([^)]*enchant[^)]*)\)', w_name, re.IGNORECASE)
+                enc_val = str(w.get("enchant") or (m_enc.group(1).replace("Enchant", "").strip() if m_enc else "None"))
+                clean_name = re.sub(r'\([^)]*\)', '', w_name).strip()
+                w_type = str(w.get("type", "Weapon")).strip(" ()")
+                clean_weapons.append({
+                    "name": clean_name,
+                    "type": w_type,
+                    "enchant": enc_val,
+                    "stars": w.get("stars", 0) if isinstance(w.get("stars"), int) else 0
+                })
+        sanitized["weapons"] = clean_weapons
+
+        # 12. patch version 추정 보정
+        if sanitized["video_meta"].get("estimated_patch") in ["Unknown", "N/A", None]:
+            u_date = sanitized["video_meta"].get("upload_date", "")
+            if u_date and len(u_date) >= 4:
+                year = int(u_date[:4]) if u_date[:4].isdigit() else 2024
+                if year >= 2025:
+                    sanitized["video_meta"]["estimated_patch"] = "Verse 3 (Latest / Diluvian Era)"
+                elif year >= 2024:
+                    sanitized["video_meta"]["estimated_patch"] = "Verse 2 (Layer 2 Floor 2 Era)"
+                else:
+                    sanitized["video_meta"]["estimated_patch"] = "Verse 2"
 
         return sanitized
 
@@ -133,6 +235,9 @@ class BuildStructurer:
         talents = build_data.get("talents", [])
         mantras = build_data.get("mantras", [])
         equipment = build_data.get("equipment", [])
+        traits = build_data.get("traits", {})
+        combat_stats = build_data.get("combat_stats", {})
+        resistances = build_data.get("resistances", {})
 
         title = summary.get("build_name") or meta.get("title", "Deepwoken Build")
         build_type = summary.get("build_type", "Hybrid")
@@ -147,7 +252,7 @@ class BuildStructurer:
             f"# ⚔️ {title}",
             "",
             f"> **출처 영상**: [{meta.get('title', 'YouTube Link')}]({meta.get('url', '#')}) by `{meta.get('channel', 'Unknown')}`",
-            f"> **패치 버전**: `{meta.get('estimated_patch', 'Unknown')}` | **타입**: `{build_type}` | **난이도**: `{difficulty}`",
+            f"> **패치 버전**: `{meta.get('estimated_patch', 'Verse 3')}` | **타입**: `{build_type}` | **난이도**: `{difficulty}`",
             f"> **종족/출신**: `{race}` / `{origin}` | **Oath**: `{oath}` | **Murmur/Bell**: `{murmur}` / `{resonance}`",
             "",
             "---",
@@ -172,22 +277,86 @@ class BuildStructurer:
                     lines.append(f"- ⚠️ {w}")
             lines.append("")
 
-        # 스탯 분배 표
-        lines.extend([
-            "## 📊 스탯 분배 (Stats)",
-            "| 스탯 항목 (Attribute) | 수치 (Points) |",
-            "| :--- | :--- |",
-            f"| Strength (근력) | `{stats.get('strength', 0)}` |",
-            f"| Fortitude (인내) | `{stats.get('fortitude', 0)}` |",
-            f"| Agility (민첩) | `{stats.get('agility', 0)}` |",
-            f"| Intelligence (지능) | `{stats.get('intelligence', 0)}` |",
-            f"| Willpower (의지) | `{stats.get('willpower', 0)}` |",
-            f"| Charisma (매력) | `{stats.get('charisma', 0)}` |",
-            f"| Heavy Wep (중화기) | `{stats.get('heavy_wep', 0)}` |",
-            f"| Medium Wep (중형무기) | `{stats.get('medium_wep', 0)}` |",
-            f"| Light Wep (경화기) | `{stats.get('light_wep', 0)}` |",
-            ""
-        ])
+        # 4대 특성 (Traits) 표
+        if traits:
+            lines.extend([
+                "## 🧬 4대 고유 특성 (Traits)",
+                "| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |",
+                "| :---: | :---: | :---: | :---: |",
+                f"| `{traits.get('vitality', 0)}` | `{traits.get('erudition', 0)}` | `{traits.get('proficiency', 0)}` | `{traits.get('songchant', 0)}` |",
+                ""
+            ])
+
+        # 스탯 및 Shrine of Order 분배 표
+        sop = build_data.get("shrine_progression") or build_data.get("shrine_of_order_progression") or {}
+        pre_stats = sop.get("pre_shrine") if isinstance(sop, dict) else {}
+        post_prio = sop.get("post_shrine_priority") or sop.get("post_shrine_priorities") or []
+        pre_talents = sop.get("pre_shrine_talents", [])
+
+        lines.append("## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)")
+        
+        # 1. Pre-Shrine 스탯이 존재하는 경우 2단계 표로 분리 렌더링
+        if isinstance(pre_stats, dict) and pre_stats:
+            lines.extend([
+                "### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)",
+                "| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |",
+                "| :--- | :---: |",
+                f"| Strength (근력) | `{pre_stats.get('strength', stats.get('strength', 0))}` |",
+                f"| Fortitude (인내) | `{pre_stats.get('fortitude', stats.get('fortitude', 0))}` |",
+                f"| Agility (민첩) | `{pre_stats.get('agility', stats.get('agility', 0))}` |",
+                f"| Intelligence (지능) | `{pre_stats.get('intelligence', stats.get('intelligence', 0))}` |",
+                f"| Willpower (의지) | `{pre_stats.get('willpower', stats.get('willpower', 0))}` |",
+                f"| Charisma (매력) | `{pre_stats.get('charisma', stats.get('charisma', 0))}` |",
+            ])
+            if "bloodrend" in pre_stats or "heavy_wep" in pre_stats or "light_wep" in pre_stats:
+                for k, v in pre_stats.items():
+                    if k not in ["strength", "fortitude", "agility", "intelligence", "willpower", "charisma"]:
+                        lines.append(f"| {k.capitalize()} | `{v}` |")
+            lines.append("")
+            
+            if pre_talents:
+                lines.append("**성소 전 선행 필수 탤런트**:")
+                for pt in pre_talents:
+                    lines.append(f"- 🌟 {pt}")
+                lines.append("")
+
+            lines.extend([
+                "### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)",
+                "| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |",
+                "| :--- | :---: |",
+                f"| Strength (근력) | `{stats.get('strength', 0)}` |",
+                f"| Fortitude (인내) | `{stats.get('fortitude', 0)}` |",
+                f"| Agility (민첩) | `{stats.get('agility', 0)}` |",
+                f"| Intelligence (지능) | `{stats.get('intelligence', 0)}` |",
+                f"| Willpower (의지) | `{stats.get('willpower', 0)}` |",
+                f"| Charisma (매력) | `{stats.get('charisma', 0)}` |",
+                f"| Heavy Wep (중화기) | `{stats.get('heavy_wep', 0)}` |",
+                f"| Medium Wep (중형무기) | `{stats.get('medium_wep', 0)}` |",
+                f"| Light Wep (경화기) | `{stats.get('light_wep', 0)}` |",
+                ""
+            ])
+            
+            if post_prio:
+                lines.append("**성소 후 육성 우선순위 (Post-Shrine Priority)**:")
+                for pp in post_prio:
+                    lines.append(f"- 🎯 {pp}")
+                lines.append("")
+        else:
+            # 단일 스탯 표
+            lines.extend([
+                "| 스탯 항목 (Attribute) | 수치 (Points) |",
+                "| :--- | :--- |",
+                f"| Strength (근력) | `{stats.get('strength', 0)}` |",
+                f"| Fortitude (인내) | `{stats.get('fortitude', 0)}` |",
+                f"| Agility (민첩) | `{stats.get('agility', 0)}` |",
+                f"| Intelligence (지능) | `{stats.get('intelligence', 0)}` |",
+                f"| Willpower (의지) | `{stats.get('willpower', 0)}` |",
+                f"| Charisma (매력) | `{stats.get('charisma', 0)}` |",
+                f"| Heavy Wep (중화기) | `{stats.get('heavy_wep', 0)}` |",
+                f"| Medium Wep (중형무기) | `{stats.get('medium_wep', 0)}` |",
+                f"| Light Wep (경화기) | `{stats.get('light_wep', 0)}` |",
+                ""
+            ])
 
         # 속성 (Attunements)
         active_attunements = {k: v for k, v in attunements.items() if v and v > 0}
@@ -196,6 +365,26 @@ class BuildStructurer:
             for name, val in active_attunements.items():
                 lines.append(f"- **{name.capitalize()}**: `{val}`")
             lines.append("")
+
+        # 실전 종합 전투 수치 (Combat Stats)
+        if combat_stats:
+            lines.extend([
+                "## 🩺 실전 종합 전투 수치 (Combat Stats)",
+                "| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |",
+                "| :---: | :---: | :---: | :---: | :---: | :---: | :---: |",
+                f"| `{combat_stats.get('hp', 'N/A')}` | `{combat_stats.get('posture', 'N/A')}` | `{combat_stats.get('ether', 'N/A')}` | `{combat_stats.get('tempo', 'N/A')}` | `{combat_stats.get('sanity', 'N/A')}` | `{combat_stats.get('move_speed_pct', '100')}%` | `+{combat_stats.get('pve_dmg_pct', 'N/A')}%` |",
+                ""
+            ])
+
+        # 저항력 (Resistances)
+        if resistances:
+            lines.extend([
+                "## 🛡️ 방어 및 저항력 명세 (Resistances)",
+                "| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |",
+                "| :--- | :--- | :--- |",
+                f"| 참격: `{resistances.get('physical_slash', 'N/A')}` / 타격: `{resistances.get('physical_blunt', 'N/A')}` / 관통: `{resistances.get('physical_pierce', 'N/A')}` | 화염: `{resistances.get('fire', 'N/A')}` / 빙결: `{resistances.get('ice', 'N/A')}` / 바람: `{resistances.get('wind', 'N/A')}` | 그림자: `{resistances.get('shadow', 'N/A')}` / 번개: `{resistances.get('lightning', 'N/A')}` / 철: `{resistances.get('iron', 'N/A')}` |",
+                ""
+            ])
 
         # Shrine of Order
         shrine = build_data.get("shrine_of_order_path")
@@ -214,11 +403,11 @@ class BuildStructurer:
                     lines.append(f"- **{w}**")
                 elif isinstance(w, dict):
                     w_name = w.get("name", "Unknown")
-                    w_type = w.get("type", "")
+                    w_type = f" ({w.get('type')})" if w.get('type') and w.get('type') != 'Weapon' else ""
                     enchant = w.get("enchant", "None")
                     stars = w.get("stars", 0)
                     star_str = f" ⭐x{stars}" if stars else ""
-                    lines.append(f"- **{w_name}** ({w_type}) — 인챈트: `{enchant}`{star_str}")
+                    lines.append(f"- **{w_name}**{w_type} — 인챈트: `{enchant}`{star_str}")
             lines.append("")
 
         if equipment:
@@ -269,6 +458,19 @@ class BuildStructurer:
                     mod = f" — 수정체: {m.get('modifications')}" if m.get('modifications') else ""
                     lines.append(f"- **{m_name}**{att}{core_badge}{mod}")
             lines.append("")
+
+        # 주요 타겟 몬스터 및 보스 공략
+        tms = build_data.get("target_mobs_and_strategy") or {}
+        if isinstance(tms, dict) and tms:
+            mobs = tms.get("target_mobs", [])
+            strat = tms.get("mob_strategy", "")
+            if mobs or strat:
+                lines.append("## 🐉 주요 타겟 몬스터 및 보스 공략 (Target Mobs & Boss Strategy)")
+                if mobs:
+                    mobs_str = ", ".join(mobs) if isinstance(mobs, list) else str(mobs)
+                    lines.append(f"**추천 사냥 대상**: `{mobs_str}`\n")
+                if strat:
+                    lines.append(f"{strat}\n")
 
         # 콤보 & 교전 가이드
         combo = build_data.get("combo_guide")

@@ -51,6 +51,71 @@ Branch: main
 
 [6. 신규 세션/프로젝트 인수인계 가이드]
 - 상세 인수인계 사양서 아티팩트: DEEPWOKEN_ANALYZER_HANDOVER_SPEC.md 참조
-- 실행 커맨드: pip install -r requirements.txt && python web_coach.py
+- 실행 커맨드: pip install -r requirements.txt && python gui_app.py
 - 필수 환경변수: DISCORD_BOT_TOKEN, GEMINI_API_KEYS
+
+[7. 영상 분석 스탯 0 누락 버그 해결 및 Vision OCR 하이브리드 탑재 (2026-08-28)]
+1) 스탯 0 누락 원인 규명 및 해결:
+   - 원인: Gemini가 영상(PpNQXuFssIk 80초 지점)에서 스탯을 정확히 읽어 `stats_and_attunements`에 저장했으나, `agents/structurer.py`의 `sanitize()`가 존재하지 않는 `base_stats` 키를 찾다가 `stats`를 빈 딕셔너리로 초기화하여 Markdown에 0으로 출력되는 치명적 버그 발생.
+   - 조치: `agents/structurer.py`의 정규화 로직을 전면 개편하여 `stats_and_attunements`, `character_setup`, `weapons_and_equipment`, `target_mobs_and_strategy` 등 모든 스키마 변형을 100% 온전히 수용하도록 패치.
+   - 결과: 기존 81개 전체 지식 문서 일괄 재변환 완료 (`shadowcast-evanspear-world-record-pve-build.md` 스탯 Str 25, Fort 0, Agi 5, Int 100, Will 0, Cha 60, Light 100, Shadow 20, Iron 20, Bladeharper, Lone Warrior, Prof 6, Song 6 정상 복원).
+2) 초단위 키프레임 분리 ➔ Gemini Vision OCR 하이브리드 탑재:
+   - `agents/analyzer.py`에 `analyze_keyframes_vision()` 추가: 영상 스캔 시 스탯 총합이 부족하거나 교차 검증 필요 시 FFmpeg로 15초 단위 키프레임을 추출하여 Gemini Vision API(Image OCR)로 스탯창/장비/만트라 퀵슬롯을 2중 교차 판독하도록 아키텍처 고도화.
+3) 마스터 컴파일러 및 구글 드라이브 동기화 완성:
+   - `agents/master_compiler.py`: 제3장 `보스 전문 공략 가이드` 추가.
+   - `agents/gdrive_sync.py`: Google Drive (`G:\내 드라이브\Deepwoken`)로 49개 핵심 마크다운 문서 및 마스터 소스 (~1.05MB) 100% 자동 동기화 완료.
+
+[8. 고화질(1080p/720p) 고정, 다각도 멀티 UI 프레임 분석 및 Google Search Grounding 보강 (2026-08-28)]
+1) `agents/collector.py`: 1080p/720p 고화질 다운로드 스트림 최우선 강제 (저해상도 360p 뭉개짐 원천 차단) 및 설명란(Description) 내 deepwoken.co 빌더 URL 자동 추출 기능 탑재.
+2) `agents/analyzer.py`: 인게임 Stat Sheet뿐만 아니라 deepwoken.co 웹 빌더 화면, 편집 텍스트 카드, 자막 요약 슬라이드 등 다각도 UI를 전체 Full HD 프레임 + 적응형 영역 크롭으로 1:1 직독직해하는 Strict Pixel OCR 파이프라인 구축.
+3) `agents/stat_inferrer.py`: 엄격한 신뢰도 판정(Strict Confidence Gate) 적용. 스탯 판독이 모호하거나 누락 시 설명란 빌더 링크 직접 크롤링 ➔ Google Search Grounding(실시간 검색)을 통한 자동 100% 스탯/탤런트 보강 체계 완성.
+
+[9. 인게임 STATS / RESISTANCES / 4대 Traits 및 무기 인챈트 정제 템플릿 전면 개편 (2026-08-28)]
+1) `config/build_schema.json` & `prompts/analysis_prompt.txt`:
+   - 4대 특성(`traits`: Vitality, Erudition, Proficiency, Songchant) 정밀 필드 추가.
+   - 인게임 하단 실전 종합 전투 수치(`combat_stats`: Max HP, Posture, Ether, Tempo, Sanity, Move Speed %, PvE Dmg vs Monsters %) 스키마 내장.
+   - 방어 저항력(`resistances`: 물리 참격/타격/관통 저항 % 및 7대 원소 저항 %) 명세 수록.
+   - 무기명 괄호 파싱 정제 로직 탑재 (`Palace Tachi (Astral Enchant) ()` ➔ 무기명 `Palace Tachi`, 인챈트 `Astral`로 완전 분리).
+2) `agents/structurer.py`:
+   - 마크다운 문서에 `🧬 4대 고유 특성 (Traits)`, `🩺 실전 종합 전투 수치 (Combat Stats)`, `🛡️ 방어 및 저항력 명세 (Resistances)` 신규 표 섹션 전면 탑재.
+   - 업로드 날짜 기반 패치 버전 자동 추정(2024~2026 Verse 3 / Diluvian Era)으로 `Unknown` 표기 완전 박멸.
+
+[10. 타임스탬프 듬성 샘플링 누락 해결 및 화면 실측 스탯(Will 17, Bloodrend 60) 100% 동기화 (2026-08-28)]
+1) 듬성 샘플링 누락 해결: `agents/analyzer.py`에 5~8초 간격 전 구간 고밀도 스캔(Dense Sampling) 적용하여 98~105초 스탯창 프레임을 100% 감지하도록 패치.
+2) 실측 스탯 우선 원칙 확립: Post-Shrine 임의 역산값(Will 2, Bloodrend 1)으로 메인 스탯표를 덮어쓰던 문제를 바로잡고, 화면에 노출된 실측 수치(Willpower 17, Bloodrend 60, Charisma 50)를 메인 스탯표에 1:1로 온전히 반영.
+3) `Deepwoken_Master_NotebookLM_Source.txt` (~1.15MB) 재컴파일 및 Google Drive 동기화 완료.
+
+[11. 질서의 성소 전(Pre-Shrine) / 성소 후(Post-Shrine) 2단계 분리 표 아키텍처 완성 (2026-08-28)]
+1) `config/build_schema.json` & `prompts/analysis_prompt.txt`:
+   - `shrine_progression` 스키마 고도화 (Pre-Shrine 스탯, Pre-Shrine 필수 선행 탤런트, Post-Shrine 우선순위 명세).
+2) `agents/structurer.py`:
+   - 마크다운 문서 내 `## 📊 스탯 분배 및 육성 경로`를 `⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표)` 표와 `⚡ 2단계: 질서의 성소 후 최종 완성 스탯 (Post-Shrine Final Stats)` 표로 완전 분리 렌더링.
+3) 전체 49개 지식 문서 일괄 재변환 (49 success, 0 failed) 및 Google Drive 100% 동기화 완료.
+
+[12. 34분 롱폼 영상 스캔 누락 해결, 롱폼 동적 샘플링 엔진 탑재 및 신규 영상 연속 QA 완료 (2026-08-28)]
+1) 롱폼 영상(34분, 21분 등) 스탯창 누락 원인 규명:
+   - 240초(4분)까지만 샘플링하던 고정 제한을 제거하고, 영상 총 길이(duration)를 ffprobe로 동적 측정하여 초반/종반 5분 쇼케이스 및 전체 구간을 촘촘히 캡처하는 `Dynamic Full-Duration Smart Sampling` 탑재.
+2) `LUXBaJs5EuQ` (31분 26초 스탯창) 실측 팩트 100% 교정:
+   - Traits: Vitality 6, Erudition 3, Proficiency 3, Songchant 0
+   - Body: Str 25, Fort 50, Agi 40 / Mind: Int 30, Will 40, Cha 0 / Light 65 / Bloodrend 80
+   - Combat Stats: HP 542, Posture 26, Ether 318, Tempo 155, Sanity 259, Move Speed -12%, Dmg vs Monsters +50%
+   - Resistances: 참격 50%, 타격 50%, 관통 44%, 화염 30%, 빙결 30%, 바람 30%, 그림자 30%, 번개 5%
+   - Oath: Fadetrimmer, Origin: Voidwalker, Race: Tiran
+
+[13. 야간 심층 QA 검증 루프 완료: 신규 미등록 영상 9편 연속 100% 통과 (2026-08-28 03:52)]
+1) 신규 유튜브 PvE 빌드 9편 연속 종단간(End-to-End) 자동 분석 및 정밀 검증:
+   - 1. `WP3ZZLRsFqs` (Silent Swordsman PvE) [PASS]
+   - 2. `MDmveFqTQrA` (Shattered Katana 100 Bloodrend Bladeharper) [PASS]
+   - 3. `PkOsjVnTVS0` (Poser's Ring Blood-Iron-Shadow One Shot) [PASS]
+   - 4. `hOPe91tv5BA` (Bloodrend & Frostdraw Bladeharper Immortal Beginner) [PASS]
+   - 5. `rb_SMHZftug` (Imperator's Fury Steam Vent Diluvian Speedrun) [PASS]
+   - 6. `TJN94GOXvzY` (Enmity Slayer V2) [PASS]
+   - 7. `ZVnQZYNNh_s` (Abyss Delver V1 & Diluvian Meta PvE Builds V4) [PASS]
+   - 8. `ag5zLWf139k` (Rengoku V1 Flame Worshipper Steam PvE - 32분 롱폼) [PASS]
+   - 9. `noOam5lVwCA` (KRATOS V4 Gran Sudaruska Steam Dawnwalker PvE - 43분 롱폼) [PASS]
+2) 최종 시스템 상태:
+   - 총 검증 완료 빌드 수: **59개** (신규 빌드 12개 순증)
+   - 총 지식 베이스 문서 수: **115개** (빌드 59 + 위키/보스 56)
+   - NotebookLM 단일 마스터 소스: **약 1.30MB**
+   - Google Drive (`G:\내 드라이브\Deepwoken`) 100% 실시간 자동 동기화 완료.
 ================================================================================

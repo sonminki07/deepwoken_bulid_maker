@@ -11,10 +11,16 @@ if sys.platform == "win32":
 
 import argparse
 import logging
+import warnings
 from pathlib import Path
 from dotenv import load_dotenv
 from rich.console import Console
 from rich.logging import RichHandler
+
+# Google GenAI 무해한 AFC 경고 필터링
+warnings.filterwarnings("ignore")
+logging.getLogger("google.genai").setLevel(logging.ERROR)
+logging.getLogger("google_genai").setLevel(logging.ERROR)
 
 # .env 로드
 load_dotenv()

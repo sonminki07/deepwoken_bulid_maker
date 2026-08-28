@@ -15,6 +15,8 @@ from agents.analyzer import BuildAnalyzer
 from agents.stat_inferrer import StatInferenceAgent
 from agents.structurer import BuildStructurer
 from agents.knowledge_builder import KnowledgeBuilder
+from agents.frame_extractor import FrameExtractor
+from agents.vision_extractor import VisionExtractor
 
 logger = logging.getLogger(__name__)
 
@@ -39,9 +41,17 @@ class PipelineOrchestrator:
             max_filesize_bytes=download_cfg.get("max_filesize_bytes", 2 * 1024 * 1024 * 1024)
         )
 
+        self.frame_extractor = FrameExtractor(
+            output_dir="data/keyframes"
+        )
+
+        self.vision_extractor = VisionExtractor(
+            model_name="gemini-flash-latest"
+        )
+
         self.analyzer = BuildAnalyzer(
             api_key=self.api_key,
-            model_name=gemini_cfg.get("model", "gemini-2.5-flash"),
+            model_name=gemini_cfg.get("model", "gemini-3.6-flash"),
             prompt_path=paths_cfg.get("analysis_prompt_path", "prompts/analysis_prompt.txt"),
             schema_path=paths_cfg.get("schema_path", "config/build_schema.json"),
             temperature=gemini_cfg.get("temperature", 0.1)
@@ -49,7 +59,7 @@ class PipelineOrchestrator:
 
         self.stat_inferrer = StatInferenceAgent(
             api_key=self.api_key,
-            model_name=gemini_cfg.get("model", "gemini-2.5-flash")
+            model_name=gemini_cfg.get("model", "gemini-3.6-flash")
         )
 
         self.structurer = BuildStructurer(
@@ -130,8 +140,8 @@ class PipelineOrchestrator:
 
         # Step 1: 영상 및 메타데이터 다운로드
         if progress_callback:
-            progress_callback(15, "유튜브 720p 영상 및 메타데이터 다운로드 중...")
-        logger.info("[Step 1/4] Collecting video and metadata via yt-dlp...")
+            progress_callback(15, "유튜브 고화질(1080p) 영상 및 메타데이터 다운로드 중...")
+        logger.info("[Step 1/5] Collecting video and metadata via yt-dlp...")
         download_result: DownloadResult = self.collector.download(url)
         video_id = download_result.video_id
         video_path = download_result.video_path
@@ -143,13 +153,51 @@ class PipelineOrchestrator:
             "description": download_result.metadata.description,
         }
 
-        # Step 2: Gemini 멀티모달 분석
-        logger.info(f"[Step 2/4] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
+        # Step 1.5: OpenCV 고해상도 UI 키프레임 추출 및 전처리 (모션블러 필터링, CLAHE 대비강화)
+        if progress_callback:
+            progress_callback(35, "OpenCV 1080p UI 키프레임 추출 및 모션블러/대비 전처리 중...")
+        logger.info("[Step 2/5] Extracting sharp UI keyframes with OpenCV...")
+        keyframes = []
+        vision_stats = None
+        try:
+            keyframes = self.frame_extractor.extract_sharp_keyframes(video_path, max_keyframes=6, sample_step_sec=1.5)
+            if keyframes:
+                if progress_callback:
+                    progress_callback(45, "선별된 고해상도 스탯 창 픽셀 단위 정밀 판독 중...")
+                logger.info(f"Analyzing {len(keyframes)} high-res keyframes with Precision Vision AI...")
+                vision_stats = self.vision_extractor.extract_from_keyframes(keyframes)
+        except Exception as kf_err:
+            logger.warning(f"Keyframe extraction or vision analysis warning: {kf_err}")
+
+        # Step 2: Gemini 멀티모달 분석 (비디오 음성, 콤보, 보스전 공략 분석)
+        logger.info(f"[Step 3/5] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
         raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict, progress_callback=progress_callback)
+
+        # 픽셀 기반 실측 비전 스탯이 존재하면 100% 우선 병합 (VLM 환각 원천 차단)
+        if vision_stats and isinstance(vision_stats, dict):
+            v_stats = vision_stats.get("stats")
+            if v_stats and isinstance(v_stats, dict) and sum([v for v in v_stats.values() if isinstance(v, (int, float))]) > 0:
+                logger.info("🎯 [Vision Grounding] Overriding stats with 100% pixel-exact vision extracted numbers!")
+                raw_analysis["stats"] = v_stats
+            
+            v_att = vision_stats.get("attunements")
+            if v_att and isinstance(v_att, dict):
+                raw_analysis["attunements"] = v_att
+
+            if vision_stats.get("race"):
+                raw_analysis["race"] = vision_stats["race"]
+            if vision_stats.get("oath") and vision_stats["oath"] != "None":
+                raw_analysis["oath"] = vision_stats["oath"]
+            if vision_stats.get("traits"):
+                raw_analysis["traits"] = vision_stats["traits"]
+            if vision_stats.get("combat_stats"):
+                raw_analysis["combat_stats"] = vision_stats["combat_stats"]
+            if vision_stats.get("resistances"):
+                raw_analysis["resistances"] = vision_stats["resistances"]
 
         # Step 2.5: 스탯 누락 시 자가 질의응답 및 웹 검색을 통한 자동 스탯 추론/보강
         if progress_callback:
-            progress_callback(80, "스탯 누락 여부 검증 및 AI 지식 기반 자동 스탯 역산/보정 중...")
+            progress_callback(80, "스탯 유효성 검증 및 빌드 스키마 무결성 확인 중...")
         raw_analysis = self.stat_inferrer.enrich_if_missing(raw_analysis, meta_dict)
 
         # Step 3: JSON 검증 및 Markdown 변환/저장
@@ -167,6 +215,17 @@ class PipelineOrchestrator:
             json_path=saved_paths["json_path"],
             md_path=saved_paths["md_path"]
         )
+
+        # Step 5: 마스터 소스 재컴파일 및 구글 드라이브 실시간 자동 동기화
+        if progress_callback:
+            progress_callback(95, "NotebookLM 마스터 소스 컴파일 및 구글 드라이브 자동 동기화 중...")
+        try:
+            from agents.gdrive_sync import sync_to_google_drive
+            sync_ok, sync_msg, _ = sync_to_google_drive()
+            if sync_ok:
+                logger.info(f"Auto-synced to Google Drive: {sync_msg}")
+        except Exception as sync_err:
+            logger.warning(f"Auto GDrive sync warning: {sync_err}")
 
         # 로컬 영상 파일 정리 (설정 시)
         if self.cleanup_local_video and video_path.exists() and not download_result.from_cache:

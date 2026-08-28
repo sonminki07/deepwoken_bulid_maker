@@ -57,10 +57,25 @@ def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path
             except Exception as e:
                 logger.warning(f"Error reading build md {md_file}: {e}")
 
-    # 3. 추가 분석된 웹 및 위키 문서 병합 (Monster Mantras 등)
+    # 3. 보스 전문 공략 & 레이드 가이드 병합
+    kb_bosses_dir = kb_dir / "bosses"
+    boss_count = 0
+    if kb_bosses_dir.exists():
+        lines.append("\n\n## 👑 제3장: 엔드게임 보스 및 레이드 전문 공략 가이드")
+        for b_file in sorted(kb_bosses_dir.glob("*.md")):
+            try:
+                content = b_file.read_text(encoding="utf-8", errors="ignore").strip()
+                if content:
+                    lines.append(f"\n---\n\n### 🐉 [보스 공략 {boss_count+1}] {b_file.stem}\n")
+                    lines.append(content)
+                    boss_count += 1
+            except Exception as e:
+                logger.warning(f"Error reading boss md {b_file}: {e}")
+
+    # 4. 추가 분석된 웹 및 위키 문서 병합 (Monster Mantras 등)
     web_count = 0
     if kb_web_dir.exists():
-        lines.append("\n\n## 📖 제3장: 웹 & 위키 추가 분석 문서 및 시스템 가이드")
+        lines.append("\n\n## 📖 제4장: 웹 & 위키 추가 분석 문서 및 시스템 가이드")
         for doc_file in sorted(kb_web_dir.glob("*.*")):
             try:
                 content = doc_file.read_text(encoding="utf-8", errors="ignore").strip()
@@ -71,10 +86,10 @@ def compile_master_notebooklm_source(project_dir: Optional[Path] = None) -> Path
             except Exception as e:
                 logger.warning(f"Error reading web doc {doc_file}: {e}")
 
-    # 4. 유저 뱅크 인벤토리 및 보유 인챈트 데이터 병합
+    # 5. 유저 뱅크 인벤토리 및 보유 인챈트 데이터 병합
     kb_user_dir = kb_dir / "user_inventory"
     if kb_user_dir.exists():
-        lines.append("\n\n## 🎒 제4장: 유저 실제 인게임 뱅크 인벤토리 및 보유 인챈트 명세서")
+        lines.append("\n\n## 🎒 제5장: 유저 실제 인게임 뱅크 인벤토리 및 보유 인챈트 명세서")
         for u_file in sorted(kb_user_dir.glob("*.md")):
             try:
                 content = u_file.read_text(encoding="utf-8", errors="ignore").strip()
