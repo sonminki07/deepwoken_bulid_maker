@@ -56,7 +56,7 @@
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |
 | **Ironsing Steelscale Cestus & Jailer** | `PvP` | ` / ironsing` | [📄 문서 보기](builds/ironsing-steelscale-cestus-jailer-path.md) |
 | **Jetstriker Galebreathe Assassin** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/jetstriker-galebreathe-assassin.md) |
-| **Justiciar Warderer 50% Burst Heal S** | `PvP` | `Oathless / Attunementless` | [📄 문서 보기](builds/justiciar-warderer-50-burst-heal-support.md) |
+| **Justiciar Warder Support Build** | `PvP` | `Oathless / Attunementless` | [📄 문서 보기](builds/justiciar-warder-support-build.md) |
 | **KRATOS V4 (Gran Sudaruska Steam Daw** | `PvE` | `Dawnwalker / flamecharm` | [📄 문서 보기](builds/kratos-v4-gran-sudaruska-steam-dawnwalker-pve.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
 | **Meta All-Rounder PvP & PvE Mastercl** | `Hybrid` | ` / ironsing` | [📄 문서 보기](builds/meta-all-rounder-pvp-pve-masterclass-build.md) |

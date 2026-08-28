@@ -801,98 +801,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 10] bloodrend-dustlunge-moppet-pve-slayer
-
-# ⚔️ Bloodrend Dustlunge Moppet PvE Slayer
-
-> **출처 영상**: [This PVE Build SHREDS Titus | Deepwoken: Verse 3](https://www.youtube.com/watch?v=y7MxtFfLFXQ) by `Tokjyo`
-> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Boss Raid` | **난이도**: `Intermediate`
-> **종족/출신**: `Vesperian` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Sacred Field`
-
----
-
-## 📝 빌드 개요 및 총평
-아이언싱(Ironsing)의 PvE 지속 너프 이후, 보스전 및 고난도 던전 콘텐츠에서 강력한 입지를 다진 블러드렌드(Bloodrend) 기반의 최상급 보스 레이드 전용 빌드입니다. 단검의 빠른 공격 속도와 블러드렌드의 뛰어난 체력 수급 능력을 결합하여 파라솔(Parasol)과 타이투스(Titus) 같은 가혹한 장기 보스전에서도 압도적인 안정성과 지속 딜링을 제공합니다.
-
-특히 워든 블레이드(Warden's Blades)를 이용해 쇄인(Chain) 스택을 빠르게 쌓아 올려 보스의 포스처(Posture)를 단숨에 붕괴시키며, 더스트런지(Dustlunge) 및 아도르 슬라이서(Ardour Slicer)의 위장 기믹을 활용해 던전 내 잡몹 구간을 통째로 패스하는 뛰어난 스피드런 및 파밍 편의성을 갖추고 있습니다.
-
-### ⚖️ 장점 및 단점
-**장점**:
-- ✅ 블러드렌드의 강력한 피흡 및 혈마법 효과로 보스전 지속 생존력 최상급
-- ✅ Moppet(Hallowtide Daggers)과 Astral 인챈트를 조합한 무시무시한 단일 타겟 DPS 및 타격수
-- ✅ Warden's Blades를 활용한 순식간의 체인 스택 쌓기 및 포스처 파괴 능력
-- ✅ Dustlunge 및 Ardour Slicer 펜스 통과 버그/테크닉을 활용한 인스턴스 던전 완벽 스킵 가능
-**단점**:
-- ⚠️ 체인 스택을 유지하지 못하고 보스의 대형 패턴에 맞을 경우 피흡 리듬이 깨질 위험 존재
-- ⚠️ 타이투스전 등 일부 전장에서는 그래픽 옵션을 1단계로 낮추지 않으면 붉은 시각 효과로 인해 보스 전조 동작(Telegraph) 판별이 어려움
-
-## 🧬 4대 고유 특성 (Traits)
-| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
-| :---: | :---: | :---: | :---: |
-| `6` | `0` | `6` | `0` |
-
-## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `80` |
-| Fortitude (인내) | `84` |
-| Agility (민첩) | `25` |
-| Intelligence (지능) | `0` |
-| Willpower (의지) | `0` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `0` |
-| Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `100` |
-
-## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `484` | `27.8` | `342` | `140` | `100` | `100.0%` | `+38.7%` |
-
-## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
-| :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `18.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
-
-## 🗡️ 추천 무기 (Weapons)
-- **Moppet** (Light Weapon) — 인챈트: `Curse of the Bloodthirsty` ⭐x3
-
-## 🛡️ 주요 장비 (Equipment)
-- **[Helmet]** Browline Citadel Frames
-- **[Face]** Master Thief Earrings
-- **[Amulet]** Gentle Pearl Chain
-- **[Outfit]** Black Diver
-- **[Boots]** Star Boots
-- **[Ring 1]** Ishak's King Ring
-- **[Ring 2]** Mantra's Ring
-- **[Ring 3]** Ring of Casters
-- **[Ring 4]** Ring of Casters
-- **[Arms]** Ignition Gauntlets
-- **[Bell]** Sacred Field
-
-## ⭐ 주요 탤런트 (Talents)
-### 🌟 필수 핵심 탤런트
-- **Dustlunge**
-- **Warden's Blades**
-- **Bloodrend Master**
-- **Overflowing Dam**
-### 📜 보조 및 추천 탤런트
-- Master Craftsman
-- Everchanging Aegis
-
-## 🔮 주문 목록 (Mantras)
-- **Bloodcurdle**
-- **Blood Foundation**
-- **Warden's Blades**
-- **Ardour Slicer**
-
-## 🥊 콤보 & 전투 운용 가이드
-던전 이동 시: Ardour Slicer를 바리케이드나 문 앞에서 가볍게 페인트(Feint) 취소하여 벽을 페이징(Phase through) 통과합니다.
-보스전 기본 딜 사이클: Warden's Blades 발동 -> 단검 일반 공격 평타 4~5회 (체인 스택 급증) -> Bloodcurdle / Blood Foundation 사용으로 폭딜 및 피흡 극대화.
-
----
-
-### 🛡️ [빌드 11] bloodrend-frostdraw-bladeharper-pve
+### 🛡️ [빌드 10] bloodrend-frostdraw-bladeharper-pve
 
 # ⚔️ Bloodrend & Frostdraw Bladeharper PvE
 
@@ -997,7 +906,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 12] bloodrend-hybrid-pvp-build
+### 🛡️ [빌드 11] bloodrend-hybrid-pvp-build
 
 # ⚔️ Bloodrend Hybrid PvP Build
 
@@ -1086,7 +995,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 13] bloodrend-vampire-starkindred
+### 🛡️ [빌드 12] bloodrend-vampire-starkindred
 
 # ⚔️ Bloodrend Vampire Starkindred
 
@@ -1146,7 +1055,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 14] dark-pearls-inky-vent-shadowcast-pvp
+### 🛡️ [빌드 13] dark-pearls-inky-vent-shadowcast-pvp
 
 # ⚔️ Dark Pearls Inky Vent Shadowcast PvP
 
@@ -1247,7 +1156,7 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ---
 
-### 🛡️ [빌드 15] dawnwalker-withered-death-fist-bloodrend-ligh
+### 🛡️ [빌드 14] dawnwalker-withered-death-fist-bloodrend-ligh
 
 # ⚔️ Dawnwalker Withered Death Fist Bloodrend Light Build
 
@@ -1361,7 +1270,7 @@ Withered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(
 
 ---
 
-### 🛡️ [빌드 16] deep-shrines-shrine-of-order-guide
+### 🛡️ [빌드 15] deep-shrines-shrine-of-order-guide
 
 # ⚔️ Deep Shrines / Shrine of Order Guide
 
@@ -1420,7 +1329,7 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 
 ---
 
-### 🛡️ [빌드 17] deep-shrines-shrine-of-order
+### 🛡️ [빌드 16] deep-shrines-shrine-of-order
 
 # ⚔️ Deep Shrines / Shrine of Order
 
@@ -1495,7 +1404,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 18] deepwoken-meta-talent-tier-list-optimization
+### 🛡️ [빌드 17] deepwoken-meta-talent-tier-list-optimization
 
 # ⚔️ Deepwoken Meta Talent Tier List & Optimization Guide
 
@@ -1586,7 +1495,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 19] duchess-erisia-galebreathe-jus-kar
+### 🛡️ [빌드 18] duchess-erisia-galebreathe-jus-kar
 
 # ⚔️ Duchess Erisia (Galebreathe Jus Kar)
 
@@ -1643,7 +1552,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 20] enmity-annihilator-v2
+### 🛡️ [빌드 19] enmity-annihilator-v2
 
 # ⚔️ Enmity Annihilator V2
 
@@ -1714,7 +1623,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 21] enmity-slayer-v2
+### 🛡️ [빌드 20] enmity-slayer-v2
 
 # ⚔️ Enmity Slayer V2
 
@@ -1806,7 +1715,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 22] flamecharm-rapier-dual-enchant-build
+### 🛡️ [빌드 21] flamecharm-rapier-dual-enchant-build
 
 # ⚔️ Flamecharm Rapier Dual Enchant Build
 
@@ -1866,7 +1775,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 23] heretics-jetstriker-gale-grieves
+### 🛡️ [빌드 22] heretics-jetstriker-gale-grieves
 
 # ⚔️ Heretic's Jetstriker Gale Grieves
 
@@ -1935,7 +1844,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 24] imperators-fury-steam-vent-diluvian-speedrun
+### 🛡️ [빌드 23] imperators-fury-steam-vent-diluvian-speedrun
 
 # ⚔️ Imperator's Fury Steam Vent Diluvian Speedrun
 
@@ -2034,7 +1943,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 25] inquisitor-bloodrend-red-death-pve
+### 🛡️ [빌드 24] inquisitor-bloodrend-red-death-pve
 
 # ⚔️ Inquisitor Bloodrend Red Death PvE
 
@@ -2106,7 +2015,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 26] ironsing-steelscale-cestus-jailer-path
+### 🛡️ [빌드 25] ironsing-steelscale-cestus-jailer-path
 
 # ⚔️ Ironsing Steelscale Cestus & Jailer Path
 
@@ -2177,7 +2086,7 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ---
 
-### 🛡️ [빌드 27] jetstriker-galebreathe-assassin
+### 🛡️ [빌드 26] jetstriker-galebreathe-assassin
 
 # ⚔️ Jetstriker Galebreathe Assassin
 
@@ -2260,6 +2169,106 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 
 ## 🥊 콤보 & 전투 운용 가이드
 ['1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.', '2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 stats 콤보)합니다.', '3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin talents 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.', '4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다.']
+
+---
+
+### 🛡️ [빌드 27] justiciar-warder-support-build
+
+# ⚔️ Justiciar Warder Support Build
+
+> **출처 영상**: [THIS SUPPORT BUILD HEALS 50% | Deepwoken](https://www.youtube.com/watch?v=p24eaLX8uTQ) by `BlessJames`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvP` | **난이도**: `Advanced`
+> **종족/출신**: `Capra` / `Castaway` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Deepwoken에서 아군을 지원하는 데 특화된 최강의 서포터 빌드입니다. 최근 추가된 Justiciar Origin의 Warder 패스를 적극 활용하여, 아군에게 엄청난 양의 힐과 버프를 제공할 수 있습니다.
+
+특히 Symbolic Link와 Curative Aid, 그리고 Justiciar 관련 탤런트들을 조합하면 아군의 체력을 순식간에 회복시킬 수 있어 갱킹이나 팀 PvP에서 압도적인 유지력을 자랑합니다. Vortex Echo를 활용해 쿨타임을 초기화하고 힐을 연사하는 메커니즘이 핵심입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 압도적인 힐량: Symbolic Link와 Curative Aid, Justiciar's Blessing 등의 시너지로 한 번에 최대 50% 이상의 체력을 회복시킬 수 있습니다.
+- ✅ 쿨타임 초기화: Vortex Echo를 통해 핵심 힐링 만트라인 Symbolic Link의 쿨타임을 리셋하여 지속적인 세이브가 가능합니다.
+- ✅ 버프 및 디버프: Audacity와 Overcharm 탤런트를 통해 아군의 데미지를 증폭시키고 적의 데미지를 감소시키는 유틸리티를 보유하고 있습니다.
+**단점**:
+- ⚠️ 솔로 플레이 취약성: 서포트 특화 빌드이기 때문에 1대1 상황이나 솔로 PvE에서는 딜량이 부족하여 효율이 떨어집니다.
+- ⚠️ 높은 아군 의존도: 아군과의 연계 및 포지셔닝이 필수적이며, 아군이 물리거나 거리가 멀어지면 서포트 능력을 100% 발휘하기 어렵습니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `4` | `2` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `23` |
+| Intelligence (지능) | `25` |
+| Willpower (의지) | `17` |
+| Charisma (매력) | `100` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `65` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `534` | `31` | `492` | `148` | `179` | `-15.4%` | `20.0%` |
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| :--- | :--- | :--- |
+| 참격: `50.4%` / 타격: `50.4%` / 관통: `35.0%` | 화염: `35.0%` / 빙결: `35.0%` / 바람: `35.0%` | 그림자: `41.5%` / 번개: `35.0%` / 철: `41.5%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Sacred Hammer** (Medium Weapon) — 인챈트: `None`
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Capra Horns
+- **[Outfit]** Justiciar's Armor
+- **[Boots]** Justiciar's Boots
+- **[Ring 1]** Casters Ring
+- **[Ring 2]** Ring of Health
+- **[Ring 3]** Starved Knight's Ring
+- **[Bell]** Sacred Field
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Justiciar's Mark**
+- **Justiciar's Blessing**
+- **Mark Mastery**
+- **Justiciar's Aid**
+- **Vow of Mastery**
+- **Command Live**
+- **Audacity**
+- **Overcharm**
+
+## 🔮 주문 목록 (Mantras)
+- **Symbolic Link**
+- **Curative Aid**
+- **Vortex Echo**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 아군에게 Vow of Mastery를 걸어 버프 준비를 마칩니다.
+2. 전투가 시작되면 아군에게 Symbolic Link를 연결하여 링크 상태를 유지합니다.
+3. 아군의 체력이 소모되면 Curative Aid를 시전하여 Justiciar's Blessing과 Mark 효과를 발동시킵니다.
+4. Symbolic Link의 쿨타임이 돌 때 Vortex Echo를 사용하여 쿨타임을 즉시 초기화하고 다시 한 번 힐을 연사하여 아군의 체력을 순식간에 풀피로 만듭니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Oathless` / Race/Aspect: `Capra` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `4` / Proficiency: `2` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `50` / FTD: `50` / AGL: `23` / INT: `25` / WLL: `17` / CHA: `100` |
+| **무기/속성 수치** | LHT: `65` / MED: `0` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | HP: `534` / Posture: `31` / Ether: `492` / Tempo: `148` / Sanity: `179` / Speed: `-15.4%` / Monster Dmg: `20.0%` |
+| **7대 방어 저항력** | 참격: `50.4%` / 타격: `50.4%` / 관통: `35.0%` / 화염: `35.0%` / 빙결: `35.0%` / 바람: `35.0%` / 암흑: `41.5%` |
 
 ---
 

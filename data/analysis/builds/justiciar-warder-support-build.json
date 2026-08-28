@@ -1,0 +1,267 @@
+{
+  "video_metadata": {
+    "title": "THIS SUPPORT BUILD HEALS 50% | Deepwoken",
+    "channel": "BlessJames",
+    "url": "https://www.youtube.com/watch?v=p24eaLX8uTQ",
+    "patch_version": "Verse 2 (Justiciar Origin Update)"
+  },
+  "build_summary": {
+    "build_name": "Justiciar Warder Support Build",
+    "build_type": "PvP",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken에서 아군을 지원하는 데 특화된 최강의 서포터 빌드입니다. 최근 추가된 Justiciar Origin의 Warder 패스를 적극 활용하여, 아군에게 엄청난 양의 힐과 버프를 제공할 수 있습니다.\n\n특히 Symbolic Link와 Curative Aid, 그리고 Justiciar 관련 탤런트들을 조합하면 아군의 체력을 순식간에 회복시킬 수 있어 갱킹이나 팀 PvP에서 압도적인 유지력을 자랑합니다. Vortex Echo를 활용해 쿨타임을 초기화하고 힐을 연사하는 메커니즘이 핵심입니다.",
+    "strengths": [
+      "압도적인 힐량: Symbolic Link와 Curative Aid, Justiciar's Blessing 등의 시너지로 한 번에 최대 50% 이상의 체력을 회복시킬 수 있습니다.",
+      "쿨타임 초기화: Vortex Echo를 통해 핵심 힐링 만트라인 Symbolic Link의 쿨타임을 리셋하여 지속적인 세이브가 가능합니다.",
+      "버프 및 디버프: Audacity와 Overcharm 탤런트를 통해 아군의 데미지를 증폭시키고 적의 데미지를 감소시키는 유틸리티를 보유하고 있습니다."
+    ],
+    "weaknesses": [
+      "솔로 플레이 취약성: 서포트 특화 빌드이기 때문에 1대1 상황이나 솔로 PvE에서는 딜량이 부족하여 효율이 떨어집니다.",
+      "높은 아군 의존도: 아군과의 연계 및 포지셔닝이 필수적이며, 아군이 물리거나 거리가 멀어지면 서포트 능력을 100% 발휘하기 어렵습니다."
+    ]
+  },
+  "traits": {
+    "vitality": 6,
+    "erudition": 4,
+    "proficiency": 2,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 50,
+    "fortitude": 50,
+    "agility": 23,
+    "intelligence": 25,
+    "willpower": 17,
+    "charisma": 100,
+    "heavy_wep": 0,
+    "medium_wep": 0,
+    "light_wep": 65
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 534,
+    "posture": 31,
+    "ether": 492,
+    "tempo": 148,
+    "sanity": 179,
+    "move_speed_pct": "-15.4%",
+    "pve_monster_dmg_pct": "20.0%"
+  },
+  "resistances": {
+    "physical_slash": "50.4%",
+    "physical_blunt": "50.4%",
+    "physical_pierce": "35.0%",
+    "fire": "35.0%",
+    "ice": "35.0%",
+    "wind": "35.0%",
+    "shadow": "41.5%",
+    "lightning": "35.0%",
+    "iron": "41.5%"
+  },
+  "weapons": [
+    {
+      "name": "Sacred Hammer",
+      "type": "Medium Weapon",
+      "enchant": "None",
+      "stars": 0
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Capra Horns"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Justiciar's Armor"
+    },
+    {
+      "slot": "Boots",
+      "name": "Justiciar's Boots"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Casters Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Ring of Health"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Starved Knight's Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Sacred Field"
+    }
+  ],
+  "character_setup": {
+    "oath": "Oathless",
+    "race": "Capra",
+    "origin": "Castaway",
+    "murmur": "Ardour",
+    "resonance_bell": "Sacred Field"
+  },
+  "talents": [
+    {
+      "name": "Justiciar's Mark",
+      "is_core": true
+    },
+    {
+      "name": "Justiciar's Blessing",
+      "is_core": true
+    },
+    {
+      "name": "Mark Mastery",
+      "is_core": true
+    },
+    {
+      "name": "Justiciar's Aid",
+      "is_core": true
+    },
+    {
+      "name": "Vow of Mastery",
+      "is_core": true
+    },
+    {
+      "name": "Command Live",
+      "is_core": true
+    },
+    {
+      "name": "Audacity",
+      "is_core": true
+    },
+    {
+      "name": "Overcharm",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Symbolic Link"
+    },
+    {
+      "name": "Curative Aid"
+    },
+    {
+      "name": "Vortex Echo"
+    }
+  ],
+  "target_mobs": [
+    "Chaser",
+    "Scion of Ethiron",
+    "Duke Erisia",
+    "Primadon"
+  ],
+  "mob_strategy": "보스 레이드나 다인큐 던전에서 메인 탱커나 딜러 뒤에 포지셔닝하여 Symbolic Link를 연결하고 지속적으로 힐을 넣어줍니다. 보스의 광역 패턴 시 Sacred Field 벨을 전개하여 아군을 보호하고, 체력이 빠진 아군에게 Curative Aid와 Symbolic Link 콤보를 즉시 시전하여 폭발적인 세이브를 지원합니다.",
+  "combo_guide": "1. 아군에게 Vow of Mastery를 걸어 버프 준비를 마칩니다.\n2. 전투가 시작되면 아군에게 Symbolic Link를 연결하여 링크 상태를 유지합니다.\n3. 아군의 체력이 소모되면 Curative Aid를 시전하여 Justiciar's Blessing과 Mark 효과를 발동시킵니다.\n4. Symbolic Link의 쿨타임이 돌 때 Vortex Echo를 사용하여 쿨타임을 즉시 초기화하고 다시 한 번 힐을 연사하여 아군의 체력을 순식간에 풀피로 만듭니다.",
+  "video_meta": {
+    "title": "THIS SUPPORT BUILD HEALS 50% | Deepwoken",
+    "channel": "BlessJames",
+    "url": "https://www.youtube.com/watch?v=p24eaLX8uTQ",
+    "upload_date": "20260508",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "_raw_vision_data": {
+    "character_name": "Phoenix Jura",
+    "power": 20,
+    "race": "Gremor",
+    "origin": "Justicar",
+    "oath": "Linkstrider",
+    "traits": {
+      "vitality": 6,
+      "erudition": 4,
+      "proficiency": 2,
+      "songchant": 0
+    },
+    "stats": {
+      "strength": 50,
+      "fortitude": 50,
+      "agility": 23,
+      "intelligence": 25,
+      "willpower": 17,
+      "charisma": 100,
+      "heavy_wep": 0,
+      "medium_wep": 0,
+      "light_wep": 65
+    },
+    "attunements": {
+      "flamecharm": 0,
+      "frostdraw": 0,
+      "thundercall": 0,
+      "galebreathe": 0,
+      "shadowcast": 0,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
+    "combat_stats": {
+      "hp": 534,
+      "posture": 31,
+      "ether": 492,
+      "tempo": 148,
+      "sanity": 179,
+      "move_speed_pct": "-15.4%",
+      "pve_monster_dmg_pct": "20.0%"
+    },
+    "resistances": {
+      "physical_slash": "50.4%",
+      "physical_blunt": "50.4%",
+      "physical_pierce": "35.0%",
+      "fire": "35.0%",
+      "ice": "35.0%",
+      "wind": "35.0%",
+      "shadow": "41.5%",
+      "lightning": "35.0%",
+      "iron": "41.5%"
+    },
+    "equipped_items": [],
+    "inventory_items": [
+      "Fish Stew",
+      "Mushroom Omelette",
+      "Fist",
+      "Enforcer Eye",
+      "Ethereal Bone Dust",
+      "Ether Barrage",
+      "Umbral Obsidian",
+      "Ardour Manifestation",
+      "Campfire Pit",
+      "Canteen",
+      "Chime of Conflict",
+      "Chime of Dwelling",
+      "Fishing Rod",
+      "Glider",
+      "Lumber Axe",
+      "Pickaxe",
+      "Sharkscale Glider",
+      "Umbral Flint"
+    ],
+    "talents_visible": [],
+    "mantras_visible": [
+      "Rapid Slashes",
+      "Dread Breath",
+      "Coral Spear",
+      "Taunt",
+      "Sing",
+      "Symbiotic Sustain",
+      "Karita Aid",
+      "Parasitic Leech",
+      "Justicar's Mark",
+      "Dash"
+    ]
+  },
+  "power": 20,
+  "origin": "Castaway",
+  "race": "Capra",
+  "oath": "Oathless",
+  "murmur": "Ardour",
+  "resonance": "Sacred Field"
+}

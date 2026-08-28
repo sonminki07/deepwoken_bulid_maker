@@ -367,12 +367,22 @@ class BuildStructurer:
             lines.append("")
 
         # 실전 종합 전투 수치 (Combat Stats)
+        # 실전 종합 전투 수치 (Combat Stats)
+        spd = str(combat_stats.get("move_speed_pct", "100%"))
+        if not spd.endswith("%"):
+            spd = f"{spd}%"
+        pve = str(combat_stats.get("pve_dmg_pct") or combat_stats.get("pve_monster_dmg_pct") or "0%")
+        if not pve.endswith("%") and not pve.startswith("+") and not pve.startswith("-"):
+            pve = f"+{pve}%"
+        elif not pve.endswith("%"):
+            pve = f"{pve}%"
+
         if combat_stats:
             lines.extend([
                 "## 🩺 실전 종합 전투 수치 (Combat Stats)",
                 "| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |",
                 "| :---: | :---: | :---: | :---: | :---: | :---: | :---: |",
-                f"| `{combat_stats.get('hp', 'N/A')}` | `{combat_stats.get('posture', 'N/A')}` | `{combat_stats.get('ether', 'N/A')}` | `{combat_stats.get('tempo', 'N/A')}` | `{combat_stats.get('sanity', 'N/A')}` | `{combat_stats.get('move_speed_pct', '100')}%` | `+{combat_stats.get('pve_dmg_pct', 'N/A')}%` |",
+                f"| `{combat_stats.get('hp', 'N/A')}` | `{combat_stats.get('posture', 'N/A')}` | `{combat_stats.get('ether', 'N/A')}` | `{combat_stats.get('tempo', 'N/A')}` | `{combat_stats.get('sanity', 'N/A')}` | `{spd}` | `{pve}` |",
                 ""
             ])
 
@@ -480,6 +490,22 @@ class BuildStructurer:
                 f"{combo}",
                 ""
             ])
+
+        # 100% 실측 원시 데이터 부록 (Raw Visual Ground Truth Appendix)
+        lines.extend([
+            "## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)",
+            "> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.",
+            "",
+            "| 실측 분류 | 세부 실측 데이터 항목 |",
+            "| :--- | :--- |",
+            f"| **캐릭터 기본 정보** | Power: `{build_data.get('power', 20)}` / Origin: `{build_data.get('origin', 'N/A')}` / Oath: `{build_data.get('oath', 'N/A')}` / Race/Aspect: `{build_data.get('race', 'N/A')}` |",
+            f"| **4대 특성 (Traits)** | Vitality: `{traits.get('vitality', 0)}` / Erudition: `{traits.get('erudition', 0)}` / Proficiency: `{traits.get('proficiency', 0)}` / Songchant: `{traits.get('songchant', 0)}` |",
+            f"| **6대 기본 스탯** | STR: `{stats.get('strength', 0)}` / FTD: `{stats.get('fortitude', 0)}` / AGL: `{stats.get('agility', 0)}` / INT: `{stats.get('intelligence', 0)}` / WLL: `{stats.get('willpower', 0)}` / CHA: `{stats.get('charisma', 0)}` |",
+            f"| **무기/속성 수치** | LHT: `{stats.get('light_wep', 0)}` / MED: `{stats.get('medium_wep', 0)}` / HVY: `{stats.get('heavy_wep', 0)}` / Elements: `{active_attunements if active_attunements else 'Attunementless (0)'}` |",
+            f"| **실전 전투 수치** | HP: `{combat_stats.get('hp', 'N/A')}` / Posture: `{combat_stats.get('posture', 'N/A')}` / Ether: `{combat_stats.get('ether', 'N/A')}` / Tempo: `{combat_stats.get('tempo', 'N/A')}` / Sanity: `{combat_stats.get('sanity', 'N/A')}` / Speed: `{spd}` / Monster Dmg: `{pve}` |",
+            f"| **7대 방어 저항력** | 참격: `{resistances.get('physical_slash', 'N/A')}` / 타격: `{resistances.get('physical_blunt', 'N/A')}` / 관통: `{resistances.get('physical_pierce', 'N/A')}` / 화염: `{resistances.get('fire', 'N/A')}` / 빙결: `{resistances.get('ice', 'N/A')}` / 바람: `{resistances.get('wind', 'N/A')}` / 암흑: `{resistances.get('shadow', 'N/A')}` |",
+            ""
+        ])
 
         return "\n".join(lines)
 

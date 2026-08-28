@@ -168,27 +168,31 @@ class StatInferenceAgent:
             + "\n---\n".join(search_context)
         )
 
-        for m_name in [
-            self.model_name,
-            "gemini-3.6-flash",
-            "gemini-flash-latest",
-            "gemini-3.7-flash",
-            "gemini-flash-lite-latest",
-            "gemini-3.1-flash-lite",
-            "gemini-3.5-flash-lite",
-        ]:
-            try:
-                response = self.client.models.generate_content(
-                    model=m_name,
-                    contents=prompt_input,
-                    config=types.GenerateContentConfig(
-                        system_instruction=STAT_INFERENCE_PROMPT,
-                        temperature=0.1,
-                        response_mime_type="application/json"
+        from agents.key_manager import global_key_manager
+        
+        def _call_inferrer(client: genai.Client):
+            for m_name in ["gemini-3.5-flash", "gemini-flash-lite-latest", "gemini-3.1-flash-lite"]:
+                try:
+                    response = client.models.generate_content(
+                        model=m_name,
+                        contents=prompt_input,
+                        config=types.GenerateContentConfig(
+                            system_instruction=STAT_INFERENCE_PROMPT,
+                            temperature=0.1,
+                            response_mime_type="application/json"
+                        )
                     )
-                )
-                text = response.text.strip()
-                return json.loads(text)
-            except Exception as e:
-                logger.warning(f"Model {m_name} failed in StatInferenceAgent: {e}")
-        return None
+                    text = response.text.strip()
+                    return json.loads(text)
+                except Exception as e:
+                    err_str = str(e).lower()
+                    if "429" in err_str or "quota" in err_str:
+                        raise e
+                    logger.warning(f"Model {m_name} failed in StatInferenceAgent: {e}")
+            return None
+
+        try:
+            return global_key_manager.execute_with_failover(_call_inferrer)
+        except Exception as e:
+            logger.error(f"StatInferenceAgent failover exhausted: {e}")
+            return None

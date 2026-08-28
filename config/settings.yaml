@@ -1,12 +1,12 @@
 gemini:
-  model: "gemini-3.6-flash"
+  model: "gemini-3.5-flash"
   embedding_model: "models/embedding-001"
   temperature: 0.1
   max_output_tokens: 8192
 
 download:
   output_dir: "data/videos"
-  format: "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best[ext=mp4]/best"
+  format: "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best[ext=mp4]/best"
   max_filesize_bytes: 2147483648 # 2GB
   cleanup_after_analysis: true
 

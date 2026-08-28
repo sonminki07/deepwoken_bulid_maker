@@ -3,7 +3,7 @@ import time
 import json
 import logging
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, Callable, List
 try:
     import yaml
     YAML_AVAILABLE = True
@@ -97,46 +97,51 @@ class PipelineOrchestrator:
         vid_match = re.search(r'(?:v=|\/|youtu\.be\/)([0-9A-Za-z_-]{11})', url)
         if vid_match:
             potential_vid = vid_match.group(1)
-            cached_json_path = None
-            cached_data = None
-            
-            # 1. 파일명 직접 매칭 또는 2. JSON 내부 URL/video_id 매칭
             for jf in self.structurer.analysis_dir.rglob("*.json"):
-                if potential_vid in jf.stem:
-                    try:
-                        cached_data = json.loads(jf.read_text(encoding="utf-8"))
-                        cached_json_path = jf
-                        break
-                    except Exception:
-                        pass
-                else:
-                    try:
-                        data = json.loads(jf.read_text(encoding="utf-8"))
-                        meta_url = data.get("video_meta", {}).get("url", "")
-                        if potential_vid in meta_url:
-                            cached_data = data
-                            cached_json_path = jf
-                            break
-                    except Exception:
-                        pass
+                try:
+                    cached_data = json.loads(jf.read_text(encoding="utf-8"))
+                    meta_url = cached_data.get("video_meta", {}).get("url", "")
+                    if potential_vid in jf.stem or potential_vid in meta_url:
+                        return jf, cached_data, potential_vid
+                except Exception:
+                    continue
+        return None, None, url
 
+    def process_url(
+        self,
+        url: str,
+        progress_callback: Optional[Callable[[int, str], None]] = None,
+        force_reanalyze: bool = False
+    ) -> Dict[str, Any]:
+        start_time = time.time()
+
+        # Step 0: 기존 분석 캐시 확인 (유효한 실측 데이터가 있는 경우만 재사용)
+        if not force_reanalyze:
+            cached_json_path, cached_data, potential_vid = self._find_cached_analysis(url)
             if cached_json_path and cached_data:
-                category = cached_json_path.parent.name
-                cached_md_path = self.structurer.knowledge_base_dir / category / f"{cached_json_path.stem}.md"
-                logger.info(f"⚡ [Cache Hit] Found existing analysis for {potential_vid} in {category}/{cached_json_path.name}")
-                if progress_callback:
-                    progress_callback(95, "⚡ 이미 분석된 영상입니다. 저장된 정밀 보고서를 즉시 불러옵니다!")
-                b_name = cached_data.get("build_summary", {}).get("build_name", "Deepwoken Build")
-                return {
-                    "status": "success",
-                    "cached": True,
-                    "video_id": potential_vid,
-                    "build_name": b_name,
-                    "json_path": str(cached_json_path),
-                    "md_path": str(cached_md_path),
-                    "elapsed_seconds": 0.05,
-                    "build_data": cached_data
-                }
+                stats = cached_data.get("stats", {})
+                stat_sum = sum(v for v in stats.values() if isinstance(v, (int, float))) if stats else 0
+                has_power = cached_data.get("power") is not None
+                
+                if stat_sum >= 50 and has_power:
+                    category = cached_json_path.parent.name
+                    cached_md_path = self.structurer.knowledge_base_dir / category / f"{cached_json_path.stem}.md"
+                    logger.info(f"⚡ [Cache Hit] Found valid analysis for {potential_vid} in {category}/{cached_json_path.name}")
+                    if progress_callback:
+                        progress_callback(95, "⚡ 이미 분석된 영상입니다. 저장된 정밀 보고서를 즉시 불러옵니다!")
+                    b_name = cached_data.get("build_summary", {}).get("build_name", "Deepwoken Build")
+                    return {
+                        "status": "success",
+                        "cached": True,
+                        "video_id": potential_vid,
+                        "build_name": b_name,
+                        "json_path": str(cached_json_path),
+                        "md_path": str(cached_md_path),
+                        "elapsed_seconds": 0.05,
+                        "build_data": cached_data
+                    }
+                else:
+                    logger.info(f"⚠️ [Cache Invalid] Stale or incomplete cache for {potential_vid}, forcing fresh re-analysis...")
 
         # Step 1: 영상 및 메타데이터 다운로드
         if progress_callback:
@@ -173,8 +178,10 @@ class PipelineOrchestrator:
         logger.info(f"[Step 3/5] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
         raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict, progress_callback=progress_callback)
 
-        # 픽셀 기반 실측 비전 스탯이 존재하면 100% 우선 병합 (VLM 환각 원천 차단)
+        # 픽셀 기반 실측 비전 스탯이 존재하면 100% 최우선 병합 (VLM 환각 원천 차단)
         if vision_stats and isinstance(vision_stats, dict):
+            raw_analysis["_raw_vision_data"] = vision_stats
+            
             v_stats = vision_stats.get("stats")
             if v_stats and isinstance(v_stats, dict) and sum([v for v in v_stats.values() if isinstance(v, (int, float))]) > 0:
                 logger.info("🎯 [Vision Grounding] Overriding stats with 100% pixel-exact vision extracted numbers!")
@@ -184,6 +191,10 @@ class PipelineOrchestrator:
             if v_att and isinstance(v_att, dict):
                 raw_analysis["attunements"] = v_att
 
+            if vision_stats.get("power"):
+                raw_analysis["power"] = vision_stats["power"]
+            if vision_stats.get("origin"):
+                raw_analysis["origin"] = vision_stats["origin"]
             if vision_stats.get("race"):
                 raw_analysis["race"] = vision_stats["race"]
             if vision_stats.get("oath") and vision_stats["oath"] != "None":

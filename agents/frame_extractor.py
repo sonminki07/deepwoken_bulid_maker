@@ -37,18 +37,18 @@ class FrameExtractor:
             temp_path = Path(temp_dir)
             out_pattern = str(temp_path / "f_%04d.jpg")
 
-            # 딥위큰 빌드 소개가 집중되는 전반부(0~120초)를 1.5초 간격으로 초고속 캡처
+            # 딥위큰 빌드 소개가 집중되는 전반부(0~240초)를 1.5초 간격으로 초고속 캡처
             cmd = [
                 self.ffmpeg_exe, "-y",
                 "-ss", "0",
-                "-t", "150",
+                "-t", "240",
                 "-i", str(video_path),
                 "-vf", "fps=0.66",
                 "-q:v", "2",
                 out_pattern
             ]
 
-            logger.info(f"Extracting showcase frames via FFmpeg...")
+            logger.info("Extracting showcase frames via FFmpeg (0~240s)...")
             res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
             extracted_files = sorted(list(temp_path.glob("f_*.jpg")))
@@ -68,13 +68,20 @@ class FrameExtractor:
                 gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
                 sharpness = float(cv2.Laplacian(gray, cv2.CV_64F).var())
 
-                # Deepwoken 스탯 UI 영역 (중앙 텍스트 에지 밀도)
+                # Deepwoken 스탯 UI 영역:
+                # 1) 우측 스탯 패널 (x: 60%~98%, y: 4%~96%)
                 h, w = gray.shape
-                center_crop = gray[int(h*0.05):int(h*0.90), int(w*0.20):int(w*0.80)]
-                edges = cv2.Canny(center_crop, 50, 150)
-                edge_density = float(np.mean(edges))
+                right_crop = gray[int(h*0.04):int(h*0.96), int(w*0.60):int(w*0.98)]
+                right_edges = cv2.Canny(right_crop, 50, 150)
+                right_edge_density = float(np.mean(right_edges))
 
-                ui_score = edge_density * 2.5 + min(sharpness, 400.0) * 0.1
+                # 2) 전체 중앙/빌더 에지 밀도
+                center_crop = gray[int(h*0.05):int(h*0.90), int(w*0.20):int(w*0.80)]
+                center_edges = cv2.Canny(center_crop, 50, 150)
+                center_edge_density = float(np.mean(center_edges))
+
+                # 우측 스탯창이 활성화된 경우 가중치를 대폭 부여
+                ui_score = right_edge_density * 4.0 + center_edge_density * 1.5 + min(sharpness, 400.0) * 0.1
 
                 if sharpness >= min_sharpness:
                     candidates.append({
@@ -109,11 +116,27 @@ class FrameExtractor:
                 sec = item["timestamp_sec"]
                 raw_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_raw.jpg"
                 enhanced_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_enhanced.jpg"
+                stat_crop_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_stat_crop.jpg"
+                inv_crop_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_inv_crop.jpg"
 
                 shutil.copy(item["file_path"], raw_path)
 
-                # OpenCV CLAHE 대비 향상 이미지
+                # 원본 1080p 로드 및 ROI 크롭 생성
                 img = cv2.imread(str(raw_path))
+                ih, iw, _ = img.shape
+
+                # 1) 우측 스탯 패널 크롭 (x: 62%~99%, y: 3%~97%) 및 1.5배 업스케일
+                stat_crop = img[int(ih*0.03):int(ih*0.97), int(iw*0.62):int(iw*0.99)]
+                if stat_crop.size > 0:
+                    stat_crop_up = cv2.resize(stat_crop, (int(stat_crop.shape[1] * 1.5), int(stat_crop.shape[0] * 1.5)), interpolation=cv2.INTER_LANCZOS4)
+                    cv2.imwrite(str(stat_crop_path), stat_crop_up, [cv2.IMWRITE_JPEG_QUALITY, 95])
+
+                # 2) 좌측 인벤토리 크롭 (x: 3%~45%, y: 5%~95%)
+                inv_crop = img[int(ih*0.05):int(ih*0.95), int(iw*0.03):int(iw*0.48)]
+                if inv_crop.size > 0:
+                    cv2.imwrite(str(inv_crop_path), inv_crop, [cv2.IMWRITE_JPEG_QUALITY, 95])
+
+                # 3) OpenCV CLAHE 고대비 전처리 이미지
                 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
                 clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8,8))
                 enhanced = clahe.apply(gray)
@@ -124,7 +147,9 @@ class FrameExtractor:
                     "timestamp_sec": sec,
                     "sharpness": item["sharpness"],
                     "raw_path": raw_path,
-                    "enhanced_path": enhanced_path
+                    "enhanced_path": enhanced_path,
+                    "stat_crop_path": stat_crop_path if stat_crop_path.exists() else raw_path,
+                    "inv_crop_path": inv_crop_path if inv_crop_path.exists() else raw_path
                 })
                 logger.info(f"⭐ [Keyframe #{rank+1}] At {sec:.1f}s (Sharpness: {item['sharpness']:.1f}, UI Score: {item['ui_score']:.1f}) -> {raw_path.name}")
 

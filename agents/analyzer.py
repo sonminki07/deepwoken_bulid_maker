@@ -108,12 +108,9 @@ class BuildAnalyzer:
                     progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 추출 중...")
                 
                 for m_name in [
-                    "gemini-flash-latest",
-                    "gemini-3.7-flash",
-                    "gemini-3.6-flash",
+                    "gemini-3.5-flash",
                     "gemini-flash-lite-latest",
-                    "gemini-3.1-flash-lite",
-                    "gemini-3.5-flash-lite",
+                    "gemini-3.1-flash-lite"
                 ]:
                     try:
                         logger.info(f"Sending video to model {m_name} with matching client key (Attempt {attempt})...")
