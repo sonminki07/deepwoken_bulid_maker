@@ -32,9 +32,24 @@ CRITICAL INSTRUCTIONS:
      * WEAPONS: Heavy Wep, Medium Wep, Light Wep
      * ELEMENTS: Flamecharm, Frostdraw, Thundercall, Galebreathe, Shadowcast, Ironsing, Bloodrend
    - Bottom Left Box (STATS):
-     * Health (HP), Posture, Ether, Tempo, Sanity, Speed %, Monster Dmg %
-   - Bottom Right Box (RESISTANCES):
-     * Slash %, Blunt %, Pierce %, Fire %, Ice %, Wind %, Shadow %, Lightning %, Iron %
+     * Health (❤️ HP): float/int e.g. 534
+     * Posture (🛡️ Posture): float/int e.g. 31
+     * Ether (💧 Ether): float/int e.g. 492
+     * Tempo (⚡ Tempo): float/int e.g. 148
+     * Sanity (🧠 Sanity): float/int e.g. 179
+     * Speed (👟 Move Speed): str e.g. "-15.0%" (negative due to heavy armor weight penalty)
+     * Monster Dmg (💀 PvE Dmg vs Monsters): str e.g. "-20.0%" or "20.0%"
+   - Bottom Right Box (RESISTANCES - 10 Icons Grid):
+     * [Row 1, Icon 1: 🔨 Hammer] physical_blunt: Blunt Armor (e.g. "50.0%")
+     * [Row 1, Icon 2: 🗡️ Curved Blade] physical_slash: Slash Armor (e.g. "50.0%")
+     * [Row 1, Icon 3: 🔥 Flame] fire: Fire Armor / Flamecharm (e.g. "35.0%")
+     * [Row 2, Icon 4: ❄️ Ice Crystal] ice: Ice Armor / Frostdraw (e.g. "35.0%")
+     * [Row 2, Icon 5: ⚡ Lightning Bolt] lightning: Lightning Armor / Thundercall (e.g. "35.0%")
+     * [Row 2, Icon 6: 💨 Green Wind Wave] wind: Wind Armor / Galebreathe (e.g. "35.0%")
+     * [Row 3, Icon 7: 🌌 Purple Star] shadow: Shadow Armor / Shadowcast (e.g. "41.5%")
+     * [Row 3, Icon 8: ⚙️ Blue Metal Shard] iron: Metal Armor / Ironsing (e.g. "35.0%")
+     * [Row 3, Icon 9: 🩸 Magenta Blood Drop] blood: Blood Armor / Bloodrend (e.g. "41.5%")
+     * [Row 3, Icon 10: 🩸⚔️ Red Slashes] bleed: Bleed / Pierce Armor (e.g. "5.0%")
    - Inventory / Hotbar (Left & Bottom):
      * Equipped weapon/attire, visible inventory items, hotbar mantra names.
 
@@ -81,15 +96,16 @@ Output strictly as valid JSON matching this schema:
     "pve_monster_dmg_pct": str
   },
   "resistances": {
-    "physical_slash": str,
     "physical_blunt": str,
-    "physical_pierce": str,
+    "physical_slash": str,
     "fire": str,
     "ice": str,
+    "lightning": str,
     "wind": str,
     "shadow": str,
-    "lightning": str,
-    "iron": str
+    "iron": str,
+    "blood": str,
+    "bleed": str
   },
   "equipped_items": list of str,
   "inventory_items": list of str,
@@ -135,9 +151,9 @@ class VisionExtractor:
 
         def _call_vision(client: genai.Client):
             candidate_models = [
-                "gemini-3.5-flash",
-                "gemini-flash-lite-latest",
-                "gemini-3.1-flash-lite"
+                "gemini-3.5-flash-lite",
+                "gemini-3.1-flash-lite",
+                "gemini-3.6-flash"
             ]
             for m in candidate_models:
                 try:
@@ -192,8 +208,11 @@ class VisionExtractor:
         print(f"• 속성 (Attunements): {active_atts if active_atts else 'None (Attunementless)'}")
         
         c_stats = data.get("combat_stats", {})
-        print(f"• 전투 수치 : HP {c_stats.get('hp',0)}, Posture {c_stats.get('posture',0)}, Ether {c_stats.get('ether',0)}, Tempo {c_stats.get('tempo',0)}, Sanity {c_stats.get('sanity',0)}, Speed {c_stats.get('move_speed_pct',0)}, Monster Dmg {c_stats.get('pve_monster_dmg_pct',0)}")
+        print(f"• 전투 수치 (Combat Stats): ❤️HP {c_stats.get('hp',0)}, 🛡️Posture {c_stats.get('posture',0)}, 💧Ether {c_stats.get('ether',0)}, ⚡Tempo {c_stats.get('tempo',0)}, 🧠Sanity {c_stats.get('sanity',0)}, 👟Speed {c_stats.get('move_speed_pct','0%')}, 💀Monster Dmg {c_stats.get('pve_monster_dmg_pct','0%')}")
         
         res = data.get("resistances", {})
-        print(f"• 7대 저항력 (Resistances): {res}")
+        print("• 방어 저항력 (Resistances - 10 Icons):")
+        print(f"  - ⚔️ 물리: 🔨타격(Blunt) {res.get('physical_blunt','N/A')} | 🗡️베기(Slash) {res.get('physical_slash','N/A')} | 🩸⚔️관통/출혈(Bleed) {res.get('bleed', res.get('physical_pierce', 'N/A'))}")
+        print(f"  - 🔮 원소: 🔥화염(Fire) {res.get('fire','N/A')} | ❄️빙결(Ice) {res.get('ice','N/A')} | ⚡번개(Lightning) {res.get('lightning','N/A')} | 💨바람(Wind) {res.get('wind','N/A')}")
+        print(f"  - 🌌 특수: 🌌암흑(Shadow) {res.get('shadow','N/A')} | ⚙️철(Metal) {res.get('iron','N/A')} | 🩸혈액(Blood) {res.get('blood','N/A')}")
         print("="*70 + "\n")

@@ -380,19 +380,32 @@ class BuildStructurer:
         if combat_stats:
             lines.extend([
                 "## 🩺 실전 종합 전투 수치 (Combat Stats)",
-                "| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |",
+                "| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |",
                 "| :---: | :---: | :---: | :---: | :---: | :---: | :---: |",
                 f"| `{combat_stats.get('hp', 'N/A')}` | `{combat_stats.get('posture', 'N/A')}` | `{combat_stats.get('ether', 'N/A')}` | `{combat_stats.get('tempo', 'N/A')}` | `{combat_stats.get('sanity', 'N/A')}` | `{spd}` | `{pve}` |",
+                "",
+                "> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.",
                 ""
             ])
 
-        # 저항력 (Resistances)
+        # 저항력 (Resistances - 10 Icons Mapping)
         if resistances:
+            blunt = resistances.get('physical_blunt', 'N/A')
+            slash = resistances.get('physical_slash', 'N/A')
+            bleed = resistances.get('bleed') or resistances.get('physical_pierce', 'N/A')
+            fire = resistances.get('fire', 'N/A')
+            ice = resistances.get('ice', 'N/A')
+            lightning = resistances.get('lightning', 'N/A')
+            wind = resistances.get('wind', 'N/A')
+            shadow = resistances.get('shadow', 'N/A')
+            iron = resistances.get('iron', 'N/A')
+            blood = resistances.get('blood', 'N/A')
+
             lines.extend([
                 "## 🛡️ 방어 및 저항력 명세 (Resistances)",
-                "| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |",
+                "| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |",
                 "| :--- | :--- | :--- |",
-                f"| 참격: `{resistances.get('physical_slash', 'N/A')}` / 타격: `{resistances.get('physical_blunt', 'N/A')}` / 관통: `{resistances.get('physical_pierce', 'N/A')}` | 화염: `{resistances.get('fire', 'N/A')}` / 빙결: `{resistances.get('ice', 'N/A')}` / 바람: `{resistances.get('wind', 'N/A')}` | 그림자: `{resistances.get('shadow', 'N/A')}` / 번개: `{resistances.get('lightning', 'N/A')}` / 철: `{resistances.get('iron', 'N/A')}` |",
+                f"| 🔨타격: `{blunt}`<br>🗡️베기: `{slash}`<br>🩸관통/출혈: `{bleed}` | 🔥화염: `{fire}`<br>❄️빙결: `{ice}`<br>⚡번개: `{lightning}`<br>💨바람: `{wind}` | 🌌암흑: `{shadow}`<br>⚙️철(Metal): `{iron}`<br>🩸혈액(Blood): `{blood}` |",
                 ""
             ])
 
@@ -502,8 +515,9 @@ class BuildStructurer:
             f"| **4대 특성 (Traits)** | Vitality: `{traits.get('vitality', 0)}` / Erudition: `{traits.get('erudition', 0)}` / Proficiency: `{traits.get('proficiency', 0)}` / Songchant: `{traits.get('songchant', 0)}` |",
             f"| **6대 기본 스탯** | STR: `{stats.get('strength', 0)}` / FTD: `{stats.get('fortitude', 0)}` / AGL: `{stats.get('agility', 0)}` / INT: `{stats.get('intelligence', 0)}` / WLL: `{stats.get('willpower', 0)}` / CHA: `{stats.get('charisma', 0)}` |",
             f"| **무기/속성 수치** | LHT: `{stats.get('light_wep', 0)}` / MED: `{stats.get('medium_wep', 0)}` / HVY: `{stats.get('heavy_wep', 0)}` / Elements: `{active_attunements if active_attunements else 'Attunementless (0)'}` |",
-            f"| **실전 전투 수치** | HP: `{combat_stats.get('hp', 'N/A')}` / Posture: `{combat_stats.get('posture', 'N/A')}` / Ether: `{combat_stats.get('ether', 'N/A')}` / Tempo: `{combat_stats.get('tempo', 'N/A')}` / Sanity: `{combat_stats.get('sanity', 'N/A')}` / Speed: `{spd}` / Monster Dmg: `{pve}` |",
-            f"| **7대 방어 저항력** | 참격: `{resistances.get('physical_slash', 'N/A')}` / 타격: `{resistances.get('physical_blunt', 'N/A')}` / 관통: `{resistances.get('physical_pierce', 'N/A')}` / 화염: `{resistances.get('fire', 'N/A')}` / 빙결: `{resistances.get('ice', 'N/A')}` / 바람: `{resistances.get('wind', 'N/A')}` / 암흑: `{resistances.get('shadow', 'N/A')}` |",
+            f"| **실전 전투 수치** | ❤️HP: `{combat_stats.get('hp', 'N/A')}` / 🛡️Posture: `{combat_stats.get('posture', 'N/A')}` / 💧Ether: `{combat_stats.get('ether', 'N/A')}` / ⚡Tempo: `{combat_stats.get('tempo', 'N/A')}` / 🧠Sanity: `{combat_stats.get('sanity', 'N/A')}` / 👟Speed: `{spd}` / 💀Monster Dmg: `{pve}` |",
+            f"| **방어 저항력 (물리)** | 🔨타격(Blunt): `{blunt}` / 🗡️베기(Slash): `{slash}` / 🩸관통·출혈(Bleed): `{bleed}` |",
+            f"| **방어 저항력 (원소·특수)** | 🔥화염: `{fire}` / ❄️빙결: `{ice}` / ⚡번개: `{lightning}` / 💨바람: `{wind}` / 🌌암흑: `{shadow}` / ⚙️철: `{iron}` / 🩸혈액: `{blood}` |",
             ""
         ])
 

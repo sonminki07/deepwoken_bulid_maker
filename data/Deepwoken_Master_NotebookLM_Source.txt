@@ -2215,14 +2215,16 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 | Light Wep (경화기) | `65` |
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `534` | `31` | `492` | `148` | `179` | `-15.4%` | `20.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `50.4%` / 타격: `50.4%` / 관통: `35.0%` | 화염: `35.0%` / 빙결: `35.0%` / 바람: `35.0%` | 그림자: `41.5%` / 번개: `35.0%` / 철: `41.5%` |
+| 🔨타격: `50.4%`<br>🗡️베기: `50.4%`<br>🩸관통/출혈: `5.0%` | 🔥화염: `35.0%`<br>❄️빙결: `35.0%`<br>⚡번개: `35.0%`<br>💨바람: `35.0%` | 🌌암흑: `41.5%`<br>⚙️철(Metal): `35.0%`<br>🩸혈액(Blood): `41.5%` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Sacred Hammer** (Medium Weapon) — 인챈트: `None`
@@ -2267,8 +2269,9 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 | **4대 특성 (Traits)** | Vitality: `6` / Erudition: `4` / Proficiency: `2` / Songchant: `0` |
 | **6대 기본 스탯** | STR: `50` / FTD: `50` / AGL: `23` / INT: `25` / WLL: `17` / CHA: `100` |
 | **무기/속성 수치** | LHT: `65` / MED: `0` / HVY: `0` / Elements: `Attunementless (0)` |
-| **실전 전투 수치** | HP: `534` / Posture: `31` / Ether: `492` / Tempo: `148` / Sanity: `179` / Speed: `-15.4%` / Monster Dmg: `20.0%` |
-| **7대 방어 저항력** | 참격: `50.4%` / 타격: `50.4%` / 관통: `35.0%` / 화염: `35.0%` / 빙결: `35.0%` / 바람: `35.0%` / 암흑: `41.5%` |
+| **실전 전투 수치** | ❤️HP: `534` / 🛡️Posture: `31` / 💧Ether: `492` / ⚡Tempo: `148` / 🧠Sanity: `179` / 👟Speed: `-15.4%` / 💀Monster Dmg: `20.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `50.4%` / 🗡️베기(Slash): `50.4%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `35.0%` / ❄️빙결: `35.0%` / ⚡번개: `35.0%` / 💨바람: `35.0%` / 🌌암흑: `41.5%` / ⚙️철: `35.0%` / 🩸혈액: `41.5%` |
 
 ---
 

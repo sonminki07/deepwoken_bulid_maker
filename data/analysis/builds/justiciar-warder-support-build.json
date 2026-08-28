@@ -56,15 +56,16 @@
     "pve_monster_dmg_pct": "20.0%"
   },
   "resistances": {
-    "physical_slash": "50.4%",
     "physical_blunt": "50.4%",
-    "physical_pierce": "35.0%",
+    "physical_slash": "50.4%",
     "fire": "35.0%",
     "ice": "35.0%",
+    "lightning": "35.0%",
     "wind": "35.0%",
     "shadow": "41.5%",
-    "lightning": "35.0%",
-    "iron": "41.5%"
+    "iron": "35.0%",
+    "blood": "41.5%",
+    "bleed": "5.0%"
   },
   "weapons": [
     {
