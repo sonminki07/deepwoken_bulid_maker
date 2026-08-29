@@ -3,65 +3,60 @@
     "title": "This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken",
     "channel": "ffeiitan",
     "url": "https://www.youtube.com/watch?v=zN4vS7UBDGE",
-    "patch_version": "Verse 2"
+    "patch_version": "Verse 2 (2024)"
   },
   "build_summary": {
-    "build_name": "Astral Enforcer Axe Bladeharper Heavy M1 PvE Build",
+    "build_name": "Astral Enforcer Axe Bladeharper Heavy M1 PVE Build",
     "build_type": "PvE",
-    "difficulty": "Advanced",
-    "creator_opinion": "이 빌드는 Shrine of Order를 활용하여 4가지 속성(Shadowcast, Galebreathe, Flamecharm, Thundercall)의 핵심 딜링 탤런트와 버프를 모두 챙긴 뒤, 포스트 샤인에서 Heavy Weapon과 Strength, Fortitude를 극대화하는 극딜형 PvE M1 빌드입니다.\n\nAstral 인챈트가 부여된 Enforcer Axe와 Bladeharper Oath, Beserk 및 스태킹 M1 탤런트의 시너지를 극대화하여 몬스터와 보스(Ferryman, Maestro 등)를 평타 몇 번 만에 초살할 수 있는 가공할 폭딜 능력을 보여줍니다.",
+    "difficulty": "Intermediate",
+    "creator_opinion": "이 빌드는 Enforcer Axe에 Astral 인챈트를 부여하고 Bladeharper 오스를 결합하여, M1(기본 평타) 단 한 방으로 3,000에 달하는 극강의 PvE 피해를 입히는 대형 무기 특화 빌드입니다. 4가지 속성(Flame, Gale, Thunder, Shadow)의 핵심 버프 및 M1 증폭 탤런트들을 조합하여 버프 중첩 시 폭발적인 DPS를 자랑합니다.\n\nShrine of Order 시스템을 활용해 초반 속성 요구치를 맞춘 뒤, 최종적으로 Heavy Weapon 100과 Strength 80을 달성하여 둔기류 M1 스윙 데미지를 한계까지 끌어올렸습니다. 페리먼(Ferryman), 드레드 서펀트(Dread Serpent), 마에스트로(Maestro) 등의 고난도 보스들을 단 수 회의 평타로 사살할 수 있어 보스 파밍 효율이 매우 높습니다.",
     "strengths": [
-      "압도적인 PvE M1(평타) 폭딜 능력을 자랑하여 보스 파밍(Maestro, Ferryman) 속도가 극도로 빠름",
-      "Shrine of Order를 통해 4속성 버프 탤런트와 Agility 기반 유틸리티 탤런트를 대량 획득",
-      "Beserk 및 Astral 인챈트 조합으로 지속 딜링과 방어 무시/추가 피해 시너지가 뛰어남"
+      "PvE 보스전에서 M1 평타 1회당 최대 3,000 이상의 압도적인 단일 데미지 산출",
+      "Astral 인챈트와 Enforcer Axe 특유의 넓은 타격 판정 및 Posture 파괴력",
+      "Bladeharper 오스 버프와 다속성 탤런트 시너지로 지속되는 높은 DPS"
     ],
     "weaknesses": [
-      "Shrine of Order 사용 전 육성 단계에서 스탯 투자 순서와 탤런트 획득을 철저히 계획해야 함",
-      "PvE M1 스태킹과 보스전에 올인된 세팅으로, 대인전(PvP) 파괴력 및 방어 세팅은 상대적으로 제한적임"
+      "PvP 상황에서는 스케일링 감소로 인해 PvE만큼의 폭딜이 나오지 않음",
+      "Shrine of Order 전후로 정교한 순서의 스탯 찍기가 요구되는 육성 난이도"
     ]
   },
-  "traits": {},
+  "traits": {
+    "vitality": 2,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 4
+  },
   "stats": {
-    "strength": 80,
-    "fortitude": 100,
+    "strength": 1,
+    "fortitude": 0,
     "agility": 25,
     "intelligence": 0,
     "willpower": 0,
     "charisma": 25,
-    "heavy_wep": 100,
+    "heavy_wep": 1,
     "medium_wep": 0,
     "light_wep": 0
   },
-  "attunements": {
-    "flamecharm": 25,
-    "frostdraw": 0,
-    "thundercall": 25,
-    "galebreathe": 25,
-    "shadowcast": 25,
-    "ironsing": 0,
-    "bloodrend": 0
-  },
   "combat_stats": {
-    "hp": null,
-    "posture": null,
-    "ether": null,
-    "tempo": null,
-    "sanity": null,
-    "move_speed_pct": null,
-    "pve_dmg_pct": null,
-    "physical_armor_pct": null
+    "hp": 366,
+    "posture": 27,
+    "ether": 181,
+    "tempo": 120,
+    "sanity": 106,
+    "move_speed_pct": 115.0,
+    "pve_dmg_pct": 28.0
   },
   "resistances": {
-    "physical_blunt": null,
-    "physical_slash": null,
-    "fire": null,
-    "ice": null,
-    "lightning": null,
-    "wind": null,
-    "shadow": null,
-    "iron": null,
-    "acid": null,
-    "physical_pierce": null
+    "physical_slash": "13.0%",
+    "physical_blunt": "13.0%",
+    "physical_pierce": "13.0%",
+    "fire": "15.0%",
+    "ice": "15.0%",
+    "wind": "15.0%",
+    "shadow": "15.0%",
+    "lightning": "15.0%",
+    "iron": "15.0%",
+    "acid": "0.0%"
   },
   "weapons": [
     {
@@ -73,12 +68,24 @@
   ],
   "equipment": [
     {
+      "slot": "Helmet",
+      "name": "Seamaster's Cap"
+    },
+    {
+      "slot": "Face",
+      "name": "Proficient Eyepatch"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Aether Pendant"
+    },
+    {
       "slot": "Outfit",
       "name": "Windrunner Robes"
     },
     {
-      "slot": "Amulet",
-      "name": "Prophet's Cloak"
+      "slot": "Boots",
+      "name": "None"
     },
     {
       "slot": "Ring 1",
@@ -87,18 +94,30 @@
     {
       "slot": "Ring 2",
       "name": "Konga's Clutch Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Vibrant Gem Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Eon Gem Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Jar of Souls"
     }
   ],
   "character_setup": {
     "oath": "Bladeharper",
-    "race": "Ganymede",
+    "race": "Chrysid",
     "origin": "Castaway",
-    "murmur": "None",
-    "resonance_bell": "None"
+    "murmur": "Ardour",
+    "resonance_bell": "Jar of Souls"
   },
   "talents": [
     {
-      "name": "Beserk",
+      "name": "Berserk",
       "is_core": true
     },
     {
@@ -110,8 +129,8 @@
       "is_core": false
     },
     {
-      "name": "Go Nowhere",
-      "is_core": true
+      "name": "Going Nowhere",
+      "is_core": false
     },
     {
       "name": "Dark God",
@@ -128,23 +147,37 @@
     {
       "name": "Warrior's Swing",
       "is_core": true
+    },
+    {
+      "name": "Speed Demon",
+      "is_core": true
     }
   ],
   "mantras": [
     {
-      "name": "Groove"
+      "name": "Thundercall"
     },
     {
-      "name": "Crescendo"
+      "name": "Shadowcast"
+    },
+    {
+      "name": "Galebreathe"
+    },
+    {
+      "name": "Flamecharm"
     }
   ],
   "target_mobs": [
     "Ferryman",
-    "Maestro Evengarde",
-    "Dread Serpent"
+    "Dread Serpent (Kaido)",
+    "Maestro Evengarde"
   ],
-  "mob_strategy": "Ferryman 및 Maestro와 같은 보스전에서는 진입 전 툴바에 배치된 속성 버프들을 활성화하고 Bladeharper 스킬로 M1 강화 상태를 유지합니다. Astral 인챈트가 적용된 Enforcer Axe의 패링 후 M1 연타로 체인을 누적하여 수천 단위의 딜을 단시간 내에 쏟아부어 빠르게 격파합니다.",
-  "combo_guide": "속성 버프 활성화 -> M1 평타 콤보 및 패링 -> Bladeharper Groove/Crescendo 발동 -> 고중량 M1 연타로 체인 스태킹 폭딜",
+  "mob_strategy": {
+    "ferryman": "페리먼의 공격을 패링한 뒤, 버프가 켜진 Astral Enforcer Axe M1을 3타 적중시켜 약 6,000 피해를 주어 페이즈를 빠르게 넘깁니다.",
+    "dread_serpent": "해상전에서 머리를 향해 체인 스택을 유지하며 M1을 가합니다. 4타 적중 시 약 11,000~12,000의 데미지로 단숨에 사살 가능합니다.",
+    "maestro": "Windrunner Robes의 이속 보정을 활용해 Maestro의 후딜레이마다 Astral M1을 넣어 빠르게 회차 파밍을 진행합니다."
+  },
+  "combo_guide": "{'description': '속성 버프 중첩 후 Astral Enforcer Axe M1 극딜 사이클', 'steps': ['각종 속성 버프 만트라 및 Berserk 상태를 켭니다.', 'Bladeharper 특수 스킬로 데미지 증폭을 획득합니다.', 'Enforcer Axe M1 스윙으로 연속 공격을 가해 Astral 폭발과 함께 3,000급 M1 데미지를 적중시킵니다.']}",
   "video_meta": {
     "title": "This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken",
     "channel": "ffeiitan",
@@ -152,9 +185,10 @@
     "upload_date": "20260626",
     "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
   },
+  "attunements": {},
   "oath": "Bladeharper",
-  "race": "Ganymede",
+  "race": "Chrysid",
   "origin": "Castaway",
-  "murmur": "None",
-  "resonance": "None"
+  "murmur": "Ardour",
+  "resonance": "Jar of Souls"
 }

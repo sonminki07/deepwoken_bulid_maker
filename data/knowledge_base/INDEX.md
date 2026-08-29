@@ -33,7 +33,7 @@
 | **100 Weapon & 100 Investment Meta Pv** | `PvP` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/100-weapon-100-investment-meta-pvppve-build.md) |
 | **Abyss Delver V1 & Diluvian Meta PvE** | `PvE` | `Blindseer / Attunementles` | [📄 문서 보기](builds/abyss-delver-v1-diluvian-meta-pve-builds-v4-s.md) |
 | **Ashen Moppet Dagger M1 PvE Glass Ca** | `PvE` | ` / thundercall, galebreat` | [📄 문서 보기](builds/ashen-moppet-dagger-m1-pve-glass-cannon.md) |
-| **Astral Enforcer Axe Bladeharper Hea** | `PvE` | `Bladeharper / flamecharm,` | [📄 문서 보기](builds/astral-enforcer-axe-bladeharper-heavy-m1-pve.md) |
+| **Astral Enforcer Axe Bladeharper Hea** | `PvE` | `Bladeharper / Attunementl` | [📄 문서 보기](builds/astral-enforcer-axe-bladeharper-heavy-m1-pve.md) |
 | **Astral Palace Tachi Bloodrend PvE C** | `PvE` | `Contractor / bloodrend` | [📄 문서 보기](builds/astral-palace-tachi-bloodrend-pve-contractor.md) |
 | **Attunementless Stone Palace Tachi P** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/attunementless-stone-palace-tachi-pvp-build.md) |
 | **Augmenter Cleave (90 HVY + 90 IRON)** | `Hybrid` | ` / flamecharm, galebreath` | [📄 문서 보기](builds/augmenter-cleave-90-hvy-90-iron.md) |
