@@ -1,0 +1,160 @@
+{
+  "video_metadata": {
+    "title": "This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken",
+    "channel": "ffeiitan",
+    "url": "https://www.youtube.com/watch?v=zN4vS7UBDGE",
+    "patch_version": "Verse 2"
+  },
+  "build_summary": {
+    "build_name": "Astral Enforcer Axe Bladeharper Heavy M1 PvE Build",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Shrine of Order를 활용하여 4가지 속성(Shadowcast, Galebreathe, Flamecharm, Thundercall)의 핵심 딜링 탤런트와 버프를 모두 챙긴 뒤, 포스트 샤인에서 Heavy Weapon과 Strength, Fortitude를 극대화하는 극딜형 PvE M1 빌드입니다.\n\nAstral 인챈트가 부여된 Enforcer Axe와 Bladeharper Oath, Beserk 및 스태킹 M1 탤런트의 시너지를 극대화하여 몬스터와 보스(Ferryman, Maestro 등)를 평타 몇 번 만에 초살할 수 있는 가공할 폭딜 능력을 보여줍니다.",
+    "strengths": [
+      "압도적인 PvE M1(평타) 폭딜 능력을 자랑하여 보스 파밍(Maestro, Ferryman) 속도가 극도로 빠름",
+      "Shrine of Order를 통해 4속성 버프 탤런트와 Agility 기반 유틸리티 탤런트를 대량 획득",
+      "Beserk 및 Astral 인챈트 조합으로 지속 딜링과 방어 무시/추가 피해 시너지가 뛰어남"
+    ],
+    "weaknesses": [
+      "Shrine of Order 사용 전 육성 단계에서 스탯 투자 순서와 탤런트 획득을 철저히 계획해야 함",
+      "PvE M1 스태킹과 보스전에 올인된 세팅으로, 대인전(PvP) 파괴력 및 방어 세팅은 상대적으로 제한적임"
+    ]
+  },
+  "traits": {},
+  "stats": {
+    "strength": 80,
+    "fortitude": 100,
+    "agility": 25,
+    "intelligence": 0,
+    "willpower": 0,
+    "charisma": 25,
+    "heavy_wep": 100,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 25,
+    "frostdraw": 0,
+    "thundercall": 25,
+    "galebreathe": 25,
+    "shadowcast": 25,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": null,
+    "posture": null,
+    "ether": null,
+    "tempo": null,
+    "sanity": null,
+    "move_speed_pct": null,
+    "pve_dmg_pct": null,
+    "physical_armor_pct": null
+  },
+  "resistances": {
+    "physical_blunt": null,
+    "physical_slash": null,
+    "fire": null,
+    "ice": null,
+    "lightning": null,
+    "wind": null,
+    "shadow": null,
+    "iron": null,
+    "acid": null,
+    "physical_pierce": null
+  },
+  "weapons": [
+    {
+      "name": "Enforcer Axe",
+      "type": "Heavy Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Outfit",
+      "name": "Windrunner Robes"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Prophet's Cloak"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Maestro's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Konga's Clutch Ring"
+    }
+  ],
+  "character_setup": {
+    "oath": "Bladeharper",
+    "race": "Ganymede",
+    "origin": "Castaway",
+    "murmur": "None",
+    "resonance_bell": "None"
+  },
+  "talents": [
+    {
+      "name": "Beserk",
+      "is_core": true
+    },
+    {
+      "name": "Risky Moves",
+      "is_core": false
+    },
+    {
+      "name": "Spinning Sword",
+      "is_core": false
+    },
+    {
+      "name": "Go Nowhere",
+      "is_core": true
+    },
+    {
+      "name": "Dark God",
+      "is_core": true
+    },
+    {
+      "name": "Wyvern's Claw",
+      "is_core": false
+    },
+    {
+      "name": "Kick Off",
+      "is_core": false
+    },
+    {
+      "name": "Warrior's Swing",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Groove"
+    },
+    {
+      "name": "Crescendo"
+    }
+  ],
+  "target_mobs": [
+    "Ferryman",
+    "Maestro Evengarde",
+    "Dread Serpent"
+  ],
+  "mob_strategy": "Ferryman 및 Maestro와 같은 보스전에서는 진입 전 툴바에 배치된 속성 버프들을 활성화하고 Bladeharper 스킬로 M1 강화 상태를 유지합니다. Astral 인챈트가 적용된 Enforcer Axe의 패링 후 M1 연타로 체인을 누적하여 수천 단위의 딜을 단시간 내에 쏟아부어 빠르게 격파합니다.",
+  "combo_guide": "속성 버프 활성화 -> M1 평타 콤보 및 패링 -> Bladeharper Groove/Crescendo 발동 -> 고중량 M1 연타로 체인 스태킹 폭딜",
+  "video_meta": {
+    "title": "This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken",
+    "channel": "ffeiitan",
+    "url": "https://www.youtube.com/watch?v=zN4vS7UBDGE",
+    "upload_date": "20260626",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "oath": "Bladeharper",
+  "race": "Ganymede",
+  "origin": "Castaway",
+  "murmur": "None",
+  "resonance": "None"
+}
