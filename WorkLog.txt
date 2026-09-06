@@ -236,3 +236,11 @@ Branch: main
 3) 인게임 실측치 100% 일치 검증:
    - FTD `3` (+3), Flamecharm `25`, Thundercall `25`, Galebreathe `25`, Shadowcast `25`, Heavy Wep `100`, STR `80`, AGL `25`, CHA `25` 완벽 일치 반영.
    - `agents/vision_extractor.py` 내부 콘솔 출력 시 Windows cp949 인코딩 에러 방어(안전 출력) 적용.
+
+[24. 오케스트레이터 엄격 캐시 무효화 및 Silentheart Support 신규 빌드 100% 동기화 (2026-09-06)]
+1) 구버전 불완전 캐시 오탐지 차단 (`pipeline/orchestrator.py`):
+   - 원인: `_find_cached_analysis`가 `_raw_source_data` 유무나 Traits 유효성 검사 없이 `stat_sum >= 50`만으로 이전에 분석된 구버전 캐시(bladeharper)를 히트하여 신규 3-Tier 엔진 실행을 건너뜀.
+   - 해결: `_raw_source_data`가 존재하고, `traits`에 0 초과 유효값이 있으며, `stat_sum >= 80`인 신규 3-Tier 아키텍처 JSON만 캐시 히트하도록 엄격 검증(Strict Cache Invalidation) 적용. 구버전 잔여 파일 영구 삭제.
+2) Silentheart 영상(`9l3N8Ml-LPM`) 신규 분석 및 인게임 100% 일치 검증:
+   - 신규 빌드 문서: `guide-of-the-souls-v4-silentheart-support.md` (GitHub 푸시 완료).
+   - 인게임 Stat Sheet 실측치 완벽 일치: STR 80, FTD 30, AGL 25, INT 5, WLL 40, CHA 60, MED 90, Traits (Vitality 6, Proficiency 6), Combat Stats (HP 509, Posture 31, Ether 282, Tempo 140, Sanity 294, Speed -15.0%), Resistances 10종 100% 일치.
