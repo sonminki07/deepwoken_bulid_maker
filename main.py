@@ -68,14 +68,13 @@ def handle_analyze(args):
     console.print(f"- [bold]🌐 GitHub 웹 링크:[/] [link={github_url}][bold cyan underline]{github_url}[/bold cyan underline][/link]")
     console.print(f"- [bold]소요 시간:[/] {res['elapsed_seconds']:.2f}초")
 
-    # 기본 브라우저에서 GitHub 웹 링크 자동 열기
-    if not getattr(args, 'no_open', False):
+    # 브라우저 자동 팝업 비활성화 (사용자가 직접 링크 클릭하여 열람)
+    if getattr(args, 'open_browser', False):
         import webbrowser
         try:
             webbrowser.open(github_url)
-            console.print("🚀 [bold green]기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다![/bold green]")
         except Exception as e:
-            logger.debug(f"Auto browser open failed: {e}")
+            logger.debug(f"Browser open failed: {e}")
 
 def handle_web(args):
     check_gemini_key()
@@ -98,14 +97,13 @@ def handle_web(args):
     console.print(f"- [bold]🌐 GitHub 웹 링크:[/] [link={github_url}][bold cyan underline]{github_url}[/bold cyan underline][/link]")
     console.print(f"- [bold]소요 시간:[/] {res['elapsed_seconds']:.2f}초")
 
-    # 기본 브라우저에서 GitHub 웹 링크 자동 열기
-    if not getattr(args, 'no_open', False):
+    # 브라우저 자동 팝업 비활성화 (사용자가 직접 링크 클릭하여 열람)
+    if getattr(args, 'open_browser', False):
         import webbrowser
         try:
             webbrowser.open(github_url)
-            console.print("🚀 [bold green]기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다![/bold green]")
         except Exception as e:
-            logger.debug(f"Auto browser open failed: {e}")
+            logger.debug(f"Browser open failed: {e}")
 
 def handle_batch(args):
     check_gemini_key()

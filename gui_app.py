@@ -301,35 +301,42 @@ class DeepwokenAnalyzerGUI:
     def _on_analysis_success(self, url: str):
         self.copy_json_btn.config(state=tk.NORMAL)
 
-        # 최신 분석 마크다운 및 JSON 파일 경로 추출
+        # 최신 분석 마크다운 및 JSON 파일 경로 추출 (README.md, INDEX.md 배제)
         kb_dir = PROJECT_DIR / "data" / "knowledge_base"
         analysis_dir = PROJECT_DIR / "data" / "analysis"
         
-        md_files = sorted(kb_dir.rglob("*.md"), key=os.path.getmtime, reverse=True)
         json_files = sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True)
+        valid_md_files = sorted(
+            [f for f in kb_dir.rglob("*.md") if f.name.lower() not in ["readme.md", "index.md"]],
+            key=os.path.getmtime,
+            reverse=True
+        )
 
         if json_files:
             self.last_analyzed_json = json_files[0]
 
-        if md_files:
-            latest_md = md_files[0]
+        # JSON 파일명(슬러그)과 1:1 일치하는 빌드 마크다운 파일 우선 매핑
+        latest_md = None
+        if self.last_analyzed_json:
+            target_md_name = f"{self.last_analyzed_json.stem}.md"
+            for f in valid_md_files:
+                if f.name == target_md_name:
+                    latest_md = f
+                    break
+
+        if not latest_md and valid_md_files:
+            latest_md = valid_md_files[0]
+
+        if latest_md:
             rel_path = latest_md.relative_to(PROJECT_DIR).as_posix()
             self.last_github_url = f"https://github.com/sonminki07/deepwoken_bulid_maker/blob/main/{rel_path}"
             self.open_github_btn.config(state=tk.NORMAL)
 
-            # 🚀 기본 브라우저에서 GitHub 웹 링크 자동 열기!
-            import webbrowser
-            try:
-                webbrowser.open(self.last_github_url)
-                self.log("🚀 [자동 열림] 기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다!")
-            except Exception:
-                pass
-
             self.log(f"📄 마크다운 문서: {latest_md.name}")
             if self.last_analyzed_json:
                 self.log(f"💾 원시 JSON 파일: {self.last_analyzed_json.name}")
-            self.log_link(f"🔗 [클릭하여 깃허브에서 바로 보기] {self.last_github_url}", self.last_github_url)
-            self.log("💡 상단의 '🔗 GitHub에서 보기' 버튼을 눌러도 언제든 바로 열람할 수 있습니다.")
+            self.log_link(f"🔗 [결과 마크다운 보기] {self.last_github_url}", self.last_github_url)
+            self.log("💡 위의 링크를 클릭하거나 상단의 '🔗 GitHub에서 보기' 버튼을 누르면 결과를 바로 열람할 수 있습니다.")
 
         # 깃허브 자동 백업 실행 (백그라운드 무음 실행)
         threading.Thread(target=self._auto_push_github, args=(url,), daemon=True).start()
