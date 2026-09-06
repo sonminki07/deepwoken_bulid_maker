@@ -87,10 +87,10 @@ class VideoCollector:
         except Exception:
             pass
 
-        # 다운로드 포맷 전략 (1080p/720p 고화질 강제 우선)
+        # 다운로드 포맷 전략 (H.264 avc1 코덱 최우선 강제 - OpenCV/하드웨어 가속 100% 호환)
         format_strategies = [
-            "bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best[ext=mp4]/best",
-            "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best[ext=mp4]/best",
+            "bestvideo[height<=1080][vcodec^=avc1]+bestaudio[ext=m4a]/bestvideo[height<=1080][ext=mp4]+bestaudio[ext=m4a]/best[height<=1080]/best",
+            "bestvideo[height<=720][vcodec^=avc1]+bestaudio[ext=m4a]/bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[height<=720]/best",
             "best[height>=720]",
             "best"
         ]

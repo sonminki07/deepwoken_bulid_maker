@@ -3,6 +3,7 @@
 > **출처 영상**: [The Best M1 Dmg + Max Pen PvE Build | Deepwoken](https://www.youtube.com/watch?v=MFb62Q3JCKs) by `iheartmk`
 > **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
 > **종족/출신**: `None` / `Deepbound` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Crazy Slots`
+> 🌐 **빌더 링크**: [https://deepwoken.co/builder?id=3eja6yaT](https://deepwoken.co/builder?id=3eja6yaT)
 
 ---
 
@@ -25,37 +26,46 @@
 ## 🧬 4대 고유 특성 (Traits)
 | Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
 | :---: | :---: | :---: | :---: |
-| `0` | `0` | `0` | `0` |
+| `6` | `0` | `6` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
-| 스탯 항목 (Attribute) | 수치 (Points) |
-| :--- | :--- |
-| Strength (근력) | `80` |
-| Fortitude (인내) | `0` |
-| Agility (민첩) | `19` |
-| Intelligence (지능) | `5` |
-| Willpower (의지) | `40` |
-| Charisma (매력) | `0` |
-| Heavy Wep (중화기) | `100` |
-| Medium Wep (중형무기) | `0` |
-| Light Wep (경화기) | `0` |
+| 스탯 항목 (Attribute) | 🔵 질서의 성소 전 (Pre-Shrine) | 🔴 질서의 성소 후 (Post-Shrine) |
+| :--- | :---: | :---: |
+| Strength (근력) | `1` | `80` `(+79)` |
+| Fortitude (인내) | `0` | `0` |
+| Agility (민첩) | `40` | `19` `(-21)` |
+| Intelligence (지능) | `0` | `5` `(+5)` |
+| Willpower (의지) | `1` | `40` `(+39)` |
+| Charisma (매력) | `0` | `0` |
+| Heavy Wep (중화기) | `1` | `100` `(+99)` |
+| Medium Wep (중형무기) | `0` | `0` |
+| Light Wep (경화기) | `0` | `0` |
+| **속성 (Attunements)** | --- | --- |
+| Flamecharm (화염) | `1` | `0` `(-1)` |
+| Thundercall (번개) | `50` | `0` `(-50)` |
+| Galebreathe (바람) | `60` | `0` `(-60)` |
+| Shadowcast (암흑) | `1` | `0` `(-1)` |
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
 | Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `0.0` | `0.0` | `0.0` | `0.0` | `0.0` | `N/A` | `%` | `0%` |
+| `415` | `20` | `240` | `100` | `85` | `N/A` | `126.0%` | `+60.0%` |
 
 > 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
 
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
-| :--- | :--- | :--- |
-| 🔨타격: ``<br>🗡️베기: ``<br>🩸관통/출혈: `N/A` | 🔥화염: ``<br>❄️빙결: ``<br>⚡번개: ``<br>💨바람: `` | 🌌암흑: ``<br>⚙️철(Metal): ``<br>🩸혈액(Blood): `N/A` |
-
-## ⛩️ Shrine of Order 진행 경로
-**Pre-Shrine**: `{}`
-**Post-Shrine 우선순위**:
-
+| 저항 분류 | 속성 / 공격 유형 | 실측 저항 수치 |
+| :--- | :--- | :---: |
+| **물리 (Physical)** | 🔨 타격 (Blunt) | `15.0%` |
+| **물리 (Physical)** | 🗡️ 베기 (Slash) | `30.0%` |
+| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `20.0%` |
+| **원소 (Elemental)** | 🔥 화염 (Fire) | `20.0%` |
+| **원소 (Elemental)** | ❄️ 빙결 (Ice) | `0.0%` |
+| **원소 (Elemental)** | ⚡ 번개 (Lightning) | `0.0%` |
+| **원소 (Elemental)** | 💨 바람 (Wind) | `0.0%` |
+| **특수 (Special)** | 🌌 암흑 (Shadow) | `15.0%` |
+| **특수 (Special)** | ⚙️ 철 (Iron / Metal) | `0.0%` |
+| **특수 (Special)** | 🩸 혈액 (Blood) | `0.0%` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Divine Axe** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
@@ -109,9 +119,9 @@
 | 실측 분류 | 세부 실측 데이터 항목 |
 | :--- | :--- |
 | **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Oathless` / Race/Aspect: `None` |
-| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `0` / Songchant: `0` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
 | **6대 기본 스탯** | STR: `80` / FTD: `0` / AGL: `19` / INT: `5` / WLL: `40` / CHA: `0` |
 | **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `Attunementless (0)` |
-| **실전 전투 수치** | ❤️HP: `0.0` / 🛡️Posture: `0.0` / 💧Ether: `0.0` / ⚡Tempo: `0.0` / 🧠Sanity: `0.0` / 🛡️Armor: `N/A` / 👟Speed: `%` / 💀Monster Dmg: `0%` |
-| **방어 저항력 (물리)** | 🔨타격(Blunt): `` / 🗡️베기(Slash): `` / 🩸관통·출혈(Bleed): `N/A` |
-| **방어 저항력 (원소·특수)** | 🔥화염: `` / ❄️빙결: `` / ⚡번개: `` / 💨바람: `` / 🌌암흑: `` / ⚙️철: `` / 🩸혈액: `N/A` |
+| **실전 전투 수치** | ❤️HP: `415` / 🛡️Posture: `20` / 💧Ether: `240` / ⚡Tempo: `100` / 🧠Sanity: `85` / 🛡️Armor: `N/A` / 👟Speed: `126.0%` / 💀Monster Dmg: `+60.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `15.0%` / 🗡️베기(Slash): `30.0%` / 🩸관통·출혈(Bleed): `20.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `0.0%` / ⚡번개: `0.0%` / 💨바람: `0.0%` / 🌌암흑: `15.0%` / ⚙️철: `0.0%` / 🩸혈액: `0.0%` |

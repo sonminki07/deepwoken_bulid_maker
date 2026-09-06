@@ -17,6 +17,7 @@ from agents.structurer import BuildStructurer
 from agents.knowledge_builder import KnowledgeBuilder
 from agents.frame_extractor import FrameExtractor
 from agents.vision_extractor import VisionExtractor
+from agents.raw_build_model import RawBuildData, BuildDataReconciler
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +68,8 @@ class PipelineOrchestrator:
             analysis_dir=paths_cfg.get("analysis_dir", "data/analysis"),
             knowledge_base_dir=paths_cfg.get("knowledge_base_dir", "data/knowledge_base")
         )
+
+        self.reconciler = BuildDataReconciler()
 
         self.knowledge_builder = KnowledgeBuilder(
             db_path=rag_cfg.get("db_path", "data/chromadb"),
@@ -154,64 +157,57 @@ class PipelineOrchestrator:
             "description": download_result.metadata.description,
         }
 
-        # Step 1.5: OpenCV 고해상도 UI 키프레임 추출 및 전처리 (모션블러 필터링, CLAHE 대비강화)
+        # Step 1.5: OpenCV 고해상도 UI 키프레임 추출 (2-Stage Coarse -> 0.2s Dense, Pre/Post 버킷 분리)
         if progress_callback:
-            progress_callback(35, "OpenCV 1080p UI 키프레임 추출 및 모션블러/대비 전처리 중...")
-        logger.info("[Step 2/5] Extracting sharp UI keyframes with OpenCV...")
-        keyframes = []
-        vision_stats = None
+            progress_callback(35, "OpenCV 1080p UI 키프레임 추출 및 Pre/Post 2단계 고밀도 스캔 중...")
+        logger.info("[Step 2/5] Extracting sharp UI keyframes with Dual-Stage Smart Scanner...")
+        dual_keyframes = {"pre_shrine": [], "post_shrine": []}
+        dual_vision_data = None
         try:
-            keyframes = self.frame_extractor.extract_sharp_keyframes(video_path, max_keyframes=6, sample_step_sec=1.5)
-            if keyframes:
+            dual_keyframes = self.frame_extractor.extract_dual_stage_keyframes(video_path)
+            total_kf = len(dual_keyframes.get("pre_shrine", [])) + len(dual_keyframes.get("post_shrine", []))
+            if total_kf > 0:
                 if progress_callback:
-                    progress_callback(45, "선별된 고해상도 스탯 창 픽셀 단위 정밀 판독 중...")
-                logger.info(f"Analyzing {len(keyframes)} high-res keyframes with Precision Vision AI...")
-                vision_stats = self.vision_extractor.extract_from_keyframes(keyframes)
+                    progress_callback(45, f"선별된 {total_kf}장 고해상도 스탯 창 픽셀 단위 정밀 판독 중...")
+                logger.info(f"Analyzing {total_kf} dual-stage keyframes with Precision Vision AI...")
+                dual_vision_data = self.vision_extractor.extract_dual_stage_vision(dual_keyframes)
         except Exception as kf_err:
-            logger.warning(f"Keyframe extraction or vision analysis warning: {kf_err}")
+            logger.warning(f"Dual-stage keyframe extraction or vision analysis warning: {kf_err}")
 
         # Step 2: Gemini 멀티모달 분석 (비디오 음성, 콤보, 보스전 공략 분석)
         logger.info(f"[Step 3/5] Analyzing video content with Gemini Multimodal ({self.analyzer.model_name})...")
         raw_analysis = self.analyzer.analyze(video_path=video_path, metadata=meta_dict, progress_callback=progress_callback)
 
-        # 픽셀 기반 실측 비전 스탯이 존재하면 100% 최우선 병합 (VLM 환각 원천 차단)
-        if vision_stats and isinstance(vision_stats, dict):
-            raw_analysis["_raw_vision_data"] = vision_stats
-            
-            v_stats = vision_stats.get("stats")
-            if v_stats and isinstance(v_stats, dict) and sum([v for v in v_stats.values() if isinstance(v, (int, float))]) > 0:
-                logger.info("🎯 [Vision Grounding] Overriding stats with 100% pixel-exact vision extracted numbers!")
-                raw_analysis["stats"] = v_stats
-            
-            v_att = vision_stats.get("attunements")
-            if v_att and isinstance(v_att, dict):
-                raw_analysis["attunements"] = v_att
+        # Step 2.5: 설명란 deepwoken.co 빌더 링크 직접 스크래핑
+        builder_url = meta_dict.get("extra", {}).get("builder_url") or self.stat_inferrer._find_builder_url(meta_dict.get("description", ""))
+        builder_data = None
+        if builder_url:
+            logger.info(f"🌐 [Builder Grounding] Scraping builder data from: {builder_url}")
+            builder_data = self.stat_inferrer._scrape_builder_url(builder_url)
 
-            if vision_stats.get("power"):
-                raw_analysis["power"] = vision_stats["power"]
-            if vision_stats.get("origin"):
-                raw_analysis["origin"] = vision_stats["origin"]
-            if vision_stats.get("race"):
-                raw_analysis["race"] = vision_stats["race"]
-            if vision_stats.get("oath") and vision_stats["oath"] != "None":
-                raw_analysis["oath"] = vision_stats["oath"]
-            if vision_stats.get("traits"):
-                raw_analysis["traits"] = vision_stats["traits"]
-            if vision_stats.get("combat_stats"):
-                raw_analysis["combat_stats"] = vision_stats["combat_stats"]
-            if vision_stats.get("resistances"):
-                raw_analysis["resistances"] = vision_stats["resistances"]
-
-        # Step 2.5: 스탯 누락 시 자가 질의응답 및 웹 검색을 통한 자동 스탯 추론/보강
+        # Step 2.8: 3-Tier 아키텍처 - RawBuildData 불변 객체 생성 및 330pt 무결성 Reconciler 실행
         if progress_callback:
-            progress_callback(80, "스탯 유효성 검증 및 빌드 스키마 무결성 확인 중...")
-        raw_analysis = self.stat_inferrer.enrich_if_missing(raw_analysis, meta_dict)
+            progress_callback(80, "3-Tier 원시 데이터 무결성 검증 및 Pre/Post 330pt 수학적 동기화 중...")
+        logger.info("⚖️ [Tier 2 Reconciliation] Reconciling RawBuildData (Vision > Builder > VLM)...")
+        raw_build = RawBuildData(
+            video_id=video_id,
+            video_meta=meta_dict,
+            pre_shrine_raw=dual_vision_data.get("pre_shrine") if dual_vision_data else None,
+            post_shrine_raw=dual_vision_data.get("post_shrine") if dual_vision_data else None,
+            builder_scraped=builder_data,
+            vlm_narrative=raw_analysis,
+            captured_keyframes=dual_keyframes.get("pre_shrine", []) + dual_keyframes.get("post_shrine", [])
+        )
+        normalized_build = self.reconciler.reconcile(raw_build)
+
+        # 여전히 스탯이 부족할 경우만 최종 웹 검색 폴백
+        normalized_build = self.stat_inferrer.enrich_if_missing(normalized_build, meta_dict)
 
         # Step 3: JSON 검증 및 Markdown 변환/저장
         if progress_callback:
             progress_callback(85, "JSON 스키마 검증 및 Markdown 지식 문서 구조화 중...")
         logger.info("[Step 3/4] Structuring data into JSON and Markdown knowledge base...")
-        saved_paths = self.structurer.process_and_save(raw_json=raw_analysis, video_id=video_id)
+        saved_paths = self.structurer.process_and_save(raw_json=normalized_build, video_id=video_id)
 
         # Step 4: ChromaDB RAG 인덱싱
         if progress_callback:

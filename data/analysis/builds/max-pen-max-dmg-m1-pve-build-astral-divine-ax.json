@@ -32,9 +32,9 @@
   "murmur": "Ardour",
   "resonance": "Crazy Slots",
   "traits": {
-    "vitality": 0,
+    "vitality": 6,
     "erudition": 0,
-    "proficiency": 0,
+    "proficiency": 6,
     "songchant": 0
   },
   "stats": {
@@ -58,25 +58,25 @@
     "bloodrend": 0
   },
   "combat_stats": {
-    "hp": 0.0,
-    "posture": 0.0,
-    "ether": 0.0,
-    "tempo": 0.0,
-    "sanity": 0.0,
-    "move_speed_pct": "",
-    "pve_monster_dmg_pct": ""
+    "hp": 415,
+    "posture": 20,
+    "ether": 240,
+    "tempo": 100,
+    "sanity": 85,
+    "move_speed_pct": 126.0,
+    "pve_dmg_pct": 60.0
   },
   "resistances": {
-    "physical_blunt": "",
-    "physical_slash": "",
-    "fire": "",
-    "ice": "",
-    "lightning": "",
-    "wind": "",
-    "shadow": "",
-    "iron": "",
-    "blood": "",
-    "bleed": ""
+    "physical_slash": "30.0%",
+    "physical_blunt": "15.0%",
+    "physical_pierce": "20.0%",
+    "fire": "20.0%",
+    "ice": "0.0%",
+    "wind": "0.0%",
+    "shadow": "15.0%",
+    "lightning": "0.0%",
+    "iron": "0.0%",
+    "acid": "0.0%"
   },
   "weapons": [
     {
@@ -202,20 +202,60 @@
     }
   ],
   "combo_guide": "1. 전투 시작 시 Lightning Cloak / Adrenaline Surge를 활성화하여 이동 및 공격 속도 버프 획득.\n2. Gale Lunge 또는 Twister Kicks로 몬스터에게 접근 및 디버프 부여.\n3. 패링 성공 후 Speed Demon 버프가 적용된 상태에서 Astral Divine Axe / Evanspear Hand Axe M1 연타.\n4. 체력 및 마나 보충이 필요할 때는 Shade Devour 및 Inhale 계열 특성을 활용하여 지속력 유지.",
-  "is_shrine_build": false,
+  "is_shrine_build": true,
   "shrine_progression": {
-    "is_shrine_build": false,
-    "pre_shrine": {},
+    "is_shrine_build": true,
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 0,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 1,
+      "charisma": 0,
+      "heavy_wep": 1,
+      "medium_wep": 0,
+      "light_wep": 0
+    },
+    "pre_shrine_attunements": {
+      "flamecharm": 1,
+      "frostdraw": 0,
+      "thundercall": 50,
+      "galebreathe": 60,
+      "shadowcast": 1,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
     "pre_shrine_talents": [],
-    "post_shrine_priorities": []
+    "post_shrine_priorities": [],
+    "post_shrine_priority": []
   },
   "shrine_of_order_progression": {
-    "is_shrine_build": false,
-    "pre_shrine": {},
+    "is_shrine_build": true,
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 0,
+      "agility": 40,
+      "intelligence": 0,
+      "willpower": 1,
+      "charisma": 0,
+      "heavy_wep": 1,
+      "medium_wep": 0,
+      "light_wep": 0
+    },
+    "pre_shrine_attunements": {
+      "flamecharm": 1,
+      "frostdraw": 0,
+      "thundercall": 50,
+      "galebreathe": 60,
+      "shadowcast": 1,
+      "ironsing": 0,
+      "bloodrend": 0
+    },
     "pre_shrine_talents": [],
-    "post_shrine_priorities": []
+    "post_shrine_priorities": [],
+    "post_shrine_priority": []
   },
-  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n",
+  "shrine_of_order_path": "**Pre-Shrine**: `Strength 1, Agility 40, Willpower 1, Heavy_wep 1, Flamecharm 1, Thundercall 50, Galebreathe 60, Shadowcast 1`\n**Post-Shrine 우선순위**:\n- 스탯 최적화 완료",
   "_stat_validation": {
     "total_points": 244,
     "target_cap": 330,

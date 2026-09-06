@@ -28,6 +28,8 @@ class DeepwokenAnalyzerGUI:
         self.style.configure("TButton", font=("Malgun Gothic", 10, "bold"), padding=6)
         
         self.last_analyzed_json = None
+        self.last_github_url = None
+        self.link_counter = 0
         self.create_widgets()
 
     def create_widgets(self):
@@ -128,6 +130,12 @@ class DeepwokenAnalyzerGUI:
         log_title = ttk.Label(log_header_frame, text="📋 진행 로그 및 분석 결과:", style="TLabel")
         log_title.pack(side=tk.LEFT)
 
+        self.open_github_btn = tk.Button(
+            log_header_frame, text="🔗 GitHub에서 보기", command=self.open_github_link,
+            bg="#2563eb", fg="white", font=("Malgun Gothic", 9, "bold"), relief=tk.FLAT, padx=8, pady=2, cursor="hand2", state=tk.DISABLED
+        )
+        self.open_github_btn.pack(side=tk.RIGHT, padx=(0, 6))
+
         self.copy_json_btn = tk.Button(
             log_header_frame, text="📋 deepwoken.co 주입 코드 복사", command=self.copy_injection_code,
             bg="#0f766e", fg="white", font=("Malgun Gothic", 9, "bold"), relief=tk.FLAT, padx=8, pady=2, cursor="hand2", state=tk.DISABLED
@@ -143,7 +151,38 @@ class DeepwokenAnalyzerGUI:
         self.log("💡 [안내] URL 입력창에 링크를 넣고 '대기열에 추가'를 누르면 순서대로 자동 분석됩니다.\n")
 
     def log(self, message):
-        self.log_text.insert(tk.END, message + "\n")
+        import re, webbrowser
+        # URL 패턴 감지하여 클릭 가능한 링크로 자동 변환
+        urls = re.findall(r'(https?://[^\s\)]+)', message)
+        if urls:
+            last_end = 0
+            for match in re.finditer(r'(https?://[^\s\)]+)', message):
+                start, end = match.span()
+                self.log_text.insert(tk.END, message[last_end:start])
+                url = match.group(1)
+                self.link_counter += 1
+                tag_name = f"auto_link_{self.link_counter}"
+                self.log_text.insert(tk.END, url, (tag_name,))
+                self.log_text.tag_config(tag_name, foreground="#38bdf8", underline=True)
+                self.log_text.tag_bind(tag_name, "<Button-1>", lambda e, u=url: webbrowser.open(u))
+                self.log_text.tag_bind(tag_name, "<Enter>", lambda e: self.log_text.config(cursor="hand2"))
+                self.log_text.tag_bind(tag_name, "<Leave>", lambda e: self.log_text.config(cursor="xterm"))
+                last_end = end
+            self.log_text.insert(tk.END, message[last_end:] + "\n")
+        else:
+            self.log_text.insert(tk.END, message + "\n")
+        self.log_text.see(tk.END)
+
+    def log_link(self, text: str, url: str):
+        """클릭 가능한 하이퍼링크 텍스트를 로그창에 출력"""
+        import webbrowser
+        self.link_counter += 1
+        tag_name = f"link_tag_{self.link_counter}"
+        self.log_text.insert(tk.END, text + "\n", (tag_name,))
+        self.log_text.tag_config(tag_name, foreground="#38bdf8", underline=True)
+        self.log_text.tag_bind(tag_name, "<Button-1>", lambda e, u=url: webbrowser.open(u))
+        self.log_text.tag_bind(tag_name, "<Enter>", lambda e: self.log_text.config(cursor="hand2"))
+        self.log_text.tag_bind(tag_name, "<Leave>", lambda e: self.log_text.config(cursor="xterm"))
         self.log_text.see(tk.END)
 
     def start_analysis(self):
@@ -261,8 +300,45 @@ class DeepwokenAnalyzerGUI:
 
     def _on_analysis_success(self, url: str):
         self.copy_json_btn.config(state=tk.NORMAL)
+
+        # 최신 분석 마크다운 및 JSON 파일 경로 추출
+        kb_dir = PROJECT_DIR / "data" / "knowledge_base"
+        analysis_dir = PROJECT_DIR / "data" / "analysis"
+        
+        md_files = sorted(kb_dir.rglob("*.md"), key=os.path.getmtime, reverse=True)
+        json_files = sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True)
+
+        if json_files:
+            self.last_analyzed_json = json_files[0]
+
+        if md_files:
+            latest_md = md_files[0]
+            rel_path = latest_md.relative_to(PROJECT_DIR).as_posix()
+            self.last_github_url = f"https://github.com/sonminki07/deepwoken_bulid_maker/blob/main/{rel_path}"
+            self.open_github_btn.config(state=tk.NORMAL)
+
+            # 🚀 기본 브라우저에서 GitHub 웹 링크 자동 열기!
+            import webbrowser
+            try:
+                webbrowser.open(self.last_github_url)
+                self.log("🚀 [자동 열림] 기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다!")
+            except Exception:
+                pass
+
+            self.log(f"📄 마크다운 문서: {latest_md.name}")
+            if self.last_analyzed_json:
+                self.log(f"💾 원시 JSON 파일: {self.last_analyzed_json.name}")
+            self.log_link(f"🔗 [클릭하여 깃허브에서 바로 보기] {self.last_github_url}", self.last_github_url)
+            self.log("💡 상단의 '🔗 GitHub에서 보기' 버튼을 눌러도 언제든 바로 열람할 수 있습니다.")
+
         # 깃허브 자동 백업 실행 (백그라운드 무음 실행)
         threading.Thread(target=self._auto_push_github, args=(url,), daemon=True).start()
+
+    def open_github_link(self):
+        """저장된 최신 빌드 GitHub 링크 또는 레포지토리 열기"""
+        import webbrowser
+        target_url = self.last_github_url or "https://github.com/sonminki07/deepwoken_bulid_maker"
+        webbrowser.open(target_url)
 
     def _auto_push_github(self, url: str):
         creation_flags = 0x08000000 if sys.platform == "win32" else 0
@@ -286,14 +362,6 @@ class DeepwokenAnalyzerGUI:
                 self.root.after(0, self.log, f"⚠️ [Google Drive 동기화 안내] {gmsg}")
         except Exception as ge:
             self.root.after(0, self.log, f"⚠️ [Google Drive 동기화 실패] {ge}")
-
-        # 최신 분석 파일 찾기 (하위 카테고리 폴더 재귀 탐색)
-        analysis_dir = PROJECT_DIR / "data" / "analysis"
-        json_files = sorted(analysis_dir.rglob("*.json"), key=os.path.getmtime, reverse=True)
-        if json_files:
-            self.last_analyzed_json = json_files[0]
-            self.log(f"\n💾 저장된 JSON: {self.last_analyzed_json.name}")
-            self.log("💡 우측 상단의 '📋 deepwoken.co 주입 코드 복사' 버튼을 눌러 바로 deepwoken.co/builder에 적용할 수 있습니다.")
 
     def copy_injection_code(self):
         if not self.last_analyzed_json or not self.last_analyzed_json.exists():

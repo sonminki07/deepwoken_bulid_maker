@@ -1,18 +1,111 @@
 import os
 import cv2
 import shutil
-import tempfile
 import subprocess
 import numpy as np
 import logging
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Tuple, Optional
 import imageio_ffmpeg
 
 logger = logging.getLogger(__name__)
 
+class MultiUIStatDetector:
+    """인게임 Stat Sheet, deepwoken.co 웹 빌더, 커스텀 스탯 요약 카드 다중 UI 정밀 감지기"""
+
+    @staticmethod
+    def detect_ingame_hud(img: np.ndarray) -> float:
+        """1. 인게임 기본 스탯창: 우측 Power 20 엠블럼, 4대 Traits 원, STATS/RESISTANCES 패널"""
+        try:
+            h, w = img.shape[:2]
+            # 우측 상단 영역 (x: 65%~99%, y: 2%~30%)
+            top_right = img[int(h * 0.02):int(h * 0.30), int(w * 0.65):int(w * 0.99)]
+            tr_hsv = cv2.cvtColor(top_right, cv2.COLOR_BGR2HSV)
+            blue_mask = cv2.inRange(tr_hsv, np.array([90, 70, 70]), np.array([130, 255, 255]))
+            gold_mask = cv2.inRange(tr_hsv, np.array([15, 60, 60]), np.array([40, 255, 255]))
+            emblem_pixels = np.count_nonzero(blue_mask | gold_mask)
+
+            # 우측 하단 STATS / RESISTANCES 영역 (x: 68%~99%, y: 70%~98%)
+            bottom_right = img[int(h * 0.70):int(h * 0.98), int(w * 0.68):int(w * 0.99)]
+            br_gray = cv2.cvtColor(bottom_right, cv2.COLOR_BGR2GRAY)
+            br_edges = cv2.Canny(br_gray, 50, 150)
+            br_edge_density = float(np.mean(br_edges))
+
+            # 우측 패널 선명도
+            right_panel = img[int(h * 0.05):int(h * 0.95), int(w * 0.65):int(w * 0.99)]
+            rp_gray = cv2.cvtColor(right_panel, cv2.COLOR_BGR2GRAY)
+            sharpness = float(cv2.Laplacian(rp_gray, cv2.CV_64F).var())
+
+            return (emblem_pixels * 0.5) + (br_edge_density * 3.0) + min(sharpness, 500.0) * 0.2
+        except Exception:
+            return 0.0
+
+    @staticmethod
+    def detect_builder_web(img: np.ndarray) -> float:
+        """2. deepwoken.co 웹 빌더 화면: 다크 테마 배경(#0d0d12 ~ #1a1a24) + 중앙/전체 격자 구조 + 높은 텍스트 밀도"""
+        try:
+            h, w = img.shape[:2]
+            gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+            
+            # 다크 모드 특성 (평균 밝기가 어두움: 10 ~ 80)
+            mean_brightness = float(np.mean(gray))
+            if not (10 <= mean_brightness <= 80):
+                return 0.0
+
+            # 중앙/우측 스탯 박스들의 격자선 및 테이블 에지 검출
+            center_area = gray[int(h * 0.15):int(h * 0.85), int(w * 0.15):int(w * 0.85)]
+            edges = cv2.Canny(center_area, 40, 120)
+            edge_density = float(np.mean(edges))
+
+            # 수직/수평 선형 구조 검출 (웹 컴포넌트 박스)
+            sobelx = cv2.Sobel(center_area, cv2.CV_64F, 1, 0, ksize=3)
+            sobely = cv2.Sobel(center_area, cv2.CV_64F, 0, 1, ksize=3)
+            grid_score = float(np.mean(np.abs(sobelx)) + np.mean(np.abs(sobely)))
+
+            if edge_density > 15.0 and grid_score > 25.0:
+                return (edge_density * 3.5) + (grid_score * 1.5)
+            return 0.0
+        except Exception:
+            return 0.0
+
+    @staticmethod
+    def detect_text_card(img: np.ndarray) -> float:
+        """3. 편집자 커스텀 스탯 자막/카드 (중앙 반투명 박스 및 굵은 스탯 텍스트)"""
+        try:
+            h, w = img.shape[:2]
+            center_rect = img[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
+            cr_gray = cv2.cvtColor(center_rect, cv2.COLOR_BGR2GRAY)
+            
+            # 높은 선명도 및 텍스트 외곽선
+            sharpness = float(cv2.Laplacian(cr_gray, cv2.CV_64F).var())
+            edges = cv2.Canny(cr_gray, 50, 150)
+            edge_density = float(np.mean(edges))
+
+            if sharpness > 180.0 and edge_density > 12.0:
+                return min(sharpness, 400.0) * 0.25 + (edge_density * 2.0)
+            return 0.0
+        except Exception:
+            return 0.0
+
+    @classmethod
+    def evaluate_frame(cls, img: np.ndarray) -> Tuple[float, str]:
+        """세 가지 UI 형태 중 가장 높은 점수와 UI 유형 반환"""
+        s_hud = cls.detect_ingame_hud(img)
+        s_builder = cls.detect_builder_web(img)
+        s_card = cls.detect_text_card(img)
+
+        best_score = max(s_hud, s_builder, s_card)
+        if best_score == s_hud and s_hud > 0:
+            return s_hud, "ingame_hud"
+        elif best_score == s_builder and s_builder > 0:
+            return s_builder, "builder_web"
+        elif s_card > 0:
+            return s_card, "text_card"
+        return 0.0, "unknown"
+
+
 class FrameExtractor:
-    """FFmpeg + OpenCV 하이브리드 초고속 정밀 프레임 추출 및 전처리 모듈"""
+    """FFmpeg + OpenCV 하이브리드 고밀도 2단계(Pre/Post) 스마트 프레임 추출기"""
 
     def __init__(self, output_dir: str = "data/keyframes"):
         self.output_dir = Path(output_dir)
@@ -22,135 +115,149 @@ class FrameExtractor:
         except Exception:
             self.ffmpeg_exe = "ffmpeg"
 
+    def _get_video_duration(self, video_path: Path) -> float:
+        """OpenCV로 비디오 총 길이 측정"""
+        try:
+            cap = cv2.VideoCapture(str(video_path))
+            fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
+            count = cap.get(cv2.CAP_PROP_FRAME_COUNT) or 0
+            cap.release()
+            if count > 0 and fps > 0:
+                return count / fps
+        except Exception:
+            pass
+        return 300.0
+
+    def extract_dual_stage_keyframes(
+        self,
+        video_path: Path,
+        max_pre_frames: int = 3,
+        max_post_frames: int = 3,
+        sample_interval_sec: float = 0.5,
+        **kwargs
+    ) -> Dict[str, List[Dict[str, Any]]]:
+        """
+        영상 전 구간을 1-Pass 고속 순차 스트리밍(Sequential Streaming)으로 스캔하여
+        시킹(seeking) 데드락 없이 초고속으로
+        영상 초반(0~45% Pre-Shrine)과 후반(55~100% Post-Shrine)의 최적 빌드 프레임을 독립 선별
+        """
+        if not video_path.exists():
+            raise FileNotFoundError(f"Video file not found: {video_path}")
+
+        cap = cv2.VideoCapture(str(video_path))
+        if not cap.isOpened():
+            logger.error(f"Cannot open video with OpenCV: {video_path}")
+            return {"pre_shrine": [], "post_shrine": []}
+
+        fps = cap.get(cv2.CAP_PROP_FPS) or 30.0
+        total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
+        total_dur = (total_frames / fps) if (fps > 0 and total_frames > 0) else self._get_video_duration(video_path)
+        logger.info(f"🚀 [1-Pass Smart Stream Scan] Video: {video_path.name} ({total_dur:.1f}s, {fps:.0f}fps)")
+
+        # 0.5초 간격 = fps * 0.5 프레임마다 retrieve 및 평가 (시킹 0회)
+        step_frames = max(1, int(fps * sample_interval_sec))
+        frame_idx = 0
+        all_scored = []
+
+        while True:
+            ret = cap.grab()
+            if not ret:
+                break
+            if frame_idx % step_frames == 0:
+                ret, frame = cap.retrieve()
+                if ret and frame is not None:
+                    score, ui_type = MultiUIStatDetector.evaluate_frame(frame)
+                    if score > 8.0:
+                        t_sec = frame_idx / fps
+                        all_scored.append({
+                            "timestamp_sec": t_sec,
+                            "score": score,
+                            "ui_type": ui_type,
+                            "frame": frame
+                        })
+            frame_idx += 1
+
+        cap.release()
+        logger.info(f"📊 [Stream Scan Complete] Evaluated {frame_idx} frames, found {len(all_scored)} candidate UI points.")
+
+        # ----------------------------------------------------
+        # Pre-Shrine(0~45%) vs Post-Shrine(55~100%) 버킷 분리
+        # ----------------------------------------------------
+        split_pre_boundary = total_dur * 0.45
+        split_post_boundary = total_dur * 0.55
+
+        pre_candidates = [f for f in all_scored if f["timestamp_sec"] <= split_pre_boundary]
+        post_candidates = [f for f in all_scored if f["timestamp_sec"] >= split_post_boundary]
+
+        # 점수 내림차순 정렬
+        pre_candidates.sort(key=lambda x: x["score"], reverse=True)
+        post_candidates.sort(key=lambda x: x["score"], reverse=True)
+
+        def _select_top_distinct(candidates: List[Dict[str, Any]], max_count: int, stage_tag: str) -> List[Dict[str, Any]]:
+            selected = []
+            for item in candidates:
+                if len(selected) >= max_count:
+                    break
+                # 시간 중복 방지 (최소 1.5초 간격)
+                if any(abs(item["timestamp_sec"] - s["timestamp_sec"]) < 1.5 for s in selected):
+                    continue
+
+                t_sec = item["timestamp_sec"]
+                img = item["frame"]
+                h, w = img.shape[:2]
+
+                # 1) 원본 프레임 저장
+                raw_filename = f"{video_path.stem}_{stage_tag}_{int(t_sec)}s_raw.jpg"
+                raw_path = self.output_dir / raw_filename
+                cv2.imwrite(str(raw_path), img, [cv2.IMWRITE_JPEG_QUALITY, 95])
+
+                # 2) 우측 스탯창 또는 중앙 패널 크롭 저장
+                if item["ui_type"] == "ingame_hud":
+                    # 우측 35% 영역 크롭
+                    stat_crop = img[:, int(w * 0.65):]
+                else:
+                    # 중앙 80% 영역 크롭
+                    stat_crop = img[int(h * 0.10):int(h * 0.90), int(w * 0.10):int(w * 0.90)]
+
+                crop_filename = f"{video_path.stem}_{stage_tag}_{int(t_sec)}s_crop.jpg"
+                crop_path = self.output_dir / crop_filename
+                cv2.imwrite(str(crop_path), stat_crop, [cv2.IMWRITE_JPEG_QUALITY, 95])
+
+                selected.append({
+                    "timestamp_sec": t_sec,
+                    "hud_score": item["score"],
+                    "ui_type": item["ui_type"],
+                    "stage": stage_tag,
+                    "path": str(raw_path),
+                    "raw_path": str(raw_path),
+                    "stat_crop_path": str(crop_path)
+                })
+            return selected
+
+        pre_selected = _select_top_distinct(pre_candidates, max_pre_frames, "pre_shrine")
+        post_selected = _select_top_distinct(post_candidates, max_post_frames, "post_shrine")
+
+        logger.info(f"🎯 [Selection Done] Pre-Shrine Frames: {len(pre_selected)} | Post-Shrine Frames: {len(post_selected)}")
+        return {
+            "pre_shrine": pre_selected,
+            "post_shrine": post_selected
+        }
+
     def extract_sharp_keyframes(
         self,
         video_path: Path,
         max_keyframes: int = 6,
-        sample_step_sec: float = 2.0,
-        min_sharpness: float = 25.0
+        fps_step: float = 1.0,
+        **kwargs
     ) -> List[Dict[str, Any]]:
-        """빌드 쇼케이스가 집중된 초반 및 핵심 구간에서 고화질 프레임을 초고속 추출"""
-        if not video_path.exists():
-            raise FileNotFoundError(f"Video file not found: {video_path}")
-
-        with tempfile.TemporaryDirectory() as temp_dir:
-            temp_path = Path(temp_dir)
-            out_pattern = str(temp_path / "f_%04d.jpg")
-
-            # 딥위큰 빌드 소개가 집중되는 전반부(0~240초)를 1.5초 간격으로 초고속 캡처
-            cmd = [
-                self.ffmpeg_exe, "-y",
-                "-ss", "0",
-                "-t", "240",
-                "-i", str(video_path),
-                "-vf", "fps=0.66",
-                "-q:v", "2",
-                out_pattern
-            ]
-
-            logger.info("Extracting showcase frames via FFmpeg (0~240s)...")
-            res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-
-            extracted_files = sorted(list(temp_path.glob("f_*.jpg")))
-            if not extracted_files:
-                logger.warning("FFmpeg frame extraction yielded no frames.")
-                return []
-
-            candidates = []
-            for idx, f_file in enumerate(extracted_files):
-                sec = idx * 1.5
-                img = cv2.imread(str(f_file))
-                if img is None:
-                    continue
-
-                # 고속 처리를 위해 480p 해상도로 축소하여 선명도 및 에지 계산
-                small = cv2.resize(img, (480, 270))
-                gray = cv2.cvtColor(small, cv2.COLOR_BGR2GRAY)
-                sharpness = float(cv2.Laplacian(gray, cv2.CV_64F).var())
-
-                # Deepwoken 스탯 UI 영역:
-                # 1) 우측 스탯 패널 (x: 60%~98%, y: 4%~96%)
-                h, w = gray.shape
-                right_crop = gray[int(h*0.04):int(h*0.96), int(w*0.60):int(w*0.98)]
-                right_edges = cv2.Canny(right_crop, 50, 150)
-                right_edge_density = float(np.mean(right_edges))
-
-                # 2) 전체 중앙/빌더 에지 밀도
-                center_crop = gray[int(h*0.05):int(h*0.90), int(w*0.20):int(w*0.80)]
-                center_edges = cv2.Canny(center_crop, 50, 150)
-                center_edge_density = float(np.mean(center_edges))
-
-                # 우측 스탯창이 활성화된 경우 가중치를 대폭 부여
-                ui_score = right_edge_density * 4.0 + center_edge_density * 1.5 + min(sharpness, 400.0) * 0.1
-
-                if sharpness >= min_sharpness:
-                    candidates.append({
-                        "timestamp_sec": sec,
-                        "sharpness": sharpness,
-                        "ui_score": ui_score,
-                        "file_path": f_file
-                    })
-
-            if not candidates:
-                logger.warning("No candidate passed sharpness threshold.")
-                return []
-
-            # UI 점수 순 정렬 후 시간 간격 3초 이상으로 분산 선별
-            candidates.sort(key=lambda x: x["ui_score"], reverse=True)
-            selected = []
-            min_time_gap = 3.0
-
-            for cand in candidates:
-                t = cand["timestamp_sec"]
-                if not any(abs(t - s["timestamp_sec"]) < min_time_gap for s in selected):
-                    selected.append(cand)
-                    if len(selected) >= max_keyframes:
-                        break
-
-            selected.sort(key=lambda x: x["timestamp_sec"])
-
-            video_stem = video_path.stem
-            saved_keyframes = []
-
-            for rank, item in enumerate(selected):
-                sec = item["timestamp_sec"]
-                raw_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_raw.jpg"
-                enhanced_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_enhanced.jpg"
-                stat_crop_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_stat_crop.jpg"
-                inv_crop_path = self.output_dir / f"{video_stem}_kf{rank+1}_{int(sec)}s_inv_crop.jpg"
-
-                shutil.copy(item["file_path"], raw_path)
-
-                # 원본 1080p 로드 및 ROI 크롭 생성
-                img = cv2.imread(str(raw_path))
-                ih, iw, _ = img.shape
-
-                # 1) 우측 스탯 패널 크롭 (x: 62%~99%, y: 3%~97%) 및 1.5배 업스케일
-                stat_crop = img[int(ih*0.03):int(ih*0.97), int(iw*0.62):int(iw*0.99)]
-                if stat_crop.size > 0:
-                    stat_crop_up = cv2.resize(stat_crop, (int(stat_crop.shape[1] * 1.5), int(stat_crop.shape[0] * 1.5)), interpolation=cv2.INTER_LANCZOS4)
-                    cv2.imwrite(str(stat_crop_path), stat_crop_up, [cv2.IMWRITE_JPEG_QUALITY, 95])
-
-                # 2) 좌측 인벤토리 크롭 (x: 3%~45%, y: 5%~95%)
-                inv_crop = img[int(ih*0.05):int(ih*0.95), int(iw*0.03):int(iw*0.48)]
-                if inv_crop.size > 0:
-                    cv2.imwrite(str(inv_crop_path), inv_crop, [cv2.IMWRITE_JPEG_QUALITY, 95])
-
-                # 3) OpenCV CLAHE 고대비 전처리 이미지
-                gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-                clahe = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8,8))
-                enhanced = clahe.apply(gray)
-                cv2.imwrite(str(enhanced_path), enhanced, [cv2.IMWRITE_JPEG_QUALITY, 95])
-
-                saved_keyframes.append({
-                    "rank": rank + 1,
-                    "timestamp_sec": sec,
-                    "sharpness": item["sharpness"],
-                    "raw_path": raw_path,
-                    "enhanced_path": enhanced_path,
-                    "stat_crop_path": stat_crop_path if stat_crop_path.exists() else raw_path,
-                    "inv_crop_path": inv_crop_path if inv_crop_path.exists() else raw_path
-                })
-                logger.info(f"⭐ [Keyframe #{rank+1}] At {sec:.1f}s (Sharpness: {item['sharpness']:.1f}, UI Score: {item['ui_score']:.1f}) -> {raw_path.name}")
-
-            return saved_keyframes
+        """기존 파이프라인 호환용 (sample_step_sec 포함 모든 kwargs 지원 및 Pre/Post 프레임 종합 반환)"""
+        coarse_step = kwargs.get("sample_step_sec", fps_step)
+        dual = self.extract_dual_stage_keyframes(
+            video_path=video_path,
+            max_pre_frames=max(1, max_keyframes // 2),
+            max_post_frames=max(1, max_keyframes // 2),
+            coarse_step_sec=coarse_step
+        )
+        combined = dual.get("post_shrine", []) + dual.get("pre_shrine", [])
+        combined.sort(key=lambda x: x.get("hud_score", 0), reverse=True)
+        return combined[:max_keyframes]

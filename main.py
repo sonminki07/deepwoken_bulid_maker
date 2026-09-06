@@ -53,23 +53,59 @@ def handle_analyze(args):
     console.print(f"[bold cyan]🔍 Analyzing YouTube video:[/] {args.url}")
     orchestrator = PipelineOrchestrator(config_path=args.config)
     res = orchestrator.process_url(args.url)
+    
+    md_path = Path(res['md_path'])
+    json_path = Path(res['json_path'])
+    rel_md = md_path.as_posix()
+    github_url = f"https://github.com/sonminki07/deepwoken_bulid_maker/blob/main/{rel_md}"
+    md_file_url = md_path.resolve().as_uri()
+    json_file_url = json_path.resolve().as_uri()
+
     console.print(f"\n[bold green]✅ 분석 완료![/bold green]")
     console.print(f"- [bold]빌드명:[/] {res['build_name']}")
-    console.print(f"- [bold]JSON 파일:[/] {res['json_path']}")
-    console.print(f"- [bold]Markdown 파일:[/] {res['md_path']}")
+    console.print(f"- [bold]JSON 파일:[/] [link={json_file_url}]{res['json_path']}[/link]")
+    console.print(f"- [bold]Markdown 파일:[/] [link={md_file_url}]{res['md_path']}[/link]")
+    console.print(f"- [bold]🌐 GitHub 웹 링크:[/] [link={github_url}][bold cyan underline]{github_url}[/bold cyan underline][/link]")
     console.print(f"- [bold]소요 시간:[/] {res['elapsed_seconds']:.2f}초")
+
+    # 기본 브라우저에서 GitHub 웹 링크 자동 열기
+    if not getattr(args, 'no_open', False):
+        import webbrowser
+        try:
+            webbrowser.open(github_url)
+            console.print("🚀 [bold green]기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다![/bold green]")
+        except Exception as e:
+            logger.debug(f"Auto browser open failed: {e}")
 
 def handle_web(args):
     check_gemini_key()
     console.print(f"[bold cyan]🌐 Analyzing Web Page via Sub-Agents:[/] {args.url}")
     orchestrator = WebPipelineOrchestrator(config_path=args.config)
     res = orchestrator.process_url(args.url)
+    
+    md_path = Path(res['md_path'])
+    json_path = Path(res['json_path'])
+    rel_md = md_path.as_posix()
+    github_url = f"https://github.com/sonminki07/deepwoken_bulid_maker/blob/main/{rel_md}"
+    md_file_url = md_path.resolve().as_uri()
+    json_file_url = json_path.resolve().as_uri()
+
     console.print(f"\n[bold green]✅ 웹페이지 서브 에이전트 분석 완료![/bold green]")
     console.print(f"- [bold]빌드명:[/] {res['build_name']}")
     console.print(f"- [bold]문서 ID:[/] {res['doc_id']}")
-    console.print(f"- [bold]JSON 파일:[/] {res['json_path']}")
-    console.print(f"- [bold]Markdown 파일:[/] {res['md_path']}")
+    console.print(f"- [bold]JSON 파일:[/] [link={json_file_url}]{res['json_path']}[/link]")
+    console.print(f"- [bold]Markdown 파일:[/] [link={md_file_url}]{res['md_path']}[/link]")
+    console.print(f"- [bold]🌐 GitHub 웹 링크:[/] [link={github_url}][bold cyan underline]{github_url}[/bold cyan underline][/link]")
     console.print(f"- [bold]소요 시간:[/] {res['elapsed_seconds']:.2f}초")
+
+    # 기본 브라우저에서 GitHub 웹 링크 자동 열기
+    if not getattr(args, 'no_open', False):
+        import webbrowser
+        try:
+            webbrowser.open(github_url)
+            console.print("🚀 [bold green]기본 웹 브라우저에서 분석 결과 페이지가 자동으로 열렸습니다![/bold green]")
+        except Exception as e:
+            logger.debug(f"Auto browser open failed: {e}")
 
 def handle_batch(args):
     check_gemini_key()

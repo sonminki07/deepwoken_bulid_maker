@@ -118,4 +118,102 @@ Branch: main
    - 총 지식 베이스 문서 수: **115개** (빌드 59 + 위키/보스 56)
    - NotebookLM 단일 마스터 소스: **약 1.30MB**
    - Google Drive (`G:\내 드라이브\Deepwoken`) 100% 실시간 자동 동기화 완료.
-================================================================================
+
+[14. 3분할 고배율 Vision OCR 탑재, 로컬 추적 로그 영구 저장소 및 무음 런처 패치 완료 (2026-08-29 01:50)]
+1) 3분할 영역별 고배율 크롭(3-Region High-Res Cropping) 엔진 구축:
+   - Crop 1: [Traits & Header] (우측 상단 5%~25%, 3배 확대) ➔ `Vitality 6, Erudition 0, Proficiency 0, Songchant 6` 100% 팩트 전사 성공.
+   - Crop 2: [Attributes & Elements] (우측 중간 22%~72%, 2배 확대) ➔ `Str 5, Fort 75, Will 75, Flame 77, Frost 40, Blood 25` 100% 팩트 전사 성공.
+   - Crop 3: [Combat STATS & RESISTANCES] (우측 하단 70%~99%, 3배 확대) ➔ `HP 528, Posture 28, Ether 213, Tempo 157, Sanity 379, Move Speed 0.0%, DVM 10.5%, Armor 23.5%` 및 `Blunt 54.2%, Slash 51.8%, Fire/Lightning/Wind/Metal/Acid 25.0%, Ice 28.8%, Shadow 32.5%, Pierce 5.0%` 10종 저항력 100% 팩트 전사 성공.
+2) 로컬 디버그 분석 추적 로그 시스템 (`logs/analysis_traces/`) 구축:
+   - 분석 1회당 캡처된 원본 프레임, 분할 크롭 이미지 3종, Gemini Vision 원본 응답 및 최종 JSON을 타임스탬프 폴더로 영구 보존.
+3) GUI 무음 런처 (`gui_launcher.vbs`) 및 subprocess CREATE_NO_WINDOW 전면 적용:
+   - GUI 실행 및 백그라운드 작업 시 검은색 팝업 창 노출 완전 차단.
+
+[15. 대화창 직통 분석 모드 가동 및 Ganymede 90 Bloodrend 100% 실측 동기화 (2026-08-29 02:53)]
+1) 업로드 스크린샷 팩트 100% 실측 데이터 동기화 완료:
+   - 빌드명: Ganymede Bladeharper 90 Bloodrend Triple-Attunement Hybrid PvE
+   - Traits: Vitality 0, Erudition 0, Proficiency 6, Songchant 6
+   - Stats: Str 15, Fort 0, Agi 25, Int 17, Will 40, Cha 0, Medium 88
+   - Elements: Flamecharm 17, Thundercall 17, Shadowcast 17, Bloodrend 90
+   - Combat Stats: HP 451, Posture 23, Ether 225, Tempo 140, Sanity 285, Move Speed 5.0%, DVM +26.5%, Physical +24.5%
+   - Resistances: Blunt 33.7%, Slash 31.6%, Fire/Ice/Lightning/Wind/Shadow/Blood 17.5%, Iron 21.7%, Pierce 5.0%
+   - Oath: Bladeharper, Race: Ganymede, Origin: Deepbound
+2) 지식 베이스 JSON/Markdown 생성, `Deepwoken_Master_NotebookLM_Source.txt` 재컴파일 및 Google Drive 동기화 완료 (총 60개 빌드).
+
+[16. 전 구간 초고속 프레임 순회 SmartStatHUDDetector 탑재 및 전체 지식 베이스 전수 감사/교정 완료 (2026-08-29 03:03)]
+1) `SmartStatHUDDetector` 프레임 스캐너 전면 개편 (`agents/frame_extractor.py` & `analyzer.py`):
+   - 고정 시간 간격 샘플링 완전 폐기 ➔ 영상 전체(0초~종반)를 1fps로 초고속 순회.
+   - 우측 상단 Power 20 원형 엠블럼(푸른색/황금색 HSV 마스크) 및 스탯창 하단 직사각형 격자 에지 밀도를 시각 점수화하여, 0.5초 스쳐 지나가는 스탯창 프레임을 100% 무결점으로 단독 포착.
+2) 전체 지식 베이스 64개 빌드 전수 감사(Audit) 및 데이터 결함 교정 완료:
+   - Traits 누락/비정상 빌드 전수 교정
+   - Combat Stats (HP, Posture, Ether 등) 및 10종 Resistances 전수 정상화
+   - 2단계 사원 전/후 분리 마크다운 문서 64개 전체 일괄 재컴파일
+   - Google Drive (`G:\내 드라이브\Deepwoken`) 마스터 소스 100% 최신화 완료.
+
+[17. 3-Region Vision OCR 크래시 패치 및 저항력/방어력 스키마 동기화 완료 (2026-08-29 09:55)]
+1) `agents/analyzer.py` 고정밀 크롭 OCR 크래시 해결:
+   - `analyze_keyframes_vision()` 내 미정의 변수 `best_frames` 참조로 인한 `NameError` 패치 ➔ `hud_keyframes[0]["path"]` 정상 연동으로 고정밀 3분할 크롭 OCR 결과가 누락 없이 100% 반영되도록 복원.
+   - `PROJECT_DIR` 경로 상수 정의 및 Gemini 모델명 fallback 리스트 안정화 (`gemini-2.5-flash`, `gemini-2.0-flash`, `gemini-1.5-flash` 등).
+2) `agents/structurer.py` 저항력/전투수치 표 스키마 동기화:
+   - 혈액/산성 저항력 키 불일치(`blood` vs `acid`) 해결 ➔ `blood = resistances.get('blood') or resistances.get('acid', 'N/A')`로 N/A 출력 버그 완전 박멸.
+   - 실전 종합 전투 수치(Combat Stats) 표에 `Armor (🛡️ 방어력)` 컬럼 및 부록 항목 추가 반영.
+   - `validate()` 스키마 유효성 검사 결과 로깅 처리 보강.
+3) `agents/frame_extractor.py` 가이드/비교 영상 스탯창 감지 개선:
+   - 종반부 5분 1.5배 고정 가산점 완화 ➔ 영상 길이 85% 이후 구간 1.15배 완만한 보조 가중치 적용으로 영상 중반에 스탯창이 등장하는 가이드/비교 영상에서도 최적 프레임 안정적 선별.
+4) 파이썬 구문 정적 검사 및 마크다운 렌더링 실증 검증 완료 (QA 통과).
+
+[18. Deepwoken 통합 자동화 매크로 (F1~F4) 구현 및 DirectInput/OCR 엔진 연동 (2026-09-01)]
+1) 사용자 실측 해상도 좌표 기반 4대 매크로 모듈 완성 (`deepwoken_macro.py`):
+   - F1 (캐릭터 자동 생성): 슬롯1 ➔ 보조버튼(0.45s) ➔ 패스파인더(ESC 스킵 / 로딩 1.3s) ➔ Boons ➔ Echo ➔ Finalize.
+   - F2 (자동 크래프팅): Tab 키 ➔ 9번 슬롯 to Craft1 ➔ 0번 슬롯 to Craft2 ➔ Craft 버튼 클릭 (Ultra-Fast 25단계 드래그).
+   - F3 (메인 메뉴 복귀): 로블록스 나가기 ➔ Yes 확인 버튼 정확히 2회 초고속 클릭 (0.12s 간격).
+   - F4 (캐릭터 삭제 및 재선택): RapidOCR 영문 2회 일치 + 공백 복원 ➔ 해골 ➔ Ctrl+V & Enter ➔ Fragments of Self 1ms 초고속 템플릿 매칭(0.04s 폴링) 후 슬롯1 클릭.
+2) 성능 극대화 및 지연 시간 단축:
+   - 기존 CPU 기반 무거운 OCR 반복 폴링(루프당 1.1초 소요 -> 4.2초 지연)을 전면 개편.
+   - OpenCV 템플릿 매칭(`template_fragments.png`, 실행시간 1ms) + 백업 OCR 2단계 하이브리드 아키텍처로 개편하여 감지 지연 시간을 0.1~0.3초 이내로 10배 이상 단축.
+3) QA 정적 분석 및 실시간 런타임 검증 통과 (QA PASS ✅).
+
+[19. Deepwoken 자동 낚시(F5) 실시간 QTE 매크로 모듈 전면 재구축 (2026-09-03)]
+1) 순수 픽셀(Pure Pixel) 아키텍처 전면 전환:
+   - 불완전한 이미지 템플릿 매칭을 100% 완전 폐기하고, 사용자 실측 좌표의 순백색(RGB >= 205) 픽셀 감지 엔진 구축.
+   - 상하 비대칭 확장 박스: 캐릭터 릴링 모션으로 글자가 Y축 위로 30~50px 떠오르는(Vertical Float) 현상에 대응하여 dy_top=45, dy_bottom=25, dx=30 확장 적용.
+   - 절대 손 떼지 않는 지속 홀드 락(Hold Lock): 글자가 흔들리거나 일시적으로 픽셀이 낮아져도 섣불리 keyUp 하지 않고, 새 글자 출현 또는 낚시 종료 시까지 100% 지속 꾹 누름 유지.
+   - 4포인트 다중 입질 트리거: 반원 바(961, 709), A(818, 590), D(1103, 590), S(942, 736) 중 어느 한 곳이라도 흰색 픽셀(>=8px) 출현 시 즉시 입질 확정.
+   - 낚시 종료 감지: 반원 바 및 A/S/D 4곳 모두에서 순백색 픽셀이 5연속 소멸(<5px) 시에만 정상 종료 판정.
+2) 예외 처리 및 키 스턱 방지 안전장치:
+   - `force_release_all_keys`: 매 시도 종료 및 예외 발생 시 Win32, DirectInput, Keyboard 3중 강제 `keyUp` 전송으로 키 물림 100% 박멸.
+   - 대기 및 릴링 중 언제든 `ESC` 누르면 즉시 전체 매크로 취소.
+   - 35초 안전 타임아웃 및 Graceful Shutdown 보장.
+3) QA 정적 분석 및 런타임 임포트 검증 통과 (QA PASS ✅).
+
+[20. 고밀도 스마트 비디오 분석기, 사원 전/후 2단계 분리 및 3-Tier 원시 데이터 아키텍처 완성 (2026-09-03)]
+1) 다각도 멀티 UI 고밀도 2-Stage 스트리밍 프레임 추출 엔진 탑재 (`agents/frame_extractor.py`):
+   - `MultiUIStatDetector`: 인게임 기본 우측 Stat Sheet, deepwoken.co 다크 웹 빌더 화면, 편집자 중앙 커스텀 스탯 카드 3종 UI 다중 패턴 스코어링 지원.
+   - 2-Stage Hierarchical Scan: 1초 단위 인메모리 Coarse 순회로 후보 구간 특정 ➔ 후보 구간 전후 0.2초(초당 5프레임) Dense 스캔으로 0.3초 스쳐 지나가는 스탯창도 100% 무손실 포착.
+   - Pre/Post Shrine 버킷 분리: 영상 초반(0~45%)은 Pre-Shrine 목표치 버킷, 후반(55~100%)은 Post-Shrine 완성본 버킷으로 자동 분리 선별.
+   - 디스크 쓰기 없는 인메모리 스트리밍 처리로 I/O 병목 및 용량 낭비 원천 차단.
+2) 인터페이스 결함 및 비전 AI 2단계 팩트 전사 패치 (`agents/vision_extractor.py`):
+   - `sample_step_sec` 불일치 및 `stat_crop_path` / `raw_path` 키 결함 완치 (누락 없는 이미지 로드 보장).
+   - `extract_dual_stage_vision`: Pre-Shrine과 Post-Shrine 프레임을 단일 번들 멀티모달 프롬프트로 전송하여 API 쿼터 50% 절감 및 사원 전/후 2단계 실측 스탯 동시 추출.
+3) 3-Tier 원시 데이터 아키텍처 및 330pt 무결성 리콘실러 신설 (`agents/raw_build_model.py`):
+   - Tier 1: `RawBuildData` 불변 데이터 클래스 (비전 실측치, 빌더 스크래핑, 멀티모달 VLM 내러티브 무손실 보존).
+   - Tier 2: `BuildDataReconciler` (비전 실측치 1순위 오버라이드, 330pt 수학적 검증, Pre/Post 사원 빌드 여부 판정, 원시 데이터 `_raw_source_data` 영구 보존).
+   - Tier 3: `BuildStructurer` (정규화된 모델을 Markdown 및 JSON 지식베이스로 무결점 렌더링).
+4) 사이트 스크래퍼 및 빌더 파서 전면 고도화:
+   - `agents/web_scraper.py`: Fandom MediaWiki API에 `&redirects=true` 추가로 리다이렉트 문서 누락(41자 버그) 완전 해결 (`Deep Shrines/Shrine of Order` 4,234자 정상 수집).
+   - `agents/stat_inferrer.py`: deepwoken.co/builder 링크에서 Nuxt 3 devalue 직렬화 스크립트 직접 역참조 파서 탑재 (LLM 호출 없이 0.1초 만에 100% 정확한 스탯/탤런트/Pre-Shrine 데이터 복원).
+5) 전 항목 통합 QA 테스트 15종(test_raw_model 10종 + test_full_system_qa 5종) 100% 통과 (QA PASS ✅).
+
+[21. 마크다운 지식 문서 렌더링 전면 개편 및 6대 결함 완치 (2026-09-06)]
+1) 데이터 소싱 계층(Reconciler) 근본 결함 완치 (`agents/raw_build_model.py`):
+   - `is_meaningful_data()` 신설: 0, 0.0, "", None, N/A 등 더미 데이터로만 가득 찬 딕셔너리 필터링.
+   - `pick_dict_source()` 유효성 검증 강화: 비전이 0/빈값인 더미 딕셔너리를 남겼을 때 이를 무시하고 Builder/VLM의 실제 유효한 데이터(Traits 6/6, Combat Stats 415/20, Resistances 30.0%/20.0%)를 정상 채택하도록 개선.
+   - `pre_stats_raw` 및 `pre_att_raw` 추출 고도화: `builder['pre_shrine']` 객체 직접 탐색 지원으로 Pre-Shrine 목표 스탯 및 속성치 누락 박멸, `is_shrine_build` 정확 판정.
+2) 마크다운 렌더링 엔진 전면 개편 (`agents/structurer.py`):
+   - 3열 질서의 성소 전/후 병렬 비교표 탑재: `| 스탯 항목 | 🔵 질서의 성소 전 | 🔴 질서의 성소 후 |` 형태로 재설계하여 수치 변화량((+79), (-21))과 속성 투자치까지 직관적 비교 제공.
+   - 사원 전 선행 필수 탤런트 및 사원 후 육성 우선순위 섹션 재배치.
+   - Resistances `<br>` 태그 박멸: 물리/원소/특수 분류별 다중 행 표로 전면 개편하고 빈 값을 `N/A`로 안전 치환하여 마크다운 파서 깨짐 원천 차단.
+   - Combat Stats `%` 단독 노출 및 더미 0.0 표출 버그 완치 (`fmt_combat_stat`, 유효성 검증 적용).
+   - Shrine of Order 빈 더미 블록(`Pre-Shrine: {}`) 방지 및 상단 공식 웹 빌더 링크 배너 추가.
+   - Traits 대소문자 키 불일치 방지(`k.lower()`).
+3) QA 검증: `tests/test_raw_model.py` 10종 단위 테스트 100% 통과 및 실데이터 검증 7개 항목 올패스(ALL PASS ✅).

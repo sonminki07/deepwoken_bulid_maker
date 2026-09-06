@@ -108,27 +108,120 @@ class StatInferenceAgent:
         return matches[0] if matches else None
 
     def _scrape_builder_url(self, builder_url: str) -> Optional[Dict[str, Any]]:
-        """deepwoken.co/builder 링크에서 스탯 데이터를 직접 추출"""
+        """deepwoken.co/builder 링크에서 Nuxt 3 직렬화 데이터를 직접 역참조하여 100% 실측 스탯 추출"""
         try:
             import urllib.request
+            import re
+            req = urllib.request.Request(builder_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+            html = urllib.request.urlopen(req, timeout=8).read().decode('utf-8', errors='replace')
+            
+            # 1. Nuxt 3 devalue 직렬화 스크립트 검색 및 직접 역참조
+            scripts = re.findall(r'<script[^>]*>(.*?)</script>', html, re.DOTALL)
+            for s in scripts:
+                s_clean = s.strip()
+                if s_clean.startswith('[') and '"build"' in s_clean:
+                    arr = json.loads(s_clean)
+                    # build 객체 탐색
+                    for item in arr:
+                        if isinstance(item, dict) and 'attributes' in item and 'stats' in item:
+                            def _resolve(val):
+                                if isinstance(val, int) and 0 <= val < len(arr):
+                                    return arr[val]
+                                return val
+
+                            def _resolve_dict(d):
+                                if not isinstance(d, dict):
+                                    return {}
+                                res = {}
+                                for k, v in d.items():
+                                    resolved_v = _resolve(v)
+                                    res[k] = resolved_v if not isinstance(resolved_v, dict) else _resolve_dict(resolved_v)
+                                return res
+
+                            raw_attr = _resolve(item['attributes'])
+                            attr_dict = _resolve_dict(raw_attr) if isinstance(raw_attr, dict) else {}
+                            
+                            base_stats = attr_dict.get('base', {})
+                            wep_stats = attr_dict.get('weapon', {})
+                            att_stats = attr_dict.get('attunement', {})
+
+                            stats = {
+                                "strength": int(base_stats.get('Strength', 0) or 0),
+                                "fortitude": int(base_stats.get('Fortitude', 0) or 0),
+                                "agility": int(base_stats.get('Agility', 0) or 0),
+                                "intelligence": int(base_stats.get('Intelligence', 0) or 0),
+                                "willpower": int(base_stats.get('Willpower', 0) or 0),
+                                "charisma": int(base_stats.get('Charisma', 0) or 0),
+                                "heavy_wep": int(wep_stats.get('Heavy Wep.', 0) or 0),
+                                "medium_wep": int(wep_stats.get('Medium Wep.', 0) or 0),
+                                "light_wep": int(wep_stats.get('Light Wep.', 0) or 0)
+                            }
+                            attunements = {
+                                "flamecharm": int(att_stats.get('Flamecharm', 0) or 0),
+                                "frostdraw": int(att_stats.get('Frostdraw', 0) or 0),
+                                "thundercall": int(att_stats.get('Thundercall', 0) or 0),
+                                "galebreathe": int(att_stats.get('Galebreathe', 0) or 0),
+                                "shadowcast": int(att_stats.get('Shadowcast', 0) or 0),
+                                "ironsing": int(att_stats.get('Ironsing', 0) or 0),
+                                "bloodrend": int(att_stats.get('Bloodrend', 0) or 0)
+                            }
+
+                            # Pre-Shrine 분배 확인
+                            pre_shrine_raw = _resolve(item.get('preShrine'))
+                            pre_dict = _resolve_dict(pre_shrine_raw) if isinstance(pre_shrine_raw, dict) else {}
+                            pre_base = pre_dict.get('base', {})
+                            pre_wep = pre_dict.get('weapon', {})
+                            pre_att = pre_dict.get('attunement', {})
+
+                            pre_shrine_stats = {
+                                "strength": int(pre_base.get('Strength', 0) or 0),
+                                "fortitude": int(pre_base.get('Fortitude', 0) or 0),
+                                "agility": int(pre_base.get('Agility', 0) or 0),
+                                "intelligence": int(pre_base.get('Intelligence', 0) or 0),
+                                "willpower": int(pre_base.get('Willpower', 0) or 0),
+                                "charisma": int(pre_base.get('Charisma', 0) or 0),
+                                "heavy_wep": int(pre_wep.get('Heavy Wep.', 0) or 0),
+                                "medium_wep": int(pre_wep.get('Medium Wep.', 0) or 0),
+                                "light_wep": int(pre_wep.get('Light Wep.', 0) or 0)
+                            }
+                            pre_attunements = {
+                                "flamecharm": int(pre_att.get('Flamecharm', 0) or 0),
+                                "frostdraw": int(pre_att.get('Frostdraw', 0) or 0),
+                                "thundercall": int(pre_att.get('Thundercall', 0) or 0),
+                                "galebreathe": int(pre_att.get('Galebreathe', 0) or 0),
+                                "shadowcast": int(pre_att.get('Shadowcast', 0) or 0),
+                                "ironsing": int(pre_att.get('Ironsing', 0) or 0),
+                                "bloodrend": int(pre_att.get('Bloodrend', 0) or 0)
+                            }
+
+                            raw_stats_obj = _resolve(item.get('stats'))
+                            stats_obj = _resolve_dict(raw_stats_obj) if isinstance(raw_stats_obj, dict) else {}
+
+                            traits = stats_obj.get('traits', {})
+                            b_meta = stats_obj.get('meta', {})
+
+                            logger.info(f"🎯 [Direct Nuxt Builder Scraper] Extracted 100% exact stats from {builder_url}")
+                            return {
+                                "build_name": stats_obj.get('buildName', 'Deepwoken Build'),
+                                "power": stats_obj.get('power', 20),
+                                "weapon": _resolve(item.get('weapons')) or 'None',
+                                "enchant": _resolve(item.get('enchant')) or 'None',
+                                "oath": b_meta.get('Oath') if isinstance(b_meta, dict) else None,
+                                "race": b_meta.get('Race') if isinstance(b_meta, dict) else None,
+                                "stats": stats,
+                                "attunements": attunements,
+                                "pre_shrine": {
+                                    "stats": pre_shrine_stats,
+                                    "attunements": pre_attunements
+                                },
+                                "traits": traits
+                            }
+
+            # 2. 폴백: LLM 파싱
             from bs4 import BeautifulSoup
-            req = urllib.request.Request(builder_url, headers={'User-Agent': 'Mozilla/5.0'})
-            html = urllib.request.urlopen(req, timeout=5).read().decode('utf-8')
             soup = BeautifulSoup(html, 'html.parser')
-            
-            # 페이지 텍스트 내에서 스탯 및 탤런트 파싱
-            page_text = soup.get_text()
-            logger.debug(f"Scraped {len(page_text)} chars from {builder_url}")
-            
-            prompt = f"""
-다음은 deepwoken.co/builder 페이지의 텍스트입니다.
-스탯(Strength, Fortitude, Agility, Intelligence, Willpower, Charisma, Heavy/Medium/Light Weapon) 및
-속성(Shadowcast, Flamecharm, Frostdraw, Thundercall, Galebreathe, Ironsing)을 JSON으로 추출하세요:
-=== Page Text ===
-{page_text[:4000]}
-===
-반드시 순수 JSON만 반환하세요.
-"""
+            page_text = soup.get_text()[:4000]
+            prompt = f"Extract stats and attunements JSON from deepwoken builder:\n{page_text}"
             resp = self.client.models.generate_content(
                 model=self.model_name,
                 contents=[prompt],

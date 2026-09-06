@@ -140,7 +140,7 @@ class WebScraperAgent:
             if not page_name:
                 return None
 
-            api_url = f"https://{domain}/api.php?action=parse&page={page_name}&format=json&prop=text|links"
+            api_url = f"https://{domain}/api.php?action=parse&page={page_name}&format=json&prop=text|links&redirects=true"
             req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0 (DeepwokenBuildAnalyzer/2.0)"})
             with urllib.request.urlopen(req, timeout=10) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
@@ -193,7 +193,7 @@ class WebScraperAgent:
                 sub_docs = []
                 for sub_title in top_sub_pages:
                     try:
-                        sub_api = f"https://{domain}/api.php?action=parse&page={urllib.parse.quote(sub_title)}&format=json&prop=text"
+                        sub_api = f"https://{domain}/api.php?action=parse&page={urllib.parse.quote(sub_title)}&format=json&prop=text&redirects=true"
                         s_req = urllib.request.Request(sub_api, headers={"User-Agent": "Mozilla/5.0 (DeepwokenBuildAnalyzer/2.0)"})
                         with urllib.request.urlopen(s_req, timeout=6) as s_resp:
                             s_data = json.loads(s_resp.read().decode("utf-8"))
