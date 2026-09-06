@@ -40,7 +40,6 @@
 | **Augmenter Cleave (90 HVY + 90 IRON)** | `Hybrid` | ` / flamecharm, galebreath` | [📄 문서 보기](builds/augmenter-cleave-90-hvy-90-iron.md) |
 | **Authority Outpost Expedition & Fish** | `Hybrid` | ` / thundercall, bloodrend` | [📄 문서 보기](builds/authority-outpost-expedition-fishing-hybrid-b.md) |
 | **Azure Flame & Steam Duster Knockdow** | `PvP` | ` / flamecharm, frostdraw,` | [📄 문서 보기](builds/azure-flame-steam-duster-knockdown-combo-pvp.md) |
-| **Bladeharper Heavy Enforcer Axe Astr** | `PvE` | `Bladeharper / Attunementl` | [📄 문서 보기](builds/bladeharper-heavy-enforcer-axe-astral-pvepvp.md) |
 | **Blind, Deaf & Mute Meme Heavy Hybri** | `Meme/Fun` | ` / thundercall` | [📄 문서 보기](builds/blind-deaf-mute-meme-heavy-hybrid-build.md) |
 | **Bloodrend & Frostdraw Bladeharper P** | `PvE` | `Bladeharper / frostdraw, ` | [📄 문서 보기](builds/bloodrend-frostdraw-bladeharper-pve.md) |
 | **Bloodrend Hybrid PvP Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/bloodrend-hybrid-pvp-build.md) |
@@ -56,6 +55,7 @@
 | **Flamecharm Rapier Dual Enchant Buil** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/flamecharm-rapier-dual-enchant-build.md) |
 | **FrostBurn V2** | `PvE` | `Oathless / flamecharm, fr` | [📄 문서 보기](builds/frostburn-v2.md) |
 | **Ganymede Bladeharper 90 Bloodrend T** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/ganymede-bladeharper-90-bloodrend-triple-attunement.md) |
+| **Guide of the Souls v4 (Silentheart ** | `PvE` | `Silentheart / Attunementl` | [📄 문서 보기](builds/guide-of-the-souls-v4-silentheart-support.md) |
 | **Heretic's Jetstriker Gale Grieves** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/heretics-jetstriker-gale-grieves.md) |
 | **Imperator's Fury Steam Vent Diluvia** | `PvE` | `Blindseer / flamecharm, s` | [📄 문서 보기](builds/imperators-fury-steam-vent-diluvian-speedrun.md) |
 | **Inquisitor Bloodrend Red Death PvE** | `PvE` | ` / shadowcast, bloodrend` | [📄 문서 보기](builds/inquisitor-bloodrend-red-death-pve.md) |

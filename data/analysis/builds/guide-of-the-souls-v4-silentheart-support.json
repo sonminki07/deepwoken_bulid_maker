@@ -1,0 +1,593 @@
+{
+  "video_id": "9l3N8Ml-LPM",
+  "video_meta": {
+    "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+    "channel": "ffeiitan",
+    "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+    "upload_date": "20260703",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "build_summary": {
+    "build_name": "Guide of the Souls v4 (Silentheart Support)",
+    "build_type": "PvE",
+    "difficulty": "Intermediate",
+    "creator_opinion": "사일런트하트(Silentheart) 서약과 카리스마 기반 서포트 특성을 융합하여 솔로 및 파티 플레이에서 극단적인 폭딜과 보조 성능을 동시에 발휘하도록 설계된 PvE 특화 빌드입니다.\n\nShrine of Order를 활용해 Pre-shrine에서 고티어 카리스마 탤런트(Cornered Fool, Lasting Charisma)와 의지 탤런트를 확보한 뒤, Post-shrine에서 근력 80과 중형 무기 100을 완성하여 파티 버프 및 디버프와 함께 폭발적인 딜링을 제공합니다.",
+    "strengths": [
+      "Command: Live 및 Beserk 버프를 통한 압도적인 파티 기여도와 자가 화력 증폭",
+      "Cornered Fool 및 Taunt 디버프 연계를 통한 폭발적인 트루 데미지 딜링",
+      "Payback 벨을 활용한 보스전 피흡 및 정신력(Sanity) 관리의 용이함"
+    ],
+    "weaknesses": [
+      "사일런트하트 특성상 만트라 주문 시전이 불가능해 순수 기본기 및 서약 스킬에 의존",
+      "Shrine of Order 최적화 과정에서 초반 스탯 분배 및 탤런트 엄선 난이도 존재"
+    ]
+  },
+  "character_name": null,
+  "power": 20,
+  "race": "Adret",
+  "origin": "Deepbound",
+  "oath": "Silentheart",
+  "murmur": "Ardour",
+  "resonance": "Payback",
+  "traits": {
+    "vitality": 6,
+    "erudition": 0,
+    "proficiency": 6,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 80,
+    "fortitude": 30,
+    "agility": 25,
+    "intelligence": 5,
+    "willpower": 40,
+    "charisma": 60,
+    "heavy_wep": 0,
+    "medium_wep": 90,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 509.0,
+    "posture": 31.0,
+    "ether": 282.0,
+    "tempo": 140.0,
+    "sanity": 294.0,
+    "move_speed_pct": "-15.0%",
+    "pve_monster_dmg_pct": "28.0%"
+  },
+  "resistances": {
+    "physical_blunt": "37.0%",
+    "physical_slash": "37.0%",
+    "fire": "32.1%",
+    "ice": "32.1%",
+    "lightning": "45.7%",
+    "wind": "32.1%",
+    "shadow": "45.7%",
+    "iron": "32.1%",
+    "blood": "32.1%",
+    "bleed": "5.0%"
+  },
+  "weapons": [
+    {
+      "name": "Shattered Katana",
+      "type": "Medium Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Outfit",
+      "name": "Black Diver"
+    },
+    {
+      "slot": "Arms",
+      "name": "Warlock's Mantle"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Prophet's Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Payback"
+    }
+  ],
+  "talents": [
+    {
+      "name": "Cornered Fool",
+      "is_core": true
+    },
+    {
+      "name": "Lasting Charisma",
+      "is_core": true
+    },
+    {
+      "name": "Against All Odds",
+      "is_core": true
+    },
+    {
+      "name": "Lose Your Mind",
+      "is_core": true
+    },
+    {
+      "name": "Exoskeleton",
+      "is_core": true
+    },
+    {
+      "name": "To the Finish",
+      "is_core": true
+    },
+    {
+      "name": "Unfazed",
+      "is_core": true
+    },
+    {
+      "name": "Overflowing Dam",
+      "is_core": true
+    },
+    {
+      "name": "Ardour Scream",
+      "is_core": true
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Taunt"
+    }
+  ],
+  "combo_guide": "Taunt 적용 -> Ardour Scream 발동 -> Mayhem 및 Rising Star 연계 -> Astral Shattered Katana 기본 공격 난타로 폭딜",
+  "is_shrine_build": true,
+  "shrine_progression": {
+    "is_shrine_build": true,
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 50,
+      "agility": 1,
+      "intelligence": 0,
+      "willpower": 65,
+      "charisma": 85,
+      "heavy_wep": 0,
+      "medium_wep": 1,
+      "light_wep": 0
+    },
+    "pre_shrine_attunements": {},
+    "pre_shrine_talents": [],
+    "post_shrine_priorities": [],
+    "post_shrine_priority": []
+  },
+  "shrine_of_order_progression": {
+    "is_shrine_build": true,
+    "pre_shrine": {
+      "strength": 1,
+      "fortitude": 50,
+      "agility": 1,
+      "intelligence": 0,
+      "willpower": 65,
+      "charisma": 85,
+      "heavy_wep": 0,
+      "medium_wep": 1,
+      "light_wep": 0
+    },
+    "pre_shrine_attunements": {},
+    "pre_shrine_talents": [],
+    "post_shrine_priorities": [],
+    "post_shrine_priority": []
+  },
+  "shrine_of_order_path": "**Pre-Shrine**: `Strength 1, Fortitude 50, Agility 1, Willpower 65, Charisma 85, Medium_wep 1`\n**Post-Shrine 우선순위**:\n- 스탯 최적화 완료",
+  "_stat_validation": {
+    "total_points": 330,
+    "target_cap": 330,
+    "difference": 0,
+    "is_valid_330_cap": true,
+    "status": "EXACT_330",
+    "breakdown": {
+      "core_attributes": 240,
+      "weapon_attributes": 90,
+      "attunements": 0
+    },
+    "verified": true
+  },
+  "_stats_source": "vision_post_shrine",
+  "_raw_source_data": {
+    "video_id": "9l3N8Ml-LPM",
+    "video_meta": {
+      "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+      "channel": "ffeiitan",
+      "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+      "upload_date": "20260703",
+      "description": "Thank you for watching!\n\n\nBuilder link:https://deepwoken.co/builder?id=Qwk6s2Jg"
+    },
+    "pre_shrine_raw": {
+      "power": 1,
+      "traits": {
+        "vitality": 0,
+        "erudition": 0,
+        "proficiency": 0,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 0,
+        "fortitude": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "charisma": 30,
+        "heavy_wep": 0,
+        "medium_wep": 0,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      }
+    },
+    "post_shrine_raw": {
+      "character_name": null,
+      "power": 20,
+      "race": "Adret",
+      "origin": "Deepbound",
+      "oath": "Silentheart",
+      "traits": {
+        "vitality": 6,
+        "erudition": 0,
+        "proficiency": 6,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 80,
+        "fortitude": 30,
+        "agility": 25,
+        "intelligence": 5,
+        "willpower": 40,
+        "charisma": 60,
+        "heavy_wep": 0,
+        "medium_wep": 90,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "combat_stats": {
+        "hp": 509.0,
+        "posture": 31.0,
+        "ether": 282.0,
+        "tempo": 140.0,
+        "sanity": 294.0,
+        "move_speed_pct": "-15.0%",
+        "pve_monster_dmg_pct": "28.0%"
+      },
+      "resistances": {
+        "physical_blunt": "37.0%",
+        "physical_slash": "37.0%",
+        "fire": "32.1%",
+        "ice": "32.1%",
+        "lightning": "45.7%",
+        "wind": "32.1%",
+        "shadow": "45.7%",
+        "iron": "32.1%",
+        "blood": "32.1%",
+        "bleed": "5.0%"
+      },
+      "equipped_items": [],
+      "inventory_items": []
+    },
+    "builder_scraped": {
+      "build_name": "Guide Of The Souls V4",
+      "power": 20,
+      "weapon": "Shattered Katana",
+      "enchant": "Astral",
+      "oath": "Silentheart",
+      "race": "None",
+      "stats": {
+        "strength": 80,
+        "fortitude": 30,
+        "agility": 25,
+        "intelligence": 5,
+        "willpower": 40,
+        "charisma": 60,
+        "heavy_wep": 0,
+        "medium_wep": 90,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "pre_shrine": {
+        "stats": {
+          "strength": 1,
+          "fortitude": 50,
+          "agility": 1,
+          "intelligence": 0,
+          "willpower": 65,
+          "charisma": 85,
+          "heavy_wep": 0,
+          "medium_wep": 1,
+          "light_wep": 0
+        },
+        "attunements": {
+          "flamecharm": 0,
+          "frostdraw": 0,
+          "thundercall": 0,
+          "galebreathe": 0,
+          "shadowcast": 0,
+          "ironsing": 0,
+          "bloodrend": 0
+        }
+      },
+      "traits": {
+        "Vitality": 6,
+        "Erudition": 0,
+        "Proficiency": 6,
+        "Songchant": 0
+      }
+    },
+    "vlm_narrative": {
+      "video_metadata": {
+        "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+        "channel": "ffeiitan",
+        "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+        "patch_version": "Verse 2"
+      },
+      "build_summary": {
+        "build_name": "Guide of the Souls v4 (Silentheart Support)",
+        "build_type": "PvE",
+        "difficulty": "Intermediate",
+        "creator_opinion": "사일런트하트(Silentheart) 서약과 카리스마 기반 서포트 특성을 융합하여 솔로 및 파티 플레이에서 극단적인 폭딜과 보조 성능을 동시에 발휘하도록 설계된 PvE 특화 빌드입니다.\n\nShrine of Order를 활용해 Pre-shrine에서 고티어 카리스마 탤런트(Cornered Fool, Lasting Charisma)와 의지 탤런트를 확보한 뒤, Post-shrine에서 근력 80과 중형 무기 100을 완성하여 파티 버프 및 디버프와 함께 폭발적인 딜링을 제공합니다.",
+        "strengths": [
+          "Command: Live 및 Beserk 버프를 통한 압도적인 파티 기여도와 자가 화력 증폭",
+          "Cornered Fool 및 Taunt 디버프 연계를 통한 폭발적인 트루 데미지 딜링",
+          "Payback 벨을 활용한 보스전 피흡 및 정신력(Sanity) 관리의 용이함"
+        ],
+        "weaknesses": [
+          "사일런트하트 특성상 만트라 주문 시전이 불가능해 순수 기본기 및 서약 스킬에 의존",
+          "Shrine of Order 최적화 과정에서 초반 스탯 분배 및 탤런트 엄선 난이도 존재"
+        ]
+      },
+      "traits": {
+        "vitality": 6,
+        "erudition": 0,
+        "proficiency": 6,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 80,
+        "fortitude": 50,
+        "agility": 25,
+        "intelligence": 5,
+        "willpower": 65,
+        "charisma": 25,
+        "heavy_wep": 0,
+        "medium_wep": 100,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "combat_stats": {
+        "hp": 509,
+        "posture": 31,
+        "ether": 0,
+        "tempo": 140,
+        "sanity": 113,
+        "move_speed_pct": 10.0,
+        "pve_dmg_pct": 45.0
+      },
+      "resistances": {
+        "physical_slash": "32.0%",
+        "physical_blunt": "32.0%",
+        "physical_pierce": "32.0%",
+        "fire": "15.0%",
+        "ice": "15.0%",
+        "wind": "15.0%",
+        "shadow": "15.0%",
+        "lightning": "15.0%",
+        "iron": "15.0%",
+        "acid": "15.0%"
+      },
+      "weapons": [
+        {
+          "name": "Shattered Katana",
+          "type": "Medium Weapon",
+          "enchant": "Astral",
+          "stars": 3
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Outfit",
+          "name": "Black Diver"
+        },
+        {
+          "slot": "Arms",
+          "name": "Warlock's Mantle"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Prophet's Ring"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Prophet's Ring"
+        },
+        {
+          "slot": "Ring 3",
+          "name": "Prophet's Ring"
+        },
+        {
+          "slot": "Ring 4",
+          "name": "Prophet's Ring"
+        },
+        {
+          "slot": "Bell",
+          "name": "Payback"
+        }
+      ],
+      "character_setup": {
+        "oath": "Silentheart",
+        "race": "Adret",
+        "origin": "Deepbound",
+        "murmur": "Ardour",
+        "resonance_bell": "Payback"
+      },
+      "talents": [
+        {
+          "name": "Cornered Fool",
+          "is_core": true
+        },
+        {
+          "name": "Lasting Charisma",
+          "is_core": true
+        },
+        {
+          "name": "Against All Odds",
+          "is_core": true
+        },
+        {
+          "name": "Lose Your Mind",
+          "is_core": true
+        },
+        {
+          "name": "Exoskeleton",
+          "is_core": true
+        },
+        {
+          "name": "To the Finish",
+          "is_core": true
+        },
+        {
+          "name": "Unfazed",
+          "is_core": true
+        },
+        {
+          "name": "Overflowing Dam",
+          "is_core": true
+        },
+        {
+          "name": "Ardour Scream",
+          "is_core": true
+        }
+      ],
+      "mantras": [
+        {
+          "name": "Taunt"
+        }
+      ],
+      "target_mobs": [
+        "The Ferryman",
+        "Primadon",
+        "Dread Serpent (Kaido)",
+        "Heart of Enmity",
+        "Sharko"
+      ],
+      "mob_strategy": "Taunt 및 Cornered Fool로 대상이 받는 피해를 증폭시킨 뒤 Ardour Scream과 Beserk를 활성화하여 극딜을 넣습니다. 다단 히트나 회피 불가 보스 패턴 피격 시 Corrupted Payback을 즉시 전개하여 데미지 반사와 함께 체력을 회복합니다.",
+      "combo_guide": "Taunt 적용 -> Ardour Scream 발동 -> Mayhem 및 Rising Star 연계 -> Astral Shattered Katana 기본 공격 난타로 폭딜",
+      "video_meta": {
+        "title": "This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken",
+        "channel": "ffeiitan",
+        "url": "https://www.youtube.com/watch?v=9l3N8Ml-LPM",
+        "upload_date": "20260703"
+      }
+    },
+    "captured_keyframes": [
+      {
+        "timestamp_sec": 40.5,
+        "hud_score": 86925.31922234743,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_40s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_40s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_40s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 122.0,
+        "hud_score": 84563.17893317266,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_122s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_122s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_122s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 217.0,
+        "hud_score": 84105.63842351183,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_217s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_217s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_pre_shrine_217s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 444.0,
+        "hud_score": 35783.847402667096,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_444s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_444s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_444s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 440.0,
+        "hud_score": 35685.89251010986,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_440s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_440s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_440s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 442.0,
+        "hud_score": 35668.35424842467,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_442s_raw.jpg",
+        "raw_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_442s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\9l3N8Ml-LPM_post_shrine_442s_crop.jpg"
+      }
+    ]
+  }
+}

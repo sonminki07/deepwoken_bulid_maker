@@ -118,11 +118,15 @@ class PipelineOrchestrator:
         if not force_reanalyze:
             cached_json_path, cached_data, potential_vid = self._find_cached_analysis(url)
             if cached_json_path and cached_data:
+                has_raw_source = "_raw_source_data" in cached_data
+                traits = cached_data.get("traits", {})
+                has_traits = any(v > 0 for v in traits.values() if isinstance(v, (int, float))) if traits else False
                 stats = cached_data.get("stats", {})
                 stat_sum = sum(v for v in stats.values() if isinstance(v, (int, float))) if stats else 0
-                has_power = cached_data.get("power") is not None
+                has_real_stats = stat_sum >= 80
                 
-                if stat_sum >= 50 and has_power:
+                # 3-Tier 원시 데이터 아키텍처 및 유효 특성이 포함된 최신 캐시만 인정
+                if has_raw_source and has_traits and has_real_stats:
                     category = cached_json_path.parent.name
                     cached_md_path = self.structurer.knowledge_base_dir / category / f"{cached_json_path.stem}.md"
                     logger.info(f"⚡ [Cache Hit] Found valid analysis for {potential_vid} in {category}/{cached_json_path.name}")

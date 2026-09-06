@@ -54,6 +54,11 @@
 - ⚠️ 원거리 카이팅 빌드나 고기동성 유저를 상대로 초근접 거리를 허용하지 않으면 딜 효율이 급감함
 - ⚠️ 스태미나 관리 실패 시 주력 M1 콤보 연계가 끊기며 역공의 빌미를 제공할 위험이 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
 | 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
@@ -90,6 +95,18 @@
 - **Galebreathe**: `100`
 - **Shadowcast**: `100`
 - **Ironsing**: `100`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -128,6 +145,19 @@
 2단계 (가드브레이크): Rising Uppercut 및 Flourish를 연계하여 상대의 가드를 강제로 깨뜨리거나 에어본 상태로 띄웁니다.
 3단계 (속성 폭딜): Frozen Anchor와 Ash Ember를 이어 붙여 상대에게 치명적인 냉기/화상 디버프를 중첩시키고 극대화된 딜을 우겨넣습니다.
 4단계 (유지력 회복): 전투 중 체력이 부족할 경우 Flame Wisp을 전개하고 거리 조절을 통해 안정적으로 체력을 복구하며 다음 콤보 턴을 준비합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `90` / FTD: `80` / AGL: `40` / INT: `10` / WLL: `90` / CHA: `10` |
+| **무기/속성 수치** | LHT: `10` / MED: `25` / HVY: `100` / Elements: `{'flamecharm': 100, 'frostdraw': 100, 'galebreathe': 100, 'shadowcast': 100, 'ironsing': 100}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
@@ -176,14 +206,16 @@
 | Light Wep (경화기) | `0` |
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `520` | `30` | `450` | `100` | `100` | `105.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `25.0%` / 관통: `30.0%` | 화염: `20.0%` / 빙결: `20.0%` / 바람: `20.0%` | 그림자: `20.0%` / 번개: `20.0%` / 철: `20.0%` |
+| 🔨타격: `25.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Pale Briar** (Heavy Weapon) — 인챈트: `Wild` ⭐x3
@@ -221,6 +253,19 @@
 - **Wind Passage**
 - **Iron Slam**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Blindseer` / Race/Aspect: `Khan` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `6` / Proficiency: `0` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `50` / FTD: `100` / AGL: `0` / INT: `60` / WLL: `100` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `82` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `520` / 🛡️Posture: `30` / 💧Ether: `450` / ⚡Tempo: `100` / 🧠Sanity: `100` / 👟Speed: `105.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `25.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
 ### 🛡️ [빌드 3] ashen-moppet-dagger-m1-pve-glass-cannon
@@ -252,6 +297,11 @@
 - ⚠️ 극단적으로 낮은 생존력 (0 Fortitude): Fortitude stats이 0이기 때문에 단 한 번의 실수가 영구 사망(Depths 전송)으로 이어질 수 있어 완벽한 패링과 회피가 강제됩니다.
 - ⚠️ 짧은 리치: 단검 weapons 특성상 공격 사거리가 매우 짧아, 적에게 완전히 밀착해야 하므로 피격 위험성이 항상 존재합니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -269,6 +319,18 @@
 - **Thundercall**: `20`
 - **Galebreathe**: `20`
 - **Shadowcast**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Moppet** (Light Weapon) — 인챈트: `Ashen`
@@ -310,9 +372,247 @@
 
 4단계 (유지력 회복 및 이탈): 보스의 강력한 반격 패턴이 예상되거나 체력이 낮아진 경우, 'Shade Devour'로 체력을 흡수함과 동시에 'Phantom Step'을 사용해 안전한 거리로 이탈하여 재정비합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Lone Warrior` / Oath: `Oathless` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `83` / FTD: `0` / AGL: `25` / INT: `5` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'thundercall': 20, 'galebreathe': 20, 'shadowcast': 20}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 4] astral-palace-tachi-bloodrend-pve-contractor
+### 🛡️ [빌드 4] astral-enforcer-axe-bladeharper-heavy-m1-melt
+
+# ⚔️ Astral Enforcer Axe Bladeharper Heavy M1 Melter
+
+> **출처 영상**: [This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken](https://www.youtube.com/watch?v=zN4vS7UBDGE) by `ffeiitan`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Etrean` / `Deepbound` | **Oath**: `Interluminary Interloper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+> 🌐 **빌더 링크**: [https://deepwoken.co/builder?id=gZOZRp6r](https://deepwoken.co/builder?id=gZOZRp6r)
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Shrine of Order를 극도로 활용하여 다중 속성(Galebreathe, Flamecharm, Thundercall, Shadowcast)의 핵심 버프 탤런트들을 모두 챙긴 뒤 Heavy M1 평타 데미지를 극한으로 끌어올린 PvE 전용 폭딜 빌드입니다.
+
+Astral 인챈트가 적용된 Enforcer Axe와 Bladeharper Oath를 조합하여 보스 및 몬스터에게 한 타당 3,000에 달하는 괴물 같은 데미지를 가합니다. Ferryman, Maestro, Chaser 등 주요 보스들을 단 수 초 만에 녹여버릴 수 있는 성능을 자랑합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ M1 평타 한 번으로 2,400~3,000 이상의 압도적인 체인 스택 폭딜 가능
+- ✅ Galebreathe, Flamecharm, Thundercall, Shadowcast 등 다속성 버프 탤런트를 통한 기동성 및 데미지 증폭 효과
+- ✅ Ferryman 및 Maestro 보스 파밍에 최적화된 매우 빠른 킬 타임
+**단점**:
+- ⚠️ Shrine of Order 빌드 특성상 육성 순서와 스탯 배분이 정교하게 요구됨
+- ⚠️ PvP 전용 빌드에 비해 인게이지 및 사거리가 평타 중심이라 PvP 실전 효율은 제한적임
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 🔵 질서의 성소 전 (Pre-Shrine) | 🔴 질서의 성소 후 (Post-Shrine) |
+| :--- | :---: | :---: |
+| Strength (근력) | `0` | `80` `(+80)` |
+| Fortitude (인내) | `0` | `3` `(+3)` |
+| Agility (민첩) | `12` | `25` `(+13)` |
+| Intelligence (지능) | `0` | `0` |
+| Willpower (의지) | `0` | `0` |
+| Charisma (매력) | `25` | `25` |
+| Heavy Wep (중화기) | `0` | `100` `(+100)` |
+| Medium Wep (중형무기) | `0` | `0` |
+| Light Wep (경화기) | `0` | `0` |
+| **속성 (Attunements)** | --- | --- |
+| Flamecharm (화염) | `40` | `25` `(-15)` |
+| Thundercall (번개) | `35` | `25` `(-10)` |
+| Galebreathe (바람) | `60` | `25` `(-35)` |
+| Shadowcast (암흑) | `20` | `25` `(+5)` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `398` | `27` | `201` | `120` | `106` | `N/A` | `-15.0%` | `28.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 저항 분류 | 속성 / 공격 유형 | 실측 저항 수치 |
+| :--- | :--- | :---: |
+| **물리 (Physical)** | 🔨 타격 (Blunt) | `18.1%` |
+| **물리 (Physical)** | 🗡️ 베기 (Slash) | `18.1%` |
+| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `5.0%` |
+| **원소 (Elemental)** | 🔥 화염 (Fire) | `15.0%` |
+| **원소 (Elemental)** | ❄️ 빙결 (Ice) | `15.0%` |
+| **원소 (Elemental)** | ⚡ 번개 (Lightning) | `15.0%` |
+| **원소 (Elemental)** | 💨 바람 (Wind) | `15.0%` |
+| **특수 (Special)** | 🌌 암흑 (Shadow) | `15.0%` |
+| **특수 (Special)** | ⚙️ 철 (Iron / Metal) | `15.0%` |
+| **특수 (Special)** | 🩸 혈액 (Blood) | `15.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Enforcer Axe** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Seamaster's Cap
+- **[Face]** Crystal Eyepatch
+- **[Amulet]** Prophet's Cloak
+- **[Outfit]** Troublemaker's Overcoat
+- **[Boots]** Hive Tactician Armor
+- **[Ring 1]** Maestro's Ring
+- **[Ring 2]** Ranga's Clutch Ring
+- **[Bell]** Sacred Field
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Risky Moves**
+- **Spinning Sword**
+- **Go Nowhere**
+- **Dark God**
+- **Wyvern's Claw**
+- **Warrior's Swing**
+- **Berserk**
+### 📜 보조 및 추천 탤런트
+- Kick Off
+
+## 🔮 주문 목록 (Mantras)
+- **Flame Leap**
+- **Fire Blade**
+- **Shadow Travel**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 사냥 전 각종 속성 만트라 및 버프를 활성화합니다.
+2. Astral 인챈트 Enforcer Axe로 타겟에게 접근하여 Heavy M1 평타를 연속 명중시킵니다.
+3. 체인 스택이 쌓이면 한 타당 폭발적인 딜이 들어가 보스 HP를 순식간에 깎아냅니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Interluminary Interloper` / Race/Aspect: `Etrean` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `80` / FTD: `3` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `{'flamecharm': 25, 'thundercall': 25, 'galebreathe': 25, 'shadowcast': 25}` |
+| **실전 전투 수치** | ❤️HP: `398` / 🛡️Posture: `27` / 💧Ether: `201` / ⚡Tempo: `120` / 🧠Sanity: `106` / 🛡️Armor: `N/A` / 👟Speed: `-15.0%` / 💀Monster Dmg: `28.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `18.1%` / 🗡️베기(Slash): `18.1%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `15.0%` / ⚙️철: `15.0%` / 🩸혈액: `15.0%` |
+
+---
+
+### 🛡️ [빌드 5] astral-enforcer-axe-bladeharper-heavy-m1-pve
+
+# ⚔️ Astral Enforcer Axe Bladeharper Heavy M1 PVE Build
+
+> **출처 영상**: [This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken](https://www.youtube.com/watch?v=zN4vS7UBDGE) by `ffeiitan`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Chrysid` / `Castaway` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Jar of Souls`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Enforcer Axe에 Astral 인챈트를 부여하고 Bladeharper 오스를 결합하여, M1(기본 평타) 단 한 방으로 3,000에 달하는 극강의 PvE 피해를 입히는 대형 무기 특화 빌드입니다. 4가지 속성(Flame, Gale, Thunder, Shadow)의 핵심 버프 및 M1 증폭 탤런트들을 조합하여 버프 중첩 시 폭발적인 DPS를 자랑합니다.
+
+Shrine of Order 시스템을 활용해 초반 속성 요구치를 맞춘 뒤, 최종적으로 Heavy Weapon 100과 Strength 80을 달성하여 둔기류 M1 스윙 데미지를 한계까지 끌어올렸습니다. 페리먼(Ferryman), 드레드 서펀트(Dread Serpent), 마에스트로(Maestro) 등의 고난도 보스들을 단 수 회의 평타로 사살할 수 있어 보스 파밍 효율이 매우 높습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ PvE 보스전에서 M1 평타 1회당 최대 3,000 이상의 압도적인 단일 데미지 산출
+- ✅ Astral 인챈트와 Enforcer Axe 특유의 넓은 타격 판정 및 Posture 파괴력
+- ✅ Bladeharper 오스 버프와 다속성 탤런트 시너지로 지속되는 높은 DPS
+**단점**:
+- ⚠️ PvP 상황에서는 스케일링 감소로 인해 PvE만큼의 폭딜이 나오지 않음
+- ⚠️ Shrine of Order 전후로 정교한 순서의 스탯 찍기가 요구되는 육성 난이도
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `2` | `0` | `6` | `4` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `1` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `0` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `1` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `366` | `27` | `181` | `120` | `106` | `N/A` | `115.0%` | `+28.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `13.0%`<br>🗡️베기: `13.0%`<br>🩸관통/출혈: `13.0%` | 🔥화염: `15.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `15.0%` | 🌌암흑: `15.0%`<br>⚙️철(Metal): `15.0%`<br>🩸혈액(Blood): `0.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Enforcer Axe** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Seamaster's Cap
+- **[Face]** Proficient Eyepatch
+- **[Amulet]** Aether Pendant
+- **[Outfit]** Windrunner Robes
+- **[Boots]** None
+- **[Ring 1]** Maestro's Ring
+- **[Ring 2]** Konga's Clutch Ring
+- **[Ring 3]** Vibrant Gem Ring
+- **[Ring 4]** Eon Gem Ring
+- **[Bell]** Jar of Souls
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Berserk**
+- **Dark God**
+- **Warrior's Swing**
+- **Speed Demon**
+### 📜 보조 및 추천 탤런트
+- Risky Moves
+- Spinning Sword
+- Going Nowhere
+- Wyvern's Claw
+- Kick Off
+
+## 🔮 주문 목록 (Mantras)
+- **Thundercall**
+- **Shadowcast**
+- **Galebreathe**
+- **Flamecharm**
+
+## 🥊 콤보 & 전투 운용 가이드
+{'description': '속성 버프 중첩 후 Astral Enforcer Axe M1 극딜 사이클', 'steps': ['각종 속성 버프 만트라 및 Berserk 상태를 켭니다.', 'Bladeharper 특수 스킬로 데미지 증폭을 획득합니다.', 'Enforcer Axe M1 스윙으로 연속 공격을 가해 Astral 폭발과 함께 3,000급 M1 데미지를 적중시킵니다.']}
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Chrysid` |
+| **4대 특성 (Traits)** | Vitality: `2` / Erudition: `0` / Proficiency: `6` / Songchant: `4` |
+| **6대 기본 스탯** | STR: `1` / FTD: `0` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `1` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `366` / 🛡️Posture: `27` / 💧Ether: `181` / ⚡Tempo: `120` / 🧠Sanity: `106` / 🛡️Armor: `N/A` / 👟Speed: `115.0%` / 💀Monster Dmg: `+28.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `13.0%` / 🗡️베기(Slash): `13.0%` / 🩸관통·출혈(Bleed): `13.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `15.0%` / ⚙️철: `15.0%` / 🩸혈액: `0.0%` |
+
+---
+
+### 🛡️ [빌드 6] astral-palace-tachi-bloodrend-pve-contractor
 
 # ⚔️ Astral Palace Tachi Bloodrend PvE Contractor
 
@@ -339,6 +639,11 @@
 - ⚠️ Fortitude 25 투자로 인해 최대 체력이 낮아 보스의 대형 패턴 직격 시 치명상 위험
 - ⚠️ 패링 실패나 Prediction 타이밍 미스로 인한 콤보 단절 시 생존력이 급격히 저하됨
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -354,6 +659,18 @@
 
 ## ⚡ 속성 투자 (Attunements)
 - **Bloodrend**: `100`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Palace Tachi** — 인챈트: `None`
@@ -389,9 +706,22 @@
 3. [M1 평타 누적 ➔ Tachi Crit 연계]: Palace Tachi의 빠른 M1 평타 3~4타 이후 바로 크리티컬(Crit)을 적중시켜 Threadreaper 증폭 대미지를 입힙니다.
 4. [Bloodrend 만트라 폭딜]: 중거리/근거리에서 Blood Scythe 및 Blood Harvest 등 주력 혈류 만트라를 연계하여 Blood Explosion 스택을 터뜨리고 치명적인 체력 스케일링 피해를 입힙니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Contractor` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `5` / FTD: `25` / AGL: `0` / INT: `20` / WLL: `5` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `{'bloodrend': 100}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 5] attunementless-stone-palace-tachi-pvp-build
+### 🛡️ [빌드 7] attunementless-stone-palace-tachi-pvp-build
 
 # ⚔️ Attunementless Stone Palace Tachi PvP Build
 
@@ -419,6 +749,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 주력 화력이 패링/가드 심리전 및 근접 M1/크리티컬 명중에 의존함
 - ⚠️ 무기 밸런스 패치(너프) 시 빌드의 핵심 화력 기여도가 영향을 받을 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -431,6 +766,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `100` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Palace Tachi', 'category': 'Medium Weapon ', 'enchant': 'Stone'}** — 인챈트: `None`
@@ -466,9 +813,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 3. [가드 브레이크 폭딜]: 상대 가드가 깨지는 순간 Ardor Slicer 또는 Rapid Punches / Strong Left를 연계하여 공중에 띄우거나 벽으로 밀어 넣습니다.
 4. [마무리 심리전]: Stone 인챈트로 인해 가드가 파쇄된 적에게 Manipulator 및 Chaos Charm 스택이 적용된 M1 평타 2~3타를 때려넣어 확정 치사량을 달성합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Oathless` / Race/Aspect: `Vesperian / Any` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `90` / AGL: `25` / INT: `25` / WLL: `35` / CHA: `35` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 6] augmenter-cleave-90-hvy-90-iron
+### 🛡️ [빌드 8] augmenter-cleave-90-hvy-90-iron
 
 # ⚔️ Augmenter Cleave (90 HVY + 90 IRON)
 
@@ -491,6 +851,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ Shrine of Order를 사용하기 위한 정교한 레벨업 및 stats 분배 순서 필요
 - ⚠️ 다양한 속성(Ironsing, Galebreathe, Flamecharm)을 다루기 때문에 조작 difficulty가 높음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -508,6 +873,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Flamecharm**: `25`
 - **Galebreathe**: `25`
 - **Ironsing**: `25`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Kyrsleave** (Heavy Weapon) — 인챈트: `None`
@@ -567,9 +944,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## 🥊 콤보 & 전투 운용 가이드
 기본 콤보는 Gale Lunge 또는 Oxidizing Rush로 진입하여 적에게 Rod를 부여하는 것으로 시작합니다. 이후 Rising Wind로 적을 에어본 시킨 뒤 Meteor Impact와 연계하여 강력한 메테오 슬램을 꽂아 넣습니다. 적이 방어하거나 거리를 벌리려 할 때는 Metal Fakeout과 Chain Pull을 섞어 예측 불가능한 타이밍에 그레이트소드 치명타를 적중시킵니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Soulbreaker` / Race/Aspect: `Felinor` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `75` / Elements: `{'flamecharm': 25, 'galebreathe': 25, 'ironsing': 25}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 7] authority-outpost-expedition-fishing-hybrid-b
+### 🛡️ [빌드 9] authority-outpost-expedition-fishing-hybrid-b
 
 # ⚔️ Authority Outpost Expedition & Fishing Hybrid Build
 
@@ -595,6 +985,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ Bloodrend 계열의 시각 효과가 핑크빛으로 변경되어 기존의 묵직한 다크 판타지 감성을 선호하는 유저에게는 호불호가 갈릴 수 있습니다.
 - ⚠️ 낚시 시스템의 메커니즘 변화로 인해 최적의 미끼와 서식지 정보를 숙지하지 못하면 효율적인 자원 수급이 어렵습니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -611,6 +1006,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## ⚡ 속성 투자 (Attunements)
 - **Thundercall**: `80`
 - **Bloodrend**: `40`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `None (Runic Marked)`
@@ -631,9 +1038,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Storm**
 - **Gale Trap**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Authority Origin` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `25` / WLL: `50` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'thundercall': 80, 'bloodrend': 40}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 8] azure-flame-steam-duster-knockdown-combo-pvp
+### 🛡️ [빌드 10] azure-flame-steam-duster-knockdown-combo-pvp
 
 # ⚔️ Azure Flame & Steam Duster Knockdown Combo PvP Build
 
@@ -660,6 +1080,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ M1 및 단발 mantras 자체의 기본 대미지가 낮아 콤보 연계를 실패할 경우 딜 교환에서 손해를 볼 수 있음
 - ⚠️ 공중 연계 및 래그돌 타이밍에 맞춘 기어 조작과 핑(Ping) 의존도가 높아 높은 숙련도 요구
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -677,6 +1102,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Flamecharm**: `80`
 - **Frostdraw**: `30`
 - **Galebreathe**: `30`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Steel Skewered Dusters', 'category': 'Light Weapon', 'enchant': 'Vampiric'}** — 인챈트: `None`
@@ -708,9 +1145,23 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 **운용 팁**:
 
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `75` / MED: `0` / HVY: `0` / Elements: `{'flamecharm': 80, 'frostdraw': 30, 'galebreathe': 30}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 9] blind-deaf-mute-meme-heavy-hybrid-build
+### 🛡️ [빌드 11] blind-deaf-mute-meme-heavy-hybrid-build
 
 # ⚔️ Blind, Deaf & Mute Meme Heavy Hybrid Build
 
@@ -736,6 +1187,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 청각 정보와 UI 인식이 불가능하여 솔로 플레이 시 생존율이 극도로 낮음
 - ⚠️ 적의 선딜레이를 사운드로 파악할 수 없어 패링 타이밍이 매우 까다로움
 - ⚠️ 회피 기동 중 지형지물에 걸리거나 낙사할 위험이 매우 높음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -768,6 +1224,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## ⚡ 속성 투자 (Attunements)
 - **Thundercall**: `80`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -799,9 +1267,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engage': 'Wind Step 또는 돌진형 mantras를 활용해 시야가 차단된 상태에서도 적의 위치로 빠르게 접근하여 기습 타격을 시도합니다.', 'step_2_guard_break': '중화기의 높은 포스처 대미지를 이용해 평타와 강공격을 섞어 적의 가드를 강제로 파괴(Guard Break)합니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Thunder Spear 및 콤보 mantras를 연계하여 순식간에 최대 체력을 깎아내립니다.', 'step_4_recovery': '교전 중 체력이 부족할 경우 Vesperian race 특유의 방어력과 Vampiric 인챈트의 피흡 효과를 이용해 전선에서 이탈해 체력을 회복합니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `50` / FTD: `50` / AGL: `40` / INT: `10` / WLL: `40` / CHA: `10` |
+| **무기/속성 수치** | LHT: `10` / MED: `10` / HVY: `80` / Elements: `{'thundercall': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 10] bloodrend-frostdraw-bladeharper-pve
+### 🛡️ [빌드 12] bloodrend-frostdraw-bladeharper-pve
 
 # ⚔️ Bloodrend & Frostdraw Bladeharper PvE
 
@@ -848,14 +1329,16 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Bloodrend**: `75`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `15.0%` / 빙결: `55.0%` / 바람: `10.0%` | 그림자: `25.0%` / 번개: `10.0%` / 철: `15.0%` |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `15.0%`<br>❄️빙결: `55.0%`<br>⚡번개: `10.0%`<br>💨바람: `10.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `15.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Prophet's Florentine** (Medium Weapon) — 인챈트: `None` ⭐x3
@@ -904,9 +1387,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 3단계: Blood Wisp과 Warden's Blades를 사용하여 지속적인 데미지와 함께 체력을 회복합니다.
 4단계: 적이 그로기 상태가 되면 강력한 M1 연계와 Blood Cuttle로 폭딜을 넣고 처형(Execution)으로 전투를 마무리합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `3` / Erudition: `2` / Proficiency: `5` / Songchant: `4` |
+| **6대 기본 스탯** | STR: `25` / FTD: `40` / AGL: `25` / INT: `35` / WLL: `1` / CHA: `40` |
+| **무기/속성 수치** | LHT: `1` / MED: `90` / HVY: `1` / Elements: `{'frostdraw': 40, 'shadowcast': 1, 'ironsing': 1, 'bloodrend': 75}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `55.0%` / ⚡번개: `10.0%` / 💨바람: `10.0%` / 🌌암흑: `25.0%` / ⚙️철: `15.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 11] bloodrend-hybrid-pvp-build
+### 🛡️ [빌드 13] bloodrend-hybrid-pvp-build
 
 # ⚔️ Bloodrend Hybrid PvP Build
 
@@ -932,6 +1428,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ 높은 조작 difficulty: 순간적인 타이밍에 mantras와 평타를 섞어 쓰는 고도의 콤보 숙련도가 요구됩니다.
 - ⚠️ 핑 불안정 시 리스크: 레이어 2 등지에서 핑(Ping)이 높을 경우 패링 및 회피 타이밍이 어긋나 위험할 수 있습니다.
 - ⚠️ 스태미나 관리 필요: 공격적인 압박을 지속할 경우 스태미나가 빠르게 소모되므로 자원 관리에 신경 써야 합니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -964,6 +1465,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -993,9 +1506,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 ## 🥊 콤보 & 전투 운용 가이드
 ['1단계 (진입): Shadow Travel 또는 대시를 이용해 순식간에 상대의 품으로 파고듭니다.', '2단계 (가드 브레이크): 평타와 빠른 mantras 연계를 퍼부어 상대의 가드 내구도를 빠르게 소모시킵니다.', '3단계 (폭딜 콤보): 가드가 깨진 상대에게 에어본 유발 mantras를 명중시킨 뒤 공중 추가타를 확정 넣습니다.', '4단계 (유지 및 탈출): 체력이 부족할 경우 거리를 벌리고 mantras 쿨타임을 관리하며 재정비합니다.']
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `40` / AGL: `40` / INT: `0` / WLL: `80` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 12] bloodrend-vampire-starkindred
+### 🛡️ [빌드 14] bloodrend-vampire-starkindred
 
 # ⚔️ Bloodrend Vampire Starkindred
 
@@ -1018,6 +1544,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ Shrine of Order를 거쳐야 하므로 육성 difficulty가 높음
 - ⚠️ 흡혈에 의존하기 때문에 패링을 당하거나 딜을 넣지 못하면 급격히 취약해짐
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1033,6 +1564,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ## ⚡ 속성 투자 (Attunements)
 - **Bloodrend**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1053,9 +1596,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - **Agile Dash**
 - **Exhaustion Strike**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `90` / Elements: `{'bloodrend': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 13] dark-pearls-inky-vent-shadowcast-pvp
+### 🛡️ [빌드 15] dark-pearls-inky-vent-shadowcast-pvp
 
 # ⚔️ Dark Pearls Inky Vent Shadowcast PvP
 
@@ -1082,6 +1638,11 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 - ⚠️ Dark Pearls 렐릭 장착 시 고유 디메리트로 포스처(Posture)가 -2 감소하여 근거리 가드 싸움에서 방어력이 다소 취약해짐
 - ⚠️ 섀도우캐스트 stats 40 이상을 필수로 요구하므로 stats 분배의 자유도가 제한됨
 - ⚠️ 벤트 타이밍을 정확히 맞추지 못하면 에테르 강탈 효과를 보지 못하고 역공을 허용할 수 있음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -1113,6 +1674,18 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -1154,9 +1727,22 @@ Palace Tachi의 특수 크리티컬 메커니즘과 Stone 인챈트가 선사하
 3단계 (핵심 벤토 콤보): 적이 반격하는 타이밍에 벤트를 발동시켜 'Inky Pearls' 효과로 적의 에테르 40을 강탈하고 'Singularity' 및 'Dark God' talents를 프록(Proc)시킵니다.
 4단계 (마무리 및 유지력 회복): 에테르가 강탈당해 무력화된 적에게 고위 섀도우 mantras(Wings of Enmity, Shadow Gun)를 적중시켜 큰 피해를 주고 전투를 종결합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `50` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 14] dawnwalker-withered-death-fist-bloodrend-ligh
+### 🛡️ [빌드 16] dawnwalker-withered-death-fist-bloodrend-ligh
 
 # ⚔️ Dawnwalker Withered Death Fist Bloodrend Light Build
 
@@ -1222,14 +1808,16 @@ Withered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(
 - **Bloodrend**: `60`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `506` | `27` | `266` | `133` | `171` | `108.0%` | `+10.5%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `43.0%` / 타격: `43.0%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `25.0%` / 바람: `25.0%` | 그림자: `25.0%` / 번개: `25.0%` / 철: `5.0%` |
+| 🔨타격: `43.0%`<br>🗡️베기: `43.0%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `40.0%`<br>❄️빙결: `25.0%`<br>⚡번개: `25.0%`<br>💨바람: `25.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `5.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `Strength 5, Fortitude 40, Agility 40, Willpower 17, Charisma 50, Bloodrend 60`
@@ -1268,9 +1856,22 @@ Withered Death Fist의 강력한 크리티컬 연계와 공중 에어본 콤보(
 4. Viscous Descent를 사용하여 공중에서 지상으로 강력하게 둔탁한 찍기 타격
 5. 착지 직후 Withered Death Fist의 2타/3타 크리티컬(Critical) 연속 사용으로 마무리 데미지 딜링
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Dawnwalker` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `1` / Proficiency: `0` / Songchant: `5` |
+| **6대 기본 스탯** | STR: `5` / FTD: `90` / AGL: `40` / INT: `0` / WLL: `17` / CHA: `50` |
+| **무기/속성 수치** | LHT: `67` / MED: `0` / HVY: `0` / Elements: `{'bloodrend': 60}` |
+| **실전 전투 수치** | ❤️HP: `506` / 🛡️Posture: `27` / 💧Ether: `266` / ⚡Tempo: `133` / 🧠Sanity: `171` / 👟Speed: `108.0%` / 💀Monster Dmg: `+10.5%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `43.0%` / 🗡️베기(Slash): `43.0%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `40.0%` / ❄️빙결: `25.0%` / ⚡번개: `25.0%` / 💨바람: `25.0%` / 🌌암흑: `25.0%` / ⚙️철: `5.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 15] deep-shrines-shrine-of-order-guide
+### 🛡️ [빌드 17] deep-shrines-shrine-of-order-guide
 
 # ⚔️ Deep Shrines / Shrine of Order Guide
 
@@ -1292,6 +1893,11 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 - ⚠️ 캐릭터당 단 한 번만 사용 가능하며, Power 8 이상 및 오맹 미보유 조건이 강제됨
 - ⚠️ 스탯이 낮아지면서 기존에 해금했던 탤런트나 장비 착용 요구치를 만족하지 못해 비활성화될 수 있음
 - ⚠️ 치밀한 스탯 계산 없이 사용 시 빌드가 망가지거나 탤런트가 잠길 위험이 있음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -1321,15 +1927,40 @@ Deepwoken의 핵심 메커니즘인 '깊은 신전(Deep Shrines)' 중 빌드 최
 - 🎯 Heavy Weapon 75 달성
 - 🎯 유틸리티 및 방어구 탤런트 최적화
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
 - Heavy Weapon 75 달성
 - 유틸리티 및 방어구 탤런트 최적화
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `N/A` / Oath: `Oathless` / Race/Aspect: `N/A` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `25` / INT: `15` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `75` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 16] deep-shrines-shrine-of-order
+### 🛡️ [빌드 18] deep-shrines-shrine-of-order
 
 # ⚔️ Deep Shrines / Shrine of Order
 
@@ -1351,6 +1982,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 캐릭터당 단 한 번만 사용 가능하므로 철저한 사전 빌드 설계가 요구됨
 - ⚠️ 스탯이 평균화되면서 특정 탤런트나 장비의 요구치를 만족하지 못하게 되면 해당 효과나 장비가 비활성화될 수 있음
 - ⚠️ 사용 전후의 결과를 정확히 계산하지 않으면 빌드가 완전히 망가지거나 탤런트가 누락될 위험이 있음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -1383,6 +2019,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `50`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -1402,9 +2050,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🔮 주문 목록 (Mantras)
 - **Disguise**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `N/A` / Oath: `Oathless` / Race/Aspect: `N/A` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `25` / INT: `25` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'flamecharm': 50}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 17] deepwoken-meta-talent-tier-list-optimization
+### 🛡️ [빌드 19] deepwoken-meta-talent-tier-list-optimization
 
 # ⚔️ Deepwoken Meta Talent Tier List & Optimization Guide
 
@@ -1432,6 +2093,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 특정 talents(Collapsed Lung 등)의 경우 실전에서 가드 브레이크 및 타이밍 맞추기가 매우 까다로움
 - ⚠️ 메타 변화나 패치에 따라 talents 효율이 급변할 수 있어 지속적인 빌드 수정 필요
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1448,6 +2114,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Kyrsglaive', 'weapon_type': 'Heavy Weapon', 'enchant': 'Vampiric / Grim'}** — 인챈트: `None`
@@ -1493,9 +2171,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 3단계 (폭딜 연계): Tough Love와 Overflowing Dam의 버프가 활성화된 상태에서 핵심 mantras(Shadow Gun 등)를 퍼부어 순식간에 체력을 갈아버립니다.
 4단계 (안정화 및 탈출): 위험할 때는 Exoskeleton과 To The Finish의 대미지 저감 효과를 믿고 거리를 벌린 뒤, 정비하고 재진입합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `90` / FTD: `90` / AGL: `90` / INT: `85` / WLL: `80` / CHA: `85` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'flamecharm': 80, 'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 18] duchess-erisia-galebreathe-jus-kar
+### 🛡️ [빌드 20] duchess-erisia-galebreathe-jus-kar
 
 # ⚔️ Duchess Erisia (Galebreathe Jus Kar)
 
@@ -1517,6 +2208,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 사거리가 짧아 리치가 긴 weapons(창, 대검)를 상대로 정밀한 거리 조절 필요
 - ⚠️ 컨트롤 difficulty가 높아 Beginner가 다루기 어려움
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1532,6 +2228,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -1550,9 +2258,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Heavenly Wind**
 - **Gale Breath**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `40` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `75` / MED: `0` / HVY: `0` / Elements: `{'galebreathe': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 19] enmity-annihilator-v2
+### 🛡️ [빌드 21] enmity-annihilator-v2
 
 # ⚔️ Enmity Annihilator V2
 
@@ -1576,6 +2297,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 복잡한 stats 빌드업과 Shrine of Order 루트를 정확히 따르지 않으면 stats이 꼬일 수 있음
 - ⚠️ PVP보다는 PVE 레이드에 특화되어 있어 PvP 상황에서는 대처가 까다로울 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1592,6 +2318,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `25`
 - **Thundercall**: `25`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Astral`
@@ -1619,11 +2357,27 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Metal Turret**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입 및 버프): 전투 시작 전 Flame Sentinel과 Lightning Clones를 소환하여 공격력 버프와 추가 타격 유도 세팅을 완료합니다.', '2단계 (가드브레이크 및 접근): Lightning Assault나 기동기 스킬로 적에게 빠르게 접근하여 빈틈을 만들고 밀리언 톤 피어시로 가드를 압박합니다.', "3단계 (극딜 폭발): Sovereign's Greatsword의 강력한 M1 평타 콤보를 연속으로 적중시켜 2,600 이상의 대미지를 누적시킵니다.", '4단계 (탈출 및 리젠): 위험 상황 발생 시 Phoenix Impact로 체력을 회복하고 거리를 벌린 뒤 재진입하여 전투를 마무리합니다.']
+1단계 (진입 및 버프): 전투 시작 전 Flame Sentinel과 Lightning Clones를 소환하여 공격력 버프와 추가 타격 유도 세팅을 완료합니다.
+2단계 (가드브레이크 및 접근): Lightning Assault나 기동기 스킬로 적에게 빠르게 접근하여 빈틈을 만들고 밀리언 톤 피어시로 가드를 압박합니다.
+3단계 (극딜 폭발): Sovereign's Greatsword의 강력한 M1 평타 콤보를 연속으로 적중시켜 2,600 이상의 대미지를 누적시킵니다.
+4단계 (탈출 및 리젠): 위험 상황 발생 시 Phoenix Impact로 체력을 회복하고 거리를 벌린 뒤 재진입하여 전투를 마무리합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `60` / AGL: `25` / INT: `0` / WLL: `80` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `{'flamecharm': 25, 'thundercall': 25}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 20] enmity-slayer-v2
+### 🛡️ [빌드 22] enmity-slayer-v2
 
 # ⚔️ Enmity Slayer V2
 
@@ -1671,14 +2425,16 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Shadowcast**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `30.0%` / 빙결: `25.0%` / 바람: `25.0%` | 그림자: `35.0%` / 번개: `25.0%` / 철: `30.0%` |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `30.0%`<br>❄️빙결: `25.0%`<br>⚡번개: `25.0%`<br>💨바람: `25.0%` | 🌌암흑: `35.0%`<br>⚙️철(Metal): `30.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Crypt Blade** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
@@ -1713,9 +2469,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🥊 콤보 & 전투 운용 가이드
 {'opening': 'Flame Sentinel과 Graceful Flames, Flame Within을 선시전하여 공격력 버프와 화염 도트 버프를 극대화합니다.', 'mid_combat': 'Enmity 만트라와 Crypt Blade의 강력한 헤비 웨폰 평타를 연계하여 몬스터의 방어구를 순식간에 파괴합니다.', 'finisher': 'Soulbreaker 및 Linkstrider 효과와 연계된 파티원들의 백 데미지 서포트를 받아 딜 사이클을 반복하여 보스를 순식간에 처치합니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Contractor` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `3` / Erudition: `3` / Proficiency: `3` / Songchant: `3` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `25` / INT: `10` / WLL: `80` / CHA: `20` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `90` / Elements: `{'flamecharm': 75, 'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `30.0%` / ❄️빙결: `25.0%` / ⚡번개: `25.0%` / 💨바람: `25.0%` / 🌌암흑: `35.0%` / ⚙️철: `30.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 21] flamecharm-rapier-dual-enchant-build
+### 🛡️ [빌드 23] flamecharm-rapier-dual-enchant-build
 
 # ⚔️ Flamecharm Rapier Dual Enchant Build
 
@@ -1743,6 +2512,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 묵직한 대형 weapons(Heavy Weapon) 유저의 패리 및 리포스트 타이밍에 역공당할 위험 존재
 - ⚠️ 원거리 견제력이 상대적으로 부족하여 접근전 심리전 실패 시 주도권을 내어줄 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1755,6 +2529,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `75` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Curse of Yun'Shul & Tears of the Edenkite`
@@ -1773,9 +2559,352 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engagement': '다이브 및 대시 기동을 통해 상대의 사각지대로 빠르게 파고들어 선공권을 잡습니다.', 'step_2_guard_break': '레이피어의 빠른 다중 타격 평타와 크리티컬 공격으로 상대의 가드를 빠르게 깎아내고 가드브레이크 상태를 유도합니다.', 'step_3_burst_damage': '가드가 깨진 상대에게 Flame Assault mantras와 인챈트 버프가 실린 폭딜 콤보를 연계합니다.', 'step_4_disengage_recovery': '스태미나가 부족해지거나 상대가 반격할 타이밍에는 즉시 뒤로 빠져 스태미나를 회복하고 다음 진입 각을 재봅니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `25` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 22] heretics-jetstriker-gale-grieves
+### 🛡️ [빌드 24] frostburn-v2
+
+# ⚔️ FrostBurn V2
+
+> **출처 영상**: [This New PVE BUILD is META FOR EVERYTHING....😲 "FrostBurn V2" | Deepwoken PvE Build Showcase](https://www.youtube.com/watch?v=t6Ba_TWnaKQ) by `Laptist`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Canor` / `Deepbound` | **Oath**: `Oathless` | **Murmur/Bell**: `Flame Within` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+많은 유저들이 Pyre Keeper와 Flamecharm/Frostdraw 하이브리드 조합이 PvE에서 쓰레기라며 선입견을 갖지만, 이 빌드는 그 편견을 완전히 깨부수는 최상위권 PvE 메타 빌드입니다. 델루비안(Diluvian) 웨이브 및 Chaser, Ethiron 등 고난도 보스전에서 압도적인 딜링과 생존력을 보여주며, 심지어 갱커들의 공격까지 역관광 태울 수 있는 강력한 잠재력을 지니고 있습니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Pyre Keeper 고유의 뛰어난 M1 데미지와 크리티컬 판정으로 몹들을 순식간에 녹여버릴 수 있습니다.
+- ✅ Flamecharm과 Frostdraw의 하이브리드 세팅을 통해 화염과 빙결 디버프를 동시에 활용하여 압도적인 원거리 및 광역 딜링이 가능합니다.
+- ✅ Pathfinder Elite 및 Thraw of Enmity 등의 고효율 렐릭과 조합되어 몬스터 상대로 엄청난 물리 방어력과 피해량 증가 보정을 받습니다.
+- ✅ 만트라 스팀(Steam) 퍽을 M1과 연계하여 손쉽게 발동시킬 수 있어 안정적인 유지력과 체력 관리가 가능합니다.
+**단점**:
+- ⚠️ 초반 스탯 분배 시 Shrine of Order를 거치는 과정에서 Flame과 Light Weapon의 수치를 정밀하게 조율하지 않으면 빌드가 완전히 망가질 수 있어 주의가 필요합니다.
+- ⚠️ 고웨이브(Wave 40 이상)에서 Mech나 강력한 보스들의 광역 패턴 타이밍을 숙지하지 못하면 체력 관리가 급격히 어려워질 수 있습니다.
+- ⚠️ PvE 전용으로 최적화되어 있어 PvP 전용 세팅을 상대할 때는 기동성과 방어구 세팅의 한계가 존재합니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `4` | `2` | `6` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `5` |
+| Fortitude (인내) | `75` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `75` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `25` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `10` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `77`
+- **Frostdraw**: `40`
+- **Bloodrend**: `25`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `462.0` | `28.0` | `313.0` | `177.0` | `379.0` | `0.0%` | `30.5%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `54.2%`<br>🗡️베기: `51.8%`<br>🩸관통/출혈: `5.0%` | 🔥화염: `25.0%`<br>❄️빙결: `28.8%`<br>⚡번개: `25.0%`<br>💨바람: `25.0%` | 🌌암흑: `32.5%`<br>⚙️철(Metal): `25.0%`<br>🩸혈액(Blood): `25.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Pyre Keeper** (Light Weapon) — 인챈트: `Flamecharm` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Sea Lantern Hat
+- **[Face]** Demon Mask
+- **[Amulet]** Old Blood Earrings
+- **[Outfit]** Diver Journeyman Robes
+- **[Boots]** Star Boots
+- **[Ring 1]** Ring of Casters
+- **[Ring 2]** Deep Fire Ring
+- **[Ring 3]** Diver's Ring
+- **[Ring 4]** Acure's Ring
+- **[Bell]** Scout / Generic Bell
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Steadfast Scrapper**
+- **Squamous Glutton**
+- **Heretic Sutra**
+- **Parasol Planer**
+- **Pathfinder Elite**
+- **Thraw of Enmity**
+
+## 🔮 주문 목록 (Mantras)
+- **Blinding Dawn**
+- **Fire Eruption**
+- **Flame Assault**
+- **Frozen Servants**
+- **Ice Flock**
+- **Relentless Flames**
+- **Burning Servants**
+- **Warden Blades**
+- **Flame Wisp**
+
+## 🥊 콤보 & 전투 운용 가이드
+전투 개시 시 Flame Within 및 Blinding Dawn으로 버프를 두르고, Fire Eruption과 Ice Flock을 연계하여 적들에게 광역 디버프 및 속성 피해를 누적시킵니다. 이후 Burning Servants와 Warden Blades를 소환하여 몬스터들의 어그로를 분산시키고, Pyre Keeper의 강화된 M1 공격과 크리티컬 일격을 연속으로 적중시켜 적을 순식간에 처치합니다. 체력이 부족할 때는 Flame Wisp를 사용하여 안정적으로 회복합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Oathless` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `4` / Proficiency: `2` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `5` / FTD: `75` / AGL: `0` / INT: `0` / WLL: `75` / CHA: `0` |
+| **무기/속성 수치** | LHT: `10` / MED: `0` / HVY: `25` / Elements: `{'flamecharm': 77, 'frostdraw': 40, 'bloodrend': 25}` |
+| **실전 전투 수치** | ❤️HP: `462.0` / 🛡️Posture: `28.0` / 💧Ether: `313.0` / ⚡Tempo: `177.0` / 🧠Sanity: `379.0` / 👟Speed: `0.0%` / 💀Monster Dmg: `30.5%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `54.2%` / 🗡️베기(Slash): `51.8%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `25.0%` / ❄️빙결: `28.8%` / ⚡번개: `25.0%` / 💨바람: `25.0%` / 🌌암흑: `32.5%` / ⚙️철: `25.0%` / 🩸혈액: `25.0%` |
+
+---
+
+### 🛡️ [빌드 25] ganymede-bladeharper-90-bloodrend-triple-attunement
+
+# ⚔️ Ganymede Bladeharper 90 Bloodrend Triple-Attunement Hybrid PvE
+
+> **출처 영상**: [Ganymede Bladeharper 90 Bloodrend Triple-Attunement Hybrid PvE](https://www.youtube.com) by `Deepwoken PvE Specialist`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Ganymede` / `Deepbound` | **Oath**: `Bladeharper` | **Murmur/Bell**: `N/A` / `N/A`
+
+---
+
+## 📝 빌드 개요 및 총평
+Ganymede 종족의 뛰어난 Sanity(정신력) 기본 스탯과 6 Proficiency, 6 Songchant 세팅을 기반으로 설계된 90 Bloodrend + Triple Elemental(Flame/Thunder/Shadow 17) 하이브리드 블레이드하퍼 빌드입니다.
+
+88 Medium Weapon과 Shattered Katana의 강력한 M1 평타 딜링, 90 Bloodrend의 막강한 출혈(Hemorrhage) 지속딜 및 3속성(Flame/Thunder/Shadow) 만트라 유틸리티를 동시에 발동시켜 Diluvian 메커니즘과 엔드게임 보스 레이드에서 극강의 DPS를 뿜어냅니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 90 Bloodrend 기반의 가공할 만한 출혈 및 흡혈 폭딜
+- ✅ Flame(17) + Thunder(17) + Shadow(17) 3속성 만트라의 다채로운 군중제어 및 유틸리티
+- ✅ 6 Proficiency + 6 Songchant 극대화로 빠른 만트라 시전 속도와 높은 M1 위력
+- ✅ Ganymede 고유의 높은 정신력(285 Sanity)으로 Depths 및 레이드 생존력 우수
+**단점**:
+- ⚠️ Fortitude 0 투자로 인해 Max HP(451) 및 Posture(23)가 낮아 패리/회피 컨트롤 숙련 필수
+- ⚠️ 3개 속성 만트라와 Bloodrend의 복합 스킬 쿨타임 관리가 까다로움
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `15` |
+| Fortitude (인내) | `0` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `17` |
+| Willpower (의지) | `40` |
+| Charisma (매력) | `0` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `88` |
+| Light Wep (경화기) | `0` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `17`
+- **Thundercall**: `17`
+- **Shadowcast**: `17`
+- **Bloodrend**: `90`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `451` | `23` | `225` | `140` | `285` | `5.0%` | `+26.5%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `33.7%`<br>🗡️베기: `31.6%`<br>🩸관통/출혈: `5.0%` | 🔥화염: `17.5%`<br>❄️빙결: `17.5%`<br>⚡번개: `17.5%`<br>💨바람: `17.5%` | 🌌암흑: `17.5%`<br>⚙️철(Metal): `21.7%`<br>🩸혈액(Blood): `N/A` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Shattered Katana** (Medium Weapon) — 인챈트: `Drowned` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Dark Hood / Witch Hat (⭐x3)
+- **[Outfit]** Deepbound Diver Attire (⭐x3)
+- **[Glasses]** Scholar Glasses (⭐x3)
+- **[Boots]** Leather Greaves (⭐x3)
+- **[Ring 1]** Poser's Ring (⭐x2)
+- **[Ring 2]** Maestro's Ring (⭐x2)
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Hemorrhage Master**
+- **Bladeharper Stance**
+- **Speed Demon**
+- **Conditioned Runner**
+### 📜 보조 및 추천 탤런트
+- Old Habits Die Hard
+
+## 🔮 주문 목록 (Mantras)
+- **Bloodcurdle**
+- **Scarlet Cyclone**
+- **Flame Blind**
+- **Lightning Jolt**
+- **Shadow Seekers**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. Flame Blind 및 Lightning Jolt로 적의 시야와 기동성을 봉쇄합니다.
+2. Shattered Katana의 빠른 M1 콤보로 Posture를 깎아내며 Bladeharper 스탠스 버프를 누적합니다.
+3. 적의 방어가 무너졌을 때 Scarlet Cyclone과 Bloodcurdle을 연계하여 90 Bloodrend의 압도적인 출혈 폭딜을 터뜨립니다.
+4. Poser's Ring으로 적의 카운터를 흘리며 무한 딜사이클을 유지합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `15` / FTD: `0` / AGL: `25` / INT: `17` / WLL: `40` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `88` / HVY: `0` / Elements: `{'flamecharm': 17, 'thundercall': 17, 'shadowcast': 17, 'bloodrend': 90}` |
+| **실전 전투 수치** | ❤️HP: `451` / 🛡️Posture: `23` / 💧Ether: `225` / ⚡Tempo: `140` / 🧠Sanity: `285` / 👟Speed: `5.0%` / 💀Monster Dmg: `+26.5%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `33.7%` / 🗡️베기(Slash): `31.6%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `17.5%` / ❄️빙결: `17.5%` / ⚡번개: `17.5%` / 💨바람: `17.5%` / 🌌암흑: `17.5%` / ⚙️철: `21.7%` / 🩸혈액: `N/A` |
+
+---
+
+### 🛡️ [빌드 26] guide-of-the-souls-v4-silentheart-support
+
+# ⚔️ Guide of the Souls v4 (Silentheart Support)
+
+> **출처 영상**: [This Silentheart “SUPPORT” Build Does 25,000 TRUE Damage In ONLY 5 Seconds….| Deepwoken](https://www.youtube.com/watch?v=9l3N8Ml-LPM) by `ffeiitan`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
+> **종족/출신**: `Adret` / `Deepbound` | **Oath**: `Silentheart` | **Murmur/Bell**: `Ardour` / `Payback`
+> 🌐 **빌더 링크**: [https://deepwoken.co/builder?id=Qwk6s2Jg](https://deepwoken.co/builder?id=Qwk6s2Jg)
+
+---
+
+## 📝 빌드 개요 및 총평
+사일런트하트(Silentheart) 서약과 카리스마 기반 서포트 특성을 융합하여 솔로 및 파티 플레이에서 극단적인 폭딜과 보조 성능을 동시에 발휘하도록 설계된 PvE 특화 빌드입니다.
+
+Shrine of Order를 활용해 Pre-shrine에서 고티어 카리스마 탤런트(Cornered Fool, Lasting Charisma)와 의지 탤런트를 확보한 뒤, Post-shrine에서 근력 80과 중형 무기 100을 완성하여 파티 버프 및 디버프와 함께 폭발적인 딜링을 제공합니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ Command: Live 및 Beserk 버프를 통한 압도적인 파티 기여도와 자가 화력 증폭
+- ✅ Cornered Fool 및 Taunt 디버프 연계를 통한 폭발적인 트루 데미지 딜링
+- ✅ Payback 벨을 활용한 보스전 피흡 및 정신력(Sanity) 관리의 용이함
+**단점**:
+- ⚠️ 사일런트하트 특성상 만트라 주문 시전이 불가능해 순수 기본기 및 서약 스킬에 의존
+- ⚠️ Shrine of Order 최적화 과정에서 초반 스탯 분배 및 탤런트 엄선 난이도 존재
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 🔵 질서의 성소 전 (Pre-Shrine) | 🔴 질서의 성소 후 (Post-Shrine) |
+| :--- | :---: | :---: |
+| Strength (근력) | `1` | `80` `(+79)` |
+| Fortitude (인내) | `50` | `30` `(-20)` |
+| Agility (민첩) | `1` | `25` `(+24)` |
+| Intelligence (지능) | `0` | `5` `(+5)` |
+| Willpower (의지) | `65` | `40` `(-25)` |
+| Charisma (매력) | `85` | `60` `(-25)` |
+| Heavy Wep (중화기) | `0` | `0` |
+| Medium Wep (중형무기) | `1` | `90` `(+89)` |
+| Light Wep (경화기) | `0` | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `509.0` | `31.0` | `282.0` | `140.0` | `294.0` | `N/A` | `-15.0%` | `28.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 저항 분류 | 속성 / 공격 유형 | 실측 저항 수치 |
+| :--- | :--- | :---: |
+| **물리 (Physical)** | 🔨 타격 (Blunt) | `37.0%` |
+| **물리 (Physical)** | 🗡️ 베기 (Slash) | `37.0%` |
+| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `5.0%` |
+| **원소 (Elemental)** | 🔥 화염 (Fire) | `32.1%` |
+| **원소 (Elemental)** | ❄️ 빙결 (Ice) | `32.1%` |
+| **원소 (Elemental)** | ⚡ 번개 (Lightning) | `45.7%` |
+| **원소 (Elemental)** | 💨 바람 (Wind) | `32.1%` |
+| **특수 (Special)** | 🌌 암흑 (Shadow) | `45.7%` |
+| **특수 (Special)** | ⚙️ 철 (Iron / Metal) | `32.1%` |
+| **특수 (Special)** | 🩸 혈액 (Blood) | `32.1%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Shattered Katana** (Medium Weapon) — 인챈트: `Astral` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Outfit]** Black Diver
+- **[Arms]** Warlock's Mantle
+- **[Ring 1]** Prophet's Ring
+- **[Ring 2]** Prophet's Ring
+- **[Ring 3]** Prophet's Ring
+- **[Ring 4]** Prophet's Ring
+- **[Bell]** Payback
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Cornered Fool**
+- **Lasting Charisma**
+- **Against All Odds**
+- **Lose Your Mind**
+- **Exoskeleton**
+- **To the Finish**
+- **Unfazed**
+- **Overflowing Dam**
+- **Ardour Scream**
+
+## 🔮 주문 목록 (Mantras)
+- **Taunt**
+
+## 🥊 콤보 & 전투 운용 가이드
+Taunt 적용 -> Ardour Scream 발동 -> Mayhem 및 Rising Star 연계 -> Astral Shattered Katana 기본 공격 난타로 폭딜
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Silentheart` / Race/Aspect: `Adret` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `80` / FTD: `30` / AGL: `25` / INT: `5` / WLL: `40` / CHA: `60` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `509.0` / 🛡️Posture: `31.0` / 💧Ether: `282.0` / ⚡Tempo: `140.0` / 🧠Sanity: `294.0` / 🛡️Armor: `N/A` / 👟Speed: `-15.0%` / 💀Monster Dmg: `28.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `37.0%` / 🗡️베기(Slash): `37.0%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `32.1%` / ❄️빙결: `32.1%` / ⚡번개: `45.7%` / 💨바람: `32.1%` / 🌌암흑: `45.7%` / ⚙️철: `32.1%` / 🩸혈액: `32.1%` |
+
+---
+
+### 🛡️ [빌드 27] heretics-jetstriker-gale-grieves
 
 # ⚔️ Heretic's Jetstriker Gale Grieves
 
@@ -1803,6 +2932,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 방어력(Fortitude)과 체력 stats이 상대적으로 낮아 방심할 경우 누적 데미지에 취약할 수 있음
 - ⚠️ Shrine of Order 빌딩 단계에서 stats Shrinoing 순서를 실수하면 핵심 talents를 누락할 위험이 큼
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1818,6 +2952,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Grim`
@@ -1842,9 +2988,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engagement': 'Jetstriker의 고속 공중 이동 및 Dash를 통해 상대의 허를 찌르며 근접 거리를 순식간에 좁힙니다.', 'step_2_guard_break': 'Gale Lunge와 라이트 weapons 평타 연계를 통해 상대의 포스처 게이지를 빠르게 깎고 Air Counter로 공중 판정 콤보를 연계합니다.', 'step_3_burst_damage': "Heretic's Sutra와 Lose Your Mind로 증폭된 극딜 대미지를 바탕으로 Rising Wind 및 주력 mantras를 퍼부어 체력을 대거 소모시킵니다.", 'step_4_recovery_and_escape': '교전 중 불리해질 경우 Jetstriker의 기동력으로 거리를 벌리고, Charismatic Cast 및 Blood Scourge(Bell) 효과로 체력과 포스처를 정비합니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Navaan Warchef` / Oath: `Jetstriker` / Race/Aspect: `Vowwalker` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `75` / INT: `40` / WLL: `80` / CHA: `25` |
+| **무기/속성 수치** | LHT: `25` / MED: `0` / HVY: `0` / Elements: `{'galebreathe': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 23] imperators-fury-steam-vent-diluvian-speedrun
+### 🛡️ [빌드 28] imperators-fury-steam-vent-diluvian-speedrun
 
 # ⚔️ Imperator's Fury Steam Vent Diluvian Speedrun
 
@@ -1894,14 +3053,16 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - **Shadowcast**: `1`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `465` | `30` | `500` | `120` | `100` | `105.0%` | `+55.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `25.0%` / 관통: `30.0%` | 화염: `20.0%` / 빙결: `15.0%` / 바람: `15.0%` | 그림자: `20.0%` / 번개: `15.0%` / 철: `15.0%` |
+| 🔨타격: `25.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `15.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `15.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Kyoryu** (Medium Weapon) — 인챈트: `Vampirism` ⭐x3
@@ -1941,9 +3102,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 3. Imperator's Fury의 개조 벤트(Vent)를 지면에 스팸 투사하여 넓은 광역 피해를 주며 템포 및 에테르를 회복합니다.
 4. 웨이브 25 등의 거대 보스 몹 타겟팅 시 Corrupt Payback 빔 레이저를 발사하여 순간 폭딜로 빠르게 마무리합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Blindseer` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `6` / Proficiency: `0` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `{'flamecharm': 1, 'shadowcast': 1}` |
+| **실전 전투 수치** | ❤️HP: `465` / 🛡️Posture: `30` / 💧Ether: `500` / ⚡Tempo: `120` / 🧠Sanity: `100` / 👟Speed: `105.0%` / 💀Monster Dmg: `+55.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `25.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `20.0%` / ⚙️철: `15.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 24] inquisitor-bloodrend-red-death-pve
+### 🛡️ [빌드 29] inquisitor-bloodrend-red-death-pve
 
 # ⚔️ Inquisitor Bloodrend Red Death PvE
 
@@ -1967,6 +3141,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 초반 육성 단계에서 여러 속성(Bloodrend, Shadowcast)을 동시에 올려야 하므로 성장이 다소 복잡함
 - ⚠️ 오쓰(Oath)를 Shrine of Order 사용 이후에만 획득해야 하는 제약이 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -1983,6 +3162,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `20`
 - **Bloodrend**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **The Red Death** (Medium Weapon) — 인챈트: `None`
@@ -2013,9 +3204,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 시 Shadow Chains로 적을 묶어 디버프를 건 뒤, Red Death 크리티컬 공격으로 진입하여 Bloodrend 흡혈 상태를 활성화합니다. 이후 Blood Siphon과 Blood Blade mantras를 연계하여 폭발적인 피해를 입힙니다. 적의 공격은 패링하거나 Exoskeleton의 단단한 맷집으로 버텨내며 끊임없이 평타와 mantras를 섞어 흡혈을 유도하는 맞딜 플레이스타일을 유지합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `1` / FTD: `40` / AGL: `1` / INT: `30` / WLL: `30` / CHA: `75` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'shadowcast': 20, 'bloodrend': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 25] ironsing-steelscale-cestus-jailer-path
+### 🛡️ [빌드 30] ironsing-steelscale-cestus-jailer-path
 
 # ⚔️ Ironsing Steelscale Cestus & Jailer Path
 
@@ -2043,6 +3247,11 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 - ⚠️ 포티튜드 및 아이언싱 투자가 강제되어 stats 분배가 다소 경직됨
 - ⚠️ 근접 인파이팅에 특화되어 있어 원거리 오리진이나 광역 카이팅 빌드를 상대로 접근 타이밍을 잡기 까다로움
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2058,6 +3267,18 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Vampirism`
@@ -2084,9 +3305,22 @@ Deepwoken의 핵심 메타 시스템인 딥 슈라인(Deep Shrines), 특히 빌�
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engage': '철저한 기동성을 바탕으로 슬라이드 점프를 활용해 적의 공격 범위를 회피하며 인파이팅 거리를 좁힙니다.', 'step_2_break': "스틸스케일 더스터의 크리티컬 히트 및 'Metal Kick'을 적중시켜 적의 가드를 붕괴시키고 넉다운 상태를 유도합니다.", 'step_3_burst': "속박(Jailer Pull)을 걸어 적의 이동을 제한한 뒤, 'Iron Quills'와 'Metal Gatling'을 연계하여 폭발적인 아이언싱 원거리/근거리 복합 대미지를 퍼붓습니다.", 'step_4_recovery': "교전 중 위험할 경우 'Tranquil Circle'과 'Reinforce'를 사용하여 적의 벨트 효과 및 디버프를 무효화하고 전세를 재정비합니다."}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Contractor` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `100` / AGL: `40` / INT: `40` / WLL: `50` / CHA: `80` |
+| **무기/속성 수치** | LHT: `55` / MED: `0` / HVY: `0` / Elements: `{'ironsing': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 26] jetstriker-galebreathe-assassin
+### 🛡️ [빌드 31] jetstriker-galebreathe-assassin
 
 # ⚔️ Jetstriker Galebreathe Assassin
 
@@ -2112,6 +3346,11 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 - ⚠️ 낮은 물리 및 속성 방어력: 과감한 암살 플레이를 위해 방어 stats 투자가 분산되어 있어 맞다이 시 집중 공격에 취약함
 - ⚠️ 숙련도가 요구되는 콤보 타이밍: Astral Wind와 크리티컬 공중 추적 콤보의 프레임 타이밍을 정확히 맞추지 못하면 딜 손실 발생
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2127,6 +3366,18 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Big Brother** (Light Weapon) — 인챈트: `None`
@@ -2168,11 +3419,27 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 - **Gale Wisp**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.', '2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 stats 콤보)합니다.', '3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin talents 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.', '4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다.']
+1단계 (진입 및 기습): 은신 상태로 적에게 접근하여 Swift Strike를 발동, 후방 평타로 적의 뒤를 잡고 강화된 크리티컬로 텔레포트 공격을 명중시킵니다.
+2단계 (군중 제어 및 연계): Astral Wind를 캐스팅한 직후 적이 공중에 떠오르는 타이밍에 맞춰 크리티컬 공격을 스팸하여 공중으로 오토 추적(아스트랄 stats 콤보)합니다.
+3단계 (폭딜 우겨넣기): Spine Cutter와 Assassin talents 효과가 적용된 M1 연타 및 Gale Lunge를 사용하여 방어력이 깎인 적에게 치명적인 대미지를 입힙니다.
+4단계 (이탈 및 생존): 교전이 불리해지거나 적의 반격이 거셀 경우 Dash 및 Jet Kick을 연계하여 즉시 전장을 이탈하고 체제를 정비합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Jetstriker` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `20` / FTD: `40` / AGL: `100` / INT: `0` / WLL: `0` / CHA: `60` |
+| **무기/속성 수치** | LHT: `80` / MED: `0` / HVY: `0` / Elements: `{'galebreathe': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 27] justiciar-warder-support-build
+### 🛡️ [빌드 32] justiciar-warder-support-build
 
 # ⚔️ Justiciar Warder Support Build
 
@@ -2275,7 +3542,7 @@ Swift Strike와 Spine Cutter, 그리고 Assassin talents 체인을 활용해 등
 
 ---
 
-### 🛡️ [빌드 28] kratos-v4-gran-sudaruska-steam-dawnwalker-pve
+### 🛡️ [빌드 33] kratos-v4-gran-sudaruska-steam-dawnwalker-pve
 
 # ⚔️ KRATOS V4 (Gran Sudaruska Steam Dawnwalker PvE)
 
@@ -2341,14 +3608,16 @@ KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브,
 - **Flamecharm**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `521` | `26` | `307` | `157` | `100` | `100.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `28.0%` / 관통: `25.0%` | 화염: `10.0%` / 빙결: `15.0%` / 바람: `0.0%` | 그림자: `25.0%` / 번개: `15.0%` / 철: `0.0%` |
+| 🔨타격: `28.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `25.0%` | 🔥화염: `10.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `0.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `0.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `Strength 40, Fortitude 90, Willpower 80, Flamecharm 80, Heavy_wep 80`
@@ -2406,9 +3675,154 @@ KRATOS V4는 Deepwoken 내 모든 PvE 콘텐츠(딜루비안 솔로 50웨이브,
 3. **위급 상황 생존 콤보**:
    - `Sacred Field` (벨) 즉시 발동 -> `Reinforce` 디버프 감소 및 체력 수급 -> 스팀 장판 내에서 비비면서 체력 회복 후 몹 일괄 정리.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Dawnwalker` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `2` / Proficiency: `0` / Songchant: `4` |
+| **6대 기본 스탯** | STR: `40` / FTD: `90` / AGL: `25` / INT: `0` / WLL: `80` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'flamecharm': 80}` |
+| **실전 전투 수치** | ❤️HP: `521` / 🛡️Posture: `26` / 💧Ether: `307` / ⚡Tempo: `157` / 🧠Sanity: `100` / 👟Speed: `100.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `28.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `25.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `10.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `0.0%` / 🌌암흑: `25.0%` / ⚙️철: `0.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 29] megumi-ten-shadows-visionshaper-summoner-buil
+### 🛡️ [빌드 34] max-pen-max-dmg-m1-pve-build-astral-divine-ax
+
+# ⚔️ Max Pen + Max Dmg M1 PvE Build (Astral Divine Axe)
+
+> **출처 영상**: [The Best M1 Dmg + Max Pen PvE Build | Deepwoken](https://www.youtube.com/watch?v=MFb62Q3JCKs) by `iheartmk`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `None` / `Deepbound` | **Oath**: `Oathless` | **Murmur/Bell**: `Ardour` / `Crazy Slots`
+> 🌐 **빌더 링크**: [https://deepwoken.co/builder?id=3eja6yaT](https://deepwoken.co/builder?id=3eja6yaT)
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Deepwoken 내에서 평타(M1) 공격력과 방어력 관통력(Penetration)을 극대화하여 보스 및 강력한 몬스터들을 단 몇 초 만에 도륙낼 수 있도록 설계된 극딜형 PvE 빌드입니다. 0 Fortitude(체력/방어 스탯 포기)를 선택하는 대신 Max Damage Multiplier와 Max Pen을 달성하였으며, Speed Demon, Raging Static, Astral 인챈트 등 공격력 보너스를 중첩시켜 프라이모던, 페리맨, 체이서 등의 주요 보스 패턴을 단 한두 번의 기회 만에 스킵할 수 있는 무시무시한 폭딜 성능을 자랑합니다.
+
+다만 체력 및 자원 복구력이 무기 피흡 및 높은 딜량에서 나오는 구조이므로, 공격을 방어/패링하지 못하고 지속적으로 얻어맞을 경우 순식간에 위험에 처할 수 있습니다. 보스전 패턴에 익숙하고 패링 타이밍을 완벽히 숙지한 숙련자 플레이어에게 강력히 추천되는 고성능 보스 레이드 특화 빌드입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 최상위 등급의 평타(M1) Dps 및 관통력으로 체이서(Chaser)를 단 1사이클 만에 처치 가능
+- ✅ Astral 인챈트 및 Divine Axe / Evanspear Hand Axe 조합으로 몬스터 상대 괴물 같은 수치의 딜 증폭
+- ✅ Speed Demon, Raging Static, Underdog 등 수많은 공격력 버프 탤런트가 상시 유지되어 압도적인 화력 보장
+- ✅ Oathless 선택으로 높은 보너스 탤런트 수급 및 자율적인 속성 조합 구성 가능
+**단점**:
+- ⚠️ 0 Fortitude 투자로 인해 생존용 방어 스탯이 전무하여 실수 한 번에 체력이 크게 깎임
+- ⚠️ 초보자가 사용하기에는 높은 패링 및 피하기 능력(게임 이해도)을 요구함
+- ⚠️ 완벽한 성능을 발휘하기 위해 Astral 인챈트 및 고등급 무기/장비 세팅 필요
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `0` | `6` | `0` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 🔵 질서의 성소 전 (Pre-Shrine) | 🔴 질서의 성소 후 (Post-Shrine) |
+| :--- | :---: | :---: |
+| Strength (근력) | `1` | `80` `(+79)` |
+| Fortitude (인내) | `0` | `0` |
+| Agility (민첩) | `40` | `19` `(-21)` |
+| Intelligence (지능) | `0` | `5` `(+5)` |
+| Willpower (의지) | `1` | `40` `(+39)` |
+| Charisma (매력) | `0` | `0` |
+| Heavy Wep (중화기) | `1` | `100` `(+99)` |
+| Medium Wep (중형무기) | `0` | `0` |
+| Light Wep (경화기) | `0` | `0` |
+| **속성 (Attunements)** | --- | --- |
+| Flamecharm (화염) | `1` | `0` `(-1)` |
+| Thundercall (번개) | `50` | `0` `(-50)` |
+| Galebreathe (바람) | `60` | `0` `(-60)` |
+| Shadowcast (암흑) | `1` | `0` `(-1)` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `415` | `20` | `240` | `100` | `85` | `N/A` | `126.0%` | `+60.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 저항 분류 | 속성 / 공격 유형 | 실측 저항 수치 |
+| :--- | :--- | :---: |
+| **물리 (Physical)** | 🔨 타격 (Blunt) | `15.0%` |
+| **물리 (Physical)** | 🗡️ 베기 (Slash) | `30.0%` |
+| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `20.0%` |
+| **원소 (Elemental)** | 🔥 화염 (Fire) | `20.0%` |
+| **원소 (Elemental)** | ❄️ 빙결 (Ice) | `0.0%` |
+| **원소 (Elemental)** | ⚡ 번개 (Lightning) | `0.0%` |
+| **원소 (Elemental)** | 💨 바람 (Wind) | `0.0%` |
+| **특수 (Special)** | 🌌 암흑 (Shadow) | `15.0%` |
+| **특수 (Special)** | ⚙️ 철 (Iron / Metal) | `0.0%` |
+| **특수 (Special)** | 🩸 혈액 (Blood) | `0.0%` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Divine Axe** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
+- **Evanspear Hand Axe** (Heavy Weapon) — 인챈트: `Astral` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Vigil Hood
+- **[Face]** Hivelord Mask
+- **[Amulet]** Confessor's Charm
+- **[Outfit]** Vigil Sentinel
+- **[Boots]** Moonlit Earrings
+- **[Ring 1]** Ishan's Ring
+- **[Ring 2]** Maestro's Ring
+- **[Ring 3]** Akira's Ring
+- **[Ring 4]** Dawntide's Ring
+- **[Bell]** Crazy Slots
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Speed Demon**
+- **Raging Static**
+- **Phantom Step**
+- **Discovery of Fire**
+- **Underdog**
+- **Inhale**
+### 📜 보조 및 추천 탤런트
+- Blade Dancer
+- Grand Feast
+- Berserker
+
+## 🔮 주문 목록 (Mantras)
+- **Wind Passage**
+- **Tempest Blitz**
+- **Dash**
+- **Lightning Cloak**
+- **Gate Wisp**
+- **Adrenaline Surge**
+- **Gale Lunge**
+- **Twister Kicks**
+- **Shade Devour**
+
+## 🥊 콤보 & 전투 운용 가이드
+1. 전투 시작 시 Lightning Cloak / Adrenaline Surge를 활성화하여 이동 및 공격 속도 버프 획득.
+2. Gale Lunge 또는 Twister Kicks로 몬스터에게 접근 및 디버프 부여.
+3. 패링 성공 후 Speed Demon 버프가 적용된 상태에서 Astral Divine Axe / Evanspear Hand Axe M1 연타.
+4. 체력 및 마나 보충이 필요할 때는 Shade Devour 및 Inhale 계열 특성을 활용하여 지속력 유지.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Oathless` / Race/Aspect: `None` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `80` / FTD: `0` / AGL: `19` / INT: `5` / WLL: `40` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `415` / 🛡️Posture: `20` / 💧Ether: `240` / ⚡Tempo: `100` / 🧠Sanity: `85` / 🛡️Armor: `N/A` / 👟Speed: `126.0%` / 💀Monster Dmg: `+60.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `15.0%` / 🗡️베기(Slash): `30.0%` / 🩸관통·출혈(Bleed): `20.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `0.0%` / ⚡번개: `0.0%` / 💨바람: `0.0%` / 🌌암흑: `15.0%` / ⚙️철: `0.0%` / 🩸혈액: `0.0%` |
+
+---
+
+### 🛡️ [빌드 35] megumi-ten-shadows-visionshaper-summoner-buil
 
 # ⚔️ Megumi Ten Shadows Visionshaper Summoner Build
 
@@ -2434,6 +3848,11 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ 다중 속성 및 유틸 stats 투자로 인해 순수 단일 속성 한방 폭딜 빌드 대비 직관적인 stats 단축이 필요함
 - ⚠️ 분신 및 소환 mantras의 에테르(Ether) 소모 관리가 미숙할 경우 정면 맞딜 상황에서 자원 난에 봉착할 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2451,6 +3870,18 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Frostdraw**: `25`
 - **Thundercall**: `25`
 - **Shadowcast**: `25`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Messer / Katana', 'category': 'Medium Weapon', 'enchantment': 'Curse of Rust / Solar'}** — 인챈트: `None`
@@ -2484,9 +3915,22 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 3단계 (근접 폭딜 연계): 상대가 분신을 의식하여 방어 자세를 취하거나 패링 미스가 나는 즉시 인파이팅으로 파고들어 weapons 기본 타격 2~3타와 Curse/Solar 감염 스택을 꽂아 넣습니다.
 4단계 (탈출 및 이탈): 에테르가 소모되거나 상대의 가운터가 예상될 때는 Rabbit Escape(탈토 컨셉) 또는 Run It Back으로 거리를 벌리고 체력/에테르를 회복한 뒤 다시 환영을 전개합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidwalker` / Oath: `Visionshaper` / Race/Aspect: `Etrean` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `20` / FTD: `40` / AGL: `40` / INT: `0` / WLL: `55` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `60` / HVY: `0` / Elements: `{'frostdraw': 25, 'thundercall': 25, 'shadowcast': 25}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 30] meta-all-rounder-pvp-pve-masterclass-build
+### 🛡️ [빌드 36] meta-all-rounder-pvp-pve-masterclass-build
 
 # ⚔️ Meta All-Rounder PvP & PvE Masterclass Build
 
@@ -2513,6 +3957,11 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ Beginner에게 다소 까다로운 stats 최적화: weapons 요구치(75~80)와 속성(80), talents 최소 요구치(Strength 40, Fortitude 54 등)를 정확히 계산하지 않으면 stats 낭명이 발생할 수 있습니다.
 - ⚠️ mantras 콤보 의존도: 단순 평타 싸움보다는 talents 버프와 mantras 연계 타이밍에 크게 의존하므로, 프레임 단위의 패리/회피 숙련도가 요구됩니다.
 - ⚠️ 특정 오스(Oath) 강제성: Starkindred, Silentheart 등 빌드 목적에 맞는 오스를 선택하지 못하면 잠재력을 100% 발휘하기 어렵습니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -2545,6 +3994,18 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -2591,9 +4052,22 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 3단계 (주력 mantras 폭딜): Gale Lunge와 Astral Wind 등 주력 mantras를 퍼부어 콤보 대미지를 극대화하고 talents 효과를 발동시킵니다.
 4단계 (탈출 및 유지력 회복): 교전 불리 시 Wind Passage로 거리를 벌리고, Breathing Exercise와 피흡 효과로 체력을 정비한 뒤 다시 진입합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `54` / AGL: `65` / INT: `25` / WLL: `25` / CHA: `55` |
+| **무기/속성 수치** | LHT: `0` / MED: `80` / HVY: `0` / Elements: `{'ironsing': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 31] min-maxed-general-hybrid-build-guide
+### 🛡️ [빌드 37] min-maxed-general-hybrid-build-guide
 
 # ⚔️ Min-Maxed General Hybrid Build Guide
 
@@ -2617,6 +4091,11 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ Shrine 시스템과 퀘스트 순서를 잘못 진행할 경우 빌드가 완전히 망가질 수 있어 철저한 사전 계획이 필요합니다.
 - ⚠️ 고급 장비(God-roll 악세서리 및 헬모드 방어구) 파밍을 위해 레이드 콘텐츠에 대한 숙련도가 요구됩니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2632,6 +4111,18 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Ferocity`
@@ -2656,11 +4147,27 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Jet Kick**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입): Flame Leap과 Jet Kick을 활용하여 빠른 기동성으로 적의 거리를 순식간에 좁히고 선공권을 잡습니다.', "2단계 (가드브레이크): Master's Flourish와 중weapons/중수기 평타 콤보를 연계하여 적의 포스트레(Posture)를 빠르게 깎고 가드를 무너뜨립니다.", '3단계 (폭딜 연계): 가드가 깨진 적에게 Ash Slam, Fire Blade, Prominence Draw 등 주력 mantras를 퍼부어 압도적인 퍼센트 대미지와 속성 도트 대미지를 누적합니다.', '4단계 (유지력 회복 및 탈출): 교전 중 체력이 부족할 경우 Conditioned Runner와 피흡/회복 효과를 활용해 거리를 벌리며 재정비합니다.']
+1단계 (진입): Flame Leap과 Jet Kick을 활용하여 빠른 기동성으로 적의 거리를 순식간에 좁히고 선공권을 잡습니다.
+2단계 (가드브레이크): Master's Flourish와 중weapons/중수기 평타 콤보를 연계하여 적의 포스트레(Posture)를 빠르게 깎고 가드를 무너뜨립니다.
+3단계 (폭딜 연계): 가드가 깨진 적에게 Ash Slam, Fire Blade, Prominence Draw 등 주력 mantras를 퍼부어 압도적인 퍼센트 대미지와 속성 도트 대미지를 누적합니다.
+4단계 (유지력 회복 및 탈출): 교전 중 체력이 부족할 경우 Conditioned Runner와 피흡/회복 효과를 활용해 거리를 벌리며 재정비합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `80` / AGL: `25` / INT: `25` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `80` / HVY: `0` / Elements: `{'flamecharm': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 32] mudskipper-revenge-infected-fistspec
+### 🛡️ [빌드 38] mudskipper-revenge-infected-fistspec
 
 # ⚔️ Mudskipper Revenge (Infected Fistspec)
 
@@ -2688,6 +4195,11 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ 특정 고성능 인챈트나 원거리 weapons(Gun User 등)와의 정면 맞다이 시 화력 열세
 - ⚠️ 실수형 콤보 미스 시 역으로 치명적인 반격을 허용할 수 있는 낮은 방어력 stats 구조
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2703,6 +4215,18 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Infected Fistspec / Default Fists', 'category': 'Fist', 'enchant': 'None'}** — 인챈트: `None`
@@ -2733,9 +4257,22 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 3단계 (주력 mantras 폭딜): 가드가 깨진 적에게 Chain Jail과 Rupture를 동시에 박아넣어 이동을 봉쇄하고 확실한 대미지 딜링 수행.
 4단계 (탈출 및 유지력 회복): 체력이 불리해지거나 적의 지원군이 올 경우 Vengeance 발동 후 안전지대로 이탈하여 정비.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `80` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 33] nanjis-posture-guard-break-bruiser
+### 🛡️ [빌드 39] nanjis-posture-guard-break-bruiser
 
 # ⚔️ Nanji's Posture Guard-Break Bruiser
 
@@ -2761,6 +4298,11 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - ⚠️ 원거리 견제 능력이 상대적으로 부족하여 도망치는 아웃파이터 상대를 추격하기 다소 까다로울 수 있습니다.
 - ⚠️ 불필요한 서브 talents나 낚시 계열 talents에 포인트를 낭비할 경우 후반 고레벨 구간에서 화력이 부족해질 위험이 있습니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2773,6 +4315,18 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 | Heavy Wep (중화기) | `80` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Kyrsglaive** (Heavy Weapon) — 인챈트: `None`
@@ -2798,11 +4352,27 @@ Visionshaper Oath의 핵심 환영 기술과 Shadowcast의 섀도우 클론, Fro
 - **Jumping Blade**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입): Visionshaper Dash 또는 빠른 기동성 스킬을 활용하여 적의 사각지대로 신속하게 접근합니다.', '2단계 (압박): 기본 공격과 Rapid Slashes를 연계하여 적의 가드와 스태미나를 지속적으로 깎아내립니다.', '3단계 (가드브레이크): 상대가 방어 태세를 유지할 때 강공격 및 점칭 공격을 적중시켜 가드를 완전히 무너뜨립니다.', '4단계 (마무리 및 유지): 그로기 상태에 빠진 적에게 주력 스킬 폭딜을 쏟아붓고, 필요시 회피 기동으로 빠져나가며 체력을 정비합니다.']
+1단계 (진입): Visionshaper Dash 또는 빠른 기동성 스킬을 활용하여 적의 사각지대로 신속하게 접근합니다.
+2단계 (압박): 기본 공격과 Rapid Slashes를 연계하여 적의 가드와 스태미나를 지속적으로 깎아내립니다.
+3단계 (가드브레이크): 상대가 방어 태세를 유지할 때 강공격 및 점칭 공격을 적중시켜 가드를 완전히 무너뜨립니다.
+4단계 (마무리 및 유지): 그로기 상태에 빠진 적에게 주력 스킬 폭딜을 쏟아붓고, 필요시 회피 기동으로 빠져나가며 체력을 정비합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `60` / AGL: `25` / INT: `10` / WLL: `40` / CHA: `10` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 34] needles-eye-rapier-crit-stacking-pve-meta
+### 🛡️ [빌드 40] needles-eye-rapier-crit-stacking-pve-meta
 
 # ⚔️ Needles Eye Rapier Crit Stacking PvE Meta
 
@@ -2853,14 +4423,16 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 - **Bloodrend**: `50`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `481` | `26` | `340` | `120` | `100` | `110.0%` | `+48.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `35.0%` / 타격: `25.0%` / 관통: `35.0%` | 화염: `20.0%` / 빙결: `20.0%` / 바람: `20.0%` | 그림자: `20.0%` / 번개: `20.0%` / 철: `20.0%` |
+| 🔨타격: `25.0%`<br>🗡️베기: `35.0%`<br>🩸관통/출혈: `35.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Rapier** (Light Weapon) — 인챈트: `None` ⭐x3
@@ -2897,11 +4469,27 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 - **Rush Hour**
 
 ## 🥊 콤보 & 전투 운용 가이드
-{'combo_guide': '1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.\n2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.\n3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.\n4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다.'}
+1. 전투 시작 전 Flame Within 및 Rush Hour, Shade Devour를 사용해 자체 데미지 증폭 버프를 켭니다.
+2. 보스의 공격 패턴을 정확히 패링(Parry)하여 레이피어 패링 버프(+50% M1 DMG, +33% Crit DMG)를 얻습니다.
+3. 패링 직후 1초 내로 크리티컬(Crit)을 타이밍에 맞춰 적중시켜 Needle 모티프 특유의 다단히트 폭딜 및 Pressure Skewer 트루 데미지를 입힙니다.
+4. 보스의 다음 공격을 다시 패링하며 이 크리티컬 사이클을 지속 반복합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Capra` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `20` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `85` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'flamecharm': 40, 'shadowcast': 20, 'bloodrend': 50}` |
+| **실전 전투 수치** | ❤️HP: `481` / 🛡️Posture: `26` / 💧Ether: `340` / ⚡Tempo: `120` / 🧠Sanity: `100` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `25.0%` / 🗡️베기(Slash): `35.0%` / 🩸관통·출혈(Bleed): `35.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 35] nlk-blindseer-medium-greatsword
+### 🛡️ [빌드 41] nlk-blindseer-medium-greatsword
 
 # ⚔️ NLK Blindseer Medium Greatsword
 
@@ -2923,6 +4511,11 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 - ⚠️ 정신력 관리에 실패할 경우 순식간에 광기(Insanity) 상태에 빠져 캐릭터가 삭제(Wipe)될 위험 존재
 - ⚠️ Shrine of Order를 활용한 매우 정교한 stats 분배 순서 요구
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -2935,6 +4528,18 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `90` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Grated Brass Sword** — 인챈트: `None`
@@ -2963,9 +4568,261 @@ RNG(확률) 요소 없이 패링만 성공하면 일관되게 단검 이상의 �
 ## 🥊 콤보 & 전투 운용 가이드
 기본적으로 상대방과의 맞딜 구도를 유도합니다. Sacred Field를 활성화하여 방어 버프를 두른 뒤, Exhaustion Strike와 Rapid Punches로 상대의 자세를 무너뜨립니다. 상대가 거리를 벌리려 하면 Sightless Beam으로 견제하고, NLK의 피흡을 믿고 적극적으로 패링과 평타 연계를 이어가며 좀비처럼 버티는 플레이가 핵심입니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Blindseer` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `100` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 36] palace-tachi-shadowcast-contractor
+### 🛡️ [빌드 42] overkill-dmg-mod-rapier-pve
+
+# ⚔️ Overkill DMG Mod Rapier PvE
+
+> **출처 영상**: [A new PvE meta has entered Deepwoken... | Rapier PvE Guide](https://www.youtube.com/watch?v=0ccU42O_dfw) by `Col`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Canor` / `Castaway` | **Oath**: `Bladeharper` | **Murmur/Bell**: `None` / `Tiran Pendant`
+
+---
+
+## 📝 빌드 개요 및 총평
+오랫동안 레이피어는 단검류(Knife's Journey)에 밀려 PVE 메타에서 저평가받아 왔으나, 최근의 대대적인 버프 덕분에 단검을 능가하는 강력한 잠재력을 지니게 되었습니다. 특히 특수 버프 시너지와 높은 크리티컬 배율, 안정적인 패리 후 연계 데미지를 통해 엘더(Elder Primadon)와 같은 강력한 보스 레이드에서 세계 최고 수준의 타임어택 클리어 기록을 갱신할 수 있는 최정상급 PVE 빌드입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ No Talent Requirements: 레이피어 무기 자체의 뛰어난 성능과 기본 스탯만으로도 높은 딜을 뿜어내며 까다로운 탤런트 요구 조건이 적음.
+- ✅ Insane Critical Damage Scaling: Cornered Fool, Narcissist, Manipulator, Hemolysis 등 다양한 크리티컬/참격 데미지 증폭 탤런트가 중첩되어 크리티컬 한 방당 5000+ 이상의 압도적인 데미지를 기록함.
+- ✅ High Consistent Clears: 단검류처럼 까다로운 RNG 프로크 조건에 의존하지 않고 패리 후 정직하고 확실한 딜 사이클을 통해 일관성 있는 보스 클리어가 가능함.
+**단점**:
+- ⚠️ Parry Dependency: 패리를 자주 해야 하는 보스(Elder, Chaser 등) 대상으로는 성능이 극대화되지만, 패리가 불가능하거나 패턴이 독특한 보스 대상으로는 효율이 크게 감소함.
+- ⚠️ Self-Damage Risk: Flame Within, Rush Hour 등 자신을 상해(Burn/Bleed) 입히거나 체력 바를 소모하는 탤런트를 적극 활용하므로 전투 중 체력 관리에 각별한 주의가 필요함.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `3` | `2` | `4` | `1` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `50` |
+| Fortitude (인내) | `40` |
+| Agility (민첩) | `0` |
+| Intelligence (지능) | `100` |
+| Willpower (의지) | `20` |
+| Charisma (매력) | `85` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `100` |
+
+## ⚡ 속성 투자 (Attunements)
+- **Flamecharm**: `40`
+- **Shadowcast**: `20`
+- **Bloodrend**: `50`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `15.0%`<br>❄️빙결: `10.0%`<br>⚡번개: `10.0%`<br>💨바람: `10.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Needle's Eye** (Light Weapon) — 인챈트: `None` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Parasol Planter
+- **[Face]** Citadel Frames
+- **[Arms]** Ignition Gauntlets
+- **[Torso]** Warmaster's Medallion
+- **[Legs]** Celestial Boots
+- **[Ring 1]** Prophet's Ring
+- **[Ring 2]** Akira's Ring
+- **[Ring 3]** Diver's Ring
+- **[Ring 4]** Isshin's Ring
+- **[Outfit]** Prophet's Cloak
+- **[Bell]** Tiran Pendant
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Cornered Fool**
+- **Narcissist**
+- **Manipulator**
+- **Flame Within**
+- **Rush Hour**
+- **Hemolysis**
+- **Pressure Skewer**
+### 📜 보조 및 추천 탤런트
+- Shade Devour
+
+## 🥊 콤보 & 전투 운용 가이드
+{'step_1': '전투 시작 전 Flame Within 및 Rush Hour 등을 사용하여 자신에게 버프를 부여하고 데미지 배율을 극대화합니다.', 'step_2': '보스의 공격을 정확히 패리(Parry)하여 패리 직후 1초 버프 창을 엽니다.', 'step_3': '강화된 M1 평타 연계를 통해 Charmed 상태 및 추가 디버프를 유발하여 데미지를 증폭합니다.', 'step_4': '레이피어 크리티컬(Critical) 공격을 적중시켜 5000+ 이상의 압도적인 크리티컬 데미지와 Pressure Skewer의 추가 트루 데미지를 입힙니다.'}
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `3` / Erudition: `2` / Proficiency: `4` / Songchant: `1` |
+| **6대 기본 스탯** | STR: `50` / FTD: `40` / AGL: `0` / INT: `100` / WLL: `20` / CHA: `85` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'flamecharm': 40, 'shadowcast': 20, 'bloodrend': 50}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `10.0%` / ⚡번개: `10.0%` / 💨바람: `10.0%` / 🌌암흑: `25.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
+---
+
+### 🛡️ [빌드 43] palace-tachi-bladeharper-pve-god
+
+# ⚔️ Palace Tachi Bladeharper PvE God
+
+> **출처 영상**: [I Progressed The Most OVERPOWERED PvE Build (1-20) | Deepwoken](https://www.youtube.com/watch?v=_DOIoy4mc3A) by `BlessJames`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Advanced`
+> **종족/출신**: `Canor` / `Deepbound` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Thundercall` / `Cloud of the Deep`
+
+---
+
+## 📝 빌드 개요 및 총평
+이 빌드는 Deepwoken Layer 2 PvE 콘텐츠를 압도적인 속도로 파밍하기 위해 설계된 초사기급 극딜 지향형 빌드입니다. Bladeharper 오스와 Bloodrend/Flamecharm의 조합을 통해 적에게 지속적인 출혈 피해(Hemorrhage)를 입히며, 엄청난 흡혈량과 빠른 만트라 쿨타임 감소 효과로 보스의 패턴을 무시하고 난타전으로 제압할 수 있습니다. 특히 1레벨부터 20레벨까지 딥바운드(Deepbound) 루트를 완벽하게 최적화하여 퀘스트를 클리어하며, 후반부 엘더프리마(Ethiron) 및 스콧 오브 엘더프리마(Scion of Ethiron) 토벌까지 솔로로 완벽하게 소화해냅니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 막강한 PvE 딜링 증폭: 딥바운드 파밍 루트와 특수 탤런트(Bladeharper, Underdog, Piercing Brilliance 등)의 시너지로 보스전 딜 배율이 비정상적으로 높습니다.
+- ✅ 압도적인 생존력 및 피흡: Bloodrend 유전 탤런트와 흡혈 템플릿(Sanguine Siphon, Rejuvenating Knockout 등)이 결합되어 맞딜을 하면서도 체력을 풀피로 유지할 수 있습니다.
+- ✅ 초고속 만트라 회전율: Alchemist 및 Ether Absorption, Windup Battery 탤런트를 활용해 쿨타임과 마나 소모를 최소화하여 끊임없이 스킬을 난사할 수 있습니다.
+**단점**:
+- ⚠️ 초반 마나(Ether) 및 샌디티 관리의 까다로움: 초반부 딥바운드 진행 시 샌디티와 에테르가 급격히 소모되므로 템플릿과 보석 세팅 전까지 방심하면 순식간에 익사할 위험이 있습니다.
+- ⚠️ PvP 실전성 부족: 순수하게 PvE 보스 레이드 및 몹 섬멸에 특화되어 있어 방어 저항 분배가 방어력 위주로 편중되어 있어 PvP 개입 시 상대의 가드 브레이크에 취약할 수 있습니다.
+- ⚠️ 스탯 최적화 난이도: Shrine of Order 타이밍과 스탯 분배 순서가 꼬이면 특정 핵심 만트라(Blade series, Lightning Cloak)를 해금하지 못해 딜로스가 발생할 수 있습니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `1` | `0` | `5` |
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
+| 스탯 항목 (Attribute) | 성소 전 수치 (Pre-Shrine) |
+| :--- | :---: |
+| Strength (근력) | `40` |
+| Fortitude (인내) | `90` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `80` |
+| Charisma (매력) | `25` |
+
+### ⚡ 2단계: 질서의 성소 후 / 최종 완성 스탯 (Post-Shrine Final Stats)
+| 스탯 항목 (Attribute) | 최종 완성 수치 (Final Points) |
+| :--- | :---: |
+| Strength (근력) | `20` |
+| Fortitude (인내) | `50` |
+| Agility (민첩) | `25` |
+| Intelligence (지능) | `0` |
+| Willpower (의지) | `50` |
+| Charisma (매력) | `25` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `90` |
+| Light Wep (경화기) | `0` |
+
+**성소 후 육성 우선순위 (Post-Shrine Priority)**:
+- 🎯 Bloodrend 80 마스터 (주요 만트라 및 고유 특성 개방)
+- 🎯 Medium Weapon 90 달성 (Palace Tachi 무기 요구치 및 데미지 극대화)
+
+## ⚡ 속성 투자 (Attunements)
+- **Bloodrend**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `236.0` | `21.0` | `178.0` | `120.0` | `96.0` | `0.0%` | `0.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `10.0%`<br>🗡️베기: `10.0%`<br>🩸관통/출혈: `15.0%` | 🔥화염: `15.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `15.0%` | 🌌암흑: `15.0%`<br>⚙️철(Metal): `15.0%`<br>🩸혈액(Blood): `15.0%` |
+
+## ⛩️ Shrine of Order 진행 경로
+**Pre-Shrine**: `Strength 40, Fortitude 90, Agility 25, Intelligence 0, Willpower 80, Charisma 25`
+**Post-Shrine 우선순위**:
+- Bloodrend 80 마스터 (주요 만트라 및 고유 특성 개방)
+- Medium Weapon 90 달성 (Palace Tachi 무기 요구치 및 데미지 극대화)
+
+## 🗡️ 추천 무기 (Weapons)
+- **Palace Tachi** (Medium Weapon) — 인챈트: `Vampirism` ⭐x3
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Gladiator Helm
+- **[Face]** Mask
+- **[Amulet]** Amethyst Pendant Earrings
+- **[Outfit]** Diver Captain Attire
+- **[Boots]** Vanguard Boots
+- **[Ring 1]** Ring of Curses
+- **[Ring 2]** Ring of Resilience
+- **[Ring 3]** Silver Ring
+- **[Ring 4]** Purifying Ring
+- **[Bell]** Cloud of the Deep
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Bladeharper Oath**
+- **Bloodrend Mastery**
+- **Underdog**
+- **Transfixion Art**
+- **Sanguine Siphon**
+- **Rejuvenating Knockout**
+- **Amplified Rage**
+- **Catalytic Strike**
+- **Speed Demon**
+### 📜 보조 및 추천 탤런트
+- Heavy Haul
+- Exhaust Plate
+- Static Link
+
+## 🔮 주문 목록 (Mantras)
+- **Dark Blade**
+- **Fire Blade**
+- **Lightning Blade**
+- **Crimson Surge**
+- **Electro Carve**
+- **Lightning Cloak**
+- **Scarlet Cannon**
+- **Soulflare Siphon**
+
+## 🥊 콤보 & 전투 운용 가이드
+1단계: Lightning Cloak을 활성화하여 이동 속도와 데미지 감쇄 버프를 두릅니다. 2단계: Crimson Surge와 Bloodrend 만트라를 사용하여 적에게 출혈(Hemorrhage) 디버프를 부여하고 방어력을 깎습니다. 3단계: Dark Blade와 Fire Blade를 연계하여 가드를 파괴하고(Posture Break), 폭발적인 출혈 도트 데미지와 함께 Sanguine Siphon으로 체력을 대량 회복합니다. 4단계: 마무리로 Scarlet Cannon이나 기본 평타 콤보를 난사하여 보스를 순식간에 녹입니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `1` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `1` / Proficiency: `0` / Songchant: `5` |
+| **6대 기본 스탯** | STR: `20` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `50` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `{'bloodrend': 80}` |
+| **실전 전투 수치** | ❤️HP: `236.0` / 🛡️Posture: `21.0` / 💧Ether: `178.0` / ⚡Tempo: `120.0` / 🧠Sanity: `96.0` / 👟Speed: `0.0%` / 💀Monster Dmg: `0.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `10.0%` / 🗡️베기(Slash): `10.0%` / 🩸관통·출혈(Bleed): `15.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `15.0%` / ⚙️철: `15.0%` / 🩸혈액: `15.0%` |
+
+---
+
+### 🛡️ [빌드 44] palace-tachi-shadowcast-contractor
 
 # ⚔️ Palace Tachi Shadowcast Contractor
 
@@ -2996,6 +4853,11 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - ⚠️ 낮은 기동성(Agility): Agility stats이 매우 낮아 순수 기동력 싸움에서 밀릴 수 있으므로, 기동성 mantras(Rising Shadow 등)의 정확한 활용이 강제됩니다.
 - ⚠️ 높은 에테르 의존도: mantras의 크기를 키우기 위해 에테르 소모량이 많으므로, Bluestone Boots의 에테르 관리 효과를 상시 유지해야 합니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3011,6 +4873,18 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Palace Tachi** (Medium Weapon) — 인챈트: `None`
@@ -3043,9 +4917,22 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 3단계: 섀도우 mantras 폭딜 - 도발로 방어력이 약화된 적에게 거대화된 Shadowcast mantras(Shadow Roar 등)를 연계하여 폭발적인 대미지를 누적시킵니다.
 4단계: Contractor 처형 및 마무리 - 적의 체력이 낮아지면 Contractor 오스의 처형 판정이 붙은 크리티컬 공격이나 Judgement를 사용해 상대의 탈출 기회를 원천 차단하고 깔끔하게 마무리합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Contractor` / Race/Aspect: `Khan` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `1` / FTD: `40` / AGL: `1` / INT: `65` / WLL: `1` / CHA: `90` |
+| **무기/속성 수치** | LHT: `0` / MED: `90` / HVY: `0` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 37] pale-briar-arcwarder-ironsing-atlas-v1
+### 🛡️ [빌드 45] pale-briar-arcwarder-ironsing-atlas-v1
 
 # ⚔️ Pale Briar Arcwarder Ironsing (Atlas V1)
 
@@ -3067,6 +4954,11 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - ⚠️ 초고난도 보스 레이드(예: Ethiron, Chaser 등)에서는 공격 타이밍 확보가 까다로워 클리어 속도가 다소 느릴 수 있음.
 - ⚠️ 오스 및 속성 요구 stats 투자가 분산되어 있어, 빗나간 stats 분배 시 후반 빌드 완성에 차질이 생길 수 있음.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3082,6 +4974,18 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Wild`
@@ -3105,9 +5009,22 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 ## 🥊 콤보 & 전투 운용 가이드
 {'step_1_engage': 'Rush Slash를 사용하여 원거리에서 빠르게 적에게 접근하며 선제 타격을 가합니다.', 'step_2_guard_break': 'Pale Briar의 빠른 리치와 M1 콤보, 그리고 Strong Left를 섞어 적의 가드를 무너뜨리고 포스처를 깎습니다.', 'step_3_burst_damage': '가드가 깨진 적에게 Metal Rain과 weapons 크리티컬 공격을 연계하여 폭발적인 대미지를 퍼붓습니다.', 'step_4_retreat_sustain': '위험 상황 발생 시 Arcwarder의 기동성과 회피기를 활용해 거리를 벌리고 렐릭 및 회복 아이템으로 체력과 포스처를 정비합니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Arcwarder` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `80` / AGL: `25` / INT: `15` / WLL: `40` / CHA: `10` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `{'ironsing': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 38] posers-ring-blood-iron-shadow-pve-one-shot
+### 🛡️ [빌드 46] posers-ring-blood-iron-shadow-pve-one-shot
 
 # ⚔️ Posers Ring Blood-Iron-Shadow PVE One Shot
 
@@ -3157,14 +5074,16 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 - **Bloodrend**: `50`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `15.0%` / 빙결: `15.0%` / 바람: `15.0%` | 그림자: `25.0%` / 번개: `15.0%` / 철: `20.0%` |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `15.0%`<br>❄️빙결: `15.0%`<br>⚡번개: `15.0%`<br>💨바람: `15.0%` | 🌌암흑: `25.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Palace Tachi** (Medium Weapon) — 인챈트: `None` ⭐x3
@@ -3200,9 +5119,22 @@ Contractor 오스의 'Judgement'와 Palace Tachi의 크리티컬 연계는 상�
 3단계: 스토어드 M1과 크리티컬 데미지를 연계하여 출혈 프로크를 연속 발동시킵니다.
 4단계: 출혈 폭발(Kaboom) 메커니즘을 통해 50k 이상의 누적 데미지로 적을 원샷원킬합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Lone Warrior` / Oath: `Contractor` / Race/Aspect: `Khan` |
+| **4대 특성 (Traits)** | Vitality: `4` / Erudition: `3` / Proficiency: `5` / Songchant: `2` |
+| **6대 기본 스탯** | STR: `40` / FTD: `80` / AGL: `25` / INT: `15` / WLL: `50` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `90` / Elements: `{'shadowcast': 40, 'ironsing': 80, 'bloodrend': 50}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `25.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 39] posers-ring-ironsing-thundercall-soulbre
+### 🛡️ [빌드 47] posers-ring-ironsing-thundercall-soulbre
 
 # ⚔️ Poser's Ring Ironsing Thundercall Soulbreaker PvE
 
@@ -3224,6 +5156,11 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ Requires Shrine of Order and multiple stat investments to assemble
 - ⚠️ Heavily optimized for PvE encounters rather than PvP fights
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `1` | `0` | `5` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3236,6 +5173,18 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `100` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -3253,9 +5202,22 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Taunt** (None) `[CORE]`
 - **Ardour Scream** (None) `[CORE]`
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `None` / Oath: `Soulbreaker` / Race/Aspect: `None` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `1` / Proficiency: `0` / Songchant: `5` |
+| **6대 기본 스탯** | STR: `0` / FTD: `50` / AGL: `0` / INT: `25` / WLL: `0` / CHA: `75` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 40] rapier-parry-buff-pve-meta-build
+### 🛡️ [빌드 48] rapier-parry-buff-pve-meta-build
 
 # ⚔️ Rapier Parry-Buff PvE Meta Build
 
@@ -3280,6 +5242,11 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ 패링 버프에 대한 의존도가 높아 보스 공격 패턴에 대한 패링 타이밍 숙지가 필수적임
 - ⚠️ 레이피어 크리티컬 공격의 후딜레이(Endlag)로 인해 후속 공격에 노출될 수 있어 공격 후 즉시 회피/패링 조작이 필요함
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3295,6 +5262,18 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `1`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -3324,9 +5303,23 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 
 **운용 팁**:
 
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Oathless` / Race/Aspect: `Any` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `20` / FTD: `50` / AGL: `25` / INT: `50` / WLL: `50` / CHA: `25` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'ironsing': 1}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 41] rengoku-v1-flame-worshipper-steam-pve
+### 🛡️ [빌드 49] rengoku-v1-flame-worshipper-steam-pve
 
 # ⚔️ Rengoku V1 (Flame Worshipper Steam PvE)
 
@@ -3374,14 +5367,16 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Shadowcast**: `20`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `524` | `30` | `214` | `100` | `107` | `100.0%` | `+40.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `39.5%` / 타격: `18.1%` / 관통: `39.5%` | 화염: `23.6%` / 빙결: `20.2%` / 바람: `0.0%` | 그림자: `20.2%` / 번개: `10.0%` / 철: `0.0%` |
+| 🔨타격: `18.1%`<br>🗡️베기: `39.5%`<br>🩸관통/출혈: `39.5%` | 🔥화염: `23.6%`<br>❄️빙결: `20.2%`<br>⚡번개: `10.0%`<br>💨바람: `0.0%` | 🌌암흑: `20.2%`<br>⚙️철(Metal): `0.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Worshipper Longsword** (Medium Weapon) — 인챈트: `None`
@@ -3421,9 +5416,22 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 3. Warden's Blades 및 Frostdraw 만트라(Frozen Servants, Ice Flock) 시전으로 상시 스팀 폭발 유도
 4. Blinding Dawn 및 Flame Assault로 광역 마무리
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Dawnwalker` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `6` / Proficiency: `0` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `5` / FTD: `100` / AGL: `5` / INT: `50` / WLL: `100` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `27` / HVY: `0` / Elements: `{'flamecharm': 40, 'frostdraw': 60, 'shadowcast': 20}` |
+| **실전 전투 수치** | ❤️HP: `524` / 🛡️Posture: `30` / 💧Ether: `214` / ⚡Tempo: `100` / 🧠Sanity: `107` / 👟Speed: `100.0%` / 💀Monster Dmg: `+40.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `18.1%` / 🗡️베기(Slash): `39.5%` / 🩸관통·출혈(Bleed): `39.5%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `23.6%` / ❄️빙결: `20.2%` / ⚡번개: `10.0%` / 💨바람: `0.0%` / 🌌암흑: `20.2%` / ⚙️철: `0.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 42] saintsworn-nuke-aoe-burst-build
+### 🛡️ [빌드 50] saintsworn-nuke-aoe-burst-build
 
 # ⚔️ Saintsworn Nuke & AoE Burst Build
 
@@ -3450,6 +5458,11 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ 자원 관리의 까다로움: 스태미나와 에테르(Ether) 소모량이 매우 커서 전투 지속력이 다소 떨어짐
 - ⚠️ 팀원과의 합 필요: 솔로 플레이보다는 적을 묶어둘 수 있는 팀 파이트 환경에서 효율이 극대화됨
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3466,6 +5479,18 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Thundercall**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Vampiric / Grim`
@@ -3488,11 +5513,27 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Graceful Flame**
 
 ## 🥊 콤보 & 전투 운용 가이드
-['1단계 (진입 및 유인): Graceful Flame과 원거리 견제 mantras를 사용하여 적들이 한곳으로 뭉치도록 유도합니다.', '2단계 (진형 붕괴 및 가드 브레이크): Lava Serpent와 Thunder Strike를 연계하여 적의 스태미나를 깎고 가드를 강제로 해제합니다.', '3단계 (폭딜 퍼붓기): 적들이 경직되거나 에어본 상태가 되었을 때 핵심 광역 mantras와 weapons 전용 크리티컬 공격을 퍼부어 대미지를 극대화합니다.', '4단계 (이탈 및 생존): 교전 후 남은 적이 있다면 weapons 인챈트 효과(Vampiric)로 체력을 회복하고, 위급 시 Wind Up 벨로 전장을 이탈합니다.']
+1단계 (진입 및 유인): Graceful Flame과 원거리 견제 mantras를 사용하여 적들이 한곳으로 뭉치도록 유도합니다.
+2단계 (진형 붕괴 및 가드 브레이크): Lava Serpent와 Thunder Strike를 연계하여 적의 스태미나를 깎고 가드를 강제로 해제합니다.
+3단계 (폭딜 퍼붓기): 적들이 경직되거나 에어본 상태가 되었을 때 핵심 광역 mantras와 weapons 전용 크리티컬 공격을 퍼부어 대미지를 극대화합니다.
+4단계 (이탈 및 생존): 교전 후 남은 적이 있다면 weapons 인챈트 효과(Vampiric)로 체력을 회복하고, 위급 시 Wind Up 벨로 전장을 이탈합니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `20` / WLL: `80` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `75` / Elements: `{'flamecharm': 80, 'thundercall': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 ---
 
-### 🛡️ [빌드 43] saltchemist-heavy-gale-gale-trident
+### 🛡️ [빌드 51] saltchemist-heavy-gale-gale-trident
 
 # ⚔️ Saltchemist Heavy Gale (Gale Trident)
 
@@ -3515,6 +5556,11 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ 물약 제조 및 사용 타이밍에 대한 숙련도 요구
 - ⚠️ Gale Trident의 다소 느린 공격 속도로 인한 패링 취약성
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3530,6 +5576,18 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 
 ## ⚡ 속성 투자 (Attunements)
 - **Galebreathe**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Gale Trident', 'type': 'Heavy', 'recommended_enchant': 'Vampiric'}** — 인챈트: `None`
@@ -3555,9 +5613,22 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 ## 🥊 콤보 & 전투 운용 가이드
 기본 평타(M1)로 리치 우위를 점한 뒤, Gale Lunge로 진입하여 상대의 패링 타이밍을 흐트러뜨립니다. 이후 Saltchemist 물약을 투척해 디버프를 묻히고 Wind Carve와 Heavenly Wind 연계로 공중 콤보 및 넉백을 유도하여 전장을 지배합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidheart` / Oath: `Saltchemist` / Race/Aspect: `Ganymede` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `30` / FTD: `40` / AGL: `40` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `{'galebreathe': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 44] sanguine-transfuser-hemorrhaging-blood-suppor
+### 🛡️ [빌드 52] sanguine-transfuser-hemorrhaging-blood-suppor
 
 # ⚔️ Sanguine Transfuser Hemorrhaging Blood Support Dagger
 
@@ -3605,14 +5676,16 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - **Bloodrend**: `80`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `542` | `26` | `318` | `155` | `259` | `-12.0%` | `+50.0%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `50.0%` / 타격: `50.0%` / 관통: `44.0%` | 화염: `30.0%` / 빙결: `30.0%` / 바람: `30.0%` | 그림자: `30.0%` / 번개: `5.0%` / 철: `0.0%` |
+| 🔨타격: `50.0%`<br>🗡️베기: `50.0%`<br>🩸관통/출혈: `44.0%` | 🔥화염: `30.0%`<br>❄️빙결: `30.0%`<br>⚡번개: `5.0%`<br>💨바람: `30.0%` | 🌌암흑: `30.0%`<br>⚙️철(Metal): `0.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Dagger** (Light Weapon) — 인챈트: `None` ⭐x3
@@ -3646,9 +5719,22 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 2. 상대 가드가 무너지며 Posture Break가 발생했을 때 즉시 Bloodrend 만트라(Crucifixion 또는 Bloodedge)를 적중시킵니다.
 3. Hemorrhaging Blow 탤런트 디버프가 적용된 상태에서 Hair Spray (Revitalizing) 또는 자가/타인 힐링 스킬을 사용할 시 상대는 힐 대신 1.5줄 이상의 체력 피해를 입고 폭사합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Voidwalker` / Oath: `Fadetrimmer` / Race/Aspect: `Tiran` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `3` / Proficiency: `3` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `25` / FTD: `50` / AGL: `40` / INT: `30` / WLL: `40` / CHA: `0` |
+| **무기/속성 수치** | LHT: `65` / MED: `0` / HVY: `0` / Elements: `{'bloodrend': 80}` |
+| **실전 전투 수치** | ❤️HP: `542` / 🛡️Posture: `26` / 💧Ether: `318` / ⚡Tempo: `155` / 🧠Sanity: `259` / 👟Speed: `-12.0%` / 💀Monster Dmg: `+50.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `50.0%` / 🗡️베기(Slash): `50.0%` / 🩸관통·출혈(Bleed): `44.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `30.0%` / ❄️빙결: `30.0%` / ⚡번개: `5.0%` / 💨바람: `30.0%` / 🌌암흑: `30.0%` / ⚙️철: `0.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 45] sclerostosis-tank-build
+### 🛡️ [빌드 53] sclerostosis-tank-build
 
 # ⚔️ Sclerostosis Tank Build
 
@@ -3672,6 +5758,11 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 - ⚠️ PvP 환경에서 가드브레이크 및 멀티히트 공격을 당할 때 talents가 정상적으로 프록(Proc)되지 않는 판정 문제가 존재합니다.
 - ⚠️ 포티튜드 stats을 강제로 높게 고정해야 하므로 weapons 및 기타 공격 속성 stats 분배에 제약이 생깁니다.
 - ⚠️ 숙련된 PvP 상대는 단일 고위력기나 딜레이가 긴 가드브레이크 기술로 talents의 쿨다운 윈도우를 쉽게 카운터 칠 수 있습니다.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -3705,6 +5796,18 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `45`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -3740,9 +5843,22 @@ Extremely tanky and high DPS PvE build featuring massive M1 scaling and posture 
 3단계 (폭딜 연계): 가드가 깨진 상대에게 주력 스킬을 퍼붓고, 교전 중 체력이 깎이면서 발동하는 Sclerostosis의 방어 버프를 믿고 과감하게 인파이팅을 유지합니다.
 4단계 (이탈 및 회복): 교전 중 체력이 위험 수준으로 떨어지면 거리를 벌리고 Vampiric 인챈트나 회복 아이템으로 정비합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Kiron` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `75` / AGL: `45` / INT: `15` / WLL: `45` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `80` / Elements: `{'shadowcast': 45}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 46] shadowcast-evanspear-world-record-pve-build
+### 🛡️ [빌드 54] shadowcast-evanspear-world-record-pve-build
 
 # ⚔️ Shadowcast Evanspear World Record PvE Build
 
@@ -3808,14 +5924,16 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - **Ironsing**: `20`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `417` | `26` | `480` | `120` | `109` | `110.0%` | `+48.2%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `41.7%` / 타격: `20.2%` / 관통: `40.0%` | 화염: `40.0%` / 빙결: `35.0%` / 바람: `35.0%` | 그림자: `20.0%` / 번개: `25.0%` / 철: `25.0%` |
+| 🔨타격: `20.2%`<br>🗡️베기: `41.7%`<br>🩸관통/출혈: `40.0%` | 🔥화염: `40.0%`<br>❄️빙결: `35.0%`<br>⚡번개: `25.0%`<br>💨바람: `35.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `25.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
@@ -3859,9 +5977,23 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 
 **운용 팁**:
 
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Lone Warrior` / Oath: `Bladeharper` / Race/Aspect: `Khan` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `25` / FTD: `0` / AGL: `5` / INT: `100` / WLL: `0` / CHA: `60` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'shadowcast': 20, 'ironsing': 20}` |
+| **실전 전투 수치** | ❤️HP: `417` / 🛡️Posture: `26` / 💧Ether: `480` / ⚡Tempo: `120` / 🧠Sanity: `109` / 👟Speed: `110.0%` / 💀Monster Dmg: `+48.2%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `20.2%` / 🗡️베기(Slash): `41.7%` / 🩸관통·출혈(Bleed): `40.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `40.0%` / ❄️빙결: `35.0%` / ⚡번개: `25.0%` / 💨바람: `35.0%` / 🌌암흑: `20.0%` / ⚙️철: `25.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 47] shattered-katana-100-bloodrend-bladeharper-pv
+### 🛡️ [빌드 55] shattered-katana-100-bloodrend-bladeharper-pv
 
 # ⚔️ Shattered Katana 100 Bloodrend Bladeharper PvE
 
@@ -3907,14 +6039,16 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 - **Bloodrend**: `100`
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
-| Max HP (체력) | Posture (자세) | Ether (에테르) | Tempo (템포) | Sanity (정신력) | Move Speed (이속) | PvE Dmg vs Monsters |
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | `415` | `24` | `380` | `100` | `100` | `108.0%` | `+52.5%` |
 
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
-| 물리 (Slash/Blunt/Pierce) | 원소 (Fire/Ice/Wind) | 특수 (Shadow/Lightning/Iron/Acid) |
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
 | :--- | :--- | :--- |
-| 참격: `32.0%` / 타격: `22.5%` / 관통: `30.0%` | 화염: `15.0%` / 빙결: `10.0%` / 바람: `10.0%` | 그림자: `10.0%` / 번개: `10.0%` / 철: `10.0%` |
+| 🔨타격: `22.5%`<br>🗡️베기: `32.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `15.0%`<br>❄️빙결: `10.0%`<br>⚡번개: `10.0%`<br>💨바람: `10.0%` | 🌌암흑: `10.0%`<br>⚙️철(Metal): `10.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Shattered Katana** (Medium Weapon) — 인챈트: `Astral` ⭐x2
@@ -3946,9 +6080,22 @@ Ardour Murmur의 대미지 증폭과 음식을 통한 지속 버프, 그리고 T
 3. Blood Orb 및 Scarlet Cyclone(Reversal + Multiplying Spark 적용)으로 보스 주변에 대량의 출혈 장판 형성
 4. Bloodcurdle로 피를 흡수하며 Hemorrhage 폭딜 유도 및 Poser's Ring으로 보스의 반격 회피
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Bladeharper` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `0` / FTD: `50` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `{'bloodrend': 100}` |
+| **실전 전투 수치** | ❤️HP: `415` / 🛡️Posture: `24` / 💧Ether: `380` / ⚡Tempo: `100` / 🧠Sanity: `100` / 👟Speed: `108.0%` / 💀Monster Dmg: `+52.5%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `22.5%` / 🗡️베기(Slash): `32.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `10.0%` / ⚡번개: `10.0%` / 💨바람: `10.0%` / 🌌암흑: `10.0%` / ⚙️철: `10.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 48] shining-maelstrom-v4
+### 🛡️ [빌드 56] shining-maelstrom-v4
 
 # ⚔️ Shining Maelstrom V4
 
@@ -3972,6 +6119,11 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 - ⚠️ Saintsworn 오스의 복잡한 원소 스탠스 전환 메커니즘에 대한 높은 숙련도 요구
 - ⚠️ Inhale 버프를 유지하기 위해 특정 스탠스(Galebreathe)를 강제해야 하는 제약
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `1` | `0` | `5` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -3992,6 +6144,18 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 - **Ironsing**: `80`
 - **Shadowcast**: `20`
 - **Thundercall**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **{'name': 'Muffled / Central Dirk', 'type': 'Light Weapon ', 'recommended_enchant': 'Vampiric / Grim'}** — 인챈트: `None`
@@ -4038,9 +6202,22 @@ Shining Maelstrom V4는 Saintsworn 오스를 활용하여 모든 원소 mantras�
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 시 Gale 스탠스에서 Inhale 버프를 활성화한 뒤, Ironsing mantras를 사용해 적의 방어력을 깎아냅니다. 그 후 Frostdraw 스탠스로 전환하여 Frozen Servants와 Warden's Blades를 소환해 지속적인 빙결 압박을 가합니다. 보스가 무력화되면 Taunt와 M1 평타 평타 콤보를 우겨넣어 폭발적인 데미지를 입힙니다. 위급 상황에서는 Wind Passage나 Flame Leap을 사용해 거리를 벌리며 재정비합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Lone Warrior` / Oath: `Saintsworn` / Race/Aspect: `Canor` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `1` / Proficiency: `0` / Songchant: `5` |
+| **6대 기본 스탯** | STR: `0` / FTD: `0` / AGL: `0` / INT: `35` / WLL: `0` / CHA: `15` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `{'flamecharm': 40, 'frostdraw': 60, 'galebreathe': 60, 'ironsing': 80, 'shadowcast': 20, 'thundercall': 20}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 49] silent-swordsman-pve-posers-ring-shattered-ka
+### 🛡️ [빌드 57] silent-swordsman-pve-posers-ring-shattered-ka
 
 # ⚔️ Silent Swordsman PvE (Poser's Ring + Shattered Katana)
 
@@ -4067,6 +6244,11 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - ⚠️ Silentheart Oath 특성상 일반 mantras 사용이 제한되어 기본 피지컬 및 패링 숙련도 요구
 - ⚠️ Poser's Ring 트루 대미지 기믹에 대한 높은 이해도 및 발도 타이밍 컨트롤 필요
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4082,6 +6264,18 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 
 ## ⚡ 속성 투자 (Attunements)
 - **Ironsing**: `20`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Shattered Katana** — 인챈트: `None`
@@ -4107,9 +6301,22 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 3단계: Artisan Blades 발동 및 로드 추가 타격 부여.
 4단계: weapons를 납도(Sheath)하여 Poser's Ring에 누적된 누적 대미지를 방어력 무시 트루 대미지로 폭발시킴.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway / Voidheart` / Oath: `Silentheart` / Race/Aspect: `Any (Vesperian or Khan recommended)` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `100` / HVY: `0` / Elements: `{'ironsing': 20}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 50] silentheart-fist-brick-wall-pve-build
+### 🛡️ [빌드 58] silentheart-fist-brick-wall-pve-build
 
 # ⚔️ Silentheart Fist Brick Wall PvE Build
 
@@ -4133,6 +6340,11 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - ⚠️ Shrine of Order를 사용하기 위한 정교한 stats 빌드업 순서가 강제됨
 - ⚠️ 광기(Insanity) 관리가 미숙할 경우 리스크가 존재함
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4145,6 +6357,18 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `100` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -4164,9 +6388,22 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 - **Mani Katti (Silentheart Active)**
 - **Ankle Cutter (Silentheart Active)**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Silentheart` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `30` / FTD: `100` / AGL: `45` / INT: `5` / WLL: `100` / CHA: `0` |
+| **무기/속성 수치** | LHT: `100` / MED: `0` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 51] silentheart-support-bastion
+### 🛡️ [빌드 59] silentheart-support-bastion
 
 # ⚔️ Silentheart Support Bastion
 
@@ -4193,7 +6430,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 ## 🧬 4대 고유 특성 (Traits)
 | Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
 | :---: | :---: | :---: | :---: |
-| `0` | `0` | `0` | `0` |
+| `6` | `0` | `0` | `6` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
@@ -4265,7 +6502,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 | 실측 분류 | 세부 실측 데이터 항목 |
 | :--- | :--- |
 | **캐릭터 기본 정보** | Power: `1` / Origin: `Voidwalker` / Oath: `Silentheart` / Race/Aspect: `Adret` |
-| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `0` / Songchant: `0` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `0` / Songchant: `6` |
 | **6대 기본 스탯** | STR: `1` / FTD: `50` / AGL: `1` / INT: `0` / WLL: `65` / CHA: `85` |
 | **무기/속성 수치** | LHT: `0` / MED: `1` / HVY: `0` / Elements: `Attunementless (0)` |
 | **실전 전투 수치** | ❤️HP: `224.0` / 🛡️Posture: `20.0` / 💧Ether: `165.0` / ⚡Tempo: `120.0` / 🧠Sanity: `80.0` / 👟Speed: `-20.0%` / 💀Monster Dmg: `0.0%` |
@@ -4274,7 +6511,7 @@ Ironsing 속성의 Metal Turrets와 Absolute Pitch talents를 조합하여 캐�
 
 ---
 
-### 🛡️ [빌드 52] starkindred-heavy-flamecharm-gank-dominator
+### 🛡️ [빌드 60] starkindred-heavy-flamecharm-gank-dominator
 
 # ⚔️ Starkindred Heavy Flamecharm Gank Dominator
 
@@ -4305,6 +6542,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ mantras 연타 시 높은 이더(Ether) 소비량으로 지속적인 이더 관리가 필수적임
 - ⚠️ 공중 강하 패턴이 단조로워질 경우 상급자에게 공중 패링을 허용할 위험 존재
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4320,6 +6562,18 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -4345,9 +6599,23 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 
 **운용 팁**:
 
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian / Any` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `50` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `90` / Elements: `{'flamecharm': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 53] starter-brick-wall-blindseer-pve
+### 🛡️ [빌드 61] starter-brick-wall-blindseer-pve
 
 # ⚔️ Starter Brick Wall Blindseer PvE
 
@@ -4370,6 +6638,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ Shrine of Order를 사용하기 전 Willpower와 Fortitude를 100까지 찍어야 하는 엄격한 stats 순서 요구
 - ⚠️ 극단적인 극딜 빌드에 비해서는 보스 처치 속도가 다소 느릴 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4386,6 +6659,18 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `40`
 - **Frostdraw**: `30`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -4412,9 +6697,22 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - **Flame Assault**
 - **Ice Flock**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Ignition Union` / Oath: `Blindseer` / Race/Aspect: `Etriian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `5` / FTD: `40` / AGL: `0` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `75` / Elements: `{'flamecharm': 40, 'frostdraw': 30}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 54] super-sigma-soul-beam-blindseer
+### 🛡️ [빌드 62] super-sigma-soul-beam-blindseer
 
 # ⚔️ Super Sigma Soul Beam Blindseer
 
@@ -4438,6 +6736,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ mantras 의존도가 높아 게이지 관리가 중요함
 - ⚠️ Sightless Beam 사용 중 채널링 상태에서 취약해질 수 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4450,6 +6753,18 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 | Heavy Wep (중화기) | `100` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Enforcer's Axe** (Heavy) — 인챈트: `None`
@@ -4479,9 +6794,22 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 ## 🥊 콤보 & 전투 운용 가이드
 기본 콤보는 Lightning Cloak 버프 활성화 -> Lightning Clones 소환 -> weapons 평타(Heavy)로 압박 및 패링 유도 -> 상대가 방어적이거나 빈틈을 보일 때 Relentless Flames 연계 -> 마지막으로 Sightless Beam으로 마무리하는 흐름입니다. PvP에서는 Lightning Clones의 혼란을 틈타 기습적으로 Soul Beam을 차징하여 가드를 깨뜨리거나 폭딜을 넣는 플레이가 핵심입니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Blindseer` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `40` / AGL: `25` / INT: `0` / WLL: `40` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 55] the-1-shadowcast-medium-build
+### 🛡️ [빌드 63] the-1-shadowcast-medium-build
 
 # ⚔️ The #1 Shadowcast Medium Build
 
@@ -4503,6 +6831,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ 섀도우캐스트 mantras의 높은 에테르 소모량
 - ⚠️ 정교한 패링과 거리 조절이 요구되는 높은 difficulty
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4519,6 +6852,18 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 ## ⚡ 속성 투자 (Attunements)
 - **Shadowcast**: `80`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
 - **Exoskeleton**
@@ -4534,9 +6879,22 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - **Shadow Roar**
 - **Shadow Travel**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Oathless` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `40` / AGL: `40` / INT: `0` / WLL: `20` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'shadowcast': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 56] top-10-meta-talents-synergy-build
+### 🛡️ [빌드 64] top-10-meta-talents-synergy-build
 
 # ⚔️ Top 10 Meta Talents Synergy Build
 
@@ -4562,6 +6920,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 - ⚠️ Everchanging Aegis의 경우 단일 속성 빌드나 Saintsworn 상대로는 속성 피격 시 오히려 디메리트를 받을 수 있음
 - ⚠️ Heretics Sutra 및 Insanity 계열 talents 운용 시 체력 및 광기 관리가 미숙하면 자멸할 위험이 있음
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4574,6 +6937,18 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 | Heavy Wep (중화기) | `0` |
 | Medium Wep (중형무기) | `80` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Unknown** — 인챈트: `Grim`
@@ -4598,9 +6973,139 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 ## 🥊 콤보 & 전투 운용 가이드
 {'phase_1_engage': '적의 공격을 패리(Parry)하여 패리 버프와 Speed Demon의 이동 속도/공속 버프를 동시에 활성화하고 교전에 진입합니다.', 'phase_2_guard_break': 'Roll-cancel 후 상대의 후방을 잡고 Spine Cutter를 발동하여 weapons 원본 대미지의 확정타를 먹이고 가드를 흔듭니다.', 'phase_3_burst': 'Manipulator와 Charismatic Cast를 통해 적을 매혹(Charm) 상태로 만든 뒤, 강화된 크리티컬 공격과 M1 폭딜을 퍼붓습니다.', 'phase_4_sustain_escape': 'Million-Ton Piercer와 Reinforced Armor로 적의 방어력을 0으로 수렴시키는 극딜 교환을 마친 후,Exoskeleton의 잔여 내구도와 유지력을 바탕으로 전장을 이탈하거나 상대를 마무리합니다.'}
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `90` / FTD: `50` / AGL: `40` / INT: `0` / WLL: `80` / CHA: `75` |
+| **무기/속성 수치** | LHT: `0` / MED: `80` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 57] unnamed-build
+### 🛡️ [빌드 65] ultimate-linkstrider-support-build-525-damage
+
+# ⚔️ Ultimate Linkstrider Support Build (52.5% Damage Buff & 90% Resistance)
+
+> **출처 영상**: [This Support Build Can BUFF Your Allies Damage By 50%….| Deepwoken](https://www.youtube.com/watch?v=HKqz2QmC9HQ) by `ffeiitan`
+> **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `Boss Raid` | **난이도**: `Advanced`
+> **종족/출신**: `Chrysos / Human` / `Vigils / Castaway` | **Oath**: `Linkstrider` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+
+---
+
+## 📝 빌드 개요 및 총평
+Deepwoken 내에서 아군을 최대로 보조하는 서포트 빌드입니다. 단순 힐러를 넘어 파티원의 데미지를 무려 52.5% 증폭시키고, 40% 방어구 관통력(Penetration) 버프와 동시에 90% 달하는 아군 피해 저항을 3개의 버튼 동작(Sing, Taunt, Ardour Scream 및 Linkstrider 만트라 메커니즘)만으로 적용합니다.
+
+특히 Enmity Dungeon이나 Ethiron 0세클 레이드, Chaser, Kaido 등 고난도 보스전에서 캐리 플레이어가 극딜을 넣을 수 있도록 완벽하게 판을 깔아주며, 파티원이 사망 위기에 처했을 때 Command Live/Command Sleep을 통해 전멸 상황을 극복할 수 있습니다. Shrine of Order를 활용해 Pre-shrine 스탯(Charisma 85, Ironsing 75, Agility 40)을 극대화한 후 효율적으로 최적화한 고성능 레이드 전용 빌드입니다.
+
+### ⚖️ 장점 및 단점
+**장점**:
+- ✅ 파티원 데미지 52.5% 증폭 및 40% 추가 방어구 관통력 제공
+- ✅ Entropy Link, Sacred Field, Alsin's Aid 조합으로 최대 90% 데미지 감소 저항 부여
+- ✅ Sing + Propagandist 탤런트로 적에게 Charm 부여 및 아군 Overcharm 20% 딜증
+- ✅ Taunt 및 Ardour Scream으로 순간 32.5% 추가 데미지 버프
+- ✅ Vow of Mastery (Command Live / Command Sleep)를 통한 순간 아군 부활 및 상태이상 즉시 해제
+- ✅ 500 이상의 높은 HP(526 HP)와 방어구 저항으로 서포터 본인의 높은 생존력 보장
+**단점**:
+- ⚠️ 1:1 PvP 솔로 전투에서는 딜 메커니즘이 서포트에 집중되어 있어 화력이 다소 부족함
+- ⚠️ Pre-Shrine 육성 과정에서 Ironsing 75 스탯 업을 위한 몬스터 노가다 및 Ferryman 작업이 고됨
+- ⚠️ 파티원의 위치 및 보스 공격 범위(Enmity 스윙 등)를 지속적으로 파악해야 하는 높은 판판력과 쿨타임 관리 능력 요구
+
+## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
+| 스탯 항목 (Attribute) | 수치 (Points) |
+| :--- | :--- |
+| Strength (근력) | `1` |
+| Fortitude (인내) | `1` |
+| Agility (민첩) | `40` |
+| Intelligence (지능) | `1` |
+| Willpower (의지) | `1` |
+| Charisma (매력) | `85` |
+| Heavy Wep (중화기) | `0` |
+| Medium Wep (중형무기) | `0` |
+| Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `None` | `None` | `None` | `None` | `None` | `None` | `None%` | `0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `None`<br>🗡️베기: `None`<br>🩸관통/출혈: `None` | 🔥화염: `None`<br>❄️빙결: `None`<br>⚡번개: `None`<br>💨바람: `None` | 🌌암흑: `None`<br>⚙️철(Metal): `None`<br>🩸혈액(Blood): `None` |
+
+## 🗡️ 추천 무기 (Weapons)
+- **Wyrmtooth Spear / Ironsing Stave** (Medium Weapon) — 인챈트: `None` ⭐x2
+
+## 🛡️ 주요 장비 (Equipment)
+- **[Helmet]** Straw Hat / Merchant Hat
+- **[Face]** Monk Shroud
+- **[Amulet]** Aegis of Enmity
+- **[Outfit]** Warder's Attire
+- **[Boots]** Adonis Boots
+- **[Ring 1]** Finisher's Ring
+- **[Ring 2]** Prophet's Ring
+- **[Ring 3]** Master's Ring
+- **[Ring 4]** Deepwoken Ring of Health
+- **[Bell]** Sacred Field / Run It Back
+
+## ⭐ 주요 탤런트 (Talents)
+### 🌟 필수 핵심 탤런트
+- **Propagandist**
+- **Sing**
+- **Taunt**
+- **Cornered Fool**
+- **Vow of Mastery**
+- **Speed Demon**
+- **Ghost**
+- **Overflowing Dam**
+- **Magical Resolve**
+- **Alsin's Aid**
+- **Entropy Link**
+- **Oh The Irony**
+### 📜 보조 및 추천 탤런트
+- Carnivore
+- Spinecutter
+
+## 🔮 주문 목록 (Mantras)
+- **Sing**
+- **Taunt**
+- **Entropy Link**
+- **Metal Rain**
+- **Metal Ball / Metal Eruption**
+- **Ice Beam**
+- **Command Live**
+- **Command Sleep**
+
+## 🥊 콤보 & 전투 운용 가이드
+Entropy Link (딜러 지정) -> Sacred Field 시전 (90% 저항 활성화)
+Sing -> Taunt -> Ardour Scream (52.5% 데미지 증폭 콤보)
+Metal Rain -> M1 스팸 (보스 아머 드레인 및 40% 추가 Pen 적용)
+딜러 체력 극저하 시: Command Live 'Live [이름]' -> 크리티컬 공격으로 힐 제공
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Vigils / Castaway` / Oath: `Linkstrider` / Race/Aspect: `Chrysos / Human` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `0` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `1` / FTD: `1` / AGL: `40` / INT: `1` / WLL: `1` / CHA: `85` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `0` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `None` / 🛡️Posture: `None` / 💧Ether: `None` / ⚡Tempo: `None` / 🧠Sanity: `None` / 🛡️Armor: `None` / 👟Speed: `None%` / 💀Monster Dmg: `0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `None` / 🗡️베기(Slash): `None` / 🩸관통·출혈(Bleed): `None` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `None` / ❄️빙결: `None` / ⚡번개: `None` / 💨바람: `None` / 🌌암흑: `None` / ⚙️철: `None` / 🩸혈액: `None` |
+
+---
+
+### 🛡️ [빌드 66] unnamed-build
 
 # ⚔️ Unnamed Build
 
@@ -4612,6 +7117,11 @@ Starkindred의 기동 유틸리티와 Flamecharm mantras(Grand Skewer, Flame Gra
 
 ## 📝 빌드 개요 및 총평
 No summary provided.
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `0` | `0` | `6` | `6` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
@@ -4625,6 +7135,18 @@ No summary provided.
 | Heavy Wep (중화기) | `85` |
 | Medium Wep (중형무기) | `0` |
 | Light Wep (경화기) | `0` |
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -4650,9 +7172,22 @@ No summary provided.
 - **Ice Flock**
 - **Beast Burrow**
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Oathless` / Race/Aspect: `Any Race (Ganymede, Vesperian 추천)` |
+| **4대 특성 (Traits)** | Vitality: `0` / Erudition: `0` / Proficiency: `6` / Songchant: `6` |
+| **6대 기본 스탯** | STR: `0` / FTD: `100` / AGL: `40` / INT: `0` / WLL: `80` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `Attunementless (0)` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 58] vampiric-bastion-drain-tank-pve-build
+### 🛡️ [빌드 67] vampiric-bastion-drain-tank-pve-build
 
 # ⚔️ Vampiric Bastion (Drain Tank PvE Build)
 
@@ -4676,6 +7211,11 @@ No summary provided.
 - ⚠️ 치유량 극대화를 위해 딜량이 15% 감소하는 Blindseer's Ring의 패널티 감수 필요
 - ⚠️ Shrine of Order를 사용한 정교한 stats 분배 필요
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4692,6 +7232,18 @@ No summary provided.
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Thundercall**: `65`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Pale Briar** — 인챈트: `None`
@@ -4739,9 +7291,22 @@ No summary provided.
 4. Electro Carve로 핵심 타겟을 감전시켜 가하는 피해 감소 디버프 부여.
 5. 체력이 낮아지면 Sacred Field를 사용하고 제자리에서 크리티컬과 mantras 연타로 체력을 순식간에 복구.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Arcwarder` / Race/Aspect: `Any` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `0` / FTD: `20` / AGL: `20` / INT: `25` / WLL: `0` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `{'flamecharm': 80, 'thundercall': 65}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 59] vampiric-bastion-drain-tank-pve
+### 🛡️ [빌드 68] vampiric-bastion-drain-tank-pve
 
 # ⚔️ Vampiric Bastion (Drain Tank PvE)
 
@@ -4767,6 +7332,11 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 크리티컬 공격 빗나감 시 순간 리스크: Blood Plague 및 Critical Engine 기반의 피흡 의존도가 높아 크리티컬 공격을 실수로 허공에 날리면 순간 임시 체력 수급이 끊길 수 있습니다.
 - ⚠️ 고난도 제작 재료 요구: No-Life King's Crown, Regenerative Pendant, Regenerative Earrings 등 엔드게임 세트 장비 제작에 많은 유니크 재료가 소비됩니다.
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4783,6 +7353,18 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `80`
 - **Thundercall**: `65`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## ⭐ 주요 탤런트 (Talents)
 ### 🌟 필수 핵심 탤런트
@@ -4832,9 +7414,22 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 3단계 (크리티컬 주력 폭딜 & 무한 피흡): Pale Briar 크리티컬 공격을 시전해 다단히트 타격으로 임시 체력과 HP를 대량 수급합니다. 이어서 Emotion Wave와 Relentless Flames를 연계해 몹 집단을 단숨에 쓸어버립니다.
 4단계 (긴급 상황 탱킹 및 복구): 위급 상황 시 Sacred Field Bell을 펼쳐 저항력을 극대화하고, Phoenix Flames 부활 기믹 및 Regenerative 세트(Critical Heal) 효과로 단숨에 풀피를 복구합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Arcwarder` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `0` / FTD: `20` / AGL: `20` / INT: `50` / WLL: `0` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `85` / Elements: `{'flamecharm': 80, 'thundercall': 65}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 60] volcanic-glass-brick-wall-pve-spear
+### 🛡️ [빌드 69] volcanic-glass-brick-wall-pve-spear
 
 # ⚔️ Volcanic Glass Brick Wall PvE Spear
 
@@ -4857,6 +7452,11 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ Brick Wall(Fortitude 100, Willpower 100) 조건 충족을 위해 stats 소모가 커 유틸리티 stats 투자 제한
 - ⚠️ 최대 데미지를 뽑아내기 위해 사전 체인 스택 작업이 필요함
 
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
+
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 | 스탯 항목 (Attribute) | 수치 (Points) |
 | :--- | :--- |
@@ -4873,6 +7473,18 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 ## ⚡ 속성 투자 (Attunements)
 - **Flamecharm**: `40`
 - **Frostdraw**: `40`
+
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
 
 ## 🗡️ 추천 무기 (Weapons)
 - **Iron Spear** — 인챈트: `None`
@@ -4903,9 +7515,22 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 ## 🥊 콤보 & 전투 운용 가이드
 전투 시작 전 Heretic's Sutra를 사용하여 광기(Insanity) 상태를 유도하고 'Lose Your Mind' 버프를 활성화합니다. Trident Spear의 다단히트 크리티컬 공격을 적중시켜 Grim 인챈트의 25% 피해 증가 버프를 즉시 획득합니다. 이후 체인 스택을 쌓은 상태에서 얼음 mantras와 화염 mantras를 번갈아 사용하여 Volcanic Glass 폭발 데미지를 극대화합니다.
 
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Castaway` / Oath: `Oathless` / Race/Aspect: `Any` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `20` / FTD: `100` / AGL: `25` / INT: `0` / WLL: `100` / CHA: `0` |
+| **무기/속성 수치** | LHT: `0` / MED: `75` / HVY: `0` / Elements: `{'flamecharm': 40, 'frostdraw': 40}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
+
 ---
 
-### 🛡️ [빌드 61] volcanic-glass-mage
+### 🛡️ [빌드 70] volcanic-glass-mage
 
 # ⚔️ Volcanic Glass Mage
 
@@ -4932,6 +7557,11 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - ⚠️ 슬라이드 캐스팅 숙련도가 낮을 경우 기동성이 급격히 저하됨
 - ⚠️ 스태미나 관리에 실패하면 메이지 특성상 근접전에서 취약해질 수 있음
 - ⚠️ 특정 속성 저항이 높은 상대에게는 대미지 효율이 다소 감소할 수 있음
+
+## 🧬 4대 고유 특성 (Traits)
+| Vitality (생명력) | Erudition (학식) | Proficiency (숙련) | Songchant (영창) |
+| :---: | :---: | :---: | :---: |
+| `6` | `2` | `4` | `0` |
 
 ## 📊 스탯 분배 및 육성 경로 (Stats & Build Progression)
 ### ⛩️ 1단계: 질서의 성소 전 (Pre-Shrine 육성 목표 스탯)
@@ -4965,6 +7595,18 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 - **Flamecharm**: `80`
 - **Frostdraw**: `80`
 
+## 🩺 실전 종합 전투 수치 (Combat Stats)
+| Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| `500` | `26` | `250` | `130` | `150` | `0.0%` | `+30.0%` |
+
+> 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
+
+## 🛡️ 방어 및 저항력 명세 (Resistances)
+| 물리 저항 (Physical) | 원소 저항 (Elemental) | 특수/혈액 저항 (Special & Blood) |
+| :--- | :--- | :--- |
+| 🔨타격: `35.0%`<br>🗡️베기: `40.0%`<br>🩸관통/출혈: `30.0%` | 🔥화염: `20.0%`<br>❄️빙결: `20.0%`<br>⚡번개: `20.0%`<br>💨바람: `20.0%` | 🌌암흑: `20.0%`<br>⚙️철(Metal): `20.0%`<br>🩸혈액(Blood): `N/A` |
+
 ## ⛩️ Shrine of Order 진행 경로
 **Pre-Shrine**: `{}`
 **Post-Shrine 우선순위**:
@@ -4997,6 +7639,19 @@ Arc Suit 버프를 시작으로 진입한 뒤 Arc Wave(Aegis Gem)와 Pale Briar 
 
 ## 🥊 콤보 & 전투 운용 가이드
 1단계(진입): 슬라이드 캐스팅을 사용하며 'Rising Frost'로 적의 이동을 제한합니다. 2단계(가드브레이크): 'Meteor Impact'를 즉시 연계하여 적의 가드를 파괴하거나 경직을 줍니다. 3단계(폭딜): 'Rising Flame'과 'Ash Slam'을 순차적으로 사용하여 적을 공중에 띄우고 추가 대미지를 입힙니다. 4단계(탈출/유지): 'Flame Repulsion'으로 거리를 벌리며 스태미나를 회복하고, 다시 슬라이드 캐스팅으로 다음 교전 기회를 노립니다.
+
+## 🔬 100% 실측 원시 데이터 (Raw Visual Ground Truth)
+> 본 섹션은 인게임 캐릭터 창(Stat Sheet)에서 OpenCV 고해상도 전처리 및 Vision AI가 픽셀 단위로 직접 추출한 무가공 실측 데이터입니다.
+
+| 실측 분류 | 세부 실측 데이터 항목 |
+| :--- | :--- |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Starkindred` / Race/Aspect: `Vesperian` |
+| **4대 특성 (Traits)** | Vitality: `6` / Erudition: `2` / Proficiency: `4` / Songchant: `0` |
+| **6대 기본 스탯** | STR: `40` / FTD: `50` / AGL: `40` / INT: `40` / WLL: `40` / CHA: `20` |
+| **무기/속성 수치** | LHT: `0` / MED: `80` / HVY: `0` / Elements: `{'flamecharm': 80, 'frostdraw': 80}` |
+| **실전 전투 수치** | ❤️HP: `500` / 🛡️Posture: `26` / 💧Ether: `250` / ⚡Tempo: `130` / 🧠Sanity: `150` / 👟Speed: `0.0%` / 💀Monster Dmg: `+30.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `35.0%` / 🗡️베기(Slash): `40.0%` / 🩸관통·출혈(Bleed): `30.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `20.0%` / ❄️빙결: `20.0%` / ⚡번개: `20.0%` / 💨바람: `20.0%` / 🌌암흑: `20.0%` / ⚙️철: `20.0%` / 🩸혈액: `N/A` |
 
 
 ## 👑 제3장: 엔드게임 보스 및 레이드 전문 공략 가이드
@@ -9545,7 +12200,1939 @@ L5 | 20 dmg | 4 pst
 
 ---
 
-### 🌐 [웹/위키 문서 9] deepwoken-wiki-attributes_ca9d4769
+### 🌐 [웹/위키 문서 9] deepwoken-builder-your-gaurdian-angel_94757958
+
+Title: Deepwoken Builder - YOUR Gaurdian Angel
+URL: https://deepwoken.co/builder?id=HG4L474U
+Description: subscribe to feiitaan on youtube plez!!!1
+
+==================================================
+
+Deepwoken Builder - YOUR Gaurdian Angel
+Anonymous
+Advanced
+×
+Linkstrider
+×
+Add tags
+0
+5,287
+4
+Comments
+Discussions
+Share
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+20
+Next Power:
+0 points
+"I'm for hire, Arch."
+Strength
+STR
+1
+Fortitude
+FTD
+1
+Agility
+AGI
+40
+Intelligence
+INT
+1
+Willpower
+WLL
+1
+Charisma
+CHA
+85
+Heavy Wep.
+HVY
+0
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+1
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+0
+Ironsing
+MTL
+75
+Bloodrend
+BLD
+0
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 0
+Points Spent
+: 330
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+231
+138
+38
+7
+Filters
+Advanced
+▾
+Alley Cat
+Conditioned Runner
+↗
+Butterfly
+Ghost
+↗
+Charm Caster
+Dazing Finisher
+↗
+Sage of Wisps
+Will o' Wisp
+↗
+Scrapsinger
+Reshape and Remold
+↗
+Thief
+Another Man's Trash
+↗
+Vow of Mastery
+Command: Summon
+↗
+Rare
+▾
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Phantom Edge
+↗
+Adept Caster
+Everchanging Aegis
+↗
+Overflowing Dam
+↗
+Perfect Flash
+↗
+Alchemist
+Potion Quaffer
+↗
+Apex Predator
+Carnivore
+↗
+Butterfly
+Evasive Expert
+↗
+Risky Moves
+↗
+Comrade
+Grand Support
+↗
+Cryomancer
+Preceding Chill
+↗
+Duelist
+Concussion
+↗
+Spine Cutter
+↗
+Strong Stern
+↗
+Ether Conduit
+Eureka
+↗
+Fish
+Fishman
+↗
+Freak of Nature
+Exoskeleton
+↗
+To The Finish
+↗
+Frozen Warrior
+Frozen Legs
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Hunter
+Peripheral Vision
+↗
+Ice Age
+Frozen Pin-Cushion
+↗
+Saint Jay
+↗
+Leaf in the Wind
+Observation
+↗
+Safety Dance
+↗
+Marauder
+Thresher Claws
+↗
+Meditative Trance
+Impervious Slumber
+↗
+Nimble Blade
+Lightspeed Reflexes
+↗
+Rending Needle
+Rending Needle: Conductor
+↗
+Rending Needle: Impaler
+↗
+Rending Needle: Jailer
+↗
+Scoundrel
+Dirty Boxing
+↗
+Scrapsinger
+Masterwork
+↗
+Silvertongue
+Golden Tongue
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Vigil Swordsman
+Speed Demon
+↗
+Vocalist
+Encore
+↗
+Warrior
+Chronostasis
+↗
+Common
+▾
+Acrobat
+Kick Off
+↗
+Steady Footing
+↗
+Time To Go
+↗
+Adaptive Arsenal
+Exposed Durability
+↗
+Alchemist
+Apothecary
+↗
+Chemistry Kit
+↗
+Alley Cat
+Endurance Runner
+↗
+Scaredy Cat
+↗
+Apex Predator
+Grand Feast
+↗
+Sunken Predator
+↗
+Assassin
+Deep Wound
+↗
+Lowstride
+↗
+Bastion
+Battle Tendency
+↗
+Braced Collapse
+↗
+Moving Fortress
+↗
+Perseverance
+↗
+Boundless Potential
+Charisma Unbounded
+↗
+Frostdraw Unbounded
+↗
+Ironsing Unbounded
+↗
+Brawler
+Bruiser's Mixup
+↗
+Butterfly
+Swift Rebound
+↗
+Champion
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Lasting Charisma
+↗
+Tough Love
+↗
+Cryomancer
+Chilling Flourish
+↗
+Condensation Drip
+↗
+Cool Head
+↗
+Fragile Freeze
+↗
+Spike Traps
+↗
+Cutthroat
+In a Hurry
+↗
+Duelist
+Concussive Force
+↗
+Elemental Rebound
+Charged Return
+↗
+Nullifying Clarity
+↗
+Empath
+Cornered Fool
+↗
+Give and Take
+↗
+Escape Artist
+Robber Baron
+↗
+Ether Conduit
+Ether Absorption
+↗
+Mantra Permanence
+↗
+Frost Forger
+Glacial Mobility
+↗
+Frostdrawer
+Adept Frostdrawer
+↗
+Cold Front
+↗
+Expert Frostdrawer
+↗
+Frostdrawer
+↗
+Master Frostdrawer
+↗
+Frostthorn
+Glacial Coasting
+↗
+Orbital Ice
+↗
+Glassdancer
+Crystal Shrapnel
+↗
+Glass Path: Crystallization
+↗
+Reclaimed Glass
+↗
+Gunslinger
+Bulletproof
+↗
+Ice Age
+Bottom Freeze
+↗
+Cryonis
+↗
+Frostbite
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Laced Traps
+↗
+Master Ironsinger
+↗
+Oh The Irony
+↗
+Thornmail
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Lancer
+Hoplite
+↗
+Leader
+Callout
+↗
+Spotter
+↗
+Liberator
+Stay of Execution
+↗
+Limitbreaker
+Comeback Kid
+↗
+Last Resort
+↗
+The Eleventh Hour
+↗
+Marauder
+Old Habits Die Hard
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Conquer your Fears
+↗
+Disbelief
+↗
+Metallurgist
+Intuitive Repairs
+↗
+Metal Absorption
+↗
+Metal Eater
+↗
+Metal Thief
+↗
+Polished Armor
+↗
+Miscellaneous
+Dragon's Song
+↗
+Full Reset
+↗
+Gourmand
+↗
+Heavy Haul
+↗
+Martyr
+↗
+Polite Awakening
+↗
+Ready or Not
+↗
+Replenishing Knockout
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Armor Conserver
+↗
+Lightweight
+↗
+Padded Armor
+↗
+Steel Scales
+↗
+Nimble Blade
+Fast Blade
+↗
+Speed Emission
+↗
+Politician
+Pardon Me
+↗
+Public Figure
+Celebrity
+↗
+Under The Radar
+↗
+You'll Need To Get Past Me
+↗
+Rending Needle
+Conductor's Cable
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Refine and Reuse
+↗
+Songs Unforged
+↗
+Shieldmaster
+Knight's Rally
+↗
+Turtle Shell
+↗
+Showboater
+Unnecessary Theatrics
+↗
+Silvertongue
+Snake Oil
+↗
+Sturdy Resolve
+Grasp on Reality
+↗
+Magical Resolve
+↗
+Survival Instinct
+Iron Gut
+↗
+Termite
+↗
+Survival Kit
+Cook's Kit
+↗
+Tactician
+Hard Read
+↗
+Target Switch
+↗
+Tavernkeep
+Artisan Chef
+↗
+Master Chef
+↗
+Thief
+Cap Artist
+↗
+Pickpocket
+↗
+Toxic Personality
+Manipulator
+↗
+Narcissist
+↗
+Vigil Swordsman
+Bear Trap
+↗
+Blade Dancer
+↗
+Spinning Swordsman
+↗
+Vocalist
+Propagandist
+↗
+Vow of Mastery
+Command: Live
+↗
+Vow of Mastery
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Weapon Master
+Matador
+↗
+Faction
+▾
+The Path, Unveiled
+Justicar's Adaptation
+↗
+Justicar's Preference
+↗
+Justicar's Technique
+↗
+Marked Descent
+↗
+Swiftfoot
+↗
+Trained Legs
+↗
+Vanguard Techniques
+Karita Combo
+↗
+Righteous Crash
+↗
+Soaring Swiftkick
+↗
+Swiftkick Master
+↗
+Vanguard Style
+↗
+Vanguard's Onslaught
+↗
+Warder Techniques
+Emergency Mark
+↗
+Justicar's Blessing
+↗
+Justicar's Mark
+↗
+Kindness
+↗
+Mark Mastery
+↗
+Righteous Violence
+↗
+Oath
+▾
+Linkstrider
+Entropy Link
+↗
+Oath: Linkstrider
+↗
+Symbiotic Link
+↗
+Equipment
+▾
+No talents :(
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Metamancer
+Chain of Perfection
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+Prospector
+Excavator
+↗
+Harvester
+↗
+Quest
+Beiruul's Vengeance
+↗
+Kj's Courage
+↗
+Nanji's Training
+↗
+Supernatural Sense
+↗
+Saboteur
+Family Recipe
+↗
+Murmur
+▾
+Murmur
+Murmur: Ardour
+↗
+Murmur: Rhythm
+↗
+Murmur: Tacet
+↗
+Origin
+▾
+Justicar
+Justicar's Call
+↗
+Innate
+▾
+No talents :(
+Obtained Talents
+89
+60
+24
+5
+Max of
+62
+Talents,
+50
+rollable (
+40
+guaranteed rare attempts) and
+12
+from Roll 2.
+Max of
+4
+Faction Talents (
+5
+if in Authority Ensign's Command Division).
+Filters
+Adaptive Arsenal
+An Ironsinger's Instinct
+↗
+Exposed Durability
+↗
+Phantom Edge
+↗
+Adept Caster
+Everchanging Aegis
+↗
+Overflowing Dam
+↗
+Perfect Flash
+↗
+Alley Cat
+Conditioned Runner
+↗
+Endurance Runner
+↗
+Scaredy Cat
+↗
+Apex Predator
+Carnivore
+↗
+Grand Feast
+↗
+Bastion
+Battle Tendency
+↗
+Braced Collapse
+↗
+Moving Fortress
+↗
+Perseverance
+↗
+Boundless Potential
+Charisma Unbounded
+↗
+Frostdraw Unbounded
+↗
+Ironsing Unbounded
+↗
+Butterfly
+Evasive Expert
+↗
+Ghost
+↗
+Risky Moves
+↗
+Swift Rebound
+↗
+Champion
+Underdog
+↗
+Charm Caster
+Chaotic Charm
+↗
+Charismatic Cast
+↗
+Dazing Finisher
+↗
+Lasting Charisma
+↗
+Cryomancer
+Chilling Flourish
+↗
+Condensation Drip
+↗
+Duelist
+Concussion
+↗
+Concussive Force
+↗
+Spine Cutter
+↗
+Strong Stern
+↗
+Elemental Rebound
+Charged Return
+↗
+Nullifying Clarity
+↗
+Empath
+Cornered Fool
+↗
+Ether Conduit
+Eureka
+↗
+Fish
+Fishman
+↗
+Freak of Nature
+Exoskeleton
+↗
+To The Finish
+↗
+Frostdrawer
+Adept Frostdrawer
+↗
+Expert Frostdrawer
+↗
+Frostdrawer
+↗
+Master Frostdrawer
+↗
+Frostthorn
+Glacial Coasting
+↗
+Orbital Ice
+↗
+Genius Intellect
+Neuroplasticity
+↗
+Glassdancer
+Crystal Shrapnel
+↗
+Glass Path: Crystallization
+↗
+Reclaimed Glass
+↗
+Ice Age
+Cryonis
+↗
+Ironsinger
+Adept Ironsinger
+↗
+Expert Ironsinger
+↗
+Heavy Shoulders
+↗
+Ironclad Punishment
+↗
+Ironsinger
+↗
+Master Ironsinger
+↗
+Oh The Irony
+↗
+Justicar
+Justicar's Call
+↗
+Limitbreaker
+Last Resort
+↗
+The Eleventh Hour
+↗
+Linkstrider
+Entropy Link
+↗
+Oath: Linkstrider
+↗
+Symbiotic Link
+↗
+Marauder
+Old Habits Die Hard
+↗
+Thresher Claws
+↗
+Mental Fortress
+Breathing Exercise
+↗
+Conquer your Fears
+↗
+Disbelief
+↗
+Metallurgist
+Metal Thief
+↗
+Polished Armor
+↗
+Miscellaneous
+Full Reset
+↗
+Ready or Not
+↗
+Replenishing Knockout
+↗
+Murmur
+Ardour Scream
+↗
+Murmur: Ardour
+↗
+Nimble Blade
+Fast Blade
+↗
+Lightspeed Reflexes
+↗
+Rending Needle
+Conductor's Cable
+↗
+Rending Needle: Conductor
+↗
+Scrapsinger
+Artisan's Blade
+↗
+Gilded Path: Scrapsinger
+↗
+Masterwork
+↗
+Refine and Reuse
+↗
+Reshape and Remold
+↗
+Songs Unforged
+↗
+Shieldmaster
+Knight's Rally
+↗
+Turtle Shell
+↗
+Showboater
+Unnecessary Theatrics
+↗
+Silvertongue
+Golden Tongue
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Sturdy Resolve
+Grasp on Reality
+↗
+Magical Resolve
+↗
+Toxic Personality
+Manipulator
+↗
+Narcissist
+↗
+Vigil Swordsman
+Bear Trap
+↗
+Blade Dancer
+↗
+Speed Demon
+↗
+Spinning Swordsman
+↗
+Vow of Mastery
+Command: Live
+↗
+Command: Summon
+↗
+Vow of Mastery
+↗
+Warder Techniques
+Emergency Mark
+↗
+Justicar's Blessing
+↗
+Justicar's Mark
+↗
+Kindness
+↗
+Mark Mastery
+↗
+Righteous Violence
+↗
+Warrior
+Chronostasis
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Weapon Master
+Matador
+↗
+Rollable Mantras
+78
+Combat
+Ice Cubes
+↗
+Ice Fissure
+↗
+Crystal Impale
+↗
+Crystal Knee
+↗
+Frost Grab
+↗
+Ice Carve
+↗
+Ice Flock
+↗
+Ice Lance
+↗
+Ice Lasers
+↗
+Rising Frost
+↗
+Ice Blade
+↗
+Ice Chains
+↗
+Ice Daggers
+↗
+Ice Eruption
+↗
+Ice Forge
+↗
+Ice Smash
+↗
+Frozen Servants
+↗
+Ice Beam
+↗
+Ice Spikes
+↗
+Warden Blades
+↗
+Iron Hug
+↗
+Iron Slam
+↗
+Metal Armament
+↗
+Metal Gatling
+↗
+Rocket Lance
+↗
+Caltrops
+↗
+Firing Line
+↗
+Iron Quills
+↗
+Metal Fakeout
+↗
+Metal Rain
+↗
+Oxidizing Rush
+↗
+Metal Kick
+↗
+Metal Eruption
+↗
+Needle Barrage
+↗
+Ether Barrage
+↗
+Exhaustion Strike
+↗
+Rapid Punches
+↗
+Revenge
+↗
+Shoulder Bash
+↗
+Strong Left
+↗
+Tacet Drop Kick
+↗
+Abyssal Ridge
+↗
+Abyssal Tendrils
+↗
+Brachial Spear
+↗
+Coral Spear
+↗
+Dread Breath
+↗
+Mecha Gatling
+↗
+Whirling Blade
+↗
+Pumpkin Pitch
+↗
+Mobility
+Ice Skates
+↗
+Glacial Arc
+↗
+Metal Ball
+↗
+Metal Rampart
+↗
+Agile Dash
+↗
+Neural Pathway
+↗
+Beast Burrow
+↗
+Support
+Iceberg
+↗
+Metal Turret
+↗
+Chain Pull
+↗
+Iron Skin
+↗
+Adrenaline Surge
+↗
+Disguise
+↗
+Dread Whisper
+↗
+Gaze
+↗
+Glare
+↗
+Rally
+↗
+Reinforce
+↗
+Sing
+↗
+Summon Cauldron
+↗
+Taunt
+↗
+Enforcer Pull
+↗
+Alsin's Aid
+↗
+Karita Swap
+↗
+Parasitic Leech
+↗
+Symbiotic Sustain
+↗
+Wisp
+Frost Wisp
+↗
+Metal Wisp
+↗
+Bone Wisp
+↗
+Obtained Mantras
+Combat
+3/3
+Metal Rain
+↗
+Warden Blades
+↗
+Frozen Servants
+↗
+Mobility
+0/1
+Support
+3/3
+Sing
+↗
+Taunt
+↗
+Reinforce
+↗
+Wildcard
+3/3
+Symbiotic Sustain
+↗
+Alsin's Aid
+↗
+Crystal Impale
+↗
+Mantra Details
+9
+Sing
+Taunt
+Reinforce
+Symbiotic Sustain
+Alsin's Aid
+Metal Rain
+Warden Blades
+Frozen Servants
+Crystal Impale
+Gem
+None
+Aegis (damage reduction on hit)
+Blessed (reduces cooldown on hit)
+Bloodless (grants lifesteal, −20% mantra damage)
+Blue (reduces ether cost)
+Insignia (reduces windup of next cast)
+Kyrsan (stacking slow on hit)
+Might (increases posture damage)
+Nocturnal (extra hit after 1s delay)
+Warped Blue (reduced ether cost while swimming)
+Wayward (teleports to opponent after 1s)
+Wrath (crit damage scaling on combat tags)
+Wind (speed boost on hit)
+Spark
+None
+Blast
+Reversal
+Multiplying
+Magnet
+Spring
+Tornado
+Round
+Base
+L1
+1
+Songchant
+×1.195 on scaling
++0
+Damage at L1
+1
+Posture Damage
+0
+L1
+1 dmg
+0 pst
+L2
+1 dmg
+0 pst
+L3
+1 dmg
+0 pst
+L4
+1 dmg
+0 pst
+L5
+1 dmg
+0 pst
+Modifiers
+Cloudstone, Stratus Stone
+Related Talents
+Encore, Propagandist
+Shared Cooldowns
+Glare
+Weapon:
+0
+1
+2
+3
+Stars
+-
+DMG%
+PEN%
+WGT%
+Iron Spear
+Compare
+Enchant:
+Motif:
+Iron Spear
+Base Damage
+17
+Scaling
+Medium Weapon
+0 × 2.50
++0
+Scaled Damage
+17
+Bleed
+7.5% of scaled
++1.3
+Damage Modifiers
+×1.500
++8.5
+Total Damage
+26.8
+vs.
+% Resists
+×0.709
+19
+DPS
+27.1
+Iron Spear
+Damage Type
+Slash
+Damage
+17
+Penetration
+-
+Range
+9
+Swing Speed
+0.9x
+Posture Dmg
+5
+Endlag
+-
+Chip
+-
+Scaling
+Medium Weapon
+2.5
+PvE
+DVM:
+%
+Max Damage against Monsters:
+198.6
+Hits needed against
+HP Monster:
+5
+Total Damage Multi.
+150%
+capped from 252% (mods > +25% halved)
+Total Penetration
+17%
+Rings
+Strength
+Agility
+Intelligence
+Willpower
+Charisma
+Isshin's Ring
+Ring of Casters
+Blindseer's Ring
+Damage Modifiers
+Shade Devour
++25% DMG
+Manipulator
++20% DMG
+Ardour Scream
++12.5% DMG
+Pressure Break
++25% DMG
+Speed Demon
++7.5% bleed
+Charged Return
++10% DMG
+Matador
++20% DMG
+Mark of the Lone Warrior
++5% DMG
+Ardour Weapon
++5% DMG
+Lose Your Mind
++15% DMG
+Taunt
++20% DMG
+Nullifying Clarity
++10% DMG
+Overflowing Dam
++10% DMG
+Tough Love
++10% DMG
+Flame Within
++10% DMG
+Last Resort
++5% DMG
+Exposed Durability
++10% DMG
+Spinning Swordsman
++15% DMG
+Wyvern's Claw
++10% DMG
+Reshape and Remold
++5% DMG
+Underdog
++4% DMG
+Rush Hour
++15% DMG
+Reinforce
++5% DMG
+Amped
++10% DMG
+Amplified Rage
++20% DMG
+Piercing Will
++15% PEN
+Cult of Personality
++15% PEN
+Thresher Claws
++10% PEN
+Cheap Shot
++10% PEN ×
+Million Ton Piercer
++5% PEN
+Ether Overdrive
++5% PEN
+After Cut
++10% DMG
+Ears
+Head
+Face
+Arms
+Torso
+Legs
+None
+Ring 1
+Ring 2
+Ring 3
+Ring 4
+Click an equipped slot to see its details.
+Optimizer assumes
+35% pen
+against physical and
+20% pen
+against mantra damage.
+Total
+No equipment contributions yet.
+EHP vs Physical
+255 EHP (255 HP @ 0.0% DR)
+Damage reduction factors
+No resistance sources yet.
+HP & per-slot armor
+Build base
++255 HP
+Pip totals
+Health
++0
+Posture
++0
+Physical Armor
++0%
+Elemental Armor
++0%
+Ether
++0
+Sanity
++0
+Anchor pips
++0
+Innate & bonuses
+Nothing rolled yet.
+Notes
+Defensive
+Health
+425
+Base
++210
+Power
+Power 20 ×4
++80
+Fortitude
+50 ×0.5
++25
+Vitality
+6 ×10
++60
+Talent · Bloodiron Spirit
++5
+Talent · Master Ironsinger
++5
+Talent · To The Finish
++5
+Talent · Ironsing Unbound
+
+==================================================
+📚 [심층 분석 연관 하위 위키 문서 모음]
+
+
+### 📖 [하위 상세 문서: Deepwoken Builder]
+- URL: https://deepwoken.co/builder
+Deepwoken Builder
+Anonymous
+Add tags
+Export
+Stats
+Talents
+Mantras
+Weapons
+Equipment
+Summary
+Race
+None
+Etrean (+2 AGL, +3 INT)
+Celtor (+2 INT, +3 CHA)
+Adret (+2 WIL, +3 CHA)
+Canor (+3 STR, +2 CHA)
+Gremor (+2 STR, +3 FTD)
+Khan (+3 STR, +2 AGL)
+Felinor (+3 AGL, +2 CHA)
+Chrysid (+2 AGL, +3 CHA)
+Vesperian (+3 FTD, +2 WIL)
+Capra (+3 INT, +2 WIL)
+Ganymede (+2 INT, +3 WIL)
+Tiran (+3 AGL, +2 WIL)
+Drakkard (+2 AGL, +3 FTD)
+Kiron (+3 AGL, +2 INT)
+Lightborn (+2 STR, +2 FTD, +2 AGL, +2 INT, +2 WIL, +2 CHA)
+Oath
+None
+Oathless (No Stat Requirement)
+Blindseer (40 WLL)
+Visionshaper (50 CHA)
+Starkindred (40 STR)
+Arcwarder (20 FIR + 20 LTN + 20 FTD)
+Jetstriker (50 AGL)
+Linkstrider (No Stat Requirement)
+Dawnwalker (LVL 15)
+Contractor (No Stat Requirement)
+Silentheart ((comb. 75 WEP) + (25 STR) + (25 AGL or CHA))
+Fadetrimmer (LVL 12)
+Saltchemist (75 INT)
+Chainwarden (comb. 40 STR, FTD, WLL)
+Bladeharper ((75 MED or comb. 90 WEP) + (25 STR or AGL))
+Saintsworn (15 FIR + 15 ICE + 15 LTN + 15 WND + 15 SDW)
+Soulbreaker (comb. 50 WLL, CHA)
+Blightsurger ((comb. 80 STR, FTD, AGL) + (40 WND or LTN))
+Murmur
+Ardour
+Rhythm
+Tacet
+Origin
+Castaway
+Authority Ensign
+Deepbound
+Ignition Delver
+Lone Warrior
+Voidwalker
+Justicar
+Bell
+None
+Blood Scourge
+Crazy Slots
+Chorus Divide
+Dimensional Travel
+Gravity Field
+Jar Of Souls
+Paralytic Dust
+Payback
+Portals
+Preservation
+Resurrection
+Run It Back
+Sacred Field
+Shard Bow
+Skeleton Key
+Smite
+Smokescreen
+Teleportation
+Wind Up
+Multifaceted
+no racial stat bonus
+Power:
+0
+Next Power:
+0 points
+"Ragoozer called. Told you to stop."
+Strength
+STR
+0
+Fortitude
+FTD
+0
+Agility
+AGI
+0
+Intelligence
+INT
+0
+Willpower
+WLL
+0
+Charisma
+CHA
+0
+Heavy Wep.
+HVY
+0
+Medium Wep.
+MED
+0
+Light Wep.
+LHT
+0
+Flamecharm
+FLM
+0
+Frostdraw
+ICE
+0
+Thundercall
+LTN
+0
+Galebreathe
+WND
+0
+Shadowcast
+SDW
+0
+Ironsing
+MTL
+0
+Bloodrend
+BLD
+0
+Vitality
+Erudition
+Proficiency
+Songchant
+Boon 1
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Boon 2
+None
+Autodidact
+Gourmet
+Maverick
+Packmule
+Scrapper
+Sly
+Steadfast
+Survivalist
+Flaw 1
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 2
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Flaw 3
+None
+Blind
+Deficient
+Fugitive
+Glutton
+Haemophilia
+Manic
+Obvious
+Simple
+Squeamish
+Vegetarian
+Investment Points
+: 330
+Points Spent
+: 0
+Shrine of Order
+Shrine of Mastery
+Save
+Pre-Shrine
+Load
+Pre-Shrine
+Save
+Post-Shrine
+Load
+Post-Shrine
+New Build
+Deepwoken Builder
+❤ Had a tough day?
+Import
+build from Deepwoken
+Obtainable Talents
+45
+17
+2
+0
+Filters
+Advanced
+▾
+No talents :(
+Rare
+▾
+Fish
+Fishman
+↗
+Soul Converter
+Bloodiron Spirit
+↗
+Common
+▾
+Brawler
+Bruiser's Mixup
+↗
+Escape Artist
+Robber Baron
+↗
+Justicar
+Flying Swiftkick
+↗
+Justicar's Prowess
+↗
+Justicar's Renewal
+↗
+Swiftkick Prodigy
+↗
+Leader
+Spotter
+↗
+Miscellaneous
+Dragon's Song
+↗
+Polite Awakening
+↗
+Murmur
+Ardour Scream
+↗
+Natural Armor
+Lightweight
+↗
+Saboteur
+Explosive Efficiency
+↗
+Hot Potato
+↗
+Incendiary Formula
+↗
+Pocket Bombs
+↗
+Sulphur Surprise
+↗
+Waterbone
+Conditioned Swimmer
+↗
+Faction
+▾
+No talents :(
+Oath
+▾
+No talents :(
+Equipment
+▾
+No talents :(
+Quest
+▾
+Angler
+Fisher's Lure
+↗
+Hook, Line, and Sinker
+↗
+Proficient Baiting
+↗
+Deepwoken
+Spell Shout
+↗
+Drowned Secret
+Ethiron's Gaze
+↗
+Fang and Coil
+Fang and Coil
+↗
+Fish
+Landshark
+↗
+Gale Kata
+Imperium Kata
+↗
+Legion Kata
+↗
+Ignition Union
+Union Hook
+↗
+Inferno
+Pleeksty's Will
+↗
+Justicar
+Jus Karita
+↗
+Miscellaneous
+Careful Handling
+↗
+Treefelling Blow
+↗
+Navaen Nomad
+Way of Navae
+↗
+
+=== Tables ===
+
+[Table 1]
+L1 | 1 dmg | 0 pst
+L2 | 1 dmg | 0 pst
+L3 | 1 dmg | 0 pst
+L4 | 1 dmg | 0 pst
+L5 | 1 dmg | 0 pst
+
+=== Sub Pages Explored ===
+- builder
+
+---
+
+### 🌐 [웹/위키 문서 10] deepwoken-wiki-attributes_ca9d4769
 
 # ⚔️ Unnamed Build
 
@@ -9573,7 +14160,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 10] deepwoken-wiki-attributes_ca9d4769
+### 🌐 [웹/위키 문서 11] deepwoken-wiki-attributes_ca9d4769
 
 Title: Deepwoken Wiki: Attributes
 URL: https://deepwoken.fandom.com/wiki/Attributes
@@ -10861,7 +15448,7 @@ At
 
 ---
 
-### 🌐 [웹/위키 문서 11] deepwoken-wiki-attunement-less_f27fd6a7
+### 🌐 [웹/위키 문서 12] deepwoken-wiki-attunement-less_f27fd6a7
 
 # ⚔️ Unnamed Build
 
@@ -10889,7 +15476,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 12] deepwoken-wiki-attunement-less_f27fd6a7
+### 🌐 [웹/위키 문서 13] deepwoken-wiki-attunement-less_f27fd6a7
 
 Title: Deepwoken Wiki: Attunement-less
 URL: https://deepwoken.fandom.com/wiki/Attunement-less#Skyshatter_Kick
@@ -12171,7 +16758,7 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 13] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
+### 🌐 [웹/위키 문서 14] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
 
 # ⚔️ Unnamed Build
 
@@ -12199,7 +16786,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 14] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
+### 🌐 [웹/위키 문서 15] deepwoken-wiki-deep-shrinesshrine-of-order_4c61080d
 
 Title: Deepwoken Wiki: Deep Shrines/Shrine of Order
 URL: https://deepwoken.fandom.com/wiki/Deep_Shrines/Shrine_of_Order
@@ -13085,7 +17672,7 @@ THE SCALES HAVE NOT YET TIPPED.
 
 ---
 
-### 🌐 [웹/위키 문서 15] deepwoken-wiki-enchantments_97729ee1
+### 🌐 [웹/위키 문서 16] deepwoken-wiki-enchantments_97729ee1
 
 # ⚔️ Unnamed Build
 
@@ -13113,7 +17700,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 16] deepwoken-wiki-enchantments_97729ee1
+### 🌐 [웹/위키 문서 17] deepwoken-wiki-enchantments_97729ee1
 
 Title: Deepwoken Wiki: Enchantments
 URL: https://deepwoken.fandom.com/wiki/Enchantments
@@ -14536,7 +19123,7 @@ Equipment Enchantments
 
 ---
 
-### 🌐 [웹/위키 문서 17] deepwoken-wiki-hybrid-abilities_81ce250e
+### 🌐 [웹/위키 문서 18] deepwoken-wiki-hybrid-abilities_81ce250e
 
 # ⚔️ Unnamed Build
 
@@ -14564,7 +19151,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 18] deepwoken-wiki-hybrid-abilities_81ce250e
+### 🌐 [웹/위키 문서 19] deepwoken-wiki-hybrid-abilities_81ce250e
 
 Title: Deepwoken Wiki: Hybrid Abilities
 URL: https://deepwoken.fandom.com/wiki/Hybrid_Abilities
@@ -15962,7 +20549,7 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 19] deepwoken-wiki-monster-mantras_3aac21b6
+### 🌐 [웹/위키 문서 20] deepwoken-wiki-monster-mantras_3aac21b6
 
 # ⚔️ Unnamed Build
 
@@ -15990,7 +20577,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 20] deepwoken-wiki-monster-mantras_3aac21b6
+### 🌐 [웹/위키 문서 21] deepwoken-wiki-monster-mantras_3aac21b6
 
 Title: Deepwoken Wiki: Monster Mantras
 URL: https://deepwoken.fandom.com/wiki/Monster_Mantras
@@ -17206,7 +21793,7 @@ Mechanics | Attunement Trainers•Attunement Potions•Deep Gems•Mantra Modifi
 
 ---
 
-### 🌐 [웹/위키 문서 21] deepwoken-wiki-oath-silentheart_6342c201
+### 🌐 [웹/위키 문서 22] deepwoken-wiki-oath-silentheart_6342c201
 
 # ⚔️ Unnamed Build
 
@@ -17234,7 +21821,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 22] deepwoken-wiki-oath-silentheart_6342c201
+### 🌐 [웹/위키 문서 23] deepwoken-wiki-oath-silentheart_6342c201
 
 Title: Deepwoken Wiki: Oath: Silentheart
 URL: https://deepwoken.fandom.com/wiki/Oath:_Silentheart
@@ -18289,7 +22876,7 @@ OathlessArcwarderBladeharperBlightsurgerBlindseerChainwardenContractorDawnwalker
 
 ---
 
-### 🌐 [웹/위키 문서 23] deepwoken-wiki-power_00c5fc78
+### 🌐 [웹/위키 문서 24] deepwoken-wiki-power_00c5fc78
 
 # ⚔️ Unnamed Build
 
@@ -18317,7 +22904,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 24] deepwoken-wiki-power_00c5fc78
+### 🌐 [웹/위키 문서 25] deepwoken-wiki-power_00c5fc78
 
 Title: Deepwoken Wiki: Power
 URL: https://deepwoken.fandom.com/wiki/Power
@@ -19402,7 +23989,7 @@ If you've fully progressed an Oath prior to
 
 ---
 
-### 🌐 [웹/위키 문서 25] deepwoken-wiki-traan-zakshun_14045519
+### 🌐 [웹/위키 문서 26] deepwoken-wiki-traan-zakshun_14045519
 
 # ⚔️ Unnamed Build
 
@@ -19430,7 +24017,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 26] deepwoken-wiki-traan-zakshun_14045519
+### 🌐 [웹/위키 문서 27] deepwoken-wiki-traan-zakshun_14045519
 
 Title: Deepwoken Wiki: Traan Zakshun
 URL: https://deepwoken.fandom.com/wiki/Traan_Zakshun
@@ -20961,7 +25548,7 @@ Equipment | For 2:Aazel's Horns,Brilliant CapeFor 5:Lightkeeper's Medallion,Tira
 
 ---
 
-### 🌐 [웹/위키 문서 27] deepwoken-wiki-weapons_5ff2d9d1
+### 🌐 [웹/위키 문서 28] deepwoken-wiki-weapons_5ff2d9d1
 
 # ⚔️ Unnamed Build
 
@@ -20989,7 +25576,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 28] deepwoken-wiki-weapons_5ff2d9d1
+### 🌐 [웹/위키 문서 29] deepwoken-wiki-weapons_5ff2d9d1
 
 Title: Deepwoken Wiki: Weapons
 URL: https://deepwoken.fandom.com/wiki/Weapons#All
@@ -26239,7 +30826,7 @@ Tan: Starting Weapon/Character Creation,Blue: Alloyed Weapon,Dark Green: Enemy D
 
 ---
 
-### 🌐 [웹/위키 문서 29] enchantments-wiki-deepwoken-builder_a6e98369
+### 🌐 [웹/위키 문서 30] enchantments-wiki-deepwoken-builder_a6e98369
 
 # ⚔️ Unnamed Build
 
@@ -26267,7 +30854,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 30] enchantments-wiki-deepwoken-builder_a6e98369
+### 🌐 [웹/위키 문서 31] enchantments-wiki-deepwoken-builder_a6e98369
 
 Title: Enchantments — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enchantment
@@ -27354,7 +31941,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 31] enemies-wiki-deepwoken-builder_b6c21d18
+### 🌐 [웹/위키 문서 32] enemies-wiki-deepwoken-builder_b6c21d18
 
 # ⚔️ Unnamed Build
 
@@ -27382,7 +31969,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 32] enemies-wiki-deepwoken-builder_b6c21d18
+### 🌐 [웹/위키 문서 33] enemies-wiki-deepwoken-builder_b6c21d18
 
 Title: Enemies — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/enemy
@@ -27568,7 +32155,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 33] equipment-wiki-deepwoken-builder_50c6b4fb
+### 🌐 [웹/위키 문서 34] equipment-wiki-deepwoken-builder_50c6b4fb
 
 # ⚔️ Unnamed Build
 
@@ -27596,7 +32183,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 34] equipment-wiki-deepwoken-builder_50c6b4fb
+### 🌐 [웹/위키 문서 35] equipment-wiki-deepwoken-builder_50c6b4fb
 
 Title: Equipment — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/equipment
@@ -28771,7 +33358,7 @@ The visage of a five-eyed hound enters your mind un
 
 ---
 
-### 🌐 [웹/위키 문서 35] flaws-wiki-deepwoken-builder_fb636760
+### 🌐 [웹/위키 문서 36] flaws-wiki-deepwoken-builder_fb636760
 
 # ⚔️ Unnamed Build
 
@@ -28799,7 +33386,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 36] flaws-wiki-deepwoken-builder_fb636760
+### 🌐 [웹/위키 문서 37] flaws-wiki-deepwoken-builder_fb636760
 
 Title: Flaws — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/flaw
@@ -29865,7 +34452,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 37] google-docs-introduction_fa2af664
+### 🌐 [웹/위키 문서 38] google-docs-introduction_fa2af664
 
 # ⚔️ Unnamed Build
 
@@ -29893,7 +34480,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 38] google-docs-introduction_fa2af664
+### 🌐 [웹/위키 문서 39] google-docs-introduction_fa2af664
 
 Title: Google Docs: Introduction
 URL: https://docs.google.com/document/d/1Vc--1fU8IXyOn9zesPSijBK7W0J7Z-7FZbTx_-GFBFc/edit?tab=t.0
@@ -30725,7 +35312,7 @@ Blightsurger (★★★★☆): Blightsurger is focused on spamming its mantras 
 
 ---
 
-### 🌐 [웹/위키 문서 39] locations-wiki-deepwoken-builder_8ee227c3
+### 🌐 [웹/위키 문서 40] locations-wiki-deepwoken-builder_8ee227c3
 
 # ⚔️ Unnamed Build
 
@@ -30753,7 +35340,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 40] locations-wiki-deepwoken-builder_8ee227c3
+### 🌐 [웹/위키 문서 41] locations-wiki-deepwoken-builder_8ee227c3
 
 Title: Locations — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/location
@@ -31893,7 +36480,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 41] mantras-wiki-deepwoken-builder_0485bae6
+### 🌐 [웹/위키 문서 42] mantras-wiki-deepwoken-builder_0485bae6
 
 # ⚔️ Unnamed Build
 
@@ -31921,7 +36508,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 42] mantras-wiki-deepwoken-builder_0485bae6
+### 🌐 [웹/위키 문서 43] mantras-wiki-deepwoken-builder_0485bae6
 
 Title: Mantras — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/mantra
@@ -32216,7 +36803,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 43] oaths-wiki-deepwoken-builder_a3101592
+### 🌐 [웹/위키 문서 44] oaths-wiki-deepwoken-builder_a3101592
 
 # ⚔️ Unnamed Build
 
@@ -32244,7 +36831,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 44] oaths-wiki-deepwoken-builder_a3101592
+### 🌐 [웹/위키 문서 45] oaths-wiki-deepwoken-builder_a3101592
 
 Title: Oaths — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/oath
@@ -33303,7 +37890,7 @@ Wraith Path: Twisted Puppets
 
 ---
 
-### 🌐 [웹/위키 문서 45] outfits-wiki-deepwoken-builder_30958c9c
+### 🌐 [웹/위키 문서 46] outfits-wiki-deepwoken-builder_30958c9c
 
 # ⚔️ Unnamed Build
 
@@ -33331,7 +37918,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 46] outfits-wiki-deepwoken-builder_30958c9c
+### 🌐 [웹/위키 문서 47] outfits-wiki-deepwoken-builder_30958c9c
 
 Title: Outfits — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/outfit
@@ -33627,7 +38214,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 47] races-wiki-deepwoken-builder_e9527970
+### 🌐 [웹/위키 문서 48] races-wiki-deepwoken-builder_e9527970
 
 # ⚔️ Unnamed Build
 
@@ -33655,7 +38242,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 48] races-wiki-deepwoken-builder_e9527970
+### 🌐 [웹/위키 문서 49] races-wiki-deepwoken-builder_e9527970
 
 Title: Races — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/aspect
@@ -34714,7 +39301,7 @@ Visionshaper
 
 ---
 
-### 🌐 [웹/위키 문서 49] talents-wiki-deepwoken-builder_2d86583d
+### 🌐 [웹/위키 문서 50] talents-wiki-deepwoken-builder_2d86583d
 
 # ⚔️ Unnamed Build
 
@@ -34742,7 +39329,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 50] talents-wiki-deepwoken-builder_2d86583d
+### 🌐 [웹/위키 문서 51] talents-wiki-deepwoken-builder_2d86583d
 
 Title: Talents — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/talent
@@ -35120,7 +39707,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 51] weapons-wiki-deepwoken-builder_e6f27c70
+### 🌐 [웹/위키 문서 52] weapons-wiki-deepwoken-builder_e6f27c70
 
 # ⚔️ Unnamed Build
 
@@ -35148,7 +39735,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 52] weapons-wiki-deepwoken-builder_e6f27c70
+### 🌐 [웹/위키 문서 53] weapons-wiki-deepwoken-builder_e6f27c70
 
 Title: Weapons — Wiki - Deepwoken Builder
 URL: https://deepwoken.co/wiki/weapon
@@ -35491,7 +40078,7 @@ No comments yet. Be the first.
 
 ---
 
-### 🌐 [웹/위키 문서 53] web_2d86583dd4cc
+### 🌐 [웹/위키 문서 54] web_2d86583dd4cc
 
 # ⚔️ Unnamed Build
 
@@ -35519,7 +40106,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 54] web_40ab20ff455c
+### 🌐 [웹/위키 문서 55] web_40ab20ff455c
 
 # ⚔️ Unnamed Build
 
@@ -35547,7 +40134,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 55] web_4c61080defdf
+### 🌐 [웹/위키 문서 56] web_4c61080defdf
 
 # ⚔️ Unnamed Build
 
@@ -35575,7 +40162,7 @@ No summary provided.
 
 ---
 
-### 🌐 [웹/위키 문서 56] web_ca9d476978e8
+### 🌐 [웹/위키 문서 57] web_ca9d476978e8
 
 # ⚔️ Unnamed Build
 

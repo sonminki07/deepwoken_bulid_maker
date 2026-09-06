@@ -3,7 +3,7 @@ import time
 import json
 import logging
 from pathlib import Path
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 
 from google import genai
 from google.genai import types
@@ -11,6 +11,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 logger = logging.getLogger(__name__)
+
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 class BuildAnalyzer:
     """Agent 2: Gemini 3.6 Flash 멀티모달 비디오 분석 및 빌드 추출 에이전트"""
@@ -108,8 +110,10 @@ class BuildAnalyzer:
                     progress_callback(75, "Gemini 3.6 Flash 멀티모달 AI 빌드 추출 중...")
                 
                 for m_name in [
-                    "gemini-3.5-flash-lite",
-                    "gemini-3.1-flash-lite",
+                    "gemini-2.5-flash",
+                    "gemini-2.0-flash",
+                    "gemini-1.5-flash",
+                    "gemini-flash-latest",
                     "gemini-3.6-flash"
                 ]:
                     try:
@@ -147,36 +151,29 @@ class BuildAnalyzer:
                             video_meta.setdefault("url", metadata.get("url"))
                             video_meta.setdefault("upload_date", metadata.get("upload_date"))
 
-                        # 스탯 검증 및 정밀 비전(VisionExtractor) 교차 보정
-                        stats = parsed_json.get("stats", {}) or parsed_json.get("stats_and_attunements", {}).get("stats", {})
-                        stat_sum = sum(v for v in stats.values() if isinstance(v, (int, float))) if stats else 0
-                        
-                        if stat_sum == 0 or stat_sum < 100:
-                            logger.info(f"Stats sum is low ({stat_sum}), running Precision Keyframe Vision AI...")
-                            try:
-                                from agents.frame_extractor import FrameExtractor
-                                from agents.vision_extractor import VisionExtractor
-                                fe = FrameExtractor()
-                                ve = VisionExtractor()
-                                kfs = fe.extract_sharp_keyframes(video_path, max_keyframes=5)
-                                vision_data = ve.extract_from_keyframes(kfs)
-                                if vision_data:
-                                    if "stats" in vision_data and vision_data["stats"]:
-                                        parsed_json["stats"] = vision_data["stats"]
-                                    if "attunements" in vision_data and vision_data["attunements"]:
-                                        parsed_json["attunements"] = vision_data["attunements"]
-                                    if vision_data.get("race"):
-                                        parsed_json["race"] = vision_data["race"]
-                                    if vision_data.get("oath") and vision_data["oath"] != "None":
-                                        parsed_json["oath"] = vision_data["oath"]
-                                    if vision_data.get("traits"):
-                                        parsed_json["traits"] = vision_data["traits"]
-                                    if vision_data.get("combat_stats"):
-                                        parsed_json["combat_stats"] = vision_data["combat_stats"]
-                                    if vision_data.get("resistances"):
-                                        parsed_json["resistances"] = vision_data["resistances"]
-                            except Exception as v_err:
-                                logger.warning(f"Precision keyframe vision fallback warning: {v_err}")
+                        # 정밀 3-Region Vision OCR 교차 보정 (Traits, Stats, Combat Stats, Resistances 1:1 팩트 동기화)
+                        vid_id = metadata.get("id") if metadata else video_path.stem
+                        try:
+                            logger.info("🎯 Running 3-Region High-Res Keyframe Vision OCR calibration...")
+                            vision_data = self.analyze_keyframes_vision(video_path, client, video_id=vid_id)
+                            if vision_data:
+                                if vision_data.get("traits"):
+                                    parsed_json["traits"] = vision_data["traits"]
+                                if vision_data.get("combat_stats"):
+                                    parsed_json["combat_stats"] = vision_data["combat_stats"]
+                                if vision_data.get("resistances"):
+                                    parsed_json["resistances"] = vision_data["resistances"]
+                                if vision_data.get("stats") and sum(v for v in vision_data["stats"].values() if isinstance(v, (int, float))) > 50:
+                                    parsed_json["stats"] = vision_data["stats"]
+                                if vision_data.get("attunements") and any(v > 0 for v in vision_data["attunements"].values() if isinstance(v, (int, float))):
+                                    parsed_json["attunements"] = vision_data["attunements"]
+                                if vision_data.get("character_setup"):
+                                    cs = vision_data["character_setup"]
+                                    if cs.get("oath"): parsed_json["oath"] = cs["oath"]
+                                    if cs.get("origin"): parsed_json["origin"] = cs["origin"]
+                                    if cs.get("race") or cs.get("aspect"): parsed_json["race"] = cs.get("race") or cs.get("aspect")
+                        except Exception as v_err:
+                            logger.warning(f"3-Region keyframe vision calibration warning: {v_err}")
                             
                         return parsed_json
                     except Exception as e:
@@ -216,118 +213,111 @@ class BuildAnalyzer:
             pass
         return 300.0  # 기본값 5분
 
-    def analyze_keyframes_vision(self, video_path: Path, client: genai.Client) -> Optional[Dict[str, Any]]:
-        """FFmpeg로 영상 전 구간(초반, 중반, 종반 쇼케이스)을 동적 샘플링하여 스탯창/빌더 화면을 100% 탐지하고 Vision OCR 정밀 판독"""
+    def _save_trace_log(self, video_id: str, best_full_img: Path, crop_files: List[Path], raw_vision_text: str, parsed_data: Dict[str, Any]):
+        """분석 당시의 크롭 이미지, AI 응답, 추출 결과를 로컬 logs/analysis_traces/ 폴더에 영구 보존"""
         try:
-            import subprocess, shutil, tempfile
-            from PIL import Image, ImageEnhance
-            import imageio_ffmpeg
-            ffmpeg_exe = imageio_ffmpeg.get_ffmpeg_exe()
+            import datetime, shutil
+            trace_dir = PROJECT_DIR / "logs" / "analysis_traces" / f"{video_id}_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S')}"
+            frames_dir = trace_dir / "frames"
+            frames_dir.mkdir(parents=True, exist_ok=True)
+
+            if best_full_img and best_full_img.exists():
+                shutil.copy2(best_full_img, frames_dir / "best_showcase_full.jpg")
             
-            total_duration = self._get_video_duration(video_path, ffmpeg_exe)
-            logger.info(f"Video total duration: {total_duration:.1f}s ({total_duration/60:.1f} minutes)")
+            for cp in crop_files:
+                if cp and cp.exists():
+                    shutil.copy2(cp, frames_dir / cp.name)
+
+            (trace_dir / "raw_vision_response.json").write_text(raw_vision_text, encoding="utf-8")
+            (trace_dir / "extracted_build.json").write_text(json.dumps(parsed_data, indent=2, ensure_ascii=False), encoding="utf-8")
+            logger.info(f"📁 [Trace Log Saved] Analysis artifacts permanently stored at: {trace_dir}")
+        except Exception as te:
+            logger.debug(f"Failed to save trace log: {te}")
+
+    def analyze_keyframes_vision(self, video_path: Path, client: genai.Client, video_id: str = "unknown") -> Optional[Dict[str, Any]]:
+        """영상 전 구간을 훑어 100% 스탯창 노출 프레임을 포착하고, 전체 프레임 1장을 강력한 Vision Pro 모델로 직독직해"""
+        try:
+            import shutil, tempfile
+            from PIL import Image
+            from agents.frame_extractor import FrameExtractor
+
+            fe = FrameExtractor()
+            hud_keyframes = fe.extract_sharp_keyframes(video_path, max_keyframes=4, fps_step=1.0)
             
-            temp_dir = Path(tempfile.mkdtemp(prefix="deepwoken_frames_"))
+            if not hud_keyframes:
+                logger.warning("No Stat-HUD keyframes detected.")
+                return None
+
+            temp_dir = Path(tempfile.mkdtemp(prefix="deepwoken_fullframe_"))
             try:
-                # 동적 타임스탬프 생성:
-                # 1) 초반부 (0s ~ min(240s, duration)): 6초 간격
-                ts_early = list(range(10, min(240, int(total_duration)), 6))
-                
-                # 2) 종반부 쇼케이스 (duration - 360s ~ duration): 5초 간격
-                ts_late = []
-                if total_duration > 240:
-                    start_late = max(240, int(total_duration - 360))
-                    ts_late = list(range(start_late, int(total_duration) - 5, 5))
-                
-                # 3) 전체 구간 10등분 분할점
-                ts_mid = [int(total_duration * (i / 15.0)) for i in range(1, 15)]
-                
-                all_ts = sorted(list(set(ts_early + ts_late + ts_mid)))
-                logger.info(f"Generated {len(all_ts)} candidate frame timestamps spanning 0s to {int(total_duration)}s")
-                
-                candidate_images = []
-                
-                for ts in all_ts:
-                    out_img = temp_dir / f"frame_{ts}s.jpg"
-                    cmd = [ffmpeg_exe, "-y", "-ss", str(ts), "-i", str(video_path), "-vframes", "1", "-q:v", "1", str(out_img)]
-                    subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-                    
-                    if out_img.exists() and out_img.stat().st_size > 5000:
-                        try:
-                            pil_img = Image.open(out_img)
-                            w, h = pil_img.size
-                            
-                            # 우측 Stat Sheet 영역 크롭 및 확대 (x: 70%~100%, y: 2%~95%로 하단 STATS/RESISTANCES까지 완전 포함)
-                            stat_crop = pil_img.crop((int(0.68 * w), int(0.02 * h), int(0.995 * w), int(0.95 * h)))
-                            stat_crop = stat_crop.resize((stat_crop.width * 2, stat_crop.height * 2), Image.LANCZOS)
-                            enhancer = ImageEnhance.Contrast(stat_crop)
-                            stat_crop = enhancer.enhance(1.4)
-                            crop_path = temp_dir / f"crop_stat_{ts}s.png"
-                            stat_crop.save(crop_path)
-                            
-                            candidate_images.append((out_img, crop_path, ts))
-                        except Exception as crop_err:
-                            logger.debug(f"Crop failed on frame {ts}s: {crop_err}")
-                
-                if not candidate_images:
-                    return None
-                
-                # 프롬프트: 인게임 UI, deepwoken.co 빌더 화면, 텍스트 카드 슬라이드 편집 등 모든 형태 1:1 직독직해
-                prompt = """
-🚨 [CRITICAL: STRICT 1:1 PIXEL-LEVEL MULTI-UI OCR INSTRUCTION]
-제공된 이미지들 중 Deepwoken 게임의 스탯창(Stat Sheet) 또는 deepwoken.co 빌더 웹 화면이 있습니다.
-절대로 임의로 추론하거나 지어내지 말고, 화면에 적힌 실제 텍스트와 숫자를 1:1로 있는 그대로 전사하여 JSON으로 추출하세요:
-
-1. traits (우측 상단 4대 특성):
-   - vitality, erudition, proficiency, songchant (숫자 0~6)
-2. stats (BODY & WEAPONS 수치):
-   - strength, fortitude, agility, intelligence, willpower, charisma, heavy_wep, medium_wep, light_wep
-3. attunements (속성 수치):
-   - shadowcast, flamecharm, frostdraw, thundercall, galebreathe, ironsing, bloodrend
-4. combat_stats (스탯창 하단 STATS 수치):
-   - hp (Max Health 수치), posture, ether, tempo, sanity, move_speed_pct, pve_dmg_pct
-5. resistances (스탯창 하단 RESISTANCES 수치):
-   - physical_slash, physical_blunt, physical_pierce, fire, ice, wind, shadow, lightning, iron, acid (예: "43.0%")
-6. character_setup:
-   - origin (Deepbound, Lone Warrior, Castaway 등)
-   - oath (Dawnwalker, Bladeharper, Starkindred 등)
-   - race / aspect (Canor, Khan, Vesperian 등)
-7. weapons_and_equipment:
-   - weapon (Fist, Legion Cestus, Evanspear Handaxe 등)
-   - outfit (Black Diver, Prophet's Cloak 등)
-   - accessories [장비/반지 목록]
-8. mantras: [스킬바에 보이는 만트라 영문명 목록]
-
-반드시 화면에 노출된 정확한 실제 수치만 JSON으로 반환하세요. 마크다운 백틱 없이 순수 JSON만 반환하세요.
-"""
-                # 균등하게 분배하여 최대 12장 선택
-                step = max(1, len(candidate_images) // 6)
-                selected_samples = candidate_images[::step][:6]
-                
+                all_crop_files = [] # 기존 로그 시스템 호환을 위해 빈 배열 유지
                 contents = []
-                for full_p, crop_p, _ in selected_samples:
-                    contents.append(types.Part.from_bytes(data=full_p.read_bytes(), mime_type="image/jpeg"))
-                    contents.append(types.Part.from_bytes(data=crop_p.read_bytes(), mime_type="image/png"))
+
+                # 가장 점수가 높은 1등 프레임 1장만 사용
+                best_kf = hud_keyframes[0]
+                full_img_p = Path(best_kf["path"])
+                
+                # 원본 이미지 1장만 추가
+                contents.append(types.Part.from_bytes(data=full_img_p.read_bytes(), mime_type="image/jpeg"))
+
+                # 통이미지용 정밀 프롬프트
+                prompt = """
+🚨 [CRITICAL: FULL-FRAME VISION OCR INSTRUCTION]
+제공된 이미지는 Deepwoken 게임의 스크린샷 1장입니다. 화면 우측에 있는 전체 스탯창(Stat Sheet) 패널을 찾아 다음 수치들을 절대 지어내지 말고 1:1로 있는 그대로 전사하세요.
+
+1. traits (우측 상단 4대 특성 원형 아이콘 안의 숫자 0~6):
+   - vitality (생명력), erudition (학식), proficiency (숙련), songchant (영창)
+2. stats (BODY & MIND & WEAPONS 영역):
+   - strength, fortitude, agility, intelligence, willpower, charisma, heavy_wep, medium_wep, light_wep
+3. attunements (ELEMENTS 영역):
+   - flamecharm, frostdraw, thundercall, galebreathe, shadowcast, ironsing, bloodrend
+4. combat_stats (하단 실전 전투 수치):
+   - hp (❤️ 아이콘 옆 Max Health)
+   - posture (🛡️ 아이콘 옆 자세)
+   - ether (💧 아이콘 옆 에테르)
+   - tempo (⚡ 템포)
+   - sanity (🧠 정신력)
+   - move_speed_pct (👟 이동속도 백분율)
+   - pve_dmg_pct (💀 몬스터 대상 피해 백분율)
+   - physical_armor_pct (방어 백분율)
+5. resistances (하단 10종 저항력 아이콘 백분율):
+   - physical_blunt (🔨 타격), physical_slash (🗡️ 베기), physical_pierce (🩸/관통)
+   - fire (🔥 화염), ice (❄️ 빙결), lightning (⚡ 번개), wind (💨 바람), shadow (🌌 암흑), iron (⚙️ 금속), acid (🩸/🧪 혈액/산성)
+6. character_setup:
+   - origin, oath, race / aspect, age
+
+반드시 순수 JSON만 반환하세요. 마크다운 백틱 없이 유효한 JSON 형식으로 출력하세요.
+"""
                 contents.append(prompt)
                 
-                for v_model in ["gemini-3.6-flash", "gemini-3.7-flash"]:
+                raw_response_text = ""
+                extracted_data = None
+
+                # Pro 모델을 최우선으로 배치하여 고해상도 전체 텍스트 판독력 극대화
+                for v_model in ["gemini-1.5-pro", "gemini-2.0-pro", "gemini-1.5-flash", "gemini-flash-latest"]:
                     try:
                         resp = client.models.generate_content(
                             model=v_model,
                             contents=contents,
                             config=types.GenerateContentConfig(temperature=0.0, response_mime_type="application/json")
                         )
-                        text = resp.text.strip()
+                        raw_response_text = resp.text.strip()
+                        text = raw_response_text
                         if text.startswith("```json"): text = text[7:]
                         if text.startswith("```"): text = text[3:]
                         if text.endswith("```"): text = text[:-3]
-                        data = json.loads(text.strip())
-                        logger.info(f"Dense Vision OCR extracted exact stats using {v_model}")
-                        return data
+                        extracted_data = json.loads(text.strip())
+                        logger.info(f"🎯 Full-Frame Vision OCR extracted exact stats using {v_model}")
+                        break
                     except Exception as ve:
                         logger.debug(f"Vision model {v_model} failed: {ve}")
+
+                if extracted_data:
+                    best_full_p = full_img_p
+                    self._save_trace_log(video_id, best_full_p, all_crop_files, raw_response_text, extracted_data)
+                    return extracted_data
             finally:
                 shutil.rmtree(temp_dir, ignore_errors=True)
         except Exception as e:
-            logger.warning(f"Keyframe vision analysis error: {e}")
+            logger.warning(f"3-Region Keyframe vision analysis error: {e}")
         return None
