@@ -23,10 +23,10 @@
     ]
   },
   "character_name": null,
-  "power": 0,
-  "race": "None",
+  "power": 20,
+  "race": "Etrean",
   "origin": "Deepbound",
-  "oath": "Bladeharper",
+  "oath": "Interluminary Interloper",
   "murmur": "Ardour",
   "resonance": "Sacred Field",
   "traits": {
@@ -37,7 +37,7 @@
   },
   "stats": {
     "strength": 80,
-    "fortitude": 0,
+    "fortitude": 3,
     "agility": 25,
     "intelligence": 0,
     "willpower": 0,
@@ -47,34 +47,34 @@
     "light_wep": 0
   },
   "attunements": {
-    "flamecharm": 0,
+    "flamecharm": 25,
     "frostdraw": 0,
-    "thundercall": 0,
-    "galebreathe": 0,
-    "shadowcast": 0,
+    "thundercall": 25,
+    "galebreathe": 25,
+    "shadowcast": 25,
     "ironsing": 0,
     "bloodrend": 0
   },
   "combat_stats": {
-    "hp": 385,
+    "hp": 398,
     "posture": 27,
-    "ether": 191,
+    "ether": 201,
     "tempo": 120,
     "sanity": 106,
-    "move_speed_pct": 112.0,
-    "pve_dmg_pct": 38.5
+    "move_speed_pct": "-15.0%",
+    "pve_monster_dmg_pct": "28.0%"
   },
   "resistances": {
-    "physical_slash": "33.6%",
-    "physical_blunt": "7.0%",
-    "physical_pierce": "13.7%",
-    "fire": "12.0%",
+    "physical_blunt": "18.1%",
+    "physical_slash": "18.1%",
+    "fire": "15.0%",
     "ice": "15.0%",
+    "lightning": "15.0%",
     "wind": "15.0%",
     "shadow": "15.0%",
-    "lightning": "15.0%",
     "iron": "15.0%",
-    "acid": "15.0%"
+    "blood": "15.0%",
+    "bleed": "5.0%"
   },
   "weapons": [
     {
@@ -219,19 +219,19 @@
   },
   "shrine_of_order_path": "**Pre-Shrine**: `Agility 12, Charisma 25, Flamecharm 40, Thundercall 35, Galebreathe 60, Shadowcast 20`\n**Post-Shrine 우선순위**:\n- 스탯 최적화 완료",
   "_stat_validation": {
-    "total_points": 230,
+    "total_points": 333,
     "target_cap": 330,
-    "difference": -100,
+    "difference": 3,
     "is_valid_330_cap": false,
-    "status": "BELOW_CAP",
+    "status": "OVER_CAP",
     "breakdown": {
-      "core_attributes": 130,
+      "core_attributes": 133,
       "weapon_attributes": 100,
-      "attunements": 0
+      "attunements": 100
     },
     "verified": false
   },
-  "_stats_source": "builder_scraped",
+  "_stats_source": "vision_post_shrine",
   "_raw_source_data": {
     "video_id": "zN4vS7UBDGE",
     "video_meta": {
@@ -272,56 +272,56 @@
     },
     "post_shrine_raw": {
       "character_name": null,
-      "power": 0,
-      "race": "",
-      "origin": "",
-      "oath": "",
+      "power": 20,
+      "race": "Etrean",
+      "origin": "Deepbound",
+      "oath": "Interluminary Interloper",
       "traits": {
-        "vitality": 0,
+        "vitality": 6,
         "erudition": 0,
-        "proficiency": 0,
+        "proficiency": 6,
         "songchant": 0
       },
       "stats": {
-        "strength": 0,
-        "fortitude": 0,
-        "agility": 0,
+        "strength": 80,
+        "fortitude": 3,
+        "agility": 25,
         "intelligence": 0,
         "willpower": 0,
-        "charisma": 0,
-        "heavy_wep": 0,
+        "charisma": 25,
+        "heavy_wep": 100,
         "medium_wep": 0,
         "light_wep": 0
       },
       "attunements": {
-        "flamecharm": 0,
+        "flamecharm": 25,
         "frostdraw": 0,
-        "thundercall": 0,
-        "galebreathe": 0,
-        "shadowcast": 0,
+        "thundercall": 25,
+        "galebreathe": 25,
+        "shadowcast": 25,
         "ironsing": 0,
         "bloodrend": 0
       },
       "combat_stats": {
-        "hp": 0,
-        "posture": 0,
-        "ether": 0,
-        "tempo": 0,
-        "sanity": 0,
-        "move_speed_pct": "",
-        "pve_monster_dmg_pct": ""
+        "hp": 398,
+        "posture": 27,
+        "ether": 201,
+        "tempo": 120,
+        "sanity": 106,
+        "move_speed_pct": "-15.0%",
+        "pve_monster_dmg_pct": "28.0%"
       },
       "resistances": {
-        "physical_blunt": "",
-        "physical_slash": "",
-        "fire": "",
-        "ice": "",
-        "lightning": "",
-        "wind": "",
-        "shadow": "",
-        "iron": "",
-        "blood": "",
-        "bleed": ""
+        "physical_blunt": "18.1%",
+        "physical_slash": "18.1%",
+        "fire": "15.0%",
+        "ice": "15.0%",
+        "lightning": "15.0%",
+        "wind": "15.0%",
+        "shadow": "15.0%",
+        "iron": "15.0%",
+        "blood": "15.0%",
+        "bleed": "5.0%"
       },
       "equipped_items": [],
       "inventory_items": []
@@ -579,7 +579,7 @@
     "captured_keyframes": [
       {
         "timestamp_sec": 67.0,
-        "hud_score": 25328.614001892147,
+        "hud_score": 67163.26061380267,
         "ui_type": "ingame_hud",
         "stage": "pre_shrine",
         "path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_67s_raw.jpg",
@@ -588,7 +588,7 @@
       },
       {
         "timestamp_sec": 68.5,
-        "hud_score": 25315.780037842953,
+        "hud_score": 67152.05257393327,
         "ui_type": "ingame_hud",
         "stage": "pre_shrine",
         "path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_68s_raw.jpg",
@@ -596,40 +596,40 @@
         "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_68s_crop.jpg"
       },
       {
-        "timestamp_sec": 64.5,
-        "hud_score": 25179.56811731315,
+        "timestamp_sec": 49.5,
+        "hud_score": 66485.2210605731,
         "ui_type": "ingame_hud",
         "stage": "pre_shrine",
-        "path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_64s_raw.jpg",
-        "raw_path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_64s_raw.jpg",
-        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_64s_crop.jpg"
+        "path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_49s_raw.jpg",
+        "raw_path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_49s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_pre_shrine_49s_crop.jpg"
       },
       {
-        "timestamp_sec": 136.5,
-        "hud_score": 87212.99858088931,
+        "timestamp_sec": 104.0,
+        "hud_score": 46196.75314748773,
         "ui_type": "ingame_hud",
         "stage": "post_shrine",
-        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_136s_raw.jpg",
-        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_136s_raw.jpg",
-        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_136s_crop.jpg"
+        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_104s_raw.jpg",
+        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_104s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_104s_crop.jpg"
       },
       {
-        "timestamp_sec": 151.0,
-        "hud_score": 43440.44323557238,
+        "timestamp_sec": 98.0,
+        "hud_score": 45615.78693933178,
         "ui_type": "ingame_hud",
         "stage": "post_shrine",
-        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_151s_raw.jpg",
-        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_151s_raw.jpg",
-        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_151s_crop.jpg"
+        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_98s_raw.jpg",
+        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_98s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_98s_crop.jpg"
       },
       {
-        "timestamp_sec": 149.5,
-        "hud_score": 41368.25922421949,
+        "timestamp_sec": 106.0,
+        "hud_score": 44368.76117461455,
         "ui_type": "ingame_hud",
         "stage": "post_shrine",
-        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_149s_raw.jpg",
-        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_149s_raw.jpg",
-        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_149s_crop.jpg"
+        "path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_106s_raw.jpg",
+        "raw_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_106s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\zN4vS7UBDGE_post_shrine_106s_crop.jpg"
       }
     ]
   }

@@ -315,16 +315,18 @@ class BuildDataReconciler:
         builder_att_raw = builder.get("attunements")
         vlm_att_raw = vlm.get("attunements") or (vlm.get("stats_and_attunements", {}).get("attunements") if isinstance(vlm.get("stats_and_attunements"), dict) else None)
 
-        if post_att_raw and isinstance(post_att_raw, dict):
+        if post_att_raw and isinstance(post_att_raw, dict) and self.is_meaningful_data(post_att_raw):
             final_att_source = post_att_raw
+        elif builder_att_raw and isinstance(builder_att_raw, dict) and self.is_meaningful_data(builder_att_raw):
+            final_att_source = builder_att_raw
+        elif vlm_att_raw and isinstance(vlm_att_raw, dict) and self.is_meaningful_data(vlm_att_raw):
+            final_att_source = vlm_att_raw
+        elif vision_pre.get("attunements") and self.is_meaningful_data(vision_pre.get("attunements")):
+            final_att_source = vision_pre.get("attunements")
         elif builder_att_raw and isinstance(builder_att_raw, dict):
             final_att_source = builder_att_raw
-        elif vlm_att_raw and isinstance(vlm_att_raw, dict):
-            final_att_source = vlm_att_raw
-        elif vision_pre.get("attunements"):
-            final_att_source = vision_pre.get("attunements")
         else:
-            final_att_source = {}
+            final_att_source = post_att_raw or {}
 
         final_attunements = self.normalize_attunements(final_att_source)
 

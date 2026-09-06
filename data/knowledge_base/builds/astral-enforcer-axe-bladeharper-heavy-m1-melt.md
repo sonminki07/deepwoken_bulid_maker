@@ -2,7 +2,7 @@
 
 > **출처 영상**: [This Heavy M1 Build Does 3,000 TRUE Damage Per M1…| Deepwoken](https://www.youtube.com/watch?v=zN4vS7UBDGE) by `ffeiitan`
 > **패치 버전**: `Verse 3 (Latest / Diluvian Era)` | **타입**: `PvE` | **난이도**: `Intermediate`
-> **종족/출신**: `None` / `Deepbound` | **Oath**: `Bladeharper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
+> **종족/출신**: `Etrean` / `Deepbound` | **Oath**: `Interluminary Interloper` | **Murmur/Bell**: `Ardour` / `Sacred Field`
 > 🌐 **빌더 링크**: [https://deepwoken.co/builder?id=gZOZRp6r](https://deepwoken.co/builder?id=gZOZRp6r)
 
 ---
@@ -30,7 +30,7 @@ Astral 인챈트가 적용된 Enforcer Axe와 Bladeharper Oath를 조합하여 �
 | 스탯 항목 (Attribute) | 🔵 질서의 성소 전 (Pre-Shrine) | 🔴 질서의 성소 후 (Post-Shrine) |
 | :--- | :---: | :---: |
 | Strength (근력) | `0` | `80` `(+80)` |
-| Fortitude (인내) | `0` | `0` |
+| Fortitude (인내) | `0` | `3` `(+3)` |
 | Agility (민첩) | `12` | `25` `(+13)` |
 | Intelligence (지능) | `0` | `0` |
 | Willpower (의지) | `0` | `0` |
@@ -39,25 +39,25 @@ Astral 인챈트가 적용된 Enforcer Axe와 Bladeharper Oath를 조합하여 �
 | Medium Wep (중형무기) | `0` | `0` |
 | Light Wep (경화기) | `0` | `0` |
 | **속성 (Attunements)** | --- | --- |
-| Flamecharm (화염) | `40` | `0` `(-40)` |
-| Thundercall (번개) | `35` | `0` `(-35)` |
-| Galebreathe (바람) | `60` | `0` `(-60)` |
-| Shadowcast (암흑) | `20` | `0` `(-20)` |
+| Flamecharm (화염) | `40` | `25` `(-15)` |
+| Thundercall (번개) | `35` | `25` `(-10)` |
+| Galebreathe (바람) | `60` | `25` `(-35)` |
+| Shadowcast (암흑) | `20` | `25` `(+5)` |
 
 ## 🩺 실전 종합 전투 수치 (Combat Stats)
 | Max HP (❤️ 체력) | Posture (🛡️ 자세) | Ether (💧 에테르) | Tempo (⚡ 템포) | Sanity (🧠 정신력) | Armor (🛡️ 방어력) | Move Speed (👟 이속) | PvE Dmg vs Monsters (💀 몬스터 피해) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `385` | `27` | `191` | `120` | `106` | `N/A` | `112.0%` | `+38.5%` |
+| `398` | `27` | `201` | `120` | `106` | `N/A` | `-15.0%` | `28.0%` |
 
 > 💡 **이속(Move Speed)**: 중갑(Heavy Armor/Outfits) 착용 시 방어력 상승에 따른 장비 무게 페널티로 인게임에 음수(예: `-15.0%`)로 표기되는 정상 실측치입니다.
 
 ## 🛡️ 방어 및 저항력 명세 (Resistances)
 | 저항 분류 | 속성 / 공격 유형 | 실측 저항 수치 |
 | :--- | :--- | :---: |
-| **물리 (Physical)** | 🔨 타격 (Blunt) | `7.0%` |
-| **물리 (Physical)** | 🗡️ 베기 (Slash) | `33.6%` |
-| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `13.7%` |
-| **원소 (Elemental)** | 🔥 화염 (Fire) | `12.0%` |
+| **물리 (Physical)** | 🔨 타격 (Blunt) | `18.1%` |
+| **물리 (Physical)** | 🗡️ 베기 (Slash) | `18.1%` |
+| **물리 (Physical)** | 🩸 관통·출혈 (Bleed) | `5.0%` |
+| **원소 (Elemental)** | 🔥 화염 (Fire) | `15.0%` |
 | **원소 (Elemental)** | ❄️ 빙결 (Ice) | `15.0%` |
 | **원소 (Elemental)** | ⚡ 번개 (Lightning) | `15.0%` |
 | **원소 (Elemental)** | 💨 바람 (Wind) | `15.0%` |
@@ -105,10 +105,10 @@ Astral 인챈트가 적용된 Enforcer Axe와 Bladeharper Oath를 조합하여 �
 
 | 실측 분류 | 세부 실측 데이터 항목 |
 | :--- | :--- |
-| **캐릭터 기본 정보** | Power: `0` / Origin: `Deepbound` / Oath: `Bladeharper` / Race/Aspect: `None` |
+| **캐릭터 기본 정보** | Power: `20` / Origin: `Deepbound` / Oath: `Interluminary Interloper` / Race/Aspect: `Etrean` |
 | **4대 특성 (Traits)** | Vitality: `6` / Erudition: `0` / Proficiency: `6` / Songchant: `0` |
-| **6대 기본 스탯** | STR: `80` / FTD: `0` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `25` |
-| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `Attunementless (0)` |
-| **실전 전투 수치** | ❤️HP: `385` / 🛡️Posture: `27` / 💧Ether: `191` / ⚡Tempo: `120` / 🧠Sanity: `106` / 🛡️Armor: `N/A` / 👟Speed: `112.0%` / 💀Monster Dmg: `+38.5%` |
-| **방어 저항력 (물리)** | 🔨타격(Blunt): `7.0%` / 🗡️베기(Slash): `33.6%` / 🩸관통·출혈(Bleed): `13.7%` |
-| **방어 저항력 (원소·특수)** | 🔥화염: `12.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `15.0%` / ⚙️철: `15.0%` / 🩸혈액: `15.0%` |
+| **6대 기본 스탯** | STR: `80` / FTD: `3` / AGL: `25` / INT: `0` / WLL: `0` / CHA: `25` |
+| **무기/속성 수치** | LHT: `0` / MED: `0` / HVY: `100` / Elements: `{'flamecharm': 25, 'thundercall': 25, 'galebreathe': 25, 'shadowcast': 25}` |
+| **실전 전투 수치** | ❤️HP: `398` / 🛡️Posture: `27` / 💧Ether: `201` / ⚡Tempo: `120` / 🧠Sanity: `106` / 🛡️Armor: `N/A` / 👟Speed: `-15.0%` / 💀Monster Dmg: `28.0%` |
+| **방어 저항력 (물리)** | 🔨타격(Blunt): `18.1%` / 🗡️베기(Slash): `18.1%` / 🩸관통·출혈(Bleed): `5.0%` |
+| **방어 저항력 (원소·특수)** | 🔥화염: `15.0%` / ❄️빙결: `15.0%` / ⚡번개: `15.0%` / 💨바람: `15.0%` / 🌌암흑: `15.0%` / ⚙️철: `15.0%` / 🩸혈액: `15.0%` |

@@ -15,28 +15,45 @@ class MultiUIStatDetector:
 
     @staticmethod
     def detect_ingame_hud(img: np.ndarray) -> float:
-        """1. 인게임 기본 스탯창: 우측 Power 20 엠블럼, 4대 Traits 원, STATS/RESISTANCES 패널"""
+        """1. 인게임 기본 스탯창: 우측 중앙 스탯 원형 아이콘(BODY/MIND/ELEMENTS), Traits 및 Power 20 엠블럼"""
         try:
             h, w = img.shape[:2]
-            # 우측 상단 영역 (x: 65%~99%, y: 2%~30%)
-            top_right = img[int(h * 0.02):int(h * 0.30), int(w * 0.65):int(w * 0.99)]
-            tr_hsv = cv2.cvtColor(top_right, cv2.COLOR_BGR2HSV)
-            blue_mask = cv2.inRange(tr_hsv, np.array([90, 70, 70]), np.array([130, 255, 255]))
-            gold_mask = cv2.inRange(tr_hsv, np.array([15, 60, 60]), np.array([40, 255, 255]))
-            emblem_pixels = np.count_nonzero(blue_mask | gold_mask)
 
-            # 우측 하단 STATS / RESISTANCES 영역 (x: 68%~99%, y: 70%~98%)
+            # 1) 필수 게이트: 우측 상단 Power 20 엠블럼 (x: 70%~85%, y: 5%~25%)
+            top_icon_area = img[int(h * 0.05):int(h * 0.25), int(w * 0.70):int(w * 0.85)]
+            tia_hsv = cv2.cvtColor(top_icon_area, cv2.COLOR_BGR2HSV)
+            blue_mask = cv2.inRange(tia_hsv, np.array([90, 70, 70]), np.array([130, 255, 255]))
+            blue_pixels = int(np.count_nonzero(blue_mask))
+
+            # 파란 픽셀이 딱 엠블럼 크기(250 ~ 8000)여야만 진짜 스탯창으로 인정 (없거나 너무 많으면 탈락)
+            if not (250 <= blue_pixels <= 8000):
+                return 0.0
+
+            # 2) 우측 중앙 핵심 스탯 영역 (x: 70%~96%, y: 15%~60%) - BODY, WEAPONS, ELEMENTS
+            stat_area = img[int(h * 0.15):int(h * 0.60), int(w * 0.70):int(w * 0.96)]
+            sa_hsv = cv2.cvtColor(stat_area, cv2.COLOR_BGR2HSV)
+            sa_gray = cv2.cvtColor(stat_area, cv2.COLOR_BGR2GRAY)
+
+            # 스탯 원형 테두리 골드/황동 픽셀 (아이콘 적정 범위: 2,500 ~ 25,000)
+            gold_mask = cv2.inRange(sa_hsv, np.array([12, 50, 50]), np.array([35, 255, 255]))
+            gold_pixels = int(np.count_nonzero(gold_mask))
+            if not (2000 <= gold_pixels <= 25000):
+                return 0.0
+
+            # 스탯 수치 및 라벨 텍스트 에지 밀도
+            sa_edges = cv2.Canny(sa_gray, 50, 150)
+            sa_edge_density = float(np.mean(sa_edges))
+            if sa_edge_density < 16.0:
+                return 0.0
+
+            # 3) 우측 하단 STATS/RESISTANCES 세부 스탯 밀도 (x: 68%~99%, y: 70%~98%)
             bottom_right = img[int(h * 0.70):int(h * 0.98), int(w * 0.68):int(w * 0.99)]
             br_gray = cv2.cvtColor(bottom_right, cv2.COLOR_BGR2GRAY)
             br_edges = cv2.Canny(br_gray, 50, 150)
             br_edge_density = float(np.mean(br_edges))
 
-            # 우측 패널 선명도
-            right_panel = img[int(h * 0.05):int(h * 0.95), int(w * 0.65):int(w * 0.99)]
-            rp_gray = cv2.cvtColor(right_panel, cv2.COLOR_BGR2GRAY)
-            sharpness = float(cv2.Laplacian(rp_gray, cv2.CV_64F).var())
-
-            return (emblem_pixels * 0.5) + (br_edge_density * 3.0) + min(sharpness, 500.0) * 0.2
+            total_score = (blue_pixels * 10.0) + (gold_pixels * 2.0) + (sa_edge_density * 200.0) + (br_edge_density * 100.0)
+            return float(total_score)
         except Exception:
             return 0.0
 
