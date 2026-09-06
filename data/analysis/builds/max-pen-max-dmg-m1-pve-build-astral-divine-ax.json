@@ -1,0 +1,656 @@
+{
+  "video_id": "MFb62Q3JCKs",
+  "video_meta": {
+    "title": "The Best M1 Dmg + Max Pen PvE Build | Deepwoken",
+    "channel": "iheartmk",
+    "url": "https://www.youtube.com/watch?v=MFb62Q3JCKs",
+    "upload_date": "20250207",
+    "estimated_patch": "Verse 3 (Latest / Diluvian Era)"
+  },
+  "build_summary": {
+    "build_name": "Max Pen + Max Dmg M1 PvE Build (Astral Divine Axe)",
+    "build_type": "PvE",
+    "difficulty": "Advanced",
+    "creator_opinion": "이 빌드는 Deepwoken 내에서 평타(M1) 공격력과 방어력 관통력(Penetration)을 극대화하여 보스 및 강력한 몬스터들을 단 몇 초 만에 도륙낼 수 있도록 설계된 극딜형 PvE 빌드입니다. 0 Fortitude(체력/방어 스탯 포기)를 선택하는 대신 Max Damage Multiplier와 Max Pen을 달성하였으며, Speed Demon, Raging Static, Astral 인챈트 등 공격력 보너스를 중첩시켜 프라이모던, 페리맨, 체이서 등의 주요 보스 패턴을 단 한두 번의 기회 만에 스킵할 수 있는 무시무시한 폭딜 성능을 자랑합니다.\n\n다만 체력 및 자원 복구력이 무기 피흡 및 높은 딜량에서 나오는 구조이므로, 공격을 방어/패링하지 못하고 지속적으로 얻어맞을 경우 순식간에 위험에 처할 수 있습니다. 보스전 패턴에 익숙하고 패링 타이밍을 완벽히 숙지한 숙련자 플레이어에게 강력히 추천되는 고성능 보스 레이드 특화 빌드입니다.",
+    "strengths": [
+      "최상위 등급의 평타(M1) Dps 및 관통력으로 체이서(Chaser)를 단 1사이클 만에 처치 가능",
+      "Astral 인챈트 및 Divine Axe / Evanspear Hand Axe 조합으로 몬스터 상대 괴물 같은 수치의 딜 증폭",
+      "Speed Demon, Raging Static, Underdog 등 수많은 공격력 버프 탤런트가 상시 유지되어 압도적인 화력 보장",
+      "Oathless 선택으로 높은 보너스 탤런트 수급 및 자율적인 속성 조합 구성 가능"
+    ],
+    "weaknesses": [
+      "0 Fortitude 투자로 인해 생존용 방어 스탯이 전무하여 실수 한 번에 체력이 크게 깎임",
+      "초보자가 사용하기에는 높은 패링 및 피하기 능력(게임 이해도)을 요구함",
+      "완벽한 성능을 발휘하기 위해 Astral 인챈트 및 고등급 무기/장비 세팅 필요"
+    ]
+  },
+  "character_name": null,
+  "power": 20,
+  "race": "None",
+  "origin": "Deepbound",
+  "oath": "Oathless",
+  "murmur": "Ardour",
+  "resonance": "Crazy Slots",
+  "traits": {
+    "vitality": 0,
+    "erudition": 0,
+    "proficiency": 0,
+    "songchant": 0
+  },
+  "stats": {
+    "strength": 80,
+    "fortitude": 0,
+    "agility": 19,
+    "intelligence": 5,
+    "willpower": 40,
+    "charisma": 0,
+    "heavy_wep": 100,
+    "medium_wep": 0,
+    "light_wep": 0
+  },
+  "attunements": {
+    "flamecharm": 0,
+    "frostdraw": 0,
+    "thundercall": 0,
+    "galebreathe": 0,
+    "shadowcast": 0,
+    "ironsing": 0,
+    "bloodrend": 0
+  },
+  "combat_stats": {
+    "hp": 0.0,
+    "posture": 0.0,
+    "ether": 0.0,
+    "tempo": 0.0,
+    "sanity": 0.0,
+    "move_speed_pct": "",
+    "pve_monster_dmg_pct": ""
+  },
+  "resistances": {
+    "physical_blunt": "",
+    "physical_slash": "",
+    "fire": "",
+    "ice": "",
+    "lightning": "",
+    "wind": "",
+    "shadow": "",
+    "iron": "",
+    "blood": "",
+    "bleed": ""
+  },
+  "weapons": [
+    {
+      "name": "Divine Axe",
+      "type": "Heavy Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    },
+    {
+      "name": "Evanspear Hand Axe",
+      "type": "Heavy Weapon",
+      "enchant": "Astral",
+      "stars": 3
+    }
+  ],
+  "equipment": [
+    {
+      "slot": "Helmet",
+      "name": "Vigil Hood"
+    },
+    {
+      "slot": "Face",
+      "name": "Hivelord Mask"
+    },
+    {
+      "slot": "Amulet",
+      "name": "Confessor's Charm"
+    },
+    {
+      "slot": "Outfit",
+      "name": "Vigil Sentinel"
+    },
+    {
+      "slot": "Boots",
+      "name": "Moonlit Earrings"
+    },
+    {
+      "slot": "Ring 1",
+      "name": "Ishan's Ring"
+    },
+    {
+      "slot": "Ring 2",
+      "name": "Maestro's Ring"
+    },
+    {
+      "slot": "Ring 3",
+      "name": "Akira's Ring"
+    },
+    {
+      "slot": "Ring 4",
+      "name": "Dawntide's Ring"
+    },
+    {
+      "slot": "Bell",
+      "name": "Crazy Slots"
+    }
+  ],
+  "talents": [
+    {
+      "name": "Speed Demon",
+      "is_core": true
+    },
+    {
+      "name": "Raging Static",
+      "is_core": true
+    },
+    {
+      "name": "Phantom Step",
+      "is_core": true
+    },
+    {
+      "name": "Discovery of Fire",
+      "is_core": true
+    },
+    {
+      "name": "Blade Dancer",
+      "is_core": false
+    },
+    {
+      "name": "Underdog",
+      "is_core": true
+    },
+    {
+      "name": "Inhale",
+      "is_core": true
+    },
+    {
+      "name": "Grand Feast",
+      "is_core": false
+    },
+    {
+      "name": "Berserker",
+      "is_core": false
+    }
+  ],
+  "mantras": [
+    {
+      "name": "Wind Passage"
+    },
+    {
+      "name": "Tempest Blitz"
+    },
+    {
+      "name": "Dash"
+    },
+    {
+      "name": "Lightning Cloak"
+    },
+    {
+      "name": "Gate Wisp"
+    },
+    {
+      "name": "Adrenaline Surge"
+    },
+    {
+      "name": "Gale Lunge"
+    },
+    {
+      "name": "Twister Kicks"
+    },
+    {
+      "name": "Shade Devour"
+    }
+  ],
+  "combo_guide": "1. 전투 시작 시 Lightning Cloak / Adrenaline Surge를 활성화하여 이동 및 공격 속도 버프 획득.\n2. Gale Lunge 또는 Twister Kicks로 몬스터에게 접근 및 디버프 부여.\n3. 패링 성공 후 Speed Demon 버프가 적용된 상태에서 Astral Divine Axe / Evanspear Hand Axe M1 연타.\n4. 체력 및 마나 보충이 필요할 때는 Shade Devour 및 Inhale 계열 특성을 활용하여 지속력 유지.",
+  "is_shrine_build": false,
+  "shrine_progression": {
+    "is_shrine_build": false,
+    "pre_shrine": {},
+    "pre_shrine_talents": [],
+    "post_shrine_priorities": []
+  },
+  "shrine_of_order_progression": {
+    "is_shrine_build": false,
+    "pre_shrine": {},
+    "pre_shrine_talents": [],
+    "post_shrine_priorities": []
+  },
+  "shrine_of_order_path": "**Pre-Shrine**: `{}`\n**Post-Shrine 우선순위**:\n",
+  "_stat_validation": {
+    "total_points": 244,
+    "target_cap": 330,
+    "difference": -86,
+    "is_valid_330_cap": false,
+    "status": "BELOW_CAP",
+    "breakdown": {
+      "core_attributes": 144,
+      "weapon_attributes": 100,
+      "attunements": 0
+    },
+    "verified": false
+  },
+  "_stats_source": "builder_scraped",
+  "_raw_source_data": {
+    "video_id": "MFb62Q3JCKs",
+    "video_meta": {
+      "title": "The Best M1 Dmg + Max Pen PvE Build | Deepwoken",
+      "channel": "iheartmk",
+      "url": "https://www.youtube.com/watch?v=MFb62Q3JCKs",
+      "upload_date": "20250207",
+      "description": "The Best M1 Dmg + Max Pen PvE Build in Deepwoken\n\nThis build does need a mooneye\n\nBuild: https://deepwoken.co/builder?id=3eja6yaT\n\nSubscribe, Like and Comment pls :)\n\nStat order:\n\npreshrine is stat order is \n40 agility\n35 thunder\n50 gale\n50 thunder\n60 gale\n1 flame\n1 str\n1 will\n1 hvy\nshrine post\n5\ninto intel\n40 will\n20 shadow\n25 flame\n80 str\n100 hvy\nlast six points into str\n\nThis build is not beginner friendly (0 fortitude so be careful you take a lot dmg)\n\nBuild showcase 7:24"
+    },
+    "pre_shrine_raw": {
+      "power": 2,
+      "traits": {
+        "vitality": 0,
+        "erudition": 0,
+        "proficiency": 0,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 0,
+        "fortitude": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "charisma": 0,
+        "heavy_wep": 0,
+        "medium_wep": 0,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      }
+    },
+    "post_shrine_raw": {
+      "character_name": null,
+      "power": 20,
+      "race": "",
+      "origin": "",
+      "oath": "",
+      "traits": {
+        "vitality": 0,
+        "erudition": 0,
+        "proficiency": 0,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 0,
+        "fortitude": 0,
+        "agility": 0,
+        "intelligence": 0,
+        "willpower": 0,
+        "charisma": 0,
+        "heavy_wep": 0,
+        "medium_wep": 0,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 0,
+        "frostdraw": 0,
+        "thundercall": 0,
+        "galebreathe": 0,
+        "shadowcast": 0,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "combat_stats": {
+        "hp": 0.0,
+        "posture": 0.0,
+        "ether": 0.0,
+        "tempo": 0.0,
+        "sanity": 0.0,
+        "move_speed_pct": "",
+        "pve_monster_dmg_pct": ""
+      },
+      "resistances": {
+        "physical_blunt": "",
+        "physical_slash": "",
+        "fire": "",
+        "ice": "",
+        "lightning": "",
+        "wind": "",
+        "shadow": "",
+        "iron": "",
+        "blood": "",
+        "bleed": ""
+      },
+      "equipped_items": [],
+      "inventory_items": []
+    },
+    "builder_scraped": {
+      "build_name": "Max Pen + Max Dmg M1 Pve Build",
+      "power": 20,
+      "weapon": "Divine Axe",
+      "enchant": "None",
+      "oath": "Oathless",
+      "race": "None",
+      "stats": {
+        "strength": 80,
+        "fortitude": 0,
+        "agility": 19,
+        "intelligence": 5,
+        "willpower": 40,
+        "charisma": 0,
+        "heavy_wep": 100,
+        "medium_wep": 0,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 25,
+        "frostdraw": 0,
+        "thundercall": 19,
+        "galebreathe": 20,
+        "shadowcast": 20,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "pre_shrine": {
+        "stats": {
+          "strength": 1,
+          "fortitude": 0,
+          "agility": 40,
+          "intelligence": 0,
+          "willpower": 1,
+          "charisma": 0,
+          "heavy_wep": 1,
+          "medium_wep": 0,
+          "light_wep": 0
+        },
+        "attunements": {
+          "flamecharm": 1,
+          "frostdraw": 0,
+          "thundercall": 50,
+          "galebreathe": 60,
+          "shadowcast": 1,
+          "ironsing": 0,
+          "bloodrend": 0
+        }
+      },
+      "traits": {
+        "Songchant": 0,
+        "Proficiency": 6,
+        "Erudition": 0,
+        "Vitality": 6
+      }
+    },
+    "vlm_narrative": {
+      "video_metadata": {
+        "title": "The Best M1 Dmg + Max Pen PvE Build | Deepwoken",
+        "channel": "iheartmk",
+        "url": "https://www.youtube.com/watch?v=MFb62Q3JCKs",
+        "game_version": "Verse 2 (2025 Update)"
+      },
+      "build_summary": {
+        "build_name": "Max Pen + Max Dmg M1 PvE Build (Astral Divine Axe)",
+        "build_type": "PvE",
+        "difficulty": "Advanced",
+        "creator_opinion": "이 빌드는 Deepwoken 내에서 평타(M1) 공격력과 방어력 관통력(Penetration)을 극대화하여 보스 및 강력한 몬스터들을 단 몇 초 만에 도륙낼 수 있도록 설계된 극딜형 PvE 빌드입니다. 0 Fortitude(체력/방어 스탯 포기)를 선택하는 대신 Max Damage Multiplier와 Max Pen을 달성하였으며, Speed Demon, Raging Static, Astral 인챈트 등 공격력 보너스를 중첩시켜 프라이모던, 페리맨, 체이서 등의 주요 보스 패턴을 단 한두 번의 기회 만에 스킵할 수 있는 무시무시한 폭딜 성능을 자랑합니다.\n\n다만 체력 및 자원 복구력이 무기 피흡 및 높은 딜량에서 나오는 구조이므로, 공격을 방어/패링하지 못하고 지속적으로 얻어맞을 경우 순식간에 위험에 처할 수 있습니다. 보스전 패턴에 익숙하고 패링 타이밍을 완벽히 숙지한 숙련자 플레이어에게 강력히 추천되는 고성능 보스 레이드 특화 빌드입니다.",
+        "strengths": [
+          "최상위 등급의 평타(M1) Dps 및 관통력으로 체이서(Chaser)를 단 1사이클 만에 처치 가능",
+          "Astral 인챈트 및 Divine Axe / Evanspear Hand Axe 조합으로 몬스터 상대 괴물 같은 수치의 딜 증폭",
+          "Speed Demon, Raging Static, Underdog 등 수많은 공격력 버프 탤런트가 상시 유지되어 압도적인 화력 보장",
+          "Oathless 선택으로 높은 보너스 탤런트 수급 및 자율적인 속성 조합 구성 가능"
+        ],
+        "weaknesses": [
+          "0 Fortitude 투자로 인해 생존용 방어 스탯이 전무하여 실수 한 번에 체력이 크게 깎임",
+          "초보자가 사용하기에는 높은 패링 및 피하기 능력(게임 이해도)을 요구함",
+          "완벽한 성능을 발휘하기 위해 Astral 인챈트 및 고등급 무기/장비 세팅 필요"
+        ]
+      },
+      "traits": {
+        "vitality": 6,
+        "erudition": 0,
+        "proficiency": 6,
+        "songchant": 0
+      },
+      "stats": {
+        "strength": 85,
+        "fortitude": 0,
+        "agility": 40,
+        "intelligence": 5,
+        "willpower": 40,
+        "charisma": 0,
+        "heavy_wep": 100,
+        "medium_wep": 0,
+        "light_wep": 0
+      },
+      "attunements": {
+        "flamecharm": 25,
+        "frostdraw": 0,
+        "thundercall": 50,
+        "galebreathe": 60,
+        "shadowcast": 20,
+        "ironsing": 0,
+        "bloodrend": 0
+      },
+      "combat_stats": {
+        "hp": 415,
+        "posture": 20,
+        "ether": 240,
+        "tempo": 100,
+        "sanity": 85,
+        "move_speed_pct": 126.0,
+        "pve_dmg_pct": 60.0
+      },
+      "resistances": {
+        "physical_slash": "30.0%",
+        "physical_blunt": "15.0%",
+        "physical_pierce": "20.0%",
+        "fire": "20.0%",
+        "ice": "0.0%",
+        "wind": "0.0%",
+        "shadow": "15.0%",
+        "lightning": "0.0%",
+        "iron": "0.0%",
+        "acid": "0.0%"
+      },
+      "weapons": [
+        {
+          "name": "Divine Axe",
+          "type": "Heavy Weapon",
+          "enchant": "Astral",
+          "stars": 3
+        },
+        {
+          "name": "Evanspear Hand Axe",
+          "type": "Heavy Weapon",
+          "enchant": "Astral",
+          "stars": 3
+        }
+      ],
+      "equipment": [
+        {
+          "slot": "Helmet",
+          "name": "Vigil Hood"
+        },
+        {
+          "slot": "Face",
+          "name": "Hivelord Mask"
+        },
+        {
+          "slot": "Amulet",
+          "name": "Confessor's Charm"
+        },
+        {
+          "slot": "Outfit",
+          "name": "Vigil Sentinel"
+        },
+        {
+          "slot": "Boots",
+          "name": "Moonlit Earrings"
+        },
+        {
+          "slot": "Ring 1",
+          "name": "Ishan's Ring"
+        },
+        {
+          "slot": "Ring 2",
+          "name": "Maestro's Ring"
+        },
+        {
+          "slot": "Ring 3",
+          "name": "Akira's Ring"
+        },
+        {
+          "slot": "Ring 4",
+          "name": "Dawntide's Ring"
+        },
+        {
+          "slot": "Bell",
+          "name": "Crazy Slots"
+        }
+      ],
+      "character_setup": {
+        "oath": "Oathless",
+        "race": "Any Race",
+        "origin": "Deepbound",
+        "murmur": "Ardour",
+        "resonance_bell": "Crazy Slots"
+      },
+      "talents": [
+        {
+          "name": "Speed Demon",
+          "is_core": true
+        },
+        {
+          "name": "Raging Static",
+          "is_core": true
+        },
+        {
+          "name": "Phantom Step",
+          "is_core": true
+        },
+        {
+          "name": "Discovery of Fire",
+          "is_core": true
+        },
+        {
+          "name": "Blade Dancer",
+          "is_core": false
+        },
+        {
+          "name": "Underdog",
+          "is_core": true
+        },
+        {
+          "name": "Inhale",
+          "is_core": true
+        },
+        {
+          "name": "Grand Feast",
+          "is_core": false
+        },
+        {
+          "name": "Berserker",
+          "is_core": false
+        }
+      ],
+      "mantras": [
+        {
+          "name": "Wind Passage"
+        },
+        {
+          "name": "Tempest Blitz"
+        },
+        {
+          "name": "Dash"
+        },
+        {
+          "name": "Lightning Cloak"
+        },
+        {
+          "name": "Gate Wisp"
+        },
+        {
+          "name": "Adrenaline Surge"
+        },
+        {
+          "name": "Gale Lunge"
+        },
+        {
+          "name": "Twister Kicks"
+        },
+        {
+          "name": "Shade Devour"
+        }
+      ],
+      "target_mobs": [
+        "Chaser, Scholar of the Crimson Contract",
+        "The Ferryman",
+        "Primadon, Titan of the East",
+        "Dread Duke Erisia"
+      ],
+      "mob_strategy": "보스전에 진입하기 전 Adrenaline Surge 및 Lightning Cloak 등 유틸/스피드 버프 만트라를 켜서 Speed Demon 및 Raging Static 버프 조건을 활성화합니다. 보스의 주요 패턴을 패링하거나 관통 공격을 넣은 직후 Astral 인챈트가 적용된 Heavy 무기로 연속 M1 평타 딜링을 퍼붓습니다. 체이서나 프라이모던 같은 대형 보스의 경우 지형을 활용하여 빠르게 접근한 뒤, 6~8타 이상의 연속 평타로 데미지 캡을 초과하는 폭딜을 넣어 순식간에 페이즈를 스킵시킵니다.",
+      "combo_guide": "1. 전투 시작 시 Lightning Cloak / Adrenaline Surge를 활성화하여 이동 및 공격 속도 버프 획득.\n2. Gale Lunge 또는 Twister Kicks로 몬스터에게 접근 및 디버프 부여.\n3. 패링 성공 후 Speed Demon 버프가 적용된 상태에서 Astral Divine Axe / Evanspear Hand Axe M1 연타.\n4. 체력 및 마나 보충이 필요할 때는 Shade Devour 및 Inhale 계열 특성을 활용하여 지속력 유지.",
+      "video_meta": {
+        "title": "The Best M1 Dmg + Max Pen PvE Build | Deepwoken",
+        "channel": "iheartmk",
+        "url": "https://www.youtube.com/watch?v=MFb62Q3JCKs",
+        "upload_date": "20250207"
+      }
+    },
+    "captured_keyframes": [
+      {
+        "timestamp_sec": 15.5,
+        "hud_score": 65377.83981378442,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_15s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_15s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_15s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 47.0,
+        "hud_score": 60926.665705103434,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_47s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_47s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_47s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 8.0,
+        "hud_score": 33755.83948621338,
+        "ui_type": "ingame_hud",
+        "stage": "pre_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_8s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_8s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_pre_shrine_8s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 490.5,
+        "hud_score": 1117.978855079938,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_490s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_490s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_490s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 488.5,
+        "hud_score": 850.9602888086642,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_488s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_488s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_488s_crop.jpg"
+      },
+      {
+        "timestamp_sec": 452.5,
+        "hud_score": 268.7877772047447,
+        "ui_type": "ingame_hud",
+        "stage": "post_shrine",
+        "path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_452s_raw.jpg",
+        "raw_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_452s_raw.jpg",
+        "stat_crop_path": "data\\keyframes\\MFb62Q3JCKs_post_shrine_452s_crop.jpg"
+      }
+    ]
+  }
+}

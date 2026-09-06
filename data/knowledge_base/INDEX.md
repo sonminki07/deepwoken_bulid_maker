@@ -26,7 +26,7 @@
 
 *등록된 문서가 아직 없습니다.*
 
-## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (66개)
+## 🎯 Player Builds (플레이어 PvP/PvE 빌드) (68개)
 
 | 문서명 / 빌드명 | 난이도 / 타입 | Oath / 속성 | 파일 링크 |
 | :--- | :--- | :--- | :--- |
@@ -61,6 +61,7 @@
 | **Jetstriker Galebreathe Assassin** | `PvP` | ` / galebreathe` | [📄 문서 보기](builds/jetstriker-galebreathe-assassin.md) |
 | **Justiciar Warder Support Build** | `PvP` | `Oathless / Attunementless` | [📄 문서 보기](builds/justiciar-warder-support-build.md) |
 | **KRATOS V4 (Gran Sudaruska Steam Daw** | `PvE` | `Dawnwalker / flamecharm` | [📄 문서 보기](builds/kratos-v4-gran-sudaruska-steam-dawnwalker-pve.md) |
+| **Max Pen + Max Dmg M1 PvE Build (Ast** | `PvE` | `Oathless / Attunementless` | [📄 문서 보기](builds/max-pen-max-dmg-m1-pve-build-astral-divine-ax.md) |
 | **Megumi Ten Shadows Visionshaper Sum** | `Hybrid` | ` / frostdraw, thundercall` | [📄 문서 보기](builds/megumi-ten-shadows-visionshaper-summoner-buil.md) |
 | **Meta All-Rounder PvP & PvE Mastercl** | `Hybrid` | ` / ironsing` | [📄 문서 보기](builds/meta-all-rounder-pvp-pve-masterclass-build.md) |
 | **Min-Maxed General Hybrid Build Guid** | `Hybrid` | ` / flamecharm` | [📄 문서 보기](builds/min-maxed-general-hybrid-build-guide.md) |
@@ -91,6 +92,7 @@
 | **Super Sigma Soul Beam Blindseer** | `Hybrid` | ` / Attunementless` | [📄 문서 보기](builds/super-sigma-soul-beam-blindseer.md) |
 | **The #1 Shadowcast Medium Build** | `PvP` | ` / shadowcast` | [📄 문서 보기](builds/the-1-shadowcast-medium-build.md) |
 | **Top 10 Meta Talents Synergy Build** | `PvP` | ` / Attunementless` | [📄 문서 보기](builds/top-10-meta-talents-synergy-build.md) |
+| **Ultimate Linkstrider Support Build ** | `Boss Raid` | `Linkstrider / Attunementl` | [📄 문서 보기](builds/ultimate-linkstrider-support-build-525-damage.md) |
 | **Unnamed Build** | `PvE` | ` / Attunementless` | [📄 문서 보기](builds/unnamed-build.md) |
 | **Vampiric Bastion (Drain Tank PvE Bu** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve-build.md) |
 | **Vampiric Bastion (Drain Tank PvE)** | `PvE` | ` / flamecharm, thundercal` | [📄 문서 보기](builds/vampiric-bastion-drain-tank-pve.md) |
